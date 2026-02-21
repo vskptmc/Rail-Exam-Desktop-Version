@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Instructions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 13px;
+            line-height: 1.5;
+            color: #000;
+            padding: 0;
+            margin: 0;
+        }
+
+        .container {
+            padding: 20px 40px;
+        }
+
+        .view-in {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            margin-bottom: 20px;
+            font-weight: bold;
+            font-family: 'Times New Roman', serif;
+            font-size: 16px;
+        }
+
+        .view-in select {
+            margin-left: 5px;
+            font-size: 14px;
+            padding: 2px;
+        }
+
+        h3 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #1b528a;
+            font-size: 16px;
+            margin-top: 0;
+        }
+
+        h3.bold-title {
+            color: #000;
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .section-title {
+            font-weight: bold;
+            margin-bottom: 10px;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+
+        ol {
+            margin-top: 5px;
+            padding-left: 20px;
+            text-align: justify;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+            font-size: 13px;
+        }
+
+        th,
+        td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+
+        .yellow-bg {
+            background-color: #ffff00;
+            padding: 2px 5px;
+        }
+
+        #instructions110,
+        #instructions175,
+        #instructionsOther {
+            display: none;
+        }
+
+        /* Question icons */
+        .q-icon {
+            display: inline-flex;
+            width: 20px;
+            height: 18px;
+            align-items: center;
+            justify-content: center;
+            font-size: 11px;
+            margin-right: 5px;
+            font-family: Arial, sans-serif;
+            vertical-align: middle;
+        }
+
+        .not-visited {
+            background: linear-gradient(to bottom, #fff 0%, #e0e0e0 100%);
+            border: 1px solid #ccc;
+            color: #333;
+        }
+
+        .not-answered {
+            background: linear-gradient(135deg, #ef4444 0%, #b91c1c 100%);
+            color: white;
+            clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+        }
+
+        .answered {
+            background: linear-gradient(135deg, #10b981 0%, #047857 100%);
+            color: white;
+            clip-path: polygon(50% 0, 100% 20%, 100% 100%, 0 100%, 0 20%);
+        }
+
+        .marked {
+            background: linear-gradient(135deg, #8b5cf6 0%, #6d28d9 100%);
+            color: white;
+            border-radius: 50%;
+        }
+
+        .ans-marked {
+            background: linear-gradient(135deg, #8b5cf6 0%, #6d28d9 100%);
+            color: white;
+            border-radius: 50%;
+            position: relative;
+        }
+
+        .ans-marked::after {
+            content: '✓';
+            position: absolute;
+            bottom: -3px;
+            right: -3px;
+            width: 10px;
+            height: 10px;
+            background-color: #059669;
+            border: 1px solid white;
+            border-radius: 50%;
+            font-size: 7px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .arrow-icon {
+            background-color: #3b82f6;
+            color: white;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- View In Dropdown -->
+        <div class="view-in">
+            View in :&nbsp;
+            <select>
+                <option>English</option>
+            </select>
+        </div>
+
+        <h3>Instructions</h3>
+
+        <h3 class="bold-title">Please read the instructions carefully</h3>
+
+        <div class="section-title">A. General Instructions:</div>
+        <ol>
+            <li>Total duration of examination: <span id="examDuration" style="font-weight: bold;"></span> minutes</li>
+            <li>Number of questions: <span id="examQuestionsCount" style="font-weight: bold;"></span></li>
+            <li>All questions are of <b>objective type</b>. Four options are given to each question out of which
+                only one will be the correct answer.</li>
+            <li id="negativeMarkingText">There will be <b>negative marking</b> for wrong answers. 1/3rd mark will be
+                deducted for every
+                wrong answer.</li>
+            <li><b style="text-decoration: underline;">Click on Save and Next button after answering every
+                    question
+                    to save your answer.</b> Otherwise, your answer will not be saved.</li>
+            <li><b>Language:</b> You can view the Question paper in the language opted for at the time of
+                filling
+                the Application and in English Language. If English Language is opted, then question paper can
+                be
+                viewed in English Language only. The instructions and the questions shall be displayed in the
+                language chosen by you from the drop-down language list in the instructions page as well as on
+                the
+                top right corner of Question paper. The questions will appear on the screen in the selected
+                language. You can refer the English or opted language version of the Question Paper during the
+                exam
+                by selecting the required option from the drop-down list available as "View in" on the top right
+                corner of the question screen.</li>
+            <li>One question will be displayed on the screen at a time.</li>
+            <li>Time available for you to complete the examination will be displayed through a countdown timer
+                in
+                the top right-hand corner of the screen. It will display the remaining time as <b>Time Left</b>.
+                At
+                the beginning of exam, timer will show <span id="examDurationText2" style="font-weight: bold;"></span>
+                minutes which will
+                reduce gradually with passage of
+                time.
+                When the timer reaches zero, the examination will end by itself, and your examination will be
+                submitted by the system automatically.</li>
+        </ol>
+
+        <table style="width: 100%; border: none;">
+            <tr>
+                <td style="width: 30px; vertical-align: top; font-weight: bold; border: none; padding-right: 10px;">B
+                </td>
+                <td style="border: none; text-align: left;">
+                    <div style="font-weight: bold; margin-bottom: 10px;">Question Number Box:</div>
+                    <ol>
+                        <li>Question Number Box displayed on the right side of the screen will show the status
+                            of
+                            each question using one of the following symbols:
+                            <div style="margin-left: 20px; margin-top: 15px;">
+                                <div style="margin-bottom: 10px;"><span class="q-icon not-visited">1</span> You
+                                    have
+                                    not visited the question yet.</div>
+                                <div style="margin-bottom: 10px;"><span class="q-icon not-answered">2</span> You
+                                    have not answered the question.</div>
+                                <div style="margin-bottom: 10px;"><span class="q-icon answered">3</span> You
+                                    have
+                                    answered the question.</div>
+                                <div style="margin-bottom: 10px;"><span class="q-icon marked">4</span> You have
+                                    NOT
+                                    answered the question, but have marked the question for review.</div>
+                                <div style="margin-bottom: 15px;"><span class="q-icon ans-marked">5</span> You
+                                    have
+                                    answered the question and marked for review. This will be considered for
+                                    evaluation.</div>
+                            </div>
+                            <p style="margin-top: 15px;">The 'Marked for Review' status for a question simply
+                                indicates that you would like to look at that question again.</p>
+                        </li>
+                        <li>You can click on the "&gt;" arrow which appears to the left of question number box
+                            to
+                            minimise the question number box. This will enable you to view the question on a
+                            bigger
+                            area of the screen. To view the question number box again, you can click on "&lt;"
+                            arrow
+                            which appears on the right side of the screen.</li>
+                        <li>You can click on <span class="arrow-icon">↓</span> to navigate to the bottom and
+                            <span class="arrow-icon">↑</span> to navigate to the top of the question area,
+                            without
+                            scrolling.
+                        </li>
+                        <li>The summary of number of questions answered, not answered, not visited, marked for
+                            review and answered and marked for review will be displayed above the question
+                            number
+                            box.</li>
+                    </ol>
+                </td>
+            </tr>
+            <tr>
+                <td
+                    style="width: 30px; vertical-align: top; font-weight: bold; border: none; padding-right: 10px; padding-top: 20px;">
+                    C</td>
+                <td style="border: none; padding-top: 20px; text-align: left;">
+                    <div style="font-weight: bold; margin-bottom: 10px;">Answering a Question</div>
+                    <ol>
+                        <li>The questions will appear on the screen in serial order from question number 1 to
+                            <span id="examQuestionsCount2" style="font-weight: bold;"></span>,
+                            which can be answered one by one as given below:
+                            <ol type="a" style="margin-top: 5px;">
+                                <li>To select your answer, click on the button of one of the options</li>
+                                <li>To deselect your chosen answer, click on the button of the chosen option
+                                    again
+                                    or click on the <b>Clear Response</b> button</li>
+                                <li>To change your chosen answer, click on the button of option you want to
+                                    choose.
+                                </li>
+                                <li><b style="text-decoration: underline;">To save your answer</b>, you MUST
+                                    click
+                                    on the <b>Save & Next</b> button.</li>
+                                <li>In case of doubt on the option marked for a question, the question can be
+                                    marked
+                                    for review by clicking <b>Mark for Review & Next</b> button. In case the
+                                    marked
+                                    option is not reviewed, the originally marked option shall be considered for
+                                    evaluation.</li>
+                            </ol>
+                        </li>
+                        <li>To change your answer to a question that has already been answered, first click on
+                            that
+                            question number from the question number box and follow the procedure for answering
+                            as
+                            mentioned at 1 above.</li>
+                    </ol>
+                </td>
+            </tr>
+            <tr>
+                <td
+                    style="width: 30px; vertical-align: top; font-weight: bold; border: none; padding-right: 10px; padding-top: 20px;">
+                    D</td>
+                <td style="border: none; padding-top: 20px; text-align: left;">
+                    <div style="font-weight: bold; margin-bottom: 10px;">Navigating through sections:</div>
+                    <ol>
+                        <li>Sections in this question paper are displayed on the top bar of the screen. Questions in a
+                            section can be viewed by clicking on the section name. The section you are currently viewing
+                            is highlighted.</li>
+                        <li>After clicking the <b>Save & Next</b> button on the last question for a section, you will
+                            automatically be taken to the first question of the next section.</li>
+                        <li>You can shuffle between sections and questions anytime during the examination as per your
+                            convenience only during the time stipulated.</li>
+                        <li>Candidate can view the corresponding section summary as part of the legend that appears in
+                            every section above the question number box.</li>
+                    </ol>
+                </td>
+            </tr>
+        </table>
+
+        <br>
+        <div style="border-top: 1px solid #ccc; width: 100%; margin: 10px 0;"></div><br>
+
+        <h3 style="text-decoration: underline; text-align: left; font-size:14px; margin-bottom: 10px; color: #000;">
+            Other Important Instructions</h3>
+
+        <!-- DYNAMIC CONTENT SECTIONS -->
+        <div id="instructions175">
+            <ol>
+                <li>The Question Paper consists of objective type questions as follows:
+                    <table>
+                        <tr>
+                            <th>SR.NO.</th>
+                            <th>Subjects</th>
+                            <th>No. of Questions</th>
+                            <th>Max Questions to Attempt</th>
+                            <th>Total Marks</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td style="text-align: left;">Traffic</td>
+                            <td>85</td>
+                            <td>80</td>
+                            <td>80</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td style="text-align: left;">General Knowledge / Rajabhasha</td>
+                            <td>55</td>
+                            <td>40</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td style="text-align: left;">Est/Fin/Acc</td>
+                            <td>35</td>
+                            <td>30</td>
+                            <td>30</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td style="text-align: left; font-weight: bold;">Total</td>
+                            <td style="font-weight: bold;">175</td>
+                            <td style="font-weight: bold;">150</td>
+                            <td style="font-weight: bold;">150</td>
+                        </tr>
+                    </table>
+                </li>
+                <li style="margin-top: 20px;">You will be given <b>180 minutes</b> to attempt <b>150</b> questions. (240
+                    Minutes for eligible <b>PwBD</b> candidates accompanied with Scribe)</li>
+                <li>Questions will be available in <b>15</b> languages.</li>
+                <li>Each question will have 4 alternatives, out of which only one will be the correct answer.</li>
+                <li>Candidates shall be awarded 1 mark for each correct answer. No mark shall be awarded or deducted for
+                    questions not attempted.</li>
+                <li><b>There will be a negative marking of 1/3 mark per wrong answer attempted.</b></li>
+                <li>One question will be displayed on the screen at a time. You are requested to be aware of the amount
+                    of time you spend per question as you have to answer 150 questions in 180 minutes.</li>
+                <li>Copy the declaration displayed on your screen in your running Handwriting, (Not in Block Letters).
+                </li>
+            </ol>
+        </div>
+
+        <div id="instructions110">
+            <ol>
+                <li>The Question Paper consists of objective type questions as follows:
+                    <table>
+                        <tr>
+                            <th>SR.NO.</th>
+                            <th>Subjects</th>
+                            <th>No. of Questions</th>
+                            <th>Max Questions to Attempt</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td style="text-align: left;">Traffic / Professional Subject</td>
+                            <td>70</td>
+                            <td rowspan="2" style="vertical-align: middle;">70 <br> (any 10 optional from two sections)
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td style="text-align: left;">Rajabhasha</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td style="text-align: left;">Est/Fin/Acc</td>
+                            <td>30</td>
+                            <td>30</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td style="text-align: left; font-weight: bold;">Total</td>
+                            <td style="font-weight: bold;">110</td>
+                            <td style="font-weight: bold;">100</td>
+                        </tr>
+                    </table>
+                </li>
+                <li style="margin-top: 20px;">You will be given <b>120 minutes</b> to attempt <b>100</b> questions. (160
+                    Minutes for eligible <b>PwBD</b> candidates accompanied with Scribe)</li>
+                <li>Questions will be available in <b>15</b> languages.</li>
+                <li>Each question will have 4 alternatives, out of which only one will be the correct answer.</li>
+                <li>Candidates shall be awarded 1 mark for each correct answer. No mark shall be awarded or deducted for
+                    questions not attempted.</li>
+                <li><b>There will be NO negative marking for this exam.</b></li>
+                <li>One question will be displayed on the screen at a time. You are requested to be aware of the amount
+                    of time you spend per question as you have to answer 100 questions in 120 minutes.</li>
+                <li>Copy the declaration displayed on your screen in your running Handwriting, (Not in Block Letters).
+                </li>
+            </ol>
+        </div>
+
+        <div id="instructionsOther">
+            <ol>
+                <li>The Question Paper consists of objective type questions as follows:
+                    <table>
+                        <tr>
+                            <th>SR.NO.</th>
+                            <th>Subjects</th>
+                            <th>No. of Questions<br><span class="yellow-bg">CBT-1</span></th>
+                            <th>Marks for each Section<br><span class="yellow-bg">CBT-1</span></th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td style="text-align: left;">General Subjects</td>
+                            <td id="dynQuestionsCount"></td>
+                            <td id="dynQuestionsMarks"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td style="text-align: left; font-weight: bold;">Total</td>
+                            <td style="font-weight: bold;" id="dynTotalCount"></td>
+                            <td style="font-weight: bold;" id="dynTotalMarks"></td>
+                        </tr>
+                    </table>
+                </li>
+                <li style="margin-top: 20px;">You will be given <b id="dynDuration"></b> <b>minutes</b> to attempt <b
+                        id="dynAttemptCount"></b> questions. (Extra Minutes for eligible <b>PwBD</b> candidates
+                    accompanied with Scribe)</li>
+                <li>Questions will be available in <b>15</b> languages.</li>
+                <li>Each question will have 4 alternatives, out of which only one will be the correct answer.</li>
+                <li>Candidates shall be awarded 1 mark for each correct answer. No mark shall be awarded or deducted for
+                    questions not attempted.</li>
+                <li><b>There will be a negative marking of 1/3 mark per wrong answer attempted.</b></li>
+                <li>One question will be displayed on the screen at a time. You are requested to be aware of the amount
+                    of time you spend per question as you have to answer <span id="dynAwareCount"></span> questions in
+                    <span id="dynAwareMins"></span> minutes.
+                </li>
+                <li>Copy the declaration displayed on your screen in your running Handwriting, (Not in Block Letters).
+                </li>
+            </ol>
+        </div>
+    </div>
+
+    <script>
+        function initData() {
+            if (window.parent && window.parent.questions && window.parent.questions.length > 0) {
+                const count = window.parent.questions.length;
+
+                // Top elements
+                document.getElementById('examQuestionsCount').textContent = count;
+                if (document.getElementById('examQuestionsCount2')) {
+                    document.getElementById('examQuestionsCount2').textContent = count;
+                }
+
+                let duration = count === 175 ? 180 : 120;
+                document.getElementById('examDuration').textContent = duration;
+                if (document.getElementById('examDurationText2')) {
+                    document.getElementById('examDurationText2').textContent = duration;
+                }
+
+                if (document.getElementById('negativeMarkingText')) {
+                    if (count === 110) {
+                        document.getElementById('negativeMarkingText').innerHTML = '<b>There will be NO negative marking for this exam.</b>';
+                    } else {
+                        document.getElementById('negativeMarkingText').innerHTML = 'There will be <b>negative marking</b> for wrong answers. 1/3rd mark will be deducted for every wrong answer.';
+                    }
+                }
+
+                // Show appropriate section
+                if (count === 175) {
+                    document.getElementById('instructions175').style.display = 'block';
+                } else if (count === 110) {
+                    document.getElementById('instructions110').style.display = 'block';
+                } else {
+                    document.getElementById('instructionsOther').style.display = 'block';
+
+                    document.getElementById('dynQuestionsCount').textContent = count;
+                    document.getElementById('dynQuestionsMarks').textContent = count;
+                    document.getElementById('dynTotalCount').textContent = count;
+                    document.getElementById('dynTotalMarks').textContent = count;
+                    document.getElementById('dynAttemptCount').textContent = count;
+                    document.getElementById('dynAwareCount').textContent = count;
+
+                    document.getElementById('dynDuration').textContent = duration;
+                    document.getElementById('dynAwareMins').textContent = duration;
+                }
+                return true;
+            }
+            return false;
+        }
+
+        window.addEventListener('load', () => {
+            if (!initData()) {
+                const interval = setInterval(() => {
+                    if (initData()) clearInterval(interval);
+                }, 100);
+            }
+        });
+    </script>
+</body>
+
+</html>

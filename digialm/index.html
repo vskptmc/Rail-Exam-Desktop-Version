@@ -1,0 +1,1203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>RailExamPortal - Departmental Examination</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <script src="data.js"></script>
+    <script src="users.reg"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        rail: {
+                            primary: '#1e3a5f',
+                            secondary: '#2d5a87',
+                            accent: '#f59e0b',
+                            dark: '#0f2744',
+                            light: '#e8f4fc',
+                            success: '#059669',
+                            danger: '#dc2626'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        * {
+            font-family: 'Inter', sans-serif;
+            box-sizing: border-box;
+        }
+
+        ::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+        }
+
+        /* Style scrollbar for detailed result view */
+        .result-scroll::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        .result-scroll::-webkit-scrollbar-track {
+            background: #f1f1f1;
+            border-radius: 4px;
+        }
+
+        .result-scroll::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 4px;
+        }
+
+        .result-scroll::-webkit-scrollbar-thumb:hover {
+            background: #94a3b8;
+        }
+
+        .question-btn {
+            width: 44px;
+            height: 38px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: normal;
+            font-size: 15px;
+            cursor: pointer;
+            transition: transform 0.1s;
+            margin: 2px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        .question-btn:hover {
+            transform: scale(1.1);
+            z-index: 10;
+        }
+
+        .status-not-visited {
+            background-color: #f0f0f0;
+            background-image: linear-gradient(to bottom, #ffffff 0%, #e0e0e0 100%);
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            color: #333;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+        }
+
+        .status-not-answered {
+            background: linear-gradient(135deg, #ef4444 0%, #b91c1c 100%);
+            color: white;
+            clip-path: polygon(0 0, 100% 0, 100% 70%, 50% 100%, 0 70%);
+            padding-bottom: 5px;
+            border-radius: 0;
+            height: 40px;
+        }
+
+        .status-answered {
+            background: linear-gradient(135deg, #10b981 0%, #047857 100%);
+            color: white;
+            clip-path: polygon(50% 0, 100% 30%, 100% 100%, 0 100%, 0 30%);
+            padding-top: 5px;
+            border-radius: 0;
+            height: 40px;
+        }
+
+        .status-marked {
+            background: linear-gradient(135deg, #8b5cf6 0%, #6d28d9 100%);
+            color: white;
+            border-radius: 50%;
+            width: 36px;
+            height: 35px;
+        }
+
+        .status-answered-marked {
+            background: linear-gradient(135deg, #8b5cf6 0%, #6d28d9 100%);
+            color: white;
+            border-radius: 50%;
+            width: 36px;
+            height: 35px;
+            position: relative;
+        }
+
+        .status-answered-marked::after {
+            content: '✓';
+            position: absolute;
+            bottom: -2px;
+            right: -2px;
+            width: 14px;
+            height: 14px;
+            background-color: #059669;
+            border: 2px solid white;
+            border-radius: 50%;
+            font-size: 9px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .logo-train {
+            position: relative;
+        }
+
+        .logo-train::before {
+            content: '';
+            position: absolute;
+            width: 60px;
+            height: 3px;
+            background: linear-gradient(90deg, #f59e0b, transparent);
+            bottom: -5px;
+            left: 0;
+            border-radius: 2px;
+        }
+
+        .gradient-bg {
+            background: linear-gradient(135deg, #1e3a5f 0%, #2d5a87 50%, #1e3a5f 100%);
+        }
+    </style>
+
+</head>
+
+<body class="bg-gray-100 h-screen w-screen overflow-hidden text-sm flex flex-col select-none">
+
+    <!-- LOGIN PAGE -->
+    <div id="loginPage" class="fixed inset-0 z-50 bg-white flex flex-col font-sans">
+        <!-- Blue Header Bar -->
+        <div class="bg-[#2d70b6] h-[50px] w-full shrink-0 border-b border-[#7691a2]"></div>
+
+        <!-- Info Header Bar -->
+        <div class="bg-[#5f5f5f] text-white p-4 flex justify-between items-start shrink-0 relative shadow-md">
+            <!-- Left Side: System Name -->
+            <div class="flex flex-col max-w-[60%]">
+                <div class="text-sm font-semibold text-gray-300">System Name :</div>
+                <div class="text-[#fff200] font-[Arial,Helvetica,sans-serif] text-[44px] leading-tight mt-0.5 tracking-wider"
+                    id="centerCodeDisplay">
+                    C001</div>
+                <div class="text-[10px] sm:text-xs mt-2 text-gray-300 leading-tight">Kindly contact the invigilator if
+                    there are any discrepancies in the Name and Photograph displayed on the screen or if the photograph
+                    is not yours</div>
+            </div>
+
+            <!-- Right Side: Candidate Info -->
+            <div class="flex items-start gap-4">
+                <div class="flex flex-col items-end">
+                    <div class="text-sm font-semibold text-white">Candidate Name :</div>
+                    <div class="text-[#fff200] font-[Arial,Helvetica,sans-serif] text-[34px] leading-none my-1 w-full truncate ml-[5px] text-right"
+                        id="loginCandidateName">John Smith</div>
+                    <div class="flex items-center gap-2 mt-1">
+                        <span class="text-sm font-semibold text-white">Subject :</span>
+                        <select id="examPaper"
+                            class="bg-transparent text-[#ffff00] text-sm px-2 p-0 border-none outline-none appearance-none cursor-pointer font-bold text-left focus:ring-0">
+                            <option value="AOM20112022_30" class="text-black">AOM 20/11/2022 (30%)</option>
+                            <option value="AOM19022023_70" class="text-black">AOM 19/02/2023 (70%)</option>
+                            <option value="AOM05032023_70" class="text-black">AOM 05/03/2023 (70%)</option>
+                            <option value="AOM25062023_30" class="text-black">AOM 25/06/2023 (30%)</option>
+                            <option value="AOM04052025_70" class="text-black">AOM 04/05/2025 (70%)</option>
+                            <option value="AOM18052025_70" class="text-black">AOM 18/05/2025 (70%)</option>
+                            <option value="AOM01062025_70" class="text-black">AOM 01/06/2025 (70%)</option>
+                            <option value="AOM04082024_30" class="text-black">AOM 04/08/2024 (30%)</option>
+                            <option value="AOM_PART_BC_90" class="text-black">AOM PART BC (90Q)</option>
+                            <option value="AOM23JUNE" class="text-black">AOM 23 JUNE</option>
+                            <option value="generalSafetyRules" class="text-black">General Safety Rules</option>
+                            <option value="accidentManual" class="text-black">Accident Manual</option>
+                            <option value="autoQuestions" class="text-black">Auto Questions</option>
+                            <option value="freeQuestions" class="text-black">Free Questions</option>
+
+                        </select>
+                    </div>
+                </div>
+                <div
+                    class="bg-white p-1 rounded-sm shadow-md shrink-0 w-20 h-20 sm:w-24 sm:h-24 flex items-center justify-center overflow-hidden">
+                    <img src="img/IR.png" id="candidatePhotoLogin" class="w-full h-full object-contain"
+                        onerror="this.src='https://upload.wikimedia.org/wikipedia/en/thumb/4/45/Indian_Railways_logo.svg/1200px-Indian_Railways_logo.svg.png'">
+                </div>
+            </div>
+        </div>
+
+        <!-- Login Area -->
+        <div class="flex-1 flex items-center justify-center bg-white relative">
+            <!-- Login Box -->
+            <div
+                class="w-[380px] border border-gray-300 shadow-sm bg-[#f1f1f1] rounded-sm overflow-hidden translate-y-[-10%] box-border">
+                <div class="bg-[#e0e0e0] text-gray-700 font-bold px-4 py-3 border-b border-gray-300 text-lg">Login</div>
+                <form id="loginForm" class="p-8 bg-white space-y-5">
+                    <div
+                        class="flex items-center border border-gray-300 bg-white px-2 py-1.5 rounded-sm focus-within:border-blue-500 focus-within:ring-1 focus-within:ring-blue-500 transition-all">
+                        <svg class="w-8 h-8 text-gray-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                        <input type="text" id="username"
+                            class="w-full bg-transparent outline-none text-gray-700 placeholder-gray-400 text-base font-normal h-8"
+                            placeholder="Username" value="11111" oninput="updateCandidateInfo(this.value)">
+                        <img src="img/keyboard.png"
+                            class="w-6 h-6 ml-2 cursor-pointer opacity-70 hover:opacity-100 object-contain"
+                            alt="Keyboard">
+                    </div>
+
+                    <div
+                        class="flex items-center border border-gray-300 bg-white px-2 py-1.5 rounded-sm focus-within:border-blue-500 focus-within:ring-1 focus-within:ring-blue-500 transition-all">
+                        <svg class="w-8 h-8 text-gray-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd"
+                                d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                        <input type="password" id="password"
+                            class="w-full bg-transparent outline-none text-gray-700 placeholder-gray-400 text-base font-normal h-8"
+                            placeholder="Password" value="pass">
+                        <img src="img/keyboard.png"
+                            class="w-6 h-6 ml-2 cursor-pointer opacity-70 hover:opacity-100 object-contain"
+                            alt="Keyboard">
+                    </div>
+
+                    <button type="submit"
+                        class="w-full bg-[#2d9cdb] hover:bg-[#268bc3] text-white font-bold py-2.5 rounded-sm shadow-sm transition-colors mt-6 text-base">Sign
+                        In</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div style="    bottom: 0;    min-width: 945px;
+    font-size: 11px;
+    background: #617B8C;
+    color: #FFFFFF;
+    display: block;
+    height: 22px;
+    width: 100%;
+    position: fixed;
+    line-height: 21px; text-align: center;">Version 1.01
+            @ copyright
+            2026 by KOMMARA SURESH</div>
+    </div>
+
+    <!-- INSTRUCTIONS PAGE -->
+    <div id="instructionsPage" class="fixed inset-0 z-40 bg-white hidden flex flex-col h-full w-full">
+        <iframe id="instructionsIframe" src="instructions_general.html" class="w-full h-full border-none"></iframe>
+    </div>
+
+    <!-- Script to handle start exam from iframe -->
+    <script>
+        function startExamFromIframe() {
+            // Function built-in index.html, calling the existing startExam
+            startExam();
+        }
+    </script>
+    </div>
+
+    <!-- EXAM PAGE -->
+    <div id="examPage" class="flex-1 hidden flex flex-col h-full overflow-hidden bg-white text-sans relative pb-[22px]">
+        <!-- HEADER -->
+        <header style="background-color: #000;"
+            class="h-[36px] bg-[#000] flex items-center justify-between px-4 shrink-0 z-20">
+            <div class="flex items-center gap-3">
+                <span class="font-bold text-[16px] tracking-wide flex items-center gap-2" style="color: #f7b62a;"
+                    id="topHeaderExamName">
+                    RRB JE DMS CMA 2026
+                </span>
+            </div>
+            <div class="flex items-center gap-1.5 text-white text-[12px] font-bold cursor-pointer hover:underline"
+                onclick="showExamInstructionsModal()">
+                <div
+                    class="bg-[#1b75b9] text-white rounded-full w-4 h-4 flex items-center justify-center text-[11px] font-bold">
+                    i</div>
+                <span>Instructions</span>
+            </div>
+        </header>
+
+        <!-- MAIN LAYOUT -->
+        <div class="flex-1 flex overflow-hidden w-full">
+            <!-- LEFT COLUMN -->
+            <div class="flex-1 flex flex-col bg-white border-r border-[#ccc] min-w-0">
+                <!-- Top Section with Tabs and Timer -->
+                <div class="flex flex-col border-b border-[#ccc] shrink-0 bg-white">
+                    <div class="flex justify-between items-center bg-white border-b border-[#ccc]">
+                        <!-- Paper Tab -->
+                        <div class="flex items-center h-9">
+                            <div
+                                class="w-7 h-full flex items-center justify-center border-r border-[#ccc] text-[#666] cursor-pointer hover:bg-gray-100 bg-[#f0f0f0]">
+                                <b class="text-[12px]">&lt;</b>
+                            </div>
+                            <div class="h-full bg-[#1b75b9] text-white text-[11px] font-bold flex items-center px-3 border border-[#1b75b9] ml-1 mt-1 cursor-pointer select-none relative"
+                                style="border-radius: 4px 4px 0 0;" onclick="showExamInstructionsModal()">
+                                <span id="examPaperNameTab">RRB JE DMS CMA</span>
+                                <div
+                                    class="bg-white text-[#1b75b9] rounded-full w-3 h-3 flex items-center justify-center text-[9px] font-bold ml-2">
+                                    i</div>
+                            </div>
+                        </div>
+                        <!-- Timer & Zoom right side -->
+                        <div class="flex items-center pr-[14px] gap-2">
+                            <div class="flex items-center gap-1.5 text-black">
+                                <b class="text-[14px] cursor-pointer select-none text-[#ff9900] pt-[1px]">&gt;</b>
+                                <svg class="w-[18px] h-[18px] cursor-pointer text-[#ff9900] transition-transform hover:scale-110"
+                                    onclick="changeZoom(1)" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                    stroke-width="2">
+                                    <circle cx="11" cy="11" r="8"></circle>
+                                    <path d="M21 21l-4.35-4.35"></path>
+                                    <path d="M11 8v6"></path>
+                                    <path d="M8 11h6"></path>
+                                </svg>
+                                <svg class="w-[18px] h-[18px] cursor-pointer text-[#999] transition-transform hover:scale-110"
+                                    onclick="changeZoom(-1)" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                    stroke-width="2">
+                                    <circle cx="11" cy="11" r="8"></circle>
+                                    <path d="M21 21l-4.35-4.35"></path>
+                                    <path d="M8 11h6"></path>
+                                </svg>
+                            </div>
+                            <div class="text-[14px] font-[Arial,sans-serif] text-gray-800 ml-5 tracking-wide font-bold"
+                                id="timer">
+                                <span class="text-[12px] font-normal text-[#666]">Time Left :</span> --:--
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Sections Label -->
+                    <div class="px-3 py-[2px] text-[11px] text-[#333] bg-white border-b border-[#ccc]">
+                        Sections
+                    </div>
+
+                    <!-- Sub Tab -->
+                    <div class="flex items-center bg-white h-9 relative border-b border-[#ccc]">
+                        <div
+                            class="w-7 h-full flex items-center justify-center border-r border-[#ccc] text-[#666] cursor-pointer hover:bg-gray-100 bg-[#f0f0f0]">
+                            <b class="text-[12px]">&lt;</b>
+                        </div>
+                        <div id="sectionTabContainer" class="flex items-end h-full">
+                            <div class="h-[32px] bg-[#1b75b9] text-white text-[11px] font-bold flex items-center px-3 border border-[#1b75b9] ml-1 cursor-pointer select-none relative"
+                                style="border-radius: 4px 4px 0 0;">
+                                <span id="examSectionNameTab">RRB JE DMS CMA</span>
+                                <div onclick="showExamInstructionsModal(); event.stopPropagation();"
+                                    class="bg-white text-[#1b75b9] rounded-full w-3 h-3 flex items-center justify-center text-[9px] font-bold ml-2 hover:scale-110 shadow-sm cursor-pointer">
+                                    i</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- View Instructions Question Details -->
+                    <div class="flex justify-between items-center px-3 py-1 bg-white border-b border-[#ccc]">
+                        <div class="text-[13px] font-bold text-black" style="font-family: Arial, sans-serif;">Question
+                            Type: MCQ</div>
+                        <div class="text-[11px] text-[#333] flex gap-1 items-center">
+                            Marks for correct answer: <span class="text-green-600">1</span> <span
+                                class="text-[#ccc]">|</span> Negative Marks: <span class="text-red-500"
+                                id="negativeMarksText">0.333333</span>
+                        </div>
+                    </div>
+
+                    <!-- Language Selector Bar -->
+                    <div class="bg-[#3671a5] h-[28px] flex justify-end items-center px-3">
+                        <span class="text-white text-[11px] mr-1">View In :</span>
+                        <select
+                            class="text-[11px] px-1 py-[1px] outline-none font-sans bg-white text-black border border-[#ccc]"
+                            style="width: 80px;">
+                            <option>English</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Scrollable Content -->
+                <div class="flex-1 overflow-y-auto w-full relative" id="questionScrollArea">
+                    <div class="absolute right-0 top-0 mr-[18px] mt-[10px] z-10">
+                        <div
+                            class="bg-[#3671a5] text-white w-[26px] h-[26px] rounded-full flex items-center justify-center cursor-pointer shadow-sm hover:bg-[#1b75b9]">
+                            <svg class="w-[14px] h-[14px]" fill="none" stroke="currentColor" stroke-width="3"
+                                viewBox="0 0 24 24">
+                                <path d="M19 14l-7 7m0 0l-7-7m7 7V3" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="px-5 py-[6px] border-b border-[#ccc] bg-white">
+                        <h2 class="text-[15px] font-bold text-black font-[Arial,sans-serif] tracking-wide">
+                            Question No. <span id="currentQNum">1</span>
+                        </h2>
+                    </div>
+                    <div class="px-6 pt-4 pb-10 bg-white">
+                        <p id="questionText"
+                            class="text-[15px] text-black select-text leading-relaxed font-[Times_New_Roman,serif] mb-6">
+                        </p>
+                        <div id="optionsContainer" class="space-y-4"></div>
+                    </div>
+                </div>
+
+                <!-- FOOTER BUTTONS -->
+                <div class="h-[46px] border-t border-[#ccc] flex items-center justify-between px-4 shrink-0 bg-white">
+                    <div class="flex gap-[14px]">
+                        <button onclick="markReview()"
+                            class="px-5 py-1.5 bg-white hover:bg-gray-50 text-black border border-[#ccc] font-[Arial,sans-serif] text-[13px]">Mark
+                            for Review & Next</button>
+                        <button onclick="clearRes()"
+                            class="px-5 py-1.5 bg-white hover:bg-gray-50 text-black border border-[#ccc] font-[Arial,sans-serif] text-[13px]">Clear
+                            Response</button>
+                    </div>
+                    <button onclick="saveNext()"
+                        class="px-6 py-1.5 bg-[#17719d] text-white hover:bg-[#125d83] font-[Arial,sans-serif] text-[13px] font-bold">
+                        Save & Next
+                    </button>
+                </div>
+            </div>
+
+            <!-- RIGHT COLUMN -->
+            <div class="w-72 sm:w-[320px] lg:w-[340px] border-l shadow-2xl flex flex-col shrink-0 z-30 h-full"
+                style="background-color: #e6f3f9;">
+                <!-- Profile -->
+                <div class="p-1 bg-white flex items-start gap-3 shrink-0">
+                    <div class="shrink-0 border bg-white flex items-center justify-center p-1"
+                        style="width: 90px; height: 100px;">
+                        <img src="img/IR.png" id="candidatePhotoDash"
+                            onerror="this.src='https://upload.wikimedia.org/wikipedia/en/thumb/4/45/Indian_Railways_logo.svg/1200px-Indian_Railways_logo.svg.png'"
+                            class="w-full h-full object-contain">
+                    </div>
+                    <div class="font-[Arial,sans-serif] text-xl font-medium text-gray-800 flex-1 leading-tight mt-1">
+                        <div id="profileName">User</div>
+                    </div>
+                </div>
+                <!-- Legend -->
+                <div
+                    class="p-1 px-3 bg-white border-t border-b grid grid-cols-2 gap-y-2 gap-x-1 text-[13px] text-gray-800 shrink-0 select-none shadow-[0_2px_4px_rgba(0,0,0,0.05)] relative z-20">
+                    <div class="flex items-center gap-2">
+                        <div id="legend-ans"
+                            class="question-btn status-answered w-[36px] h-[35px] flex items-center justify-center text-[13px] text-white m-0">
+                            0</div>
+                        <span class="leading-none text-[12px]">Answered</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <div id="legend-notans"
+                            class="question-btn status-not-answered w-[36px] h-[35px] flex items-center justify-center text-[13px] text-white m-0">
+                            0</div>
+                        <span class="leading-none text-[12px]">Not<br>Answered</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <div id="legend-notvis"
+                            class="question-btn status-not-visited w-[36px] h-[35px] flex items-center justify-center text-[13px] text-gray-700 m-0 shadow-none border-[#999]">
+                            0</div>
+                        <span class="leading-none text-[12px]">Not<br>Visited</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <div id="legend-mark"
+                            class="question-btn status-marked w-[36px] h-[35px] flex items-center justify-center text-[13px] text-white m-0">
+                            0</div>
+                        <span class="leading-none text-[12px]">Marked<br>for Review</span>
+                    </div>
+                    <div class="flex items-center gap-2 col-span-2 pt-1">
+                        <div id="legend-markans"
+                            class="question-btn status-answered-marked w-[36px] h-[35px] flex items-center justify-center text-[13px] text-white m-0 shrink-0">
+                            0</div>
+                        <span class="leading-tight text-[11px] ml-1">Answered & Marked for<br>Review (will also
+                            be<br>evaluated)</span>
+                    </div>
+                </div>
+                <!-- Palette Header -->
+                <div
+                    class="bg-[#1b75b9] text-white px-3 py-1 text-[12px] flex justify-between items-center shrink-0 w-full shadow-sm z-10 font-[Arial,sans-serif]">
+                    <span class="tracking-wide" id="examPaperNameRight">RRB JE DMS CMA</span>
+                </div>
+                <!-- "Choose a Question" Text -->
+                <div class="px-4 pt-[10px] pb-1 text-[13px] font-bold text-gray-800 shrink-0 font-[Arial,sans-serif]">
+                    Choose a Question
+                </div>
+                <!-- Palette Grid -->
+                <div class="flex-1 overflow-y-auto px-3 pb-4 w-full">
+                    <div id="paletteGrid" class="flex flex-wrap gap-2 content-start justify-center"></div>
+                </div>
+                <!-- Submit Btn -->
+                <div
+                    class="h-16 border-t shrink-0 flex justify-center items-center shadow-[0_-4px_10px_rgba(0,0,0,0.05)] bg-[#e6f3f9] border-gray-300">
+                    <button onclick="submitPrompt()"
+                        class="px-10 py-2 bg-[#64aed2] text-white font-bold text-base hover:bg-[#529abf] transition-all">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- RESULT MODAL -->
+    <div id="resultModal"
+        class="fixed inset-0 z-50 bg-black/50 backdrop-blur-sm hidden flex items-center justify-center p-4">
+        <div
+            class="bg-white rounded-2xl shadow-2xl max-w-4xl w-full text-center overflow-hidden animate-fade-in transform scale-100 transition-all flex flex-col max-h-[90vh]">
+            <div class="bg-rail-primary p-6 text-white relative overflow-hidden shrink-0">
+                <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-yellow-400 to-red-500"></div>
+                <h1 class="text-3xl font-bold mb-1">Result Summary</h1>
+                <p class="text-blue-200 text-sm uppercase font-bold tracking-widest">Departmental Examination</p>
+            </div>
+
+            <div class="p-6 overflow-y-auto result-scroll">
+                <div class="flex justify-center items-baseline gap-2 mb-8">
+                    <span class="text-6xl font-black text-rail-primary drop-shadow-sm" id="finalScore">0</span>
+                    <span class="text-2xl text-gray-400 font-light">/ <span id="maxScore">0</span></span>
+                </div>
+
+                <div class="grid grid-cols-3 gap-4 mb-8">
+                    <div class="bg-green-50 p-4 rounded-xl text-green-700 font-bold border border-green-200 shadow-sm">
+                        <span class="text-3xl block mb-1" id="rCorrect">0</span>
+                        <span class="text-[10px] uppercase tracking-wider text-green-600">Correct</span>
+                    </div>
+                    <div class="bg-red-50 p-4 rounded-xl text-red-700 font-bold border border-red-200 shadow-sm">
+                        <span class="text-3xl block mb-1" id="rWrong">0</span>
+                        <span class="text-[10px] uppercase tracking-wider text-red-600">Wrong</span>
+                    </div>
+                    <div class="bg-gray-50 p-4 rounded-xl text-gray-700 font-bold border border-gray-200 shadow-sm">
+                        <span class="text-3xl block mb-1" id="rSkip">0</span>
+                        <span class="text-[10px] uppercase tracking-wider text-gray-500">Skipped</span>
+                    </div>
+                </div>
+
+                <!-- Detailed Analysis Section -->
+                <div class="text-left border rounded-lg overflow-hidden bg-gray-50">
+                    <div class="bg-gray-200 px-4 py-2 font-bold text-gray-700 border-b flex justify-between items-center cursor-pointer hover:bg-gray-300 transition-colors"
+                        onclick="toggleAnalysis()">
+                        <span>Detailed Analysis (Click to Toggle)</span>
+                        <svg id="analysisIcon" class="w-5 h-5 transform transition-transform" fill="none"
+                            stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </div>
+                    <div id="detailedAnalysis"
+                        class="hidden p-4 space-y-4 max-h-96 overflow-y-auto bg-white result-scroll">
+                        <!-- Dynamic Content -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="p-4 bg-gray-50 border-t shrink-0 flex justify-end">
+                <button onclick="location.reload()"
+                    class="bg-rail-primary text-white px-8 py-3 rounded-full font-bold shadow-lg hover:shadow-xl hover:scale-105 transition-all text-sm uppercase tracking-wide">Exit
+                    / Logout</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // ============================
+        // CORE LOGIC 
+        // ============================
+        var questions = [];
+        var state = {
+            idx: 0,
+            ans: [],
+            mk: [],
+            vis: [],
+            time: 5400,
+            tid: null,
+            // New state for sections
+            sectionLimits: {},
+            sectionAttempts: {},
+            currentSection: 'General',
+            zoomLevel: 15 // Default font size
+        };
+        const $ = id => document.getElementById(id);
+
+        function changeZoom(direction) {
+            // Direction: 1 for zoom in, -1 for zoom out
+            if (direction > 0 && state.zoomLevel < 24) {
+                state.zoomLevel += 2;
+            } else if (direction < 0 && state.zoomLevel > 12) {
+                state.zoomLevel -= 2;
+            }
+
+            // Apply zoom
+            if ($('questionText')) $('questionText').style.fontSize = state.zoomLevel + 'px';
+
+            // Also apply to options elements
+            const optElements = document.querySelectorAll('#optionsContainer .text-black.font-\\[Times_New_Roman\\,serif\\]');
+            optElements.forEach(el => {
+                el.style.fontSize = state.zoomLevel + 'px';
+            });
+        }
+
+        // Helper to determine section info
+        function getSectionInfo(index, total) {
+            if (total === 175) {
+                if (index < 85) return { key: 'Traffic', name: 'Traffic (Max 80)' };
+                if (index < 140) return { key: 'GK/Rajabhasha', name: 'GK/Raj (Max 40)' };
+                return { key: 'Est/Fin/Acc', name: 'Est/Fin (Max 30)' };
+            } else if (total === 110) {
+                if (index < 70) return { key: 'Traffic+Rajabhasha', name: 'Traffic+Raj (Max 70)' }; // Traffic
+                if (index < 80) return { key: 'Traffic+Rajabhasha', name: 'Traffic+Raj (Max 70)' }; // Raj (Combined)
+                return { key: 'Est/Fin/Acc', name: 'Est/Fin (No Limit)' };
+            }
+            return { key: 'General', name: 'General' };
+        }
+
+        function initSectionLimits(total) {
+            state.sectionAttempts = {};
+            if (total === 175) {
+                state.sectionLimits = {
+                    'Traffic': 80,
+                    'GK/Rajabhasha': 40,
+                    'Est/Fin/Acc': 30
+                };
+            } else if (total === 110) {
+                state.sectionLimits = {
+                    'Traffic+Rajabhasha': 70
+                };
+            } else {
+                state.sectionLimits = {};
+            }
+        }
+
+        function getVariableByName(name) {
+            try {
+                switch (name) {
+                    case 'AOM23JUNE': return (typeof AOM23JUNE !== 'undefined' ? AOM23JUNE : null);
+                    case 'generalSafetyRules': return (typeof generalSafetyRules !== 'undefined' ? generalSafetyRules : null);
+                    case 'accidentManual': return (typeof accidentManual !== 'undefined' ? accidentManual : null);
+                    case 'autoQuestions': return (typeof autoQuestions !== 'undefined' ? autoQuestions : null);
+                    case 'freeQuestions': return (typeof freeQuestions !== 'undefined' ? freeQuestions : null);
+                    case 'AOM20112022_30': return (typeof AOM20112022_30 !== 'undefined' ? AOM20112022_30 : null);
+                    case 'AOM19022023_70': return (typeof AOM19022023_70 !== 'undefined' ? AOM19022023_70 : null);
+                    case 'AOM05032023_70': return (typeof AOM05032023_70 !== 'undefined' ? AOM05032023_70 : null);
+                    case 'AOM25062023_30': return (typeof AOM25062023_30 !== 'undefined' ? AOM25062023_30 : null);
+                    case 'AOM04052025_70': return (typeof AOM04052025_70 !== 'undefined' ? AOM04052025_70 : null);
+                    case 'AOM18052025_70': return (typeof AOM18052025_70 !== 'undefined' ? AOM18052025_70 : null);
+                    case 'AOM01062025_70': return (typeof AOM01062025_70 !== 'undefined' ? AOM01062025_70 : null);
+                    case 'AOM04082024_30': return (typeof AOM04082024_30 !== 'undefined' ? AOM04082024_30 : null);
+                    case 'AOM_PART_BC_90': return (typeof AOM_PART_BC_90 !== 'undefined' ? AOM_PART_BC_90 : null);
+                    default: return null;
+                }
+            } catch (e) { return null; }
+        }
+
+        function checkData() {
+            const statusBox = $('dataStatus');
+            statusBox.textContent = "Checking data access...";
+            const test = getVariableByName('AOM23JUNE') || getVariableByName('generalSafetyRules');
+            if (test && Array.isArray(test)) {
+                statusBox.textContent = "System Ready. Select Exam Paper.";
+                statusBox.className = "mt-4 text-xs font-bold text-green-600";
+            } else {
+                statusBox.textContent = "Warning: Data arrays not accessible. Check data.js import.";
+                statusBox.className = "mt-4 text-xs font-bold text-red-600 animate-pulse";
+            }
+        }
+
+        function loadQuestionSet(setName) {
+            questions = [];
+            const data = getVariableByName(setName);
+            if (data && Array.isArray(data)) questions = data;
+            else if (window[setName] && Array.isArray(window[setName])) questions = window[setName];
+
+            if (questions.length === 0) {
+                showLoginAlert("Selected Exam Paper data is empty or not found! Please check data.js.");
+                return false;
+            }
+            return true;
+        }
+
+        function updateCandidateInfo(u) {
+            u = u ? u.trim() : '';
+
+            if (REG_USERS[u]) {
+                const user = REG_USERS[u];
+                $('loginCandidateName').textContent = user.name;
+
+                if (user.photo) {
+                    const img = new Image();
+                    img.src = user.photo;
+                    img.onload = () => { $('candidatePhotoLogin').src = user.photo; };
+                    img.onerror = () => { $('candidatePhotoLogin').src = 'img/user_1.png'; };
+                } else {
+                    $('candidatePhotoLogin').src = 'img/user_1.png';
+                }
+            } else {
+                $('loginCandidateName').textContent = 'John Smith';
+                $('candidatePhotoLogin').src = 'img/user_1.png';
+            }
+        }
+
+        // Initialize on load if value exists
+        window.addEventListener('load', () => {
+            const u = $('username').value;
+            if (u) updateCandidateInfo(u);
+        });
+
+        $('username').onblur = function () { updateCandidateInfo(this.value); };
+
+        $('loginForm').onsubmit = (e) => {
+            e.preventDefault();
+            const u = $('username').value.trim();
+            const p = $('password').value;
+            const paper = $('examPaper').value;
+
+            // Validate User
+            if (!REG_USERS[u]) {
+                showLoginAlert("Invalid Employee ID! Please check your credentials.");
+                return;
+            }
+            if (REG_USERS[u].password !== p) {
+                showLoginAlert("Incorrect Password!");
+                return;
+            }
+
+            const user = REG_USERS[u];
+
+            // Check if user is allowed to take this exam
+            const allowedExams = user.exams || [];
+
+            // Give access if ALL, or if strictly matches, or if 'auto' is meant for 'autoQuestions'
+            const isAllAllowed = allowedExams.includes('ALL');
+            const isStrictMatch = allowedExams.includes(paper);
+            const isAutoMatch = allowedExams.includes('auto') && paper === 'autoQuestions';
+
+            if (!isAllAllowed && !isStrictMatch && !isAutoMatch) {
+
+                // Show generic alert modal and explicitly prevent proceeding
+                showLoginAlert(`Warning: This exam paper (${paper}) is not assigned to you.`);
+                return;
+            }
+
+            if (!loadQuestionSet(paper)) return;
+
+            if ($('candidateName')) $('candidateName').textContent = user.name;
+            if ($('profileName')) $('profileName').textContent = user.name;
+            if ($('examPaperName')) $('examPaperName').textContent = "Paper: " + $('examPaper').options[$('examPaper').selectedIndex].text;
+            if ($('examPaperNameTab')) $('examPaperNameTab').textContent = $('examPaper').options[$('examPaper').selectedIndex].text;
+            if ($('examPaperNameRight')) $('examPaperNameRight').textContent = $('examPaper').options[$('examPaper').selectedIndex].text;
+
+
+            // Update Photos
+            if (user.photo) {
+                const photoPath = user.photo; // e.g. "img/user_1.png"
+                if ($('candidatePhotoLogin')) $('candidatePhotoLogin').src = photoPath;
+                if ($('candidatePhotoDash')) $('candidatePhotoDash').src = photoPath;
+            }
+
+            $('loginPage').classList.add('hidden');
+
+            // Reload instructions iframe so it picks up the newly set window.parent.questions correctly
+            if ($('instructionsIframe')) {
+                $('instructionsIframe').contentWindow.location.reload();
+            }
+
+            $('instructionsPage').classList.remove('hidden');
+            $('instructionsPage').classList.add('flex');
+        };
+
+        function calculateSectionAttempts() {
+            state.sectionAttempts = {};
+            if (questions.length !== 175 && questions.length !== 110) return;
+
+            questions.forEach((_, i) => {
+                if (state.ans[i] !== null) {
+                    const info = getSectionInfo(i, questions.length);
+                    state.sectionAttempts[info.key] = (state.sectionAttempts[info.key] || 0) + 1;
+                }
+            });
+        }
+        if ($('agree')) {
+            $('agree').onchange = function () { $('startBtn').disabled = !this.checked; };
+        }
+
+        function startExam() {
+            // Determine Duration
+            let duration = questions.length * 60; // Default 1 min/Q
+            if (questions.length === 175) duration = 180 * 60;
+            else if (questions.length === 110) duration = 120 * 60;
+
+            state.time = duration;
+            state.ans = new Array(questions.length).fill(null);
+            state.mk = new Array(questions.length).fill(false);
+            state.vis = new Array(questions.length).fill(false);
+            state.vis[0] = true;
+
+            initSectionLimits(questions.length);
+            calculateSectionAttempts();
+
+            $('instructionsPage').classList.add('hidden');
+            $('examPage').classList.remove('hidden');
+            $('examPage').classList.add('flex');
+
+            if ($('totalQCount')) $('totalQCount').textContent = `${questions.length} Q`;
+
+            if ($('negativeMarksText')) {
+                if (questions.length === 110) {
+                    $('negativeMarksText').textContent = '0';
+                } else {
+                    $('negativeMarksText').textContent = '0.333333';
+                }
+            }
+
+            renderQ();
+            renderPal();
+            startTimer();
+            renderSectionTabs();
+        }
+
+        function renderSectionTabs() {
+            // Updated dynamically matching the new UI tabs
+            if (questions.length === 175 || questions.length === 110) {
+                let tabsHtml = '';
+                const sections = questions.length === 175 ?
+                    [{ l: 'Traffic', i: 0 }, { l: 'GK/Raj', i: 85 }, { l: 'Est/Fin', i: 140 }] :
+                    [{ l: 'Traffic', i: 0 }, { l: 'Rajbhasha', i: 70 }, { l: 'Est/Fin', i: 80 }];
+
+                sections.forEach(s => {
+                    const isActive = state.idx >= s.i && (sections.indexOf(s) === sections.length - 1 || state.idx < sections[sections.indexOf(s) + 1].i);
+                    tabsHtml += `
+                        <div onclick="jumpTo(${s.i})" class="h-[32px] ${isActive ? 'bg-[#1b75b9] text-white border-[#1b75b9]' : 'bg-white text-[#1b75b9] border-[#ccc]'} hover:bg-[#f9f9f9] text-[11px] font-bold flex items-center px-3 border-t border-r border-l ml-1 cursor-pointer select-none relative" style="border-radius: 4px 4px 0 0;">
+                            <span>${s.l}</span>
+                            <div onclick="showExamInstructionsModal(); event.stopPropagation();" class="${isActive ? 'bg-white text-[#1b75b9]' : 'bg-[#1b75b9] text-white'} rounded-full w-3 h-3 flex items-center justify-center text-[9px] font-bold ml-2 cursor-pointer hover:scale-110 shadow-sm">i</div>
+                        </div>
+                    `;
+                });
+
+                if ($('sectionTabContainer')) $('sectionTabContainer').innerHTML = tabsHtml;
+            } else {
+                if ($('examSectionNameTab')) $('examSectionNameTab').textContent = "General Awareness";
+            }
+        }
+
+        function startTimer() {
+            // Update immediately once to avoid 1s delay
+            const m = Math.floor(state.time / 60);
+            const s = state.time % 60;
+            const tStr = `<span class="text-[12px] font-normal text-[#666]">Time Left :</span> ${m.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`;
+            if ($('timer')) $('timer').innerHTML = tStr;
+
+            state.tid = setInterval(() => {
+                state.time--;
+                const m = Math.floor(state.time / 60);
+                const s = state.time % 60;
+                if ($('timer')) $('timer').innerHTML = `<span class="text-[12px] font-normal text-[#666]">Time Left :</span> ${m.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`;
+
+                if (state.time <= 0) finishExam();
+            }, 1000);
+        }
+
+        function renderQ() {
+            const q = questions[state.idx];
+            $('currentQNum').textContent = state.idx + 1;
+            $('questionText').textContent = q.question;
+            const cnt = $('optionsContainer'); cnt.innerHTML = '';
+
+            const info = getSectionInfo(state.idx, questions.length);
+            const limit = state.sectionLimits[info.key];
+            const current = state.sectionAttempts[info.key] || 0;
+            const isLocked = limit && current >= limit && state.ans[state.idx] === null;
+
+            renderSectionTabs(); // Update active tab
+
+            if (isLocked) {
+                const alert = document.createElement('div');
+                alert.className = 'mb-4 p-3 bg-red-50 text-red-800 border border-red-200 rounded text-sm font-bold';
+                alert.textContent = `Sectional Limit Reached (Limit: ${limit})`;
+                cnt.appendChild(alert);
+            }
+
+            q.options.forEach((opt, i) => {
+                const sel = state.ans[state.idx] === i;
+                const d = document.createElement('div');
+
+                d.className = `flex gap-3 items-start transition-all ${isLocked && !sel ? 'opacity-50 cursor-not-allowed' : 'cursor-pointer'} group`;
+
+                if (!isLocked || sel) {
+                    d.onclick = () => { selectOpt(i); };
+                }
+
+                d.innerHTML = `
+                    <div class="mt-0.5 w-4 h-4 rounded-full border border-[#ccc] flex items-center justify-center shrink-0 bg-white">
+                        <div class="w-2.5 h-2.5 rounded-full ${sel ? 'bg-[#1b75b9]' : 'bg-transparent group-hover:bg-gray-200'}"></div>
+                    </div>
+                    <div class="text-black font-[Times_New_Roman,serif] text-[15px] select-none leading-relaxed" style="font-size: ${state.zoomLevel || 15}px;">${opt}</div>
+                `;
+                cnt.appendChild(d);
+            });
+
+            if ($('questionText')) $('questionText').style.fontSize = (state.zoomLevel || 15) + 'px';
+        }
+
+        function selectOpt(i) {
+            const info = getSectionInfo(state.idx, questions.length);
+            const limit = state.sectionLimits[info.key];
+            const current = state.sectionAttempts[info.key] || 0;
+            const isAnswered = state.ans[state.idx] !== null;
+
+            // If unselecting (clicking same option)
+            if (state.ans[state.idx] === i) {
+                state.ans[state.idx] = null;
+                calculateSectionAttempts(); // Recalc to be safe
+                renderQ();
+                renderPal();
+                return;
+            }
+
+            // If answering new question, check limit
+            if (!isAnswered && limit && current >= limit) {
+                alert(`Limit Reached! You can only attempt ${limit} questions in this section (${info.key}).`);
+                return;
+            }
+
+            state.ans[state.idx] = i;
+            calculateSectionAttempts();
+            renderQ();
+            renderPal();
+        }
+
+        function renderPal() {
+            const p = $('paletteGrid'); p.innerHTML = '';
+
+            const currentInfo = getSectionInfo(state.idx, questions.length);
+            const limit = state.sectionLimits[currentInfo.key];
+            const currentAttempts = state.sectionAttempts[currentInfo.key] || 0;
+
+            let countAns = 0, countNotAns = 0, countNotVis = 0, countMark = 0, countMarkAns = 0;
+
+            questions.forEach((_, i) => {
+                let cls = 'status-not-visited';
+                const a = state.ans[i] !== null, m = state.mk[i], v = state.vis[i];
+
+                const qInfo = getSectionInfo(i, questions.length);
+                const qLimit = state.sectionLimits[qInfo.key];
+                const qAttempts = state.sectionAttempts[qInfo.key] || 0;
+                const qSectionFull = qLimit && qAttempts >= qLimit;
+                const isGrayed = !a && qSectionFull;
+
+                if (a && m) { cls = 'status-answered-marked'; countMarkAns++; }
+                else if (m) { cls = 'status-marked'; countMark++; }
+                else if (a) { cls = 'status-answered'; countAns++; }
+                else if (v) { cls = 'status-not-answered'; countNotAns++; }
+                else { countNotVis++; }
+
+                const b = document.createElement('div');
+                b.className = `question-btn ${cls} ${state.idx === i ? 'ring-2 ring-black z-20 scale-110 shadow-lg' : ''} ${isGrayed ? '!bg-gray-200 !text-gray-400 !border-gray-300 cursor-not-allowed opacity-75' : ''}`;
+                b.textContent = i + 1;
+                b.onclick = () => jumpTo(i);
+                p.appendChild(b);
+            });
+
+            if ($('legend-ans')) $('legend-ans').textContent = countAns;
+            if ($('legend-notans')) $('legend-notans').textContent = countNotAns;
+            if ($('legend-notvis')) $('legend-notvis').textContent = countNotVis;
+            if ($('legend-mark')) $('legend-mark').textContent = countMark;
+            if ($('legend-markans')) $('legend-markans').textContent = countMarkAns;
+
+            setTimeout(() => {
+                const activeBtn = p.children[state.idx];
+                if (activeBtn) activeBtn.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+            }, 10);
+        }
+
+        function jumpTo(i) {
+            state.idx = i; state.vis[i] = true; renderQ(); renderPal();
+        }
+
+        window.saveNext = () => {
+            state.mk[state.idx] = false;
+            if (state.idx < questions.length - 1) {
+                state.idx++;
+                state.vis[state.idx] = true;
+                renderQ();
+                renderPal();
+            } else {
+                renderPal();
+                window.submitPrompt();
+            }
+        };
+
+        window.markReview = () => {
+            state.mk[state.idx] = true;
+            if (state.idx < questions.length - 1) {
+                state.idx++;
+                state.vis[state.idx] = true;
+                renderQ();
+                renderPal();
+            } else {
+                renderPal();
+                window.submitPrompt();
+            }
+        };
+
+        window.clearRes = () => {
+            state.ans[state.idx] = null;
+            calculateSectionAttempts();
+            renderQ();
+            renderPal();
+        };
+
+        window.submitPrompt = () => {
+            // Show custom modal instead of native confirm()
+            $('submitConfirmModal').classList.remove('hidden');
+            $('submitConfirmModal').classList.add('flex');
+        };
+
+        window.confirmSubmit = () => {
+            $('submitConfirmModal').classList.add('hidden');
+            $('submitConfirmModal').classList.remove('flex');
+            finishExam();
+        };
+
+        window.cancelSubmit = () => {
+            $('submitConfirmModal').classList.add('hidden');
+            $('submitConfirmModal').classList.remove('flex');
+        };
+
+        function finishExam() {
+            clearInterval(state.tid);
+            $('examPage').classList.add('hidden');
+            $('resultModal').classList.remove('hidden');
+            $('resultModal').classList.add('flex');
+
+            let c = 0, w = 0, s = 0;
+            const analysisDiv = $('detailedAnalysis');
+            analysisDiv.innerHTML = '';
+
+            questions.forEach((q, i) => {
+                const userAns = state.ans[i];
+                const correct = q.correctAnswer;
+                let isCorrect = false;
+
+                if (userAns === null) s++;
+                else if (userAns === correct) { c++; isCorrect = true; }
+                else w++;
+
+                // Build Analysis Card
+                const card = document.createElement('div');
+                const statusColor = isCorrect ? 'bg-green-50 border-green-200' : (userAns === null ? 'bg-gray-50 border-gray-200' : 'bg-red-50 border-red-200');
+
+                let userAnsText = userAns !== null ? `Option ${String.fromCharCode(65 + userAns)}: ${q.options[userAns]}` : "Skipped";
+                let correctAnsText = `Option ${String.fromCharCode(65 + correct)}: ${q.options[correct]}`;
+
+                card.className = `p-4 border rounded-lg ${statusColor} text-sm`;
+                card.innerHTML = `
+                    <div class="flex justify-between items-start mb-2">
+                        <span class="font-bold text-gray-700">Q${i + 1}. ${q.question}</span>
+                        <span class="px-2 py-0.5 rounded text-xs font-bold uppercase ${isCorrect ? 'bg-green-200 text-green-800' : (userAns === null ? 'bg-gray-200 text-gray-800' : 'bg-red-200 text-red-800')}">
+                            ${isCorrect ? 'Correct' : (userAns === null ? 'Skipped' : 'Wrong')}
+                        </span>
+                    </div>
+                    <div class="grid grid-cols-1 gap-1 text-xs sm:text-sm">
+                        <div class="flex gap-2">
+                            <span class="font-bold w-24 shrink-0 text-gray-500">Your Answer:</span>
+                            <span class="${isCorrect ? 'text-green-700 font-semibold' : 'text-red-600 font-semibold'}">${userAnsText}</span>
+                        </div>
+                        <div class="flex gap-2">
+                            <span class="font-bold w-24 shrink-0 text-gray-500">Correct Answer:</span>
+                            <span class="text-green-700 font-bold">${correctAnsText}</span>
+                        </div>
+                    </div>
+                `;
+                analysisDiv.appendChild(card);
+            });
+
+            let score = 0;
+            if (questions.length === 175) {
+                score = (c * 1.0) - (w * 0.33);
+            } else {
+                score = (c * 1.0);
+            }
+
+            $('finalScore').textContent = Math.max(0, score.toFixed(2));
+            $('maxScore').textContent = questions.length;
+            $('rCorrect').textContent = c;
+            $('rWrong').textContent = w;
+            $('rSkip').textContent = s;
+        }
+
+        window.toggleAnalysis = () => {
+            const div = $('detailedAnalysis');
+            const icon = $('analysisIcon');
+            div.classList.toggle('hidden');
+            if (div.classList.contains('hidden')) {
+                icon.classList.remove('rotate-180');
+            } else {
+                icon.classList.add('rotate-180');
+            }
+        };
+
+        function showExamInstructionsModal() {
+            var modal = document.getElementById('examInstructionsModal');
+            var iframe = document.getElementById('popupInstructionsIframe');
+            iframe.src = 'popup_instructions.html';
+            modal.style.display = 'flex';
+        }
+
+        function closeExamInstructionsModal() {
+            document.getElementById('examInstructionsModal').style.display = 'none';
+            document.getElementById('popupInstructionsIframe').src = '';
+        }
+
+        window.onload = checkData;
+
+        // Custom Login Alert Modal Logic
+        function showLoginAlert(message) {
+            document.getElementById('loginAlertMessage').textContent = message;
+            document.getElementById('loginAlertModal').style.display = 'flex';
+        }
+        function closeLoginAlert() {
+            document.getElementById('loginAlertModal').style.display = 'none';
+        }
+    </script>
+
+    <!-- LOGIN ALERT MODAL -->
+    <div id="loginAlertModal" style="display: none; z-index: 10000;"
+        class="fixed inset-0 flex justify-center items-start pt-[100px] bg-black/50 backdrop-blur-sm">
+        <div
+            class="bg-white max-w-sm w-full rounded shadow-lg overflow-hidden animate-fade-in scale-100 transform transition-all font-sans border border-gray-300">
+            <div class="px-6 py-6 text-gray-800 text-[14px] text-center" id="loginAlertMessage">
+                <!-- Message -->
+            </div>
+            <div class="px-4 py-3 bg-gray-100 border-t flex justify-center border-gray-200">
+                <button type="button" onclick="closeLoginAlert()"
+                    class="px-6 py-1.5 bg-blue-600 text-white rounded font-bold hover:bg-blue-700 transition-colors shadow-sm text-[13px]">OK</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- EXAM INSTRUCTIONS MODAL -->
+    <div id="examInstructionsModal" style="display: none; z-index: 9999;"
+        class="fixed inset-0 flex justify-center items-center bg-black/50">
+        <div
+            class="bg-white w-[90%] max-w-5xl h-[85%] flex flex-col rounded shadow-[0_4px_15px_rgba(0,0,0,0.3)] overflow-hidden border border-[#337ab7]">
+            <!-- Header -->
+            <div class="bg-[#337ab7] text-white px-3 py-1 flex justify-between items-center shrink-0">
+                <span class="font-bold text-sm">Instructions</span>
+                <span class="cursor-pointer font-bold text-sm hover:underline flex items-center gap-1"
+                    onclick="closeExamInstructionsModal()">Close <span
+                        class="text-lg leading-none">&times;</span></span>
+            </div>
+            <!-- Red Warning -->
+            <div class="px-4 py-2 border-b border-gray-300 shrink-0 text-center bg-white shadow-sm z-10 relative">
+                <p class="text-red-500 text-[18px] font-sans m-0">Note that the timer is ticking while you read the
+                    instructions. Close this page to return to answering the questions.</p>
+            </div>
+            <!-- Iframe Container -->
+            <div class="flex-1 bg-white relative">
+                <iframe id="popupInstructionsIframe" src="" class="absolute inset-0 w-full h-full border-none"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- SUBMIT CONFIRMATION MODAL -->
+    <div id="submitConfirmModal" style="z-index: 10000;"
+        class="fixed inset-0 hidden justify-center items-center bg-black/50 backdrop-blur-sm">
+        <div
+            class="bg-white max-w-sm w-full rounded-lg shadow-xl overflow-hidden animate-fade-in scale-100 transform transition-all font-sans">
+            <div class="bg-red-500 text-white px-4 py-3 flex items-center justify-between shadow-sm">
+                <span class="font-bold text-lg flex items-center gap-2">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z">
+                        </path>
+                    </svg>
+                    Confirm Submission
+                </span>
+            </div>
+            <div class="px-6 py-6 text-gray-700 text-base text-center">
+                Are you sure you want to submit the exam? Once submitted, you cannot change your answers.
+            </div>
+            <div class="px-4 py-3 bg-gray-50 border-t flex justify-end gap-3">
+                <button onclick="cancelSubmit()"
+                    class="px-5 py-2 bg-gray-200 text-gray-800 rounded font-semibold hover:bg-gray-300 transition-colors shadow-sm">Cancel</button>
+                <button onclick="confirmSubmit()"
+                    class="px-5 py-2 bg-[#64aed2] text-white rounded font-bold hover:bg-[#529abf] transition-colors shadow-sm">Yes,
+                    Submit</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
