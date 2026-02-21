@@ -8,6 +8,12 @@ var REG_USERS = {
         photo: "img/MUGAN01.png", 
         exams: ['auto', 'AOM25062023_30'] 
     },
+    "BOOVI01": { 
+        password: "vinnu", 
+        name: "Boorli Vinod Kumar", 
+        photo: "img/BOOVI01.png", 
+        exams: ['auto', 'AOM25062023_30'] 
+    },
     "MAYUG01": { 
         password: "yugi", 
         name: "Yugi Oh", 
@@ -73,5 +79,15 @@ var REG_USERS = {
         name: "QA Tester", 
         photo: "img/user_1.png", 
         exams: ['ALL'] 
+    },
+    "SAI": {
+        password: "sai",
+        name: "Pothala Sai Pavan",
+        photo: "img/sai.png",
+        exams: [
+            'AOM23JUNE', 'generalSafetyRules', 'accidentManual', 'autoQuestions', 'freeQuestions',
+            'AOM20112022_30', 'AOM19022023_70', 'AOM05032023_70', 'AOM25062023_30',
+            'AOM04052025_70', 'AOM18052025_70', 'AOM01062025_70', 'AOM04082024_30', 'AOM_PART_BC_90'
+        ]
     }
 };
