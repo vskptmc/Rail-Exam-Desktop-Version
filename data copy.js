@@ -14987,553 +14987,1103 @@ const AOM_PART_BC_90 = [
 
 const DPQ_GTMR_A1_70 = [
     {
-        question: "CC, Premium and End to End are",
-        options: ["Seats", "Brakes", "Rakes", "Handles"],
+        question: "Q1. CC, Premium and End to End are",
+        options: [
+            "Seats",
+            "Brakes",
+            "Rakes",
+            "Handles"
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "Q2. BoxN is a type of ?",
+        options: [
+            "Wagon",
+            "Brake",
+            "Seat",
+            "Siding"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q3. Coal is normally loaded in ?",
+        options: [
+            "BoxN",
+            "Brake",
+            "BCN",
+            "Seat"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q4. HO is a type of?",
+        options: [
+            "Quota",
+            "Seat",
+            "Weight",
+            "Brake"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q5. Wheat is normally loaded in",
+        options: [
+            "BoxN",
+            "BCN",
+            "bobR",
+            "pqrs"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "Q6. PQRS is a?",
+        options: [
+            "Seat",
+            "Signal",
+            "Brake",
+            "Machine"
+        ],
         correctAnswer: 2
     },
     {
-        question: "BoxN is a type of ?",
-        options: ["Wagon", "Brake", "Seat", "Siding"],
-        correctAnswer: 0
-    },
-    {
-        question: "Coal is normally loaded in ?",
-        options: ["BoxN", "Brake", "BCN", "Seat"],
-        correctAnswer: 0
-    },
-    {
-        question: "HO is a type of?",
-        options: ["Quota", "Seat", "Weight", "Brake"],
-        correctAnswer: 0
-    },
-    {
-        question: "Wheat is normally loaded in",
-        options: ["BoxN", "BCN", "bobR", "pqrs"],
-        correctAnswer: 1
-    },
-    {
-        question: "PQRS is a?",
-        options: ["Seat", "Signal", "Brake", "Machine"],
-        correctAnswer: 3
-    },
-    {
-        question: "Unimat is a ?",
-        options: ["Seat", "Signal", "Brake", "Machine"],
-        correctAnswer: 3
-    },
-    {
-        question: "Duomatic is a?",
-        options: ["Seat", "Signal", "Brake", "Machine"],
-        correctAnswer: 3
-    },
-    {
-        question: "Bscan is a ?",
-        options: ["Seat", "Signal", "Brake", "Machine"],
-        correctAnswer: 3
-    },
-    {
-        question: "HABD is a ?",
-        options: ["Seat", "Signal", "Brake", "Machine"],
-        correctAnswer: 3
-    },
-    {
-        question: "Headquater of South East Railway is at ?",
-        options: ["Kolkata", "Delhi", "Mumbai", "Chennai"],
-        correctAnswer: 0
-    },
-    {
-        question: "Headquater of Eastern Railway is at ?",
-        options: ["Kolkata", "Delhi", "Mumbai", "Chennai"],
-        correctAnswer: 0
-    },
-    {
-        question: "Headquater of Northern Railway is at ?",
-        options: ["Kolkata", "Delhi", "Mumbai", "Chennai"],
-        correctAnswer: 1
-    },
-    {
-        question: "Headquater of North Eastern Railway is at ?",
-        options: ["Kolkata", "Guwahati", "Mumbai", "Gorakhpur"],
-        correctAnswer: 3
-    },
-    {
-        question: "Patna lies in which railway ?",
-        options: ["Eastern", "Western", "East central", "Southern"],
+        question: "Q7. Unimat is a ?",
+        options: [
+            "Seat",
+            "Signal",
+            "Brake",
+            "Machine"
+        ],
         correctAnswer: 2
     },
     {
-        question: "Which of following is a division?",
-        options: ["Sonepur", "Patna", "Bokaro", "Tata"],
-        correctAnswer: 0
-    },
-    {
-        question: "Which of following is a division?",
-        options: ["Sonepura", "Nagpur", "Bokaro", "Tata"],
-        correctAnswer: 1
-    },
-    {
-        question: "Which of following is not a division?",
-        options: ["Sonepur", "Danapur", "Patna", "Adra"],
+        question: "Q8. Duomatic is a?",
+        options: [
+            "Seat",
+            "Signal",
+            "Brake",
+            "Machine"
+        ],
         correctAnswer: 2
     },
     {
-        question: "Which of following is not a division?",
-        options: ["Sonepur", "Dhanbad", "Barka", "Adra"],
+        question: "Q9. Bscan is a ?",
+        options: [
+            "Seat",
+            "Signal",
+            "Brake",
+            "Machine"
+        ],
         correctAnswer: 2
     },
     {
-        question: "East central railway lies in which state ?",
-        options: ["Jharkhand", "Odisha", "Gujarat", "Punjab"],
-        correctAnswer: 0
-    },
-    {
-        question: "Who issues WTT ?",
-        options: ["DRM", "PCOM", "PCCM", "GM"],
-        correctAnswer: 1
-    },
-    {
-        question: "How many times is WTT issued in a year ?",
-        options: ["1", "2", "4", "6"],
-        correctAnswer: 0
-    },
-    {
-        question: "WTT is issued separately for?",
-        options: ["Section", "Division", "Zone", "Station"],
-        correctAnswer: 1
-    },
-    {
-        question: "ACP is means of communication between passenger and ?",
-        options: ["Station", "Section controller", "Crew", "Sr DOM"],
+        question: "Q10. HABD is a ?",
+        options: [
+            "Seat",
+            "Signal",
+            "Brake",
+            "Machine"
+        ],
         correctAnswer: 2
     },
     {
-        question: "L in LVCD is ?",
-        options: ["Least", "Low", "Last", "Light"],
+        question: "Q11. Headquater of South East Railway is at ?",
+        options: [
+            "Kolkata",
+            "Delhi",
+            "Mumbai",
+            "Chennai"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q12. Headquater of Eastern Railway is at ?",
+        options: [
+            "Kolkata",
+            "Delhi",
+            "Mumbai",
+            "Chennai"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q13. Headquater of Northern Railway is at ?",
+        options: [
+            "Kolkata",
+            "Delhi",
+            "Mumbai",
+            "Chennai"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "Q14. Headquater of North Eastern Railway is at ?",
+        options: [
+            "Kolkata",
+            "Guwahati",
+            "Mumbai",
+            "Gorakhpur"
+        ],
         correctAnswer: 2
     },
     {
-        question: "B in BPAC is ?",
-        options: ["Brake", "Block", "Bang", "None"],
+        question: "Q15. Patna lies in which railway ?",
+        options: [
+            "Eastern",
+            "Western",
+            "East central",
+            "Southern"
+        ],
         correctAnswer: 1
     },
     {
-        question: "S in SWR is ?",
-        options: ["Safe", "Signal", "Station", "Section"],
+        question: "Q16. Which of following is a division?",
+        options: [
+            "Sonepur",
+            "Patna",
+            "Bokaro",
+            "Tata"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q17. Which of following is a division?",
+        options: [
+            "Sonepura",
+            "Nagpur",
+            "Bokaro",
+            "Tata"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "Q18. Which of following is not a division?",
+        options: [
+            "Sonepur",
+            "Danapur",
+            "Patna",
+            "Adra"
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "Q19. Which of following is not a division?",
+        options: [
+            "Sonepur",
+            "Dhanbad",
+            "Barka",
+            "Adra"
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "Q20. East central railway lies in which state ? +1",
+        options: [
+            "Jharkhand",
+            "Odisha",
+            "Gujarat",
+            "Punjab"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q21. Who issues WTT ?",
+        options: [
+            "DRM",
+            "PCOM",
+            "PCCM",
+            "GM"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "Q22. How many times is WTT issued in a year ?",
+        options: [
+            "1",
+            "2",
+            "4",
+            "6"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q23. WTT is issued separately for?",
+        options: [
+            "Section",
+            "Division",
+            "Zone",
+            "Station"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "Q24. ACP is means of communication between passenger and ?",
+        options: [
+            "Station",
+            "Section controller",
+            "Crew",
+            "Sr DOM"
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "Q25. L in LVCD is ?",
+        options: [
+            "Least",
+            "Low",
+            "Last",
+            "Light"
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "Q26. B in BPAC is ?",
+        options: [
+            "Brake",
+            "Block",
+            "Bang",
+            "nan"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "Q27. S in SWR is ?",
+        options: [
+            "Safe",
+            "Signal",
+            "Station",
+            "Section"
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "Q28. B in BLW is?",
+        options: [
+            "Blow",
+            "Bell",
+            "Block",
+            "Blast"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q29. CRS works under the ministry of ?",
+        options: [
+            "Railways",
+            "Civil aviation",
+            "Shipping",
+            "Home"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "Q30. M in MPS stands for ? +1",
+        options: [
+            "Maximum",
+            "Micro",
+            "Major",
+            "Most"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q31. Validity of SWR in years is ?",
+        options: [
+            "3",
+            "4",
+            "5",
+            "2"
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "Q32. T/409 form is ?",
+        options: [
+            "Shunting order",
+            "Caution order",
+            "Brake certificate",
+            "nan"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "Q33. What is T369(3b) ?",
+        options: [
+            "Signal failure memo",
+            "Station diary",
+            "Authority to pass defective signal",
+            "Caution order"
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "Q34. How many copies of shunting order is prepared ?",
+        options: [
+            "3",
+            "2",
+            "4",
+            "1"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q35. While exchanging alright signal, red hand singnal should be in which hand ?",
+        options: [
+            "Left",
+            "Right",
+            "Both",
+            "nan"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "Q36. Length of signal overlap in multiple aspect ?",
+        options: [
+            "180mtr",
+            "150mtr",
+            "130mtr",
+            "120mtr"
+        ],
         correctAnswer: 2
     },
     {
-        question: "B in BLW is?",
-        options: ["Blow", "Bell", "Block", "Blast"],
-        correctAnswer: 0
-    },
-    {
-        question: "CRS works under the ministry of ?",
-        options: ["Railways", "Civil aviation", "Shipping", "Home"],
+        question: "Q37. Length of block overlap in multiple aspect ?",
+        options: [
+            "120mtr",
+            "100mtr",
+            "180mtr",
+            "200mtr"
+        ],
         correctAnswer: 1
     },
     {
-        question: "M in MPS stands for ?",
-        options: ["Maximum", "Micro", "Major", "Most"],
+        question: "Q38. How many divisions are in ECR ?",
+        options: [
+            "3",
+            "4",
+            "5",
+            "6"
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "Q39. V in TVU is ?",
+        options: [
+            "Vehicle",
+            "Vision",
+            "Variation",
+            "nan"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q40. LC gate beyond last stop signal is called ?",
+        options: [
+            "Engineering gate",
+            "Traffic gate",
+            "Signal gate",
+            "nan"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q41. How many classification of LCs are there?",
+        options: [
+            "4",
+            "5",
+            "3",
+            "2"
+        ],
         correctAnswer: 0
     },
     {
-        question: "Validity of SWR in years is ?",
-        options: ["3", "4", "5", "2"],
+        question: "Q42. Special class LC has TVU greater than ?",
+        options: [
+            "10000",
+            "20000",
+            "40000",
+            "50000"
+        ],
         correctAnswer: 2
     },
     {
-        question: "T/409 form is ?",
-        options: ["Shunting order", "Caution order", "Brake certificate", "None"],
+        question: "Q43. USFD testing is done primarily for? +1",
+        options: [
+            "Coach",
+            "Rail",
+            "Wagon",
+            "Engine"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "Q44. Which of following is not a pass ?",
+        options: [
+            "Metal",
+            "Cheque",
+            "Business",
+            "Privilege"
+        ],
         correctAnswer: 1
     },
     {
-        question: "What is T369(3b) ?",
-        options: ["Signal failure memo", "Station diary", "Authority to pass defective signal", "Caution order"],
+        question: "Q45. H in HOER is ?",
+        options: [
+            "Hours",
+            "Hindi",
+            "Hindustan",
+            "Heaven"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q46. SF5 is a ?",
+        options: [
+            "Major penalty",
+            "Minor penalty",
+            "No penalty",
+            "Prize"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q47. SF11 is a ?",
+        options: [
+            "Major penalty",
+            "Minor penalty",
+            "No penalty",
+            "Prize"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "Q48. How many types of encroachments are classified by railways?",
+        options: [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
         correctAnswer: 2
     },
     {
-        question: "How many copies of shunting order is prepared ?",
-        options: ["3", "2", "4", "1"],
+        question: "Q49. Height of low level platform for BG section is ?",
+        options: [
+            ".455mtr",
+            "1mtr",
+            "2mtr",
+            "1.455mtr"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q50. Height of high level platform for BG Section is ?",
+        options: [
+            ".455mtr",
+            ".76mtr",
+            "1.76mtr",
+            "1.455mtr"
+        ],
         correctAnswer: 0
     },
     {
-        question: "While exchanging alright signal, red hand singnal should be in which hand ?",
-        options: ["Left", "Right", "Both", "None"],
-        correctAnswer: 1
+        question: "Q51. H in HAZ is ?",
+        options: [
+            "Heavy",
+            "Heat",
+            "Home",
+            "High"
+        ],
+        correctAnswer: 0
     },
     {
-        question: "Length of signal overlap in multiple aspect ?",
-        options: ["180mtr", "150mtr", "130mtr", "120mtr"],
-        correctAnswer: 3
+        question: "Q52. V in VTO is ?",
+        options: [
+            "Visibility",
+            "Violin",
+            "Vision",
+            "View"
+        ],
+        correctAnswer: -1
     },
     {
-        question: "Length of block overlap in multiple aspect ?",
-        options: ["120mtr", "100mtr", "180mtr", "200mtr"],
+        question: "Q53. General rules apply to ?",
+        options: [
+            "Concerned zones",
+            "All India railway",
+            "Only divisions",
+            "nan"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "Q54. Subsidiary rules apply to ?",
+        options: [
+            "Concerned zones",
+            "All India railway",
+            "Only divisions",
+            "nan"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q55. Day means ?",
+        options: [
+            "6.00 to 18.00",
+            "6.00 to sunset",
+            "Sunrise to 18.00",
+            "Sunrise to sunset"
+        ],
         correctAnswer: 2
     },
     {
-        question: "How many divisions are in ECR ?",
-        options: ["3", "4", "5", "6"],
+        question: "Q56. Night means ?",
+        options: [
+            "18.00 to 06.00",
+            "18.00 to sunrise",
+            "Sunset to 18.00",
+            "Sunset to sunrise"
+        ],
         correctAnswer: 2
     },
     {
-        question: "V in TVU is ?",
-        options: ["Vehicle", "Vision", "Variation", "None"],
+        question: "Q57. Fouling marks can be seen on ?",
+        options: [
+            "Track",
+            "Coach",
+            "Wagon",
+            "Loco"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q58. Fouling mark helps in avoiding which collision ? +1",
+        options: [
+            "Rear",
+            "Side",
+            "Head-on",
+            "nan"
+        ],
         correctAnswer: 0
     },
     {
-        question: "LC gate beyond last stop signal is called ?",
-        options: ["Engineering gate", "Traffic gate", "Signal gate", "None"],
+        question: "Q59. Block back is possible in ?",
+        options: [
+            "Single line section +1",
+            "Double line section",
+            "Both",
+            "nan"
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "Q60. Forward block is possible in ? +1",
+        options: [
+            "Single line section",
+            "Double line section",
+            "Both",
+            "nan"
+        ],
         correctAnswer: 0
     },
     {
-        question: "How many classification of LCs are there?",
-        options: ["4", "5", "3", "2"],
-        correctAnswer: 1
+        question: "Q61. How many types of markings are there ? +1",
+        options: [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        correctAnswer: 0
     },
     {
-        question: "Special class LC has TVU greater than ?",
-        options: ["10000", "20000", "40000", "50000"],
-        correctAnswer: 3
+        question: "Q62. Generally for how many months is forwarding note valid ? +1",
+        options: [
+            "3",
+            "6",
+            "9",
+            "12"
+        ],
+        correctAnswer: 0
     },
     {
-        question: "USFD testing is done primarily for?",
-        options: ["Coach", "Rail", "Wagon", "Engine"],
-        correctAnswer: 1
+        question: "Q63. Smoking in railway premises is prohibited under which section?",
+        options: [
+            "157",
+            "167",
+            "177",
+            "187"
+        ],
+        correctAnswer: 0
     },
     {
-        question: "Which of following is not a pass ?",
-        options: ["Metal", "Cheque", "Business", "Privilege"],
+        question: "Q64. Male passenger found in ladies compartment is punishable under ?",
+        options: [
+            "152",
+            "162",
+            "172",
+            "182"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "Q65. Travelling without ticket is prohibited under which section ?",
+        options: [
+            "45",
+            "55",
+            "65",
+            "75"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "Q66. Application for compensation due to death is made to ?",
+        options: [
+            "RCT",
+            "RRT",
+            "DBT",
+            "nan"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q67. Which of following is not a departmental train ?",
+        options: [
+            "ART",
+            "ARME",
+            "Both",
+            "nan"
+        ],
         correctAnswer: 2
     },
     {
-        question: "H in HOER is ?",
-        options: ["Hours", "Hindi", "Hindustan", "Heaven"],
+        question: "Q68. M in ARME stands for ?",
+        options: [
+            "Mile",
+            "Medical",
+            "Medium",
+            "Minister"
+        ],
         correctAnswer: 0
     },
     {
-        question: "SF5 is a ?",
-        options: ["Major penalty", "Minor penalty", "No penalty", "Prize"],
+        question: "Q69. How many systems of train operation working are there in IR ?",
+        options: [
+            "5",
+            "6",
+            "7",
+            "8"
+        ],
         correctAnswer: 0
     },
     {
-        question: "SF11 is a ?",
-        options: ["Major penalty", "Minor penalty", "No penalty", "Prize"],
+        question: "Q70. S in SLB stands for ?",
+        options: [
+            "Shunt",
+            "Station",
+            "Section",
+            "Safety"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q71. How many types of signals are there in IR ?",
+        options: [
+            "8",
+            "2",
+            "4",
+            "6"
+        ],
         correctAnswer: 1
     },
     {
-        question: "How many types of encroachments are classified by railways?",
-        options: ["1", "2", "3", "4"],
-        correctAnswer: 3
-    },
-    {
-        question: "Height of low level platform for BG section is ?",
-        options: [".455mtr", "1mtr", "2mtr", "1.455mtr"],
+        question: "Q72. What kind of signal is shunt signal ?",
+        options: [
+            "Stop",
+            "Subsidiary",
+            "Permissive",
+            "nan"
+        ],
         correctAnswer: 0
     },
     {
-        question: "Height of high level platform for BG Section is ?",
-        options: [".455mtr", ".76mtr", "1.76mtr", "1.455mtr"],
+        question: "Q73. What kind of signal is distant signal ?",
+        options: [
+            "Stop",
+            "Subsidiary",
+            "Permissive",
+            "nan"
+        ],
         correctAnswer: 1
     },
     {
-        question: "H in HAZ is ?",
-        options: ["Heavy", "Heat", "Home", "High"],
-        correctAnswer: 1
-    },
-    {
-        question: "V in VTO is ?",
-        options: ["Visibility", "Violin", "Vision", "View"],
+        question: "Q74. What is the normal aspect of distant signal ?",
+        options: [
+            "Attention",
+            "Caution",
+            "Stop",
+            "Proceed"
+        ],
         correctAnswer: 0
     },
     {
-        question: "General rules apply to ?",
-        options: ["Concerned zones", "All India railway", "Only divisions", "None"],
+        question: "Q75. What is the normal aspect of home signal ?",
+        options: [
+            "Attention",
+            "Caution",
+            "Stop",
+            "Proceed"
+        ],
         correctAnswer: 1
     },
     {
-        question: "Subsidiary rules apply to ?",
-        options: ["Concerned zones", "All India railway", "Only divisions", "None"],
-        correctAnswer: 0
-    },
-    {
-        question: "Day means ?",
-        options: ["6.00 to 18.00", "6.00 to sunset", "Sunrise to 18.00", "Sunrise to sunset"],
-        correctAnswer: 3
-    },
-    {
-        question: "Night means ?",
-        options: ["18.00 to 06.00", "18.00 to sunrise", "Sunset to 18.00", "Sunset to sunrise"],
-        correctAnswer: 3
-    },
-    {
-        question: "Fouling marks can be seen on ?",
-        options: ["Track", "Coach", "Wagon", "Loco"],
-        correctAnswer: 0
-    },
-    {
-        question: "Fouling mark helps in avoiding which collision ?",
-        options: ["Rear", "Side", "Head-on", "None"],
+        question: "Q76. What kind of signal is repeating signal ?",
+        options: [
+            "Stop",
+            "Subsidiary",
+            "Permissive",
+            "nan"
+        ],
         correctAnswer: 1
     },
     {
-        question: "Block back is possible in ?",
-        options: ["Single line section", "Double line section", "Both", "None"],
+        question: "Q77. What kind of signal is calling on signal ?",
+        options: [
+            "Stop",
+            "Subsidiary",
+            "Permissive",
+            "nan"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "Q78. What does F in FSP stand for?",
+        options: [
+            "Fog",
+            "First",
+            "Future",
+            "Fast"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q79. Which of following is a type of interlocking ?",
+        options: [
+            "Solid state",
+            "Signal state",
+            "Solid signal",
+            "nan"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q80. O in ODC stands for? +1",
+        options: [
+            "On",
+            "Out",
+            "Over",
+            "Owl"
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "Q81. I in FOIS stands for?",
+        options: [
+            "Internal",
+            "Information",
+            "Integer",
+            "nan"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "Q82. C in COA stands for ?",
+        options: [
+            "Coaching",
+            "Control",
+            "Change",
+            "Central"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "Q83. CRIS works under ministry of ?",
+        options: [
+            "IT",
+            "Science and Tech",
+            "Home",
+            "nan"
+        ],
         correctAnswer: 2
     },
     {
-        question: "Forward block is possible in ?",
-        options: ["Single line section", "Double line section", "Both", "None"],
-        correctAnswer: 1
+        question: "Q84. C in ICMS stands for?",
+        options: [
+            "Coaching",
+            "Control",
+            "Change",
+            "Central"
+        ],
+        correctAnswer: -1
     },
     {
-        question: "How many types of markings are there ?",
-        options: ["1", "2", "3", "4"],
-        correctAnswer: 1
+        question: "Q85. A in RAS stands for ?",
+        options: [
+            "Allotment",
+            "Application",
+            "Alright",
+            "nan"
+        ],
+        correctAnswer: -1
     },
     {
-        question: "Generally for how many months is forwarding note valid ?",
-        options: ["3", "6", "9", "12"],
-        correctAnswer: 1
-    },
-    {
-        question: "Smoking in railway premises is prohibited under which section?",
-        options: ["157", "167", "177", "187"],
-        correctAnswer: 1
-    },
-    {
-        question: "Male passenger found in ladies compartment is punishable under ?",
-        options: ["152", "162", "172", "182"],
-        correctAnswer: 1
-    },
-    {
-        question: "Travelling without ticket is prohibited under which section ?",
-        options: ["45", "55", "65", "75"],
-        correctAnswer: 1
-    },
-    {
-        question: "Application for compensation due to death is made to ?",
-        options: ["RCT", "RRT", "DBT", "None"],
+        question: "Q86. TSR is maintained by ?",
+        options: [
+            "AOM",
+            "SM",
+            "DRM",
+            "GM"
+        ],
         correctAnswer: 0
     },
     {
-        question: "Which of following is not a departmental train ?",
-        options: ["ART", "ARME", "Both", "None"],
-        correctAnswer: 3
-    },
-    {
-        question: "M in ARME stands for ?",
-        options: ["Mile", "Medical", "Medium", "Minister"],
-        correctAnswer: 1
-    },
-    {
-        question: "How many systems of train operation working are there in IR ?",
-        options: ["5", "6", "7", "8"],
-        correctAnswer: 1
-    },
-    {
-        question: "S in SLB stands for ?",
-        options: ["Shunt", "Station", "Section", "Safety"],
-        correctAnswer: 0
-    },
-    {
-        question: "How many types of signals are there in IR ?",
-        options: ["8", "2", "4", "6"],
+        question: "Q87. Which class of gate is busiest ?",
+        options: [
+            "A",
+            "B",
+            "Super",
+            "Special"
+        ],
         correctAnswer: 2
     },
     {
-        question: "What kind of signal is shunt signal ?",
-        options: ["Stop", "Subsidiary", "Permissive", "None"],
+        question: "Q88. E in MEMU is ?",
+        options: [
+            "Electric",
+            "End",
+            "Eleven",
+            "Elite"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q89. What is validity of CC rakes in days ?",
+        options: [
+            "10+5",
+            "20+5",
+            "30+5",
+            "40+5"
+        ],
         correctAnswer: 1
     },
     {
-        question: "What kind of signal is distant signal ?",
-        options: ["Stop", "Subsidiary", "Permissive", "None"],
+        question: "Q90. What is validity of premium rakes in days ?",
+        options: [
+            "10+3",
+            "12+3",
+            "15+3",
+            "20+3"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "Q91. Who wrote the national song of India ?",
+        options: [
+            "R N Tagore",
+            "Sardar Patel",
+            "S Mukhopadhyay",
+            "nan"
+        ],
         correctAnswer: 2
     },
     {
-        question: "What is the normal aspect of distant signal ?",
-        options: ["Attention", "Caution", "Stop", "Proceed"],
+        question: "Q92. Who won Wimbledon 2024 men singles final?",
+        options: [
+            "Alcaraz",
+            "Federer",
+            "Djokovic",
+            "nan"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q93. Who won Wimbledon 2024 women singles final ? +1",
+        options: [
+            "Barbora",
+            "Serena",
+            "Jasmine",
+            "nan"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q94. Where was Wimbledon 2024 held ?",
+        options: [
+            "Paris",
+            "Delhi",
+            "Sydney",
+            "nan"
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "Q95. Who is the vice president of India ?",
+        options: [
+            "Nitish Kumar",
+            "J Dhankar",
+            "P Patil",
+            "nan"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "Q96. Where is Olympics 2024 going to be held ?",
+        options: [
+            "Paris",
+            "Beijing",
+            "Tokyo",
+            "nan"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q97. Which country shares border with India?",
+        options: [
+            "Bhutan",
+            "Thailand",
+            "Cambodia",
+            "nan"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q98. Which state has shared boundary with Bihar ?",
+        options: [
+            "Odisha",
+            "Chhattisgarh",
+            "Assam",
+            "nan"
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "Q99. River Ganga flows through which state ?",
+        options: [
+            "Odisha",
+            "Jharkhand",
+            "MP",
+            "nan"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "Q100. Danapur division shares boundary with which division ? +1",
+        options: [
+            "Asansol",
+            "Howrah",
+            "Sealdah",
+            "nan"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q101. When was the Official Languages Act 1963 passed?",
+        options: [
+            "10th May, 1963",
+            "14th Sept, 1963",
+            "8th Mar, 1963",
+            "26th Jan, 1963"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q102. When was the Official Languages Act 1963 amended?",
+        options: [
+            "1968",
+            "1963",
+            "1967",
+            "1976"
+        ],
         correctAnswer: 1
     },
     {
-        question: "What is the normal aspect of home signal ?",
-        options: ["Attention", "Caution", "Stop", "Proceed"],
+        question: "Q103. From when did Section 3(3) of Official Languages Act come into force?",
+        options: [
+            "10th May, 1965",
+            "14th Sept, 1967",
+            "8th Mar, 1976",
+            "26th Jan, 1965"
+        ],
         correctAnswer: 2
     },
     {
-        question: "What kind of signal is repeating signal ?",
-        options: ["Stop", "Subsidiary", "Permissive", "None"],
-        correctAnswer: 2
-    },
-    {
-        question: "What kind of signal is calling on signal ?",
-        options: ["Stop", "Subsidiary", "Permissive", "None"],
+        question: "Q104. How many sections are in Official Language Act 1963?",
+        options: [
+            "7",
+            "8",
+            "9",
+            "10"
+        ],
         correctAnswer: 1
     },
     {
-        question: "What does F in FSP stand for?",
-        options: ["Fog", "First", "Future", "Fast"],
-        correctAnswer: 0
-    },
-    {
-        question: "Which of following is a type of interlocking ?",
-        options: ["Solid state", "Signal state", "Solid signal", "None"],
-        correctAnswer: 0
-    },
-    {
-        question: "O in ODC stands for?",
-        options: ["On", "Out", "Over", "Owl"],
+        question: "Q105. Members on Committee of Parliament on Official Language?",
+        options: [
+            "20",
+            "40",
+            "10",
+            "30"
+        ],
         correctAnswer: 2
     },
     {
-        question: "I in FOIS stands for?",
-        options: ["Internal", "Information", "Integer", "None"],
+        question: "Q106. Lok Sabha members on Committee of Parliament on Official Language?",
+        options: [
+            "20",
+            "15",
+            "10",
+            "30"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q107. Documents mandatory in bilingual form per Section 3(3)?",
+        options: [
+            "10",
+            "12",
+            "13",
+            "16"
+        ],
         correctAnswer: 1
     },
     {
-        question: "C in COA stands for ?",
-        options: ["Coaching", "Control", "Change", "Central"],
+        question: "Q108. When was the Committee of Parliament on Official Language constituted?",
+        options: [
+            "Jan, 1976",
+            "Sept, 1963",
+            "May, 1965",
+            "Oct, 1967"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q109. Rajya Sabha members on Committee of Parliament on Official Language?",
+        options: [
+            "20",
+            "15",
+            "10",
+            "30"
+        ],
         correctAnswer: 1
     },
     {
-        question: "CRIS works under ministry of ?",
-        options: ["IT", "Science and Tech", "Home", "None"],
-        correctAnswer: 3
-    },
-    {
-        question: "C in ICMS stands for?",
-        options: ["Coaching", "Control", "Change", "Central"],
-        correctAnswer: 0
-    },
-    {
-        question: "A in RAS stands for ?",
-        options: ["Allotment", "Application", "Alright", "None"],
-        correctAnswer: 0
-    },
-    {
-        question: "TSR is maintained by ?",
-        options: ["AOM", "SM", "DRM", "GM"],
+        question: "Q110. Year of first amendment in Official Languages Rules, 1976?",
+        options: [
+            "1976",
+            "1963",
+            "1987",
+            "1967"
+        ],
         correctAnswer: 1
     },
-    {
-        question: "Which class of gate is busiest ?",
-        options: ["A", "B", "Super", "Special"],
-        correctAnswer: 3
-    },
-    {
-        question: "E in MEMU is ?",
-        options: ["Electric", "End", "Eleven", "Elite"],
-        correctAnswer: 0
-    },
-    {
-        question: "What is validity of CC rakes in days ?",
-        options: ["10+5", "20+5", "30+5", "40+5"],
-        correctAnswer: 2
-    },
-    {
-        question: "What is validity of premium rakes in days ?",
-        options: ["10+3", "12+3", "15+3", "20+3"],
-        correctAnswer: 1
-    },
-    {
-        question: "Who wrote the national song of India ?",
-        options: ["R N Tagore", "Sardar Patel", "S Mukhopadhyay", "None"],
-        correctAnswer: 3
-    },
-    {
-        question: "Who won Wimbledon 2024 men singles final?",
-        options: ["Alcaraz", "Federer", "Djokovic", "None"],
-        correctAnswer: 0
-    },
-    {
-        question: "Who won Wimbledon 2024 women singles final ?",
-        options: ["Barbora", "Serena", "Jasmine", "None"],
-        correctAnswer: 0
-    },
-    {
-        question: "Where was Wimbledon 2024 held ?",
-        options: ["Paris", "Delhi", "Sydney", "None"],
-        correctAnswer: 3
-    },
-    {
-        question: "Who is the vice president of India ?",
-        options: ["Nitish Kumar", "J Dhankar", "P Patil", "None"],
-        correctAnswer: 1
-    },
-    {
-        question: "Where is Olympics 2024 going to be held ?",
-        options: ["Paris", "Beijing", "Tokyo", "None"],
-        correctAnswer: 0
-    },
-    {
-        question: "Which country shares border with India?",
-        options: ["Bhutan", "Thailand", "Cambodia", "None"],
-        correctAnswer: 0
-    },
-    {
-        question: "Which state has shared boundary with Bihar ?",
-        options: ["Odisha", "Chhattisgarh", "Assam", "None"],
-        correctAnswer: 3
-    },
-    {
-        question: "River Ganga flows through which state ?",
-        options: ["Odisha", "Jharkhand", "MP", "None"],
-        correctAnswer: 1
-    },
-    {
-        question: "Danapur division shares boundary with which division ?",
-        options: ["Asansol", "Howrah", "Sealdah", "None"],
-        correctAnswer: 0
-    },
-    {
-        question: "When was the Official Languages Act 1963 passed?",
-        options: ["10th May, 1963", "14th Sept, 1963", "8th Mar, 1963", "26th Jan, 1963"],
-        correctAnswer: 0
-    },
-    {
-        question: "When was the Official Languages Act 1963 amended?",
-        options: ["1968", "1963", "1967", "1976"],
-        correctAnswer: 2
-    },
-    {
-        question: "From when did Section 3(3) of Official Languages Act come into force?",
-        options: ["10th May, 1965", "14th Sept, 1967", "8th Mar, 1976", "26th Jan, 1965"],
-        correctAnswer: 3
-    },
-    {
-        question: "How many sections are in Official Language Act 1963?",
-        options: ["7", "8", "9", "10"],
-        correctAnswer: 2
-    },
-    {
-        question: "Members on Committee of Parliament on Official Language?",
-        options: ["20", "40", "10", "30"],
-        correctAnswer: 3
-    },
-    {
-        question: "Lok Sabha members on Committee of Parliament on Official Language?",
-        options: ["20", "15", "10", "30"],
-        correctAnswer: 0
-    },
-    {
-        question: "Documents mandatory in bilingual form per Section 3(3)?",
-        options: ["10", "12", "13", "16"],
-        correctAnswer: 2
-    },
-    {
-        question: "When was the Committee of Parliament on Official Language constituted?",
-        options: ["Jan, 1976", "Sept, 1963", "May, 1965", "Oct, 1967"],
-        correctAnswer: 0
-    },
-    {
-        question: "Rajya Sabha members on Committee of Parliament on Official Language?",
-        options: ["20", "15", "10", "30"],
-        correctAnswer: 2
-    },
-    {
-        question: "Year of first amendment in Official Languages Rules, 1976?",
-        options: ["1976", "1963", "1987", "1967"],
-        correctAnswer: 2
-    }
-];
+]

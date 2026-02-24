@@ -54,7 +54,7 @@ var REG_USERS = {
         password: "11111", 
         name: "John Smith", 
         photo: "img/user_1.png", 
-        exams: ['AOM23JUNE','AOM20112022_30','AOM19022023_70'] 
+        exams: ['AOM23JUNE','AOM20112022_30','AOM19022023_70', 'DPQ_GTMR_A1_70'] 
     },
     "ADMIN": { 
         password: "password", 
@@ -64,9 +64,9 @@ var REG_USERS = {
     },
     "KRISHNA": { 
         password: "ccjs", 
-        name: "Krishna", 
+        name: "Krishna Rao", 
         photo: "img/user_2.png", 
-        exams: ['generalSafetyRules'] 
+        exams: ['generalSafetyRules', 'DPQ_GTMR_A1_70'] 
     },
     "ANIL": { 
         password: "ccjs", 
