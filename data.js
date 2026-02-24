@@ -15337,6 +15337,56 @@ const DPQ_GTMR_A1_70 = [
         correctAnswer: 0
     },
     {
+        question: "When was the Official Languages Act 1963 passed?",
+        options: ["10th May, 1963", "14th Sept, 1963", "8th Mar, 1963", "26th Jan, 1963"],
+        correctAnswer: 0
+    },
+    {
+        question: "When was the Official Languages Act 1963 amended?",
+        options: ["1968", "1963", "1967", "1976"],
+        correctAnswer: 2
+    },
+    {
+        question: "From when did Section 3(3) of Official Languages Act come into force?",
+        options: ["10th May, 1965", "14th Sept, 1967", "8th Mar, 1976", "26th Jan, 1965"],
+        correctAnswer: 3
+    },
+    {
+        question: "How many sections are in Official Language Act 1963?",
+        options: ["7", "8", "9", "10"],
+        correctAnswer: 2
+    },
+    {
+        question: "Members on Committee of Parliament on Official Language?",
+        options: ["20", "40", "10", "30"],
+        correctAnswer: 3
+    },
+    {
+        question: "Lok Sabha members on Committee of Parliament on Official Language?",
+        options: ["20", "15", "10", "30"],
+        correctAnswer: 0
+    },
+    {
+        question: "Documents mandatory in bilingual form per Section 3(3)?",
+        options: ["10", "12", "13", "16"],
+        correctAnswer: 2
+    },
+    {
+        question: "When was the Committee of Parliament on Official Language constituted?",
+        options: ["Jan, 1976", "Sept, 1963", "May, 1965", "Oct, 1967"],
+        correctAnswer: 0
+    },
+    {
+        question: "Rajya Sabha members on Committee of Parliament on Official Language?",
+        options: ["20", "15", "10", "30"],
+        correctAnswer: 2
+    },
+    {
+        question: "Year of first amendment in Official Languages Rules, 1976?",
+        options: ["1976", "1963", "1987", "1967"],
+        correctAnswer: 2
+    },
+    {
         question: "How many types of signals are there in IR ?",
         options: ["8", "2", "4", "6"],
         correctAnswer: 2
@@ -15485,55 +15535,5 @@ const DPQ_GTMR_A1_70 = [
         question: "Danapur division shares boundary with which division ?",
         options: ["Asansol", "Howrah", "Sealdah", "None"],
         correctAnswer: 0
-    },
-    {
-        question: "When was the Official Languages Act 1963 passed?",
-        options: ["10th May, 1963", "14th Sept, 1963", "8th Mar, 1963", "26th Jan, 1963"],
-        correctAnswer: 0
-    },
-    {
-        question: "When was the Official Languages Act 1963 amended?",
-        options: ["1968", "1963", "1967", "1976"],
-        correctAnswer: 2
-    },
-    {
-        question: "From when did Section 3(3) of Official Languages Act come into force?",
-        options: ["10th May, 1965", "14th Sept, 1967", "8th Mar, 1976", "26th Jan, 1965"],
-        correctAnswer: 3
-    },
-    {
-        question: "How many sections are in Official Language Act 1963?",
-        options: ["7", "8", "9", "10"],
-        correctAnswer: 2
-    },
-    {
-        question: "Members on Committee of Parliament on Official Language?",
-        options: ["20", "40", "10", "30"],
-        correctAnswer: 3
-    },
-    {
-        question: "Lok Sabha members on Committee of Parliament on Official Language?",
-        options: ["20", "15", "10", "30"],
-        correctAnswer: 0
-    },
-    {
-        question: "Documents mandatory in bilingual form per Section 3(3)?",
-        options: ["10", "12", "13", "16"],
-        correctAnswer: 2
-    },
-    {
-        question: "When was the Committee of Parliament on Official Language constituted?",
-        options: ["Jan, 1976", "Sept, 1963", "May, 1965", "Oct, 1967"],
-        correctAnswer: 0
-    },
-    {
-        question: "Rajya Sabha members on Committee of Parliament on Official Language?",
-        options: ["20", "15", "10", "30"],
-        correctAnswer: 2
-    },
-    {
-        question: "Year of first amendment in Official Languages Rules, 1976?",
-        options: ["1976", "1963", "1987", "1967"],
-        correctAnswer: 2
     }
 ];
