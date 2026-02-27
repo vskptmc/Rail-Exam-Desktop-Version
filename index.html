@@ -872,7 +872,7 @@
         function renderQ() {
             const q = questions[state.idx];
             $('currentQNum').textContent = state.idx + 1;
-            $('questionText').textContent = q.question;
+            $('questionText').innerHTML = q.question;
             const cnt = $('optionsContainer'); cnt.innerHTML = '';
 
             const info = getSectionInfo(state.idx, questions.length);

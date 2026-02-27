@@ -18,19 +18,13 @@ var REG_USERS = {
         password: "yugi", 
         name: "Yugi Oh", 
         photo: "img/user_2.png", 
-        exams: ['auto', 'AOM23JUNE'] 
+        exams: ['auto', 'AOM25062023_30','AOM04082024_30']
     },
     "MULTE01": { 
         password: "teja", 
         name: "Teja M", 
         photo: "img/user_3.png", 
-        exams: ['auto', 'AOM23JUNE'] 
-    },
-    "BOVIN01": { 
-        password: "vinnu", 
-        name: "Vinnu B", 
-        photo: "img/user_1.png", 
-        exams: ['auto', 'AOM23JUNE'] 
+        exams: ['auto', 'AOM25062023_30','AOM04082024_30']
     },
     "NAGAG01": { 
         password: "gagan", 

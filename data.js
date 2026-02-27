@@ -1,5 +1,15 @@
 const generalSafetyRules = [
     {
+        question: "Which of the followings are eligible for to set-up GCTs as GCTO- <br >A. Partnership Firm <br> B. Company registered under Companies Act 2013 <br> C. Limited Liability Partnership <br> D. Registered Society/ Registered Trust <br> Choose the correct options given below-",
+        options: [
+            "A and C",
+            "A, B and D",
+            "A, B and C",
+            "A, B, C and D"
+        ],
+        correctAnswer: 3
+    },
+    {
         question: "Kinds of stations available in Indian Railways are _____.",
         options: [
             "Two",
@@ -3844,8 +3854,8 @@ const AOM20112022_30 = [
         options: [
             "DRM",
             "PHOD",
-            "nan",
-            "nan"
+            "None",
+            "None"
         ],
         correctAnswer: 0
     },
@@ -11818,7 +11828,7 @@ const AOM01062025_70 = [
         correctAnswer: 1
     },
     {
-        question: "Defective speedometer/recorder action during run? +1",
+        question: "Defective speedometer/recorder action during run?",
         options: [
             "Approved special instructions",
             "PCEE instructions",
@@ -11948,7 +11958,7 @@ const AOM01062025_70 = [
         correctAnswer: 0
     },
     {
-        question: "Employee declaring proficiency in Hindi is deemed so (T/F)? +1",
+        question: "Employee declaring proficiency in Hindi is deemed so (T/F)?",
         options: [
             "False",
             "1",
@@ -11988,7 +11998,7 @@ const AOM01062025_70 = [
         correctAnswer: -1
     },
     {
-        question: "Which state is in Region C? +1",
+        question: "Which state is in Region C?",
         options: [
             "Assam",
             "Maharashtra",
@@ -12018,7 +12028,7 @@ const AOM01062025_70 = [
         correctAnswer: 2
     },
     {
-        question: "Award scheme for Hindi poetry collection? +1",
+        question: "Award scheme for Hindi poetry collection?",
         options: [
             "Premchand",
             "Maithilisharan Gupt",
@@ -12138,7 +12148,7 @@ const AOM01062025_70 = [
         correctAnswer: -1
     },
     {
-        question: "Can TC member be Accepting Authority for same tender? +1",
+        question: "Can TC member be Accepting Authority for same tender?",
         options: [
             "1",
             "True (< 5 Cr)",
@@ -12238,7 +12248,7 @@ const AOM01062025_70 = [
         correctAnswer: 1
     },
     {
-        question: "Act in accordance with environment preservation rule? +1",
+        question: "Act in accordance with environment preservation rule?",
         options: [
             "Rule 3B(i)",
             "Rule 2",
@@ -12921,7 +12931,7 @@ const AOM04082024_30 = [
         correctAnswer: 1
     },
     {
-        question: "[Q040824_30060]: Which of the followings are eligible for to set-up GCTs as GCTO-\n A. Partnership Firm\n B. Company registered under Companies Act 2013\n C. Limited Liability Partnership\n D. Registered Society/ Registered Trust\n Choose the correct options given below-",
+        question: "[Q040824_30060]: Which of the followings are eligible for to set-up GCTs as GCTO-<br> A. Partnership Firm<br> B. Company registered under Companies Act 2013<br> C. Limited Liability Partnership<br> D. Registered Society/ Registered Trust<br> Choose the correct options given below-",
         options: [
             "A and C",
             "A, B and D",
@@ -14987,553 +14997,14371 @@ const AOM_PART_BC_90 = [
 
 const DPQ_GTMR_A1_70 = [
     {
-        question: "CC, Premium and End to End are",
-        options: ["Seats", "Brakes", "Rakes", "Handles"],
-        correctAnswer: 2
-    },
-    {
-        question: "BoxN is a type of ?",
-        options: ["Wagon", "Brake", "Seat", "Siding"],
-        correctAnswer: 0
-    },
-    {
-        question: "Coal is normally loaded in ?",
-        options: ["BoxN", "Brake", "BCN", "Seat"],
-        correctAnswer: 0
-    },
-    {
-        question: "HO is a type of?",
-        options: ["Quota", "Seat", "Weight", "Brake"],
-        correctAnswer: 0
-    },
-    {
-        question: "Wheat is normally loaded in",
-        options: ["BoxN", "BCN", "bobR", "pqrs"],
+        question: "Q1. CC, Premium and End to End are",
+        options: [
+            "Seats",
+            "Brakes",
+            "Rakes",
+            "Handles"
+        ],
         correctAnswer: 1
     },
     {
-        question: "PQRS is a?",
-        options: ["Seat", "Signal", "Brake", "Machine"],
+        question: "Q2. BoxN is a type of ?",
+        options: [
+            "Wagon",
+            "Brake",
+            "Seat",
+            "Siding"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q3. Coal is normally loaded in ?",
+        options: [
+            "BoxN",
+            "Brake",
+            "BCN",
+            "Seat"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q4. HO is a type of?",
+        options: [
+            "Quota",
+            "Seat",
+            "Weight",
+            "Brake"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q5. Wheat is normally loaded in",
+        options: [
+            "BoxN",
+            "BCN",
+            "bobR",
+            "pqrs"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "Q6. PQRS is a?",
+        options: [
+            "Seat",
+            "Signal",
+            "Brake",
+            "Machine"
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "Q7. Unimat is a ?",
+        options: [
+            "Seat",
+            "Signal",
+            "Brake",
+            "Machine"
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "Q8. Duomatic is a?",
+        options: [
+            "Seat",
+            "Signal",
+            "Brake",
+            "Machine"
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "Q9. Bscan is a ?",
+        options: [
+            "Seat",
+            "Signal",
+            "Brake",
+            "Machine"
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "Q10. HABD is a ?",
+        options: [
+            "Seat",
+            "Signal",
+            "Brake",
+            "Machine"
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "Q11. Headquater of South East Railway is at ?",
+        options: [
+            "Kolkata",
+            "Delhi",
+            "Mumbai",
+            "Chennai"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q12. Headquater of Eastern Railway is at ?",
+        options: [
+            "Kolkata",
+            "Delhi",
+            "Mumbai",
+            "Chennai"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q13. Headquater of Northern Railway is at ?",
+        options: [
+            "Kolkata",
+            "Delhi",
+            "Mumbai",
+            "Chennai"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "Q14. Headquater of North Eastern Railway is at ?",
+        options: [
+            "Kolkata",
+            "Guwahati",
+            "Mumbai",
+            "Gorakhpur"
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "Q15. Patna lies in which railway ?",
+        options: [
+            "Eastern",
+            "Western",
+            "East central",
+            "Southern"
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "Q16. Which of following is a division?",
+        options: [
+            "Sonepur",
+            "Patna",
+            "Bokaro",
+            "Tata"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q17. Which of following is a division?",
+        options: [
+            "Sonepura",
+            "Nagpur",
+            "Bokaro",
+            "Tata"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "Q18. Which of following is not a division?",
+        options: [
+            "Sonepur",
+            "Danapur",
+            "Patna",
+            "Adra"
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "Q19. Which of following is not a division?",
+        options: [
+            "Sonepur",
+            "Dhanbad",
+            "Barka",
+            "Adra"
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "Q20. East central railway lies in which state ?",
+        options: [
+            "Jharkhand",
+            "Odisha",
+            "Gujarat",
+            "Punjab"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q21. Who issues WTT ?",
+        options: [
+            "DRM",
+            "PCOM",
+            "PCCM",
+            "GM"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "Q22. How many times is WTT issued in a year ?",
+        options: [
+            "1",
+            "2",
+            "4",
+            "6"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q23. WTT is issued separately for?",
+        options: [
+            "Section",
+            "Division",
+            "Zone",
+            "Station"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "Q24. ACP is means of communication between passenger and ?",
+        options: [
+            "Station",
+            "Section controller",
+            "Crew",
+            "Sr DOM"
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "Q25. L in LVCD is ?",
+        options: [
+            "Least",
+            "Low",
+            "Last",
+            "Light"
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "Q26. B in BPAC is ?",
+        options: [
+            "Brake",
+            "Block",
+            "Bang",
+            "None"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "Q27. S in SWR is ?",
+        options: [
+            "Safe",
+            "Signal",
+            "Station",
+            "Section"
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "Q28. B in BLW is?",
+        options: [
+            "Blow",
+            "Bell",
+            "Block",
+            "Blast"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q29. CRS works under the ministry of ?",
+        options: [
+            "Railways",
+            "Civil aviation",
+            "Shipping",
+            "Home"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "Q30. M in MPS stands for ?",
+        options: [
+            "Maximum",
+            "Micro",
+            "Major",
+            "Most"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q31. Validity of SWR in years is ?",
+        options: [
+            "3",
+            "4",
+            "5",
+            "2"
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "Q32. T/409 form is ?",
+        options: [
+            "Shunting order",
+            "Caution order",
+            "Brake certificate",
+            "None"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "Q33. What is T369(3b) ?",
+        options: [
+            "Signal failure memo",
+            "Station diary",
+            "Authority to pass defective signal",
+            "Caution order"
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "Q34. How many copies of shunting order is prepared ?",
+        options: [
+            "3",
+            "2",
+            "4",
+            "1"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q35. While exchanging alright signal, red hand singnal should be in which hand ?",
+        options: [
+            "Left",
+            "Right",
+            "Both",
+            "None"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "Q36. Length of signal overlap in multiple aspect ?",
+        options: [
+            "180mtr",
+            "150mtr",
+            "130mtr",
+            "120mtr"
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "Q37. Length of block overlap in multiple aspect ?",
+        options: [
+            "120mtr",
+            "100mtr",
+            "180mtr",
+            "200mtr"
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "Q38. How many divisions are in ECR ?",
+        options: [
+            "3",
+            "4",
+            "5",
+            "6"
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "Q39. V in TVU is ?",
+        options: [
+            "Vehicle",
+            "Vision",
+            "Variation",
+            "None"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q40. LC gate beyond last stop signal is called ?",
+        options: [
+            "Engineering gate",
+            "Traffic gate",
+            "Signal gate",
+            "None"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q41. How many classification of LCs are there?",
+        options: [
+            "4",
+            "5",
+            "3",
+            "2"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "Q42. Special class LC has TVU greater than ?",
+        options: [
+            "10000",
+            "20000",
+            "40000",
+            "50000"
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "Q43. USFD testing is done primarily for?",
+        options: [
+            "Coach",
+            "Rail",
+            "Wagon",
+            "Engine"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "Q44. Which of following is not a pass ?",
+        options: [
+            "Metal",
+            "Cheque",
+            "Business",
+            "Privilege"
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "Q45. H in HOER is ?",
+        options: [
+            "Hours",
+            "Hindi",
+            "Hindustan",
+            "Heaven"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q46. SF5 is a ?",
+        options: [
+            "Major penalty",
+            "Minor penalty",
+            "No penalty",
+            "Prize"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q47. SF11 is a ?",
+        options: [
+            "Major penalty",
+            "Minor penalty",
+            "No penalty",
+            "Prize"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "Q48. How many types of encroachments are classified by railways?",
+        options: [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "Q49. Height of low level platform for BG section is ?",
+        options: [
+            ".455mtr",
+            "1mtr",
+            "2mtr",
+            "1.455mtr"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q50. Height of high level platform for BG Section is ?",
+        options: [
+            ".455mtr",
+            ".76mtr",
+            "1.76mtr",
+            "1.455mtr"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "Q51. H in HAZ is ?",
+        options: [
+            "Heavy",
+            "Heat",
+            "Home",
+            "High"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "Q52. V in VTO is ?",
+        options: [
+            "Visibility",
+            "Violin",
+            "Vision",
+            "View"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q53. General rules apply to ?",
+        options: [
+            "Concerned zones",
+            "All India railway",
+            "Only divisions",
+            "None"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "Q54. Subsidiary rules apply to ?",
+        options: [
+            "Concerned zones",
+            "All India railway",
+            "Only divisions",
+            "None"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q55. Day means ?",
+        options: [
+            "6.00 to 18.00",
+            "6.00 to sunset",
+            "Sunrise to 18.00",
+            "Sunrise to sunset"
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "Q56. Night means ?",
+        options: [
+            "18.00 to 06.00",
+            "18.00 to sunrise",
+            "Sunset to 18.00",
+            "Sunset to sunrise"
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "Q57. Fouling marks can be seen on ?",
+        options: [
+            "Track",
+            "Coach",
+            "Wagon",
+            "Loco"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q58. Fouling mark helps in avoiding which collision ?",
+        options: [
+            "Rear",
+            "Side",
+            "Head-on",
+            "None"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "Q59. Block back is possible in ?",
+        options: [
+            "Single line section",
+            "Double line section",
+            "Both",
+            "None"
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "Q60. Forward block is possible in ?",
+        options: [
+            "Single line section",
+            "Double line section",
+            "Both",
+            "None"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "Q61. How many types of markings are there ?",
+        options: [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "Q62. Generally for how many months is forwarding note valid ?",
+        options: [
+            "3",
+            "6",
+            "9",
+            "12"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "Q63. Smoking in railway premises is prohibited under which section?",
+        options: [
+            "157",
+            "167",
+            "177",
+            "187"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "Q64. Male passenger found in ladies compartment is punishable under ?",
+        options: [
+            "152",
+            "162",
+            "172",
+            "182"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "Q65. Travelling without ticket is prohibited under which section ?",
+        options: [
+            "45",
+            "55",
+            "65",
+            "75"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "Q66. Application for compensation due to death is made to ?",
+        options: [
+            "RCT",
+            "RRT",
+            "DBT",
+            "None"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q67. Which of following is not a departmental train ?",
+        options: [
+            "ART",
+            "ARME",
+            "Both",
+            "None"
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "Q68. M in ARME stands for ?",
+        options: [
+            "Mile",
+            "Medical",
+            "Medium",
+            "Minister"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "Q69. How many systems of train operation working are there in IR ?",
+        options: [
+            "5",
+            "6",
+            "7",
+            "8"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "Q70. S in SLB stands for ?",
+        options: [
+            "Shunt",
+            "Station",
+            "Section",
+            "Safety"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q71. How many types of signals are there in IR ?",
+        options: [
+            "8",
+            "2",
+            "4",
+            "6"
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "Q72. What kind of signal is shunt signal ?",
+        options: [
+            "Stop",
+            "Subsidiary",
+            "Permissive",
+            "None"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "Q73. What kind of signal is distant signal ?",
+        options: [
+            "Stop",
+            "Subsidiary",
+            "Permissive",
+            "None"
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "Q74. What is the normal aspect of distant signal ?",
+        options: [
+            "Attention",
+            "Caution",
+            "Stop",
+            "Proceed"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "Q75. What is the normal aspect of home signal ?",
+        options: [
+            "Attention",
+            "Caution",
+            "Stop",
+            "Proceed"
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "Q76. What kind of signal is repeating signal ?",
+        options: [
+            "Stop",
+            "Subsidiary",
+            "Permissive",
+            "None"
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "Q77. What kind of signal is calling on signal ?",
+        options: [
+            "Stop",
+            "Subsidiary",
+            "Permissive",
+            "None"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "Q78. What does F in FSP stand for?",
+        options: [
+            "Fog",
+            "First",
+            "Future",
+            "Fast"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q79. Which of following is a type of interlocking ?",
+        options: [
+            "Solid state",
+            "Signal state",
+            "Solid signal",
+            "None"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q80. O in ODC stands for?",
+        options: [
+            "On",
+            "Out",
+            "Over",
+            "Owl"
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "Q81. I in FOIS stands for?",
+        options: [
+            "Internal",
+            "Information",
+            "Integer",
+            "None"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "Q82. C in COA stands for ?",
+        options: [
+            "Coaching",
+            "Control",
+            "Change",
+            "Central"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "Q83. CRIS works under ministry of ?",
+        options: [
+            "IT",
+            "Science and Tech",
+            "Home",
+            "None"
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "Q84. C in ICMS stands for?",
+        options: [
+            "Coaching",
+            "Control",
+            "Change",
+            "Central"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q85. A in RAS stands for ?",
+        options: [
+            "Allotment",
+            "Application",
+            "Alright",
+            "None"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q86. TSR is maintained by ?",
+        options: [
+            "AOM",
+            "SM",
+            "DRM",
+            "GM"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "Q87. Which class of gate is busiest ?",
+        options: [
+            "A",
+            "B",
+            "Super",
+            "Special"
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "Q88. E in MEMU is ?",
+        options: [
+            "Electric",
+            "End",
+            "Eleven",
+            "Elite"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q89. What is validity of CC rakes in days ?",
+        options: [
+            "10+5",
+            "20+5",
+            "30+5",
+            "40+5"
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "Q90. What is validity of premium rakes in days ?",
+        options: [
+            "10+3",
+            "12+3",
+            "15+3",
+            "20+3"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "Q91. Who wrote the national song of India ?",
+        options: [
+            "R N Tagore",
+            "Sardar Patel",
+            "S Mukhopadhyay",
+            "None"
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "Q92. Who won Wimbledon 2024 men singles final?",
+        options: [
+            "Alcaraz",
+            "Federer",
+            "Djokovic",
+            "None"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q93. Who won Wimbledon 2024 women singles final ?",
+        options: [
+            "Barbora",
+            "Serena",
+            "Jasmine",
+            "None"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q94. Where was Wimbledon 2024 held ?",
+        options: [
+            "Paris",
+            "Delhi",
+            "Sydney",
+            "None"
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "Q95. Who is the vice president of India ?",
+        options: [
+            "Nitish Kumar",
+            "J Dhankar",
+            "P Patil",
+            "None"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "Q96. Where is Olympics 2024 going to be held ?",
+        options: [
+            "Paris",
+            "Beijing",
+            "Tokyo",
+            "None"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q97. Which country shares border with India?",
+        options: [
+            "Bhutan",
+            "Thailand",
+            "Cambodia",
+            "None"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q98. Which state has shared boundary with Bihar ?",
+        options: [
+            "Odisha",
+            "Chhattisgarh",
+            "Assam",
+            "None"
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "Q99. River Ganga flows through which state ?",
+        options: [
+            "Odisha",
+            "Jharkhand",
+            "MP",
+            "None"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "Q100. Danapur division shares boundary with which division ?",
+        options: [
+            "Asansol",
+            "Howrah",
+            "Sealdah",
+            "None"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q101. When was the Official Languages Act 1963 passed?",
+        options: [
+            "10th May, 1963",
+            "14th Sept, 1963",
+            "8th Mar, 1963",
+            "26th Jan, 1963"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q102. When was the Official Languages Act 1963 amended?",
+        options: [
+            "1968",
+            "1963",
+            "1967",
+            "1976"
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "Q103. From when did Section 3(3) of Official Languages Act come into force?",
+        options: [
+            "10th May, 1965",
+            "14th Sept, 1967",
+            "8th Mar, 1976",
+            "26th Jan, 1965"
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "Q104. How many sections are in Official Language Act 1963?",
+        options: [
+            "7",
+            "8",
+            "9",
+            "10"
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "Q105. Members on Committee of Parliament on Official Language?",
+        options: [
+            "20",
+            "40",
+            "10",
+            "30"
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "Q106. Lok Sabha members on Committee of Parliament on Official Language?",
+        options: [
+            "20",
+            "15",
+            "10",
+            "30"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q107. Documents mandatory in bilingual form per Section 3(3)?",
+        options: [
+            "10",
+            "12",
+            "13",
+            "16"
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "Q108. When was the Committee of Parliament on Official Language constituted?",
+        options: [
+            "Jan, 1976",
+            "Sept, 1963",
+            "May, 1965",
+            "Oct, 1967"
+        ],
+        correctAnswer: -1
+    },
+    {
+        question: "Q109. Rajya Sabha members on Committee of Parliament on Official Language?",
+        options: [
+            "20",
+            "15",
+            "10",
+            "30"
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "Q110. Year of first amendment in Official Languages Rules, 1976?",
+        options: [
+            "1976",
+            "1963",
+            "1987",
+            "1967"
+        ],
+        correctAnswer: 1
+    },
+]
+
+const TRANSPORTATION_QB = [
+    {
+        question: "[TR0001]: There are ____ chapters in GRS.",
+        options: ["17", "18", "6", "14"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0002]: There are ____ Zones in Indian Railways.",
+        options: ["16", "17", "18", "14"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0003]: Wind velocity measured by_______",
+        options: ["Anemometer", "Spectrometer", "Thermometer", "Hydrometer"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0004]: Wind velocity exceed_______ train service to be stopped.",
+        options: ["51 knots/82 kmph", "40 knots/62 kmph", "72 knots/41 kmph", "41 knots/72 kmph"],
         correctAnswer: 3
     },
     {
-        question: "Unimat is a ?",
-        options: ["Seat", "Signal", "Brake", "Machine"],
+        question: "[TR0005]: Head of the Zonal Railway ______",
+        options: ["DRM", "GM", "PCSO", "PCOM"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0006]: GRS issued by ______",
+        options: ["DRM", "GM", "Railway Board", "CRS"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0007]: Head of the Division ______",
+        options: ["DRM", "GM", "PCOM", "Sr.DOM"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0008]: Head quarters of Southern Railways situated at _____",
+        options: ["Trichy", "Salem", "Chennai", "Arakkonam"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0009]: SWR is ________",
+        options: ["Station working rules", "Station working register", "South working rules", "Station working Oder rule"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0010]: GWR is ___",
+        options: ["Gate Working Rules", "Gate Working Register", "General Working Rules", "None of these"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0011]: If period of absence is ____ consecutive days or more, a fresh declaration shall be obtained.",
+        options: ["15", "5", "16", "10"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0012]: ____ number of damaged vehicle can be attached in rear of rearmost Brake Van.",
+        options: ["3", "2", "1", "4"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0013]: Information regarding VTO ______",
+        options: ["SWR", "GWR", "GRS", "VTS"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0014]: Gradients at stations are given in _____",
+        options: ["SWR", "GWR", "GRS", "None of these"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0015]: What are the stations Classifications______?",
+        options: ["A", "D & C", "A, B, C, D and Special Class", "None of these"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0016]: There are ________ kinds of signals.",
+        options: ["3", "4", "2", "6"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0017]: ON aspect means _____",
+        options: ["Danger", "Caution", "Most Restrictive", "Proceed"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0018]: What is the aspect of Distant signal at ON?",
+        options: ["Danger", "Caution", "Proceed", "Attention"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0019]: Calling ON signal is identified by ______",
+        options: ["\"G\" Marker", "\"P\" Marker", "\"C\" Marker", "\"A\" Marker plate \"C\" Marker Light"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0020]: Automatic stop signal is identified by _______",
+        options: ["\"A\" Marker plate", "\"A\" Marker Light", "\"C\" Marker", "\"A\" Marker plate \"C\" Marker Light"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0021]: Semi Automatic stop signal is identified by ______",
+        options: ["\"A\" Marker plate", "\"A\" Marker Light", "\"C\" Marker", "\"A\" Marker plate \"C\" Marker Light"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0022]: Gate Stop Signal is identified by ________",
+        options: ["\"G\" Marker", "\"P\" Marker", "\"C\" Marker", "None of these"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0023]: Colour light distant signal identified by _______",
+        options: ["\"G\" Marker", "\"P\" Marker", "\"C\" Marker", "\"A\" Marker plate \"C\" Marker Light"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0024]: Semi Automatic Gate stop signal is identified by _____",
+        options: ["\"G\" Market Plate", "\"A\" marker light", "\"G\"marker plate & \"A\" Marker light", "\"A\" Marker plate \"C\" Marker Light"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0025]: Authorised officer of Southern Railway ____",
+        options: ["PCOM", "PCSO", "GM", "AGM"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0026]: How many RRBs in Southern Railway?",
+        options: ["2", "3", "4", "5"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0027]: Types of shunting _______",
+        options: ["3", "4", "2", "6"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0028]: The speed of hand shunting shall not exceed ____ Kmph.",
+        options: ["5", "15", "10", "6"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0029]: The speed of Engine shunting shall not exceed ____ kmph.",
+        options: ["5", "15", "10", "6"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0030]: LHB means________.",
+        options: ["Linke Hofmann Busch", "Linke Half Busch", "Linke Hofmann Busch", "Linke Hofmann Bus"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0031]: Whenever wagons are stabled in running line, they shall be secured by ____ number of safety chains",
+        options: ["4", "5", "2", "6"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0032]: Whenever wagons are stabled, they shall be secured by _____ no of Skids.",
+        options: ["4", "5", "2", "6"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0033]: WLRRM means________ LHB coaches",
+        options: ["AC 2 tier", "AC 3 tier", "Guard van", "General coach"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0034]: Shunting orders form No ____",
+        options: ["T/806", "T/B 912", "T/369 (3b.", "None of these"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0035]: Whenever wagons are stabled, they shall be secured by pinning down at least ____ hand brake at each end",
+        options: ["4", "5", "6", "8"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0036]: ISMD always to be attached next to ______",
+        options: ["Engine", "Centre of the formation", "BV", "Guard van"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0037]: Gatiman Express runs between_______ & _______",
+        options: ["Nizamuddin - Mumbai", "Bangalore - Nizamuddin", "Jhansi - Nizamuddin", "Nizamuddin - Jaipur"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0038]: Silambu Express runs between_______ & _______",
+        options: ["MS - KIK", "MS - MNM", "MS - SCT", "MS -SA"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0039]: ________ signal is used for reception of train on to obstructed line.",
+        options: ["Home", "Starter", "Calling ON", "FSS"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0040]: When Hot Axle noticed in running Train, it must be stopped ______",
+        options: ["Immediately", "In next station", "Next stopping point", "None of these"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0041]: For Fog signalling, two detonators should be placed at _____ mtrs.",
+        options: ["270", "180", "600", "360"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0042]: Points should be cleaned _______ with mixture of graphite powder and Oil.",
+        options: ["Daily", "2 days once", "Once in three days", "None of these"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0043]: While receiving the train on obstructed line hand signal shall be exhibited ____ meters from the obstruction.",
+        options: ["20", "45", "180", "50"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0044]: Bulging of Axle box, Roller bearing crack, Metal sound, Smoke, Red hot fire these are symptoms of ____",
+        options: ["Brake binding", "Flat tyre", "Hot axle", "None of these"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0045]: When notice the Hot axle during night waving of _____ light left to right across the chest in a wide arc manner",
+        options: ["Red", "White", "Green", "None of these"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0046]: Waving White light as high as possible and low during night time ____",
+        options: ["Train parting signal", "Hot axle signal", "All right signal", "None of these"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0047]: BPC means _____",
+        options: ["Brake Power Certificate", "Block Competency Certificate", "Block Test Certificate", "None of these"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0048]: How many wagons in BLC set?",
+        options: ["4", "5", "6", "7"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0049]: How many coaches in a Express train in Southern Railway?",
+        options: ["24", "22", "23", "26"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0050]: Within Station Home signals, Level crossing Gates are manned by ___ staff.",
+        options: ["Traffic", "Engineering", "Commercial", "None of these"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0051]: DV mechanically means _____",
+        options: ["Damaged vehicles", "Distributor valve", "Distributor Vacuum", "None of these"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0052]: What are the effects of Flat tyre ______",
+        options: ["Rail fracture", "Derailment", "Hot axle", "None of these"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0053]: What are the effects of Brake Binding?",
+        options: ["Derailment", "Flat Tyre", "Hot axle", "None of these"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0054]: What is the speed of the train with Flat Tyre in Goods Train?",
+        options: ["50 Kmph", "40 Kmph", "75 Kmph", "MPS"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0055]: BCN means ______",
+        options: ["Bogie cover air brake", "Bogie covered vacuum", "Bogie covered transition coupling", "None of these"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0056]: BCACBM is what types of Goods Trains _____",
+        options: ["CAR loading wagon", "New modified goods", "Bogie full double car Carrier", "None of these"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0057]: BVZI is what types of Vehicle ____",
+        options: ["4 Wheeler Brake Van", "Air brake Van", "8 Wheeler Brake Van", "None of these"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0058]: How many wagons in a formation of BTPN?",
+        options: ["50 + BV", "50 + 2 BV", "49 + 2 BV", "52 + BV"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0059]: What is the type of ACCW Coach ____?",
+        options: ["AC Three Tier", "AC Two Tier", "AC Chair car", "None of these"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0060]: SLRD means _____",
+        options: ["Sleeper Coach", "Disabled person coach", "AC coach", "None of these"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0061]: RDSO situated at",
+        options: ["Mumbai", "Hyderabad", "Kolkata", "Lucknow"],
         correctAnswer: 3
     },
     {
-        question: "Duomatic is a?",
-        options: ["Seat", "Signal", "Brake", "Machine"],
+        question: "[TR0062]: RCF situated at",
+        options: ["Kapurthala", "Perambur", "Luthiyana", "Trivandrum"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0063]: RWF situated at",
+        options: ["Chennai", "Yelahanka", "Patna", "Pune"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0064]: Modern Coach Factory situated at",
+        options: ["Perambur", "Lucknow", "Raebareli", "Bangalore"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0065]: Golden Rock Workshop situated at",
+        options: ["Madurai", "Villupuram", "Salem", "Trichy"],
         correctAnswer: 3
     },
     {
-        question: "Bscan is a ?",
-        options: ["Seat", "Signal", "Brake", "Machine"],
+        question: "[TR0066]: Konkan Railway has ………stations",
+        options: ["67", "76", "36", "47"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0067]: What is the colour of Brake pipe?",
+        options: ["White", "Green", "Red", "None of these"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0068]: What is the colour of Feed pipe?",
+        options: ["White", "Green", "Red", "None of these"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0069]: Outer, Home and LSS should not be used for _____",
+        options: ["Shunting", "Reception", "Despatch", "None of these"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0070]: To normalize the ICC system after alarm chain pulled ____ handle should be used.",
+        options: ["Restarting handle", "Resetting handle", "Coupling handle", "None of these"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0071]: Normally points are set to _______ line.",
+        options: ["Straight", "Main", "Loop", "None of these"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0072]: Guard must report duty before _____ minutes.",
+        options: ["30", "45", "15", "60"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0073]: What is the normal Life of the Detonators manufactured in 2011 ____",
+        options: ["5", "7", "8", "12"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0074]: Trap point in Loop line protect __________ line.",
+        options: ["Running line", "Main Line", "Siding line", "None of these"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0075]: MRV in Chennai Division ______ & ______",
+        options: ["MS & CGL", "MAS & JTJ", "MAS & KPD", "MSB & TVT"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0076]: To start a train ______ certificate issued by SSE/JE/C&W is necessary.",
+        options: ["BCC", "BPC", "T/310", "370"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0077]: ______ Authority shall be issued during Starter signal failure",
+        options: ["T/369 (3b)", "T/370 + PHS", "T/369 (3B) + PHS", "T/369 (1) + PHS"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0078]: In Multiple aspect area the first Reception Stop signal______",
+        options: ["Distant", "Home", "Home outer", "None of these"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0079]: POH means ______",
+        options: ["In operative Hook", "Intermediate overhauling", "Periodical overhauling", "None of these"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0080]: ______number of 30 hours periodical rest in a month should be given to Guard.",
+        options: ["4", "3", "2", "5"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0081]: Sighting committee should conduct Foot plate inspection once in ___ months.",
+        options: ["4", "3", "6", "5"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0082]: Turning out time for BD special in day____ minutes.",
+        options: ["45", "30", "15", "20"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0083]: Calling ON signal is a _______",
+        options: ["Hand signal", "Main signal", "Subsidiary Signal", "None of these"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0084]: Position light shunt signal will show ____ oblique lights when it is OFF.",
+        options: ["2", "1", "No lights", "None of these"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0085]: Speed of train on turn out except under approved special instruction is ______",
+        options: ["10", "15", "45", "60"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0086]: Head Quarters of North Eastern Frontier Railway is",
+        options: ["Lucknow", "Varanasi", "Howrah", "Maligaon"],
         correctAnswer: 3
     },
     {
-        question: "HABD is a ?",
-        options: ["Seat", "Signal", "Brake", "Machine"],
+        question: "[TR0087]: In level crossings Emergency buttons are provided in the use of ___",
+        options: ["Putting back the gate signal", "Protecting the LC gate", "Stop the Road Traffic", "None of these"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0088]: Calling ON signal used for ______",
+        options: ["Point failure", "Signal failure", "Shunting", "None of these"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0089]: Dead Engine should not be attached in _____ trains.",
+        options: ["Mail / Express", "Super Fast", "Goods", "Shatabdi /Rajdhani"],
         correctAnswer: 3
     },
     {
-        question: "Headquater of South East Railway is at ?",
-        options: ["Kolkata", "Delhi", "Mumbai", "Chennai"],
-        correctAnswer: 0
+        question: "[TR0090]: Semi Automatic signal means ______",
+        options: ["Manually operated", "Automatic", "Both", "None of these"],
+        correctAnswer: 2
     },
     {
-        question: "Headquater of Eastern Railway is at ?",
-        options: ["Kolkata", "Delhi", "Mumbai", "Chennai"],
-        correctAnswer: 0
+        question: "[TR0091]: At terminal yard ______ Board will be provided.",
+        options: ["Passenger warning", "Goods warning", "Stop", "None of these"],
+        correctAnswer: 2
     },
     {
-        question: "Headquater of Northern Railway is at ?",
-        options: ["Kolkata", "Delhi", "Mumbai", "Chennai"],
+        question: "[TR0092]: What is \"D\" class gate?",
+        options: ["Manned LC", "Unmanned LC", "Interlocked LC", "Non-Interlocked LC"],
         correctAnswer: 1
     },
     {
-        question: "Headquater of North Eastern Railway is at ?",
-        options: ["Kolkata", "Guwahati", "Mumbai", "Gorakhpur"],
+        question: "[TR0093]: Day means ______",
+        options: ["From sunset to sunrise", "From sunrise to sunset", "From 19.00 hrs to 07.00 hrs", "None of these"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0094]: Line clear ticket for down direction is in form No ____",
+        options: ["T/806", "T/D1425", "T/1410", "None of these"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0095]: What should not be done after trail through?",
+        options: ["Stop the Train", "Back the Train", "Proceed the train", "None of these"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0096]: Competency certificate valid for",
+        options: ["1 years", "2 years", "3 years", "4 years"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0097]: Threshold value based on Railway property is",
+        options: ["2 Crore", "1 Crore", "2 Lakh", "1 Lakh"],
         correctAnswer: 3
     },
     {
-        question: "Patna lies in which railway ?",
-        options: ["Eastern", "Western", "East central", "Southern"],
-        correctAnswer: 2
-    },
-    {
-        question: "Which of following is a division?",
-        options: ["Sonepur", "Patna", "Bokaro", "Tata"],
+        question: "[TR0098]: Usage of Walkie Talkies in lieu of ____________ during shunting is prohibited.",
+        options: ["Hand Signals", "SPT", "Shunting order", "None of these"],
         correctAnswer: 0
     },
     {
-        question: "Which of following is a division?",
-        options: ["Sonepura", "Nagpur", "Bokaro", "Tata"],
-        correctAnswer: 1
-    },
-    {
-        question: "Which of following is not a division?",
-        options: ["Sonepur", "Danapur", "Patna", "Adra"],
-        correctAnswer: 2
-    },
-    {
-        question: "Which of following is not a division?",
-        options: ["Sonepur", "Dhanbad", "Barka", "Adra"],
-        correctAnswer: 2
-    },
-    {
-        question: "East central railway lies in which state ?",
-        options: ["Jharkhand", "Odisha", "Gujarat", "Punjab"],
+        question: "[TR0099]: Turning out time for BD special at 18 hours____ minutes.",
+        options: ["45", "30", "15", "20"],
         correctAnswer: 0
     },
     {
-        question: "Who issues WTT ?",
-        options: ["DRM", "PCOM", "PCCM", "GM"],
-        correctAnswer: 1
-    },
-    {
-        question: "How many times is WTT issued in a year ?",
-        options: ["1", "2", "4", "6"],
+        question: "[TR0100]: CBC means ______",
+        options: ["Centre Buffer coupling", "IR coupling", "Centre Ball Bearing", "None of these"],
         correctAnswer: 0
     },
     {
-        question: "WTT is issued separately for?",
-        options: ["Section", "Division", "Zone", "Station"],
+        question: "[TR0101]: For protection of a train in Absolute Block System BG, The first detonator is placed at",
+        options: ["400 mtrs", "600 mtrs", "500 mtrs", "250 mtrs"],
         correctAnswer: 1
     },
     {
-        question: "ACP is means of communication between passenger and ?",
-        options: ["Station", "Section controller", "Crew", "Sr DOM"],
+        question: "[TR0102]: Authority for shunting upto FSS in single line token area is",
+        options: ["T/ 806", "T/806+SHK", "T/806+SMT", "T/806 +ATP"],
         correctAnswer: 2
     },
     {
-        question: "L in LVCD is ?",
-        options: ["Least", "Low", "Last", "Light"],
-        correctAnswer: 2
-    },
-    {
-        question: "B in BPAC is ?",
-        options: ["Brake", "Block", "Bang", "None"],
-        correctAnswer: 1
-    },
-    {
-        question: "S in SWR is ?",
-        options: ["Safe", "Signal", "Station", "Section"],
-        correctAnswer: 2
-    },
-    {
-        question: "B in BLW is?",
-        options: ["Blow", "Bell", "Block", "Blast"],
+        question: "[TR0103]: Max. number of dead engines that may be attached to mail/exp/pass train is",
+        options: ["One", "Three", "Two", "any number"],
         correctAnswer: 0
     },
     {
-        question: "CRS works under the ministry of ?",
-        options: ["Railways", "Civil aviation", "Shipping", "Home"],
-        correctAnswer: 1
-    },
-    {
-        question: "M in MPS stands for ?",
-        options: ["Maximum", "Micro", "Major", "Most"],
-        correctAnswer: 0
-    },
-    {
-        question: "Validity of SWR in years is ?",
-        options: ["3", "4", "5", "2"],
+        question: "[TR0104]: Speed of the train over facing point at a Std-I interlocked station shall not exceed",
+        options: ["75 Kmph", "15 Kmph", "50 Kmph", "Un restricted"],
         correctAnswer: 2
     },
     {
-        question: "T/409 form is ?",
-        options: ["Shunting order", "Caution order", "Brake certificate", "None"],
-        correctAnswer: 1
-    },
-    {
-        question: "What is T369(3b) ?",
-        options: ["Signal failure memo", "Station diary", "Authority to pass defective signal", "Caution order"],
+        question: "[TR0105]: Speed of Material train shall not exceed",
+        options: ["30 Kmph", "50 Kmph", "75 Kmph", "15 Kmph"],
         correctAnswer: 2
     },
     {
-        question: "How many copies of shunting order is prepared ?",
-        options: ["3", "2", "4", "1"],
-        correctAnswer: 0
+        question: "[TR0106]: Premium BPC Valid for",
+        options: ["12+3 days originating 100%, Enroute 75%", "12+3 days originating 90%, Enroute 70%", "12+3 days originating 95%, Enroute 75%", "6000 km/30 days, 7500 km/35 days"],
+        correctAnswer: 2
     },
     {
-        question: "While exchanging alright signal, red hand singnal should be in which hand ?",
-        options: ["Left", "Right", "Both", "None"],
-        correctAnswer: 1
-    },
-    {
-        question: "Length of signal overlap in multiple aspect ?",
-        options: ["180mtr", "150mtr", "130mtr", "120mtr"],
+        question: "[TR0107]: CC rake BPC Valid for",
+        options: ["12+3 days originating 100%, Enroute 75%", "12+3 days originating 90%, Enroute 70%", "12+3 days originating 95%, Enroute 75%", "6000 km/30 days, 7500 km/35 days"],
         correctAnswer: 3
     },
     {
-        question: "Length of block overlap in multiple aspect ?",
-        options: ["120mtr", "100mtr", "180mtr", "200mtr"],
+        question: "[TR0108]: Material train BPC Valid for",
+        options: ["12+3 days originating 100%, Enroute 75%", "30 days originating 90%, Enroute 70%", "12+3 days originating 95%, Enroute 75%", "6000 km/30 days, 7500 km/35 days"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0109]: End to end BPC Valid for",
+        options: ["12+3 days originating 100%, Enroute 75%", "6000 km/30 days, 7500 km/35 days", "12+3 days originating 95%, Enroute 75%", "Source to destination"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0110]: Number of Types BPC for Coaching train.",
+        options: ["One", "Two", "Three", "Five"],
         correctAnswer: 2
     },
     {
-        question: "How many divisions are in ECR ?",
+        question: "[TR0111]: What is the foremost objective of train operations?",
+        options: ["Safety", "Punctuality", "Reliability", "Efficiency"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0112]: No. of vehicles Hand brake to be applied to detach an engine on a gradient steeper than 1 in 400 within station section is",
+        options: ["BV", "BV+6 vehicles", "BV+12 vehicles", "ALL"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0113]: Air continuity test conducted by ______ & ______",
+        options: ["TXR & SSE", "LP & ALP", "LP & Guard", "SM & LP"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0114]: Whistle code to indicate train parting is",
+        options: ["0000", "_0_ _", "000", "_0_0"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0115]: Whistle code given by the Loco Pilot, when the train cannot proceed further is due to Accident / Obstruction etc.",
+        options: ["Two short", "Four short", "Three short", "One long"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0116]: GRS contains ………Rules in ……….Chapters.",
+        options: ["344, 17", "344, 18", "354, 17", "354, 18"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0117]: Catch siding protects …………..section.",
+        options: ["Station", "Block", "Both", "None of these"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0118]: Slip sidings protects …………..section.",
+        options: ["Station", "Block", "Both", "None of these"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0119]: Number of Types of Caution orders.",
+        options: ["one", "four", "five", "None of these"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0120]: …………….Caution orders should not be Issue to guard.",
+        options: ["T/409", "T/B 409", "T/C 409", "T/D 409"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0121]: While at station, the loco pilot is to obey the orders of",
+        options: ["Guard", "SM", "LI", "SCOR"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0122]: Permanent speed restrictions are notified through",
+        options: ["WTT", "GRS", "SWR", "PTT"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0123]: Form no. for Reminder caution order is",
+        options: ["T/409", "T/A 409", "T/B 409", "T/C 409"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0124]: Under Approved special instructions at a station the speed of train on loop line may be increased upto",
+        options: ["20 kmph", "25 kmph", "30 kmph", "40 kmph"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0125]: Minimum permissible running time is calculated based on the",
+        options: ["MPS", "Booked speed", "Both a & b", "None"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0126]: The form No. for Nil Caution order is",
+        options: ["T/409", "T/A 409", "T/B 409", "T/C 409"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0127]: The train Black Diamond runs between",
+        options: ["Delhi & Kolkata", "Delhi & Madurai", "Howrah & Dhanbad", "Amristar & Mumbai"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0128]: Where Inner distant is provided, the distant signal shall be placed from FSS at a distance of",
+        options: ["1000 mts", "2000 mts", "400 mts", "1400 mts"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0129]: Yoga Express train runs from..............to...............",
+        options: ["Bandra - Ahmedabad", "Ahmedabad - Bandra", "Ahmedabad - Haridwar", "Haridwar - Ahmedabad"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0130]: Normal aspect of distant signal where inner distant is provided",
+        options: ["Danger", "Caution", "Attention", "Proceed"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0131]: The Fog signal post is placed from the outermost STOP signal at a distance of",
+        options: ["180 mtrs", "400 mtrs", "270 mtrs", "120 mtrs"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0132]: When LP wants the guard to release brakes, he shall give the following whistle code",
+        options: ["Two short", "three short", "One long one short", "two long"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0133]: IBP is treated as",
+        options: ["Block station", "Non-block station", "Spl. Class station", "None"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0134]: This Form is issued by Guard",
+        options: ["T/409", "T/609", "T/D 1425", "T/369(3b)"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0135]: This authority may be prepared by the Guard & handover to the LP to start his train from a station.",
+        options: ["T/B 602", "T/A 602", "T/C 602", "T.1408"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0136]: Subsidiary Rules are issued by",
+        options: ["CRS", "DRM", "Authorised Officer", "Railway Board"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0137]: In double line for shunting beyond LSS the authority is",
+        options: ["T/806", "Shunt key or PN", "T/806 + LSS (shunt key)", "none"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0138]: The speed of train received on an obstructed line by giving Message+ PN through SPT is",
+        options: ["10 kmph", "15 kmph", "25 kmph", "30 kmph"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0139]: During failure of shunt signal the authority issued is",
+        options: ["PHS", "T.370", "T.370+PHS", "Verbal instructions"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0140]: The form used by GDR for reporting accident to the nearest station is",
+        options: ["ACC-1", "ACC-3", "ACC-2", "ACC-4"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0141]: BSLB shall be placed in advance of FSS at a distance of",
+        options: ["400 mts", "120 mts", "180 mts", "670 mts"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0142]: At a Terminal station the Medical Relief train shall be turned out within",
+        options: ["20 mins", "15 mins", "30 mins", "25 mins"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0143]: Trial run of Medical relief train shall be conducted once in",
+        options: ["one month", "two months", "three months", "Six months"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0144]: KOPCKE siding protects ___________ section",
+        options: ["Station", "Block", "Both", "None of these"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0145]: Falling gradient steeper than 1/80. Provided ________ Siding.",
+        options: ["Catch", "Slip", "Both", "None of these"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0146]: Falling gradient steeper than 1/100. Provided ________ Siding.",
+        options: ["Catch", "Slip", "Both", "None of these"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0147]: Orientation certificate issued to Guard working in ________ area.",
+        options: ["Automatic", "Single line", "Absolute", "Double line"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0148]: _____ number of PN books supplied to Guard.",
+        options: ["4", "3", "1", "2"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0149]: _____________Station only commercial activities take place.",
+        options: ["Block", "Non- Block", "class A", "class B"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0150]: The Rajdhani Express connecting with ______________Capital to National Capital.",
+        options: ["State", "Center", "Chennai", "None of these"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0151]: Train 18 has been manufactured by",
+        options: ["RCF", "ICF", "DRDO", "RDSO"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0152]: 360 degree Rotating seats available in",
+        options: ["Super fast trains", "Express trains", "Train 18", "MEMU"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0153]: \"National Academy of Indian Railways\" situated at",
+        options: ["New Delhi", "Mumbai", "Kolkata", "Vadodara"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0154]: Minister of Railways Shri. Piyush Goyal announced the name …………..for Train 18.",
+        options: ["Vande Bharat exp.", "Swachh Bharat exp.", "Clean India exp.", "Green India exp."],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0155]: \"Diesel Loco Modernisation Works\" situated at",
+        options: ["Chittaranjan", "Patiala", "Varanasi", "Chennai"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0156]: Diesel Locomotive Works situated at",
+        options: ["Chittaranjan", "Patiala", "Varanasi", "Chennai"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0157]: ICF situated at",
+        options: ["Tambaram", "Guindy", "Arakkonam", "Perambur"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0158]: Tejas Express runs between ________in Southern Railway.",
+        options: ["MS-MDU", "MS-TPJ", "MS-DG", "MS-TN"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0159]: Tejas Express stops at _______ between Chennai Egmore and Madurai.",
+        options: ["VM &TPJ", "TPJ & KQN", "TPJ & DG", "VRI & TPJ"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0160]: The first service of Antyodaya Express inaugurated between",
+        options: ["TBM-NCJ", "TBM-TEN", "ERS-HWH", "MAS-NZM"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0161]: The ______ Trains have only General Coaches.",
+        options: ["Double decker", "Tejas", "Duronto", "Antyodaya"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0162]: Humsafar Express is a fully AC …….. service.",
+        options: ["3 tier", "2 tier", "1 tier", "CC"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0163]: Which one of the following train is Double decker?",
+        options: ["Humsafar", "Uday", "Rajdhani", "Shatabdi"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0164]: Which one of the following wagons used for Automobile loading?",
+        options: ["BCN", "BOSTN", "NMG", "BOXN"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0165]: Which one of the following is not tanker type wagon?",
+        options: ["BTPN", "BTPGLN", "BTLFN", "BLCA"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0166]: Bullet Train will be started in India in collaboration with",
+        options: ["Japan", "China", "Russia", "Mexico"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0167]: Head Quarters of West Central Railway is",
+        options: ["Bhopal", "Jabalpur", "Kota", "Jaipur"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0168]: Head Quarters of South East Central Railway is",
+        options: ["Nagpur", "Raipur", "Bilaspur", "Mysore"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0169]: Head Quarters of South Western Railway is",
+        options: ["Bangalore", "Mysore", "Nagpur", "Hubli"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0170]: Head Quarters of East Coast Railway is",
+        options: ["Bhubaneshwar", "Sambhalpur", "Waltair", "Khurda Road"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0171]: Maximum ___ BCN can be attached in a goods train.",
+        options: ["40", "42", "44", "46"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0172]: If ___ correction is necessary a fresh SWR should be issued.",
+        options: ["6th", "5th", "4th", "7th"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0173]: Chapter V in GRS deals with _________________.",
+        options: ["Signals", "Level crossings", "Control & working of stations", "Block working"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0174]: Level crossing is dealt in chapter _____of GRS.",
+        options: ["XV", "III", "XVI", "IV"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0175]: Stations are broadly classified as ____________",
+        options: ["A & B", "C & D", "Block station & Non-block station", "none of these"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0176]: Station section available in __ class station",
+        options: ["D", "C", "B", "A"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0177]: Station warning board shall be placed _____ meters rear of Non-block station.",
+        options: ["1000", "1100", "1300", "1200"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0178]: SWR comes under Chapter ____",
+        options: ["V", "VI", "VII", "VIII"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0179]: \"OFF\" aspect means ___________of signal.",
+        options: ["Danger", "other than most restrictive aspect", "Green", "Red"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0180]: Position light shunt signal shows __________in \"OFF\" aspect.",
+        options: ["Red light", "Green light", "two inclined/oblique white lights", "White light"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0181]: _______is the in-charge of train.",
+        options: ["SM", "SSE", "ALP", "Guard"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0182]: _______is the in-charge of station.",
+        options: ["SM", "SSE", "ALP", "Guard"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0183]: Home signal is the ________ signal in multiple aspect area.",
+        options: ["last stop", "first stop", "main stop", "middle stop"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0184]: ________ means the meaning conveyed by the signal.",
+        options: ["Aspect", "Signal", "Indication", "Board"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0185]: Repeating signal in color light area is identified by ________",
+        options: ["P marker light", "P marker plate", "R marker plate", "R marker light"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0186]: The normal life of detonator manufactured after 2010 is __ years.",
+        options: ["5", "6", "4", "3"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0187]: VTO/VTP is placed ____ meters from SM office.",
+        options: ["160", "180", "200", "220"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0188]: VTO distance of 180 meters may be reduced by _________",
+        options: ["CRB", "GM", "Railway Board", "CPTM"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0189]: During fog two detonators placed at a distance of ____meters from FSS.",
+        options: ["200", "220", "180", "270"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0190]: Fog signalman should show ____ to LP of train leaving from station in single line.",
+        options: ["PHS", "stop signal", "gate signal", "red light"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0191]: Stop boards are available in _______yards.",
+        options: ["super", "terminal", "starting", "none of these"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0192]: Wherever change in system of working warning board is placed in the stem of ____",
+        options: ["LSS", "stop board", "FSS", "SM office"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0193]: What is the whistle code to be given for passing a stop signal as \"ON\" with proper authority?",
+        options: ["00", "000", "_ 0 _", "0_0"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0194]: No train is allowed to run through in ______turnout.",
+        options: ["1 in 8 ½", "1 in 8", "1 in 7", "1 in 16"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0195]: What is the height at which the normal aspect of a colour light signal is to be placed from the rail level?",
+        options: ["Approximately at 2.65 Mts", "Approximately at 3.65 Mts", "Approximately at 4.65 Mts", "Approximately at 5.65 Mts"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0196]: If FSS failed in OFF aspect station in rear to issue ________to LP.",
+        options: ["memo", "PN", "caution order", "crank handle"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0197]: If routing signals fails the other reception signal also treated as _____",
+        options: ["passed", "allowed", "stopped", "failed"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0198]: GSS fails at outside station limit _____close the gate ______ open the gate.",
+        options: ["LP, Guard", "Guard, SM", "LP, ALP", "JE, SSE"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0199]: If IBSS fails the whole section is treated as one block section and issue ____",
+        options: ["CLCT", "PLCT", "memo", "charge sheet"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0200]: ______coupler arrangement available in EMUs.",
+        options: ["IRS", "CBC", "Schaku", "LHB"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0201]: During TIC for protection one detonator at ____ meters, two detonators at ___ meters.",
+        options: ["300, 500", "300, 600", "600, 1200", "250, 500"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0202]: How many fusees will be supplied to GKs of single line section?",
+        options: ["1", "2", "3", "0"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0203]: What is the pressure to be maintained in Brake Pipe?",
+        options: ["4 Kg./ cm2", "5 Kg./ cm2", "3 Kg./ cm2", "6 Kg./ cm2"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0204]: Head Quarters of Northern Railway is",
+        options: ["Mumbai", "Pune", "Kolkata", "New Delhi"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0205]: Head Quarters of Eastern Railway is",
+        options: ["Mumbai", "Pune", "Kolkata", "New Delhi"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0206]: Head Quarters of North Central Railway is",
+        options: ["Mumbai", "Pune", "Kolkata", "Allahabad"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0207]: Head Quarters of South Central Railway is",
+        options: ["Secundrabad", "Pune", "Kolkata", "New Delhi"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0208]: Head Quarters of East Central Railway is",
+        options: ["Mumbai", "Hajipur", "Kolkata", "New Delhi"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0209]: Head Quarters of North Western Railway is",
+        options: ["Jaipur", "Hajipur", "Kolkata", "New Delhi"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0210]: Head Quarters of North Eastern Railway is",
+        options: ["Mumbai", "Hajipur", "Khorakpur", "New Delhi"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0211]: Head Quarters of South Eastern Railway is",
+        options: ["Mumbai", "Hajipur", "Garden Reach, Kolkata", "New Delhi"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0212]: NIL Caution Order is in form",
+        options: ["T409", "T/A409", "T/B409", "T/C409"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0213]: Which Caution order should not be given to Guard?",
+        options: ["T/409", "T/A 409", "T/B 409", "T/C 409"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0214]: \"Guard Certificate\" called as",
+        options: ["A Certificate", "B Certificate", "C Certificate", "D Certificate"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0215]: Guard Certificate has ___ foils.",
+        options: ["3", "4", "2", "5"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0216]: Accounts copy of Guards Certificate must be submitted to accounts office at the ____ of the month.",
+        options: ["beginning", "end", "middle", "none of these"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0217]: India's fastest train",
+        options: ["Suvidha SF", "Sabari spl.", "Gatiman exp.", "Rajdhani exp."],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0218]: India's longest train in terms of distance & travel time",
+        options: ["MAS-NZM", "TN-OKHA", "JAT-BDTS", "CAPE-DBRG"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0219]: How many Railway Recruitment Boards are there in India?",
+        options: ["21", "22", "23", "24"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0220]: Which is the longest Railway zone in India?",
+        options: ["Southern Railway", "Northern Railway", "Western Railway", "Eastern Railway"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0221]: In which rail region did the automatic signal system start?",
+        options: ["Southern Railway", "Central Railway", "Western Railway", "Eastern Railway"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0222]: First tourist rail in India is",
+        options: ["Maharaja exp.", "Palace on wheels", "Uday exp.", "Train 18"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0223]: \"Palace on wheels\" started in the year",
+        options: ["1980", "1981", "1982", "1983"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0224]: \"Deen Dayalu\" coaches are",
+        options: ["Sleeper coach", "Reserved coach", "AC coach", "Un-reserved coach"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0225]: \"Signals\" fall under chapter ______ of GRS.",
+        options: ["VI", "V", "IV", "III"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0226]: \"System of working\" falls under chapter ______ of GRS.",
+        options: ["VII", "V", "IV", "III"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0227]: Sampark kranti Express in Tamilnadu runs between",
+        options: ["NDLS-MAS", "NZM-MDU", "MDU-NDLS", "SC-CAPE"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0228]: Thirukkural SF express runs between",
+        options: ["NDLS-MAS", "NZM-MDU", "NZM-CAPE", "SC-CAPE"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0229]: Bullet Train in India proposed between",
+        options: ["Mumbai-Delhi", "Delhi-Kolkata", "Mumbai-Allahabad", "Mumbai-Ahmedabad"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0230]: Heritage special ran between ________ stations during 2019 in Chennai Division.",
+        options: ["MS-MKK", "MS-TBM", "MS-MSB", "MS-PV"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0231]: CAMTECH is situated at",
+        options: ["Delhi", "Gwalior", "Allahabad", "Chennai"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0232]: CAMTECH was started under the administrative control of ______",
+        options: ["RLDA", "CRIS", "RDSO", "DRDO"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0233]: How many RCTs are available in the jurisdiction of Southern Railway?",
+        options: ["8", "6", "4", "2"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0234]: SPART available in Southern Railway",
+        options: ["MAS & SRR", "MAS & TOK", "MAS-OML", "MAS-PADL"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0235]: An accident will be termed as serious accident when the loss of Railway property is more than__",
+        options: ["1 Crore", "2 Crore", "3 Crore", "4 Crore"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0236]: Lengthiest rail route for circular train in our Railway is",
+        options: ["TVT-TVT", "MS-MS", "MAS-MAS", "MSB-MSB"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0237]: What is the Train number of Circular Train in MAS division?",
+        options: ["66041", "40900", "both a & b", "none of these"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0238]: Single line section in MAS division is",
+        options: ["CGL-AJJ", "CGL-VM", "AJJ-RU", "MSB-MS"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0239]: Jan Shatabdi express in our division runs between",
+        options: ["MS-NCJ", "CBE-MAS", "MAS-BZA", "MAS-TVC"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0240]: Vande Bharat express runs between",
+        options: ["New Delhi-Allahabad", "New Delhi-Varanasi", "New Delhi-Trivandrum", "New Delhi-Kolkata"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0241]: Major commodity in Madras division is",
+        options: ["Iron & Steel", "Water", "Automobile", "Coal"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0242]: Container Loading in Madras division at",
+        options: ["TNPM", "TRL", "JTJ", "KPD"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0243]: In-motion weigh bridge in our division available at",
+        options: ["KPD", "RPM", "AJJ", "TRL"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0244]: Ballast loading in our division at",
+        options: ["Mukundarayapurm", "Walajah Road", "Thalangai", "Kadpadi"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0245]: Automobile loading in our division at",
+        options: ["Mukundarayapurm", "Walajah Road", "Thalangai", "Walajabad"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0246]: Chapter 11 of GRS related to",
+        options: ["The Pilot Guard System", "Block Working", "Preliminary", "Miscellaneous"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0247]: Chapter 14 of GRS related to",
+        options: ["The Pilot Guard System", "Block Working", "Preliminary", "Miscellaneous"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0248]: Chapter 8 of GRS related to",
+        options: ["The Pilot Guard System", "Block Working", "Absolute Block System", "Miscellaneous"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0249]: Chapter 9 of GRS related to",
+        options: ["The Pilot Guard System", "Block Working", "Absolute Block System", "Automatic Block System"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0250]: Starting permit form number is ____",
+        options: ["T/310", "T/370", "T/320", "T/360"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0251]: Block Ticket number is____",
+        options: ["T/A 602", "T/J 602", "T/B 602", "T/H 602"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0252]: What is the expansion of CTR with respect to Track?",
+        options: ["Combined Track Removal", "Complete Track Removal", "Complete Track Renewal", "Complete Track Repair"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0253]: During hand shunting of wagons, number of persons not less than __ shall accompany.",
+        options: ["2", "3", "1", "4"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0254]: What do you mean by \"Anemometer\"?",
+        options: ["device used to measure wind velocity", "device used to measure wind speed", "device used to measure wind diameter", "device used to measure wind wavelength"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0255]: Which of the following is EMU workshop?",
+        options: ["Tambaram", "Avadi", "both a & b", "none of these"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0256]: MRTS section in our division covers",
+        options: ["MSB-TBM", "MSB-VLCY", "MSB-MS", "MASS-AJJ"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0257]: Which one of the following station is Block Station between Beach and Velachery?",
+        options: ["Park Town", "Kotturpuram", "Perungudi", "Thirumailai"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0258]: IRCTC is ________ organization.",
+        options: ["Mini Ratna", "Middle ratna", "Big ratna", "Bharat Ratna"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0259]: MMTS transport system available at",
+        options: ["Kanchipuram", "Hyderabad", "Trivandrum", "Mysore"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0260]: Railway Recruitment Control Board was setup in the year",
+        options: ["1996", "1997", "1998", "1999"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0261]: Who is the chairman of Railway Recruitment Control Board?",
+        options: ["Member Traffic", "Member Mechanical", "Member Electrical", "Member Staff"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0262]: What is IRMM?",
+        options: ["India Railway Medical Manual", "India Railway Mechanical Manual", "India Railway Medical Material", "India Railway Mechanical Material"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0263]: RRCB situated at",
+        options: ["Haryana", "Delhi", "Chandigarh", "Kashmir"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0264]: RRC means?",
+        options: ["Railway Recruitment Company", "Railway Recruitment Card", "Railway Recruitment Cell", "Railway Recruitment Corporation"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0265]: How many Railway Recruitment Cell available for each Zonal Railway",
+        options: ["4", "3", "2", "1"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0266]: How many Railway Recruitment Cells are there in India?",
+        options: ["16", "18", "20", "22"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0267]: Darjeeling Himalayan Rail serves at",
+        options: ["Assam", "West Bengal", "Arunachal Pradesh", "Andhra Pradesh"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0268]: First Metro Railway in India is",
+        options: ["Mumbai", "Delhi", "Kolkata", "Chennai"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0269]: Nilgiri Mountain Railway is a",
+        options: ["Broad gauge", "Narrow gauge", "Metre gauge", "none of these"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0270]: S&T workshop in Southern Railway located at",
+        options: ["Trichy", "Madurai", "Palghat", "Podanur"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0271]: Suvidha special trains start with number",
+        options: ["8", "7", "6", "5"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0272]: MEMU trains in Southern Railway start with number",
+        options: ["8", "7", "6", "5"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0273]: Passenger trains in Southern Railway start with number",
+        options: ["8", "7", "6", "5"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0274]: Holiday special trains start with number",
+        options: ["0", "1", "2", "3"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0275]: Rajdhani Express trains start with number",
+        options: ["11", "12", "13", "14"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0276]: Indian Railways Stations Development Corporation (IRSDC) is a joint venture of",
+        options: ["IRCTC & RLDA", "IRCON & IRCTC", "IRCON & RLDA", "IRCON & CONCOR"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0277]: Which one of the following sport stadium is owned by Indian Railways?",
+        options: ["Eden Garden", "Salt Lake", "Kalinga", "Karnail singh"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0278]: Red Ribbon Express was launched in India on",
+        options: ["World AIDS day", "National Human Rights day", "Hemophilia day", "Hindi day"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0279]: Which one of the following is Hospital train?",
+        options: ["Red Ribbon express", "Lifeline express", "Sanskriti express", "Science express"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0280]: Lifeline express also called as",
+        options: ["Jeevan Maruthi exp.", "Jeevan Jothi exp.", "Jeevan Rehka exp.", "Jeevan mala exp."],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0281]: Lifeline express began in the year",
+        options: ["1988", "1989", "1990", "1991"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0282]: Lifeline express started in collaboration with _______ Ministry.",
+        options: ["Health", "Home", "Defence", "Civil aviation"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0283]: Bio-toilet system developed by ______ with Indian Railways.",
+        options: ["IRCTC", "DRDO", "IRCON", "DFCCIL"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0284]: Which of the following is engineering workshop?",
+        options: ["Basin Bridge", "Arakkonam", "Tambaram", "Avadi"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0285]: Carriage & Wagon workshop situated at",
+        options: ["Chegalpattu", "Tiruvottiyur", "Aynavaram", "Tondiarpet"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0286]: The former name of Rail Wheel Factory",
+        options: ["Wheel plant", "Axle plant", "Wheel & Axle plant", "none of these"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0287]: ICF was set in the year",
+        options: ["1950", "1952", "1954", "1955"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0288]: RCF was set in the year",
+        options: ["1984", "1985", "1986", "1987"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0289]: World's oldest running steam engine",
+        options: ["EIR-21", "EIR-22", "EIR-23", "EIR-24"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0290]: IRSS means",
+        options: ["Indian Railway Self Service", "Indian Railway Stores Service", "Indian Railway Super Service", "Indian Railway Station Service"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0291]: The former name of NAIR (National Academy of Indian Railways)",
+        options: ["Railway Member College", "Railway Officer College", "Railway Staff College", "Railway Medical College"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0292]: Railway Staff College was founded in 1930 at",
+        options: ["Chandigarh", "Delhi", "Kolkata", "Dehradun"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0293]: RPF Academy situated at",
+        options: ["Lucknow", "Delhi", "Kolkata", "Dehradun"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0294]: Indian Railway Institute of Transport Management situated at",
+        options: ["Lucknow", "Delhi", "Kolkata", "Dehradun"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0295]: Indian Railway Institute of Signal & Telecommunication Engineering situated at",
+        options: ["Lucknow", "Secunderabad", "Kolkata", "Hyderabad"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0296]: Indian Railway Institute of Electrical Engineering situated at",
+        options: ["Mumbai", "Delhi", "Nasik", "Pune"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0297]: Indian Railway Institute of Mechanical & Electrical Engineering situated at",
+        options: ["Mumbai", "Delhi", "Bangalore", "Jamalpur"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0298]: Indian Railway Institute of Civil Engineering situated at",
+        options: ["Mumbai", "Delhi", "Nasik", "Pune"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0299]: Which one of the following medical examination conducted by UPSC?",
+        options: ["IRMS", "IRSE", "IRSS", "IRMM"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0300]: Which one of the following is non-technical service recruitment through Civil Services examination conducted by UPSC?",
+        options: ["IRSE", "IRPS", "IRSEE", "IRSSE"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0301]: CRIS was established in the year",
+        options: ["1982", "1984", "1986", "1988"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0302]: CRIS is located at",
+        options: ["Lucknow", "Jhansi", "Bangalore", "Chankyapuri"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0303]: Which one of the following is IT wing of Indian Railways?",
+        options: ["CRIS", "COFMOW", "RDSO", "CORE"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0304]: CLW situated at",
+        options: ["Varanasi", "Chittaranjan", "Kapurthala", "Patiala"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0305]: Coaches manufactured at",
+        options: ["RDSO", "COFMOW", "RCF", "CRIS"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0306]: A town with two Railway Zonal Head Quarters",
+        options: ["Chennai", "Hubli", "Delhi", "Mumbai"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0307]: Nilgiri Express is running between",
+        options: ["MAS-MDU", "MAS-MTP", "MAS-TVC", "MAS-NCJ"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0308]: GRS means",
+        options: ["General Rules", "Subsidiary Rules", "Special Rules", "none"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0309]: Chittaranjan Locomotive Works in",
+        options: ["Tamil Nadu", "Bihar", "West Bengal", "Karnataka"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0310]: Sub-urban trains in Chennai start with number",
+        options: ["1", "2", "3", "4"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0311]: Research Organization in Railway is",
+        options: ["RDSO", "ICF", "RCF", "None"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0312]: Intercity express is running between",
+        options: ["MAS-SA", "MAS-CBE", "MAS-MTP", "MS-TEN"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0313]: Train which is not currently running in Southern Railway.",
+        options: ["Brindavan exp.", "Thirukkural exp.", "Vande Bharat exp.", "Pallavan exp."],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0314]: Tamil Nadu express is running between",
+        options: ["MS-NDLS", "MAS-MDU", "CAPE-NDLS", "MAS-NDLS"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0315]: WLRRM is a",
+        options: ["Generator car", "Pantry car", "First class car", "Ladies car"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0316]: WDSAC is a",
+        options: ["Bar car", "Staff car", "Power car", "Cabin car"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0317]: WDCBAC is a",
+        options: ["Bar car", "Staff car", "Power car", "Cabin car"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0318]: WDCRAC is a",
+        options: ["Bar car", "Staff car", "Restaurant car", "Cabin car"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0319]: WDSRRMAC is a",
+        options: ["Bar car", "Staff car", "Power car", "Cabin car"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0320]: Which one of the following is not Deccan Odyssey coach?",
+        options: ["WDSAC", "WDCBAC", "WDCTAC", "WGCB"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0321]: The code of AC pantry car is",
+        options: ["WCBAC", "WGCB", "WLRRM", "WLLRM"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0322]: VVM means",
+        options: ["Stone can", "Milk van", "Super van", "Collective van"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0323]: WGFCZ means",
+        options: ["Third class chair car", "Second class chair car", "First class chair car", "General car"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0324]: CT means",
+        options: ["Generator car", "Power car", "Staff car", "Tourist car"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0325]: Self propelled Tower car is",
+        options: ["RU", "RE", "RH", "RT"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0326]: Medical van is",
+        options: ["RU", "RE", "RH", "RT"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0327]: Motor cum Parcel van is",
+        options: ["RA", "VPU", "VP", "PP"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0328]: LGS is",
+        options: ["AC 2 tier", "AC 3 tier", "Second class coach", "Track car"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0329]: Which of the following is not 3 tier coach?",
+        options: ["LWSCN", "LWACCN", "LWCCN", "LWACCW"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0330]: Which of the following is not LHB coach?",
+        options: ["GSLRD", "LWSCN", "LWACCN", "LWACCW"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0331]: Which one of the following is LHB shell fitted with ICF bogie?",
+        options: ["GSLRD", "SWGFAC", "LWACCN", "LWACCW"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0332]: Detonators in Railway Safety are used",
+        options: ["To blast a bridge", "To dig a tunnel", "To protect an obstruction", "None"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0333]: How many Divisions are in the Southern Railway?",
         options: ["3", "4", "5", "6"],
-        correctAnswer: 2
-    },
-    {
-        question: "V in TVU is ?",
-        options: ["Vehicle", "Vision", "Variation", "None"],
-        correctAnswer: 0
-    },
-    {
-        question: "LC gate beyond last stop signal is called ?",
-        options: ["Engineering gate", "Traffic gate", "Signal gate", "None"],
-        correctAnswer: 0
-    },
-    {
-        question: "How many classification of LCs are there?",
-        options: ["4", "5", "3", "2"],
-        correctAnswer: 1
-    },
-    {
-        question: "Special class LC has TVU greater than ?",
-        options: ["10000", "20000", "40000", "50000"],
         correctAnswer: 3
     },
     {
-        question: "USFD testing is done primarily for?",
-        options: ["Coach", "Rail", "Wagon", "Engine"],
+        question: "[TR0334]: Which Railway station is available in the south end of India?",
+        options: ["Kanyakumari", "Tiruchendur", "Tirunelveli", "Trivandrum"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0335]: How many platforms are there at Chennai Central (Including MASS)",
+        options: ["15", "17", "16", "11"],
         correctAnswer: 1
     },
     {
-        question: "Which of following is not a pass ?",
-        options: ["Metal", "Cheque", "Business", "Privilege"],
+        question: "[TR0336]: How many platforms are there at Chennai Central (Excluding MASS)",
+        options: ["15", "16", "18", "12"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0337]: What is the new station code for Chennai Central Sub-urban terminal?",
+        options: ["MAS", "MASS", "MMCC", "MMC"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0338]: What is the old station code for Chennai Central Sub-urban terminal?",
+        options: ["MAS", "MASS", "MMCC", "MMC"],
         correctAnswer: 2
     },
     {
-        question: "H in HOER is ?",
-        options: ["Hours", "Hindi", "Hindustan", "Heaven"],
+        question: "[TR0339]: Station code for Kanchipuram is",
+        options: ["CGL", "MYP", "WJ", "CJ"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0340]: Station code for Walaja Road is",
+        options: ["WJR", "MYP", "WJ", "CJ"],
         correctAnswer: 0
     },
     {
-        question: "SF5 is a ?",
-        options: ["Major penalty", "Minor penalty", "No penalty", "Prize"],
-        correctAnswer: 0
+        question: "[TR0341]: Station code for Perani station is",
+        options: ["WJR", "MYP", "PEI", "VVN"],
+        correctAnswer: 2
     },
     {
-        question: "SF11 is a ?",
-        options: ["Major penalty", "Minor penalty", "No penalty", "Prize"],
+        question: "[TR0342]: Station code for Anuppambattu station is",
+        options: ["PON", "MYP", "MJR", "APB"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0343]: Station code for Attipattu Pudunagar is",
+        options: ["AIP", "AIPP", "MJR", "KVP"],
         correctAnswer: 1
     },
     {
-        question: "How many types of encroachments are classified by railways?",
+        question: "[TR0344]: Station code for Tambaram Sanatorium is",
+        options: ["AIP", "TBM", "TBMS", "KVP"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0345]: MCPK code stands for the station",
+        options: ["Park Town", "Chennai Park", "Chennai Fort", "Chepauk"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0346]: SPAM code stands for the station",
+        options: ["Senjipanambakkam", "Anvarthikanpettai", "Takkolam", "Olakur"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0347]: NTT code stands for the station",
+        options: ["Senjipanambakkam", "Nathapettai", "Takkolam", "Olakur"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0348]: Station code for Arakkonam West Cabin is",
+        options: ["AJJ", "AJJN", "MLPM", "AJJW"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0349]: All Drivers of Express and mail trains should run at ------ speed subject to speed restrictions.",
+        options: ["Minimum", "MAX. Permissible", "Caution", "convenient"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0350]: Slip sidings available in Chennai division in which of the following stations .",
+        options: ["Perani", "Ponpadi", "Paranur", "None of these"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0351]: Anvarthikanpettai station available between",
+        options: ["AJJ-KPD", "MAS-GPD", "RU-PUT", "CGL-CJ"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0352]: Takkolam station available between",
+        options: ["TRL-AJJ", "MAS-GPD", "RU-PUT", "CGL-AJJ"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0353]: Taduku station available between",
+        options: ["TRL-AJJ", "MAS-GPD", "RU-PUT", "CGL-CJ"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0354]: Light House station available between",
+        options: ["TRL-AJJ", "MSB-VLCY", "RU-PUT", "CGL-CJ"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0355]: Which Railway station available between Katpadi and Jolarpettai?",
+        options: ["Virinjipuram", "Elavur", "Attipattu", "Villiambakkam"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0356]: Which Railway station available between Chengalpattu and Villupuram?",
+        options: ["Virinjipuram", "Olakur", "Attipattu", "Villiambakkam"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0357]: Which Railway station available between GPD and SPE?",
+        options: ["Virinjipuram", "Olakur", "Attipattu", "Elavur"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0358]: Which Railway station available between MAS and GPD?",
+        options: ["Virinjipuram", "Olakur", "Attipattu", "Elavur"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0359]: Which cabin was removed recently in our division?",
+        options: ["PRES", "PTMS", "PAB", "PALR"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0360]: PRWS cabin called earlier as",
+        options: ["Pattabiram East", "Pattabiram West", "Pattabiram South", "Pattabiram North"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0361]: Which one of the following is Air-Brake wagon?",
+        options: ["BFR", "BTPGL", "BTPN", "None"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0362]: Which one of the following is Vaccum-Brake wagon?",
+        options: ["BFR", "BCN", "BTPN", "BRN"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0363]: Rules for conveyance of explosives and other dangerous goods are laid down in the IRCA____",
+        options: ["Green Tariff", "Red Tariff", "Blue Tariff", "Black Tariff"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0364]: The form for \"Block ticket to proceed without line clear\" is",
+        options: ["T/C 602", "T/B 602", "T/A 602", "T/J 602"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0365]: In the case of any self-propelled vehicle, such as motor coach without a trailer and unaccompanied by Guard, the duties of Guard shall devolve on the________",
+        options: ["ALP", "Assitant Guard", "Pointsman", "Loco Pilot"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0366]: Two short whistles by Loco pilot indicates______",
+        options: ["Call for Guard’s signal", "Call for Guard to come to Engine", "Approaching tunnel", "Passing stop signal at ON"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0367]: Continuous whistle by Loco pilot indicates_______",
+        options: ["Call for Guard’s signal", "Call for Guard to come to Engine", "Approaching tunnel", "Passing stop signal at ON"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0368]: One long whistle by Loco pilot indicates________",
+        options: ["Call for Guard’s signal", "Call for Guard to come to Engine", "Approaching tunnel", "Passing Automatic stop signal at ON"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0369]: \"One long one short one long one short\" whistle code indicates",
+        options: ["Fire on train", "Train parting", "Hot axle", "Flat tyre"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0370]: Form to filled by the Guard and Driver in the case of persons falling out of train is",
+        options: ["ACC-1", "ACC-2", "ACC-3", "ACC-4"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0371]: No train shall be allowed to leave a station with a red flag or an unlit red painted tail lamp by day in lieu of Tail board unless specially authorized by the_____",
+        options: ["DRM", "Sr.DOM", "Sr.DME", "PRO"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0372]: First Railway track laid down in India between_____ & ______",
+        options: ["New Delhi & Agra", "Mumbai & Kalyan", "Chennai & Trichy", "Kolkata & Korakhpur"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0373]: Roof top travelling & Foot board travelling are punishable under section _ of Indian Railway act.",
+        options: ["154", "155", "156", "157"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0374]: Which train in India covers 8 states?",
+        options: ["MAS-HWH mail", "Bombay mail", "Bangalore mail", "None of the above"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0375]: MTDM code is used for",
+        options: ["Mettur dam", "Sathanur dam", "Aliyar dam", "None of the above"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0376]: Train number 22153 is for",
+        options: ["SA-MS SF exp.", "MS-SA SF exp.", "MS-CAPE SF exp.", "CAPE-MS SF exp."],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0377]: CCRS (Chief Commissioner of Railway Safety) office at",
+        options: ["Delhi", "Mumbai", "Lucknow", "Bengaluru"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0378]: WGACCN is",
+        options: ["Sleeper coach", "AC 3 tier coach", "Chair car", "AC 2 tier coach"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0379]: WGACCW is",
+        options: ["Sleeper coach", "AC 3 tier coach", "Chair car", "AC 2 tier coach"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0380]: WGSCN is",
+        options: ["2 tier Sleeper coach", "3 tier Sleeper coach", "Chair car", "First AC coach"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0381]: Konkan Railway has _____regions.",
+        options: ["10", "6", "4", "2"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0382]: Konkan Railway serves from _______to _______",
+        options: ["Mangalore-Mumbai", "Trivandrum-Mumbai", "Goa-Rajkot", "Chennai-Mumbai"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0383]: Which Railway has more tunnels?",
+        options: ["ECOR", "SCOR", "NEFR", "Konkan Railway"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0384]: RCT in Kerala located at",
+        options: ["Trivandrum", "Palakkad", "Ernakulam", "Calicut"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0385]: Ganga Kaveri express runs between Chennai Central and ______",
+        options: ["Haldia", "Chapra", "Varanasi", "New Jalpaiguri"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0386]: BPC is issued for______",
+        options: ["Passeger trains", "Goods trains", "MEMU", "All trains"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0387]: Coach FCWAC is for",
+        options: ["First AC", "Seond AC", "First AC cum Second AC", "None of the above"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0388]: BLCA wagon is",
+        options: ["Tank wagon", "Hopper wagon", "Covered wagon", "Container wagon"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0389]: BTPN wagon is",
+        options: ["Tank wagon", "Hopper wagon", "Covered wagon", "Container wagon"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0390]: BOBYN wagon is",
+        options: ["Tank wagon", "Hopper wagon", "Covered wagon", "Container wagon"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0391]: BOXN wagon is",
+        options: ["Tank wagon", "Open wagon", "Covered wagon", "Container wagon"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0392]: BCNHL wagon is",
+        options: ["Tank wagon", "Hopper wagon", "Covered wagon", "Container wagon"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0393]: A special train popularly known as \"Hospital on Wheels\"",
+        options: ["Red Ribbon express", "Lifeline express", "Sanskriti express", "Science express"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0394]: First Double Deckor AC train plying between",
+        options: ["Pune-Mumbai", "Nasik-Mumbai", "Kalyan-Mumbai", "Goa-Mumbai"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0395]: Double Deckor train introduced in India in the year",
+        options: ["1990", "2000", "2010", "2020"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0396]: Double Deckor train runs from Chennai Central to ______",
+        options: ["Mysore", "Bangalore", "Hyderabad", "Secunderabad"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0397]: Narrow guage railway track available at",
+        options: ["Nilgiri Mountain", "Darjeeling Himalayan", "Kalka-Shimla", "Both b & c"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0398]: Which one of the following is Tourist train?",
+        options: ["Fairy Queen", "Suvidha", "Duranto", "Sabari spl."],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0399]: Which one of the following is not a Tourist train?",
+        options: ["Fairy Queen", "Suvidha", "Deccon odyssey", "Royal Rajasthan"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0400]: Which one of the following is owned & operated by IRCTC?",
+        options: ["Shatapdi", "Duronto", "Humsafar", "Maharaja exp."],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0401]: ______ train was launched by the Indian Railways in association with Rajasthan Tourism Development Corporation.",
+        options: ["Himalayan train", "Darjeeling train", "Palace on Wheels", "Nilgiri train"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0402]: \"Palace on Wheels\" started on",
+        options: ["01.01.1982", "26.01.1982", "15.08.1982", "31.12.1982"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0403]: The tourist train operated by Karnataka State Tourism Development Corporation along with Indian Railways is",
+        options: ["Palace on wheels", "Maharaja exp.", "Golden Chariot", "None of the above"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0404]: Railway Motor Van is",
+        options: ["RA", "RB", "RC", "RM"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0405]: The letter 'W' indicates in locomotives",
+        options: ["Broad guage", "Metre guage", "Narrow gauge", "None of the above"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0406]: The first letter 'Y' indicates in locomotives",
+        options: ["Broad guage", "Metre guage", "Narrow gauge", "None of the above"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0407]: The first letter 'Z' indicates in locomotives",
+        options: ["Broad guage", "Metre guage", "Narrow gauge", "None of the above"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0408]: Railway Hospital Van is",
+        options: ["RA", "RB", "RC", "RH"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0409]: Railway Store Van is",
+        options: ["RS", "RB", "RC", "RH"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0410]: RZ means",
+        options: ["Store van", "Track recorder car", "Tool van", "Accident train"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0411]: BFU wagon is",
+        options: ["Bogie Flat for Rail", "Bogie Flat Container Car", "Bogie Well Wagon", "Bogie Rail Truck Air"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0412]: Which of the following is inspection carriage?",
+        options: ["RZ", "RA", "RB", "Both b & c"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0413]: Expand IOW",
+        options: ["Inspector of Works", "Inspector of Worship", "Inspector of W-Lan", "Inspector of Worth"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0414]: Expand OSD",
+        options: ["Officer on Simple Duty", "Officer on Special Duty", "Officer on Salient Duty", "Officer on Solo Duty"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0415]: Expand PWI",
+        options: ["Point way Inspector", "Point work Inspector", "Permanent way Inspector", "Permanent work Inspector"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0416]: Expand FOB",
+        options: ["Food Over Bridge", "Fall Over Bridge", "Foot Over Basket", "Foot Over Bridge"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0417]: ______ organization doing planning, design and operational work in other countries.",
+        options: ["RITES", "RRCB", "DFCCIL", "CRIS"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0418]: Predecessor of RDSO",
+        options: ["Railway Research Centre", "Railway Testing & Research Centre", "DRDO", "RITES Ltd."],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0419]: Which of the following is/are should not be loose shunted?",
+        options: ["CBC", "Glass", "Gas", "All of the above"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0420]: Which gate is always closed?",
+        options: ["Class D", "Class C", "Class B", "Class A"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0421]: Which gate is always opened / unmanned?",
+        options: ["Class D", "Class C", "Class B", "Class A"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0422]: Special class gate TVU rating is",
+        options: ["50,000 vehicles & below", "50,000 vehicles & above", "30,000 vehicles & below", "20,000 vehicles & below"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0423]: Absolute block system in MAS division",
+        options: ["CGL-TBM", "MAS-GPD", "CGL-AJJ", "MSB-VLCY"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0424]: 0_0 whistle code indicates",
+        options: ["Token not received", "Token missed", "Wrong authority to proceed", "All of the above"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0425]: CTR form number is",
+        options: ["T.72 A", "T.73 A", "T.71 A", "T.74 A"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0426]: Guard has _____ authority with his essential equipments.",
+        options: ["T/409", "T/609", "T/D 1425", "T/369(3b)"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0427]: Complaint Book available with",
+        options: ["LP", "ALP", "AC attendant", "Guard"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0428]: Complaint book available with",
+        options: ["Gateman", "SM", "Guard", "All"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0429]: Guard's certificate should not be used at",
+        options: ["Starting station", "Source station", "Middle station", "Destination"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0430]: Accidents are classified into__ classes.",
+        options: ["15", "18", "16", "20"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0431]: Rail fracture classified as __ class accident.",
+        options: ["K", "L", "H", "G"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0432]: Breach of Block Rules classified as __ class accident.",
+        options: ["K", "L", "H", "G"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0433]: SPAD case classified as __ class accident.",
+        options: ["K", "L", "H", "G"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0434]: Failure of Electrical Equipment classified as __ class accident.",
+        options: ["K", "L", "H", "G"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0435]: Cattle Run Over falls under __ class accident.",
+        options: ["R", "L", "H", "G"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0436]: Hot Axle & Train Parting comes under __ class accident.",
+        options: ["R", "J", "H", "G"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0437]: Derailment falls under __ class accident.",
+        options: ["R", "L", "D", "G"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0438]: Fire in train classified as __ class accident.",
+        options: ["K", "L", "H", "B"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0439]: Collision falls under __ class accident.",
+        options: ["A", "L", "H", "G"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0440]: Averted Collision falls under __ class accident.",
+        options: ["A", "F", "H", "G"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0441]: Accident form used by the Reporter is",
+        options: ["ACC-4", "ACC-5", "ACC-6", "ACC-7"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0442]: Accident report form number is",
+        options: ["ACC-4", "ACC-3", "ACC-2", "ACC-1"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0443]: Form to be submitted by DRM to CSO regarding Train Parting is",
+        options: ["ACC-4", "ACC-3", "ACC-2", "ACC-1"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0444]: List of Railway Hospitals & Dispensaries available in",
+        options: ["ACC-9", "ACC-10", "ACC-11", "ACC-12"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0445]: List of non Railway Hospitals & Dispensaries available in",
+        options: ["ACC-9", "ACC-10", "ACC-11", "ACC-12"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0446]: Enquiry Report & Summary form is",
+        options: ["ACC-18", "ACC-10", "ACC-11", "ACC-12"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0447]: Maximum speed of the Material Train is",
+        options: ["60 kmph", "75 kmph", "90 kmph", "100 kmph"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0448]: Speed while dropping ballast from Material Train is",
+        options: ["10 kmph", "15 kmph", "8 kmph", "12 kmph"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0449]: In-charge of Material Train is",
+        options: ["Operating official", "Goods Guard", "OHE official", "Engineering official"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0450]: Calling on signal is ______ signal.",
+        options: ["Subsidiary", "Main", "Hand", "none"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0451]: _____ signal shows miniature yellow light in OFF aspect.",
+        options: ["Shunt", "Calling on", "LSS", "FSS"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0452]: Sounding of 2 hooters means",
+        options: ["MRV required at Home station", "MRV required at out station", "ART required at Home station", "ART required at out station"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0453]: Sounding of 3 hooters means",
+        options: ["MRV required at Home station", "MRV required at out station", "ART required at Home station", "ART required at out station"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0454]: Sounding of 4 hooters means",
+        options: ["ART & MRV required at Home station", "ART & MRV required at out station", "ART required at Home station", "ART required at out station"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0455]: Sounding of 5 hooters means",
+        options: ["ART & MRV required at Home station", "ART & MRV required at out station", "ART required at Home station", "ART required at out station"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0456]: Which one is permissive signal?",
+        options: ["Gate signal", "IBSS", "Distant signal", "Repeating signal"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0457]: Semi Automatic signal identified by",
+        options: ["A marker plate", "A-marker light", "R marker plate", "R marker light"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0458]: Automatic signal identified by",
+        options: ["A marker plate", "A-marker light", "R marker plate", "R marker light"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0459]: IBSS identified by",
+        options: ["A marker plate", "A-marker light", "IB marker plate", "R marker light"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0460]: Repeating signal in colour light territory is identified by",
+        options: ["A marker plate", "A-marker light", "R marker plate", "R marker light"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0461]: Distant cum Gate stop signal identified by",
+        options: ["A marker plate", "G marker plate", "R marker plate", "R marker light"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0462]: Semi automatic gate stop signal identified by",
+        options: ["A marker plate", "A marker light & G marker plate", "R marker plate", "G marker plate"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0463]: WTT normally will be released on every year",
+        options: ["May 1st", "June 1st", "July 1st", "July 15th"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0464]: PSR & MPS available in",
+        options: ["Accident manual", "GRS", "SWR", "WTT"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0465]: LC gate details available in",
+        options: ["Accident manual", "WTT", "Operating manual", "Sub-urban WTT"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0466]: WTT signed by",
+        options: ["PCOM, CPTM & DRM", "CPTM, CTPM & CFTM", "GM, AGM & SDGM", "Sr. DOM, Sr. DCM & Sr. DSO"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0467]: Notified stations available in",
+        options: ["Accident manual", "Sub-urban WTT", "Operating manual", "WTT"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0468]: On detecting hammering sound because of Flat Tyre, speed should not exceed __ kmph upto next station.",
+        options: ["40", "50", "60", "70"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0469]: Causes of Flat Tyre",
+        options: ["Brake binding", "Poor driving skill", "Low adhesive", "All of the above"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0470]: _____ signal has no red signal.",
+        options: ["LSS", "Distant", "Permissive", "Both b & c"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0471]: _____ signal has no green signal.",
+        options: ["Loop line starter", "Distant", "Permissive", "Advance starter/LSS"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0472]: _____ signal has no yellow signal.",
+        options: ["Advance starter/LSS", "Loop line starter", "Permissive", "FSS"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0473]: ______ board available before non-interlocked gate & curved interlocked gate.",
+        options: ["Stop", "Whistle", "Sigma", "White"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0474]: Re-starting memo should be given for",
+        options: ["Signal flew back", "Signal blank", "Signal put back", "Signal failure"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0475]: If distant signal shows green light, then home signal shows____ signal.",
+        options: ["Red", "Green", "Yellow", "Double yellow"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0476]: If distant signal shows double yellow light, then home signal shows____ signal.",
+        options: ["Red", "Green", "Single yellow", "Double yellow"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0477]: If distant signal shows single yellow light, then home signal shows____ signal.",
+        options: ["Red", "Green", "Single yellow", "Double yellow"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0478]: During accident, the target time for turning out the break down special during 6 to 18 hrs is ___",
+        options: ["10 minutes", "20 minutes", "30 minutes", "45 minutes"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0479]: During accident, the target time for turning out the break down special during 18 to 6 hrs is ___",
+        options: ["10 minutes", "20 minutes", "30 minutes", "45 minutes"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0480]: During accident, the target time for turning out the MRV from single exit siding is ___",
+        options: ["10 minutes", "25 minutes", "30 minutes", "20 minutes"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0481]: During accident, the target time for turning out the MRV from double exit siding is ___",
+        options: ["10 minutes", "25 minutes", "30 minutes", "20 minutes"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0482]: Guard & LP shall have with him while on duty with his train ___ pair of spectacles as he required to wear under medical advice.",
+        options: ["2", "3", "4", "1"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0483]: Every _____ metre has signal in Automatic block section.",
+        options: ["2 Kilo", "kilo", "0.5 kilo", "1.5 kilo"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0484]: King Knob provided in",
+        options: ["Automatic Block system", "Absolute Block system", "both a & b", "None of the above"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0485]: Colour of King Knob is",
+        options: ["Red", "Green", "White", "Yellow"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0486]: King Knob normal position means, signal works as ____",
+        options: ["Manual", "Automatic", "Both a & b", "None of the above"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0487]: King Knob reversed means, signal works as ____",
+        options: ["Manual", "Automatic", "Both a & b", "None of the above"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0488]: Divisional interchange point in our division is",
+        options: ["CGL", "TBM", "VM", "MSB"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0489]: Zonal interchange point in Southern Railway is",
+        options: ["CGL", "TBM", "VM", "GDR"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0490]: Which one of the following station is not a divisional interchange point?",
+        options: ["CGL", "RU", "KPD", "JTJ"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0491]: Which one of the following station is not a zonal interchange point?",
+        options: ["RU", "VM", "GDR", "JTJ"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0492]: Tail board/ tail lamp used to indicate staff that a train is ____",
+        options: ["goods train", "mail/exp. train", "complete", "safe"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0493]: Aspect of calling on signal at ON is _______",
+        options: ["Green", "Red", "White", "No light"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0494]: Semaphore Repeating signal shall be provided with an _____",
+        options: ["R marker light", "G marker plate", "G marker light", "R marker plate"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0495]: Liquefied gas carrying wagons required ______units support from engine, BV and passenger carrying vehicle.",
+        options: ["1", "2", "3", "4"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0496]: All points shall normally be set for the _______",
+        options: ["running line", "loopline", "straight line", "none"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0497]: Distance of visibility test object is ____",
+        options: ["500 m", "270 m", "180 m", "150 m"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0498]: In no case train shall leave the station before the time shown in ____",
+        options: ["WTT", "PTT", "GTT", "None"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0499]: On broad gauge in case of obstruction of a line the first detonator will be placed at ____m and second at ____m from the obstruction.",
+        options: ["600, 1200", "1200, 600", "400, 800", "800, 400"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0500]: The speed of the train over non-interlocked facing points shall be______",
+        options: ["MPS", "50 kmph", "30 kmph", "15 kmph"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0501]: EDPM means",
+        options: ["Electrical Data Processing Manager", "Electronic Data Processing Manager", "EMU Data Processing Manager", "None of the above"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0502]: In absolute block system with multiple aspect signalling the adequate distance required for granting line clear shall not be less than _____",
+        options: ["180 m", "270 m", "400 m", "600 m"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0503]: What is the maximum speed limit up to which the Loco Pilot can go when dense fog prevails?",
+        options: ["20 KMPH", "40 KMPH", "60 KMPH", "80 KMPH"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0504]: What is the periodicity of inspection of ARME Scale-1 by a medical officer?",
+        options: ["Once in 6 months", "Once in 3 months", "Once in 2 months", "Every month"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0505]: What is the maximum visibility required for distant signal in a Multiple Aspect territory?",
+        options: ["400 m", "600 m", "800 m", "1000 m"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0506]: What is the aspect of shunt signal at ON when fixed below the Stop signal?",
+        options: ["Caution", "No aspect", "Off aspect", "Attention"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0507]: \"By waving a white light 4 times over head from side to side\" indicates",
+        options: ["Train parting signal during day", "Train intact signal during day", "Train intact signal during night", "Train parting signal during night"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0508]: Where will the detonator be placed on the Rail during emergencies?",
+        options: ["on the Rail Table above the sleeper", "on the Rail Table below the sleeper", "on the Rail Table below the point", "on the Rail Table above the point"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0509]: Which one of the following station is a junction station?",
+        options: ["Tambaram", "Chengalpattu", "Chennai Egmore", "Chennai Central"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0510]: Which one of the following station is not a junction station?",
+        options: ["Tambaram", "Chengalpattu", "Arakkonam", "Katpadi"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0511]: Maximum sectional speed 110 KMPH is allowed in Chennai division is",
+        options: ["MAS-GDR", "MAS-JTJ", "MS-VM", "All of the above"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0512]: The chairman of Time Table Committee in zonal level is",
+        options: ["AGM", "PCSC", "PCSO", "PCOM"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0513]: In which month, a representative fusee is tested every year?",
+        options: ["April", "May", "June", "July"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0514]: The fixed stop signal of a station controlling the entry of trains into the next block section is",
+        options: ["LSS", "FSS", "Starter", "IBS"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0515]: What is the signal to be sent to the station in rear to refuse Line Clear, if Line Clear cannot be given by a SM in advance?",
+        options: ["Proceed", "Caution", "Obstruction Danger", "Attention"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0516]: How many bell codes to be given for 'Obstruction Danger' signal?",
+        options: ["2", "3", "4", "6"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0517]: What is the authority to proceed for the trains running on the Wrong Line when single line working is introduced on double line in Automatic Signalling Territory?",
+        options: ["LCT", "T/A 409", "T/609", "T/J 602"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0518]: What is the authority to be given to the Loco Pilot to the train to pass manual stop signal at 'ON' or a Semi Automatic Signal working as manual stop signal at 'ON' in the Automatic Signalling territory?",
+        options: ["T/369 (1)", "T/369 (3b)", "T/409", "T/A 602"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0519]: What shall be the clearance of the height gauge at LCs in the electrified section from the road level?",
+        options: ["2.67 m", "3.67 m", "4.67 m", "5.67 m"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0520]: What is the frequency of foot patrolling of the suburban section in the electrified territory?",
+        options: ["thrice a week", "twice a week", "Once in 15 days", "Daily"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0521]: What is the frequency of foot patrolling of the non-suburban section in the electrified territory?",
+        options: ["thrice a week", "twice a week", "Once in 15 days", "Daily"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0522]: What is the periodicity of testing of emergency telephone sockets in the section?",
+        options: ["thrice a week", "twice a week", "Every week", "Daily"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0523]: What is the minimum safety distance required for working in the vicinity of 25 KV AC live Equipment?",
+        options: [">1 meter", "< 1 meter", "< 2 meters", "> 2 meters"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0524]: What is the new innovation for prevention of collision?",
+        options: ["ACD", "LCD", "LED", "LCT"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0525]: What is the whistle code a Loco Pilot is required to give before passing Automatic Stop Signal at 'ON'?",
+        options: ["1 short whistle", "1 long whistle", "2 short whistle", "2 long whistle"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0526]: What immediate action a loco pilot shall take in case of accident to his train?",
+        options: ["Put on Flasher Light", "Switch off head light at night", "Protect the adjacent track", "All of the above"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0527]: What shall be the clearance between road surface level and the boom when the gate is closed to road traffic?",
+        options: ["0.8 to 1 m", "1.8 to 2 m", "2.8 to 3 m", "3.8 to 4 m"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0528]: What are the types of Brake Power certificates in vogue for freight trains?",
+        options: ["End to end (Vacuum)", "End to end (Air brake)", "CC rake (Air brake)", "All of the above"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0529]: How the freight train should be started / cleared from a way side station without BPC or with an invalid BPC?",
+        options: ["GDR's joint check memo", "LP's written memo", "SM's written memo", "None"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0530]: What is the periodicity of maintenance of electrical signalling equipments by JE/SSE/Signals?",
+        options: ["Once in 15 days", "Monthly", "Once in 3 months", "Twice a month"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0531]: What is the periodicity overhauling of Double Line Block instruments?",
+        options: ["3 years", "5 years", "7 years", "9 years"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0532]: What is the standard gauge of wheel on BG?",
+        options: ["1300 mm", "1400 mm", "1500 mm", "1600 mm"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0533]: What is the periodicity of examination of alarm chain in the coach?",
+        options: ["Once in 3 months", "Once in 6 months", "Once in 9 months", "Every month"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0534]: What bell code shall the Guard give to Motorman when he exceeds prescribed speed?",
+        options: ["2 pause 2", "3 pause 3", "1 pause 1", "6 bells"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0535]: What is the provision available for the Guard on the platform to know the aspect of the starter if it is not visible to him?",
+        options: ["Reset Indicator", "Stopper Indicator", "Starter Indicator", "Shunt signal"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0536]: Intensive roster staff should work ___ hours.",
+        options: ["1", "2", "4", "6"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0537]: What is the cause of flat tyre?",
+        options: ["Brake binding", "Signal failure", "Hot axle", "Corrosion"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0538]: \"All ready signal\" is an assurance for ______",
+        options: ["JE", "SM", "OS", "LP"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0539]: \"Alright signal\" is an assurance for _______",
+        options: ["JE", "SM", "OS", "LP"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0540]: What is the maximum life of fuse?",
+        options: ["3 years", "5 years", "7 years", "No time limit as long as it is effective"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0541]: What are the items required for Hand cranking of IRS type point machine?",
+        options: ["Crank handle", "Cut out key", "Lid key", "All of the above"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0542]: If a Key-man carries out emergency repairs on the rail affected by Weld Failure / Rail Fracture, What should be the speed permitted?",
+        options: ["20 KMPH", "30 KMPH", "15 KMPH", "60 KMPH"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0543]: What is the height at which speed indicator should be fixed from Rail level?",
+        options: ["1 meter", "2 meters", "1.5 meters", "3 meters"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0544]: What should be distance between Caution Indication and speed indication on the BG?",
+        options: ["800 m", "1000 m", "1200 m", "1400 m"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0545]: What is the maximum No. of men that may be carried on a trolley / motor trolley both on BG & MG respectively?",
+        options: ["10 & 8", "8 & 10", "6 & 8", "10 & 12"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0546]: LCs located outside the outermost stop signals of a station is called _______ LCs.",
+        options: ["Mechanical", "Electrical", "Traffic", "Engineering"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0547]: Those LCs inside the outermost stop signals are ________ LCs.",
+        options: ["Mechanical", "Electrical", "Traffic", "Engineering"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0548]: No. Of LAP to be accumulated by employee is",
+        options: ["260", "320", "280", "300"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0549]: Σ (Sigma) board indicates",
+        options: ["ahead of stop signal", "ahead of shunt signal", "ahead of LC", "none of the above"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0550]: What is the POH periodicity of EMU coaches?",
+        options: ["12 months", "18 months", "24 months", "36 months"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0551]: What are the forms used for Power Block?",
+        options: ["ETR 1", "ETR 2", "ETR 3", "All of the above"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0552]: Where shall the banner flag be placed during the work of short duration on the BG?",
+        options: ["600 meters", "800 meters", "300 meters", "500 meters"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0553]: How long a fusee may normally burn when ignited?",
+        options: ["5 minutes", "7 minutes", "9 minutes", "No time limit"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0554]: What is TVU?",
+        options: ["Tangent Vehicle Unit", "Train Van Unit", "Train Vehicle Unit", "Tangent Van Unit"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0555]: What is the minimum distance of gate posts from centre line of track?",
+        options: ["1 meter", "1.5 meters", "2 meters", "3 meters"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0556]: Which board is provided in rear of all places where the view of the track is obstructed by curves, cuttings or tunnels?",
+        options: ["W board", "Σ board", "WL board", "R/WL board"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0557]: What is the device available in RRI/Panel interlocked stations for uninterrupted power supply during power failure to avoid signal going blank?",
+        options: ["Generator", "Inverter / IPS", "Converter / IPS", "Plotter"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0558]: What is the maximum time required for cancellation of route initiated for a train in RRI / Panel Interlocked stations?",
+        options: ["60 Seconds", "90 seconds", "120 Seconds", "150 Seconds"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0559]: Expansion of DTCB is",
+        options: ["Daily Travel Cash Book", "Day Train Cash Book", "Daily Train Cash Book", "Daily Ticket Cash Book"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0560]: What is the size of the Plate used for obstruction test in the Point?",
+        options: ["20 mm", "15 mm", "10 mm", "5 mm"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0561]: What is the distance at which a goods warning board shall normally be placed and reckoned from which signal?",
+        options: ["1400 m from the FSS", "1400 m from the LSS", "1200 m from the FSS", "1200 m from the LSS"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0562]: An adequate distance reckoned at the trailing end for the reception of train is called",
+        options: ["Block over lap", "Signal over lap", "Both", "None"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0563]: In air brake system, which part is considered as heart of air brake?",
+        options: ["Side valve", "Brake pipe", "Feed pipe", "Distributor Valve"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0564]: What is the pressure to be maintained in Brake Pipe?",
+        options: ["3 kg./ cm2", "4 kg./ cm2", "5 kg./ cm2", "6 kg./ cm2"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0565]: What is the pressure to be maintained in Feed Pipe?",
+        options: ["3 kg./ cm2", "4 kg./ cm2", "5 kg./ cm2", "6 kg./ cm2"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0566]: What is the colour of BP air hose pipe?",
+        options: ["Green", "White", "Red", "Yellow"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0567]: What is the colour of FP air hose pipe?",
+        options: ["Green", "White", "Red", "Yellow"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0568]: How minor leakages in air brake system are arrested?",
+        options: ["With CELLO Tape", "With NYLON Tape", "With TEFFLON Tape", "With INSULATION Tape"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0569]: What is the type of air Brake System used in wagons?",
+        options: ["Two pipe system", "Double pipe system", "Single pipe system", "Twin pipe system"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0570]: e-Office in Railways was implemented by",
+        options: ["RVNL", "RDSO", "CRIS", "NIC"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0571]: IREPS means",
+        options: ["Indian Railway e-Procurement System", "Indian Railway e-Product System", "Indian Railway e-Person System", "Indian Railway e-Personnel System"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0572]: What will result if knuckle is broken in a goods train on run?",
+        options: ["Hot Axle", "Train Parting", "Derailment", "Track circuit failure"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0573]: PCDR means",
+        options: ["Personal Cheque Declaration Register", "Personal Cash Determination Register", "Personal Cash Declaration Register", "Personal Cheque Determination Register"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0574]: How many cylinders are available in coaches with bogie mounted brake system?",
         options: ["1", "2", "3", "4"],
         correctAnswer: 3
     },
     {
-        question: "Height of low level platform for BG section is ?",
-        options: [".455mtr", "1mtr", "2mtr", "1.455mtr"],
+        question: "[TR0575]: How many brake cylinders are available in Air Brake Wagons?",
+        options: ["1", "2", "3", "4"],
         correctAnswer: 0
     },
     {
-        question: "Height of high level platform for BG Section is ?",
-        options: [".455mtr", ".76mtr", "1.76mtr", "1.455mtr"],
+        question: "[TR0576]: What is the Brake Pipe Pressure required in SLR of an Express Train?",
+        options: ["3.8 kg./ cm2", "4.8 kg./ cm2", "5.8 kg./ cm2", "6.8 kg./ cm2"],
         correctAnswer: 1
     },
     {
-        question: "H in HAZ is ?",
-        options: ["Heavy", "Heat", "Home", "High"],
-        correctAnswer: 1
-    },
-    {
-        question: "V in VTO is ?",
-        options: ["Visibility", "Violin", "Vision", "View"],
-        correctAnswer: 0
-    },
-    {
-        question: "General rules apply to ?",
-        options: ["Concerned zones", "All India railway", "Only divisions", "None"],
-        correctAnswer: 1
-    },
-    {
-        question: "Subsidiary rules apply to ?",
-        options: ["Concerned zones", "All India railway", "Only divisions", "None"],
-        correctAnswer: 0
-    },
-    {
-        question: "Day means ?",
-        options: ["6.00 to 18.00", "6.00 to sunset", "Sunrise to 18.00", "Sunrise to sunset"],
-        correctAnswer: 3
-    },
-    {
-        question: "Night means ?",
-        options: ["18.00 to 06.00", "18.00 to sunrise", "Sunset to 18.00", "Sunset to sunrise"],
-        correctAnswer: 3
-    },
-    {
-        question: "Fouling marks can be seen on ?",
-        options: ["Track", "Coach", "Wagon", "Loco"],
-        correctAnswer: 0
-    },
-    {
-        question: "Fouling mark helps in avoiding which collision ?",
-        options: ["Rear", "Side", "Head-on", "None"],
-        correctAnswer: 1
-    },
-    {
-        question: "Block back is possible in ?",
-        options: ["Single line section", "Double line section", "Both", "None"],
+        question: "[TR0577]: What is the wheel defect caused due to brake binding?",
+        options: ["Track circuit failure", "Brake failure", "Flat tyre", "Train parting"],
         correctAnswer: 2
     },
     {
-        question: "Forward block is possible in ?",
-        options: ["Single line section", "Double line section", "Both", "None"],
+        question: "[TR0578]: Speed of Class C ODC is ______ kmph.",
+        options: ["15", "25", "50", "60"],
         correctAnswer: 1
     },
     {
-        question: "How many types of markings are there ?",
-        options: ["1", "2", "3", "4"],
+        question: "[TR0579]: Transition coupling available in",
+        options: ["Engines", "MEMU", "BLC", "MG coaches"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0580]: What type of coupling used in Air Brake Wagons?",
+        options: ["Schaku", "Slack free", "CBC", "IRS"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0581]: Stop signals are pre-warned in",
+        options: ["Two aspect signalling territory", "Multiple aspect signalling territory", "Both a & b", "Ghat section"],
         correctAnswer: 1
     },
     {
-        question: "Generally for how many months is forwarding note valid ?",
+        question: "[TR0582]: What are the temporary Engineering fixed signals?",
+        options: ["Caution Indicator", "Speed Indicator", "Stop Indicator", "All of the above"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0583]: Demurrage related to _____",
+        options: ["Goods", "Passenger", "Sub-urban", "M/Exp."],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0584]: What is the permissible flat on wheel tread in goods train?",
+        options: ["50 mm", "60 mm", "70 mm", "80 mm"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0585]: For how long the End to End BPC issued is valid for tank wagons?",
+        options: ["For one cycle of use", "For two cycles of use", "For three cycles of use", "For four cycles of use"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0586]: When the BPC is found to be invalid at the enroute, under what Authority SM can start the train?",
+        options: ["Joint Memo issued by LP & ALP", "Joint Memo issued by GDR", "Joint Memo issued by SSE & JE", "Joint Memo issued by SSE & SM"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0587]: For How many days the Close Circuit BPC is valid, if the distance log is not maintained properly by the Driver?",
+        options: ["5 days from the date of issue", "10 days from the date of issue", "15 days from the date of issue", "20 days from the date of issue"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0588]: If alarm chain is pulled in air brake train, after resetting of ACP apparatus, how many minutes you have to wait, to release the brakes in case of twin pipe air brake working?",
+        options: ["90 Seconds", "120 Seconds", "150 Seconds", "180 Seconds"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0589]: What whistle code does the Loco Pilot give when he clears main line after backing into siding?",
+        options: ["One long One short", "One short One long", "Two short", "Two long"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0590]: ICC means",
+        options: ["Interchange Call Communication", "Interchange Chain Communication", "Internal Chain Communication", "Internal Call Communication"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0591]: What is the signal to be sent to the station in rear If 'Is Line Clear' cannot be accepted by the SM of station in advance?",
+        options: ["All right", "All ready", "Intact", "Obstruction Danger"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0592]: For how much time if a train is held up in the block section on account of no tension, the driver of a train shall depute his assistant driver to check the train in order to look for any abnormality?",
+        options: ["more than three minutes", "more than two minutes", "more than a minute", "No time limit"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0593]: What action to be taken by Station staff if he notices a train coming on wrong line without switching 'ON' the flasher light?",
+        options: ["Allow the train immediately", "Stop the train immediately", "Show white light", "No action to be taken"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0594]: Expansion of WDRF is",
+        options: ["Wagon Daily Requirement Fee", "Wagon Demand Requirement Fee", "Wagon Date Register Fee", "Wagon Demand Registration Fee"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0595]: What do you mean by AFTC?",
+        options: ["Audio Frequency Track Circuit", "Auto Frequency Track Circuit", "Audio Frequency Trade Circuit", "Auto Frequency Trade Circuit"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0596]: What is the minimum time limit to open an accident enquiry booth, when an accident to a passenger trains involving loss of life & injury?",
+        options: ["5 hours", "6 hours", "4 hours", "3 hours"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0597]: What permission is to be obtained, whenever any work is to be carried out within a distance of two meters from the live parts of OHE?",
+        options: ["ETR 1", "ETR 2", "ETR 3", "ETR 4"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0598]: During reception signal failure the first train shall not be received through _____",
+        options: ["T/369(3b)", "Calling on signal", "SPT", "T/369(1)"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0599]: Accidents have been classified into how many categories?",
+        options: ["10", "12", "14", "16"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0600]: Fog Signalman duty hours should not exceed ………………. hours continuously?",
+        options: ["3", "4", "5", "6"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0601]: In EMU all axles shall be tested with USFD once in ……………….Months?",
+        options: ["3", "4", "5", "6"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0602]: What is the whistle code to be given by Driver, if he comes across a defective signal?",
+        options: ["Two long one short", "One long two short", "One long one short", "Two long two short"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0603]: Detonator shall be tested under an empty wagon moving at a speed of ……………….kmph?",
+        options: ["4-6 kmph", "6-8 kmph", "8-10 kmph", "10-12 kmph"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0604]: How many years the life of detonator can be extended after 5 years, testing every year if found satisfactory?",
+        options: ["cannot be extended", "1", "2", "3"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0605]: What is the speed at which a Patrolman shall walk while inspecting the line?",
+        options: ["Not exceeding 3 KMPH", "Not exceeding 3.5 KMPH", "Not exceeding 4 KMPH", "Not exceeding 4.5 KMPH"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0606]: What is the normal aspect of a colour light Calling on Signal?",
+        options: ["Miniature yellow light", "No aspect", "Yellow cross light", "None of the above"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0607]: At what distance should the Train Engine / Shunting Engine come to a Stop before being attached?",
+        options: ["5 Metres", "10 Metres", "20 Metres", "25 Metres"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TR0608]: If SM sent a Group 'D' staff to the Traffic Gate during phone communication failure or no response from the GK, the Group 'D' staff after closing and securing the gates against road traffic, what signal is to be exchanged between the Group ''D' staff from the LC and SM on duty?",
+        options: ["Shunt signal", "Parting signal", "All right signal", "All ready signal"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0609]: Turn over Tail Board available in",
+        options: ["EMUs", "Goods trains", "Express trains", "All trains"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TR0610]: \"By showing Green light held above the head and moved by twisting the wrist\" indicates",
+        options: ["Coupling Signal during day", "Coupling Signal during night", "Parting Signal during day", "Parting Signal during night"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TR0611]: By waving a white light vertically UP and Down as high as low possible?",
+        options: ["Coupling Signal during day", "Coupling Signal during night", "Parting Signal during day", "Parting Signal during night"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TR0612]: \"By waving the RED Hand Signal Lamp / Flag in a wide arc left to right across the chest\" indicates?",
+        options: ["Hot axle", "Parting", "Signal failure", "Point failure"],
+        correctAnswer: 0
+    }
+];
+
+const TRANSPORTATION_ALL = [
+    {
+        question: "[TRR0001]: GR for IR (open lines) is first administered by Govt in the year for the time being used for the public carriage of passenger, animals or Goods",
+        options: ["1968", "1970", "1975", "1976"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0002]: The general Rules framed in 1929, the revision for which was advocated by Railway accident committee in the year",
+        options: ["1960", "1962", "1965", "1968"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0003]: The general Rules framed in 1929, the revision for which was advocated by Railway accident inquiry committee in the year",
+        options: ["1960", "1962", "1965", "1968"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0004]: Based on recommendations of Railway accident committee and Railway accident inquiry committee a Committee formed composed of officers of Traffic and S&T department was appointed by Railway board and they submitted draft rules in",
+        options: ["1962, 1970", "1965, 1972", "1968, 1970", "1970, 1972"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0005]: Revised GR submitted by committee was circulated to RDSO, Commission of Railway Safety, Rly staff college Baroda, IRISET, IRMEE Jamalpur for suggestions vide Rly Board Ir no 68-RR/2 Vol V in the month of",
+        options: ["April 1970", "May 1972", "June 1973", "July 1974"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0006]: Ministry of Railways (Railway Board) constituted a Committee for the revision of General Rules, 1976, who have submitted the final report in the year",
+        options: ["2008", "2009", "2010", "2011"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0007]: Section under which General Rules for Open Lines of the Railways 1976 have been framed by Government of India is",
+        options: ["197", "198", "175", "48"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0008]: Every Railway Servant is bound by the General Rules, the Subsidiary Rules and special instructions under Railways Act 1989 Section",
+        options: ["197", "198", "175", "48"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0009]: General Rules can be framed by",
+        options: ["Government of India", "Authorised Officer", "General Manager", "PCOM"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0010]: Total number of General Rules existing in G&SR as on Jan 25",
+        options: ["224", "334", "344", "434"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0011]: Total number of General Rules existing in Chapter II of G&SR as on Jan 25",
+        options: ["10", "11", "12", "13"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0012]: Total number of General Rules existing in Chapter III of G&SR as on Jan'25",
+        options: ["75", "78", "83", "85"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0013]: Total number of General Rules existing in Chapter IV of G&SR as on Jan 25",
+        options: ["46", "56", "66", "76"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0014]: Total number of General Rules existing in Chapter V of G&SR as on Jan 25",
+        options: ["23", "24", "28", "33"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0015]: Total number of Chapters in General & Subsidiary Rules are",
+        options: ["16", "17", "18", "20"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0016]: G&SR Rule pertaining rules applying to railway servants generally is mentioned in",
+        options: ["Chapter I", "Chapter II", "Chapter III", "Chapter IV"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0017]: G&SR Rule pertaining to Signals is mentioned in",
+        options: ["Chapter I", "Chapter II", "Chapter III", "Chapter IV"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0018]: G&SR Rule pertaining to working of trains generally is mentioned in",
+        options: ["Chapter I", "Chapter II", "Chapter III", "Chapter IV"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0019]: G&SR Rule pertaining to Control and working of stations is mentioned in",
+        options: ["Chapter V", "Chapter VI", "Chapter VII", "Chapter VIII"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0020]: G&SR Rule pertaining to Accident and unusual occurrences is mentioned in",
+        options: ["Chapter V", "Chapter VI", "Chapter VII", "Chapter VIII"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0021]: G&SR Rule pertaining to System of working is mentioned in",
+        options: ["Chapter VII", "Chapter VIII", "Chapter IX", "Chapter X"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0022]: G&SR Rule pertaining to Absolute block system is mentioned in",
+        options: ["Chapter VII", "Chapter VIII", "Chapter IX", "Chapter X"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0023]: G&SR Rule pertaining to Automatic Block system is mentioned in",
+        options: ["Chapter VII", "Chapter VIII", "Chapter IX", "Chapter X"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0024]: G&SR Rule pertaining to Block working is mentioned in",
+        options: ["Chapter XIV", "Chapter XV", "Chapter XVI", "Chapter XVII"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0025]: G&SR Rule pertaining to Permanent way and works is mentioned in",
+        options: ["Chapter XIV", "Chapter XV", "Chapter XVI", "Chapter XVII"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0026]: G&SR Rule pertaining to Level crossing is mentioned in",
+        options: ["Chapter XIV", "Chapter XV", "Chapter XVI", "Chapter XVII"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0027]: G&SR Rule pertaining to Working of trains in electrified sections of railways is mentioned in",
+        options: ["Chapter XIV", "Chapter XV", "Chapter XVI", "Chapter XVII"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0028]: The definition of \"Act\" as per G&SR means the section under Railways Act 1989 is",
+        options: ["24", "25", "26", "28"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0029]: The distance sufficient to ensure safety is",
+        options: ["300M", "180M", "120M", "Adequate Distance"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0030]: Approved special instructions are issued or approved by",
+        options: ["PCOM", "Authorised Officer", "CRS", "Railway Board"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0031]: The person who is duly empowered by general or special order of the Railway Administration, either by name or by virtue of his office, to issue instructions or to do any other thing",
+        options: ["CRS", "PCOM", "GM", "Authorised Officer"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0032]: The authority given to the Loco Pilot of a train, under the system of working, to enter the block section with his train",
+        options: ["Off Aspect of signal", "Authority to Proceed", "Written authority", "None of the above"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0033]: An electrical device which, when provided at two given points on the track, proves by counting axles in and counting axles out, whether the section of the track between the said two points is clear or occupied",
+        options: ["VDU panel", "Track circuit", "Axle counter", "Block instrument"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0034]: Message from a block station to the block station in rear on double line or to next block station on either side on a single line, that the block section is to be obstructed is",
+        options: ["Shunting", "Caution order", "Block Forward", "Block back"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0035]: Message from a block station to the block station in advance on double line, that the block section is obstructed or is to be obstructed is",
+        options: ["Shunting", "Caution order", "Block Forward", "Block back"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0036]: The portion of the running line between two block stations on to which no running train may enter until Line Clear has been received from the block station at the other end of the block section",
+        options: ["Station Section", "Station limits", "Block section", "Block Limits"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0037]: A railway servant duly qualified to undertake and perform the duties entrusted to him",
+        options: ["Competent railway servant", "Competent servant", "certified railway servant", "Sincere servant"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0038]: As per G&SR \"day\" means from ____ to ____",
+        options: ["06.00, 18.00", "08.00, 20.00", "Sunrise, Sunset", "Sunset, Sunrise"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0039]: When Points by their operation a train approaching them can be directly diverted from the line upon which it is running is known as",
+        options: ["Trailing Points", "Facing Points", "Derailing switch", "Trap Point"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0040]: A signal of fixed location indicating a condition affecting the movement of a train and includes a semaphore arm or disc or fixed light for use by day and fixed light for use by night is known as",
+        options: ["Hand Signals", "Fixed Signal", "Detonating signal", "Flare signal"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0041]: Mark at which infringement of fixed standard dimensions occurs, where two lines cross or join one another is known as",
+        options: ["Lime mark", "Starter signal", "Fouling Mark", "Fog signal mark"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0042]: Arrangement of signals, points and other appliances, operated from a panel or lever frame, so interconnected by mechanical locking or electrical locking or both that their operation must take place in proper sequence to ensure safety",
+        options: ["Interlocking", "Block station", "VDU", "Relays"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0043]: Class \"C\" station on a single line or double line or multiple line remotely controlled from the block station in rear is known as",
+        options: ["Gate signal", "Intermediate Block Post", "Home signal", "Automatic signal"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0044]: Arrangement of signalling on single line or double line or multiple line in which a long block section is split into two portions each constituting a separate block section by providing a Post is",
+        options: ["Gate signal", "LSS", "Intermediate Block signalling", "Automatic signalling"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0045]: Arrangement, secured by the setting of points or other approved means, to protect the line so isolated from the danger of obstruction from other connected line or lines is known as",
+        options: ["Interlocking", "Level crossings", "Line clear", "Isolation"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0046]: Fixed Stop signal of a station controlling the entry of trains into the next block section is",
+        options: ["First Stop Signal", "Home signal", "Last Stop Signal", "IB signal"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0047]: Any form of movable barrier, including a chain, capable of being closed across the road at the level crossing, but does not include a wicket or a turnstile for the use of pedestrians is known as",
+        options: ["Level Crossing Gate", "Rail under bridge", "Gate", "Rail over bridge"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0048]: Permission given from a block station to a block station in rear for a train to leave the latter and approach the former;",
+        options: ["Line Clear", "Block forward", "Block Back", "Authority to proceed"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0049]: Permission obtained by a block station from a block station in advance for a train to leave the former and proceed towards the latter",
+        options: ["Authority to proceed", "Block forward", "Block Back", "Line Clear"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0050]: Departmental train intended solely or mainly for carriage of railway material when picked up or put down or for execution of works, either between stations or within station limits",
+        options: ["Material train", "Dip Lorry", "RRV", "Tower wagon"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0051]: A signalling arrangement in which signals display at any one time any one of the three or more aspects and in which the aspect of every signal is pre-warned by the aspect of the previous signal or signals",
+        options: ["Two aspect signalling", "Multiple Aspect signalling", "Modified Lower aspect signalling", "Modified Upper aspect signalling"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0052]: As per G&SR \"Night\" means",
+        options: ["22.00 hrs to 08.00hrs", "20.00 hrs to 06.00hrs", "Sunrise to Sunset", "Sunset to Sunrise"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0053]: This includes a train, vehicle or obstacle on or fouling a line, or any condition which is dangerous to trains.",
+        options: ["shunting", "connection", "communication", "Obstruction"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0054]: A line governed by one or more signals, include connections, if any, used by a train when entering or leaving a station is known as",
+        options: ["Main Line", "Loop Line", "Running Line", "Non Running line"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0055]: A train, which has started under an ATP and has not completed its journey, is",
+        options: ["train", "Running train", "stabled train", "none of these"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0056]: Movement of a vehicle or vehicles with or without an engine or of any engine or any other self-propelled vehicle, for the purpose of attaching, detaching or transfer or for any other purpose",
+        options: ["Interlocking", "Shunting", "Securing", "Isolation"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0057]: Instructions issued from time to time by the authorised officer in respect to particular cases or special circumstances",
+        options: ["Special Instructions", "General Rules", "Subsidiary Rules", "Joint procedure orders"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0058]: Special instructions are issued by",
+        options: ["CTM", "CSO", "Authorised Officer", "Railway Board"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0059]: Any place on a line of railway at which traffic is dealt with, or at which an authority to proceed is given under the system of working",
+        options: ["Block section", "Station", "Station limits", "Station section"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0060]: The portion of a railway which is under the control of a Station Master and is situated between the outermost signals of the station or as may be specified by special instructions",
+        options: ["Block section", "Station", "Station limits", "Station section"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0061]: On Double line class \"B\" station Multiple Aspect Signalling, station section lies between",
+        options: ["outermost facing points to LSS", "BSLB to LSS", "Either A or B", "none of above"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0062]: On single line \"B\" class MAS station, Station section lies between",
+        options: ["two Advance Starter", "two SLB", "two outer most points", "any one of the above"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0063]: Station Section is available at",
+        options: ["Class \"A\" stations", "Class \"B\" stations", "class \"C\" stations", "Class \"D\" stations"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0064]: Subsidiary rules are framed by",
+        options: ["CTM", "CSO", "Authorised Officer", "Railway Board"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0065]: Special instruction which is subservient to the General Rule to which it relates and shall not be at variance with any General Rule",
+        options: ["Subsidiary Rules", "General Rules", "Joint procedure order", "None of the above"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0066]: System adopted for the time being for the working of trains on any portion of a railway is known as",
+        options: ["system of controlling", "direction of traffic", "System of working", "none of these"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0067]: An electrical circuit provided to detect the presence of a vehicle on a portion of track, the rails of the track forming part of the circuit",
+        options: ["Axle counter", "EOTT", "Track circuit", "Relays"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0068]: An engine with or without vehicles attached, or any self-propelled vehicle with or without a trailer, which cannot be readily lifted off the track",
+        options: ["Motor trolley", "Push trolley", "Tower car", "Train"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0069]: At a \"A\" class station distance to be kept free beyond Home signal, before granting line clear is",
+        options: ["300m", "400m", "200m", "180m"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0070]: Stations where Line Clear may not be given for a train unless the line on which it is intended to receive the train is clear for at least 400 m beyond the home signal or upto the starter",
+        options: ["Class \"A\" station", "Class \"B\" station", "Class \"C\" station", "Class \"D\" station"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0071]: Class \"A\" Stations are stations where Line Clear may not be given for a train unless the line on which it is intended to receive the train is clear for at least 400 m beyond the or upto the",
+        options: ["Home Signal, Advance starter", "Home signal, shunt signal", "Starter, Home signal", "home signal, Starter"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0072]: Stations where Line Clear may be given for a train before the line has been cleared for reception of the train within the station section is",
+        options: ["Class \"A\" station", "Class \"B\" station", "Class \"C\" station", "Class \"D\" station"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0073]: Stations where Line Clear may not be given for a train unless the whole of the last preceding train has passed complete at least 400 m beyond Home signal and is continuing its journey.",
+        options: ["Class \"A\" station", "Class \"B\" station", "Class \"C\" station", "Class \"D\" station"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0074]: Stations in which stopping places are situated between two consecutive block stations, and do not forms the boundary of any block section is",
+        options: ["Class \"A\" station", "Class \"B\" station", "Class \"C\" station", "Class \"D\" station"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0075]: The Railway Administration shall supply G&SR copy--",
+        options: ["to each station,", "to each Railway servant on whom any definite responsibility is placed", "to any Railway servant a copy of these rules related to his duties", "All the above"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0076]: The Railway Administration shall supply G&SR copy to each on whom any definite responsibility is placed by the said rules, a copy of the rules, or of such portions thereof as relate to his duties",
+        options: ["Operating staff", "Engg. Staff", "Railway servant", "Officers"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0077]: The ____ shall supply G&SR copy to any railway servant a copy of these rules or translation of the said rules or of such portions, thereof as relate to his duties, as may be prescribed by special instructions",
+        options: ["Railway Adminstration", "Zonal Authorities", "Divisional Authority", "Stores department"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0078]: Each railway servant, who has been supplied with a copy of these rules, as prescribed under Rule 2.01 shall",
+        options: ["keep it posted with all corrections.", "produce the same on demand by any of his superiors.", "obtain a new copy from his superior in case his copy is lost or defaced", "All the above"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0079]: Each railway servant, who has been supplied with a copy of these rules, as prescribed under Rule 2.01 shall ensure that the staff working under him are supplied with all and that they also with the provisions of this rule.",
+        options: ["Comply, corrections", "Corrections, Comply", "Changes, agree", "Changes, follow"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0080]: Every railway servant shall be with the rules relating to his duties whether supplied or not shall ensure that he with a copy or translation of the rules relating to his duties and the does so,",
+        options: ["knowledgeable, In charge of Station", "following, Sr.DOM", "Conversant, Railway administration", "Remember, PCOM"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0081]: Every railway servant shall if necessary, explain to the staff the rules so far as these rules apply to them.",
+        options: ["of other departments", "working for Private firms", "who approaches him", "working under him"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0082]: Every Railway servant shall render assistance in carrying out the rules and report promptly any breach thereof, which may come to his notice, to his and other authority concerned",
+        options: ["Superior officer", "next higher in charge", "In charge of the station", "Superior commandant"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0083]: Every railway servant is responsible for the and of the property of the Railway Administration under his charge",
+        options: ["Safety, Security", "Security, Protection", "Safety, Punctuality", "Security, Punctuality"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0084]: Every railway servant shall endeavour to prevent-",
+        options: ["trespass on railway premises,", "theft, damage or loss of railway property,", "injury to himself and others,", "All the above"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0085]: Every railway servant shall endeavour to in railway premises.",
+        options: ["Stop destruction", "Fight miscreants", "Prevent Fire", "prevent tress passing"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0086]: Every railway servant shall promptly observe and obey- [A] all rules and special instructions, [B] all lawful orders given by his superiors",
+        options: ["all rules and special instructions,", "all lawful orders given by his superiors", "Either \"A\" & \"B\"", "Both \"A\" & \"B\""],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0087]: Every railway servant shall be in attendance for duty at such and such and for such as may be fixed in this behalf by the Railway Administration and shall also attend at any other time and place at which his services may be required.",
+        options: ["Times, places, periods", "Times, Places, years", "Hours, Places, periods", "Times, situations, periods"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0088]: No railway servant shall, without the permission of absent himself from duty or alter his appointed hours of attendance or duty with any other railway servant or his charge of duty unless properly relieved.",
+        options: ["Brach officer, exchange, leave", "Superior, exchange, leave", "Superior, interchange, leave", "Inspector, interchange, withdraw"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0089]: If any railway servant while on duty desires to absent himself from duty on the ground of illness, he shall immediately report the matter to and shall his duty until a competent railway servant has been placed in charge thereof.",
+        options: ["Brach officer, not perform", "Superior, stop", "Superior, not leave", "Inspector, leave"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0090]: While on duty, no railway servant shall, whether he is with the working of trains or not, be in a state of intoxication or in a state in which, by reason of his having taken or used any alcoholic drink, sedative, narcotic or stimulant drug or preparation, his capacity to perform his duties is impaired",
+        options: ["Indirectly connected", "connected", "on duty or off duty", "Directly connected"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0091]: No Railway Servant directly connected with the working of trains shall take or use any alcoholic drink, sedative, narcotic or stimulant drug or preparation before the commencement of his duty within",
+        options: ["6 hours", "8 hours", "10 hours", "12 hours"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0092]: A railway servant shall- [A] Wear badge and uniform, if prescribed, while on duty, [B] be prompt, civil and courteous, [C] not solicit or accept illegal gratification, [D] All the above",
+        options: ["Wear badge and uniform", "be prompt, civil and courteous", "not solicit or accept illegal gratification", "All the above"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0093]: A railway servant shall- [A] give all reasonable assistance and be careful to give correct information to the public [B] when asked, give his name and designation without hesitation.",
+        options: ["give all reasonable assistance", "when asked, give his name and designation", "Either \"A\" & \"B\"", "Both \"A\" & \"B\""],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0094]: Every railway servant shall- [A] see that every exertion is made for ensuring the safety of the public, [B]promptly report to his superior any occurrence affecting the safe or proper working of the railway which may come to his notice, and [C] render on demand all possible assistance in the case of an accident or obstruction.",
+        options: ["ensure safety of public", "report occurrences affecting safety", "render assistance in accidents", "All the above"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0095]: Every railway servant shall take immediate steps, such as the circumstances of the case may demand, to prevent accident; and where necessary, advise the nearest Station Master by the quickest possible means when he observes-",
+        options: ["any unusual circumstances", "any obstruction or failure", "any thing wrong with a train", "All the above"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0096]: The rule No. of G&SR for Supply of copies of rules is",
+        options: ["GR 2.01", "SR 2.02", "GR 2.02", "GR 2.03"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0097]: The rule No. of G&SR for keeping digital form of Rule books is given in",
+        options: ["GR 2.01", "GR 2.02", "GR 2.03", "None of the above"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0098]: The rule No. of G&SR for upkeep of the copy of rules is",
+        options: ["GR 2.01", "SR 2.01", "GR 2.02", "GR 2.03"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0099]: The rule No. of G&SR for attendance for duty is mentioned in",
+        options: ["GR 2.05", "GR 2.06", "GR 2.07", "GR 2.08"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0100]: The rule No. of G&SR for Absence from duty is mentioned in",
+        options: ["GR 2.05", "GR 2.06", "GR 2.07", "GR 2.08"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0101]: The rule No. of G&SR for taking alcoholic drink, sedative, narcotic, stimulant drug or preparation is mentioned in",
+        options: ["GR 2.07", "GR 2.08", "GR 2.09", "GR 2.10"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0102]: In the case of a train having parted, railway servant shall not show a ____ signal but shall endeavour to attract attention of the Loco Pilot or Guard by shouting, gesticulating or other means.",
+        options: ["Stop Hand", "Proceed hand", "Stop", "Proceed with caution"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0103]: The signals to be used for controlling the movement of trains shall be -",
+        options: ["fixed signals,", "hand signals,", "detonating signals", "All the above"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0104]: Fixed signals shall be clearly visible to the Loco Pilots of trains approaching them and shall be placed immediately to the ____ of or ____ the line to which they refer unless otherwise authorised by special instructions",
+        options: ["Right, above", "Left, above", "above, left", "above, right"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0105]: Regarding semaphore signal arms, which of the following is INCORRECT? (A) Arms (except Distant/Calling-on) are painted the same color as the 'on' light with a white bar. (B) Yellow arms have a black bar instead of white. (C) Calling-on arms are painted white with a red bar facing the train. (D) Semaphore arms work in the upper quadrant for two-aspect signaling.",
+        options: ["Statement A", "Statement B", "Statement C", "Statement D"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0107]: The aspects of a ____ signal both by day and by night shall be the same and shall be displayed by fixed light or lights.",
+        options: ["position, calling on", "semaphore, colour light", "colour light, position light", "Colour light, semaphore"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0108]: Which of the following accurately describes a Warner signal's placement and mechanical logic? (A) It has a fish-tailed arm. (B) It can be placed on a separate post with a green light 1.5-2m above it. (C) When below a Stop signal, the mechanical arrangement must prevent it from being 'off' while the Stop signal is 'on'. (D) All the above.",
+        options: ["Only A and B", "Only C", "Only A and C", "All the above"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0111]: The signal which tells about the aspect of stop signal ahead is",
+        options: ["outer", "Distant", "advance starter", "none of these"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0112]: The marker board that is provided to identify Distant Signal in colour light area is.",
+        options: ["IB", "P", "G", "A"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0113]: The normal aspect of Distant signal is",
+        options: ["caution", "attention", "stop", "proceed"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0114]: Whenever one yellow light is exhibited in Distant signal the Aspect is",
+        options: ["caution", "attention", "proceed slow", "proceed"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0115]: Whenever two yellow lights are exhibited in Distant signal the Aspect is",
+        options: ["caution", "attention", "stop", "proceed"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0116]: The indication of the Distant signal in Caution Aspect is",
+        options: ["stop dead", "proceed and be prepared to stop at the next stop signal", "proceed and be prepared to pass the next stop signal at a restrictive speed", "proceed"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0117]: The indication of the Distant signal in Attention Aspect is",
+        options: ["stop dead", "proceed and be prepared to stop at the next stop signal", "proceed and be prepared to pass the next stop signal at a restrictive speed", "proceed"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0118]: Whenever Inner Distant is provided, the aspects that Distant Signal is capable of displaying,",
+        options: ["attention, proceed", "caution, attention", "stop, proceed", "stop, caution"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0119]: The normal aspect of Distant signal on double distant signal area is",
+        options: ["caution", "attention", "stop", "proceed"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0120]: When colour light Distant signal is combined with Gate/LSS/IB, shall not display a less restrictive aspect than the ____ aspect s",
+        options: ["stop", "caution", "attention", "proceed"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0121]: In rear of the stop signal Distant signal is provided at a distance of not less than",
+        options: ["1200M", "1500M", "1000M", "400M"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0122]: Wherever double distant is provided, from the stop signal, distant signal location is not less than",
+        options: ["1000M", "1200M", "1400M", "2000M"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0123]: Wherever two Distant signals are provided the board that is eliminated is.",
+        options: ["BSLB", "Signal warning board", "SLB", "caution indicator"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0124]: When a colour light Distant is combined with LSS/Gate signal, this marker is not required",
+        options: ["A marker", "C marker", "G marker", "P marker"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0125]: The Stop signals which control the movement of trains approaching a station are of three kinds, namely-.",
+        options: ["Outer Signal", "Home signal", "Routing Signal", "All the above"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0126]: Which statement regarding Stop signals is CORRECT? (1) Outer signal is the first Stop signal located at an adequate distance outside the point of obstruction. (2) Home signal is the first Stop signal where no Outer exists. (3) Routing signal is used to indicate diverging routes when Home signal position is inconvenient.",
+        options: ["Only 1 and 2", "Only 2 and 3", "Only 1 and 3", "All 1, 2, and 3"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0128]: The Stop signals which control the movement of trains leaving a station are of two kinds, namely-Starter and Advanced Starter.",
+        options: ["Starter", "Advance Starter", "Either A or B", "Routing starter"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0129]: When a train leaving a station is guided by only one starting signal, it is the last Stop signal of the station and is called the",
+        options: ["Routing starter", "Starter.", "Advance starter", "Intermediate starter"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0130]: When a train leaving a station is guided by more than one Starter signal, the outermost starting signal is the last Stop signal of the station and is called the.",
+        options: ["Routing starter", "Starter.", "Intermediate starter", "Advanced Starter"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0131]: Where an Advanced Starter is provided, the Starter referring to any line shall be placed so as to protect the ____ or ____ of the connections to another running line.",
+        options: ["first trailing points, fouling mark", "first facing points, fouling mark", "facing points, adequate distance", "facing points, trailing points"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0132]: Intermediate Block Stop signal.- is the Home signal provided at an Intermediate Block Post",
+        options: ["True", "False", "Only for double line", "Only for single line"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0133]: Signal which is not dependent upon manual operation but is controlled automatically by the passage of a train into, through and out of the automatic block signalling section;",
+        options: ["Automatic Stop signal", "Semi-automatic stop signal", "Manual stop signal", "Modified semi automatic signal"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0134]: Stop signal which is capable of being operated either as an Automatic Stop signal or as a Manual Stop signal, as required;",
+        options: ["Automatic Stop signal", "Semi-automatic stop signal", "Manual stop signal", "Modified semi automatic signal"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0135]: When a ____ works as an Automatic Stop signal, it assumes \"on\" and \"off\" aspects automatically according to the conditions of the automatic block signalling sections ahead;",
+        options: ["Automatic Stop signal", "Semi-automatic stop signal", "Manual stop signal", "Modified semi automatic signal"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0136]: When a Semi-automatic stop signal works as an ____, it assumes \"on\" and \"off\" aspects automatically according to the conditions of the automatic block signalling sections ahead;",
+        options: ["Automatic Stop signal", "Semi-automatic stop signal", "Manual stop signal", "Modified semi automatic signal"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0137]: When a ____ works as a Manual Stop signal, it assumes \"on\" aspect automatically on the occupation of the automatic block signalling section ahead, but assumes \"off\" aspect when operated manually, provided the relevant automatic block signalling sections ahead are clear;",
+        options: ["Automatic Stop signal", "Semi-automatic stop signal", "Manual stop signal", "Modified semi automatic signal"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0138]: When a Semi-automatic stop signal works as a ____ it assumes \"on\" aspect automatically on the occupation of the automatic block signalling section ahead, but assumes \"off\" aspect when operated manually, provided the relevant automatic block signalling sections ahead are clear;",
+        options: ["Automatic Stop signal", "Semi-automatic stop signal", "Manual stop signal", "Modified semi automatic signal"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0139]: When a Semi-Automatic Stop signal works as an Automatic Stop signal, the \"A\" marker provided under the signal is",
+        options: ["extinguished", "Switched On", "Switched Off", "illuminated"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0140]: when a Semi-Automatic Stop signal works as an Automatic Stop signal, When the \"A\" marker is ____ the signal shall be deemed to work as a Manual Stop signal; and",
+        options: ["extinguished", "Switched On", "Switched Off", "illuminated"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0141]: When one of the Automatic stop signal in mid-section is converted under special instructions is known as.",
+        options: ["Automatic Stop signal", "Semi-automatic stop signal", "Manual stop signal", "Modified semi automatic signal"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0142]: The marker Board by which Colour light calling ON signal is identified by",
+        options: ["P", "IB", "G", "C"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0143]: Based on GR 3.13, which of the following is TRUE regarding a Calling-on signal? (1) It has no independent aspect in the 'on' position. (2) It can be a short square-ended semaphore arm. (3) It can be provided below any stop signal except LSS. (4) In 'on' position it shows no light, and in 'off' position it shows a miniature yellow light.",
+        options: ["Only 1 and 2", "Only 1, 2, and 3", "Only 2, 3, and 4", "All 1, 2, 3, and 4"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0144]: Calling On signal may be provided below any stop signal except",
+        options: ["FSS", "LSS", "IB signals", "home"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0145]: Calling ON signal in \"ON\" position will show",
+        options: ["miniature yellow light", "single yellow light", "miniature white light", "no light"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0146]: The light that is displayed when colour light Calling On signal is taken \"OFF\"",
+        options: ["miniature yellow", "miniature red", "green", "White"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0147]: The Aspect of the Calling On signal when taken \"OFF\" is",
+        options: ["stop", "caution", "proceed slow", "proceed"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0148]: Condition for taking off calling on signal is that the train has been brought to a",
+        options: ["brought to a stand at the points", "brought to a stand at a distant signal", "brought to a stand at the stop signal", "none of these"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0149]: The indication of the Calling On signal when taken \"OFF\" is",
+        options: ["proceed and be prepared to stop at next stop signal", "stop and then draw ahead with caution and be prepared to stop short or any obstruction", "stop dead", "proceed cautiously"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0150]: The types of shunt signal are",
+        options: ["disc type", "miniature semaphore", "position type", "all the above"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0151]: Regarding Shunt signals (GR 3.14), which statement is FALSE? (1) They control shunting movements. (2) They can be miniature semaphore arms under special instructions. (3) In 'off' position, position light shunt signals show two white lights diagonally. (4) Shunt signals may be provided below any stop signal including First Stop Signal.",
+        options: ["Statement 1", "Statement 2", "Statement 3", "Statement 4"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0152]: Shunt signal may be provided below any stop signal except",
+        options: ["LSS", "FSS", "Starter", "none of above"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0153]: Shunt signal below stop signal, in \"ON\" position will show",
+        options: ["red light", "two white lights horizontally", "no light", "yellow light"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0154]: The Aspect of independent shunt signal at \"ON\" is",
+        options: ["stop", "caution", "attention", "no light"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0155]: The Aspect of the shunt signal when taken \"OFF\" is",
+        options: ["proceed slow", "caution", "attention", "proceed"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0156]: The colour lights exhibited in Position light shunt signal in \"OFF\" position is.",
+        options: ["two white lights horizontally", "two white lights diagonally", "two green lights", "two yellow lights"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0157]: The type of shunt signal that shall be provided in colour light area is",
+        options: ["miniature semaphore", "disc type", "position type", "none of above"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0158]: Signals fixed below ordinary signals and are provided where, in consequence of the height of the signal post, or of there being an over-bridge or other obstacle, the main arm or light is not in view of the Loco Pilot during the whole time that he is approaching it.",
+        options: ["Repeating", "Duplicate", "Co-acting", "either Duplicate or Co-acting"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0159]: A Repeating signal placed in rear of a fixed signal for the purpose of repeating to the Loco Pilot of an approaching train",
+        options: ["aspects of the fixed signal in rear", "aspects of the fixed signal in advance", "indication of signal in advance", "position of the fixed signal-"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0160]: A Repeating signal in colour light area is identified by",
+        options: ["R marker", "Illuminated R marker", "Either R or illuminated R", "none of above"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0161]: Which of the following marker-to-signal correspondences is INCORRECT? (1) Intermediate Block stop - 'IB' (2) Calling on signal - 'C' (3) Gate stop signal - 'G' on black disc (4) Approach stop (Goods only) - One black ring on semaphore arm.",
+        options: ["Correspondence 1", "Correspondence 2", "Correspondence 3", "Correspondence 4"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0162]: When a fixed signal is not in use, it shall be distinguished by",
+        options: ["One crossed bar", "Two Parallel bars", "two crossed bars", "Two perpendicular bars"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0163]: Unless otherwise permitted, where two or more lines diverge, signals shall be fixed on a ____ or an approved type of ____ shall be provided instead of separate signals:",
+        options: ["bracket post, route indicator", "separate post, marker", "gantry, bracket", "none of the above"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0164]: Unless otherwise permitted by approved special instructions, where two or more lines converge, signals shall be placed on separate posts. Where the number of signals is considerable, these may be provided on a bracket post or a signal bridge or gantry.",
+        options: ["True", "False", "Only for double line", "Only for goods yard"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0165]: On a bracket post, signal bridge, or gantry, signals referring to the main line must be:",
+        options: ["Lower than other signals", "Higher than other signals", "On the extreme right", "Identified by a 'P' marker"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0166]: Regarding placing more than one signal on the same post (GR 3.22), which is FALSE? (1) Only one signal per direction is allowed except for Calling-on, Shunt, Co-acting, and Warner. (2) Topmost signal applies to the extreme left hand diverging line. (3) In exceptional cases with two Home signals, the top signal applies to the main line. (4) The bottom signal always applies to the extreme right line.",
+        options: ["Statement 1", "Statement 2", "Statement 3", "Statement 4"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0167]: The arm and light of any fixed signal which cannot be seen from the place from which the signal is worked shall be repeated to such place by means of an efficient electric repeater",
+        options: ["True", "False", "Only for semaphore", "Only for color light"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0168]: Back-lights of signals shall show a small white light when ____ and no light at all in any other position.",
+        options: ["off", "defective", "on", "burning"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0169]: Fixed signals must be provided at every station EXCEPT: (1) Stations worked on One Train Only System. (2) Stations exempted under approved special instructions. (3) Class D stations.",
+        options: ["Only 1", "Only 1 and 2", "Only 2 and 3", "All 1, 2, and 3"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0170]: Fixed signals shall not be brought into use until they have been passed by the ____ as being sufficient to secure the safe working of trains.",
+        options: ["PCOM", "GM", "PCSO", "Commissioner of Railway Safety"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0171]: The minimum equipment of signals at a class \"B\" station with M AS are",
+        options: ["Distant, Home", "Distant, Home, starter", "Warner, home, starter", "Outer, home, starter"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0172]: At a class \"C\" MAS station the minimum equipment of signals are",
+        options: ["Distant, Home", "Distant, Home, starter", "Warner, home, starter", "Outer, home, starter"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0173]: In addition to the minimum equipment of signals prescribed in Rules such other fixed signals shall be provided at every station as may be necessary for the safe working",
+        options: ["True", "False", "Only for junctions", "Only for terminal stations"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0174]: At a class \"D\" station, a train may be stopped in such a manner as may be authorised by special instructions.",
+        options: ["True", "False", "Only for passenger trains", "Only by hand signals"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0175]: Shunting limit board/Advanced starter is provided at a single line station where shunting (obstruction) is permitted out side the outermost facing points in the direction of",
+        options: ["approaching train", "departing train", "the yard", "towards the station"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0176]: At a Class \"B\" station, Single line with MAS, the distance from Home signal to outermost facing points shall not be less than",
+        options: ["120 M", "180M", "300M", "400 M"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0177]: BSLB is provided at \"B\" class station with multiple aspect signals where",
+        options: ["outermost points are trailing point", "no points", "either A or B", "none of above"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0178]: The distance from Home signal to B SLB shall not be less than",
+        options: ["120 M", "180M", "300M", "400 M"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0179]: Regarding level crossing gate signals (GR 3.34), which of the following is correct? (1) Every LC gate closing across the line must have signals unless interlocked or exempted. (2) Signals must show Stop aspects in both directions when gates are open for road traffic. (3) The marker board for identification is 'G'.",
+        options: ["Only 1 and 2", "Only 2 and 3", "Only 1 and 3", "All 1, 2, and 3"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0180]: The marker board by which Gate signal is identified by",
+        options: ["IB", "P", "G", "A"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0181]: Detailed working instructions about outlying siding are incorporated in",
+        options: ["SWR", "G&SR", "WTT", "Engg.manual"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0182]: The marker board for indicating the Outlying siding points are",
+        options: ["A", "IB", "S", "G"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0183]: Every fixed signal shall be so constructed that, in case of failure of any part of its connections, it shall remain at, or return to its",
+        options: ["Off position", "Normal aspect", "Normal position", "its most restrictive aspect."],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0184]: Home signal lever/switch will be normalized after the passage of",
+        options: ["engine", "whole of the train", "first vehicle", "none of these"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0185]: Signals taken OFF for a departing train may be put back to ON",
+        options: ["to avert an accident", "for crossing of a train", "for precedence of a train", "any of the above"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0186]: Reception Signals taken OFF for a train may be put back to ON",
+        options: ["to avert an accident", "for crossing of a train", "for precedence of a train", "any of the above"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0187]: Signals taken OFF for a departing train may be put back to ON and points on the route to be not altered unless LP is informed through",
+        options: ["secured means of communication", "Written Memo", "Either A or B", "Both A & B"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0188]: Signals taken OFF for a departing train may be put back to ON and unless LP is informed through secured means of communication/written memo SM shall",
+        options: ["Alter the points immediately", "not alter the points on route", "alter the route after 5 mins", "alter the route after train has come to a stop"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0189]: The aspect in the normal position of fixed signals except Automatic Signals is",
+        options: ["stop", "caution", "proceed", "most restrictive aspect"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0190]: The aspect in the normal position of Automatic Signals is",
+        options: ["stop", "caution", "proceed", "most restrictive aspect"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0191]: The Station Master shall not give permission to take signals \"off\" for a train until-",
+        options: ["all facing points over which train will pass are correctly set and locked,", "all trailing points over which the train will pass are correctly set, and", "line over which the train is to pass is clear and free from obstructions.", "All the above"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0192]: The points on single line, that must be set against the blocked line, immediately after the arrival of a train at the station",
+        options: ["rear", "front", "either end", "none of above"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0193]: The points on double line, that must be set against the blocked line, immediately after the arrival of a train at the station",
+        options: ["rear", "front", "yard end", "none of above"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0194]: When a running line is blocked by a stabled load or train, points in ____ on double line and at ____ on single line should be set against the blocked line, unless shunting is required.",
+        options: ["rear, either end", "front, either end", "either end, rear", "either end, front"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0195]: When a running line is blocked by a train which is to cross or give precedence to another train, the points in rear on double line sections and at either end on single line sections should be immediately set against the blocked line except when ____ or is required to be done immediately in that direction on that line.",
+        options: ["marshalling, shunting", "shunting, any other movement", "shunting, train movement", "attaching vehicles in front, attaching vehicles in rear"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0196]: On Single Line the Signal over lap shall be reckoned from",
+        options: ["facing points", "trailing points", "facing end points", "Home signal"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0197]: On Single/Double line MAS the Signal Over Lap shall not be less than",
+        options: ["100m", "110m", "120m", "180m"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0198]: Whenever train is required to be directly received without stopping at Home signal the Line must be clear on Double line upto",
+        options: ["starter", "adequate distance beyond home signal", "adequate distance beyond starter", "trailing points"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0199]: Whenever train is required to be directly received after stopping at Home signal the Line must be clear on Double line upto",
+        options: ["starter", "adequate distance beyond home signal", "adequate distance beyond starter", "trailing points"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0200]: Whenever train is required to be directly received after stopping at Home signal the Line must be clear on Single line upto",
+        options: ["place where the train is required to stop or starter", "adequate distance beyond home signal", "adequate distance beyond starter", "trailing points"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0201]: The efficient substitute for adequate distance is",
+        options: ["Any Sand Hump", "Signal exhibiting stop signal", "Hand signal exhibited at foot of starter", "Sand hump of approved design"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0202]: On Double/Single Line (not provided with IB) Last Stop Signal shall not be taken off unless",
+        options: ["PN from Station in rear", "Line clear has been obtained station in advance", "Line clear has been obtained station in rear", "Permission from SM in advance"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0203]: On Single Line between LSS to 400m beyond IB signal is called",
+        options: ["IB section", "Axle counter section", "Station controlled IB section", "Block controlled IB section"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0204]: On Single Line between IB signal upto the FSS of station is advance is called",
+        options: ["IB section", "Axle counter section", "Station controlled IB section", "Block controlled IB section"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0205]: On Single Line IB signal shall not be taken off unless",
+        options: ["Line clear is obtained", "Direction of traffic is established", "Either A or B", "Both A & B"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0206]: According to GR 3.45, what is the mandatory condition regarding the train's position before a Calling-on signal can be taken \"off\"?",
+        options: ["The train must be within the station section", "The train must have been brought to a stand at the Stop signal", "The train must be moving at a speed less than 10 kmph", "The train must be at least 400m away from the signal"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0207]: Outer, Home & LSS shall not be taken \"off\" for",
+        options: ["Reception of trains", "Despatch of trains", "Shunting purpose", "None of the above"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0208]: Starter can be taken off for shunting purpose",
+        options: ["Always", "only when it is not interlocked with Advance starter", "Points are flashing on the route", "When shunt signals are not available"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0209]: Under GR 3.47.1, which condition allows taking \"off\" signals for multiple trains approaching simultaneously over non-isolated lines?",
+        options: ["Only under special instructions with Rule 3.40 requirements fulfilled", "Only under approved special instructions if Rule 3.40 is not fulfilled", "When shunting operations are suspended", "Both A and B are applicable scenarios"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0210]: Normally all the points shall be set for",
+        options: ["Straight line", "Main line", "Loop line", "Any line"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0211]: Regarding the exhibition of hand signals (GR 3.52), which of the following is CORRECT? (1) Flags are normal for day; hands for emergencies. (2) Night signals use red or green lights (static or flashing). (3) A white light waved violently is a Stop signal if red is unavailable.",
+        options: ["Only 1 and 2", "Only 2 and 3", "Only 1 and 3", "All 1, 2, and 3"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0212]: By waving green flag by day and a white light by night up and down vertically as high and as low as possible indicate",
+        options: ["move slowly", "move towards person signalling", "train parting", "coupling"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0213]: Violently waving a white light horizontally across the body of a person indicates",
+        options: ["train parting", "move away from the person showing", "proceed", "stop dead"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0214]: A green flag/green light moved slowly up and down indicates",
+        options: ["stop dead", "move towards person signalling", "move away from person signalling", "proceed"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0215]: A temporary fixed danger signal, consisting of a red cloth supported at each end on a post and stretched across the line to which it refers is known as",
+        options: ["Hand signal", "Engineering indicator", "Stop hand signal", "Banner flag"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0216]: Every railway servant connected with the movement of trains, shunting operations, maintenance of installations and works shall have-",
+        options: ["a correct knowledge of hand signals", "Requisite hand signals while on duty in good working order", "Either A or B", "Both A & B"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0217]: Detonating signals, otherwise known as detonators or fog signals, are appliances which are fixed on the rails and when an engine or a vehicle passes over them, they",
+        options: ["exhibit danger signal", "explode with a loud report", "burn with flame", "exhibit warning signal"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0218]: Detonators are also known as",
+        options: ["fog signals", "flare signals", "illuminating signal", "none of these"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0219]: A detonator when required to be used shall be placed on the rail with a label or brand facing upwards and shall be fixed to the rail by",
+        options: ["clamp", "adhesive gum", "bending the clasps", "magnet"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0220]: In the case of a mixed gauge, detonators shall be placed on the",
+        options: ["common rail", "one rail of each gauge", "Either A or B", "Both A & B"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0221]: In thick or foggy weather, detonators shall be placed on the line at least ____ metres outside the signal(s) concerned, spaced about 10 metres apart.",
+        options: ["One, 270", "two, 270", "three, 180", "four, 180"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0222]: From either side of SM office, the VTP is located at a distance of",
+        options: ["150m", "160m", "180m", "400m"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0223]: Visibility Test Object may be",
+        options: ["Post erected for the purpose", "Light of a fixed colour light signal", "Either A or B", "Both A & B"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0224]: From First stop signal the FSP is located at a distance of",
+        options: ["180m", "120m", "400m", "270m"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0225]: To stop approaching trains due to an obstruction on BG, a servant must place one detonator at ____ and three detonators at ____ from the obstruction.",
+        options: ["Proceed hand signal, 600 M, 1200 M", "Stop hand signal, 600 M, 1200 M", "Stop hand signal, 400 M, 800 M", "Hand signal, 400 M, 1200 M"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0226]: If the railway servant is recalled before an obstruction is removed, he shall leave down ____ detonators and on his way back, pick up the ____.",
+        options: ["One, two detonators", "Two, intermediate detonator", "three, intermediate detonator", "two, two detonators"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0227]: The ____ shall be responsible for the supply, renewal, periodical testing and safe custody of such detonators.",
+        options: ["DRM", "Supervisor", "Branch officer", "Railway Administration"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0228]: Every railway servant concerned with the use of detonators shall have a ____ and keep them ready for ____.",
+        options: ["correct knowledge, immediate use", "knowledge, use", "training, utilization in case of need", "correct knowledge, need based use"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0229]: The signals to be used to warn the incoming train of an obstruction at night shall be a",
+        options: ["flashing amber light", "red flag", "red flashing H/S lamp", "none of these"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0230]: The signals to be used to warn the incoming train of an obstruction during day shall be a",
+        options: ["flashing amber light", "red flag", "red light of H/S lamp", "red flashing H/S lamp"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0231]: As soon as a Station Master becomes aware that any signal has become defective, he shall---",
+        options: ["arrange to place the signal at 'on'", "report the occurrence to upkeep staff", "report to the Controller if section is controlled", "All the above"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0232]: Pre-warning about defective reception signal is not required when there is",
+        options: ["calling on signal", "adv. starter", "Isolation", "none of above"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0233]: When home is defective and pre warning is given, the LP may pass such signal on receipt of",
+        options: ["PHS at the foot of the defective signal", "PHS at the first facing points", "T.369(3b)+PHS", "PN through SPT"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0234]: The condition that the SM shall fulfill before Loco Pilot is pre warned about the defective signal at the next station,",
+        options: ["taking off signal", "granting line clear", "Both A & B", "Either A or B"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0235]: In case of Starter being defective the written authority shall be handed over to the LP only after",
+        options: ["train stopped at Home signal", "trains has stopped at the defective signal", "Train stopped within fouling mark", "Train stopped after passing the starter signal"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0236]: Authority to pass defective starter signal (if it is not LSS) is",
+        options: ["Written authority+ PHS", "calling on signal taken off", "Either A or B", "Both A & B"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0237]: In case of written authority issued for passing advance starter, PHS at the foot of defective Advance starter is required when",
+        options: ["Signal interlocked with Block instrument", "Signal interlocked with Axle counter", "Signal is not detecting any points", "Signal detects points"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0238]: When Distant signal of ____ is defective and cannot be kept at On position, that signal is kept at ON and treated as defective",
+        options: ["IB signal", "Home signal", "Gate signal", "Automatic signal"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0239]: During day when Gate signal is at ON, the LP shall wait for",
+        options: ["one minute", "two minute", "three minute", "four minute"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0240]: When Gate signal is at ON and gateman is not available, LP may pass after Ensuring closure and hand signals of",
+        options: ["Gangman", "Engine crew", "patrolman", "PWI"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0241]: During night when Gate signal is at ON, the LP shall wait for",
+        options: ["one minute", "two minute", "three minute", "four minute"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0242]: When Gate signal is at ON and gateman is exhibiting hand signals. LP may",
+        options: ["stop at the gate", "proceed at MPS", "proceed cautiously", "none of above"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0243]: If the Loco Pilot finds, after stopping at the signal, that there is no 'G' marker, he shall proceed further only",
+        options: ["under approved instructions", "on advice from gateman", "on advice from SM", "under special instructions"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0244]: Loco Pilot shall act as if the signal was showing its most restrictive aspect when",
+        options: ["if the light of a signal is not burning", "if a white light is shown in place of a colour light", "if the aspect is misleading/imperfect", "Any of the above"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0245]: If a signal is showing white light in place of a colour light, it is treated as signal is showing",
+        options: ["most restrictive aspect", "caution aspect", "attention aspect", "stop aspect"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0246]: Whenever Distant signal is showing no light or imperfect aspect, LP shall ____ and after observing the 'P' marker shall pass assuming it to be at ON.",
+        options: ["bring his train to a stand", "pass the signal without stopping", "stop until authority is given", "ignore and pass the signal"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0247]: When a Loco Pilot finds an Intermediate Block Stop signal at \"on\", he shall stop and contact the",
+        options: ["Station Master of the block station in advance", "Station Master of the block station in rear", "Traction Power controller", "Nearest Gateman"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0248]: The Station Master shall authorise the Loco Pilot to pass the Intermediate Block Stop signal, if defective, as prescribed by",
+        options: ["General Rules", "approved special instructions", "special instructions", "Sr.DOM of the division"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0249]: The facility that is provided for I. B signal is",
+        options: ["Phone connecting the rear SM", "Phone connecting the advance SM", "Phone connecting the SCOR", "Phone connecting the TPC"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0250]: When I B S is at \"ON\" immediately the Loco Pilot shall stop and contact",
+        options: ["SM of advance station", "SCOR", "SM in rear station", "TPC"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0251]: When IBS is at \"ON\" and the telephone is out of order, Loco Pilot shall wait for",
+        options: ["two minutes", "three minutes", "four minutes", "five minutes"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0252]: When IBS is at \"ON\" and telephone is out of order, after waiting LP shall proceed when view is clear/not clear at a speed of",
+        options: ["10/8kmph", "25/10kmph", "15/8kmph", "15/10kmph"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0253]: In case SM is aware of IB signal becoming defective he shall ____ and follow procedure prescribed by special instructions.",
+        options: ["issue written authority to pass IB signal at ON", "treat both sections IB & Axle counter as one", "Contact advance SM and issue authority", "permit the LP on IB telephone"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0254]: As soon as a defective signal has been put into good working order, the Station Master shall intimate the fact to the officials",
+        options: ["who were advised of its being defective", "who were informed", "of various departments", "of the concerned department"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0255]: Whenever points, crossings or guard rails are defective, the servant in charge of operation shall protect them and report to",
+        options: ["Concerned department", "Branch Officers", "Safety department", "Station Master"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0256]: The Station Master, on becoming aware of defective or damaged points etc., shall -",
+        options: ["arrange rectification by responsible servant", "arrange to ensure the safe passage of trains", "keep the signal(s) concerned at 'on'", "All the above"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0257]: The Loco Pilot shall pay immediate attention to and obey ____ whether the cause of the signal being shown is known to him or not.",
+        options: ["instructions of SM", "orders of shed in charge", "every signal", "officials of S&T department"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0258]: The Loco Pilot shall not, however, trust entirely to signals, but always be",
+        options: ["Casual", "vigilant and cautious", "vigilant", "cautious"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0259]: The Loco Pilot shall whistle intermittently when his engine explodes detonator and take caution including",
+        options: ["increase of speed", "stop the train", "proceed with MPS", "reduction of speed"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0260]: When his engine explodes detonator(s), the loco pilot shall ____ so as to have the train well under control.",
+        options: ["whistle intermittently", "whistle continuously", "keep sharp look out", "take no action"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0261]: In thick weather, if his engine explodes ____ detonator(s) within 10m, LP will control train and follow signal aspect within ____ metres.",
+        options: ["1, 270", "2, 270", "3, 180", "2, 180"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0262]: When Loco Pilot explodes ____ detonators within a distance of ____ meters, he should control train and move cautiously.",
+        options: ["2, 20", "3, 30", "3, 40", "1, 20"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0263]: After exploding the detonator, if no obstruction is found, the Loco Pilot can pick up normal speed after proceeding cautiously up to",
+        options: ["500 meters", "one KM", "1.5 KM", "2 KM"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0264]: When LP notices a signal warning of an obstruction, except detonator, he shall",
+        options: ["proceed cautiously", "proceed upto next station and report", "stop after noticing the obstruction", "stop immediately"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0265]: When the Loco Pilot notices a signal warning of an obstruction and no further details are noticed, shall stop during day/night for",
+        options: ["one/two minute", "two/three minutes", "3/4 minutes", "none of these"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0266]: When LP notices a signal warning of an obstruction and no further details are noticed, after stopping, he shall proceed to next station",
+        options: ["cautiously", "with MPS", "at 20kmph", "at 30 kmph"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0267]: A Loco Pilot shall acquaint himself with the ____ and other local conditions affecting the running of trains on a section.",
+        options: ["Interlocking, gradients", "system of working, location of signals", "Classification of stations, shunting", "Time table, SM office"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0268]: A Loco Pilot if ____ with any portion of the railway over which he is to work, must obtain services of a qualified servant to assist.",
+        options: ["acquainted", "having road knowledge", "not so acquainted", "None of the above"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0269]: The LP of a train while passing an Outer, Home or Routing signal, when 'on' or defective, shall ensure speed does not exceed",
+        options: ["8 kmph", "10kmph", "15 kmph", "30 kmph"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0270]: In the case of a last Stop signal, LP shall not pass such signal, when \"on\" or defective, unless in possession of proper",
+        options: ["written authority", "PLCT", "LSS taken off", "authority to proceed"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0271]: No Loco Pilot shall take his engine on or across any running line until he has obtained permission of the",
+        options: ["Station Master", "Pointsman", "Loco Inspector", "Traffic Inspector"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0272]: The Loco Pilot and ALP shall ____ each signal as soon as visible and shall ____ to each other.",
+        options: ["Obey, follow Aspects", "Identify, follow indications", "identify, call out Aspects", "Follow, call out indications"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0273]: The Assistant Loco Pilot shall, when ____ assist the Loco Pilot in exchanging signals as required.",
+        options: ["Engaged", "attending mechanical failures", "working trains", "not otherwise engaged"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0274]: When two or more engines are attached to a train, the Loco Pilot of the ____ shall be responsible for compliance with signals.",
+        options: ["Rearmost engine", "Leading engine", "Senior most LP", "Any LP"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0275]: If LP or Guard observe a signal is imperfectly visible by trees or light is obscured, he shall report to SM at the",
+        options: ["next station at which the train stops", "next station", "Notice station", "Crew changing station"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0276]: When LP or Guard reports obstruction of signals by branches of trees, the Station Master shall advise the ____ concerned.",
+        options: ["S&T official", "Engineering", "Station Master", "concerned department"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0277]: The rule No. of G&SR for Commissioning of fixed signals is mentioned in",
+        options: ["GR 3.22", "GR 3.24", "GR 3.26", "GR 3.28"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0278]: The rule No. of G&SR for points affecting movement of trains is mentioned in",
+        options: ["GR 3.36", "GR 3.38", "GR 3.40", "GR 3.42"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0279]: The rule No. of G&SR for rules for Points and disconnection & reconnection is mentioned in",
+        options: ["GR 3.51", "GR 3.52", "GR 3.53", "GR 3.54"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0280]: The rule No. of G&SR for placing of detonators in thick weather impairing visibility is mentioned in",
+        options: ["GR 3.59", "GR 3.60", "GR 3.61", "GR 3.62"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0281]: The rule No. of G&SR for description of warning signals is mentioned in",
+        options: ["GR 3.65", "GR 3.66", "GR 3.67", "GR 3.68"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0282]: The rule No. of G&SR for passing IB stop signal at \"On\" is mentioned in",
+        options: ["GR 3.72", "GR 3.73", "GR 3.74", "GR 3.75"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0283]: The rule No. of G&SR for duties of SM in case of approach stop signal is defective is mentioned in",
+        options: ["GR 3.68", "GR 3.69", "GR 3.70", "GR 3.72"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0284]: The rule No. of G&SR for duties of SM in case of departure stop signal is defective is mentioned in",
+        options: ["GR 3.68", "GR 3.69", "GR 3.70", "GR 3.71"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0285]: The rule No. of G&SR for duties of SM generally when signal is defective is mentioned in",
+        options: ["GR 3.68", "GR 3.69", "GR 3.70", "GR 3.71"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0286]: The rule No. of G&SR for duties of engine crew in respect of signals is mentioned in",
+        options: ["GR 3.75", "GR 3.76", "GR 3.77", "GR 3.78"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0287]: The rule No. of G&SR for reporting of defects in signals by LPs is mentioned in",
+        options: ["GR 3.85", "GR 3.84", "GR 3.83", "GR 3.82"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0288]: Working of trains shall be regulated by standard time transmitted daily to principal stations at 16.00 hours by the",
+        options: ["Meteorological department", "Control office", "Government of India", "Central control"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0289]: The working of trains between stations shall be regulated by standard time prescribed by GOI, transmitted daily to principal stations at",
+        options: ["12.00 hrs", "16.00 hours", "18.00 hrs", "00.00 hrs"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0290]: No passenger train or mixed train shall be despatched from a station before the",
+        options: ["Standard time", "Working time table timing", "Time mentioned in Apps", "advertised time"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0291]: Before a train starts from a terminal, the ____ shall set his watch and communicate the time to the LP.",
+        options: ["Guard", "Loco Pilot", "Assistant Loco Pilot", "TTEs"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0292]: Before a train starts from a terminal, the Guard shall set his watch and communicate the time to the ____ who shall set his watch accordingly.",
+        options: ["Asst.Guard", "Loco Pilot", "Assistant Loco Pilot", "TTEs"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0293]: According to GR 4.04, what is the mandatory requirement for every Guard, Loco Pilot, and ALP regarding their duty attendance?",
+        options: ["They must report to the station master 30 minutes before departure", "They shall be in attendance for duty at such place and time as prescribed by special instructions", "They must perform a physical breathalyzer test at the lobby", "They must ensure all personal equipment is checked by a supervisor"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0294]: On a double line, every train shall run on the ____ line unless otherwise prescribed by special instructions.",
+        options: ["right hand", "left hand", "either", "center"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0295]: According to GR 4.06, how is the direction of train movement determined when there are two or more parallel lines?",
+        options: ["By the Station Master on duty", "By the Section Controller", "By special instructions", "By fixed signals only"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0296]: According to GR 4.07, to whom must a copy of the Working Time Table (WTT) currently in force be supplied?",
+        options: ["Each station and Guard", "Loco Pilot and Inspector of Way or Works", "Any other servant requiring it for duties", "All the above"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0297]: According to GR 4.07, which external authority must be supplied with a copy of the Working Time Table upon its issue?",
+        options: ["Railway Board", "Principal Chief Operations Manager", "Commissioner of Railway Safety", "District Magistrate"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0298]: According to GR 4.07, to whom must a copy of the Schedule of Standard Dimensions be supplied?",
+        options: ["Loco Pilot and Guard", "Station Master and Section Controller", "Inspector of Way or Works and Train Examiner", "Signal Maintainer"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0299]: Every train shall be run within sanctioned speed limits for that section sanctioned by",
+        options: ["Special instructions", "Chief engineer of the zone", "approved special instructions", "GM"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0300]: The sectional speed sanctioned and permanent speed restrictions shall be shown in the",
+        options: ["Sheet time table", "Working Time Table", "Public time table", "Lobbies"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0301]: In case speedometer is defective between crew changing stations it should be further worked",
+        options: ["15kmph", "10 KMPH", "10% reduction of speed", "with relief or repair"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0302]: The Loco Pilot shall.- regulate and control the running of the train according to the Working Time Table,",
+        options: ["so as to avoid either excessive speed or loss of time, and", "not make up time between stations more time than is allowed,", "Shall also observe all speed restrictions.", "All the above"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0303]: Whenever, in consequence of the line being under repair or for any other reason, special precautions are necessary, a ____ detailing the kilometers between which such precautions are necessary, the reasons for taking such precautions, and the speed at which a train shall travel, shall be handed to the Loco Pilot at the stopping station.",
+        options: ["Caution Order", "Shunting order", "speed restriction advice", "Permanent speed restriction"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0304]: The Caution Order shall be on ____ font or typed or made out on ____ paper in computers with the words \"caution order\" written on top of the form in bold letters of appropriate font size to draw attention distinctly and signed in full.",
+        options: ["Red, blue or black", "White, blue or black", "White, green", "Green, Black"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0305]: The speed of trains over non-interlocked facing points shall not exceed ____ in any circumstances,, unless otherwise prescribed by approved special instructions, which may permit a higher speed.",
+        options: ["10 kmph", "15 kmph", "20 kmph", "30 kmph"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0306]: The speed of trains over turn-outs and cross-overs shall not exceed its permissible speed or ____ whichever is less, unless otherwise prescribed by approved special instructions, which may permit a higher speed.",
+        options: ["10 kmph", "15 kmph", "20 kmph", "30 kmph"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0307]: No train shall run through an interlocked station at a speed exceeding ____ or such less speed as may be prescribed by approved special instructions unless the line on which the train is to run has been isolated from all other lines by the setting of points or other approved means.",
+        options: ["10 Kilometres an hour", "30 Kilometres an hour", "50 Kilometres an hour", "60 Kilometres an hour"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0308]: No engine or self-propelled vehicle shall push any train outside station limits except in accordance with special instructions and at a speed not exceeding",
+        options: ["10 kmph", "15 kmph", "20 kmph", "25 kmph"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0309]: Engine pushing rules shall not apply to a train the leading vehicle of which is ____ and which may be operated under approved special instructions",
+        options: ["equipped with driving apparatus", "equipped with braking apparatus", "equipped with tail board/lamp", "equipped with LP equipments"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0310]: Engine pushing rules shall not apply to an engine, ____ which may be permitted under approved special instructions to run without being coupled to the train",
+        options: ["leading in front of train", "assisting in rear of a train", "provided tower wagon in rear", "assisting in next to train engine"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0311]: Provided further that a \"Patrol\" or \"Search-light\" special with one or more vehicles in front of the engine may be permitted to run at a maximum speed of",
+        options: ["10 kmph", "20 kmph", "30 kmph", "40 kmph"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0312]: When trains are worked as engine pushing the load when it is the rearmost or the rearmost vehicle if any, shall carry a",
+        options: ["braking apparatus", "provision of sounding whistle", "tail board or a tail lamp", "Flashing Red light of HS lamp"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0313]: A train shall not be worked at night or in thick, foggy or tempestuous weather impairing visibility or in long tunnels, unless the engine carries an ____ of an approved design and in addition, two oil or electric white marker lights.",
+        options: ["electric headlight,", "electric light,", "electric bulb,", "Headlight"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0314]: An engine employed exclusively on shunting at stations and yards shall, at night or during thick, foggy or tempestuous weather impairing visibility, exhibit ____ lights in front and in rear.",
+        options: ["two white marker", "two red marker", "red marker", "two red & two white marker"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0315]: The colour of marker lights on both sides of engine exclusively deployed for shunting purpose shall be",
+        options: ["white", "red", "amber", "red and yellow"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0316]: The electric head light on the engine shall be fitted with a switch to dim the light and shall be dimmed",
+        options: ["when the train remains stationary at a station;", "when train is approaching another train in opposite direction on double or multiple track", "on such other occasions as may be prescribed by special instructions.", "all the above"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0317]: In case of defective electric head light of locomotive running in a section provided with reflective type of engineering fixed signal during night or thick, foggy weather impairing visibility, on BG, the Loco Pilot shall work the train cautiously at a speed not exceeding.",
+        options: ["40 kmph", "severest temporary speed restriction imposed in the block section", "'A' or 'B' whichever is less", "'A' or 'B' whichever is more"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0318]: locos should not be turned out from home shed if the speedometers/recorders are in defective condition.",
+        options: ["Goods", "Coaching", "Material trains", "Special trains"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0319]: In case of speedometer/recorder becoming defective during the run, the train should run at a ____ speed",
+        options: ["prescribed by special instructions", "10 kmph", "40kmph", "prescribed by approved special instructions"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0320]: Side lights shall show towards engine in normal position",
+        options: ["red", "white", "green", "yellow"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0321]: Side lights shall show towards rear in normal position",
+        options: ["red", "white", "green", "yellow"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0322]: The trains for which Side lights may be dispensed with is",
+        options: ["EMU trains", "Goods trains", "Express trains", "Both A & B"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0323]: In order to indicate to the staff that a train is complete, the last vehicle shall, be distinguished by affixing to the rear of it- by day",
+        options: ["a tail board of approved design", "red painted tail lamp of approved design which may be unlit", "Either 'A' or 'B'", "Both 'A' & 'B'"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0324]: In order to indicate to the staff that a train is complete, the last vehicle shall, be distinguished by affixing to the rear of it- by night, as well as in thick, foggy or tempestuous weather impairing visibility during day,",
+        options: ["Flashing amber light", "flashing red light", "steady Red light", "Flashing white light"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0325]: In emergencies only, and under special instructions in each case, a ____ may be used in lieu of a tail board or an unlit tail lamp.",
+        options: ["Green flag", "white light", "amber light", "red flag"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0326]: The Station Master shall see that the last vehicle of every train passing through his station is provided with ____ or such other device in accordance with the provisions",
+        options: ["tail board", "tail lamp", "Either 'A' or 'B'", "Both 'A' & 'B'"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0327]: If a train passes the station without such indication to show that it is complete, the Station Master shall- unless the station in advance has advised that the train is complete, neither consider ____ section in rear as clear ____ nor close it.",
+        options: ["block", "line", "Either 'A' or 'B'", "Both 'A' & 'B'"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0328]: Closing of block section in rear by the SM need not be withheld where ____ is provided between block stations and complete ____ is installed and functioning and there is clear indication of clearance of block section as well as complete arrival of the train.",
+        options: ["BPAC, track circuiting of station section", "LVCD, track circuiting", "track circuiting, BPAC", "Axle counters, circuiting of station section"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0329]: No passenger train or mixed train shall be despatched from any station, unless every passenger carriage is provided with ____ with the Guard or the Loco Pilot.",
+        options: ["Telephone", "Means of communication", "contact", "Phone No."],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0330]: Under GR 4.18, if a Railway Administration is satisfied that mischievous use of the means of communication is prevalent, what action can it take?",
+        options: ["Increase the penalty for misuse", "Suspend train operations on that section", "Direct the disconnection of the means of communication for the time being", "Appoint additional RPF staff to each carriage"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0331]: As per GR 4.18, does a goods vehicle in which passengers are carried qualify as a \"passenger carriage\" regarding communication means?",
+        options: ["Yes, under all circumstances", "No, it is not a passenger carriage within this rule", "Only if it is a departmental train", "Only if specifically mentioned in the WTT"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0332]: Each Guard and Loco Pilot shall have with him while on duty with his train, two pairs of ____ as he is required to wear under medical advice.",
+        options: ["watches", "trolley bags", "first aid boxes", "spectacles"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0333]: Which of the following is a personal equipment that Guards must possess while working a Passenger train?",
+        options: ["6 Washers", "Hammer cum screw driver", "First aid box", "Either 'A'or 'B'"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0334]: According to GR 4.19, which of the following is NOT required for a Guard and Loco Pilot as part of their duty equipment?",
+        options: ["Copy of G&SR and WTT", "Hand Signal lamp and Flags", "Mobile phone charger", "Stock of detonators and Whistle"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0335]: If a Loco Pilot becomes ____ while the engine is in motion, the Assistant Loco Pilot, if duly qualified, may work the train to the next station cautiously.",
+        options: ["Sleepy", "lethargic", "incapacitated", "tired"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0336]: If a Loco Pilot becomes incapacitated while the engine is in motion and the Assistant Loco Pilot is NOT duly qualified, what must the ALP do?",
+        options: ["Bring the train to a stop and send a message for relief", "Try to drive at slow speed to the next station", "Sound the emergency whistle continuously", "Seek assistance from the Guard to drive"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0337]: In case of ____, if the leading driving compartment becomes defective, the trains shall be driven cautiously from the nearest driving compartment which is serviceable; in this event, the Guard shall travel in the leading driving compartment",
+        options: ["Goods trains", "EMU/DEMU trains", "Material trains", "track machines"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0338]: Whenever LP of EMU/DEMU trains is not driving from leading compartment, Guard shall travel in leading compartment and is responsible for",
+        options: ["convey the necessary signals to the Loco Pilot", "sound the horn or whistle as necessary", "apply the brake in case of emergency", "All the above"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0339]: Whenever LP of EMU/DEMU trains is not driving from leading compartment, Guard shall travel in leading compartment and is responsible for ____ correctly at signals, stations and obstructions.",
+        options: ["following", "conveying", "stopping the train", "All the above"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0340]: In an electric engine, if the leading driving compartment is defective and the train is driven from the trailing compartment by a qualified ALP, where must the Loco Pilot remain?",
+        options: ["In the trailing compartment with the ALP", "In the leading driving compartment", "In the Guard's brake van", "On the footplate of the engine"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0341]: According to GR 4.22, who is authorised to enter the driving compartment of a train propelled by electric, diesel, or petrol engines?",
+        options: ["Any railway official on duty", "Only the Station Master and Guard", "No person other than the engine crew, unless permitted by special instructions", "Any passenger with a valid ticket"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0342]: No train shall be allowed to enter a block section, unless one or more ____ or hand braked vehicles are attached to it, except in emergency or as provided for under special instructions.",
+        options: ["brake-vans,", "wagons", "coaches", "track machines"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0343]: Provision of attaching ____ is not compulsory for rail cars, light engine or light engines coupled together.",
+        options: ["hand brake vehicles", "wagons", "coaches", "brake-vans,"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0344]: Unless otherwise directed by special instructions, one ____ shall be attached to the rear of the train, provided that ____ or other vehicles may, under special instructions, be placed in rear of such brake-van.",
+        options: ["bogie, carriage", "Brake van, reserved carriages", "Brake van, wagons", "Loco, wagons"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0345]: Except under special instructions or in an emergency, every running train shall be provided with one or more",
+        options: ["ALP", "Incharge", "Guards", "TTES"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0346]: The Guard of a running train shall travel in his brake-van, except-",
+        options: ["in an emergency", "under special instructions", "Either 'A' or 'B'", "Both 'A' & 'B'"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0347]: When a train is worked without a Guard, such of his duties as can be performed by the ____ shall devolve on him as may be specified by special instructions.",
+        options: ["Loco Pilot", "Asst. Guard", "Pointsman", "Gateman"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0348]: As per GR 4.26, what is the requirement for attaching a vehicle to any train?",
+        options: ["It must be certified by a TI", "It must be fitted with a coupling of approved pattern", "It must be within 10 years of manufacture", "It must have functioning side lights"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0349]: According to GR 4.27, what is required before a travelling crane can be attached to a train?",
+        options: ["Permission from the Sr.DOM", "A speed restriction of 30 kmph", "Certification of proper running order and a dummy truck for the jib", "It must be placed next to the engine"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0350]: When a crane works near electric traction lines, what additional requirement must be followed according to GR 4.27?",
+        options: ["Power must be switched off for the entire section", "Procedures and precautions as laid down under special instructions", "The crane must be operated by a qualified electrical engineer", "The Section Controller must supervise the work personally"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0351]: According to GR 4.28, a wagon or truck must not be loaded to exceed which of the following?",
+        options: ["Total volume capacity", "Maximum gross load on the axle as fixed under the Act", "The height of the platform", "The length of the siding"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0352]: No vehicle shall be loaded to exceed the maximum moving dimensions prescribed by ____ except under approved special instructions.",
+        options: ["Chief Engineer", "General Manager", "Railway Board", "Commission of Railway Safety"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0353]: If a load in a truck projects to an unsafe extent beyond the end, what must be attached according to GR 4.28?",
+        options: ["A brake van", "An additional truck to act as a dummy", "A red flag and tail lamp", "A specific speed restriction notice"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0354]: Guard shall, carefully examine the load of any open truck attached to the train and if any such load has ____ or ____ shall have the load made secure or the truck removed from the train.",
+        options: ["fallen, adjustment", "shifted, requires adjustment", "been stolen, requires adjustment", "shifted, fallen"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0355]: No vehicle which has been derailed shall run between stations, until it has been examined and certified by ____",
+        options: ["train examiner", "Traffic Inspector", "DRM", "competent train examiner"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0356]: In case of a derailment between stations, the ____ may, if the vehicle has been re-railed and if he considers it safe to do so, take such vehicle to the next station at a slow speed.",
+        options: ["Traffic Inspector", "Guard", "Loco Pilot", "Officer in charge"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0357]: If a Guard or Station Master has reason to apprehend danger from the condition of any vehicle on a train before in case C&W staff not available the ____ shall be consulted and if he so requires, the vehicle shall be detached from the train.",
+        options: ["Loco Pilot", "Assistant Loco Pilot", "C&W staff on phone", "SCOR"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0358]: According to GR 4.30, what must every Loco Pilot and Guard examine before starting a train?",
+        options: ["The mechanical parts of the engine", "Notices issued for their guidance regarding special attention on the section", "The cargo manifest for dangerous goods", "The station diary and duty roster"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0359]: When a train is examined by a TXR at a station, the SM shall not give permission to start the train until he has received a report from such examiner to the effect that the train is ____ and has the prescribed ____",
+        options: ["intact, brake", "fit to proceed, brake power", "fit, pressure", "complete, pressure guages"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0360]: In case a freight train is not examined by the train examiner and is without a valid brake power certificate, SM shall not give permission to start the train until he has received a ____ that the train is fit to proceed and has the prescribed brake power.",
+        options: ["Guard report", "Loco Pilot report", "Guard-Loco Pilot Joint Check Report", "Guard & Pointsman report"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0361]: In case a train is without a valid brake power certificate, SM shall not give permission to start the train until he has received a Guard-Loco Pilot Joint Check Report that the train is ____ and has the prescribed ____",
+        options: ["intact, brake", "fit to proceed, brake power", "fit, pressure", "complete, pressure gauges"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0362]: Loco Pilot shall, before commencement of journey and after performing any shunting en route, ensure.-",
+        options: ["Train engine is in proper working order including head lights,", "Coupling between the engine and the train is properly Secured", "Either 'A' or 'B'", "Both 'A' & 'B'"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0363]: In case of train working with multi locos or EMU/DEMU rakes, Loco Pilot shall be responsible for observing that all ____ are properly made.",
+        options: ["electrical couplings", "mechanical connections", "detachments", "S&T gears"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0364]: After all couplings are made, what must the Loco Pilot satisfy themselves of before taking over the train as per GR 4.33?",
+        options: ["The fuel levels in all engines", "The correct number of coaches/wagons", "That control, power apparatus, and brakes are in proper working order", "That the Guard's equipment is fully supplied"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0365]: The Guard when taking over charge of a train shall satisfy himself, before the train is despatched: -",
+        options: ["Train is properly coupled,", "Train is provided with the prescribed brake power,", "Train carries tail board or tail lamp and side lamps", "All the above"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0366]: As per GR 4.34, what specific appliance must the Guard ensure is in proper working order before dispatch?",
+        options: ["The hand brake of the first wagon", "The appliance for communication between the Guard and Loco Pilot", "The fire extinguisher in the brake van", "The first aid box seals"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0367]: A Loco Pilot shall not start his train from a Block station without the",
+        options: ["Caution order", "Authority to proceed", "Permission of ALP", "Guard"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0368]: Before starting the train from station, LP shall satisfy himself that all ____ are given and the line before him is clear of visible obstructions and the Guard has given the signal to start.",
+        options: ["Correct fixed signals", "Where necessary, hand signals", "Either 'A' or 'B'", "Both 'A' & 'B'"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0369]: Before starting the train from station, LP shall satisfy himself that all correct fixed signals and where necessary, hand signals are given and the line before him is ____ and the ____",
+        options: ["Clear of visible obstructions", "Guard has given signal to start", "Either 'A' or 'B'", "Both 'A' & 'B'"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0370]: Guard shall see, before giving the starting signal, that ____ for the train to proceed.",
+        options: ["all is right", "All is not right", "Correct Signals are taken off", "there is no visible obstructions"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0371]: Guard shall not give the signal for starting unless, no person is travelling in any compartment or vehicle or ____ not intended for the use of passengers.",
+        options: ["Guards BV", "Loco", "roof of the vehicle", "couplings"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0372]: Guard, Loco Pilot or Assistant Loco Pilot shall take help, if necessary from, and to remove the unauthorised persons from the compartment or vehicle or roof of the vehicle before starting a train from a station.",
+        options: ["Government Railway Police", "Railway Protection Force", "Station Staff", "All the above"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0373]: Who is in charge of the train after the engine has been attached and during the journey as per GR 4.36?",
+        options: ["The Station Master of the terminal station", "The Loco Pilot", "The Guard or (if more than one) the Head Guard", "The Section Controller"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0374]: When a train is within station limits, the Guard shall be under the orders of the",
+        options: ["Traffic inspector of section", "Station Master", "Loco Pilot", "Section controller"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0375]: Assistant Loco Pilots shall obey the lawful orders of their ____ in all particulars.",
+        options: ["Loco Inspector", "Station Master", "Loco Pilot", "Section controller"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0376]: After an engine has been attached to a train and during the journey, the Loco Pilot shall obey-orders of the ____ in all matters affecting the starting, stopping or movement of the train for traffic purposes",
+        options: ["Guard", "Station Master", "Traffic inspector", "Loco Inspector"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0377]: After an engine has been attached to a train and during the journey, the Loco Pilot shall obey-orders of the ____ in all matters so far as the safe and proper working of his engine will admit",
+        options: ["ALP", "Station Master", "Traffic inspector", "Loco Inspector"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0378]: Every Loco Pilot shall keep a good lookout while the train is in motion and every Assistant Loco Pilot shall also do so when he is not ____",
+        options: ["interested", "feeling healthy", "following LP orders", "necessarily otherwise engaged"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0379]: The Loco Pilot or the Assistant Loco Pilot shall look back frequently during the journey to see whether the train is following in a ____",
+        options: ["safe and proper manner", "unsafe manner", "proper order", "safe manner"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0380]: The Loco Pilot and the Guard of a train shall ____ at such times and in such manner as may be prescribed by special instructions.",
+        options: ["talk on walkie-talkie", "communicate on whistle codes", "exchange signals with each other", "None of the above"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0381]: Loco Pilot and the Guard of a train shall, while running through a station, look out, acknowledge ____ which the Station Master shall give if the train is proceeding in a safe and proper manner.",
+        options: ["Unsafe condition of trains", "All right signals", "with green flags", "with green light"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0382]: When train is not proceeding in a safe and proper manner at station, SM or the other staff shall exhibit a ____ on receipt of which the Guard and the Loco Pilot shall take immediate steps to stop the train.",
+        options: ["Proceed hand signal", "Hand signal", "Red flag", "Stop hand signal"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0383]: During the journey including halts at stations, every Guard shall keep a good lookout and satisfy himself from time to time that the ____ are available, that the train is complete in every respect and is proceeding in a ____",
+        options: ["Tail/board/lamp, safe and proper manner", "personal equipments, safe manner", "Pressure guage, proper manner", "Tailboard/lamp, unsafe manner"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0384]: When a train is held up at F S S without an apparent cause, the Loco Pilot shall depute Assistant Loco Pilot to go to Station. after",
+        options: ["10 minutes", "15 minutes", "5 minutes", "none of these"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0385]: When a train is held up at F S S without an apparent cause, the Loco Pilot shall depute Assistant Loco Pilot to go to Station after 5 minutes to the cabin of station to",
+        options: ["Intimate SM", "Warn the SM", "Consult the Cabinman", "inform the SS"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0386]: The Assistant Loco Pilot proceeding to station in case of held up at FSS for more than 5 mins without any apparent cause shall exhibit ____ signal towards station",
+        options: ["Proceed hand signal towards train", "Proceed hand signal towards train", "Stop hand signal towards train", "Stop hand signal towards station"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0387]: The Guard shall protect the train in rear when a train is held up at F S S for more than",
+        options: ["5minutes or such time specified by Special instructions", "15minutes", "15minutes or such time specified by Special instructions", "Less than 15minutes or such time specified by Special instructions"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0388]: The Guard shall protect the train in rear when a train is held up at F S S for more than 15minutes or such time specified by Special instructions whether the cause is",
+        options: ["Apparent or not", "Apparent only", "intimated to him", "not intimated to him"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0389]: According to GR 4.44, what must the Guard do as soon as a train is stopped at the first Stop signal?",
+        options: ["Wait for instructions from the Loco Pilot", "Check that the tail board or tail lamp is correctly exhibited and maintain a vigilant attitude", "Proceed forward to the engine", "Contact the Station Master on the walkie-talkie"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0390]: If Guard notices any danger condition in the train, he shall try to attract the attention of",
+        options: ["Gateman", "Station master", "Loco pilot", "SCOR"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0391]: If Guard failed to attract the attention, when notices any danger condition in the train, he may stop the train gradually by applying",
+        options: ["Hand brake", "Hand brake continuously", "Hand brake sharply and release", "Wagon hand brake"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0392]: In the absence of other means of communications with the engine, a Guard desiring to attract the Loco Pilot's attention shall wherever possible, he shall reverse the side lamps to show",
+        options: ["Red towards Rear", "red towards the engine", "White towards engine", "Green towards engine"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0393]: If the train is fitted with continuous brake, the Guard may, in case of emergency, apply ____ to stop the train.",
+        options: ["Hand brake continuously", "Reverse side lamp", "Loco Brake", "such brake gradually"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0394]: When the Loco Pilot requires the assistance of ____ he shall sound the prescribed code of whistle, if necessary repeatedly, and shall also use other means of communication, if provided.",
+        options: ["Guard's hand brake", "Guards brake", "SM", "Loco Inspector"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0395]: When the Loco Pilot sounds the prescribed code of whistle, the Guards shall immediately apply their",
+        options: ["Loco brakes", "Guards brake", "Hand brakes", "Mind to stop train"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0396]: When a train is travelling down a steep incline, the Guards shall, if necessary to steady the train, assist the Loco Pilot with their",
+        options: ["Loco brakes", "Guards brake", "Hand brakes", "Mind to stop train"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0397]: Whenever Train engine is to be detached outside station limits on a gradient, Guard shall not give such permission unless",
+        options: ["BV+6vehicles hand brakes applied", "Hand brakes have been securely applied as per special inst", "BV+12 vehicles hand brakes applied", "Only Brake van hand brakes applied"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0398]: When a train has been brought to a stand outside station limits or anywhere on a grade, the Loco Pilot shall not detach his engine from the train without the permission of the",
+        options: ["Station Master", "Traffic Inspector", "Section controller", "Guard"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0399]: According to GR 4.49, how must the Loco Pilot start and stop the train?",
+        options: ["As quickly as possible", "According to the controller's instructions", "Carefully and without a jerk", "Using only the vacuum brake"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0400]: Except under special instructions, the Loco Pilot shall always sound the whistle of the engine according to the prescribed code of whistle- (a) before putting an engine in motion; (b) when entering a tunnel; and",
+        options: ["when passing a level crossing", "when a passenger pulls the alarm chain", "at such other times and places as may be prescribed by special instructions", "only when requested by the Guard"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0401]: Which whistle code should the Loco Pilot use to acknowledge the Guard's signal, to indicate the train is about to start, or to acknowledge a 'caution' signal?",
+        options: ["One short whistle (-)", "Two short whistles (- -)", "One long whistle (____)", "Continuous whistling"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0402]: Which whistle code is used to call the Guard's attention, to indicate the Guard can release brakes, or to signal the train cannot proceed due to an order?",
+        options: ["One long and one short (____ -)", "Two short whistles (- -)", "Three short whistles (- - -)", "Two long whistles (____ ____)"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0403]: Which whistle code indicates that the train is short of water or has an engine failure, requiring a relief engine?",
+        options: ["Three short whistles (- - -)", "Four short whistles (- - - -)", "One long and two short (____ - -)", "Two long and two short (____ ____ - -)"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0404]: Which whistle code is used by the Loco Pilot to indicate a 'Train Parting' incident?",
+        options: ["One long, one short, one long, one short", "Intermittent long whistles", "One long and three short (____ - - -)", "One long and two short (____ - -)"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0405]: What whistle code is used to warn persons on the track, or when approaching a level crossing or a tunnel?",
+        options: ["Continuous whistling", "One long whistle (____)", "Intermittent long whistles", "Three short whistles"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0406]: When passing a signal at 'on' (with authority) or when an IBS signal is passed at 'on', what is the prescribed whistle code?",
+        options: ["One long and one short (____ -)", "One short, one long, one short (- ____ -)", "Two long and two short (____ ____ - -)", "Four short whistles"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0407]: Which whistle code indicates that the train is 'Alarm Chain Pulled' or that the vacuum/air pressure has dropped without an apparent cause?",
+        options: ["One long and one short (____ -)", "Two short and one long (- - ____)", "Two long and two short (____ ____ - -)", "Four short whistles"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0408]: According to GR 4.51, what must the Loco Pilot do when approaching a station at which the train is NOT supposed to stop?",
+        options: ["Sound a long continuous whistle", "Increase speed to clear the section quickly", "Give the prescribed code of whistle to warn the station staff", "Switch off the headlight"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0409]: Except as provided in special instructions, the Loco Pilot shall stop the train as per GR 4.52 by:",
+        options: ["Turning off the engine", "Applying the continuous brake/other brakes of the train", "Signalling the Guard to apply handbrakes first", "Reversing the engine gear"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0410]: When a train is required to stop at a station, the Loco Pilot shall bring it to a stand at the ____.",
+        options: ["Station Master's office", "End of the platform", "Prescribed stopping place", "First facing points"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0411]: If a train overshoots the stopping place at a station, the Loco Pilot shall not reverse the train without ____.",
+        options: ["Permission of the Section Controller", "The Signal from the Guard and permission from the SM", "A written authority from the Station Master", "Whistling three times"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0412]: According to GR 4.56, who is responsible for the protection of a train when it is stopped between stations due to an accident or any other cause?",
+        options: ["The Station Master of the rear station", "The Loco Pilot and the Guard", "The Section Controller", "The GRP and RPF"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0413]: When a train is stopped between stations and cannot proceed, the Guard shall immediately exhibit a ____ signal to the rear.",
+        options: ["Proceed", "Caution", "Stop hand", "White light"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0414]: For protection on BG, the person protecting the train shall place one detonator at ____ and three detonators at ____ from the train.",
+        options: ["400m, 800m", "600m, 1200m", "500m, 1000m", "270m, 540m"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0415]: When protecting a train, the three detonators placed at 1200m must be spaced ____ apart.",
+        options: ["5 metres", "10 metres", "15 metres", "20 metres"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0416]: According to GR 4.58, what must the Loco Pilot do if they find the train is 'parting'?",
+        options: ["Apply the emergency brakes immediately", "Stop the leading portion at once", "Not stop the leading portion until the rear portion has come to a stand", "Reverse the leading portion to couple"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0417]: If a train has parted, and the rear portion is still in motion, what must the Guard do?",
+        options: ["Jump off the train", "Use the handbrake to stop the rear portion", "Signal the Loco Pilot to stop", "Wait for the portions to collide gently"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0418]: In case of 'train parting' at night, the Loco Pilot of the leading portion shall ____.",
+        options: ["Switch off the headlight", "Flicker the headlight and sound the whistle code", "Extinguish the marker lights", "Show a red flag"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0419]: According to GR 4.61, when a portion of a train is left on the line, the Guard must ____ before the engine is detached.",
+        options: ["Inform the Station Master", "Apply the handbrakes of the vehicles and the brake-van", "Detach the rear portion couplings", "Place detonators 100m away"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0420]: When an engine is sent back to pick up a portion of a train left on the line, the Loco Pilot must proceed ____.",
+        options: ["At MPS", "Cautiously and be prepared to stop short of the portion", "Only after receiving a PLCT", "With the Assistant Loco Pilot on the roof"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0421]: According to GR 5.01, who is responsible for the general administration of a station?",
+        options: ["Traffic Inspector", "Station Master", "General Manager", "Section Controller"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0422]: At a station where a Station Master is not provided, who is responsible for the station's duties?",
+        options: ["The nearest Gateman", "The Loco Pilot of the first train", "The railway servant in charge of the station as per special instructions", "The PWI"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0423]: Every Station Master shall see that all signals, points, and other appliances are ____.",
+        options: ["Painted regularly", "In good working order", "Operated by the TI", "Disconnected during night"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0424]: When a Station Master is relieved of his duty, he shall ____ all relevant information to his relief.",
+        options: ["Verbally explain", "Hand over in writing", "Email", "Post on the notice board"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0425]: According to GR 5.06, who is responsible for the setting and locking of points at a station?",
+        options: ["The Pointsman only", "The Station Master", "The Signal Maintainer", "The Loco Pilot"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0426]: No train shall be admitted to a station unless it has been ____.",
+        options: ["Checked by a TXR", "Correctly signalled", "Cleaned", "Weighed"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0427]: According to GR 5.09, what is the 'reception line'?",
+        options: ["Any line in the yard", "The line on which a train is intended to be received", "The siding", "The main line only"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0428]: Before a train is received, the SM must ensure the reception line is ____.",
+        options: ["Clear of all obstructions", "Locked for 24 hours", "Polished", "Free of passengers"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0429]: According to GR 5.12, no engine or vehicle shall be detached from a train on a grade without ____.",
+        options: ["Permission from the PCOM", "Securing the remaining portion of the train", "Emptying the fuel tank", "Informing the nearest hospital"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0430]: When shunting is performed, it must be done ____.",
+        options: ["As fast as possible", "Under the supervision of a competent railway servant", "Only during the day", "Without using the engine"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0431]: What is the maximum speed for shunting unless otherwise authorized by special instructions?",
+        options: ["10 kmph", "15 kmph", "20 kmph", "30 kmph"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0432]: Shunting of wagons containing 'Explosives' must be done with ____.",
+        options: ["Extreme caution and at a speed not exceeding 8 kmph", "The same speed as normal wagons", "A minimum of 10 buffer wagons", "Only manual power"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0433]: According to GR 5.16, who is responsible for the 'Securing of vehicles' at a station?",
+        options: ["The RPF", "The Station Master", "The Section Controller", "The Trackman"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0434]: No shunting shall be performed on a line that is ____.",
+        options: ["Not track circuited", "Occupied by a passenger train", "Governed by a fixed signal at 'off'", "Sloping"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0435]: At a station where shunting is permitted outside station limits, what must be obtained?",
+        options: ["A 'Caution Order'", "The 'Authority to Proceed' or a 'Shunting Order'", "Permission from the DRM", "A green flag from the SM"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0436]: According to GR 5.23, no person shall be allowed to ride on ____ during shunting.",
+        options: ["The engine", "The foot-boards or buffers of any vehicle", "The Guard's van", "The roof of a coach"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0437]: When a train is being 'backed' into a station, the Guard shall ____.",
+        options: ["Stay in the engine", "Ride on the leading vehicle and be prepared to stop the train", "Walk in front of the train", "Inform the passengers to jump off"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0438]: According to GR 6.01, what must be done if a train is involved in an accident causing loss of life?",
+        options: ["The train should continue its journey", "The Station Master must immediately report the matter to the authorities", "Only the RPF should handle the matter", "The Loco Pilot should be arrested immediately"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0439]: Who is responsible for investigating an accident on the railway as per the Act?",
+        options: ["The Commissioner of Railway Safety", "The Local Police", "The District Magistrate", "The Railway Board only"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0440]: According to GR 6.03, every railway servant must ____ in case of an accident.",
+        options: ["Take photos for social media", "Render all possible assistance", "Wait for written orders", "Leave the site immediately"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0441]: When a train carrying 'Dangerous Goods' is involved in an accident, the Guard must ____.",
+        options: ["Run away from the site", "Ensure the area is cordoned off and precautions are taken", "Open the wagons to check the contents", "Light a fire to signal help"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0442]: According to GR 7.01, what are the systems of working trains on Indian Railways?",
+        options: ["Absolute Block and Automatic Block", "One Train Only and Following Trains", "Train Staff and Ticket and Pilot Guard", "All the above"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0443]: Which is the most common system of working on Indian Railways?",
+        options: ["Absolute Block System", "Pilot Guard System", "One Train Only System", "Automatic Block System"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0444]: No system of working other than those mentioned in GR 7.01 shall be used without the sanction of ____.",
+        options: ["General Manager", "PCOM", "Government of India", "Railway Board"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0445]: According to GR 8.01, what is the essentials of the Absolute Block System?",
+        options: ["Trains may follow each other at 5-minute intervals", "No train shall be allowed to leave a block station unless Line Clear has been received", "Signals are always green", "Line Clear is given by the Guard"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0446]: In the Absolute Block System, 'Line Clear' shall not be given unless the line is clear for an ____.",
+        options: ["Unlimited distance", "Adequate distance", "Estimated distance", "Authorised distance"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0447]: On double line in Absolute Block System, the 'Adequate Distance' (Signal Overlap) for granting Line Clear shall not be less than ____.",
+        options: ["120 metres", "180 metres", "400 metres", "300 metres"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0448]: On single line in Absolute Block System, for granting Line Clear at a class 'B' station, the line must be clear ____.",
+        options: ["Up to the Home signal", "Up to the First Stop Signal", "For at least 400 metres beyond the Home signal", "Up to the Station Master's office"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0449]: According to GR 9.01, the essentials of the Automatic Block System include the line being divided into ____.",
+        options: ["Long sections", "Automatic block signalling sections", "Manual sections", "Station sections"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0450]: In Automatic Block System, the signals are controlled by ____.",
+        options: ["The Station Master", "The passage of the train into and out of the section", "The Guard", "The Section Controller"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0451]: According to GR 9.02, what must a Loco Pilot do when he finds an Automatic Stop Signal at 'on' during day?",
+        options: ["Wait for 5 minutes and then proceed at 10 kmph", "Wait for 1 minute and proceed at 15 kmph (caution)", "Wait for 10 minutes", "Stop and return to the rear station"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0452]: According to GR 9.02, what must a Loco Pilot do when he finds an Automatic Stop Signal at 'on' during night?",
+        options: ["Wait for 1 minute", "Wait for 2 minutes and proceed cautiously at 15 kmph", "Wait for 5 minutes", "Switch off the engine"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0453]: When an Automatic Stop Signal is passed at 'on', the Loco Pilot must proceed with great caution at a speed not exceeding ____.",
+        options: ["8 kmph", "10 kmph", "15 kmph", "25 kmph"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0454]: If the visibility is poor (foggy) after passing an Automatic Stop Signal at 'on', the speed must not exceed ____.",
+        options: ["5 kmph", "8 kmph", "10 kmph", "15 kmph"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0455]: According to GR 9.07, when all signals fail in Automatic Block section, the SM shall ____.",
+        options: ["Suspend all train movements", "Introduce 'Absolute Block System' working", "Give a verbal permission to start", "Stop all trains at the Home signal"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0456]: According to GR 10.01, the One Train Only System is used on ____.",
+        options: ["Main lines", "Short single line branch sections", "Double line sections", "Yard lines"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0457]: In the One Train Only System, the 'Authority to Proceed' is ____.",
+        options: ["A PLCT", "A metal token or 'One Train Only' Staff", "A green flag", "The Home signal at 'off'"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0458]: According to GR 14.01, every block station must be provided with ____.",
+        options: ["A computer", "Block instruments or other approved means of communication", "A first aid kit", "A cafeteria"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0459]: No person shall operate a block instrument unless he is ____.",
+        options: ["A railway officer", "A 'Competent Railway Servant'", "An engineer", "A Pointsman"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0460]: Every block instrument must be kept ____ when not in use.",
+        options: ["Open", "Locked", "Switched off", "Covered with a cloth"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0461]: According to GR 14.07, when a block instrument is defective, the 'Authority to Proceed' shall be ____.",
+        options: ["A verbal order", "A Paper Line Clear Ticket (PLCT)", "A hand signal", "A phone call from the SCOR"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0462]: Every SM must keep a 'Block Working Diary' and record ____.",
+        options: ["All train timings and messages exchanged", "Names of passengers", "The weather report", "His personal thoughts"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0463]: According to GR 15.01, no railway servant shall commence work affecting the track without ____.",
+        options: ["A helmet", "The permission of the SM and proper protection of the line", "A work order from the DRM", "A megaphone"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0464]: When the track is being repaired, 'Engineering Indicators' must be provided at ____ from the work site.",
+        options: ["400m and 800m", "600m and 1200m", "270m and 540m", "100m and 200m"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0465]: The 'Speed Indicator' is located at ____ from the beginning of the speed restriction.",
+        options: ["30 metres", "100 metres", "600 metres", "1200 metres"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0466]: The 'Caution Indicator' is located at ____ from the 'Speed Indicator'.",
+        options: ["400 metres", "800 metres", "1200 metres", "1500 metres"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0467]: According to GR 15.06, a 'Trolley' or 'Motor Trolley' must always be accompanied by ____.",
+        options: ["A mechanic", "A qualified railway servant (Trolley-man)", "An RPF constable", "The SM"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0468]: Every Motor Trolley must have a valid ____.",
+        options: ["License", "Brake power certificate", "Registration", "Insurance"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0469]: According to GR 16.01, 'Level Crossing Gates' are classified as ____.",
+        options: ["Special, A, B, and C class", "X, Y, and Z class", "High, Medium, and Low class", "Numbered 1 to 100"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0470]: A 'Special Class' LC gate is one where the TVU is more than ____.",
+        options: ["20,000", "30,000", "50,000", "1,00,000"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0471]: According to GR 16.03, every Gateman must be provided with ____.",
+        options: ["A whistle and a flag", "Red and Green flags, Hand Signal Lamp, and Detonators", "A uniform and a cap", "A chair and a table"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0472]: A Gateman must exhibit a ____ signal if he notices anything unusual on a passing train.",
+        options: ["Proceed", "Stop hand", "White light", "Caution"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0473]: According to GR 17.01, working of trains in 'Electrified Sections' requires ____.",
+        options: ["No special rules", "Compliance with special instructions for AC/DC traction", "The SM to be an electrical engineer", "All staff to wear rubber gloves"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0474]: No person shall climb on the roof of a vehicle in an electrified section due to the danger of ____.",
+        options: ["Falling", "High voltage overhead equipment (OHE)", "Wind", "The Section Controller's anger"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0475]: According to GR 17.03, in case of an OHE breakdown, the 'Traction Power Controller' (TPC) must ____.",
+        options: ["Inform the General Manager", "Isolate the faulty section and inform the SCOR/SMs", "Climb the pole to fix it", "Wait for the rain to stop"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0476]: For shunting in an electrified yard, the engine must not pass the ____.",
+        options: ["First pole", "Signal board", "'Stop' board for Electric Locos / End of OHE", "SM office"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0477]: According to SR 17.08, 'Neutral Section' is a portion of OHE where ____.",
+        options: ["Power is always available", "There is no electrical power", "Trains must stop", "The Guard takes over the engine"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0478]: When passing a 'Neutral Section', the Loco Pilot must ____.",
+        options: ["Speed up", "Open the circuit breaker (DJ/VCB)", "Lower the pantograph", "Sound a continuous whistle"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0479]: According to the Operating Manual, 'Interlocking' is a means of ensuring ____.",
+        options: ["Speed", "Safety and sequence of operation", "Punctuality", "Economy"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0480]: 'Standard III' interlocking allows a maximum speed of ____.",
+        options: ["50 kmph", "75 kmph", "110 kmph", "160 kmph"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0481]: 'Standard II' interlocking allows a maximum speed of ____.",
+        options: ["50 kmph", "75 kmph", "110 kmph", "140 kmph"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0482]: 'Standard I' interlocking allows a maximum speed of ____.",
+        options: ["15 kmph", "30 kmph", "50 kmph", "100 kmph"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0483]: According to the Operating Manual, 'SWR' stands for ____.",
+        options: ["Station Working Rules", "Safety Working Rules", "Section Working Rules", "Standard Working Rules"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0484]: SWR must be issued for every ____.",
+        options: ["Train", "Block station", "Loco shed", "Railway office"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0485]: SWR is signed by the ____.",
+        options: ["DOM and DSTE", "Sr.DOM and Sr.DSTE", "DRM and ADRM", "General Manager"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0486]: SWR should be reviewed once in every ____.",
+        options: ["Year", "3 years", "5 years", "10 years"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0487]: A fresh SWR must be issued after ____ correction slips.",
+        options: ["3", "5", "7", "10"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0488]: According to the Operating Manual, 'Line Capacity' is the ____.",
+        options: ["Length of the track", "Maximum number of trains that can run in 24 hours", "Weight of the train", "Number of passengers"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0489]: 'Throughput' is the total ____ moved over a section in a given time.",
+        options: ["Trains", "Gross tonnes", "Coaches", "Passengers"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0490]: 'Sectional Capacity' can be increased by ____.",
+        options: ["Reducing speed", "Increasing the number of block stations", "Closing the yard", "Reducing the staff"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0491]: According to the Operating Manual, 'FOIS' stands for ____.",
+        options: ["Freight Operations Information System", "Fast Operations Information System", "Forward Operations Information System", "Freight Order Information System"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0492]: 'COIS' is the information system used for ____ operations.",
+        options: ["Freight", "Coaching", "Container", "Coal"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0493]: According to the Operating Manual, 'Rake Integrity' means ____.",
+        options: ["The rake is clean", "The composition of the rake is as per the standard", "The rake is on time", "The Guard is honest"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0494]: 'BPC' (Brake Power Certificate) is valid for 'Premium' rakes for ____ days.",
+        options: ["7", "12+3", "15", "30"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0495]: 'BPC' for 'End-to-End' rakes is valid up to ____.",
+        options: ["7 days", "10 days", "The destination station", "The next crew change station"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0496]: 'BPC' for 'CC' (Close Circuit) rakes is valid for ____ km or 30 days.",
+        options: ["4500", "6000", "7500", "10000"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0497]: According to the Accident Manual, an 'Untoward Incident' includes ____.",
+        options: ["Derailment", "Accidental falling from a train", "Fire in a coach", "Collision"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0498]: 'Serious Accident' is an accident that causes ____.",
+        options: ["Damage to the track", "Loss of human life or serious injury", "A delay of 1 hour", "Damage to a signal"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0499]: 'ART' stands for ____.",
+        options: ["Accident Relief Train", "Accident Recovery Train", "Accident Restoration Train", "Accident Relief Team"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0500]: 'MRV' stands for ____.",
+        options: ["Medical Relief Van", "Maintenance Relief Vehicle", "Medical Recovery Van", "Motor Relief Vehicle"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0501]: According to GR 6.08, how shall the Guard indicate the parting of a train?",
+        options: [
+            "Waving a red flag by day or red light by night horizontally",
+            "Waving a green flag by day or white light by night up and down vertically",
+            "Sounding a continuous whistle with the handbrake applied",
+            "Exhibiting a stop hand signal towards the engine"
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0502]: When both portions of a parted train are brought to a stand within sight of each other, they may be coupled provided it is possible and safe, and the ____.",
+        options: [
+            "Front portion is secured",
+            "SM's permission is obtained",
+            "Rear portion is secured",
+            "Flasher light is switched off"
+        ],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0503]: Under GR 6.09, if an engine is capable of proceeding during divided train working, what must the Guard do carefully before uncoupling?",
+        options: [
+            "Secure the rear portion to ensure it remains stationary",
+            "Release all brakes to allow for easy coupling later",
+            "Inform the Station Master of the exact kilometer of the rear portion",
+            "Switch on the tail lamp of the leading portion"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0504]: In divided train working, once the Guard has secured the remaining portion, they shall give the Loco Pilot ____ to proceed to the next station.",
+        options: [
+            "Verbal instructions and a green flag",
+            "Written permission and written instructions to return",
+            "The train's original Authority to Proceed",
+            "A Caution Order for the entire section"
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0505]: When the front portion of a divided train is taken forward, what is the rule regarding the tail indication?",
+        options: [
+            "A red flag must be used as a tail board",
+            "The tail lamp must be lit in the 'on' position",
+            "No tail lamp or tail board shall be placed on the rear vehicle",
+            "A temporary tail board must be manufactured by the Guard"
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0506]: In case of a fire accident in a passenger-carrying train, what is the first objective to be achieved?",
+        options: ["Safety of passengers", "Extinguishing the fire", "Isolating the fire coach", "Switching off power supply"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0507]: If a fire occurs on any part of the electrical equipment, what is the correct sequence of action?",
+        options: [
+            "Isolate from power supply, then put out fire",
+            "Put out fire first, then isolate power",
+            "Wait for the TPC to cut power before any action",
+            "Evacuate the train without attempting to extinguish"
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0508]: If any vehicle escapes from a station, the Station Master shall take immediate steps to ____ as far as practicable.",
+        options: [
+            "Intimate the other SM",
+            "Intimate the SCOR",
+            "Warn the passengers",
+            "Warn the other stations or persons concerned"
+        ],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0515]: The Absolute Block and Automatic Block Systems alone shall be used on every railway except where another system is sanctioned under ____.",
+        options: [
+            "Special instructions",
+            "General Rules",
+            "Approved special instructions",
+            "Divisional orders"
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0516]: Where trains are worked on the Absolute Block System, no train shall be allowed to leave a block station unless ____ has been received from the block station in advance.",
+        options: ["Permission", "Line Clear", "Private Number", "Authority to Proceed"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0517]: On a double line Absolute Block system, Line Clear shall not be given unless the line is clear not only up to the First Stop Signal (FSS) but also for ____.",
+        options: [
+            "The entire station section",
+            "An adequate distance beyond it",
+            "The Last Stop Signal",
+            "The fouling mark of the loop line"
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0518]: On a single line Absolute Block system, Line Clear shall not be given unless the line is clear for an adequate distance beyond the FSS and clear of trains running ____.",
+        options: [
+            "In the opposite direction",
+            "In the same direction",
+            "Towards the block station to which Line Clear is given",
+            "Within the station limits"
+        ],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0519]: Unless otherwise directed by approved special instructions, the adequate distance for granting Line Clear in MAS shall not be less than ____.",
+        options: ["120 metres", "180 metres", "400 metres", "600 metres"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0520]: At a class \"A\" station, Line Clear shall not be given unless the line on which it is intended to receive the train is clear up to the ____.",
+        options: ["Points", "Starter", "Berthing track", "Last Stop Signal"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0521]: At a class \"B\" station on a double line with MAS, the line is considered clear for Line Clear if it is clear up to the ____.",
+        options: [
+            "Outermost facing points",
+            "Block Section Limit Board (BSLB)",
+            "Either A or B",
+            "The Starter signal"
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0522]: At a class \"B\" station on a single line with MAS, if there is no Shunting Limit Board or Advanced Starter, the line must be clear up to the ____.",
+        options: [
+            "Home signal",
+            "Outermost facing points",
+            "Station Master's office",
+            "Fouling mark"
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0523]: At a class \"C\" station on a double line in MAS, Line Clear shall not be given unless the whole of the last preceding train has passed complete at least ____ and is continuing its journey.",
+        options: [
+            "400m beyond the Home signal",
+            "180m beyond IB signal",
+            "600m beyond Home signal",
+            "180m beyond LSS"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0524]: At a class \"C\" station on a single line in MAS, Line Clear requires the last train to be 400m beyond the Home signal and the line to be clear of trains running ____ from the other end.",
+        options: [
+            "In the same direction",
+            "Towards the station",
+            "In the opposite direction",
+            "Within the block hut"
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0526]: On a double line, shunting in the block section in advance shall not be permitted unless the section is clear and ____ is performed.",
+        options: ["Block forward", "Block back", "Line Clear inquiry", "Manual protection"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0527]: On a double line, shunting in the block section in rear shall not be permitted unless the section is clear and ____ is performed.",
+        options: ["Block forward", "Block back", "Pilot movement", "Line Block"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0532]: In the Automatic Block System, what must be provided between two adjacent block stations?",
+        options: [
+            "Only manual signals",
+            "Continuous track circuiting or axle counters",
+            "Automatic block signalling sections",
+            "Both B and C"
+        ],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0535]: In the Automatic Block System, track circuits/axle counters must prevent a signal from assuming an \"off\" aspect unless the line is clear up to the next signal and ____.",
+        options: [
+            "For an adequate distance beyond it",
+            "For 180 metres",
+            "Up to the station section",
+            "Up to the starter"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0536]: In the Automatic Block System, the adequate distance for an automatic signal to assume an \"off\" aspect shall not be less than ____ unless directed otherwise.",
+        options: ["100 metres", "120 metres", "150 metres", "180 metres"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0544]: When a Loco Pilot finds an Automatic Stop signal with an \"A\" marker at \"on\", how long must they wait during the day/night before proceeding?",
+        options: ["2 mins / 1 min", "1 min / 2 mins", "5 mins / 10 mins", "Stop indefinitely"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0545]: After waiting at an Automatic Stop signal at \"on\", the Loco Pilot shall proceed ahead towards the next signal ____.",
+        options: [
+            "At 10 kmph",
+            "At 15 kmph",
+            "To stop at the next signal",
+            "Exercising great caution so as to stop short of any obstruction"
+        ],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0546]: According to GR 9.02, what signal must the Guard show towards the rear when a train is stopped at an Automatic Stop signal?",
+        options: ["Stop hand signal", "Proceed hand signal", "White light", "Flasher light"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0552]: If a train is stopped due to accident/obstruction in an Automatic Block section, it must be protected in the rear by placing one detonator at ____ and two more at ____.",
+        options: ["400m, 800m", "600m, 1200m", "90m, 180m", "180m, 360m"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0575]: During a prolonged failure of signals in Automatic Block territory, the speed of the first train entering the section on T/D 912 authority must not exceed ____.",
+        options: ["15 KMPH", "25 KMPH", "30 KMPH", "10 KMPH (if view is restricted)"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0586]: During a failure of all signals in Automatic territory with no communication (Double Line), what is the minimum clear interval required between trains?",
+        options: ["15 minutes", "20 minutes", "25 minutes", "30 minutes"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0600]: During Temporary Single Line (TSL) working on a double line, what is the mandatory action for a Loco Pilot running on the \"wrong\" line?",
+        options: [
+            "Sound the whistle continuously",
+            "Switch \"ON\" the flasher light",
+            "Extinguish the headlight",
+            "Wait for a hand signal at every km"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0601]: The speed of every first train running in the wrong line shall not exceed 25 kmph subject to other speed restrictions.",
+        options: [
+            "15 kmph",
+            "25 kmph",
+            "30 kmph",
+            "Sectional speed"
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0602]: During TSL working, the speed of every first train running in the \"right line\" shall not exceed ____, subject to other speed restrictions.",
+        options: ["15 kmph", "25 kmph", "30 kmph", "Normal Sectional Speed"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0603]: In TSL working within an automatic signalling section, which prescribed form is issued by the Station Master as written authority to pass Manual/Semi-Automatic signals for a train received on the wrong line?",
+        options: ["T/369(3b)", "T/511", "T/510", "T/A 912"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0604]: Entries regarding the suspension of double line working, introduction of single line working, and resumption of normal working must be made in the ____ of all stations concerned.",
+        options: ["Station Diary", "Train Signal Register", "Caution Order Register", "SWR Appendix"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0605]: S.R. 9.12/4 provides the rules and regulations for Single line sections in Automatic Block System when which specific condition exists?",
+        options: ["Direction of traffic cannot be established", "Total interruption of all signals", "No means of communications are available in case of failure of Automatic signalling", "A relief engine is required in the section"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0606]: What is the correct combination of authority for opening communication during total interruption of communications in an automatic signalling section on single line?",
+        options: ["T/B 602 + T/D 912", "T/B 602 + T/A 912", "T/C 602 + T/A 912", "T/A 602 + T/D 912"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0607]: Which form is specifically used as the \"Authority for opening of communication during total interruption of communication on single line section\"?",
+        options: ["T/A 912", "T/C 602", "T/B 602", "T/E 602"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0608]: If an engine sent to open communication returns to the station from which it was sent without reaching the next station, what must the Station Master do with Form T/B 602?",
+        options: ["Forward it to the DRM office", "Hand it over to the next train engine", "Take it back and cancel it", "File it in the station record without cancellation"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0609]: During total interruption of communication, if there is an even flow of trains, Line Clear Enquiry Messages (T/E 602) and Conditional Line Clear Messages may be sent through ____.",
+        options: ["The Pointsman", "The Station Master of the rear station", "The Train Manager (Guard) of the preceding train", "A Trolley-man"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0610]: During prolonged failure of signals and communications on single line automatic sections, subsequent trains despatched on conditional line clear tickets (T/G 602, T/H.602) must maintain a time interval of ____.",
+        options: ["15 minutes", "20 minutes", "30 minutes", "45 minutes"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0611]: In the case of a train proceeding in the \"wrong line\" during single line working on double line automatic sections (S.R. 9.12/5), the train shall be piloted out of the station on which written authority in addition to T/A 912?",
+        options: ["T/510", "T/511", "T/B 602", "T/D 602"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0612]: Under S.R. 9.12/6, when means of communication are available but the direction of traffic cannot be established in an Automatic Block System, which procedure shall be adopted?",
+        options: ["Absolute Block Working", "One Train Only System", "Prolonged failure of signals procedure", "Total Interruption of Communication procedure"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0613]: The authority for a relief engine to enter an automatic block section is ____, and its speed is restricted to ____ when the view ahead is not clear.",
+        options: ["T/C 912; 15 kmph", "T/D 912; 10 kmph", "T/C 912; 10 kmph", "T/B 912; 8 kmph"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0614]: Gate signal in automatic signaling territory is distinguished by",
+        options: [
+            "G marker and illuminated A marker when gate is closed",
+            "only G marker",
+            "G marker and illuminated A marker when gate is open",
+            "A marker and illuminated G marker when gate is closed"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0615]: When \"A\" marker is illuminated on a Gate stop signal in Automatic signaling territory, it means",
+        options: ["Gate is open", "cannot say anything", "gate is closed", "gate is defective"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0616]: When Gate signal in Automatic signaling territory is at \"ON\" and \"A\" marker is illuminated, the rules to be followed for passing that signal are",
+        options: ["Automatic ON rules", "rules for passing Manual stop signal in automatic territory", "gate rules", "rules for passing LSS"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0617]: When Gate signal in Automatic signaling territory is at \"ON\" and \"A\" marker is not illuminated, the LP shall follow the rules of passing",
+        options: ["gate rules", "gate rules and automatic rules", "automatic rule only", "none of these"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0618]: In Following train, Pilot Guard, and Train staff & ticket systems, a train shall follow another from a station after an interval of not less than",
+        options: ["10 mins", "15 mins", "20 mins", "30 mins"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0619]: In Following train system, the number of following trains running at the same time between any two block stations shall never exceed ____, whatever the length of the interval.",
+        options: ["Two", "Three", "Four", "Five"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0620]: In Following train, Pilot Guard, and Train staff & ticket systems, the speed of all trains following the first train shall not exceed",
+        options: ["15 kmph", "15/10 kmph", "25 kmph", "25/10 kmph"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0621]: The Pilot Guard shall be distinguished by a",
+        options: ["Green flag", "Red dress or badge", "Special whistle", "Arm band"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0622]: When starting two or more trains from one end under Pilot Guard system, the Pilot Guard shall accompany only the ____ of such trains.",
+        options: ["First", "Second", "Last", "Middle"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0623]: Trains may be worked on the One Train Only System only on",
+        options: ["non important sections", "long main line sections", "important sections", "short terminal branches"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0624]: The running of every train between block stations is regulated by a combination of block instruments, track circuits/axle counters, or",
+        options: ["VHF Sets", "Fixed signals", "Electrical communication instruments", "Hand signals"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0625]: Electrical block and communication instruments shall be approved by the ____ and shall not be brought into use in the first instance until passed by him.",
+        options: ["Commissioner of Railway Safety", "Commissioner of Railway", "Principal Chief Signal & Telecom engineer", "Principal Chief Operations Manager"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0626]: No railway servant shall interfere with block working equipment for repairs except with the previous consent of the",
+        options: ["SCOR", "Station Master", "Signal Inspector", "Traffic inspector"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0627]: No person shall operate block instruments unless he holds a ____ granted by a railway servant appointed in this behalf.",
+        options: ["Use competency", "interfere certificate", "certificate for competency", "written permission"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0628]: The certificate of competency for operations of block instruments shall be valid for a period of",
+        options: ["one year", "two years", "three years", "four years"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0629]: A copy of the prescribed code of bell signals shall be exhibited in each ____ near the block working equipment.",
+        options: ["Station Master's house", "Cabin", "block station", "Relay room"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0630]: Bell Code used on the block instrument for \"call attention\" or \"attend telephone\" is",
+        options: ["One stroke or beat", "Two strokes", "Three strokes", "Four strokes"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0631]: Bell Code used on the block instrument for \"Is line clear\" or \"line clear enquiry\" is",
+        options: ["One stroke", "Two strokes or beats", "Three strokes", "Four strokes"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0632]: Bell Code used on the block instrument for \"train entering block section\" is",
+        options: ["Two strokes", "Three strokes or beats", "Four strokes", "Five strokes"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0633]: Bell Code used on the block instrument for \"train out of block section\" or \"obstruction removed\" is",
+        options: ["Three strokes", "Four strokes or beats", "Five strokes", "Six strokes"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0634]: Bell Code used on the block instrument for \"cancel last signal\" or \"signal given in error\" is",
+        options: ["Four strokes", "Five strokes or beats", "Six strokes", "Seven strokes"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0635]: Bell Code used on the block instrument for \"obstruction danger signal\" is",
+        options: ["Four strokes", "Five strokes", "six strokes or beats", "Seven strokes"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0636]: Bell Code used on the block instrument for \"stop and examine\" is",
+        options: ["six pause one strokes or beats", "six pause two", "six pause three", "six pause four"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0637]: Bell Code used on the block instrument for \"train passed without tail lamp or tail board\" is",
+        options: ["six pause one", "six pause two strokes or beats", "six pause three", "six pause four"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0638]: Bell Code used on the block instrument for \"train divided\" is",
+        options: ["six pause one", "six pause two", "six pause three strokes or beats", "six pause four"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0639]: Bell Code for \"vehicles running away in wrong direction on double line or into the block section on single line\" is",
+        options: ["six pause one", "six pause two", "six pause three", "six pause four strokes or beats"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0640]: Bell Code used on the block instrument for \"vehicles running away in right direction on double line\" is",
+        options: ["six pause one", "six pause two", "six pause three", "six pause five strokes or beats"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0641]: Bell Code used on the block instrument for \"testing\" is",
+        options: ["Five strokes", "Ten strokes", "sixteen strokes or beats", "Twenty strokes"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0642]: Exchange of bell codes for train entering/out are not required in a section provided with",
+        options: ["VHF Sets", "Walkie Talkies", "block proving axle counters or complete track circuiting", "Gate signals"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0643]: Regarding bell code signals, identify the FALSE statement: (i) Each bell code received may not be acknowledged. (ii) No signal acknowledged until understood. (iii) Signal not complete until acknowledged.",
+        options: ["Only (i)", "Only (ii)", "Only (iii)", "(i) & (iii)"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0644]: If a bell code signal is sent and no reply is received, the signal shall be repeated at intervals of not less than",
+        options: ["10 seconds", "15 seconds", "20 seconds", "30 seconds"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0645]: All signals sent/received on block instruments must be entered in the TSR",
+        options: ["After train passes", "After one minute", "After train clears next station", "immediately after acknowledgement"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0646]: Timings entered in the TSR shall be actual timings, except that any fraction of a minute shall be",
+        options: ["not counted", "counted as one", "counted as one min", "recorded in decimals"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0647]: In TSR, identify the FALSE statement: (i) Entries in blue or red pen. (ii) No eraser allowed. (iii) Errors corrected by a line through them. (iv) Person keeping register responsible for entries.",
+        options: ["Only (i)", "Only (ii)", "Only (iii)", "(i) & (iii)"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0648]: The normal authority for the loco pilot to enter the block section as authority to proceed is",
+        options: ["\"Off\" aspect of the starter", "Paper Line Clear ticket", "T.369(3b)", "\"Off\" aspect of the Last stop signal"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0649]: Tangible authority includes a token from block instrument, Line clear ticket signed by SM, or any document prescribed by",
+        options: ["General Rules", "Special instructions", "SWR", "Operating Manual"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0650]: Loco Pilot must ensure the authority to proceed is proper, refers to the correct section, and if in writing, is",
+        options: ["typed", "complete and signed in full and in ink", "checked by Guard", "verified by Pointsman"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0651]: When a block section has been cleared, it shall be closed by the block station in advance by giving the",
+        options: ["bell code", "information on control phone", "prescribed bell code signal", "time of arrival"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0652]: Before closing the block section, the Station Master must satisfy himself that",
+        options: ["train has arrived complete", "cause of blocking removed", "Line Clear conditions complied", "All the above"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0653]: Where BPAC is provided, assurance for complete arrival is taken from",
+        options: ["Clear indication of BPAC", "Clear indication train arrived within fouling mark", "Either A or B", "Both A & B"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0654]: If two engines are coupled together, the authority to proceed shall be given to",
+        options: ["LP of leading engine", "LP of rear engine", "senior most LP", "Junior Most LP"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0655]: The Station Master is responsible for ensuring that no one but ____ operates the electrical block instruments.",
+        options: ["the Guard", "himself", "the Pointsman", "the Signal Maintainer"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0656]: If block instruments or track circuits between stations on either side of an IBP fail, the IBP is deemed",
+        options: ["Operational", "Open", "closed", "a block station"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0657]: Written authorities to proceed shall be written on forms specially provided and bound in books kept at each",
+        options: ["Station Master's office", "Cabin", "block station", "Relay room"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0658]: No written authority to proceed shall be destroyed before ____ after issue.",
+        options: ["one week", "two weeks", "one month", "three months"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0659]: When block instruments fail, the authority to proceed is a",
+        options: ["Oral instructions", "Line Clear Ticket", "typed document", "None of the above"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0660]: Each Line Clear ticket shall bear a ____ which shall be recorded in the TSR.",
+        options: ["Stamp", "Date", "serial number", "signature"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0661]: The Line Clear ticket shall be printed on white paper with",
+        options: ["red font", "black font", "blue font", "green font"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0662]: To distinguish paper line clear tickets for up and down directions, ____ shall be printed on the ticket.",
+        options: ["arrow mark", "Letter \"Up\" & \"Dn\"", "watermark arrow pointing \"up\" and \"down\"", "watermark Up & Dn"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0663]: GR 14.01 describes the regulated progress of a train between block stations, which is known as",
+        options: ["Block Working", "Means of granting or obtaining Line Clear", "ATP", "Interlocking"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0664]: GR 14.02 relates to the type of CRS-approved equipment used at stations, known as",
+        options: ["Fixed signals", "Provision of instruments", "Points", "Lever frames"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0665]: According to GR 14.03, whose consent is required before interfering with block working equipment?",
+        options: ["PCOM", "Station Master", "Signal Inspector", "Section Controller"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0666]: GR 14.04 states that every person operating block instruments must hold a",
+        options: ["Valid license", "Certificate of competency", "Vision certificate", "Health card"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0667]: GR 14.05 provides the standard signals used for block communication, known as the",
+        options: ["Whistle code", "Bell code", "Hand signals", "Fixed signals"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0668]: GR 14.07 requires the maintenance of a record of all block signals, known as the",
+        options: ["Station Diary", "Train Signal Register", "Caution Register", "SWR"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0669]: GR 14.08 defines the permission given to a Loco Pilot to enter a block section, known as the",
+        options: ["Line Clear", "Authority to proceed", "Starter signal", "Token"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0670]: GR 14.10 defines the state of the block section once the train has arrived complete, known as",
+        options: ["TORS", "Conditions for closing the block section", "Line Clear", "Obstruction removed"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0671]: GR 14.11 defines the duty of the SM to ensure the correct ATP is given, known as",
+        options: ["Duty of SM", "Responsibility of Station Master as to authority to proceed", "Train Dispatch", "Safety rule"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0672]: GR 14.14 defines the procedure when block instruments between stations fail at an IBP, known as",
+        options: ["Section failure", "Closing of Intermediate Block Post", "Manual working", "Defective signals"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0673]: GR 14.16 refers to the record of timings for train movements, known as the",
+        options: ["Log book", "Train Signal Register", "Time Table", "Working Journal"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0674]: GR 14.25 refers to the paper authority used during instrument failure, known as",
+        options: ["T.369", "Line Clear Tickets", "ATP", "Caution Order"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0675]: Maintenance and asset repair work must be executed in accordance with the",
+        options: ["Yearly plan", "Monthly plan", "Rolling Block Programme", "Weekly schedule"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0676]: The \"Rolling Block Programme\" covers advance planning over a specified duration of up to ____ weeks.",
+        options: ["4", "12", "52", "104"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0677]: Every portion of the permanent way shall be inspected",
+        options: ["once in 8 hours", "daily by trains", "once in 12 hours by foot", "daily on foot"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0678]: On lines with light and infrequent traffic, the interval between inspections may be increased to",
+        options: ["once in two days", "daily morning", "once in three days", "once in 12 hours"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0679]: When the line is likely to be endangered by abnormal conditions like floods or civil disturbances, the line shall be",
+        options: ["Closed", "patrolled in accordance with special instructions", "checked by LP", "monitored by drone"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0680]: In thick or foggy weather, no rail displacement or work causing obstruction shall be performed except in",
+        options: ["night", "summer", "emergency", "day"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0681]: A gang shall not commence any work involving danger to trains without the previous permission of",
+        options: ["Station Master", "Inspector of Way or Works", "Section controller", "Gang mate"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0682]: In emergent cases, an Engineering official not below the rank of ____ may stop a train to block the track.",
+        options: ["Gangman", "Mate", "PWI – Grade III", "DEN"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0683]: To indicate a \"Stop\" or \"Proceed at restricted speed\" due to track repairs, signals are shown",
+        options: ["in each directions", "in each direction", "in the direction of expected train, in each direction", "Green flags, Red & green flag"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0684]: When a train is required to stop for a restriction of a day or less, a banner flag is placed at 600m and three detonators at",
+        options: ["400 M", "800 M", "1200 M", "1500 M"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0685]: For a stop restriction lasting more than a day, a ____ shall be exhibited at 30m and a caution indicator at 1200m.",
+        options: ["Stop indicator", "Speed indicator", "Banner flag", "Whistle board"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0686]: When a restriction doesn't require stopping and lasts a day or less, caution hand signals are shown at 800m and again at",
+        options: ["10 metres", "30 metres", "45 metres", "60 metres"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0687]: For a non-stop restriction lasting more than a day, a speed indicator is placed at 30m and a caution indicator at",
+        options: ["400 metres", "600 metres", "800 metres", "1200 metres"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0688]: Wherever Caution, Speed, or Stop indicators are provided, the LP is informed to resume normal speed by",
+        options: ["Stop indicators", "Speed indicators", "Caution indicators", "Termination indicators"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0689]: Every gang must be supplied with a permanent way gauge, flags, two signal lamps, and ____ detonators.",
+        options: ["6", "10", "12", "24"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0690]: Each Inspector of Way or Works shall inspect the equipment supplied to gangs at least",
+        options: ["once in every month", "once in 15 days", "once in two months", "quarterly"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0691]: A vehicle that can be lifted bodily off the line by four men is a ____, and a heavier one is a ____.",
+        options: ["lorry, trolley", "trolley, lorry", "trolley, dolly", "dolly, motor trolley"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0692]: Any trolley which is self-propelled by a motor is a",
+        options: ["trolley", "Dolly", "motor trolley", "lorry"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0693]: A trolley used for the carriage of permanent way or heavy material shall be deemed a",
+        options: ["wagon", "coach", "lorry", "truck"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0694]: No lorry or trolly shall be attached to a",
+        options: ["crane", "tower wagon", "train", "material train"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0695]: When not in use, lorries or trollies must be clear of the line and secured with",
+        options: ["a guard", "a chain and padlock", "a fence", "blocks"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0696]: Gatemen shall be prepared to show a ____ to any approaching train when the crossing is open to road traffic.",
+        options: ["Proceed hand signal", "Hand signal", "Flashing red light", "Stop hand signal"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0697]: The Gateman shall see that the channel for the ____ of the wheels is kept clear.",
+        options: ["flange", "axle", "rim", "bearing"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0698]: On noticing an obstruction, the Gateman shall keep fixed signals at \"on\", show a Stop hand signal, and protect as per",
+        options: ["Rule 1.01", "Rule 3.62", "Rule 9.01", "Rule 14.01"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0699]: If a Gateman notices a train has parted, he shall",
+        options: ["show Stop hand signal", "not show a Stop hand signal but attract attention", "run to the next station", "ignore it"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0700]: Arrangements shall be made to erect ____ on either side of OHE at level crossings to ensure clearance.",
+        options: ["Indication boards", "height gauges", "Speed humps", "Lifting barriers"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0701]: \"Neutral section\" means a short section of insulated and dead overhead equipment which separates the areas fed by adjacent___________________;",
+        options: ["Sub-stations or feeding posts", "Block stations or feeding posts", "Substations or stations", "Block stations"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0702]: \"Power block\" means blocking of a section of line to______________;",
+        options: ["Diesel traffic", "Both Electric & Diesel traffic", "electric traffic only", "Goods traffic only"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0703]: _______________means a self-propelled vehicle which is used for the maintenance and repairs of overhead equipment;",
+        options: ["track machines", "Light engine", "Lorries", "Tower wagon"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0704]: ________________means a competent railway servant who may, for the time being, be responsible for the control of power supply on the traction distribution system",
+        options: ["Power controller", "Traction power controller", "Section controller", "Senior section engineer"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0705]: If work is to be carried out adjacent to the electrical equipment by other than competent railway servant, such work shall be done only when person-in-charge of the work has obtained a_______, duly signed and given by the railway servant with the knowledge of the Traction Power Controller.",
+        options: ["written permit to- work", "oral permit to work", "authority", "permission"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0706]: No person shall _____________________when those vehicles are located beneath overhead equipment except when the overhead equipment is dead and earthed in accordance with special instructions.",
+        options: ["climb on the top of engines", "on the roofs of carriages or wagons", "Either \"A\" or \"B\"", "Both \"A\" & \"B\""],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0707]: The general rules issued under the notification of the Government of India in the late Railway Department (Railway Board) No.1078-T, dated the 9th March, 1929, are hereby repealed except as respects things done or action taken or omitted to be done or taken before such repeal",
+        options: ["True", "False", "Partially", "None"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0708]: Authority to pass stop signal/signals at \"On\" is",
+        options: ["T.369(1)", "T.369(3b)", "T.351", "T.370"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0709]: Authority issued in the form of Caution Order is",
+        options: ["T.409", "T/A.409", "T/B.409", "T431"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0710]: Authority issued in the form for Shunting Instructions/authority is",
+        options: ["T.801", "T.803", "T.806", "T.810"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0711]: Written Authority for a train to receive on an obstructed line is",
+        options: ["T.509", "T.510", "T.511", "T.512"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0712]: Written Authority for a train to receive on non signalled line is",
+        options: ["T.509", "T.510", "T.511", "T.512"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRR0713]: Written Authority for a train to despatch from a non signalled line is",
+        options: ["T.509", "T.510", "T.511", "T.512"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0714]: Authority for the Relief engine/ train to enter obstructed block section in absolute Block system is",
+        options: ["T/A.602", "T/C.602", "T/D.602", "T/J.602"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRR0715]: Authority for the train during temporary single line working on double line in absolute block system",
+        options: ["T/A.602", "T/C.602", "T/D.602", "T/J.602"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0716]: Up Paper line clear ticket form is",
+        options: ["T/A.1425", "T/B.1425", "T/C.1425", "T/D.1425"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0717]: Dn Paper line clear ticket form is",
+        options: ["T/A.1425", "T/B.1425", "T/C.1425", "T/D.1425"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRR0718]: Disconnection/Reconnection notice form number is",
+        options: ["T.369(1)", "T.369(3b)", "T.351", "T.370"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRR0719]: Authority for the train during Temporary single line working in Automatic Block system is",
+        options: ["T/D.912", "T/A.912", "T/B.912", "T/E.912"],
+        correctAnswer: 3
+    },
+    {
+        question: `[TRR0720]: Match the following (Rules and Chapters):
+      <table border="1" style="border-collapse: collapse; width: 100%; text-align: left; margin-top: 10px;">
+        <tr><th style="padding: 5px;">List - I (Description)</th><th style="padding: 5px;">List - II (Rule No)</th></tr>
+        <tr><td>(i) Rule No. of supply copy of rules</td><td>1. GR 2.03</td></tr>
+        <tr><td>(ii) Rule No. of G&SR for knowledge of rules</td><td>2. GR 2.08</td></tr>
+        <tr><td>(iii) Rule No. of G&SR for upkeep of the copy of rules</td><td>3. GR 2.09</td></tr>
+        <tr><td>(iv) Rule No. of G&SR for Absence from duty</td><td>4. GR 2.01</td></tr>
+        <tr><td>(v) Rule No. of G&SR for not taking alcoholic drink</td><td>5. GR 2.02</td></tr>
+      </table>`,
+        options: ["(i)-2,(ii)-1,(iii)-5,(iv)-3,(v)-4", "(i)-4,(ii)-1,(iii)-5,(iv)-2,(v)-3", "(i)-4,(ii)-5,(iii)-2,(iv)-1,(v)-3", "(i)-2,(ii)-4,(iii)-3,(iv)-3,(v)-1"],
+        correctAnswer: 1
+    },
+    {
+        question: `[TRR0721]: Match the following (Signals and Procedures):
+      <table border="1" style="border-collapse: collapse; width: 100%; text-align: left; margin-top: 10px;">
+        <tr><th style="padding: 5px;">List - I</th><th style="padding: 5px;">List - II</th></tr>
+        <tr><td>(i) Commissioning of fixed signals</td><td>1. GR &SR 3.61</td></tr>
+        <tr><td>(ii) Points affecting movement of trains</td><td>2. GR &SR 3.65</td></tr>
+        <tr><td>(iii) Placing of detonators in thick/foggy weather</td><td>3. GR &SR 3.75</td></tr>
+        <tr><td>(iv) Description of warning signals</td><td>4. GR &SR 3.26</td></tr>
+        <tr><td>(v) Passing IB stop signal at \"On\"</td><td>5. GR &SR 3.38</td></tr>
+      </table>`,
+        options: ["(i)-2,(ii)-1,(iii)-5,(iv)-3,(v)-4", "(i)-4,(ii)-1,(iii)-5,(iv)-2,(v)-3", "(i)-4,(ii)-5,(iii)-2,(iv)-1,(v)-3", "(i)-4,(ii)-5,(iii)-1,(iv)-2,(v)-3"],
+        correctAnswer: 3
+    },
+    {
+        question: `[TRR0722]: Match the following (Signal Aspects):
+      <table border="1" style="border-collapse: collapse; width: 100%; text-align: left; margin-top: 10px;">
+        <tr><th style="padding: 5px;">List - I (Aspect)</th><th style="padding: 5px;">List - II (Indication)</th></tr>
+        <tr><td>(i) Stop</td><td>1. Miniature yellow</td></tr>
+        <tr><td>(ii) Caution</td><td>2. Two yellow</td></tr>
+        <tr><td>(iii) Attention</td><td>3. Red</td></tr>
+        <tr><td>(iv) Proceed</td><td>4. Single yellow</td></tr>
+        <tr><td>(v) Proceed slow</td><td>5. Green</td></tr>
+      </table>`,
+        options: ["(i)-2,(ii)-1,(iii)-5,(iv)-3,(v)-4", "(i)-4,(ii)-1,(iii)-5,(iv)-2,(v)-3", "(i)-3,(ii)-5,(iii)-2,(iv)-1,(v)-4", "(i)-3,(ii)-4,(iii)-2,(iv)-5,(v)-1"],
+        correctAnswer: 3
+    },
+    {
+        question: `[TRR0723]: Match the following (Aspect Indications):
+      <table border="1" style="border-collapse: collapse; width: 100%; text-align: left; margin-top: 10px;">
+        <tr><th style="padding: 5px;">List - I (Aspect)</th><th style="padding: 5px;">List - II (Action)</th></tr>
+        <tr><td>(i) Stop</td><td>1. Be prepared to pass next signal with restrictive speed</td></tr>
+        <tr><td>(ii) Caution</td><td>2. Proceed</td></tr>
+        <tr><td>(iii) Attention</td><td>3. Draw ahead with caution; prepared to stop short of obstruction</td></tr>
+        <tr><td>(iv) Proceed</td><td>4. Be prepared to stop at next signal</td></tr>
+        <tr><td>(v) Proceed slow</td><td>5. Stop dead</td></tr>
+      </table>`,
+        options: ["(i)-5,(ii)-1,(iii)-4,(iv)-3,(v)-2", "(i)-4,(ii)-1,(iii)-5,(iv)-2,(v)-3", "(i)-5,(ii)-4,(iii)-1,(iv)-2,(v)-3", "(i)-3,(ii)-4,(iii)-2,(iv)-5,(v)-1"],
+        correctAnswer: 2
+    },
+    {
+        question: `[TRR0724]: Match the following (Light Indication Actions):
+      <table border="1" style="border-collapse: collapse; width: 100%; text-align: left; margin-top: 10px;">
+        <tr><th style="padding: 5px;">List - I (Light)</th><th style="padding: 5px;">List - II (Action)</th></tr>
+        <tr><td>(i) Miniature yellow</td><td>1. Be prepared to pass next signal with restrictive speed</td></tr>
+        <tr><td>(ii) Two yellow</td><td>2. Proceed</td></tr>
+        <tr><td>(iii) Red</td><td>3. Draw ahead with caution; prepared to stop short of obstruction</td></tr>
+        <tr><td>(iv) Single yellow</td><td>4. Be prepared to stop at next signal</td></tr>
+        <tr><td>(v) Green</td><td>5. Stop dead</td></tr>
+      </table>`,
+        options: ["(i)-5,(ii)-1,(iii)-4,(iv)-3,(v)-2", "(i)-4,(ii)-1,(iii)-5,(iv)-2,(v)-3", "(i)-3,(ii)-4,(iii)-1,(iv)-2,(v)-5", "(i)-3,(ii)-1,(iii)-5,(iv)-4,(v)-2"],
+        correctAnswer: 3
+    },
+    {
+        question: `[TRR0725]: Match the following (Forms):
+      <table border="1" style="border-collapse: collapse; width: 100%; text-align: left; margin-top: 10px;">
+        <tr><th style="padding: 5px;">List - I</th><th style="padding: 5px;">List - II (Form No)</th></tr>
+        <tr><td>(i) BPC</td><td>1. T.409</td></tr>
+        <tr><td>(ii) Disconnection Notice</td><td>2. T.431</td></tr>
+        <tr><td>(iii) Combined train report</td><td>3. RS 6</td></tr>
+        <tr><td>(iv) Train examination advise report</td><td>4. T.351</td></tr>
+        <tr><td>(v) Caution order</td><td>5. T.726</td></tr>
+      </table>`,
+        options: ["(i)-1,(ii)-5,(iii)-4,(iv)-3,(v)-2", "(i)-4,(ii)-1,(iii)-5,(iv)-2,(v)-3", "(i)-3,(ii)-1,(iii)-2,(iv)-5,(v)-4", "(i)-3,(ii)-4,(iii)-5,(iv)-2,(v)-1"],
+        correctAnswer: 3
+    },
+    {
+        question: `[TRR0726]: Match the following (Authorities and Sections):
+      <table border="1" style="border-collapse: collapse; width: 100%; text-align: left; margin-top: 10px;">
+        <tr><th style="padding: 5px;">List - I</th><th style="padding: 5px;">List - II (Form No)</th></tr>
+        <tr><td>(i) Reception on Obstructed line</td><td>1. T.511</td></tr>
+        <tr><td>(ii) Departure from non signalled line</td><td>2. T.509</td></tr>
+        <tr><td>(iii) Departure from station having common departure signal</td><td>3. T/C.912</td></tr>
+        <tr><td>(iv) Relief engine in Absolute block system</td><td>4. T.512</td></tr>
+        <tr><td>(v) Relief engine in Automatic Block system</td><td>5. T/A.602</td></tr>
+      </table>`,
+        options: ["(i)-2,(ii)-5,(iii)-4,(iv)-3,(v)-1", "(i)-4,(ii)-1,(iii)-3,(iv)-2,(v)-5", "(i)-3,(ii)-1,(iii)-2,(iv)-5,(v)-4", "(i)-2,(ii)-1,(iii)-4,(iv)-5,(v)-3"],
+        correctAnswer: 3
+    }
+];
+
+const ACCIDENT_MANUAL_ALL = [
+    {
+        question: "[TRA0001]: For the purpose of railway working, an occurrence in the course of working of railway which does or may affect the safety of the railway, its engines, rolling stock, permanent way and works, fixed installations, passengers or railway servants or which affects the safety of others or which does or may cause delay to trains or loss to the railway is known as",
+        options: ["Accidents", "Incidents", "mishaps", "untoward incidents"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRA0002]: When a Accident to a train carrying passengers which is attended with __________________ and in the opinion of the CCRS or CRS requires holding of an inquiry by the CRS, shall be deemed to be a",
+        options: [
+            "loss of life",
+            "grievous hurt to a passenger or passengers in the train",
+            "damage to railway property, the value of which exceeding 2 crore",
+            "All the above"
+        ],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRA0003]: An Accident is deemed as a serious accident to a train carrying passengers which in the opinion of the_______ requires holding of an inquiry by the CRS",
+        options: ["GM", "CCRS/CRS", "State Government", "All the above"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRA0004]: Grievous injuries: As defined in section 320 of Indian Penal Code 45 of 1860 the following kinds of injuries are termed as grievous injuries: i. Emasculation. ii. Permanent privation of the sight of either eye. iii. Permanent privation of the hearing of either ear. iv. Privation of any member, or joint. v. Destruction or permanent impairing of the powers of any member, or joint. vi. Fracture or dislocation of a bone, or tooth. vii. Any hurt which endangers life or which causes the sufferer to be in severe body pain or unable to follow his ordinary pursuits for a period of 20 days after the accident.",
+        options: ["All the above", "All are false", "Only (iv) & (v) is false", "Only (i), (ii) & (iii) are true"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRA0005]: A person will be considered to have incurred simple injuries, if these injuries incapacitate the injured person from pursuing his customary vocation for _______after the occurrence of the accident.",
+        options: ["12 hours", "24 hours", "36 hours", "48 hours"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRA0006]: A railway employee is considered to have been injured if he/she is prevented from returning to work as a result of injuries for a period of ________ after the occurrence of the accident.",
+        options: ["24 hours", "36 hours", "48 hours", "60 hours"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRA0007]: Accidents are classified into how many categories",
+        options: ["ONE", "TWO", "THREE", "FIVE"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRA0008]: The categories of classification of accidents are from \"A\" to \"R\" except",
+        options: ["\"E\" & \"I\"", "\"I\" & \"O\"", "\"N\" & \"K\"", "\"F\" & \"G\""],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRA0009]: Accident Collision of trains are classified in categories",
+        options: ["A1 to A5", "B1 to B7", "C1 to C9", "D1 to D6"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRA0010]: Accident Fire in trains are classified in categories",
+        options: ["A1 to A5", "B1 to B7", "C1 to C9", "D1 to D6"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRA0011]: LC gate Accidents are classified in categories",
+        options: ["A1 to A5", "B1 to B7", "C1 to C9", "D1 to D6"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRA0012]: Accident Derailment of trains are classified in categories",
+        options: ["A1 to A5", "B1 to B7", "C1 to C9", "D1 to D6"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRA0013]: The category of accident \"Averted collision\" is classified in",
+        options: ["\"F\"", "\"G\"", "\"H\"", "\"J\""],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRA0014]: The category of accident \"Breach of block rules\" is classified in",
+        options: ["\"F\"", "\"G\"", "\"H\"", "\"J\""],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRA0015]: The category of accident \"SPAD\" is classified in",
+        options: ["\"F\"", "\"G\"", "\"H\"", "\"J\""],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRA0016]: The category of accident \"Failure of rolling stock\" is classified in",
+        options: ["\"J\"", "\"K\"", "\"L\"", "\"M\""],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRA0017]: The category of accident \"Failure of P-way\" is classified in",
+        options: ["\"J\"", "\"K\"", "\"L\"", "\"M\""],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRA0018]: The category of accident \"OHE failure\" is classified in",
+        options: ["\"J\"", "\"K\"", "\"L\"", "\"M\""],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRA0019]: Buckling of track, Wield failure & Rail fracture are accidents classified In",
+        options: ["\"J\"", "\"K\"", "\"L\"", "\"M\""],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRA0020]: Failure of engine is an accident classified in",
+        options: ["\"J\"", "\"K\"", "\"L\"", "\"M\""],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRA0021]: Poor brake power in the trains is accident classified in",
+        options: ["\"J\"", "\"K\"", "\"L\"", "\"M\""],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRA0022]: Failure of Block instruments, points & signals are accidents classified in",
+        options: ["\"J\"", "\"K\"", "\"L\"", "\"M\""],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRA0023]: The category of accident \"S&T failure\" is classified in",
+        options: ["\"J\"", "\"K\"", "\"L\"", "\"M\""],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRA0024]: The category of accident \"Bomb blast/Explosion/Hijack in trains\" is classified in",
+        options: ["\"R\"", "\"Q\"", "\"P\"", "\"N\""],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRA0025]: The category of accident \"Run over/falling out in trains\" is classified in",
+        options: ["\"R\"", "\"Q\"", "\"P\"", "\"N\""],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRA0026]: The category of accident \"Natural death/Murder/robbery/Suicide in trains\" is classified in",
+        options: ["\"R\"", "\"Q\"", "\"P\"", "\"N\""],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRA0027]: The category of accident \"Vehicle running away/Cattle run over/landslides\" is classified in",
+        options: ["\"R\"", "\"Q\"", "\"P\"", "\"N\""],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRA0028]: An example of breach of block rules is",
+        options: ["Train entered into wrong line", "train entered into B/S without a ATP", "Train entered into siding", "all the above"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRA0029]: An example of consequential accident is",
+        options: ["Signal passing at \"ON\"", "Entering into block section without ATP", "Fire on train", "Averted collision"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRA0030]: An example of indicative accident is",
+        options: ["PASSING STOP SIGNAL AT \"Danger\"", "FIRE ON TRAIN", "COLLISSIONS", "LC GATE ACCIDENTS"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRA0031]: Passing stop signal at Danger is this type of accident.",
+        options: ["collissions", "averted accident", "breach of block rule", "indicative accident"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRA0032]: In an accident if the damage to Railway property exceeds Rs 2 CRORES ,such accident shall be treated as",
+        options: ["serious accident", "collision", "averted accident", "SPAD"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRA0033]: To treat any accident as averted collision, outside station limits, the distance between two trains shall be.",
+        options: ["600 meters or less", "400 meters or less", "less than 400 meters", "180 meters or less"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRA0034]: To treat as equipment failure, a gate telephone shall fail for more than",
+        options: ["15 MINUTES", "10 MINUTES", "20 MINUTES", "5 MINUTES"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRA0035]: When a train passes a fixed Stop signal including a _____________other than automatic Stop signal, IB signal and Gate stop signal), at danger without any authority to pass, or with an improper authority to pass is known as Train Passing Signal at Danger.",
+        options: ["Banner flag/Engineering Stop indicator", "Banner Flag", "Engineering Stop Indicator", "None of these"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRA0036]: When a train passes a fixed Stop signal including a banner flag or Engineering stop indicator other than automatic Stop signal, IB signal and Gate stop signal), at danger without any authority to pass, or with an improper authority to pass is known as______.",
+        options: ["Danger signal pass", "Train Passing Signal at Danger", "Train passing Signal at ON", "None of these"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRA0037]: Every Railway servant traveling by the affected train or available at the site, whether_____, shall help in the disaster management by getting identified and rendering immediate assistance to the affected passengers at the site.",
+        options: ["On duty only", "on duty or not", "Off duty only", "available or not"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRA0038]: All accidents falling under the purview of section 113 of the Railways Act of 1989 are termed as ____________ and include the following:",
+        options: ["Train accident", "Yard accident", "Reportable train accident", "Non reportable accidents"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRA0039]: All accidents falling under the purview of ___________of the Railways Act of 1989 are termed as reportable train accidents and include the following:",
+        options: ["section 113", "Section 115", "Section 118", "Section 124"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRA0040]: All accidents falling under the purview of section 113 of the Railways Act of 1989 are termed as reportable train accidents and include the following: i. Any accident attended with loss of any human life or with grievous hurt. ii. Any collision between trains of which one is a train carrying passengers iii. The derailment of any train carrying passengers iv. Loss of life due to train wrecking or attempted train wrecking, v. Passengers falling out, fire on train, grievous hurt vi. Loss to Railway property worth more than 2 crores, vii. Land slide, breaches by rain/flood which cause interruption on important route for at lease 24 hours.",
+        options: ["All are true", "All are false", "Only (i), (ii) & (iii) are true", "Only (iv) , (v) & (vi) are false"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRA0041]: The CHC/ Central Control shall inform all concerned at Headquarters office including GM, PHODs etc in the following order: (i) PCOM, (ii) CPTM, (iii) Secretary to GM, (iv) PCSO, (v) CPRO, (vi) AGM, (vii) CMD, (viii) Other department controls.",
+        options: [
+            "(i),(vii),(iii),(iv),(v),(ii),(viii)& (vi)",
+            "(iv),(vi),(i),(vii),(iii),(ii),(viii)& (v)",
+            "(iv),(vii),(iii),(vi),(i),(ii),(viii)& (v)",
+            "(i),(vii),(ii),(vi),(iv),(iii),(viii)& (v)"
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRA0042]: The accidents which are to be conveyed to the Railway Board by the PCSO telephonically are: i. All consequential train accidents, ii. Any yard accident having serious repercussions, iii. Landslides, breaches, OHE break down resulting in dislocation, iv. All Equipment failures having serious repercussions, v. All Indicative accidents",
+        options: ["All are true", "All are false", "Only (i) &(iii) are true", "Only (iv) & (v) are false"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRA0043]: All consequential accidents & yard accidents having serious repercussion are to be immediately conveyed to the Railway Board by _______________",
+        options: ["PCOM", "GM", "PCSO", "AGM"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRA0044]: The siren that has to given by the station, when an accident takes place in the loco shed or traffic yard adjoining the loco shed is",
+        options: ["2 long", "3 long", "3 long one short", "4 long one short"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRA0045]: The siren that has to given by the station, when an accident takes place at an out-station but main line is clear -- ART to be moved.",
+        options: ["2 long", "3 long", "3 long one short", "4 long one short"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRA0046]: The siren that has to given by the station, when an accident takes place at an out station but main line is clear – MRT and ART to be moved.",
+        options: ["2 long", "3 long", "3 long one short", "4 long one short"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRA0047]: The siren that has to given by the station, when an accident takes place at an out station but main line is blocked",
+        options: ["4 long", "3 long", "3 long one short", "4 long one short"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRA0048]: The siren that has to given by the station, when an accident takes place at an out station the main line is blocked -- MRT and ART to be moved.",
+        options: ["4 long", "3 long", "3 long one short", "4 long one short"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRA0049]: The duration of the long hooter shall be _________and the short hooter shall be ________ with 30 seconds interval between two successive calls. At least 3 calls shall be given.",
+        options: ["20 secs, 10 secs", "30 secs, 05 secs", "25 secs,15 secs", "40 secs, 10 secs"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRA0050]: Target time for tuning out accident relief train during day light hours (from 6 to 20 hours) is _______ and during night hours (from 20 to 6 hours): __________",
+        options: ["15mins, 30mins", "20mins,30mins", "30mins, 45mins", "45mins, 60mins"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRA0051]: Mock drills for ART shall be conducted once in",
+        options: ["a month", "2 months", "3 months", "year"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRA0052]: The amount of compensation to be paid in case of death in railway accident is Rs",
+        options: ["8 lakhs", "6 lakhs", "15,000", "4 lakh"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRA0053]: The claim for compensation shall be made within the following time from the date of accident",
+        options: ["6 months", "1 year", "2 year", "3 years"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRA0054]: The claim for compensation shall be made through",
+        options: ["District court", "civil court", "high court", "Railways Claims Tribunal"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRA0055]: The Officers and Senior Subordinates present at the site of accident must ____________ the cause and advise DRM and other Officers concerned.",
+        options: ["Jointly investigate", "Observe", "Video graph", "Take witness"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRA0056]: The Officers and Senior Subordinates present at the site of accident must jointly investigate the ______ and advise DRM and other Officers concerned.",
+        options: ["Motive", "Cause", "Staff", "Passengers"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRA0057]: The Officers and Senior Subordinates present at the site of accident must jointly investigate the cause and advise _______ and other Officers concerned.",
+        options: ["SM", "SCOR", "DRM", "GM"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRA0058]: The Officers and Senior Subordinates present at the site of accident must jointly investigate the cause and advise DRM and ____________, their opinion.",
+        options: ["ADRM", "SCOR", "Officers", "Other Officers concerned"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRA0059]: The Officers and Senior Subordinates present at the site of accident must jointly investigate the cause and advise DRM and Other Officers concerned, their opinion, mentioning the responsible _________________for the occurrence.",
+        options: ["department or departments", "person or persons", "Both \"A\" & \"B\"", "Either \"A\" or \"B\""],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRA0060]: The investigation on the spot includes recording of statements of staff concerned and, if necessary, other independent witnesses. These ___________ shall be produced at any subsequent enquiry.",
+        options: ["Reports", "Witness", "Staff", "Depositions"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRA0061]: The investigation on the spot includes _____________of staff concerned and, if necessary, other independent witnesses. These depositions shall be produced at any subsequent enquiry.",
+        options: ["Audio recordings", "Photographs", "Recording of statements", "Recording of site conditions"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRA0062]: The investigation on the spot includes recording of statements of staff concerned and, if necessary, other independent witnesses. These depositions shall be produced at any ___________and included in the general evidence.",
+        options: ["Investigation", "Subsequent enquiry", "Station", "Committee"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRA0063]: Staff alleged to be guilty of offences which, in the opinion of the ______________ or the concerned Divisional Officer would, if proved, amounting in their removal from service /dismissal, shall be placed under suspension.",
+        options: ["GM", "PHOD", "DRM", "ADRM"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRA0064]: Staff alleged to be guilty of offences which, in the opinion of the DRM or the _____________ would, if proved, amounting in their removal from service /dismissal, shall be placed under suspension.",
+        options: ["Concerned Jr Scale Officer", "Concerned Divisional Officer", "concerned Zonal Officer", "Concerned Sr.Scale Officer"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRA0065]: Staff alleged to be guilty of offences which, in the opinion of the DRM or the Concerned Divisional Officer would, if proved, amounting in their removal from service /dismissal, shall be _________, pending the result of the inquiry",
+        options: ["Suspended", "Given duties", "Given stationery duties", "Issued SF 11"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRA0066]: Staff alleged to be guilty of offences which, in the opinion of the DRM or the Concerned Divisional Officer would, if proved, amounting in their,___________ shall be placed under suspension, pending the result of the inquiry",
+        options: ["Removal from service", "Dismissal", "Removal from service /dismissal", "None of the above"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRA0067]: In case of a Loco Pilot passing a ___________ at ON or Engineering Stop Indicator or running into banner flags, and if there are grounds for suspecting that the accident may be due to defective vision, the Loco Pilot shall be placed under suspension.",
+        options: ["Fixed signal", "Fixed stop signal", "Fixed Subsidiary signal", "None of the above"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRA0068]: In case of a Loco Pilot passing a fixed stop signal at ON or ______________ or running into banner flags, and if there are grounds for suspecting that the accident may be due to defective vision, the Loco Pilot shall be placed under suspension.",
+        options: ["Engineering Stop Indicator", "Hand danger signal", "Starter signal", "None of the above"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRA0069]: In case of a Loco Pilot passing a fixed stop signal at ON or Engineering Stop Indicator or ________________, and if there are grounds for suspecting that the accident may be due to defective vision, the Loco Pilot shall be placed under suspension.",
+        options: ["Hand danger signal", "Danger condition of track", "Running into banner flags", "None of the above"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRA0070]: In case of a Loco Pilot passing a fixed stop signal at ON or Engineering Stop Indicator or running into banner flags, and if there are grounds for suspecting that the accident may be due to ________________, the Loco Pilot shall be placed under suspension.",
+        options: ["Defective Loco", "Defective vision", "Defective brake power", "Defective signal"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRA0071]: In case of a Loco Pilot passing a fixed stop signal at ON or Engineering Stop Indicator or running into banner flags, and if there are grounds for suspecting that the accident may be due to defective vision, the Loco Pilot shall be ____________ and directed immediately for vision test.",
+        options: ["Suspended", "Issued SF 5", "Given stationery duties", "Issued SF 11"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRA0072]: In case of a Loco Pilot passing a fixed stop signal at ON or Engineering Stop Indicator or running into banner flags, and if there are grounds for suspecting that the accident may be due to defective vision, the Loco Pilot shall be placed under suspension and directed ___________________",
+        options: ["for Refresher course", "for special technical course", "Concerned Divisional officer", "Immediately for vision test"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRA0073]: After every accident certain vital information bearing on the cause of the accident is to be collected _______________ which may not be available later.",
+        options: ["on the spot", "at convenient time", "at convenient place", "at the place of enquiry"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRA0074]: In order to avoid any dispute later, the fact that a Loco Pilot has passed a signal at danger, should be formally brought to his notice through __________ by the station master.",
+        options: ["verbal instructions", "Loco Inspector", "written memo", "Guard of the train"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRA0075]: In order to avoid any dispute later, the fact that a Loco Pilot has passed a signal at danger, should be formally brought to his notice through written memo by the __________ of the concerned station.",
+        options: ["Senior most official", "Loco Inspector", "Station Master", "Guard of the train"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRA0076]: In case of LP passing signal at danger, the ______________ must confront the Loco Pilot and Guard with regard to the position of the signal and the position of the lever / knob concerned.",
+        options: ["Senior most official", "Loco Inspector", "Other staff", "SM / Pointsman"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRA0077]: In case of LP passing signal at danger, the SM / Pointsman must confront the Loco Pilot and Guard with regard to the position of the __________.",
+        options: ["Signal", "lever/knob concerned", "Either \"A\" or \"B\"", "Both \"A\" & \"B\""],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRA0078]: In case of LP passing signal at danger distance by which the train has passed the signal shall be recorded with respect to the _______________.",
+        options: ["length of engine + coach/wagons", "telegraph/OHE posts", "measuring the actual distance in metres", "All the above"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRA0079]: In case of LP passing signal at danger during night time the ________________should be noted. The weather condition such as foggy/tempestuous condition shall also be recorded.",
+        options: ["brightness of the signals", "working of signals", "glow of signals", "sighting distance of signals"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRA0080]: In case of LP passing signal at danger weather condition such as __________________ condition shall also be recorded.",
+        options: ["dampness of ballast", "foggy/tempestuous", "dry/wet", "rainy"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRA0081]: In case of LP passing signal at danger it should be checked whether Loco Pilot is required to use ___________, he was in possession of them and using them.",
+        options: ["mobile phone", "G&SR", "glasses", "Hand signal lamp"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRA0082]: In case of LP passing signal at danger, arrangement for testing ________ of the train shall be made by Officers / Sr. Subordinates at the nearest C&W examination point.",
+        options: ["BPC", "knowledge of LP", "knowledge of ALP", "brake power"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRA0083]: In case of LP passing signal at danger, arrangement for testing brake power of the train shall be made by ____________ at the nearest C&W examination point.",
+        options: ["Officers / Sr. Subordinates", "LP of the train", "Guard of the train", "Enquiry committee"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRA0084]: In case of LP passing signal at danger, ____________ on the Loco Pilot/ALP should be done immediately and blood samples of LP/ALP shall be collected.",
+        options: ["Vision test", "Breathalyzer test", "G&SR test", "psychological test"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRA0085]: In case of LP passing signal at danger, breathalyzer test on the Loco Pilot/ALP should be done immediately and _________ of LP/ALP shall be collected.",
+        options: ["personal equipments", "Hand signal lamp", "blood samples", "Hand signal flag"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRA0086]: In case of LP passing signal at danger, breathalyzer test on the Loco Pilot/ALP should be done immediately and blood samples of LP/ALP shall be collected. The Loco Pilot /ALP shall be sent for further ____________.",
+        options: ["Initial training", "G&SR course", "Technical course", "medical examination"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRA0087]: In case of LP passing signal at danger, ____________ in relation to this incident should be obtained from S&T officials.",
+        options: ["Data logger output", "Data logger input", "visibility of signals", "working conditions of signals"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRA0088]: In case of collisions/Averted Collision ________________ shall be checked and noted down immediately.",
+        options: ["aspect of the signal", "position of point levers/knobs of panel", "Either \"A\" or \"B\"", "Both \"A\" & \"B\""],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRA0089]: In case of collisions/ Averted Collision, ___________ should be signed so as to indicate the last entry made and then seized.",
+        options: ["Train signal register", "Station diary", "S&T failure register", "PN exchange register"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRA0090]: In case of collisions Averted Collision, ______________ if any are in force, they shall be seized from the concerned staff immediately.",
+        options: ["Station Diary", "Line nomination books", "S&T failure register", "PN exchange register"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRA0091]: In case of collisions /Averted Collision, position of the two trains or train and obstruction shall be marked on the ______.",
+        options: ["Rails, correct sketch shall be drawn", "OHE posts, photograph taken", "Sleepers, rough sketch shall be drawn", "Sleepers, photograph taken"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRA0092]: In case of collisions /Averted Collision, arrangement for testing ________ of the train shall be made by Officers / Sr. Subordinates at the nearest C&W examination point.",
+        options: ["BPC", "knowledge of LP", "knowledge of ALP", "brake power"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRA0093]: In case of collisions /Averted Collision, arrangement for testing brake power of the train shall be made by ____________ at the nearest C&W examination point.",
+        options: ["Officers / Sr. Subordinates", "LP of the train", "Guard of the train", "Enquiry committee"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRA0094]: In case of collisions /Averted Collision, ____________ test on the Loco Pilot/ALP shall be done immediately and blood samples taken and then sent for further medical examination",
+        options: ["vision", "Breathalyzer", "psychological", "G&SR"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRA0095]: In case of collisions /Averted Collision, Breathalyzer test conducted on the",
+        options: ["LP/ALP", "On duty station operating staff", "Only \"A\"", "Both \"A\" & \"B\""],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRA0096]: In case of Derailments the following shall be recorded: (i) Point of mount and drop marked (ii) Measurements of rolling stock shall be taken. (iii) For locomotive derailments, examination of locomotives shall be done.",
+        options: ["(i),(ii),(iii),(iv) &(v)", "(i),(ii),(iii) &(v)", "(i),(iv) &(v)", "(i),(ii),(iv) &(v)"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRA0097]: In case of Derailments which of the statements are true (i) rail fittings and point readings examined. (ii) seen whether there was any obstruction. (iii) Marks on the rails and sleepers observed. (iv) position of shunt signals recorded. (v) Shunting order seized",
+        options: ["(i),(ii),(iii),(iv) &(v)", "(i),(ii),(iii) &(v)", "(i),(iv) &(v)", "(i),(ii),(iv) &(v)"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRA0098]: In case of Accident at Manned Level Crossing the following particulars to be recorded: i. Location, number and ___________ of the gate. ii. Whether engineering or ________ iii. Whether interlocked or ______________ iv. Gate working instructions – ______________.",
+        options: [
+            "Type, traffic, Non-interlocked, availability",
+            "Classification, traffic, Non-interlocked, validity",
+            "Class, non-engineering, Noninterlocked, validity",
+            "Classification, traffic, Non-interlocked, availability"
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRA0099]: In case of Accident at Manned Level Crossing the following particulars to be recorded: i. Visibility of signals, if the gate is ___________. ii. Condition of the __________ surface / approaches of the level crossing. iii. Availability of the _____________________. iv. __________________ of the Gateman on duty.",
+        options: [
+            "non-interlocked, road, safety equipment, Competency Certificate",
+            "interlocked, gate, safety equipment, Competency Certificate",
+            "interlocked, road, safety equipment, Competency Certificate",
+            "interlocked, road, hand signal lamp, census Certificate"
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRA0100]: In case of Accident at Manned Level Crossing the following particulars to be recorded: i. Last census – date and_____________. ii. Length of the ____________and clearance. iii. Availability of____________, road signs, speed breakers and stop boards etc iv. Frequency of inspections and last inspection by______________.",
+        options: [
+            "Trains, check rails, safety equipment, Officers / Supervisors",
+            "TVUs, support rails, safety equipment, DRM",
+            "Road vehicles, check rails, safety equipment, Divisional officers",
+            "TVUs, check rails, safety equipment, Officers / Supervisors"
+        ],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRA0101]: In all the accidents, ________from different angles shall be taken and submitted through e-mail within ___________of the accident to ____________for onward transmission to Railway Board. Where necessary, __________may also be recorded.",
+        options: [
+            "Photographs, 6hours, GM, videography",
+            "Sketches, 12 hours, Divisional officer, audio",
+            "Photographs, 24 hours, Chief Safety Officer, videography",
+            "Sketches, 36 hours, DRM, film"
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRA0102]: Object of Accident Inquiry: State which of the statements are true: (i) To ascertain the probable cause of accident. (ii) To fix responsibility for the accident. (iii) Responsibility should be specific i.e., primary, secondary and blameworthy. (iv) To formulate proposals for preventing recurrence of similar accidents. (v) Responsibility shall be fixed only at the Group \"C\" level.",
+        options: [
+            "(i),(ii),(iii),(iv) &(v)",
+            "(ii),(iii) &(iv)",
+            "(i),(iv) &(v)",
+            "(i),(ii),(iv) &(v)"
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRA0103]: Object of Accident Inquiry: Fill in the blanks: (i) To determine whether there was any _________in working for occurrence of accident. (ii) To examine whether there has been any laxity / delay in __________, relief and ___________ through lines of communication. (iii) To ___________ improvement in system, practices and procedures.",
+        options: [
+            "carelessness, rendering rescue, restoring, guide",
+            "laxity, rendering help, restoring, instruct",
+            "laxity, rendering rescue, restoring, suggest",
+            "laziness, rendering staff, restoring, form rules"
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRA0104]: Accident inquiries are classified into:",
+        options: ["two types", "three types", "four types", "five types"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRA0105]: Accident inquiries are classified into:",
+        options: ["Railway enquiry", "Non Railway enquiry", "Both \"A\"&\"B\"", "Either \"A\" or \"B\""],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRA0106]: An example of Non Railway enquiries are:",
+        options: ["Judicial commission", "Joint", "Departmental", "Interdepartmental"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRA0107]: An example of Non Railway enquiries are:",
+        options: ["Joint", "Departmental", "Commissioner of Railway Safety", "Interdepartmental"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRA0108]: An example of Non Railway enquiries are:",
+        options: ["Joint", "Commission of Inquiry", "Departmental", "Interdepartmental"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRA0109]: An example of Non Railway enquiries are:",
+        options: ["Joint", "Interdepartmental", "Departmental", "Magisterial"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRA0110]: An example of Non Railway enquiries are:",
+        options: ["Joint", "Police", "Departmental", "Interdepartmental"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRA0111]: An example of Non Railway enquiries are Judicial Commission or Commission of Inquiry as per Enquiries Act of ___________.",
+        options: ["1962", "1924", "1948", "1952"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRA0112]: An example of Railway enquiries are:",
+        options: ["Judicial commission", "Joint", "Police", "Megisterial"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRA0113]: An example of Railway enquiries are:",
+        options: ["Commission of inquiry", "Police", "Commissioner of Railway Safety", "Interdepartmental"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRA0114]: An example of Non Railway enquiries are:",
+        options: ["CRS", "Commission of Inquiry", "Departmental", "Megisterial"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRA0115]: An example of Non Railway enquiries are:",
+        options: ["Joint", "Interdepartmental", "Departmental", "Magisterial"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRA0116]: The Central Government may appoint a Commission of Inquiry under the Commission of Inquiry Act, ________ in a very serious accident.",
+        options: ["1962", "1924", "1948", "1952"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRA0117]: CRS shall hold statutory enquiry into the accidents falling under Section 113 of Railways Act _________.",
+        options: ["1987", "1980", "1989", "1924"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRA0118]: CRS shall hold statutory enquiry into the accidents falling under Section ______of Railways Act 1989.",
+        options: ["110", "111", "112", "113"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRA0119]: The CRS shall inform the ________ of his intention to hold an inquiry and shall at the same time, fix and communicate the date, time and place of the inquiry.",
+        options: ["GM", "DRM", "GM / CSO", "CSO"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRA0120]: The CRS shall inform the GM / CSO if his intention to hold an inquiry and shall at the same time, fix and communicate the _______________ of the inquiry.",
+        options: ["Time and place", "date, time and place", "date and place", "date and time"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRA0121]: Magisterial Inquiry may be _________ and is appointed by the State Government.",
+        options: ["judicial", "non-judicial", "Either \"A\" or \"B\"", "Both \"A\" & \"B\""],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRA0122]: Magisterial Inquiry may be judicial or non-judicial and is appointed by the_______.",
+        options: ["Railways", "State Government", "Zone", "Central Government"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRA0123]: The Railway Police may make an investigation in case of ___________ inquiry into the causes which led to the accident occurring in the course of working a railway can be parallel, if required, to any other enquiry.",
+        options: ["Police", "CRS", "Departmental", "Joint"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRA0124]: Whenever an accident, such as mentioned in section 113 of the Act, has occurred in the course of working a railway, the Head of the Railway Administration concerned shall order an inquiry to be promptly made by a Committee of Railway Officers, to be called as ___________.",
+        options: ["Police inquiry", "CRS inquiry", "Departmental inquiry", "Joint inquiry"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRA0125]: Whenever an accident, such as mentioned in section 113 of the Act, has occurred in the course of working a railway, the ____________concerned shall order an inquiry to be promptly made by a Committee of Railway Officers, to be called as \"Joint Inquiry\".",
+        options: ["CRB/CEO", "CRS", "Head of the Railway Administration", "Division"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRA0126]: Whenever an accident, such as mentioned in section 113 of the Act, has occurred in the course of working a railway, the Head of the Railway Administration concerned shall order an inquiry to be promptly made by a Committee of ________, to be called as \"Joint Inquiry\".",
+        options: ["Departmental officers", "Sr.Subordinates", "Safety staff", "Railway Officers"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRA0127]: For accidents not falling under the purview of CRS, the ______ shall order an enquiry by a committee of officers from the departments concerned.",
+        options: ["DRM", "PHOD", "AGM", "PCSO"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRA0128]: For accidents not falling under the purview of CRS, the GM considers it is necessary to hold an inquiry by the __________ in to such accidents, the same can be ordered.",
+        options: ["DRM", "HOD/PHOD", "AGM", "PCSO"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRA0129]: If the cause of the accident is attributable beyond doubt to a particular department in Railways and the ______________ accepts the responsibility, the inquiry by the inter-departmental committee can be dispensed with.",
+        options: ["DRM", "HOD/PHOD", "AGM", "PCSO"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRA0130]: Normally __________ shall order all departmental and inter-departmental inquiries into accidents.",
+        options: ["DRM", "HOD/PHOD", "AGM", "PCSO"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRA0131]: The GM or on his behalf, the _________may order a joint inquiry into serious accidents, as deemed fit.",
+        options: ["DRM", "HOD/PHOD", "AGM", "PCSO"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRA0132]: Whenever a Joint Inquiry is to be made, the ______________ concerned shall issue notice about the date, time and place at which the Inquiry will conducted.",
+        options: ["Zone", "CRS", "Head of the Railway Administration", "Division"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRA0133]: Whenever a Joint Inquiry is to be made, the Head of the Railway Administration concerned shall issue notice regarding date and time to:",
+        options: ["District Megistrate", "CRS", "SP of the district", "All the above"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRA0134]: Where a Joint Inquiry is held into an accident on receipt of information about the inability of the Commissioner of Railway Safety to hold an inquiry Head of the Railway Administration concerned shall also issue a ___________.",
+        options: ["Public notice", "Notice to division", "Press Note", "Notice to Public representative"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRA0135]: All serious accidents shall be inquired into by the __________.",
+        options: ["District Megistrate", "CRS", "SP of the district", "All the above"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRA0136]: In case of CRS or CCRS is not in a position to conduct inquiry into serious accident cases, notified to him, the inquiry shall be carried out by a Committee of ___________and ________of the Railway shall be convenor of such Committee.",
+        options: ["SA Grade Officers, PCSO", "Asst. Grade Officers, PCSO", "SA Grade Officers, GM", "JA Grade Officers, GM"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRA0137]: In case of CRS or CCRS is not in a position to conduct inquiry into serious accident cases, _______ of the Railway shall be convenor of such Committee and _______ Railway will be the accepting authority.",
+        options: ["SA Grade Officers, PCSO", "PCSO, CRS", "GM, PCSO", "PCSO, GM"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRA0138]: All cases of collisions falling under A1 to A4 categories shall be inquired into by a committee of ______officers with __________ as the accepting authority.",
+        options: ["SA Grade , PCSO", "JAG, CRS", "SAG, GM", "HOD, GM"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRA0139]: All other consequential train accidents shall be inquired by _________ from Safety Department to be nominated by GM, with the _______ as accepting authority.",
+        options: ["SA Grade , PCSO", "Dy.CSOs, GM", "Inspectors, GM", "JAG, PCSO"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRA0140]: Except Collisions and consequential accidents, other accidents shall be inquired into by a ____________Committee of Officers as decided by respective DRMs with ________ as the accepting authority.",
+        options: ["SS or JS, DRM", "Dy.CSOs, GM", "Inspectors, GM", "JAG, PCSO"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRA0141]: All yard accidents shall be inquired into by a Committee of ____________with __________as accepting authority.",
+        options: ["SS or JS, DRM", "Sr. Supervisors, Sr.DSO/DSO", "Inspectors, GM", "JAG, PCSO"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRA0142]: All cases of Indicative Accidents shall be inquired into by a Committee of _____________ Officers with ___________ as the accepting authority.",
+        options: ["SS or JS, DRM", "Sr. Supervisors, Sr.DSO/DSO", "Inspectors, GM", "Sr. Supervisors, DRM"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRA0143]: ________________can have the inquiry conducted by a committee of higher level of Officers than the above mentioned levels depending upon the seriousness of the accident.",
+        options: ["CRS or GM", "GM or DRM", "DRM or ADRM", "GM or PHODs"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRA0144]: In accident cases where the Inquiry Committee determines the responsibility on the staff of Foreign Railway, the Inquiry Report should be put upto __________of the Railway on which the accident took place through_________,",
+        options: ["PCSO ,GM", "GM, DRM", "PHOD, PCSO", "PHODs, GM"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRA0145]: Finalisation of Inter Railway DAR cases arising out of inquiry report involving foreign railway staff be followed up by the ______________ of the concerned department of the Railway on which on which the accident took place.",
+        options: ["JAG officers", "SAG officers", "PHOD", "HOD"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRA0146]: If suitable response is not received from the respondent Railway at ___________ level, for finalisation of DAR cases for accident involved by staff of foreign railway, then the case should be referred to Railway Board.",
+        options: ["JAG officers", "SAG officers", "PHOD", "GMs"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRA0147]: All cases of equipment failures shall be inquired into by __________________of respective departments.",
+        options: ["Senior Supervisors/Supervisors", "SAG officers", "JAG officers", "SS or JS officers"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRA0148]: If no particular department accepts the responsibility _________ shall order the inquiry on date of accident(D)+1.",
+        options: ["ADRM/AGM", "DRM/GM", "DRM/AGM", "ADRM/GM"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRA0149]: If no particular department accepts the responsibility, target for ordering the inquiry by DRM/GM is within _____.",
+        options: ["Date of accident(D)+1", "date of accident(D)+2", "date of accident(D)+3", "date of accident(D)+7"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRA0150]: Target for Committee to commence the inquiry into the accident ordered by GM/DRM is within ______________.",
+        options: ["Date of accident(D)+1", "date of accident(D)+2", "Date of accident(D)+3", "date of accident(D)+7"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRA0151]: Target for Committee to submit the inquiry report to DRM /GM is within __________.",
+        options: ["Date of accident(D)+1", "date of accident(D)+15", "Date of accident(D)+3", "Date of accident(D)+7"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRA0152]: Target for Acceptance of inquiry report by the DRM/GM is within ____________.",
+        options: ["Date of accident(D)+3", "date of accident(D)+7", "Date of accident(D)+10", "Date of accident(D)+15"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRA0153]: Target for Inquiry reports for accidents ordered by DRM/GM to be finalized by PCSO/AGM is within ____________.",
+        options: ["Date of accident(D)+3", "date of accident(D)+7", "Date of accident(D)+10", "Date of accident(D)+15"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRA0154]: Inquiry reports for accidents ordered by DRM/GM will be finalized by PCSO for:",
+        options: ["Serious accidents", "Review cases", "Minor accidents", "Accident cases involving foreign railway staff"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRA0155]: Inquiry reports for accidents ordered by DRM/GM will be finalized by AGM for:",
+        options: ["Serious accidents", "Review cases", "Minor accidents", "Accident cases involving foreign railway staff"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRA0156]: Target for Submission of inquiry report to CRS with remarks for accidents ordered by DRM/GM is within ____________.",
+        options: ["Date of accident(D)+7", "date of accident(D)+10", "Date of accident(D)+15", "Date of accident(D)+20"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRA0157]: Target for accidents ordered by DRM/GM for completion of DAR action against officials held responsible is within ____________.",
+        options: ["Date of accident(D)+15", "date of accident(D)+20", "Date of accident(D)+90", "Date of accident(D)+180"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRA0158]: Irrespective of whether a joint or Inter departmental Inquiry is ordered by the General Manager, Sr.DSO of the division shall be advised within _______by the other divisional officers whether their department is accepting responsibility or not.",
+        options: ["One day", "Two days", "Three days", "Five days"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRA0159]: If no department accepts responsibility, the Divisional Safety Officer shall at once put up the case to the _________ who will, if necessary, order an Inter Departmental inquiry.",
+        options: ["ADRM", "DRM", "AGM", "GM"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRA0160]: When a Joint or Interdepartmental inquiry is ordered by the GM, the __________of the inquiry committee shall fix the date and place, in consultation with other members of the committee.",
+        options: ["SAG officer", "JAG Officer", "Senior Most Officer", "Sr.DSO"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRA0161]: When a Joint or Interdepartmental inquiry is ordered by the GM, the inquiry shall be held at __________________and within three days after the occurrence of accident.",
+        options: ["station nearest to the site of accident", "Divsional office", "Zonal office", "XEN office"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRA0162]: When a Joint or Interdepartmental inquiry is ordered by the GM, the inquiry shall be held at station nearest to the site of accident and within ________after the occurrence of accident.",
+        options: ["One day", "Two days", "Three days", "Five days"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRA0163]: In case of Joint/Inter Departmental inquiries, witness shall be _______________ if necessary, to elicit important details.",
+        options: ["cross examined", "Re-examined", "Enquired", "Both \"A\" & \"B\""],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRA0164]: If a witness has given a statement prior to the Inquiry, that statement shall first be read over to him and recorded as his _________.",
+        options: ["deposition", "Notes", "personal document", "Evidence"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRA0165]: The Inquiry Officer or the committee shall also note ___________ in the course of the Inquiry, which though not having a direct bearing on the accident may lead to accidents in future.",
+        options: ["deposition", "Notes", "matters brought to light", "Evidence"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRA0166]: In the case of a Joint Inquiry, it is not necessary for the members of _________ to attend the deliberations in regard to the finding or to sign the Joint Inquiry proceedings, but they may ask any questions while the examination of witnesses is going on and the answer given to such questions may be recorded as part of the proceedings.",
+        options: ["Police", "committee members", "Sr.Supervisors", "None of the above"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRA0167]: The composition of the _____________committee will depend upon the nature of accident.",
+        options: ["Police", "inquiry", "Sr.Supervisors", "JAG"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRA0168]: When _________________of another division is involved, representative of that division may also be included in the inquiry committee.",
+        options: ["staff", "engine", "Either \"A\" or \"B\"", "Both \"A\" & \"B\""],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRA0169]: In case of fire accident, the representative of ______________ branch should also be associated.",
+        options: ["Mechanical", "Engineering", "Operating", "Security"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRA0170]: No Officer or a Subordinate official whose evidence is required to be recorded before an inquiry committee should be appointed as a Member of that committee except when allowed only under the personal orders of the___________.",
+        options: ["PCSO / DRM", "Sr.DSO/DRM", "PCSO/PHOD", "PCSO/GM"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRA0171]: In a Joint/Inter Departmental Inquiry, the senior most Officer in the highest grade among those nominated for the enquiry will act as ______________________.",
+        options: ["Chairman of enquiry committee.", "President of enquiry committee.", "Secretary of the committee", "Vice President of the committee"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRA0172]: At a Senior Supervisors Inquiry, seniority as between Sub-ordinates belonging to different departments in the same grade being reckoned on the total________________, and as between subordinates belonging to the same department, the respective ___________________ in the Department.",
+        options: ["Seniroity, Length of service.", "length of service, seniority .", "Age, Seniority", "length of service, age"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRA0173]: Whenever an inquiry has been ordered, it will be the duty of the _____________of each department to advise all persons concerned under his charge or any other witnesses whom the committee may require to give evidence to be present at the place and on the date and time fixed for the inquiry.",
+        options: ["Sr.subordinates.", "Zonal officer", "Divisional Officer", "PHOD"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRA0174]: The ____________ of the concerned department will also be responsible for seeing that all documents necessary for conducting the inquiry are available and any other information required is readily produced.",
+        options: ["Sr.subordinates.", "Zonal officer", "PHOD", "Divisional Officer"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRA0175]: If a member of the Inquiry Committee fails to attend the inquiry due to any reason, he shall submit his written explanation to the _________________ of the Inquiry Committee.",
+        options: ["Sr.subordinates.", "President", "Secretary", "Divisional Officer"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRA0176]: If an officer/ staff, who has been summoned to depose before the committee absents himself without proper and sufficient reason, should be_____________________.",
+        options: ["Taken up under DA R.", "Suspended", "Issued SF11", "Call for enquiry"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRA0177]: An inquiry will not ordinarily be postponed due to the absence of a witness, but if after recording all other evidences, a decision cannot be arrived at, the inquiry may be ____________till the witness is available.",
+        options: ["withheld", "Suspended", "adjourned", "Cancelled"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRA0178]: In case of a witness being sick, the ________________ of the inquiry committee will advise the medical authorities to instruct the witness to attend the inquiry.",
+        options: ["Sr.subordinate.", "President", "Secretary", "Divisional Officer"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRA0179]: Guidelines for the members of Inquiry Committee: Which of the following are true: i) Strict partiality must be observed by all members. ii) Findings shall be drawn unanimously. iii) Technical data and evidence should attempt to reconstruct the sequence of events. iv) In case of contradictory evidence, value should be discussed giving reasons why a particular version is credited.",
+        options: ["(i), (ii), (iii) (iv)", "(i), (ii), (iii)", "(i), (ii)", "(iii) (iv)"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRA0180]: A report of the proceedings shall be drawn by the _______________ or by someone deputed by him for this duty, in Form No. Acc. 9 to 9 (O).",
+        options: ["Sr.subordinates.", "President", "Secretary", "Divisional Officer"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRA0181]: A report of the proceedings shall be drawn by the _______________ or by someone deputed by him for this duty, in Form No.:",
+        options: ["Acc. 9(A) to 9 (R)", "Acc. 9(A) to 9 (O)", "Acc. 9 to 9 (O)", "Acc. 9 to 9 (R)"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRA0182]: Any corrections in it shall be initialed by the___________.",
+        options: ["Sr.subordinates.", "President", "Secretary", "Divisional Officer"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRA0183]: The signature of the witness shall be obtained then and there on all pages of the deposition/evidence/ answers to cross examination, all corrections being attested by the Witness.",
+        options: ["deposition", "evidence/answers", "Both \"A\" & \"B\"", "None of the above."],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRA0184]: Proceedings of Joint or Inter-departmental Inquiries: Summary.",
+        options: ["Acc. 9(A)", "Acc. 9 (O)", "Acc. 9", "Acc. 9 (B)"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRA0185]: Proceedings of Joint or Inter-departmental Inquiries: List of members of the Committee and of other officials attending.",
+        options: ["Acc. 9(A)", "Acc. 9 (O)", "Acc. 9", "Acc. 9 (B)"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRA0186]: Proceedings of Joint or Inter-departmental Inquiries: Descriptive account of the Accident.",
+        options: ["Acc. 9(A)", "Acc. 9 (O)", "Acc. 9", "Acc. 9 (B)"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRA0187]: Proceedings of Joint or Inter-departmental Inquiries: List of witnesses examined with their names.",
+        options: ["Acc. 9(A)", "Acc. 9 (O)", "Acc. 9(C)", "Acc. 9 (B)"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRA0188]: Proceedings of Joint or Inter-departmental Inquiries: Deposition of witness.",
+        options: ["Acc. 9(D)", "Acc. 9 (D)& (E)", "Acc. 9(C) &(F)", "Acc. 9 (B)"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRA0189]: Proceedings of Joint or Inter-departmental Inquiries: Remarks and reasons for finding.",
+        options: ["Acc. 9(D)", "Acc. 9 (E)", "Acc. 9 (F)", "Acc. 9 (B) (C)"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRA0190]: Proceedings of Joint or Inter-departmental Inquiries: joint finding.",
+        options: ["Acc. 9(G)", "Acc. 9 (C)", "Acc. 9 (E)", "Acc. 9 (H)"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRA0191]: Proceedings of Joint or Inter-departmental Inquiries: Matters brought to light during the inquiry.",
+        options: ["Acc. 9(G)", "Acc. 9 (C)", "Acc. 9 (E)", "Acc. 9 (H)"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRA0192]: Proceedings of Joint or Inter-departmental Inquiries: Suggestions & Recommendations.",
+        options: ["Acc. 9(G)", "Acc. 9 (I)", "Acc. 9 (J)", "Acc. 9 (H)"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRA0193]: Proceedings of Joint or Inter-departmental Inquiries: Adequacy or otherwise of rescue and relief measures, etc.",
+        options: ["Acc. 9(G)", "Acc. 9 (I)", "Acc. 9 (J)", "Acc. 9 (H)"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRA0194]: Proceedings of Joint or Inter-departmental Inquiries: Composition, marshalling order and particulars of rolling stock on the train involved.",
+        options: ["Acc. 9(K)", "Acc. 9 (L)", "Acc. 9 (M)", "Acc. 9 (N)"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRA0195]: Proceedings of Joint or Inter-departmental Inquiries: Details of photographs taken at the site of accident.",
+        options: ["Acc. 9(K)", "Acc. 9 (L)", "Acc. 9 (M)", "Acc. 9 (N)"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRA0196]: Proceedings of Joint or Inter-departmental Inquiries: Details of damages to engine and rolling stock and approximate cost thereof.",
+        options: ["Acc. 9(K)", "Acc. 9 (L)", "Acc. 9 (M)", "Acc. 9 (N)"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TRA0197]: Proceedings of Joint or Inter-departmental Inquiries: Details of damages to permanent way and approximate cost thereof.",
+        options: ["Acc. 9(K)", "Acc. 9 (L)", "Acc. 9 (M)", "Acc. 9 (N)"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TRA0198]: Proceedings of Joint or Inter-departmental Inquiries: Details of damages to signal interlocking and communication gear and approximate cost thereof.",
+        options: ["Acc. 9(O)", "Acc. 9 (L)", "Acc. 9 (M)", "Acc. 9 (N)"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TRA0199]: In case of Proceedings of Joint or Inter-departmental Inquiries list of passengers and / or railway employees injured or killed, and their disposal and the particulars of ____________ payment made.",
+        options: ["compensation", "Ex-gratia", "disbursement of money", "Hospital bills"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TRA0200]: Each witness in case of joint or interdepartmental inquiries shall be assigned a___________, which shall be repeated after the signature / thumb impression at the end as \"Witness No …\".",
+        options: ["Number", "Identity", "Name", "None of the above"],
+        correctAnswer: 0
+    }
+];
+
+const AOM_GENERAL_ALL = [
+    {
+        question: "[GEN0001]: RDSO is located at",
+        options: ["Secunderabad", "Lucknow", "New Delhi", "Bangalore"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0002]: The Chief Commissioner of Railway Safety's office is located at",
+        options: ["Gwalior", "Bhopal", "Chennai", "Lucknow"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0003]: Number of Loco manufacturing Units on Indian railways are",
+        options: ["One", "Two", "Three", "Four"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0004]: Number of Coach manufacturing Units on Indian railways are",
+        options: ["One", "Two", "Three", "Four"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0005]: The distance between the two tracks on Broad Gauge",
+        options: ["1686MM", "1676MM", "1666MM", "1656MM"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0006]: First train ran on Indian railways was on",
+        options: ["26th April 1853", "16th May 1853", "16th April 1863", "16th April 1853"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0007]: The number of trains which can be run on a section in 24 hours is termed as",
+        options: ["Throughput", "Wagon Turn Round", "Section Capacity", "DWB"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0008]: Throughput of a section is given as the volume of traffic carried over a section in",
+        options: ["8 hours", "16 hours", "24 hours", "36 hours"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0009]: In Scotts's formula (1440xE/(T+t)) for calculation of section capacity, \"T\" means",
+        options: ["Block Operation Time", "Running time of fastest Goods train Over Critical Block Section", "Running Time of Slowest Train Over Critical Block Section", "Efficiency factor"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0010]: In Scotts's formula for calculation of section capacity, \"t\" means",
+        options: ["Block Operation Time", "Running time of fastest Goods train Over Critical Block Section", "Running Time of Slowest Train Over Critical Block Section", "Efficiency factor"],
+        correctAnswer: 0
+    },
+    {
+        question: "[GEN0011]: In Scotts's formula (1440xE/(T+t)) for calculation of section capacity, \"E\" means",
+        options: ["Block Operation Time", "Running time of fastest Goods train Over Critical Block Section", "Running Time of Slowest Train Over Critical Block Section", "Efficiency factor"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0012]: The value of Efficiency factor in Scotts's formula(1440xE/(T+t)) for calculation of section capacity, is taken as",
+        options: ["8/10", "6/10", "7/10", "9/10"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0013]: A Section will be considered saturated when line capacity exceeds",
+        options: ["100% of charted capacity", "90% of charted capacity", "80% of charted capacity", "70% of charted capacity"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0014]: Major commodity transported on Indian railways is",
+        options: ["Cement", "Fertilizers", "Coal", "Iron ores"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0015]: Apart from Coal, 2nd major commodity transported on Indian railways is",
+        options: ["Mineral oils", "Fertilizers", "Food grains", "Iron ores"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0016]: Control chart is prepared normally for",
+        options: ["6 Hours", "8 hours", "12 hours", "24 hours"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0017]: Master chart is prepared for",
+        options: ["6 Hours", "8 hours", "12 hours", "24 hours"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0018]: Paths of M/Express trains are identified on control charts by colour",
+        options: ["Green", "Red", "Blue", "Black"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0019]: Paths of Goods trains are identified on control charts by colour",
+        options: ["Green", "Red", "Blue", "Black"],
+        correctAnswer: 0
+    },
+    {
+        question: "[GEN0020]: Paths of Rajdhani/Duronto and other premier trains identified on control charts by colour",
+        options: ["Green", "Pink", "Blue", "Black"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0021]: Paths of Passenger trains are identified on control charts by colour",
+        options: ["Green", "Red", "Blue", "Black"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0022]: Paths of Light engines/tower cars trains are identified on control charts by colour",
+        options: ["Green", "Red", "Blue", "Black"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0023]: Blocking of running line on control chart is indicated by drawing a continuous _________ either below or above the line, as per its direction, from the time it is blocked till it is cleared.",
+        options: ["Vertical red line", "vertical black line", "Horizontal red line", "horizontal black line"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0024]: Line Block is indicated on control chart in the form of a ________ indicating duration drawn in red colour.",
+        options: ["Circle", "Semi-circle", "Vertical box", "Rectangular box"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0025]: Temporary speed restrictions are indicated in the control chart in the form of a small ___________with prescribed speed restriction, on the right side between two station codes",
+        options: ["Red Circle", "Red triangle", "Black triangle", "Red box"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0026]: Stock, loco, crew and path are to be kept in mind while the train is",
+        options: ["Stabled", "Run", "Ordered", "Terminated"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0027]: The ordering of goods trains depends on the availability of",
+        options: ["POWER", "PATH", "CREW&STOCK", "ALL THE ABOVE"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0028]: High Figure of wagon turn round denotes",
+        options: ["Wagon immobility", "Increase in Terminal detentions", "Increase in DWB", "All the above"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0029]: Wagon census is conducted once in",
+        options: ["3 YEARS", "A YEAR", "5 YEARS", "6 MONTHS"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0030]: NR cell means",
+        options: ["NUMBERED RECEIPT", "NOT RECEIVED", "NOT REPORTED", "NAME RECORD"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0031]: At Zonal level the management of Passenger Traffic is looked after by",
+        options: ["CSO", "CSS", "CPTM", "CFTM"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0032]: Time Tables are issued every",
+        options: ["6 months", "year", "2 years", "3 years"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0033]: Loco outage means the average number of locos available to traffic use in",
+        options: ["24 hours", "a month", "10 days", "15 days"],
+        correctAnswer: 0
+    },
+    {
+        question: "[GEN0034]: The Marker with which Non pooled wagons are identified is",
+        options: ["'NP'", "'P'", "'N'", "None of these"],
+        correctAnswer: 0
+    },
+    {
+        question: "[GEN0035]: Wagon kms /Wagon day indicates",
+        options: ["Wagon Mobility", "Wagon Utilisation", "Average Speed", "All The above"],
+        correctAnswer: 0
+    },
+    {
+        question: "[GEN0036]: Engineering Allowance is calculated at the rate of 6 min per every",
+        options: ["50kms", "500kms", "200kms", "100kms"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0037]: Poor Engine utilization leads to",
+        options: ["reduced power availability", "blocking of sorting and reception lines", "Both 'A'&'B'", "Either 'A' or 'B'"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0038]: The Ratio of Total Train Kilometres to Train Engine Hour gives the",
+        options: ["Average speed", "WTR", "Throughput", "NTKM"],
+        correctAnswer: 0
+    },
+    {
+        question: "[GEN0039]: If working expenses of a Railway are increasing, the operating ratio performance will become",
+        options: ["poor", "high", "does not affect", "None of the above"],
+        correctAnswer: 0
+    },
+    {
+        question: "[GEN0040]: If Gross revenue receipts of a Railway are increasing, the operating ratio performance will become",
+        options: ["poor", "high", "does not affect", "None of the above"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0041]: Commissioner of Railway Safety Organization functions under Ministry of",
+        options: ["Railways", "Postal", "Civil Aviation", "Defence"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0042]: The Representations that are taken into account In the Divisional time table meeting held with branch officers presided by Sr.DOM are",
+        options: ["DRUCC members", "MP/MLA's", "both A & B", "Either 'A' or 'B'"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0043]: In the month of October minutes of Divisional time table meeting sent to",
+        options: ["CTM", "CPTM", "DRM", "CFTM"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0044]: Every year presided over by the Executive Director(Coaching) Inter Railway Time Table coordination meeting held generally in the month of",
+        options: ["Jan/Feb", "Oct/Nov", "July/Aug", "Apr/May"],
+        correctAnswer: 0
+    },
+    {
+        question: "[GEN0045]: Inter Railway Time Table coordination meeting held generally in the month of Jan/ Feb every year presided over by the",
+        options: ["Principal Executive Director(Freight)", "Principal Executive Director(Coaching)", "Principal Executive Director(Commercial)", "Principal Executive Director(Safety)"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0046]: POH interval of passenger coaches run on Mail Exp/Passenger trains is",
+        options: ["6 months", "12 months", "18 months", "24 months"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0047]: Percentage of spare coaches for Traffic requirements that must be kept at the depots for Non AC coaches",
+        options: ["12 %", "4 %", "5 %", "10%"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0048]: Percentage of spare coaches for Mechanical requirements that must be kept at the depots for AC coaches",
+        options: ["8.5%", "16 %", "5%", "6 %"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0049]: Percentage of spare coaches for Traffic requirements that must be kept at the depots for Rajdhani/Shatabdi trains is",
+        options: ["8.5%", "12 %", "5%", "10%"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0050]: Percentage of spare coaches for Traffic requirements that must be kept at the depots for AC coaches is",
+        options: ["8.5%", "5 %", "6%", "10%"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0051]: Percentage of spare coaches for Mechanical requirements that must be kept at the depots for RAJDHANI/SHATABDI coaches is",
+        options: ["12 %", "6 %", "5%", "10%"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0052]: Percentage of spare coaches for Mechanical requirements that must be kept at the depots for Non AC coaches is",
+        options: ["5%", "8.5 %", "15%", "10%"],
+        correctAnswer: 0
+    },
+    {
+        question: "[GEN0053]: Charts that contains scheduled trains running on each section Including paths for goods trains are called as",
+        options: ["Platform occupation charts", "Pitline occupation charts", "Master charts", "Shift wise board charts"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0054]: Before introduction of new trains, compliance with RPC-4 will be certified ___________ of the originating railways, duly consulting the terminating railways.",
+        options: ["CPTM", "CRSE", "Either 'A' or 'B'", "Both 'A' or 'B'"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0055]: For trains starting from different stations and amalgamation at an enroute station, the BPCs of individual trains shall be clubbed & revalidated at the ________________point.",
+        options: ["originating", "intermediate amalgamation", "Enroute junction", "intermediate"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0056]: For trains originating from one station and disintegrating into 2 or more trains at an enroute station, the originating shall issue ______________BPCs for these parts of the train which shall be revalidated at the intermediate station.",
+        options: ["combined", "two copies", "separate", "None of the above"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0057]: Whenever the lie-over is more than ___________at the platform or the rake is stabled in the yard, the rake should be locked and positive security should be provided.",
+        options: ["2 hours", "3 hours", "4 hours", "5 hours"],
+        correctAnswer: 0
+    },
+    {
+        question: "[GEN0058]: BPC for \"Parcel Express\" is valid for",
+        options: ["10 days", "4500 km", "A or B whichever is earlier", "35 days or 7500 km whichever is earlier"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0059]: BPC for \"Military/Election Special trains\" in case of LHB coaches is valid for",
+        options: ["3500 kms or 96 hours", "3500 km or 10 days", "4000 kms or 7 days", "35 days or 7500 km whichever is earlier"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0060]: BPC for \"Military/Election Special trains\" in case of ICF coaches is valid for",
+        options: ["3500 kms or 7 days", "3500 km or 10 days", "4000 kms or 96 hours", "35 days or 7500 km whichever is earlier"],
+        correctAnswer: 0
+    },
+    {
+        question: "[GEN0061]: BPC for \"Passenger trains without toilets\" in case of ICF coaches is valid for",
+        options: ["3500 kms or 96 hours", "3500 km or 10 days", "4000 kms or 96 hours", "3500 kms or 7 days"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0062]: BPC for \"Passenger trains with toilets\" in case of ICF coaches is valid for",
+        options: ["3500 kms or 96 hours", "3500 km or 10 days", "4000 kms or 96 hours", "3500 kms or 7 days"],
+        correctAnswer: 0
+    },
+    {
+        question: "[GEN0063]: Validity for \"Mail/Express\" in case of ICF coaches checked on pit line",
+        options: ["3500 kms or 96 hours", "3500 km or 10 days", "4000 kms or 96 hours", "3500 kms or 7 days"],
+        correctAnswer: 0
+    },
+    {
+        question: "[GEN0064]: Validity for \"Mail/Express\" in case of LHB coaches checked on pit line",
+        options: ["3500 kms or 96 hours", "3500 km or 10 days", "4000 kms or 96 hours", "3500 kms or 7 days"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0065]: Different types of maintenance of Passenger carrying trains are",
+        options: ["Primary", "Secondary", "Terminal attention", "all the above"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0066]: The period of interval of IOH of passenger coaches is between",
+        options: ["12 months", "two POH", "24 months", "36 months"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0067]: The Validity kms. for LHB Coaches after checking in pit line.",
+        options: ["2000", "4000", "2500", "3500"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0068]: Super fast train means ,The average speed is ____",
+        options: ["75 KMPH", "80 KMPH", "100 KMPH", "55 KMPH"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0069]: The maximum time slot allotted for Primary maintenance of coaching rake.",
+        options: ["8 hrs", "6 hrs", "4 hrs", "10hrs"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0070]: The BPC of MEMU/DEMU 700 HP trains is valid for",
+        options: ["3500KM or 7days", "2500KM or 7days", "7 days", "10days"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0071]: The BPC of MEMU/DEMU other than 700 HP trains is valid for",
+        options: ["3500KM or 7days", "2500KM or 7days", "7 days", "10days"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0072]: Demurrage charges are collected for detention beyond permissible time of",
+        options: ["Rolling stock", "Goods/consignment", "Locos", "Labourers"],
+        correctAnswer: 0
+    },
+    {
+        question: "[GEN0073]: Wharfage charges are collected for detention beyond permissible time of",
+        options: ["Rolling stock", "Goods/consignment", "Locos", "Labourers"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0074]: IRCON means",
+        options: ["Indian Railway Construction Operations news", "Indian Railway Construction organization", "Indian Railway Construction International Limited", "Indian Railway Construction Limited"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0075]: IRFC means",
+        options: ["Indian Railway Finance corporation", "Indian Railway Foreign company", "Indian Railway foreign corporation", "Indian Railway Finance Corporation Limited"],
+        correctAnswer: 0
+    },
+    {
+        question: "[GEN0076]: CDTS means",
+        options: ["Controller digital train system", "Control discharge toilet system", "Centre for Digital train monitoring system", "Controlled Digital Train service"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0077]: CAMTECH means",
+        options: ["Coaching for Advance Mechanical technology", "Technique for advance maintenance of coaches", "Coaches with advanced mechanical technology", "Centre for Advanced Maintenance Technology"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0078]: IVRS means",
+        options: ["Indian Voluntary retirement service", "Interactive voice response system", "Intra Voice recording system", "Interactive Voice recording system"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0079]: EOTT means",
+        options: ["Enhancement of Trains transformation", "Enhancement of Operations of trains traffic", "Enhancement of Operations transformation of trains", "End of Train Telemetry"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0080]: MCDO means",
+        options: ["Monitoring Centre for District Officials", "Monthly cumulative Demi Official", "Monthly Confidential Demi Official", "Monitoring Confidential Discharge Officials"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0081]: PGRM means",
+        options: ["Public Grievance Redressal Machinery", "Public General Redressal Machinery", "Public Grievance Rights Machinery", "Public Grievance Redressal mechanism"],
+        correctAnswer: 0
+    },
+    {
+        question: "[GEN0082]: PNR means",
+        options: ["Public Name Record", "Public numeric record", "Passenger Name registration", "Passenger Name record"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0083]: POET means",
+        options: ["Public operated enquiry terminal", "Passenger order enquiry terminal", "Passenger operated enquiry terminal", "Public operated enhancement terminal"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0084]: SSDAC means",
+        options: ["Solid state digital axle counter", "Solid State Digital Alternating current", "Single section Digital alternating current", "Single section Digital axle counter"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0085]: POMKA means",
+        options: ["Portable medical kit for accidents", "Periodical Officers Monitoring of accidents", "Permanent official medical kit for assistance", "Permanent Officers medical kit for accidents"],
+        correctAnswer: 0
+    },
+    {
+        question: "[GEN0086]: FIBA means",
+        options: ["Failure Indication and Brake Application", "Future indication of brakes application", "Federation of International bank Association", "Federation of International base ball association"],
+        correctAnswer: 0
+    },
+    {
+        question: "[GEN0087]: SATSANG means",
+        options: ["Scheme for advance train scheduling and network governance", "Software for advanced train scheduling and network governance", "Software aided train scheduling and national governance", "Software aided train scheduling and network governance"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0088]: IRPSM means",
+        options: ["International Road Projects & sanctioning Management", "Indian Railway Projects & sanctioning Management", "Indian Railway Personal supervisory Management", "Indian Railway programming & systems Management"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0089]: WILD means",
+        options: ["Women's Institute for leadership development", "Work initiated leadership development", "Wheels interaction with load detection", "Wheel impact load detection"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0090]: TCAS means",
+        options: ["Track condition assisting system", "Train Collision Avoidance System", "Train condition assisting system", "Training Centre of Assistant Supervisors"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0091]: WGFACCW stands for",
+        options: ["AC 2 tier", "AC 3 tier", "First class cum AC 2 tier", "First class cum AC 3 tier"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0092]: WGCB stands for",
+        options: ["General chair car", "Generating van", "Parcel van", "Pantry car"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0093]: WGACCZ stands for",
+        options: ["IInd Chair car", "AC Chair Car", "AC 3 tier", "AC 2 tier"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0094]: VPU stands for",
+        options: ["Parcel van", "High capacity parcel van", "High capacity Motor cum parcel van", "Motor van"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0095]: LWLRRM stands for",
+        options: ["Generator van", "Generator cum pantry car", "LHB medical van", "Generator cum Brake van"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0096]: LWCZ stands for",
+        options: ["AC Chair car", "AC 2 tier", "Non AC IInd Chair car", "Non AC IInd class"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0097]: WACCNH stands for",
+        options: ["ACSleeper 2 tier", "AC Sleeper 3 tier", "First class cum AC 2 tier", "AC Chair car"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0098]: Power car with disabled compartment is denoted by code",
+        options: ["WACCNH", "WSCZACH", "WLRRM", "WRRMDAC"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0099]: Second Class Chair car sitting is denoted by code",
+        options: ["WGACCW", "WGACCN", "WGSCZ", "WGACCZ"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0100]: Second class, Luggage & Brake van with disabled compartment is denoted by code",
+        options: ["SGSLR", "SGSLRD", "SGSRD", "SWGCBN"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0101]: Air braked Bogie Open with centre or side discharge with High capacity wagon code is",
+        options: ["BOXN", "BOXNHA", "BOXNHS", "BOXNLW"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0102]: Air braked Bogie Open with centre or side discharge with Low tare weight wagon code is",
+        options: ["BOXN", "BOXNHA", "BOXNHS", "BOXNLW"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0103]: Air braked Bogie Open with centre or side discharge with High Speed wagon code is",
+        options: ["BOXN", "BOXNHA", "BOXNHS", "BOXNLW"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0104]: Air braked Bogie Covered with High Speed wagon code is",
+        options: ["BCN", "BCNAHA", "BCNAHS", "BCNAHW"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0105]: Air braked Open hopper car with rapid (Pneumatic) bottom discharge doors code is",
+        options: ["BOYN", "BOBY", "BOBRN", "BOBR"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0106]: Air braked Bogie tanker for liquefied petroleum gas code is",
+        options: ["BTPN", "BTPGLN", "BTPLPG", "BOBR"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0107]: CONCOR‘s new low platform container flat wagons code is",
+        options: ["BLC", "BLCA", "BLCB", "Either A or B or C"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0108]: REMMLOT/RTIS devices for automatically updating train timings in COA are provided in",
+        options: ["ICMS", "Stations", "LOCOs", "FOIS"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0109]: Data logger devices and C-TSR for automatically updating train timings in COA are provided at",
+        options: ["ICMS", "Stations", "LOCOs", "FOIS"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0110]: REMMLOT/RTIS devices are provided for automatically updating train timings in",
+        options: ["ICMS", "FOIS", "LOCOs", "COA"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0111]: Data logger devices and C-TSR are provided for automatically updating train timings in",
+        options: ["ICMS", "FOIS", "LOCOs", "COA"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0112]: Devices that is provided for automatically updating train timings in COA is",
+        options: ["Data logger", "C-TSR", "Either A or B", "Both A & B"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0113]: Devices that is provided in loco for automatically updating train timings in COA is",
+        options: ["REMMLOT", "RTIS", "Either A or B", "Both A & B"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0114]: Modules that are provided in ICMS",
+        options: ["PAM", "NTES", "TMS", "RMS"],
+        correctAnswer: 0
+    },
+    {
+        question: "[GEN0115]: Modules that are provided in ICMS",
+        options: ["TMS", "RMS", "NTES", "COIS"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0116]: Modules that are provided in FOIS",
+        options: ["PAM", "COIS", "TMS", "NTES"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0117]: Modules that are provided in FOIS",
+        options: ["PAM", "COIS", "NTES", "RMS"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0118]: Name of the First Private train run on Indian Railways is",
+        options: ["Humsafar", "Tejas", "Antyodaya", "Uday"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0119]: Name of the Double Decker train run on Indian Railways is",
+        options: ["Humsafar", "Tejas", "Antyodaya", "Uday"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0120]: Train-18 is otherwise named as",
+        options: ["Humsafar", "Tejas", "Vande Bharat", "Uday"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0121]: Name of the fully unreserved train run on Indian Railways is",
+        options: ["Humsafar", "Tejas", "Antyodaya", "Uday"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0122]: Other than Rajdhani & Shatabdi trains fully AC trains run on Indian Railways is named as",
+        options: ["Humsafar", "Tejas", "Antyodaya", "Duranto"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0123]: Coaches which are having panoramic view of side and top are",
+        options: ["Talgo", "Vistadome", "LHB AC", "ICF AC"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0124]: First Private train run on Indian Railways was run on",
+        options: ["2nd October 2019", "4th August 2019", "4th October 2019", "6th September 2019"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0125]: First Private train run on Indian Railways was run from and to",
+        options: ["New Delhi-Ahmedabad", "Ahmedabad-Mumbai", "Mumbai-Lucknow", "New Delhi-Lucknow"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0126]: India's first passenger train is hauled by three steam locomotives namely",
+        options: ["Biverly, Fairly & Saintly", "Chetak, Chirag & Charan", "Sahib, Sindh and Sultan", "Ganga, Jamuna & Sindh"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0127]: India's first passenger train ran for kilometers with people in carriages.",
+        options: ["34 kms, 400 people, 14 carriages", "12 kms, 200 people, 10 carriages", "15 kms, 300 people, 11 carriages", "11 kms, 100 people, 9 carriages"],
+        correctAnswer: 0
+    },
+    {
+        question: "[GEN0128]: The order in which name of the station is displayed at railway stations is",
+        options: ["Regional language, English, Hindi", "Regional language, Hindi, English", "Hindi, Regional language, English", "Hindi, English, Regional language"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0129]: Match the following (i) Rule No. of supply copy of rules 1 GR 2.03 (ii) Rule No. of G&SR for knowledge of rules 2 GR 2.08 (iii) Rule No. of G&SR for upkeep of the copy of rules 3 GR 2.09 (iv) Rule No. of G&SR for Absence from duty 4 GR 2.01 (v) Rule No. of G&SR for not taking alcoholic drink, sedative 5 GR 2.02",
+        options: ["(i)-2,(ii)-1,(iii)-5,(iv)-3,(v)-4", "(i)-4,(ii)-1,(iii)-5,(iv)-2,(v)-3", "(i)-4,(ii)-5,(iii)-2,(iv)-1,(v)-3", "(i)-2,(ii)-4,(iii)-3,(iv)-3,(v)-1"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0130]: Match the following (i) Commissioning of fixed signals 1 GR &SR 3.61 (ii) Points affecting movement of trains 2 GR &SR 3.65 (iii) Placing of detonators in thick weather 3 GR &SR 3.75 (iv) Description of warning signals 4 GR &SR 3.26 (v) Passing IB stop signal at 'On' 5 GR &SR 3.38",
+        options: ["(i)-2,(ii)-1,(iii)-5,(iv)-3,(v)-4", "(i)-4,(ii)-1,(iii)-5,(iv)-2,(v)-3", "(i)-4,(ii)-5,(iii)-2,(iv)-1,(v)-3", "(i)-4,(ii)-5,(iii)-1,(iv)-2,(v)-3"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0131]: Match the following (i) Stop 1 Miniature yellow (ii) Caution 2 Two yellow (iii) Attention 3 Red (iv) Proceed 4 Single yellow (v) Proceed slow 5 Green",
+        options: ["(i)-2,(ii)-1,(iii)-5,(iv)-3,(v)-4", "(i)-4,(ii)-1,(iii)-5,(iv)-2,(v)-3", "(i)-3,(ii)-5,(iii)-2,(iv)-1,(v)-4", "(i)-3,(ii)-4,(iii)-2,(iv)-5,(v)-1"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0132]: Match the following (i) Stop 1 Proceed next signal restrictive (ii) Caution 2 Proceed (iii) Attention 3 Stop draw ahead caution (iv) Proceed 4 Proceed stop at next signal (v) Proceed slow 5 Stop dead",
+        options: ["(i)-5,(ii)-1,(iii)-4,(iv)-3,(v)-2", "(i)-4,(ii)-1,(iii)-5,(iv)-2,(v)-3", "(i)-5,(ii)-4,(iii)-1,(iv)-2,(v)-3", "(i)-3,(ii)-4,(iii)-2,(iv)-5,(v)-1"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0133]: Match the following (i) Miniature yellow 1 Proceed next signal restrictive (ii) Two yellow 2 Proceed (iii) Red 3 Stop draw ahead caution (iv) Single yellow 4 Proceed stop at next (v) Green 5 Stop dead",
+        options: ["(i)-5,(ii)-1,(iii)-4,(iv)-3,(v)-2", "(i)-4,(ii)-1,(iii)-5,(iv)-2,(v)-3", "(i)-3,(ii)-4,(iii)-1,(iv)-2,(v)-5", "(i)-3,(ii)-1,(iii)-5,(iv)-4,(v)-2"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0134]: Match the following (i) BPC 1 T.409 (ii) Disconnection Notice 2 T.431 (iii) Combined train report 3 RS 6 (iv) Train examination advise 4 T.351 (v) Caution order 5 T.726",
+        options: ["(i)-1,(ii)-5,(iii)-4,(iv)-3,(v)-2", "(i)-4,(ii)-1,(iii)-5,(iv)-2,(v)-3", "(i)-3,(ii)-1,(iii)-2,(iv)-5,(v)-4", "(i)-3,(ii)-4,(iii)-5,(iv)-2,(v)-1"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0135]: Match the following (i) Reception on Obstructed line 1 T.511 (ii) Departure non signalled line 2 T.509 (iii) Common departure signal 3 T/C.912 (iv) Relief Absolute block 4 T.512 (v) Relief Automatic block 5 T/A.602",
+        options: ["(i)-2,(ii)-5,(iii)-4,(iv)-3,(v)-1", "(i)-4,(ii)-1,(iii)-3,(iv)-2,(v)-5", "(i)-3,(ii)-1,(iii)-2,(iv)-5,(v)-4", "(i)-2,(ii)-1,(iii)-4,(iv)-5,(v)-3"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0136]: CPGRAMS complaints are addressed to",
+        options: ["Zonal Office", "PM's Office", "MR Office", "Divisional office"],
+        correctAnswer: 0
+    },
+    {
+        question: "[GEN0137]: Nodal officer of the construction of Private freight terminal is",
+        options: ["PCOM", "PCCM", "CTPM", "CCM(FM)"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0138]: Coordinating officer for approval of plans and sanctioning of estimates for PFT is",
+        options: ["PCOM", "PCCM", "CTPM", "CGE"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0139]: Capital cost for traffic facilities, such as 'Y' connection at serving station shall be approved by and borne by",
+        options: ["PCOM & Siding owner", "PCCM & Siding owner", "PCOM & Railways", "PCOM & State Government"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0140]: The capital cost for augmenting the facilities including electrification within the premises of siding owner shall be borne by the",
+        options: ["50% each by Railway & Siding owners", "25%-Railways,75%-siding owner", "Railways", "Siding owner"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0141]: Goods for emergency relief work for victims of natural calamities sponsored by Govt for allotment of wagons come under",
+        options: ["Priority A", "Priority B", "Priority C", "Priority D"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0142]: Foodgrains and levy sugar for Public Distribution system sponsored by FCI for allotment of wagons come under",
+        options: ["Priority A", "Priority B", "Priority C", "Priority D"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0143]: Coal, Non refined edible salt & raw material to steel plants for allotment of wagons come under",
+        options: ["Priority A", "Priority B", "Priority C", "Priority D"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0144]: The full form of MEMU is",
+        options: ["Mainline Electrical Multiple Unit", "Mainline Electrical Major Unit", "Major Electro Multiple Unit", "Multiple Electrical Mainline Unit"],
+        correctAnswer: 0
+    },
+    {
+        question: "[GEN0145]: The full form of DEMU is",
+        options: ["Diesel Electrical Metro Unit", "Dual Engine Major Unit", "Diesel Electrical Multiple Unit", "Dual Electrical Major Unit"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0146]: Head of Public complaints at Divisional level is",
+        options: ["Sr. DCM", "ADRM", "Sr. DOM", "DRM"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0147]: Rail Madad was rolled out on",
+        options: ["15-07-2019", "15-08-2019", "15-08-2018", "None of the above"],
+        correctAnswer: 0
+    },
+    {
+        question: "[GEN0148]: Head of Public complaints at zonal level is",
+        options: ["CCM", "AGM", "DRM", "COM"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0149]: Who is the Nodal officer for dealing with Public Complaints for Ministry of Railways",
+        options: ["Executive Director(PG)", "Member Staff", "Secretary/Railway Board", "Director/Public Relations/Railway Board"],
+        correctAnswer: 0
+    },
+    {
+        question: "[GEN0150]: Right to information Act came in to existence in the year.",
+        options: ["2003", "2004", "2005", "2006"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0151]: Who is the head of Transformation Cell at Railway Board?",
+        options: ["Member Engineering", "Member Staff", "PED", "Member Traffic"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0152]: Advance stacking period beyond 10days, Permission can be granted by ________on recommendation of PCCM & PCOM.",
+        options: ["AGM", "GM", "MT", "AMC"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0153]: In case of Private sidings, for each 'Y' connection the chargeable distance is inflated by Km",
+        options: ["20", "15", "10", "5"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0154]: In case of EOL scheme, free time for loading of covered rake is _____hrs.",
         options: ["3", "6", "9", "12"],
         correctAnswer: 1
     },
     {
-        question: "Smoking in railway premises is prohibited under which section?",
-        options: ["157", "167", "177", "187"],
-        correctAnswer: 1
-    },
-    {
-        question: "Male passenger found in ladies compartment is punishable under ?",
-        options: ["152", "162", "172", "182"],
-        correctAnswer: 1
-    },
-    {
-        question: "Travelling without ticket is prohibited under which section ?",
-        options: ["45", "55", "65", "75"],
-        correctAnswer: 1
-    },
-    {
-        question: "Application for compensation due to death is made to ?",
-        options: ["RCT", "RRT", "DBT", "None"],
+        question: "[GEN0155]: In case of EOL scheme, free time for loading of BOXN rake is _______hrs.",
+        options: ["3", "6", "9", "12"],
         correctAnswer: 0
     },
     {
-        question: "Which of following is not a departmental train ?",
-        options: ["ART", "ARME", "Both", "None"],
+        question: "[GEN0156]: In case of EOL scheme, free time for un-loading of covered rake is hrs.",
+        options: ["3", "4", "5", "6"],
         correctAnswer: 3
     },
     {
-        question: "M in ARME stands for ?",
-        options: ["Mile", "Medical", "Medium", "Minister"],
-        correctAnswer: 1
-    },
-    {
-        question: "How many systems of train operation working are there in IR ?",
-        options: ["5", "6", "7", "8"],
-        correctAnswer: 1
-    },
-    {
-        question: "S in SLB stands for ?",
-        options: ["Shunt", "Station", "Section", "Safety"],
-        correctAnswer: 0
-    },
-    {
-        question: "When was the Official Languages Act 1963 passed?",
-        options: ["10th May, 1963", "14th Sept, 1963", "8th Mar, 1963", "26th Jan, 1963"],
-        correctAnswer: 0
-    },
-    {
-        question: "When was the Official Languages Act 1963 amended?",
-        options: ["1968", "1963", "1967", "1976"],
+        question: "[GEN0157]: In case of EOL scheme, free time for un- loading of BOXN rake is __hrs.",
+        options: ["3", "4", "5", "6"],
         correctAnswer: 2
     },
     {
-        question: "From when did Section 3(3) of Official Languages Act come into force?",
-        options: ["10th May, 1965", "14th Sept, 1967", "8th Mar, 1976", "26th Jan, 1965"],
+        question: "[GEN0158]: Maximum speed of the trains over DFC will be kmph.",
+        options: ["75", "85", "90", "100"],
         correctAnswer: 3
     },
     {
-        question: "How many sections are in Official Language Act 1963?",
-        options: ["7", "8", "9", "10"],
-        correctAnswer: 2
-    },
-    {
-        question: "Members on Committee of Parliament on Official Language?",
-        options: ["20", "40", "10", "30"],
+        question: "[GEN0159]: Station spacing on DFC will be km.",
+        options: ["10", "20", "30", "40"],
         correctAnswer: 3
     },
     {
-        question: "Lok Sabha members on Committee of Parliament on Official Language?",
-        options: ["20", "15", "10", "30"],
-        correctAnswer: 0
-    },
-    {
-        question: "Documents mandatory in bilingual form per Section 3(3)?",
-        options: ["10", "12", "13", "16"],
+        question: "[GEN0160]: W.D.R.F for BG rake (excluding GST) is",
+        options: ["Rs 10,000/-", "Rs 15,000/-", "Rs 50,000/-", "None"],
         correctAnswer: 2
     },
     {
-        question: "When was the Committee of Parliament on Official Language constituted?",
-        options: ["Jan, 1976", "Sept, 1963", "May, 1965", "Oct, 1967"],
-        correctAnswer: 0
-    },
-    {
-        question: "Rajya Sabha members on Committee of Parliament on Official Language?",
-        options: ["20", "15", "10", "30"],
-        correctAnswer: 2
-    },
-    {
-        question: "Year of first amendment in Official Languages Rules, 1976?",
-        options: ["1976", "1963", "1987", "1967"],
-        correctAnswer: 2
-    },
-    {
-        question: "How many types of signals are there in IR ?",
-        options: ["8", "2", "4", "6"],
-        correctAnswer: 2
-    },
-    {
-        question: "What kind of signal is shunt signal ?",
-        options: ["Stop", "Subsidiary", "Permissive", "None"],
-        correctAnswer: 1
-    },
-    {
-        question: "What kind of signal is distant signal ?",
-        options: ["Stop", "Subsidiary", "Permissive", "None"],
-        correctAnswer: 2
-    },
-    {
-        question: "What is the normal aspect of distant signal ?",
-        options: ["Attention", "Caution", "Stop", "Proceed"],
-        correctAnswer: 1
-    },
-    {
-        question: "What is the normal aspect of home signal ?",
-        options: ["Attention", "Caution", "Stop", "Proceed"],
-        correctAnswer: 2
-    },
-    {
-        question: "What kind of signal is repeating signal ?",
-        options: ["Stop", "Subsidiary", "Permissive", "None"],
-        correctAnswer: 2
-    },
-    {
-        question: "What kind of signal is calling on signal ?",
-        options: ["Stop", "Subsidiary", "Permissive", "None"],
-        correctAnswer: 1
-    },
-    {
-        question: "What does F in FSP stand for?",
-        options: ["Fog", "First", "Future", "Fast"],
-        correctAnswer: 0
-    },
-    {
-        question: "Which of following is a type of interlocking ?",
-        options: ["Solid state", "Signal state", "Solid signal", "None"],
-        correctAnswer: 0
-    },
-    {
-        question: "O in ODC stands for?",
-        options: ["On", "Out", "Over", "Owl"],
-        correctAnswer: 2
-    },
-    {
-        question: "I in FOIS stands for?",
-        options: ["Internal", "Information", "Integer", "None"],
-        correctAnswer: 1
-    },
-    {
-        question: "C in COA stands for ?",
-        options: ["Coaching", "Control", "Change", "Central"],
-        correctAnswer: 1
-    },
-    {
-        question: "CRIS works under ministry of ?",
-        options: ["IT", "Science and Tech", "Home", "None"],
+        question: "[GEN0161]: W.D.R.F for BG wagon (excluding GST) is",
+        options: ["Rs 500/-", "Rs 400/-", "Rs 300/-", "Rs 1500/-"],
         correctAnswer: 3
     },
     {
-        question: "C in ICMS stands for?",
-        options: ["Coaching", "Control", "Change", "Central"],
+        question: "[GEN0162]: Change of commodity is permitted by D.C.M. if the commodity",
+        options: ["Is within the same priority", "Is in high priority", "Is in the lowest priority", "None of the above"],
         correctAnswer: 0
     },
     {
-        question: "A in RAS stands for ?",
-        options: ["Allotment", "Application", "Alright", "None"],
-        correctAnswer: 0
-    },
-    {
-        question: "TSR is maintained by ?",
-        options: ["AOM", "SM", "DRM", "GM"],
+        question: "[GEN0163]: S.L.O is given by",
+        options: ["SrDCM", "Sr DOM", "Sr DPO", "CCM"],
         correctAnswer: 1
     },
     {
-        question: "Which class of gate is busiest ?",
-        options: ["A", "B", "Super", "Special"],
+        question: "[GEN0164]: Restrictions are imposed by",
+        options: ["State Government", "Central Government", "Both (a)&(b)", "Railways"],
         correctAnswer: 3
     },
     {
-        question: "E in MEMU is ?",
-        options: ["Electric", "End", "Eleven", "Elite"],
+        question: "[GEN0165]: For booking against a restriction, the permission of is required",
+        options: ["P.C.O.M.", "C.S.O.", "C.C.M.", "G.M."],
         correctAnswer: 0
     },
     {
-        question: "What is validity of CC rakes in days ?",
-        options: ["10+5", "20+5", "30+5", "40+5"],
+        question: "[GEN0166]: Demurrage charge per 8 wheeler BG wagon per hour is",
+        options: ["Rs.75/-", "Rs.100/-", "Rs.120/-", "Rs.150/-"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0167]: For booking of explosives is required.",
+        options: ["Form 8", "Form 16", "Form 24", "Form 32"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0168]: Explosives and other dangerous goods should be brought to railway premises only after giving a notice of _____ hours.",
+        options: ["12", "24", "36", "48"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0169]: Each package of Explosive & Dangerous goods should not exceed kgs.",
+        options: ["35", "50", "100", "150"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0170]: Maximum commodities can be clubbed in a wagon.",
+        options: ["2", "12", "4", "5"],
+        correctAnswer: 0
+    },
+    {
+        question: "[GEN0171]: An indent for a standard rake of BOXN should be for wagons",
+        options: ["59", "60", "61", "58"],
+        correctAnswer: 0
+    },
+    {
+        question: "[GEN0172]: Total number of classes in Classification of Goods freight rate table is",
+        options: ["12", "15", "24", "18"],
         correctAnswer: 2
     },
     {
-        question: "What is validity of premium rakes in days ?",
-        options: ["10+3", "12+3", "15+3", "20+3"],
-        correctAnswer: 1
+        question: "[GEN0173]: Free time for loading / unloading of BCN / BCNA rake is hours",
+        options: ["5", "7", "9", "10"],
+        correctAnswer: 2
     },
     {
-        question: "Who wrote the national song of India ?",
-        options: ["R N Tagore", "Sardar Patel", "S Mukhopadhyay", "None"],
+        question: "[GEN0174]: Higher wharfage charges can be levied by",
+        options: ["CCM", "DRM", "Sr.DCM", "Both A & B"],
         correctAnswer: 3
     },
     {
-        question: "Who won Wimbledon 2024 men singles final?",
-        options: ["Alcaraz", "Federer", "Djokovic", "None"],
-        correctAnswer: 0
-    },
-    {
-        question: "Who won Wimbledon 2024 women singles final ?",
-        options: ["Barbora", "Serena", "Jasmine", "None"],
-        correctAnswer: 0
-    },
-    {
-        question: "Where was Wimbledon 2024 held ?",
-        options: ["Paris", "Delhi", "Sydney", "None"],
-        correctAnswer: 3
-    },
-    {
-        question: "Who is the vice president of India ?",
-        options: ["Nitish Kumar", "J Dhankar", "P Patil", "None"],
+        question: "[GEN0175]: At congested goods shed if loading is not completed within 3 times of the permissible free time number of pending indents are cancelled.",
+        options: ["1", "2", "3", "None"],
         correctAnswer: 1
     },
     {
-        question: "Where is Olympics 2024 going to be held ?",
-        options: ["Paris", "Beijing", "Tokyo", "None"],
-        correctAnswer: 0
+        question: "[GEN0176]: S.L.O stands for .",
+        options: ["Station Loading Order", "Special Loading Order", "Specific Loading Order", "Siding Loading Order"],
+        correctAnswer: 2
     },
     {
-        question: "Which country shares border with India?",
-        options: ["Bhutan", "Thailand", "Cambodia", "None"],
-        correctAnswer: 0
-    },
-    {
-        question: "Which state has shared boundary with Bihar ?",
-        options: ["Odisha", "Chhattisgarh", "Assam", "None"],
+        question: "[GEN0177]: Match the following of different Plan heads of expenditure (i) Traffic facilities 1 PH-1400 (ii) Computerization 2 PH-1500 (iii) Passenger Amenities 3 PH-1600 (iv) Guage conversion 4 PH-5300 (v) Doubling 5 PH-1700",
+        options: ["(i)-3,(ii)-4,(iii)-1,(iv)-5,(v)-2", "(i)-5,(ii)-1,(iii)-4,(iv)-2,(v)-3", "(i)-5,(ii)-4,(iii)-2,(iv)-1,(v)-3", "(i)-3,(ii)-5,(iii)-4,(iv)-1,(v)-2"],
         correctAnswer: 3
     },
     {
-        question: "River Ganga flows through which state ?",
-        options: ["Odisha", "Jharkhand", "MP", "None"],
+        question: "[GEN0178]: Identify the statements which are 'TRUE' (i) Traffic facility works come under planhead 1600 (ii) Pink Book contains only works programme approved by GM. (iii) Works above Rs 5 crores need Board approval (iv) WP initiated by Operating/Commercial branches.",
+        options: ["Only (ii),(iii) & (iv)", "Only (ii) & (iv)", "Only (i), (ii), (iii) & (iv)", "Only (i),(iii) & (iv)"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0179]: Identify the statements which are 'TRUE' (i) Works under 50 lakhs in Pink Book. (ii) 5-50 lacs by DRM. (iii) Above 50 lacs by GM. (iv) 5-50 lacs in LAW book.",
+        options: ["Only (ii),(iii) & (iv)", "Only (i) & (iv)", "Only (i), (ii), (iii) & (iv)", "Only (i),(iii) & (iv)"],
         correctAnswer: 1
     },
     {
-        question: "Danapur division shares boundary with which division ?",
-        options: ["Asansol", "Howrah", "Sealdah", "None"],
+        question: "[GEN0180]: Identify the statements which are 'TRUE' (i) PH-1600 divided into two categories. (iii) Works up to 15 lakhs sanctioned by DRM. (iv) Works 15-30 lakhs sanctioned by GM.",
+        options: ["Only (ii),(iii) & (iv)", "Only (i) & (iv)", "Only (i), (ii), (iii) & (iv)", "Only (i),(iii) & (iv)"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0181]: Identify the statements which are 'TRUE' (v) Construction lines: Strategic, protective and Commercial. (vi) Strategic for defence. (vii) Protected for famine. (viii) Commercial for profit/loss.",
+        options: ["Only (ii),(iii) & (iv)", "Only (i) & (iv)", "Only (i), (ii), (iii) & (iv)", "Only (i),(iii) & (iv)"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0182]: Identify the statements which are 'TRUE' (ix) Financial justification for commercial lines. (x) Greenfield PFT revenue sharing after 5 years. (xi) Agreement for 10 years. (xii) Brownfield after 2 years.",
+        options: ["Only (ii),(iii) & (iv)", "Only (i) & (iv)", "Only (i), (ii), (iii) & (iv)", "Only (i),(ii) & (iv)"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0183]: Match Model SOP 2018 (i) Stores 1 A (ii) Miscellaneous 2 B (iii) Establishment 3 C (iv) Work 4 D (v) Medical 5 E (vi) Commercial 6 F",
+        options: ["(i)-4,(ii)-6,(iii)-1,(iv)-5,(v)-2,(vi)-3", "(i)-5,(ii)-3,(iii)-4,(iv)-2,(v)-1,(vi)-6", "(i)-5,(ii)-3,(iii)-2,(iv)-1,(v)-6,(vi)-4", "(i)-4,(ii)-3,(iii)-6,(iv)-1,(v)-2,(vi)-5"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0184]: Identify statements which are 'TRUE' (i) PME A1-A3 after 55 yearly. (ii) Upto 55 every 4 years. (iii) Upto 45 every 4 years. (iv) 45-55 every 2 years.",
+        options: ["Only (ii),(iii) & (iv)", "Only (i) & (iv)", "Only (i), (iii) & (iv)", "Only (ii) & (iv)"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0185]: Identify statements which are 'TRUE' (i) PME A3 after 58 yearly. (ii) PME B1 at 45. (iii) B1 at 45 then every 5 years. (iv) A1 & A2 45-55 every 2 years.",
+        options: ["Only (ii),(iii) & (iv)", "Only (i)(ii), (iii)& (iv)", "Only (i), (iii) & (iv)", "Only (ii) & (iv)"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0186]: LP with DOB 10.04.1975, last attended PME on 20.01.2017 is due on",
+        options: ["19.01.2021", "19.01.2019", "10.04.2020", "10.01.2021"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0187]: SM with DOB 20.06.1975, last attended PME on 15.07.2019 is due on",
+        options: ["14.07.2020", "14.07.2021", "20.06.2020", "14.07.2023"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0188]: SM with DOB 15.01.1965, last attended PME on 15.07.2019 is due on",
+        options: ["14.07.2020", "14.07.2021", "15.01.2020", "14.07.2023"],
         correctAnswer: 0
+    },
+    {
+        question: "[GEN0189]: SM with DOB 15.01.1965, last attended PME on 15.07.2018 is due on",
+        options: ["14.07.2020", "14.07.2021", "14.07.2022", "15.01.2020"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0190]: 25th coach for a train can be attached to Express train as",
+        options: ["AC Ist class", "AC III tier", "VPs", "GS"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0191]: 25th coach for a train can be attached to Express train as",
+        options: ["AC Ist class", "Officer Saloon", "SLR", "GS"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0192]: 25th coach for a train can be attached to Express train as",
+        options: ["AC Ist class", "SLR", "VVN", "GS"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0193]: 25th coach for a train can be attached to Express train as only on certification by",
+        options: ["JE/C&W", "AME", "AOM", "CME"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0194]: LVP (LHB type Parcel Van) can be attached as ________to passenger carrying trains running with LHB rakes.",
+        options: ["22nd coach", "23rd coach", "24th coach", "25th coach"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0195]: FTR train is allowed for journey from stations of all Railways can be booked at",
+        options: ["Booking counter", "ACM", "CPTM", "Online"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0196]: FTR train is booked on line between",
+        options: ["Any two Junction stations", "Any two capital cities", "Any two stations on IR", "Two pilgrimage stations"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0197]: Chartered coach can be attached/detached only in those stations where stoppages is",
+        options: ["5 mins or more", "10 mins or more", "20 mins or more", "30 mins or more"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0198]: FTR registration can be done in advance of maxmimum",
+        options: ["2 months", "3 months", "4 months", "6 months"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0199]: FTR registration can be done prior to the journey date minimum of",
+        options: ["10 days", "20 days", "30 days", "60 days"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0200]: The maximum number of coaches on FTR in a single train that can be booked is",
+        options: ["one coach", "Two coaches", "Three coaches", "Four coaches"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0201]: Maximum number of coaches on FTR train including two SLR, that can be booked is",
+        options: ["16 coaches", "18 coaches", "20 coaches", "24 coaches"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0202]: Minimum composition of FTR train is",
+        options: ["16 coaches", "18 coaches", "20 coaches", "24 coaches"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0203]: Registration cum security deposit for online booking for each coach on FTR is",
+        options: ["Rs 10,000/-", "Rs 20,000/-", "Rs 25,000/-", "Rs 50,000/-"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0204]: Minimum Registration cum security deposit for online booking of a train on FTR is",
+        options: ["One lakh", "Five Lakhs", "Nine Lakhs", "Ten lakhs"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0205]: Payment of entire fare for the train/coach booked on FTR will be advised by",
+        options: ["Divisional Commercial branch", "Divisional Operating branch", "CPTM office", "IRCTC"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0206]: All payments to IRCTC for booking of Train/coach on FTR shall be made through",
+        options: ["booking counter", "Online", "IRCTC office", "DCM office"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0207]: All payments as advised by IRCTC for booking of Train/coach on FTR shall be made in advance of ___________ commencement of journey",
+        options: ["12 hours", "24 hours", "36 hours", "48 hours"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0208]: Grant of 50% subsidy to Kisan Rail trains, under 'operations greens' is given by Ministry of",
+        options: ["Railways", "Finance", "Human resources", "Food Processing Industries"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0209]: Kisan Rail trains, under 'operations greens' is given a subsidy of",
+        options: ["10%", "25%", "50%", "60%"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0210]: Ministry of Food Processing Industries, under 'operations greens' a subsidy of 50% is given for",
+        options: ["DoodhDuranto", "Shramik special", "Kisan Special", "Parcel Special"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0211]: Train which is used for exclusively transportation of milk is known as",
+        options: ["Milk tank special", "Covid Special", "Doodhduranto", "Doodh Special"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0212]: Doodh Duranto special train runs between stations",
+        options: ["Ahmedabad-Delhi", "Renigunta-Delhi", "Anand-Renigunta", "Anand-Delhi"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0213]: Doodhduranto special train is an initiative for transportation of milk by",
+        options: ["WR", "SR", "SCR", "ER"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0214]: Each tanker capacity of milk transported in Doodh duranto special train is",
+        options: ["10,000 liters", "20,000 liters", "30,000 liters", "40,000 liters"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0215]: Total number of detention codes for loss on punctuality of the train in PAM are",
+        options: ["25", "30", "35", "40"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0216]: The target for maintenance of punctuality for each zonal railways is given by the",
+        options: ["GM of the zonal railway", "Railway Board", "Ministry of Finance", "Railway consultative committees"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0217]: The module in ICMS where detention for loss of punctuality of the train is booked in",
+        options: ["COIS", "COA", "PAM", "LOCO"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0218]: Passenger trains which lose punctuality continuously and can be seen in this module of ICMS",
+        options: ["COIS", "COA", "PAM", "LOCO"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0219]: Caution order particulars of the various sections can be seen in ICMS in module",
+        options: ["COIS", "PAM", "COA", "LOCO"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0220]: Input not received from REMMLOT/RTIS data can be seen in ICMS in module",
+        options: ["COIS", "PAM", "COA", "LOCO"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0221]: Block utilization data can be seen in ICMS in module",
+        options: ["COIS", "PAM", "COA", "LOCO"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0222]: Particulars of coaches that are sick in depots data can be seen in ICMS in module",
+        options: ["COIS", "PAM", "COA", "LOCO"],
+        correctAnswer: 0
+    },
+    {
+        question: "[GEN0223]: Coach utilization data can be seen in ICMS in module",
+        options: ["LOCO", "PAM", "COA", "COIS"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0224]: Stock holding and spare coaches data can be seen in ICMS in module",
+        options: ["COIS", "PAM", "COA", "LOCO"],
+        correctAnswer: 0
+    },
+    {
+        question: "[GEN0225]: IOH & POH of coaches data can be seen in ICMS in module",
+        options: ["COA", "PAM", "COIS", "LOCO"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0226]: Number of locos utilized in Passenger carrying trains data can be seen in ICMS in module",
+        options: ["COA", "PAM", "COIS", "LOCO"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0227]: Loco link of Passenger carrying train and number of kilometers run can be seen in ICMS in module",
+        options: ["COA", "PAM", "COIS", "LOCO"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0228]: Railways suspended running of passenger trains amid the nationwide lockdown from",
+        options: ["5th March 2020", "10th March 2020", "25th March 2020", "30th March 2020"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0229]: The special train which ran from May 1 to transport stranded migrant workers is",
+        options: ["Kisan Special", "Shramik special", "Migrant special", "Pravasi special"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0230]: To transport stranded migrant workers, student, pilgrims and tourists, Shramik special were run from",
+        options: ["1st April 2020", "1st May 2020", "15th May 2020", "1st June 2020"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0231]: The charges of the migrant workers transported by Shramik specials were borne by",
+        options: ["Receiving State", "Originating State", "Either A or B", "Both A or B"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0232]: After outbreak of COVID-19 passenger carrying trains were reopened for general passengers on",
+        options: ["12th April 20", "15th May 20", "15th June 20", "12th May 20"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0233]: Planning and notifying running of New trains /special trains is done at",
+        options: ["Divisional level", "Zonal level", "Station level", "Board level"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0234]: CBTC Stands for",
+        options: ["Continuous based train control technology", "Communication based train control technology", "Command band tech communication", "Communication broad control technology"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0235]: SIMS stands for",
+        options: ["Safety information module system", "Safety infrastucture management system", "Safety information management system", "None of the above"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0236]: Zonal level book published for coaching train maintenance.",
+        options: ["WTT", "Rake link", "TAG", "PTT"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0237]: At Railway board level the management of Passenger Traffic is looked after by",
+        options: ["MT", "AMT", "PED Chg", "PED Planning"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0238]: NMG premium examination period of",
+        options: ["3500 KMS OR 15 days", "4000 KMS OR 10 days", "3500 KMS OR 20 days", "6000 KMS OR 15 days"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0239]: The first non-passenger train in pre-independent India was made operational in",
+        options: ["1853", "1851", "1864", "1850"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0240]: The formation of the Railway Board in 1905 was based upon the recommendations of",
+        options: ["Acworth Committee", "MacDonald Stephenson Committee", "Thomas Robertson Committee", "Separation Convention 1924"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0241]: Before nationalization in 1951, at the time of Independence in 1947, there were",
+        options: ["42 Railway Systems including 32 lines", "37 Railway Systems with 10 lines", "45 Railway Systems with 30 lines", "32 Railway Systems with 25 lines"],
+        correctAnswer: 0
+    },
+    {
+        question: "[GEN0242]: Which was the first train in India to have a Ladies Only compartment?",
+        options: ["Frontier Mail", "Punjab Mail", "Deccan Queen", "Toofan Mail"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0243]: Which was the only Railway Company which continued its private operations till 2016?",
+        options: ["Assam Railway Company", "Central Provinces Railway Company", "Punjab Northern State Railway", "Nagpur Chattisgarh Railway"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0244]: The East India Railway Company's first passenger train ran on 15th August 1854 between",
+        options: ["Howrah and Hooghly", "Hooghly and Raneegunje", "Nagpur and Ajani", "Jamalpur and Munger"],
+        correctAnswer: 0
+    },
+    {
+        question: "[GEN0245]: Top 3 railway freight commodities loaded (in MTs)",
+        options: ["Coal, Iron ore, Cement", "Coal, Fertilizers and Foodgrains", "Coal, Foodgrains and Pig iron", "Coal, Cement, Foodgrains"],
+        correctAnswer: 0
+    },
+    {
+        question: "[GEN0246]: Railway zone which is having the highest Route & Track kilometres is",
+        options: ["Western Railway", "Northern Railway", "South Central Railway", "Central Railway"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0247]: State which is having the highest Route & Track kilometres is",
+        options: ["Rajasthan", "Andhra Pradesh", "Uttar Pradesh", "Maharashtra"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0248]: On 15th August 2022 a loaded goods train named _______3.5km was run with 295 wagons.",
+        options: ["Phython", "Super Vasuki", "Anakonda", "Super Long haul"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0249]: Highest originating freight loading in the year 2021-2022 is achieved by",
+        options: ["South East Central Railway", "South Eastern Railway", "East Coast Railway", "East Central Railway"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0250]: Which of the following is NOT a Reserve Fund of Indian Railways as in 2019-20",
+        options: ["Capital Fund", "Development Fund", "Revenue Reserve Fund", "RRSK"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0251]: Which of the following is NOT owned by Indian Railways?",
+        options: ["Delhi Metro", "Kolkata Metro", "Konkan Railway Corporation Ltd.", "None of the above"],
+        correctAnswer: 0
+    },
+    {
+        question: "[GEN0252]: In terms of the Route kms, India is",
+        options: ["2nd largest rail system", "3rd largest rail system", "4th largest rail system", "The largest rail system"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0253]: After the merger of the Railway Budget, what has been the major implication",
+        options: ["Railways no longer prepares its Annual Statement", "The Finance Ministry prepares the Railway Budget", "Railways no longer pay dividend to the Government", "None of the above"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0254]: Vande Bharat Express was manufactured by",
+        options: ["DLW, Varanasi", "RCF, Kapurthala", "ICF, Chennai", "RWF, Bengaluru"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0255]: The Railway Budget has been merged with the General Budget w.e.f.",
+        options: ["2016-17", "2017-18", "2018-19", "2015-16"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0256]: The full form of RRSK is",
+        options: ["Rashtriya Rail Suvidha Kosh", "Rashtriya Rail Safety Kosh", "Rashtriya Rail Sanraksha Kosh", "Rashtriya Rail Sampark Kosh"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0257]: Countries with more than one billion tons of freight carried every year are",
+        options: ["Japan, China, India and USA", "Australia, Japan, China and India", "Russia, China, India and Brazil", "India, China, Russia and USA"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0258]: Railways requirement is funding its capital expenditure through its internal resources to the extent of",
+        options: ["50% to 60%", "25% to 30%", "5% to 15%", "20% to 40%"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0259]: Performance capability of Electric Loco WAG 12B recently introduced in 2020 is",
+        options: ["10,000 HP, MPS 80, 100 wagons", "12,000 HP, MPS 100, 118 wagons", "11,500 HP, MPS 100, 150 wagons", "10,000 HP, MPS 75, 125 wagons"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0260]: In terms of energy efficiency and resource optimization, Railways are",
+        options: ["12 times more efficient than road", "6 times more efficient than road", "10 times more efficient than road", "15 times more efficient than road"],
+        correctAnswer: 0
+    },
+    {
+        question: "[GEN0261]: What is the portal for online monitoring of Railway Budget announcements?",
+        options: ["e-Drishti", "e-Suvidha", "e-Samiksha", "e-Saksham"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0262]: Which 3 states have maximum number of wind based power plants already commissioned by IR?",
+        options: ["Gujarat, Rajasthan and Andhra Pradesh", "Uttar Pradesh, Bihar and Kerala", "Rajasthan, Tamil Nadu and Maharashtra", "Rajasthan, Andhra Pradesh and Himachal Pradesh"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0263]: Which commodity was exported to Bangladesh for the first time during COVID lockdown?",
+        options: ["Fertilizers", "Onions", "Fly Ash", "Iron Ore"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0264]: Cash Book which is maintained to record small expenses is called.",
+        options: ["Simple Cash book", "petty cash book", "Two column Cash Book", "Triple Column Cash Book"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0265]: Depreciation provides funds for",
+        options: ["Repairs", "Depreciation", "Replacement", "Renewals"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0266]: Indian Railways is a",
+        options: ["Government owned organisation", "Departmental commercial enterprise", "Both are correct", "None of these is correct"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0267]: Expenditure on renewals and replacements is financed from",
+        options: ["DRF", "DF", "Capital", "Revenue"],
+        correctAnswer: 0
+    },
+    {
+        question: "[GEN0268]: As per Article 266 of the Constitution, all revenues flow into",
+        options: ["Public Account of India", "Contingency Fund of India", "Consolidated Fund of India", "All of these"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0269]: Time limit to furnish reply by Zonal railway for Draft Paras is",
+        options: ["1 month", "8 weeks", "6 weeks", "4 weeks"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0270]: Time limit allowed to Zonal railway for furnishing reply to Provisional Para is",
+        options: ["2 weeks", "8 weeks", "6 weeks", "4 weeks"],
+        correctAnswer: 0
+    },
+    {
+        question: "[GEN0271]: Audit objections raised on Accounts as a result of voucher check are called",
+        options: ["Audit Inspection Report", "Special letter", "Audit note", "None of these"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0272]: What is not part of Social Service Obligations borne by Railways?",
+        options: ["Pension paid to retirees", "Passenger services below cost", "Uneconomic branch lines", "Carriage of essential commodities below cost"],
+        correctAnswer: 0
+    },
+    {
+        question: "[GEN0273]: Re-appropriation of funds from one plan head to another is within the powers of",
+        options: ["DRM", "PHOD", "GM", "Railway Board"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0274]: Re-appropriation of funds from one source to another source is within the powers of",
+        options: ["Railway Board", "GM", "PHOD", "DRM"],
+        correctAnswer: 0
+    },
+    {
+        question: "[GEN0275]: Re-appropriation of funds from one itemised work to another is within the powers of",
+        options: ["DRM", "PHOD", "GM", "Railway Board"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0276]: Re-appropriation of funds from a priority work to a non-priority work",
+        options: ["DRM", "PHOD", "GM", "Railway Board"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0277]: Re-appropriation is NOT permissible between",
+        options: ["Different grants", "Capital, railway funds, safety fund", "Voted and Charged", "All are correct"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0278]: Re-appropriation for booking expenditure of left over works not appearing in LAW book",
+        options: ["powers of Railway Board", "technical revival then GM sanction", "powers of GM", "powers of DRM"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0279]: Re-appropriation for booking expenditure of left over works not appearing in Pink book",
+        options: ["technical revival then Board allotment", "technical revival then GM sanction", "projected under RE; revived then Board allotment", "powers of DRM"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0280]: The 5 C’s of the Internal Audit process are",
+        options: ["Check, Control, Create, Collaborate, Communicate", "Control, Cascade, Confiscate, Challenge, Coverage", "Criteria, Condition, Cause, Corrective action, Consequence", "Command, Control, Check, Consider, Communicate"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0281]: Railways’ Revenue Expenditure in descending order is",
+        options: ["Fuel, Pensions, Staff Wages, Misc.", "Pensions, New Lines, Signalling, Wages", "Staff Wages, Pension, Fuel, Stores", "Gauge conversion, Doubling, Staff Amenities, Signalling"],
+        correctAnswer: 0
+    },
+    {
+        question: "[GEN0282]: The total corpus of RRSK over a period of 5 years is",
+        options: ["Rs. 20,000 crores", "Rs. 1,00,000 crores", "Rs. 5,00,000 crores", "Rs. 25,000 crores"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0283]: The Pension Fund gets the money from",
+        options: ["Revenue earned by Railways", "Capital", "Budgetary Support", "Extra Budgetary Support"],
+        correctAnswer: 0
+    },
+    {
+        question: "[GEN0284]: Administrative approval for incurring expenditure is accorded at this stage",
+        options: ["Abstract Estimate", "Detailed Estimate", "Revised Estimate", "Completion Estimate"],
+        correctAnswer: 0
+    },
+    {
+        question: "[GEN0285]: Detailed Estimate can be put up for both administrative approval & sanction in case of",
+        options: ["PHOD powers", "GM powers", "HOD powers", "One of the above"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0286]: Applicable ROR for projects under DCF technique is",
+        options: ["14%", "8%", "10%", "18%"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0287]: ROR is not applicable to",
+        options: ["New lines", "Passenger amenities and safety works", "Railway Electrification", "None of the above"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0288]: Detailed Estimate need not be prepared for works costing less than",
+        options: ["Rs. 10 lakhs", "Rs. 5 lakhs", "Rs. 3 lakhs", "Rs. 2 lakhs"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0289]: Special limited tenders can be invited for specialized works from _________ agencies",
+        options: ["6 and above", "4 and above", "2 and above", "None of the above"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0290]: Minimum notice period for inviting open tenders costing up to Rs. 2 crores",
+        options: ["30 days", "45 days", "10 days", "None of the above"],
+        correctAnswer: 0
+    },
+    {
+        question: "[GEN0291]: Minimum notice period for quotations",
+        options: ["7 days", "10 days", "12 days", "None of the above"],
+        correctAnswer: 0
+    },
+    {
+        question: "[GEN0292]: Minimum notice period for inviting Limited / Special limited tenders",
+        options: ["7 days", "21 days", "14 days", "All of the above"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0293]: Pre-vetting of Tender schedule is necessary for",
+        options: ["Detailed Estimate not prepared", "Works of urgent nature", "PB items", "All of the above"],
+        correctAnswer: 0
+    },
+    {
+        question: "[GEN0294]: Monetary limit of direct acceptance without Tender committee in open e-tendering",
+        options: ["Up to Rs. 20 lakhs", "Up to Rs. 50 lakhs", "UP to Rs. 1 crore", "None of the above"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0295]: What is LAW?",
+        options: ["List of Approved Works", "List of Added Works", "List of Arranged Works", "All of the above"],
+        correctAnswer: 0
+    },
+    {
+        question: "[GEN0296]: Lumpsum provision in the Pink Book can be utilized for specific category works costing up to Rs. 2.5 Crores",
+        options: ["Pink Book items", "Umbrella works", "Lumpsum works", "None of the above"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0297]: Tenders received after the specified time of opening are called as",
+        options: ["Late Tenders", "Delayed Tenders", "Single Tenders", "None of the above"],
+        correctAnswer: 0
+    },
+    {
+        question: "[GEN0298]: Tenders received before the time of opening but after the due date and time are called as",
+        options: ["Late Tenders", "Delayed Tenders", "Single Tender", "None of the above"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0299]: In works tenders, offer without EMD should be",
+        options: ["Summarily rejected", "EMD called for later", "EMD deducted from bills", "All of the above"],
+        correctAnswer: 0
+    },
+    {
+        question: "[GEN0300]: Powers of the GM to approve Lumpsum works",
+        options: ["Up to Rs. 1 crore each", "Up to Rs. 2.5 crores each", "Up to Rs. 10 crores each", "Up to Rs. 20 crores each"],
+        correctAnswer: 0
+    },
+    {
+        question: "[GEN0301]: Who is the sanctioning authority for 100% excess due to escalation?",
+        options: ["Railway Board", "GM", "PHOD", "None of the above"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0302]: Who is the sanctioning authority for 25% excess due to scope?",
+        options: ["DRM", "PHOD", "GM", "Railway Board"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0303]: Two packet tendering system can be adopted for tenders less than Rs. 10 crores with",
+        options: ["PFA's concurrence and GM's approval", "FA/G's concurrence and AGM's approval", "Sr. DFM's concurrence and DRM's approval", "Associate Finance concurrence and approval of Tender inviting authority"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0304]: Relaxation of eligibility criteria in Tenders can be done with",
+        options: ["PFA's concurrence and GM's approval", "FA/G's concurrence and AGM's approval", "Sr. DFM's concurrence and DRM's approval", "Associate Finance concurrence and approval of Tender inviting authority"],
+        correctAnswer: 0
+    },
+    {
+        question: "[GEN0305]: A work carried out with Non-Railway Funds",
+        options: ["Deposit work", "Quotation Work", "Zonal contract", "None of the above"],
+        correctAnswer: 0
+    },
+    {
+        question: "[GEN0306]: Work orders are issued against Zonal contracts. The value of each work order is",
+        options: ["Rs. 2 lakhs", "Rs. 2.5 lakhs", "Rs. 3 lakhs", "Rs. 5 lakhs"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0307]: Minimum notice period of 21 days for open tenders valuing less than Rs. 2 crores can be changed with Finance concurrence to",
+        options: ["7 days", "14 days", "21 days", "Not permissible"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0308]: Variation beyond 150% of the contract value requires the sanction of",
+        options: ["Railway Board", "GM", "PHOD", "Tender Accepting Authority"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0309]: Plan Head 6500 deals with",
+        options: ["Other specified works", "Research & Design works", "Training Institutes – HRD work", "Computerization works"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0310]: Performance Guarantee percentage in Service Contracts",
+        options: ["5%", "10%", "15%", "20%"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0311]: Security deposit for Service Contracts",
+        options: ["2.5%", "5%", "10%", "None"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0312]: Authority competent to grant extension of time for completion of contract",
+        options: ["Accepting authority", "Contract signing authority", "One level above accepting authority", "Executive concerned"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0313]: GM can sanction air travel on duty up to which level officer/staff",
+        options: ["JAG", "Sr. Scale", "Jr. scale", "Sr. Supervisor"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0314]: Currency of a sanctioned estimate for works",
+        options: ["Normally 5 years from commencement which is extendable", "Two years", "Ten years irrespective of commencement", "None of the above"],
+        correctAnswer: 0
+    },
+    {
+        question: "[GEN0315]: Performance Guarantee for works has to be submitted within",
+        options: ["90 days", "60 days", "45 days", "30 days"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0316]: Performance Guarantee for service contracts can be submitted within",
+        options: ["90 days", "60 days", "45 days", "30 days"],
+        correctAnswer: 0
+    },
+    {
+        question: "[GEN0317]: Contingent expenditure means",
+        options: ["Incidental to management or upkeep of office", "Unforeseen expenditure during progress of work", "Expenditure on rents, rates and taxes", "None of these"],
+        correctAnswer: 0
+    },
+    {
+        question: "[GEN0318]: The estimated life of a rail is",
+        options: ["30 years", "40 years", "50 years", "60 years"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0319]: Similar works grouped as one and sanctioned by the Board with lumpsum in works programme are called",
+        options: ["Lumpsum work", "Umberalla work", "Itemised work", "None of the above"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0320]: Sanctioned works costing below Rs. 2.5 crore are exhibited in the Pink Book under the heading",
+        options: ["Itemised works", "List of Approved works", "Lumpsum work", "None of the above"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0321]: List of works sanctioned under Special Railway Safety Fund (SRSF) are exhibited in",
+        options: ["Pink Book", "Green Book", "Yellow Book", "None of the above"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0322]: Opening balance of the station balance sheet of a month will be",
+        options: ["Station Imprest Cash Balance of previous month", "R Notes balance not acknowledged by Cash Office", "Closing balance of previous month", "Admitted & Disputed debits balance of previous month"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0323]: The station cash collected remitted in cash office through",
+        options: ["Voucher Remittance Note", "Treasury Remittance Note", "Cash remittance note", "Cash Transmit Note for Misc. Receipts"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0324]: Traffic suspense denotes",
+        options: ["Suspense balances to be cleared", "C R Note acknowledgements not received from Cash Office", "Unrealised accrued earnings", "Admitted debits to be cleared"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0325]: 7A statistical statements prepared for",
+        options: ["Originating Passenger Earnings", "Origination Local & Foreign Earnings", "Originating Parcel Earnings", "Originating goods earnings"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0326]: 6A statistical statements prepared for",
+        options: ["Originating Passenger Earnings", "Origination Local & Foreign Earnings", "Originating Parcel Earnings", "Originating goods earnings"],
+        correctAnswer: 0
+    },
+    {
+        question: "[GEN0327]: Apparent financial loss noticed during internal check in TAO is communicated to the station through an",
+        options: ["Credit authorization", "Returns submission advice", "Closing Balance discrepancy note", "Error sheet"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0328]: Overcharge sheets are",
+        options: ["Excess Charges Sheet", "Excess Fare Sheet", "Prepared to refund excess charges collected", "Penalty and over charges sheets"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0329]: __________PFT operators have to share 50 per cent of cargo handling revenue or Rs 20 a tonne whichever is higher, after two years of operation;",
+        options: ["Whitefield", "Brownfield", "Green field", "Yellow field"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0330]: __________PFT operators have to share 50 per cent of cargo handling revenue or Rs 20 a tonne whichever is higher, after five years of operation;",
+        options: ["Whitefield", "Brownfield", "Green field", "Yellow field"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0331]: Brownfield or Green field PFT operators have to share _________ of cargo handling revenue or ________ whichever is higher, with the Railways, after two years of operation;",
+        options: ["20%, Rs 10/- a tonne", "30%, Rs 12/- a tonne", "40%, Rs 15/- a tonne", "50%, Rs 20/- a tonne"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0332]: Cash in transit means",
+        options: ["Credit not accounted in books of that Month", "C R Note Acknowledgements not received at station", "C R Notes accounted in Cash Office pending dispatch", "C R Notes in transit from Cash Office to station"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0333]: TEFD means",
+        options: ["Terminal Empty Flow Direction", "Traffic Empty Flow Direction", "Train Empty Flow Direction", "Traditional Empty Flow Direction"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0334]: Percentage of GST chargeable on AC classes in coaching.",
+        options: ["18%", "12%", "5%", "0%"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0335]: STS stands for",
+        options: ["Station To System Rate", "Station Terminal Station Rate", "Station To Station Rate", "Station Through Station Rate"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0336]: What is the maximum percentage of discount allowed in the STS scheme",
+        options: ["25%", "30%", "20 %", "15 %"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0337]: Revenue sharing for Green field PFT starts after _ years after notification of PFT.",
+        options: ["2 Years", "3 Years", "5 Years", "10 Years"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0338]: Revenue sharing for Brown field PFT starts after _ years after notification of PFT.",
+        options: ["2 Years", "3 Years", "5 Years", "10 Years"],
+        correctAnswer: 0
+    },
+    {
+        question: "[GEN0339]: Agreement period for PFT --- years",
+        options: ["10 years", "20 years", "30 years", "25 years"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0340]: The following earnings not accounted in Station Balance sheet",
+        options: ["EFT earnings", "Season ticket earnings", "Postal Earnings", "Military tickets on concession"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0341]: A two packet system of tendering means",
+        options: ["Two stages of evaluation, technical and financial", "Tenderer submits only technical bid first", "Technical bid is evaluated first", "Both A & C"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0342]: IPAS is",
+        options: ["Interconnected Payment and Access System", "Interconnected Payroll and Accounting system", "Integrated Payroll and Accounting System", "Integrated Payment and Accounting System"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0343]: For secured authorization and authentication purpose, IPAS is using",
+        options: ["Two Factor Authentication", "Digital Signatures", "Password Encryption", "All of the above"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0344]: Number of Multi disciplinary Zonal training Institutes on Indian railways are",
+        options: ["9", "10", "11", "12"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0345]: Block competency issued at Zonal Training Institute is valid for",
+        options: ["2 years", "3 years", "4 years", "5 years"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0346]: Number of days for intial training for Probationary Station Master as per latest module is",
+        options: ["60 days", "75 days", "80 days", "90 days"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0347]: Number of days for intial training for Probationary Guard as per latest module is",
+        options: ["30 days", "45 days", "50 days", "60 days"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0348]: _________________system comprises of a Cab Unit (CDU) mounted in the locomotive and End of train Unit (SBU) mounted on the rear end of rearmost vehicle.",
+        options: ["Last vehicle check device", "End-of–Train Telemetry", "Last vehicle device", "End of telemetry"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0349]: Sense and Brake Unit- A two-way End of Train end unit capable of determining status of _____________and transmitting this information to_____________.",
+        options: ["Brake pipe pressure, Cab unit", "LV, Loco", "BP, cab", "LV, Cab unit"],
+        correctAnswer: 0
+    },
+    {
+        question: "[GEN0350]: Additional fuel/energy cost for providing an additional stoppage of 2 mts to an express train hauled by Diesel loco is",
+        options: ["1823/-", "1763/-", "1955/-", "750/-"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0351]: Additional fuel/energy cost for providing an additional stoppage of 2 mts to an express train hauled by Electric loco is",
+        options: ["1823/-", "1763/-", "1955/-", "733/-"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0352]: Earning capacity lost for providing an additional stoppage of 2 mts to an express train hauled by Diesel loco is",
+        options: ["1628/-", "1763/-", "1464/-", "1500/-"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0353]: Earning capacity lost for providing an additional stoppage of 2 mts to an express train hauled by Electric loco is",
+        options: ["1628/-", "1763/-", "1464/-", "1500/-"],
+        correctAnswer: 0
+    },
+    {
+        question: "[GEN0354]: Total cost of provision of 2'mts stoppage for a express train hauled by diesel loco is",
+        options: ["5628/-", "7628/-", "5451/-", "6524/-"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0355]: Total cost of provision of 2'mts stoppage for a express train hauled by Electric loco is",
+        options: ["5628/-", "7628/-", "5451/-", "6524/-"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0356]: Whenever Railways withdraw an uneconomical stoppage for a express train when hauled by diesel loco will save",
+        options: ["27.84 lakhs", "28.24 lakhs", "18.25 lakhs", "19.45 lakhs"],
+        correctAnswer: 0
+    },
+    {
+        question: "[GEN0357]: Whenever Railways withdraw an uneconomical stoppage for a express train when hauled by Electric loco will save",
+        options: ["27.84 lakhs", "28.24 lakhs", "18.25 lakhs", "19.45 lakhs"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0358]: One hour detention of Diesel loco WDM 2 costs for railways",
+        options: ["16158/-", "16754/-", "15150/-", "17654/-"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0359]: One hour detention of Electricl loco WAP 7 costs for railways",
+        options: ["23174/-", "12154/-", "15150/-", "17654/-"],
+        correctAnswer: 0
+    },
+    {
+        question: "[GEN0360]: One hour detention of idling of AC 3 tier costs for railways",
+        options: ["1913/-", "1868/-", "1832/-", "1044/-"],
+        correctAnswer: 0
+    },
+    {
+        question: "[GEN0361]: One hour detention of idling of Sleeper coach costs for railways",
+        options: ["2784/-", "1297/-", "1832/-", "1044/-"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0362]: One hour detention of idling of General coach costs for railways",
+        options: ["2784/-", "1868/-", "1242/-", "1044/-"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0363]: One hour detention of idling of Covered wagon BCN costs for railways",
+        options: ["1223/-", "1203/-", "1832/-", "1273/-"],
+        correctAnswer: 3
+    },
+    {
+        question: "[GEN0364]: One hour detention of idling of Open wagon BOX N costs for railways",
+        options: ["1309/-", "1203/-", "1832/-", "1044/-"],
+        correctAnswer: 0
+    },
+    {
+        question: "[GEN0365]: One hour detention of idling of Tank wagon BTPN costs for railways",
+        options: ["1223/-", "1145/-", "1832/-", "1044/-"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0366]: In EOTT, BP pressure is monitored every __________seconds to provide accurate readings within _________kg/cm2 to LP.",
+        options: ["30±5, ±0.03", "45±5, ±0.05", "60±5, ±0.05", "90±5, ±0.10"],
+        correctAnswer: 2
+    },
+    {
+        question: "[GEN0367]: EOTT shall have provision of _______________through SBU using function programmed into the CDU.",
+        options: ["Release of brake", "application of emergency brake", "application of Loco brake", "application of brake"],
+        correctAnswer: 1
+    },
+    {
+        question: "[GEN0368]: In the Safety camps, different staff have to",
+        options: ["Interact, share and exchange their experience", "Discuss Recent accidents on Zonal Railways", "Both A & B", "None of the above"],
+        correctAnswer: 2
+    }
+];
+
+const OPERATING_MANUAL_ALL = [
+    {
+        question: "[TROM001]: The Objective behind the Operating Manual is to provide a ready handbook to officers and staff involved in",
+        options: ["train operations", "Operating department", "Coaching operations", "Freight operations"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM002]: The latest Operating Manual was issued on",
+        options: ["30th September 2007", "30th September 2008", "25th January 2008", "10th November 2009"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM003]: Operating manual issued by railway board, Chapter I deals with",
+        options: ["Working of Yards", "Working of terrminals", "Working of stations", "Working of trains"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM004]: Operating manual issued by railway board, Chapter II deals",
+        options: ["Working of Yards", "Working of terrminals", "Working of stations", "Working of trains"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM005]: Operating manual issued by railway board, Chapter IV deals with",
+        options: ["Working of trains", "Mechanical operations", "Coaching operations", "Freight operations"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM006]: Operating manual issued by railway board, Chapter VI deals with",
+        options: ["Infringing movement dimentions", "Bulky articles", "movement of ODC", "Containers"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM007]: Operating manual issued by railway board, Chapter VII deals with",
+        options: ["Station working", "Control organization", "Working of trains", "movement of ODC"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM008]: Operating manual issued by railway board, Chapter XI deals with",
+        options: ["Customer interface and role of commercial staff", "Customer interface", "Interlocking", "Station working rules"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM009]: Operating manual issued by railway board, Chapter XII deals with",
+        options: ["Customer interface", "Inspections", "role of commercial staff", "Duties of on board commercial staff"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM010]: Operating manual issued by railway board, Chapter XIII deals with",
+        options: ["Customer interface", "Inspections", "Interlocking", "Station working rules"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM011]: Operating manual issued by railway board, Chapter XIV deals with",
+        options: ["Station working rules", "Temporary working order", "Station working rules and temporary working order", "Gate working rules"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM012]: Operating manual issued by railway board, Chapter XV deals with",
+        options: ["Interlocking", "Inspections", "Operating statistics", "Non interlocked working of station"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM013]: Operating manual issued by railway board, Chapter XVI deals with",
+        options: ["Operating statistics", "Derailment investigations", "FOIS", "ACD"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM014]: Operating manual issued by railway board, Chapter XVII deals with",
+        options: ["Operating statistics", "Derailment investigations", "FOIS", "ACD"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM015]: Operating manual issued by railway board, Chapter XX deals with",
+        options: ["Operating statistics", "Derailment investigations", "FOIS", "ACD"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM016]: Duties and responsibilities of various staff of operating department is mentioned in ______________issued by the Railway Board",
+        options: ["General Rules", "Operating Manual", "Subsidiary rules", "Station working rules"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM017]: In the Operating Manual issued by Railway Board, Station Masters based on the duties are categorised as\ni. Station Master(Supervisory)/Station Manager\nii. Deputy Station Master (Outdoor)\niii. Deputy Station Master (Indoor)\niv. Log ASM/Block ASM\nv. Panel ASM",
+        options: ["(i), (ii) & (iv)", "(i), (ii) & (v)", "(i), (ii), (iv) & (v)", "(i), (ii) (iii) (iv) & (v)"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM018]: Duties of Pointsman/shuntsman, gateman is given in ______________ issued by the Railway Board",
+        options: ["General Rules", "Operating Manual", "Subsidiary rules", "Accident Manual"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM019]: As per Operating Manual IR, Responsibility of of Station Master (supervisory)/Station Manager\ni. Ensuring general working of Station is being carried out in strict accordance with the current rules, and\ninstructions\nii. He shall be responsible for general up-keep of the station\niii. He shall be responsible for keeping the safety and operating literature including circulars, pamphlets,\ngazette etc. up to date and these must be explained to the staff working under him and got noted by them\niv. He shall be not responsible for maintaining Accident register and Accident charts and keeping these up to\ndate.",
+        options: ["(i) & (ii)", "(i), (ii) & (iv)", "(i), (ii) (iii) & (iv)", "(i), (ii) & (iii)"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM020]: As per Operating Manual IR, Responsibility of Station Master (supervisory)/Station Manager\ni. He shall ensure fire fighting equipments in the division such as fire extinguisher, fire buckets etc. are for\nready use.\nii. He must ensure essential Safety equipments at his station are available as per SWR of station\niii. He shall conduct night and surprise inspections to check the alertness of staff and\niv. He shall ensure working of signals, and points and visibility of the signals.",
+        options: ["(ii) (iii) & (iv)", "(i), (ii) & (iv)", "(i), (ii) (iii) & (iv)", "(i), (ii) & (iii)"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM021]: As per Operating Manual IR, Station Master (supervisory)/Station Manager shall investigate all _________and\nsend the extracts of the complaint with explanation of the staff and his own remarks to Divisional Office in time.",
+        options: ["complaints pertaining to other departments", "public complaints", "staff complaints", "Villagers complaints"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM022]: As per Operating Manual IR, Station Master (supervisory)/Station Manager shall investigate ____________,\nintimation may be given to the subordinate In-Charge of that department immediately so that action may be taken\nto avoid recurrence.",
+        options: ["complaints pertaining to other departments", "public complaints", "staff complaints", "Villagers complaints"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM023]: As per Operating Manual IR, Station Master (supervisory)/Station Manager shall promptly attend all accidents,\n__________to and assist in relief measures ensuring prompt evacuation of injured & stranded passengers.",
+        options: ["inform SCOR", "inform the concerned staff", "assume charge of the site", "assume charge at the station"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM024]: As per Operating Manual IR, Station Master (supervisory)/Station Manager shall take note of all the information\navailable and__________, which may be helpful in the enquiry.",
+        options: ["protect property of passengers", "protect railway property", "protect the cules", "protect the clues/evidence"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM025]: As per Operating Manual IR, Station Master (supervisory)/Station Manager shall intimate the ______________for\ncurrent information and ask for the required assistance i.e., Relief Train, Medical van etc.",
+        options: ["Sr.DOMs regularly", "DRM regularly", "control office at regular interval", "Station master at regular intervals"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM026]: As per Operating Manual IR, Station Master (supervisory)/Station Manager shall_______________, obtain\nstatements of the staff responsible and submit his report with conclusions and joint note to the Divisional office.",
+        options: ["investigate yard accidents", "investigate mid section accidents", "contact train crew", "enquire all the staff"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM027]: At bigger stations availability of safe drinking water to passengers & employees is joint responsibility of\n________________ and Station Master (supervisory)/Station Manager should check that same is available.",
+        options: ["JE/SE (works)", "health department", "JE/SE (works)& health department", "JE/SE (works) or health department"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM028]: As per Operating Manual IR, Responsibility of Station Master (supervisory)/Station Manager\ni. Whenever special trains are arranged from his station, mechanical department shall ensure stock availability.\nii. He shall fix up responsibility in case of detention to trains outside or at the station and submit full report to\nDRM office.\niii. He shall be responsible to ensure that operating staff working under him are relieved in time for Medical\nexamination & Refresher courses",
+        options: ["(i) (ii) & (iii)", "(i) & (ii)", "(i) & (iii)", "(ii) & (iii)"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM029]: As per Operating Manual IR, Responsibility of Deputy Station Master (Outdoor)\ni. He shall maintain safety literature, rule books, safety record and counsel staff regarding rules and safety\nii. He shall deal with public complaints and counsel commercial staff for courteous behaviour.\niii. He shall ensure right time placement and removal of terminating/originating trains.\niv. He shall maintain close contact and co-ordination with Panel ASM and Log ASM for smooth running of trains.",
+        options: ["(ii) (iii) & (iv)", "(i), (ii) & (iv)", "(i), (ii) (iii) & (iv)", "(i), (ii) & (iii)"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM030]: As per Operating Manual IR, Responsibility of Deputy Station Master (Outdoor)\ni. In case of point failure, he shall be responsible for manual operation (Hand Cranking) of Points and\npiloting of trains.\nii. He shall ensure that all coaching trains scheduled to stop at the station, start within their allowed time.\niii. Whenever Special trains are arranged to run from his station, during his duty, he shall ensure that stock\nfor the same is secured and placed on the proper line in time.\niv. In case of emergency he shall not perform duty on Panel/Log.",
+        options: ["(ii) (iii) & (iv)", "(i), (ii) & (iv)", "(i), (ii) (iii) & (iv)", "(i), (ii) & (iii)"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM031]: As per Operating Manual IR, Responsibility of Log ASM/Block ASM\ni. He shall attend the control and give arrival departure of trains promptly and shall carry out instructions\ngiven by superiors provided these do not violate safety rules & procedures.\nii. He shall inform the TI/PWI through a written message, any failure of block working etc. and invariably\nenter these failures in signal failure register.\niii. He shall communicate reasons for late start of out going trains and late arrival of incoming trains to\ncontrol.\niv. He shall come on duty after taking complete rest and shall perform his duty under the influence of liquor\nor intoxicants.",
+        options: ["(ii) (iii) & (iv)", "(i) & (iii)", "(i), (ii) (iii) & (iv)", "(i), (ii) & (iii)"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM032]: As per Operating Manual IR, Responsibility of Log ASM/Block ASM\ni. He shall keep his reference books upto date, posted with latest correction slips and shall keep himself fully\nconversant with the extant rules.\nii. He shall not absent himself from duty without prior permission of his superiors.\niii. He shall leave his duty without properly relieved by his relief and shall exchange his duty with\npermission.\niv. He shall not consider himself relieved of duty unless he has completed transactions of trains for which he\nhas given/obtained line clear till the complete arrival of such trains.",
+        options: ["(ii) (iii) & (iv)", "(i) & (iii)", "(i), (ii) (iii) & (iv)", "(i), (ii) & (iv)"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM033]: As per Operating Manual IR, Responsibility of Panel ASM\ni. He shall ensure that all points and signals are in good working order and all the registers, records,\npertaining to train passage are completed in all respect before taking over the charge.\nii. He shall personally ensure that conditions for taking 'off' the reception signals are fulfilled and the\nclearance of line is verified as per SWRs before actually pressing the relevant button for taking off the\nsignals.\niii. He shall maintain complete and up to date record of the Engg. Restrictions. He shall be responsible for\nbringing forward the caution order register every Monday.\niv. He shall not be responsible for ensuring delivery of proper caution orders to all trains.",
+        options: ["(ii) (iii) & (iv)", "(i) & (iii)", "(i), (ii) (iii) & (iv)", "(i), (ii) & (iii)"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM034]: As per Operating Manual IR, Responsibility of Panel ASM\ni. He shall issue shunting order for shunting operations as per extant rules.\nii. He shall maintain log book regarding train and shunting movement.\niii. He shall be responsible for giving complete arrival of all trains to log ASM supported by a private No.\niv. In case of abnormal working he shall be responsible for cranking pad locking of points and piloting of\ntrains in absence of Deputy Station Manager/out door.",
+        options: ["(ii) (iii) & (iv)", "(i) & (iii)", "(i), (ii) (iii) & (iv)", "(i), (ii) & (iii)"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM035]: _______________ shall fix the duty hours for the staff at stations in accordance with the (Hours of employment regulations) in consultation with concerned officials",
+        options: ["Sr.DPO/DPO", "Sr.DOM/DOM", "TI/Staff", "TI/SWR"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM036]: Station Master must not allow any employee to take independent charge of a post connected with train working without satisfying himself after _________________________about the knowledge of concerned staff .",
+        options: ["casual examination", "detailed oral examination", "examination", "written examination"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM037]: Station Master must not allow any employee to take independent charge of a post connected with train working without –\n(A) Possesses the requisite Certificate of Competency.\n(B) Has understood the working rules of the Station and is fully conversant with the duties he has to perform.",
+        options: ["Possesses Certificate", "Understands Rules", "Either 'A' or 'B'", "Both 'A' & 'B'"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM038]: Before an employee takes independent charge of a post connected with train working for the first time, the pickup period is generally laid down by the _____________________",
+        options: ["Sr.DOM", "DOM/AOM", "DRM(Safety)", "TI of the section"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM039]: Station Master may permit Learning duties at Junction stations with marshalling yard and lobby on first posting or when there is change of system/means of working of trains –",
+        options: ["3 days", "5 days", "8 days", "10 days"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM040]: Station Master may permit Learning duties at Terminal stations with marshalling yard and lobby on first posting or when there is change of system/means of working of trains –\n- 8 days",
+        options: ["3 days", "5 days", "8 days", "10 days"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM041]: Station Master may permit Learning duties at Large stations or junction stations on first posting or when there is change of system/means of working of trains –",
+        options: ["3 days", "5 days", "8 days", "10 days"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM042]: Station Master may permit Learning duties at Medium stations & Road side station on first posting or when there is change of system/means of working of trains –",
+        options: ["3 days", "5 days", "8 days", "10 days"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM043]: If employee fails to give declaration in fixed period, he must be directed for ____________________at his expense.",
+        options: ["Initial training", "Sr.DOM", "Traffic Inspector", "Refresher Training"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM044]: Station Master shall ensure the staff taking learning at his station shall cover pickups in all the ____________ and minimum _______________",
+        options: ["shifts, one hour in each shift", "duties, one day for each shift", "shifts, one day for each shift", "responsibilities, 3 hours in each shift"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM045]: Every Station Master must maintain a Register containing the name and __________including________. of each member of the staff employed at his station.",
+        options: ["up-to-date address", "Contact phone no", "Either 'A' or 'B'", "Both 'A' & 'B'"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM046]: Public advertisements in the form of Boards, Posters, Neon-signs, or in any other form should not be allowed to be exhibited at any place within the station limit or premises without the written permission of the competent officer of___________________.",
+        options: ["Operating branch", "commercial publicity branch", "Publicity branch", "Public relation officer"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM047]: Station Masters and other railway staff including Guards and Loco pilots of any train must not permit the display of advertisement matters on engines, passenger coaches and other rolling stock, unless the prior permission of the __________________concerned has been obtained.",
+        options: ["DRM", "ADRM", "Sr.DCM", "Sr.DOM"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM048]: All official correspondence must be attended to by the Station Master, who must open all covers and see that all letters are_______________. All inward letters must be registered in the inward letters register showing the dates & letter no. of reply with a___________________.",
+        options: ["replied with delay, copy placed in a file", "replied without delay, copy sent to DRM office", "replied without delay, copy placed in a file", "acknowledged , copy sent to TI"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM049]: If there is any difficulty in replying to the required information from the public, the Station Master shall acknowledge the receipt of the letter immediately and matter referred to the _______________,",
+        options: ["DRM", "ADRM", "Sr.DCM", "Sr.DOM"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM050]: If there is any difficulty by the Station Master in replying to the required information from the public, SR.DOM shall provide model draft of letters, which are frequently received at stations, using a model draft will ensure that language used is______.",
+        options: ["Respectful and Courteous", "Polite, Respectful and Courteous", "Polite and courteous", "Polite & Respectful"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM051]: The playing of bands and presentation of Guard of Honour etc., on the Station Platform is prohibited, except with the prior permission of the ________________.",
+        options: ["DRM", "ADRM", "Sr.DCM", "Sr.DOM"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM052]: Photography/Film shooting is strictly prohibited within Station limits and on the railway lines, except with the permission of the officers _____________________.",
+        options: ["DRM", "Sr.DCM", "Authorised by railway administration", "PRO"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM053]: Employees are forbidden to occupy any place in station area for praying holding religious functions speeches, discourses etc., to erect religious structures, either permanent or temporary, or to add or alter any existing religious structures on railway land, without the sanction of the ________________.",
+        options: ["ADRM", "DRM", "AGM", "General Manager"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM054]: Normal period for which Station Operating Registers- Train passing registers/Books are required to be preserved",
+        options: ["One year", "3 years", "5 years", "Permanent record"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM055]: Normal period for which Station Operating Registers- Muster Roll are required to be preserved is",
+        options: ["One year", "3 years", "5 years", "Permanent record"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM056]: Normal period for which Station Operating Registers - Caution order register and Caution Order books are required to be preserved",
+        options: ["One year", "3 years", "5 years", "Permanent record"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM057]: Normal period for which Station Operating Registers- Wagon demand/priority register are required to be preserved is",
+        options: ["One year", "3 years", "5 years", "Permanent record"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM058]: Normal period for which Station Operating Registers - Indent and Loading Register are required to be preserved",
+        options: ["One year", "3 years", "5 years", "Permanent record"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM059]: Normal period for which Station Operating Registers - Control Order Book/Conference Book are required to be preserved is",
+        options: ["One year", "3 years", "5 years", "Permanent record"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM060]: Normal period for which Station Operating Registers- Station Inspection Register are required to be preserved is",
+        options: ["One year", "3 years", "5 years", "Permanent record"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM061]: Normal period for which Station Operating Registers Transportation Bio-data Register Register of Home Addresses of staff etc are required to be preserved",
+        options: ["One year", "3 years", "5 years", "Permanent record"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM062]: Which of the statements are false\ni. In calculating the period for destroying, the year to which the books and documents relate, and the year in which they are to be destroyed should be excluded.\nii. Record pertaining to Court Cases, departmental enquiries should not be destroyed till three years from the date the case is decided.\niii. Record pertaining to public claims etc., or those under reference from Home or other railways, should not be destroyed without permission from DRM concerned.\niv. Most of these registers can be computerised & clubbed",
+        options: ["Only (i)", "(i) & (ii)", "(ii), (iii) & (iv)", "None of the above"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM063]: No person shall drive a train unless he is in possession of a ______of competency issued by an___________.",
+        options: ["valid certificate, authorized officer", "certificate, officer", "licence, Principal", "authority, designated officer"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM064]: No Loco Pilot, Assistant Loco Pilot or loco pilot of any self propelled vehicle shall be booked to work a train or to drive a vehicle until he has ____________________________that he is fully acquainted with it.",
+        options: ["knowledge of section", "learnt the road and shall give a declaration", "knowledge of driving in section", "learnt the road"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM065]: For the purpose of road learning, the LP,& ALP will be booked to work _________on each section including one ___________\nbefore being put to work the train/vehicle independently.",
+        options: ["two round trips, during day", "three trips, during clear whether", "three round trips, during night", "six round trips, during night"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM066]: Each train shall be examined by competent person from the _______________department before being offered for passenger, goods/or any other service.",
+        options: ["rolling stock", "electrical maintenance", "rolling stock/Engineering", "rolling stock/electrical maintenance"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM067]: Trains are either scheduled as shown in the Working Time Table or non scheduled trains and are run on the following account: -",
+        options: ["Traffic", "Engineering", "Miscellaneious", "all the above"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM068]: _____________is necessary only when trains are required to be cancelled, put back or there is any change in the schedule shown in the Public /Working Time Table.",
+        options: ["Train advice", "Loco advice", "train order", "SM order"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM069]: Trains are ordered by CTNL in conjunction with the.",
+        options: ["Power Control", "Lobby Supervisor", "Power Control and or Lobby Supervisor", "None of the above"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM070]: To facilitate passengers boarding, generally an important long distance passenger train should be placed on the platform _____________________before its scheduled departure, depending upon the terminal layout.",
+        options: ["60 minutes/30 minutes", "30 minutes/15 minutes", "60 minutes/45 minutes", "90 minutes/60 minutes"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM071]: Every Loco pilot of a train while starting from the ______________must verify adequacy of brake power as certified in train examination document .In addition, he must conduct a 'feel test' to ensure that train brakes respond to brake application.",
+        options: ["last station", "block section", "station", "starting station"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM072]: Every Loco pilot of a train while starting from the starting station must verify adequacy of ________as certified in train examination document and in addition, conduct a _______to ensure that train brakes respond to brake application.",
+        options: ["brake power, 'feel test'", "brakes, test", "braking, brake power", "brake power, continuity test"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM073]: Non-passenger carrying stock shall preferably be marshalled next to the engine or in the rear of the train, defining the area for stacking, loading and unloading of parcels packages and mails on platforms.",
+        options: ["next to the engine", "in the rear of the train", "next to the engine or in the rear of the train", "none of the above"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM074]: In case, anti-telescopic/steel-bodied SLR is marshalled with passenger portion next to the engine or rear SLR with the passenger portion towards the end of the train\" the_______________________.",
+        options: ["SLR should be locked", "passenger portion of SLR should be locked", "luggage portion of SLR should be locked", "passenger portion of SLR should be opened"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM075]: In case of shortage of SLRs, and a coaching vehicle is attached next to train engine, its __________________to ensure that passengers can not occupy it.",
+        options: ["doors should be opened", "doors should be secured", "doors opened for only railway staff", "doors should be locked"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM076]: The Railway Board has permitted marshalling of _____________in front and rear of the SLR on short trains, provided they have working brakes and subject to end coaches at either side are anti telescopic.",
+        options: ["three coaches", "two coaches", "one coaches", "no coaches"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM077]: The Railway Board has permitted marshalling of three coaches in front and rear of the SLR on short trains, an ________may be attached as fourth trailer coach on such trains.",
+        options: ["VPU", "Wagon", "Inspection Carriage", "Brake van"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM078]: VPs LRs, WLRRMs, Inspection carriage and other coaching vehicles, which do not carry passengers may be marshalled as_____________.,",
+        options: ["in rear of SLR", "operationally convenient", "Next to train engine", "inside SLR"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM079]: In the case of POH/sick coaches, which are returned to shops for major repairs and are attached to passenger trains, such coaches should be_____________, so as to prevent entry of any passenger into these coaches.",
+        options: ["properly locked", "windows secured", "kept open for traffic", "properly locked and windows secured"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM080]: In the case of POH/sick coaches, which are returned to shops and are attached to passenger trains, if for any reason, it is not possible to lock up these coaches, such coaches should be _________required number of anti-telescopic/steel bodied coaches.",
+        options: ["marshalled inside", "marshalled outside", "inside SLR", "next to train engine"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM081]: For block rake composition and marshalling order, 'Normal composition and marshalling order and rake link of passenger trains' are issued by ___________of respective railways from time to time.",
+        options: ["CPTM", "PCCM", "PCOM", "PCME"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM082]: Classifying a passenger carrying train as a mixed train needs authorization by _____________.",
+        options: ["CPTM", "PCCM", "PCOM", "PCME"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM083]: Conditions for attachment of dead locomotive\ni. Certificate for 'Fit to run is issued by Section Engineer/Loco Inspector/Power Controller for Passenger/Goods train.\nii. Maximum permissible speed of the train shall be less than maximum permissible speed of the dead locomotive\niii. Brakes can be applied on dead locomotives in synchronization with working locomotives\niv. In case infringement to the schedule of maximum moving dimensions the dead locomotive shall be treated as an ODC.",
+        options: ["(ii) (iii) & (iv)", "(i) (iii) & (iv)", "(i), (ii) (iii) & (iv)", "(i), (ii) & (iii)"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM084]: Whenever dead loco is attached to a train, as a final check, the coupled locos should be run for about _________and the driver shall check for any abnormal rise in the temperature of the wheels of the dead locomotive and shall also check it at __________during the journey.",
+        options: ["300 metres, stops", "500 meters, subsequent stops", "200 metres, enroute halts", "100 metres, stopped"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM085]: A dead locomotive can be attached to Mail/Express trains including Superfast trains but excluding ___________",
+        options: ["Rajdhani and Shatabdi", "VIP specials", "Premium", "Duranto"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM086]: Dead Locomotive with defects in undergear equipment can be attached only by ________.",
+        options: ["Passenger trains", "Loco", "freight trains", "Parcel trains"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM087]: Attaching/hauling of dead locomotives by Mail/Express/Super fast/Passenger trains: -",
+        options: ["Only one dead locomotive", "Brake power of the train should be 100% excluding dead locomotive", "Either 'A' or 'B'", "Both 'A' & 'B'"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM088]: Movement of maximum ________ locos with load is permissible subject to observations of all restrictions in the section provided that brakes in dead locomotives are operational.",
+        options: ["1 working+1 dead", "2 working+1 dead", "2 working+2 dead", "1 working+2 dead"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM089]: Escorting of dead locomotives attached to freight and passenger carrying trains is not necessary if the brakes are fully operational and the dead locomotive is attached____________..",
+        options: ["next to the train engine", "next to Brake van", "in rear of BV", "inside BV"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM090]: Escorting of dead locomotives is compulsory if attached _______________.",
+        options: ["in rear of BV", "has defect in undergear equipment", "Either 'A' or 'B'", "Both 'A' & 'B'"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM091]: Maximum _________inspection carriages occupied by the officers can be attached and in case it exceeds, , rules regarding running of goods trains without brake van will apply.",
+        options: ["one", "two", "three", "four"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM092]: The _______________is the major source of revenue for the Indian Railway",
+        options: ["Passenger business", "freight business", "Parcel business", "Sundry business"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM093]: Main activity centres of Freight operation include terminals, yards, control office and stations.",
+        options: ["terminal yars", "control office", "stations", "all the above"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM094]: Broad Classification of Goods Trains\nEnd to End, Work Trains, Shunting Trains, Pilots etc.:, Departmental trains",
+        options: ["End to end trains", "work, shunting & pilot trains", "departmental trains", "all the above"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM095]: End to end Trains, generally run from the ___________________.",
+        options: ["originating Terminal to the final destination", "any two stations", "crew point to destination", "none of the above"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM096]: Work Trains, Shunting Trains, Pilots etc.: are train movements are for short distances for ______________or or.",
+        options: ["for supply/removal of rakes", "important terminals served by a yard", "clearance of damaged wagons", "Any one of above"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM097]: ________________include Material Trains, Track maintenance trains, Ballast trains, Relief Trains, Wiring Special, Crane Specials etc. are known as departmental trains.",
+        options: ["passenger trains", "container services", "Departmental trains:", "shunting trains"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM098]: Freight operation is generally more complex than passenger train operations for the following reasons:\ni. The changing pattern and fluctuations in demand for rakes/wagons due to changes in the level of production, changes in the pattern of distribution and changed consumption centres.\nii. The variety of commodities to be moved, with different characteristics & type of wagons required\niii. Preferential traffic schedules, rationalisation scheme& other public policy regulations",
+        options: ["(i) & (ii)", "(i) & (iii)", "(ii) & (iii)", "(i), (ii) & (iii)"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM099]: The message from Divisional Control that a train is scheduled to leave from a Station or Yard at a certain time. is known as___.",
+        options: ["Train Notice", "shunting order", "freight order", "train schedule"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM100]: The availability of suitable Load, Locomotive, Crew/Guard and Path has to be kept in view for____________.",
+        options: ["ordering of crew", "ordering of goods trains", "ordering of passenger trains", "ordering of Parcel trains"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM101]: This bare requirement of Locos for Traffic use is calculated on the basis of the traffic turn round and _______",
+        options: ["average number of passenger trains run", "number of trains run in sections", "average number of trains run on each section", "number of goods trains run"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM102]: ______________means the average number of locos available to traffic use in a day (24 hours).",
+        options: ["wagon utilization", "loco utilization", "crew outage", "Loco Outage"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM103]: Which of these are not represented in Different colour graphic representation on Bar Chart to represent the time spent by each Loco\n(i) time taken by running train\n(ii) time taken for Crew Changing\n(iii) time for Fuelling (electric Locos)\n(iv) time taken for Loco inspection",
+        options: ["(i), (ii) & (iii)", "(i), (ii) & (iv)", "(ii), (iii) & (iv)", "(i), (iii) & (iv)"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM104]: Which of these are not represented in Different colour graphic representation on Bar Chart to represent the time spent by each Loco\n(i) time for ROH\n(ii) time for Light Engine running\n(iii) time taken for Shunting\n(iv) time spent at terminal/ destination & enroute detention.",
+        options: ["(i), (ii) & (iii)", "(i), (ii) & (iv)", "(ii), (iii) & (iv)", "(i), (iii) & (iv)"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM105]: Total hours for which the various Locos were available for Traffic use divided by ___ would give the Loco outage.",
+        options: ["6", "12", "18", "24"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM106]: Thus, while the operating staff has the operational control over utilisation of Locos as well as flexibility of using the Locos as per operational requirement, they have to keep in view the ________of the Locos and send the Locos to the Shed well in time.",
+        options: ["maintenance schedules", "inspection schedules", "maintenance/inspection schedules", "none of the above"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM107]: Reduction in terminal detentions and increasing average speed of goods trains would substantially improve_______________.",
+        options: ["wagon utilization", "coaches utilization", "train punctuality", "engine utilisation"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM108]: ______________for Goods operations are generally booked on the principle of first in and first out,",
+        options: ["Running staff", "loco pilots", "Assistant loco pilot", "Guards"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM109]: On a double line section, a Goods Train can always be run when load, power and crew are available when____________.",
+        options: ["rear block section cleared", "next block section is clear", "two block sections are clear", "next block section is not clear"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM110]: On single line sections despatching a train___________, will be counter productive, due to Mail/Express Blocks, Peak timings of Suburban or Commuter traffic.",
+        options: ["out of path", "when crew are ready", "loco is ready", "load is ready"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM111]: When ordering a train readiness of the _________________ are to be kept in view before pushing a goods train ahead.",
+        options: ["interchange point", "the terminal to accept the trains", "Either 'A' or 'B'", "Both 'A' & 'B'"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM112]: It is advantageous to have a combined __________________ booking lobby so that they are available simultaneously and lobby incharge can give train notice to both simultaneously.",
+        options: ["LP & ALP", "Crew and Guard", "LP", "ALP & Guard"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM113]: Some ______________may also be kept in the Lobby to take care of the last minute absenteeism.",
+        options: ["overlapping Crew/Guard", "overlapping guard", "overlapping LP", "overlapping ALP"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM114]: Shunters may also be kept in the Lobby of big yards/junctions to attach, detach, and run round locos or to pull the Train from Yards upto the Crew changing points, so as to avoid ____________________.",
+        options: ["wastage of ALPs", "wastage of guard", "wastage of main line Loco pilots", "detention to trains"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM115]: The___________, Crew hours balancing, rescheduling of Locos and Yard detentions to Locos can be thoroughly monitored by the Lobby and remedial measures taken.",
+        options: ["pre-departure detention to the Crew", "detention to trains", "detention to crew", "detention to guards"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM116]: The main function of the Control Office is ________________with all the activities going on simultaneously.",
+        options: ["planning and review", "execution and review", "planning and review", "planning, execution and review"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM117]: Planning for freight train operations is aimed at forecasting and optimising the following:- i) Interchange ii) Trains to be run section-wise iii) Supply of rakes/ for bulk loading,. iv) Release of inward loaded rakes placed for Unloading",
+        options: ["(i), (ii) & (iii)", "(i), (ii) & (iv)", "(i), (ii), (iii) & (iv)", "(i), (iii) & (iv)"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM118]: Information regarding the following items is generally required for Planning for freight train operations\ni. Analysis of divisional wagon holding\nii. Power availability\niii. Availability of loads\niv. Disposal of empty rakes\nv. Demands for loading",
+        options: ["(i), (ii) & (v)", "(i), (iii) & (iv)", "(i), (ii), (iii) & (iv)", "(i), (ii), (iii), (iv) &(v)"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM119]: The plan for freight train operations is made by Control in the _____________and reviewed by Operating Officers.",
+        options: ["morning hours", "early hours of morning", "00.00 hrs", "06.00 hrs"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM120]: Changes in the plan for freight train operations, as deemed necessary are made at various stages on the basis of_________,.",
+        options: ["updated information received from activity centres", "Head Quarters instructions", "Either 'A' or 'B'", "Both 'A' & 'B'"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM121]: The main features of performance of freight train operations, can be reviewed, include:\ni) Interchange failures\nii) Divisional Wagon Balance (Wagons on Division)\niii) Performance of Controller\niv) Disposition of empties\nv) Loading at important terminals – and in case of shortfall, reason for the same.",
+        options: ["(i), (ii) & (v)", "(i), (ii) (iv) & (v)", "(i), (ii), (iii) & (iv)", "(i), (ii), (iii), (iv) &(v)"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM122]: The main features of performance of freight train operations, can be reviewed, include:\ni) Examination of Control Charts\nii) Unloading on Division\niii) Registrations and Loading\niv) Performance of Station Masters\nv) Power position, utilisation of Locos & Terminal detention",
+        options: ["(i), (ii) (iii) & (v)", "(i), (ii) (iv) & (v)", "(i), (ii), (iii) & (iv)", "(i), (ii), (iii), (iv) &(v)"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM123]: Important information concerning the position of Freight Operations on various Divisions of Railways is obtained through line and stock report daily telephonically or through__________ from Divisional Control.",
+        options: ["RMS", "TMS", "FOIS", "ICMS"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM124]: Important information concerning the position of Freight Operations on various Divisions of Railways is obtained through FOIS s includes, ____________",
+        options: ["loading and stock position", "particulars of old outstanding", "fresh registration of indents", "All the above"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM125]: The position of freight train operations is reviewed and analyzed by the ________________.",
+        options: ["COM/CFTM/ Dy.COM (Goods), STM (Goods)", "CMPE(R&L)", "CELE", "All the above"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM126]: Head Quarters plays an important part in ________freight operations. After detailed conference with the Operating Officers of the division, and in terms of Railway Boards current-operating directives Head Quarters issues directions and instructions.",
+        options: ["planning", "co-ordinating", "Either 'A' or 'B'", "Both 'A' & 'B'"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM127]: After detailed conference with the Operating Officers of the division, and in terms of Railway Boards current-operating directives for running freight operations, Head Quarters issues _______________.",
+        options: ["Directions", "Instructions", "Either 'A' or 'B'", "Both 'A' & 'B'"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM128]: Railway Board's Control on Freight Operations: also watches____________ and goods trains running on important sections to ensure that each Railway fulfils its obligation and optimises the use of various assets.",
+        options: ["loading,", "interchange", "power position", "All the above"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM129]: The _______________plays an important role in canvassing for Traffic, improving marketing, customer relations in general, booking of traffic.",
+        options: ["Operating department", "Commercial Department", "Control office", "Station Master"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM130]: The _______________plays an important role in expediting loading/unloading of wagons, quick disposal of unconnected wagons and transhipment of Wagon detached out of course for Hot Axles etc.",
+        options: ["Commercial Department", "Operating department", "Control office", "Station Master"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM131]: Wagon holding for a railway depends on amount of _______________from other Railways and making an allowance for percentage of stock out of commission for repairs, etc.,",
+        options: ["originating loading", "receipts of loaded wagons", "Either 'A' or 'B'", "Both 'A' & 'B'"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM132]: __________is an indication of a Railway's overall operating performance and its efforts to meet inter railway obligations, hence interchange balance should not be very high, even when maximum trains are interchanged.",
+        options: ["Interchange commitment", "wagon balance", "Maintenance of the interchange target", "mainteance of wagon turn round"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM133]: Depending upon the load, __________________is provided for its haulage in order to get the optimum use of motive power and to increase the capacity utilisation and throughput.",
+        options: ["Diesel loco", "suitable loco", "Electric loco", "train crew"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM134]: To optimise the loading is one of the most important items in _____________because it is through loading that Railway earns the maximum revenue.",
+        options: ["freight operations", "coaching operations", "business management", "concessional fares"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM135]: Unloading is necessary in _____________ so that wagon becomes available for next loading.",
+        options: ["freight operations", "coaching operations", "business management", "control operations"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM136]: Reducing the time taken for loading/unloading by ______________and other strategies in co-ordination with the customers has to be endeavored.",
+        options: ["technology", "enhancing capacity", "enhancing labour", "technology upgradation"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM137]: Ideally it is waste of transport capacity to run a wagon___________, but much of empty running is inescapable on account of the unbalanced nature and quantity of outward and inward traffic at terminals and necessity of supplying empty wagons.",
+        options: ["loaded", "empty or with light load", "empty", "light load"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM138]: Empty Running of Certain special type of wagons for POL, Steel, Coal, Natural Gas, Ammonia, LPG etc. have to be generally run empty to the loading points. Operating skill lies in avoiding or reducing the extent of _______________of similar type of empty stock.",
+        options: ["empty haulage and cross movements", "empty haulage", "cross movements", "loaded movements"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM139]: A ________________is a train when the same crew (and engine if possible) instead of 'Signing off' at the intermediate crew changing point works a train to farther junction.",
+        options: ["merry go round", "Mini rake", "crack train/Link Train", "Express goods train"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM140]: Crew can also be utilised on 'Crack' basis for a ___________ when the same Crew perform a round trip without 'Signing off' at the outstation and is promptly provided a load so that Crew returns to its Head Quarters within normal duty hours.",
+        options: ["merry go round", "crack train/Link Train", "Mini rake", "Express goods train"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM141]: The interval between two successive loadings calculated from the time a wagon is placed for loading till the time it again becomes available for reloading is the actual turn round.",
+        options: ["Wagon utilization", "Wagon days", "Wagon KMs", "Wagon turn round"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM142]: Wagon turn round is calculated in terms of",
+        options: ["Hours", "Days", "Weeks", "KMs"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM143]: Where 'S' stands for effective midnight wagon balance, 'L' is total number of loaded wagons & 'R' is total number of wagons received from other Railway/divisions the statistical formula for calculation of Wagon Turn Round generally used is",
+        options: ["S / (L+R)", "L / (S+R)", "R / (L+S)", "(L+R )/ S"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM144]: Where the statistical formula for calculation of Wagon Turn Round generally used is S / (L+R) 'S' stands ______________",
+        options: ["total number of loaded wagons", "effective midnight wagon balance", "total number of wagons received from other Railway/divisions", "total number of ineffective wagons"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM145]: Where the statistical formula for calculation of Wagon Turn Round generally used is S / (L+R) 'L' stands ______________",
+        options: ["total number of loaded wagons", "effective midnight wagon balance", "total number of wagons received from other Railway/divisions", "total number of ineffective wagons"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM146]: Where the statistical formula for calculation of Wagon Turn Round generally used is S / (L+R) 'R' stands ____________",
+        options: ["total number of loaded wagons", "effective midnight wagon balance", "total number of wagons received from other Railway/divisions", "total number of ineffective wagons"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM147]: Improving Engine Utilizations can be achieved by : i) Running of the Goods Trains on proper path: For this, the Master Charts have to be properly framed and consolidated. ii) Improper co-ordination between Control and Line Staff. iii) Reduction in Terminal detention of Locos by proper monitoring co-ordination and working of Yard Staff, C&W Staff etc. iv) Judicious ordering of Trains and Right time starts of Goods Trains. v) Proper controlling, judicious crossings and preferences.",
+        options: ["(i), (ii) (iii) & (v)", "(i), (iii) (iv) & (v)", "(i), (ii), (iii) & (iv)", "(i), (ii), (iii), (iv) &(v)"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM148]: Improving Engine Utilizations can be achieved by : i) Loop Lines on critical block sections should be generally blocked. ii) Stabling and picking up of load should be judicious and properly planned. iii) Loco pilot should run at maximum permissible speed subject to restrictions. iv) Light Engines can be coupled or attached to trains in order to save path and energy. v) Light/Coupled Engines should run at maximum permissible speed, for which they are fit, subject to speed restrictions",
+        options: ["(ii), (iii) (iv) & (v)", "(i), (iii) (iv) & (v)", "(i), (ii), (iii) & (iv)", "(i), (ii), (iii), (iv) &(v)"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM149]: Improving Engine Utilizations can be achieved by i) Signals must be taken off promptly at Stations. Distant Signals must always be taken off promptly. ii) Locomotives should be in good working order and staff should be well versed in Loco operations and trouble shooting. iii) Trains compulsorily should run through via Main Line only. iv) Hauling capacity of the Locomotives should be properly utilised. v) Engineering speed restrictions should be regularly reviewed and reduced by maximising the output of the Engineering staff and machines.",
+        options: ["(ii), (iii) (iv) & (v)", "(i), (ii), (iv) & (v)", "(i), (ii), (iii) & (iv)", "(i), (ii), (iii), (iv) &(v)"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM150]: Improving Engine Utilizations can be achieved by i) Regular foot plating by officers and staff involved in operations, motivates train crew and alerts the line staff. ii) Effective control over traffic yards to reduce other engine hours, iii) Special watch on Loco pilots loosing time on run and not running on maximum permissible speed. iv) Detention to locos at important loading/unloading points and industrial sidings.",
+        options: ["(i), (ii) & (iii)", "(i), (iii) & (iv)", "(ii), (iii) & (iv)", "(i), (ii), (iii) & (iv)"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM151]: [Total No. of Goods trains multiplied by the distance travelled by each train in 24 hours ]divided by [the total time taken by all the goods trains run] is known as",
+        options: ["Wagon turn round", "line capacity", "Average speed of goods trains", "speed of a goods trains"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM152]: The distance and the time taken for calculation of average speed of goods trains are calculated from the____________.",
+        options: ["FOIS", "Control Charts", "Combined train reports", "RMS"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM153]: Thus all detention to Goods Trains enroute enters into calculation and has the effect of bringing down the__________.",
+        options: ["Speed", "capacity of controller", "capability of division", "average speed"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM154]: One of the important means to utilise fully and efficiently the existing carrying capacity of a railway is to set _____________for the various performances after taking into consideration all the local conditions.",
+        options: ["measurable and specific targets", "measurable target", "specific targets", "a goal for loading"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM155]: Movement of wagon load traffic, is regulated by________________, laid down by the Central Government (Railway Board) under Section 71 of the Railways Act ,1989 and is designed to ensure that certain essential commodities and urgent movements are accorded necessary preference over other commodities.",
+        options: ["preferenctial traffic", "Schedule of Preferential Traffic", "specific loading instructions", "guidelines"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM156]: Movement of wagon load traffic, is regulated by Schedule of Preferential Traffic, laid down by the __________________under Section 71 of the Railways Act ,1989 and is designed to ensure that certain essential commodities and urgent movements are accorded necessary preference over other commodities.",
+        options: ["Zonal railways", "Divisional railways", "Central Government (Railway Board)", "Home Ministry"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM157]: Movement of wagon load traffic, is regulated by Schedule of Preferential Traffic, laid down by the Central Government (Railway Board) under __________ of the Railways Act ,1989 and is designed to ensure that certain essential commodities and urgent movements are accorded necessary preference over other commodities.",
+        options: ["Section 65", "Section 68", "Section 70", "Section 71"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM158]: In preferential traffic schedule the Traffic is classified into ________ .",
+        options: ["4 categories", "3 categories", "two categories", "5 groups"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM159]: The categories specified in the Preferential traffic schedule are named as .",
+        options: ["P,Q,R & S", "A,B,C & D", "J, K, L & M", "A, B & C"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM160]: Commodities registered in the ______________ of preferential traffic schedule cannot have preference over those registered in the higher categories although the former may have been registered much earlier.",
+        options: ["higher categories", "classifications", "lower categories", "groups"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM161]: Priority Schedule is decided by ________________ Directorate of Railway Board",
+        options: ["Traffic commercial", "Traffic freight", "Traffic Policy", "Traffic Transportation"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM162]: Under __________ of Indian Railways Act 1989, Railway Board has been empowered to charge freight over route, which may not be the shortest between alighting point and destination.",
+        options: ["Section 70", "Section 71", "Section 72", "Section 73"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM163]: The Rationalization order indicating the route through which the freight is to be charged is issued by ____________ branch, Railway Board.",
+        options: ["Traffic commercial", "Traffic freight", "Traffic Policy", "Traffic Transportation"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM164]: Revised ___________of IRCA Goods Tariff Part I(Volume-I), unless there is specific instruction in writing from the centre or his authorized agent to the contrary, goods will be despatched by the route optionally feasible and freight charges will be levied by the shortest route.",
+        options: ["Rule 125", "Rule 126", "Rule 127", "Rule 128"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM165]: Consignments, which when loaded upon a wagon, would infringe the maximum standard moving dimension, at any point, on the entire route, from the booking station to the destination, including via break of gauge is called an _______________",
+        options: ["Dimentional consignment", "infringing dimention", "Over Dimensional Consignment", "infringing standard dimention"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM166]: Maximum Moving Dimensions from rail level (at any point) for Bogie Wagon is",
+        options: ["Height at Centre 4115mm", "Height at sides 3505mm", "Maximum Width 3050 mm", "all the above"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM167]: When a dummy truck is used, the maximum weight that may be loaded, in any wagon or truck is distinctly marked on ________________and must not be exceeded.",
+        options: ["each train", "each vehicle", "each coach", "each loco"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM168]: ODCs are divided into ____________according to the minimum clearance available between the consignment and minimum fixed structure profile.",
+        options: ["3 classes", "4 classes", "5 classes", "2 classes"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM169]: Class 'A' ODC loads, which has a gross clearance of _____________ and above.",
+        options: ["6 inches)", "4 inches", "9 inches", "12 inches"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM170]: Class 'B': ODC loads, which has a gross clearance of ________ and above, but less than ______________",
+        options: ["4 inches, 6 inches", "6 inches, 9 inches", "9 inches, 12 inches", "3 inches, 6 inches"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM171]: Class 'C': ODC loads, which has a gross clearance of less than _______ but not less than _____________.",
+        options: ["9 inches, 6 inches", "6 inches, 9 inches", "9 inches, 12 inches", "6 inches, 4 inches"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM172]: Class 'A' & 'B' ODC require sanction of _____________ within the zone and ____________ if it is inter railway",
+        options: ["PCOM , GM of that railway", "PCOM, PCOM of that railway", "GM , PCOM of that railway", "CRS, CCRS"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM173]: Class 'C' ODC require sanction of _____________.",
+        options: ["GM", "PCOM", "PCOM of concerned railways", "CRS"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM174]: Class 'A' & 'B' ODC may be moved during _____________.",
+        options: ["Day only", "Night only", "Day & Night", "clear whether only"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM175]: Maximum Speed of Class 'B' ODC on BG is",
+        options: ["15kmh", "25kmph", "40kmph", "60kmph"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM176]: Maximum Speed of Class 'C' ODC on BG is",
+        options: ["15kmh", "25kmph", "40kmph", "60kmph"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM177]: Escorting the train for class 'B' ODC is required by",
+        options: ["TXR", "SSE (Elec) & TI", "SSE(PWAY) & TI", "SSE(PWAY), SSE(C&W) & TI"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM178]: Escorting the train for class 'C' ODC is required by",
+        options: ["TXR", "SSE (Elec) & TI", "SSE(PWAY) & TI", "SSE(PWAY), SSE(C&W) & TI"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM179]: The net clearance between the consignment as loaded in the train and any fixed structure should be calculated after making an allowance of ___________for lurch (horizontal) and ____________bounce (vertical)",
+        options: ["5.08cm, 5.10cm", "10.10cm, 10.16cm", "7.5cm , 7.62 cm", "7.62cm, 7.50cm"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM180]: The net clearance between the consignment as loaded in the train and any fixed structure should be calculated after making an allowance of ___________for lurch (horizontal) and bounce (vertical)",
+        options: ["2 inches", "3 inches", "4 inches", "6 inches"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM181]: The ____________between the consignment as loaded in the train and any fixed structure should be calculated after making an allowance of 75 mm (3 inches) for lurch (horizontal) and 7.62 cm (3 inches) bounce (vertical) on the straight",
+        options: ["net clearance", "gross clearance", "fixed clearance", "clearance"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM182]: When ODC consignment is offered at a station for booking __________will verify if the consignment exceeds the maximum moving dimension from originating station to destination station including via. and break of gauge, if involved.",
+        options: ["Commercial clerk", "Goods clerk", "SS/SM", "TNC"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM183]: When ODC consignment is offered at a station for booking SS/SM should apply to the ___________, who will obtain the necessary sanction of the competent authority. An application must show the length, width, height, and weight of the load accompanied by a sketch in duplicate of the consignment.",
+        options: ["Sr.DCM", "Sr.DEN", "Sr.DME", "Sr.DOM"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM184]: On receipt of the sanction for ODC , the consignment should be loaded carefully, lashed and packed properly, so as to avoid any change of shifting enroute. While examining ______must pay attention to whether Load is well secured, within the C.C. of the wagon, Weight on any pair of wheels does not exceed- Axle load restriction, if any & Under gear of the wagon.",
+        options: ["Goods clerk", "SE(C&W)", "SS/SM", "TI"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM185]: After loading the consignment, ______will register the measurement and advise the SS/SM concerned of the various overall dimensions, including the packing and lashing etc., as loaded in truck.",
+        options: ["TXR", "SSE(PWAY)", "SSE(C&W)", "SSE(ELEC)"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM186]: SE(C&W) must issue ____________certificate for the ODC train to the effect that the loaded wagon concerned is safe to run via the particular route specified.",
+        options: ["'fit to run'", "Safe to run", "checked and found safe", "fit"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM187]: The _______________will arrange to advise the PCOM of the other Rlys. concerned, with full dimensions of the consignment, as loaded in the truck for issue of necessary final sanction for movement.",
+        options: ["Commercial branch", "mechanical branch", "Contol office", "Operating Branch"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM188]: No consignment with less than _______ gross clearance from the over head contact wire will be permitted over electrified section.",
+        options: ["20 cm", "15 cm", "10 cm", "8 cm"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM189]: Representative of the Traction Department should accompany all ODC loads having width of more than _______ for BG from the centre line of the track.",
+        options: ["6 feet", "6.5 feet", "7 feet", "5 feet"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM190]: A list of structures, where the clearances are restricted on the electric traction area and also the clearance available under over bridges should be with the _____________",
+        options: ["Section Controllers", "Traction Power Controllers", "Either 'A' or 'B'", "Both 'A' & 'B'"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM191]: At the originating point the number of wagon/wagons carrying ODC should be entered by the _____________ in red ink to be handed over to the Guard of the train.",
+        options: ["TNC/SM in VG", "CC in loading bill", "TI through memo", "TXR in BPC"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM192]: Shunting of train with an ODC should be avoided. ____________of ODC wagon and against such wagon is prohibited.",
+        options: ["rear shunting", "hump shunting", "Loose and rough shunting", "Hand shunting"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM193]: The Control Organization of Indian Railways is the nerve centre of____________..",
+        options: ["station operations", "train operations", "business", "trains"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM194]: The two-way telephone system, also called an ____________which permits all stations to have direct communication with Section Controller, who is responsible for train regulation in his area and can speak to all stations at the same time or to one station selectively.",
+        options: ["telephone exchange", "intercom", "omnibus circuit", "conferencing"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM195]: Movement of trains is plotted on a time distance graph to record their actual progress, these records, called______________, can be analyzed later.",
+        options: ["control charts", "Master charts", "station charts", "train charts"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM196]: All technical disciplines involved in train movement have a representative in the Control office to provide the required support from his department. These would include-Motive Power Controller, Signaling and Tele-Communication Controller, Commercial Controller, Security Controller, C& W Control, Engineering Control & ______________",
+        options: ["Office superintendent", "TNCs", "Traction Power Controller", "Traffic inspector"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM197]: All technical disciplines involved in train movement have a representative in the Control office to provide the required support from his department. These would include- Traction Power Controller, Signaling and Tele-Communication Controller, Commercial Controller, Security Controller, C& W Control, Engineering Control & ______________",
+        options: ["Office superintendent", "TNCs", "Traffic inspector", "Motive Power Controller,"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM198]: All technical disciplines involved in train movement have a representative in the Control office to provide the required support from his department. These would include- Motive Power Controller, Traction Power Controller, Signaling and Tele-Communication Controller, Security Controller, C& W Control, Engineering Control & ______________",
+        options: ["Office superintendent", "Commercial Controller", "Traffic inspector", "TNCs"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM199]: All technical disciplines involved in train movement have a representative in the Control office to provide the required support from his department. These would include- Motive Power Controller, Traction Power Controller, Signaling and Tele-Communication Controller, Commercial Controller, C& W Control, Engineering Control & ______________",
+        options: ["Security Controller", "Office superintendent", "Traffic inspector", "TNCs"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM200]: Train Control: Supervising & regulating movement of trains from station to station on the section to avoid delay to trains and to maximize utilisation of the capacity of the section by: -\n\ni) Monitoring movement of trains from station to station and recording paths and detention on charts.\nii) Arranging crossing and precedence of trains casually.\niii) Arranging working of departmental and material trains.\niv) Giving time signal to all stations on the section daily at appointed time\nv) Fulfilling interchange commitment.",
+        options: ["(ii), (iii) (iv) & (v)", "(i), (iii), (iv) & (v)", "(i), (ii), (iii) & (iv)", "(i), (ii), (iii), (iv) &(v)"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM201]: Train Control: Supervising & regulating movement of trains from station to station on the section to avoid delay to trains and to maximize utilisation of the capacity of the section by: - i) Arranging proper movement of assisting/banking /light engines when not required. ii) Clearance of sick wagons from Roadside stations and fluidity of yards iii) Arrangement of relief for 10 hrs duty staff. iv) Arranging Engineering and/or power blocks in such a way as to involve minimum disturbance to train running. v) Arranging Speedy relief in case of accidents.",
+        options: ["(ii), (iii) (iv) & (v)", "(i), (ii), (iv) & (v)", "(i), (ii), (iii) & (iv)", "(i), (ii), (iii), (iv) &(v)"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM202]: Traffic Control is the over-riding control for supervision of the movement of goods traffic on the section, exercised by Collecting information from the various stations on the section in respect of –",
+        options: ["Registration for wagons outstanding at stations", "arrangements for supply of wagons", "Number of wagons loaded and empty wagons/rakes awaiting despatch", "All the above"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM203]: Traffic Control is the general and over-riding control for supervision of the movement of goods and coaching traffic on the section. It is exercised by : i) Arranging running, regulation, putting back and cancellation of trains.(both freight & coaching) ii) Securing minimum loads for trains. iii) Collecting stock position from the different stations, marshalling and terminal yards. iv) Arrangement of Crew & Guard for freight trains v) To keep liaison with adjoining Railways and Divisions for interchange commitments",
+        options: ["(ii), (iii) (iv) & (v)", "(i), (ii), (iv) & (v)", "(i), (iii), (iv) & (v)", "(i), (ii), (iii), (iv) &(v)"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM204]: Traffic Control is the general and over-riding control for supervision of the movement of goods and coaching traffic on the section. It is exercised by : i) Monitoring and co-ordinating working of yards, goods sheds sidings, loco-shed, TXR depots etc. ii) Supervising of stock control. Arranging supply of wagons against pending registration. iii) Securing optimum utilisation of stock, with maximum detention. iv) To ensure optimum utilisation of loco and staff. v) To arrange ART & Crane from adjoining Railway/Division in case of accidents and other coordination.",
+        options: ["(ii), (iii) (iv) & (v)", "(i), (ii), (iv) & (v)", "(i), (ii), (iii) & (iv)", "(i), (ii), (iii), (iv) &(v)"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM205]: Power Control is responsible for provision of motive power to all trains by maintaining position of locomotives i. Requisitioning engines from loco sheds for all operating requirements, ii. Ensuring the return of engines to 'Home Sheds' at regular intervals for servicing and maintenance. iii. Ensuring an even balance of engines and crews between running sheds for meeting demands of traffic, iv. Ensuring that light engine kilometres is kept to the maximum. v. Providing guidance to running staff for troubleshooting.",
+        options: ["(ii), (iii) (iv) & (v)", "(i), (ii), (iv) & (v)", "(i), (ii), (iii) & (iv)", "(i), (ii), (iii), (iv) &(v)"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM206]: Carriage and Wagon Control is responsible to assist the train and traffic control and toi) To keep a watch over the detachment of sick wagons/coaches and to arrange for their early repair and fitness. ii) To keep a watch over placement of wagons/coaches in sick line and their release. iii) To keep account of detention to trains on C&W account and take remedial action. iv) To provide guidance to running staff for mechanical trouble shooting. v) Monitor the movement of POH due stock to workshops",
+        options: ["(ii), (iii) (iv) & (v)", "(i), (ii), (iv) & (v)", "(i), (ii), (iii) & (iv)", "(i), (ii), (iii), (iv) &(v)"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM207]: Commercial Control assists the Traffic and Train Control. i. To expeditiously dispose off unclaimed and unconnected wagons, parcel consignments. ii. Keep a watch on detention to trains on Commercial account like Alarm Chain Pulling. Carriage watering, Parcel working etc., and take remedial measures. iii. To ensure transhipment of sick wagons by arranging matching stock and labour after one month. iv. Monitoring of public complaints lodged at the stations. v. Any other job entrusted by Sr. DCM/DCM.",
+        options: ["(ii), (iii) (iv) & (v)", "(i), (ii), (iv) & (v)", "(i), (ii), (iii) & (iv)", "(i), (ii), (iii), (iv) &(v)"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM208]: Traction Power Control is provided to assist in Traffic and Train Control for - i. Arranging maintenance blocks for Engineering ii. Arranging alternative power supply in case of tripping etc., through remote control. iii. Monitoring OHE failures and taking remedial action. iv. Monitoring detention of trains on OHE accounts. v. Guiding running/ station staff in trouble shooting.",
+        options: ["(ii), (iii) (iv) & (v)", "(i), (ii), (iv) & (v)", "(i), (ii), (iii) & (iv)", "(i), (ii), (iii), (iv) &(v)"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM209]: Engineering Control i) Monitors imposition & cancellation of Engineering Restrictions, ii) Working of track machines & monitoring integrated maintainable blocks. iii) To co-ordinate works during maintenance blocks iv) Running of Material trains v) Monitoring detention of trains on OHE accounts.",
+        options: ["(ii), (iii) (iv) & (v)", "(i), (ii), (iv) & (v)", "(i), (ii), (iii) & (iv)", "(i), (ii), (iii), (iv) &(v)"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM210]: Signal Control assists Traffic and Train Control and is responsible -",
+        options: ["Keep a watch over S&T failures and take remedial action", "Ensure efficient working of communication channels", "Either A or B", "Both A & B"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM211]: ________________is responsible for prevention of theft of property and assists passengers in trains/stations.",
+        options: ["GRP control", "Security Control", "Police control", "Control office"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM212]: The main functions of Traffic Control are: i) Continuous supervision of the movement of all traffic in the controlled area with a view to achieve the minimum possible operating efficiency. ii) Arrangements of crossing and precedence to the greatest advantage and charts pertaining to them. iii) Analysis of detentions to trains iv) Planning, ordering and running of goods trains to the best possible paths. v) Maintaining the fluidity of marshalling yards/freight terminals.",
+        options: ["(ii), (iii) (iv) & (v)", "(i), (ii), (iv) & (v)", "(i), (ii), (iii) & (iv)", "(i), (ii), (iii), (iv) &(v)"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM213]: The main functions of Traffic Control are: i) Taking remedial action in the event of yard/terminal congestion. ii) Elimination of avoidable detentions to goods stock at loading and unloading points and at transhipment stations. iii) Allotment and distribution of goods stock to stations, iv) Supply of information to adjoining controls, terminals and engine changing stations regarding the movements of trains to enable adequate timely arrangements for their reception and onward despatch. v) Arranging of engineering and other departments blocks with maximum detention to traffic.",
+        options: ["(ii), (iii) (iv) & (v)", "(i), (ii), (iv) & (v)", "(i), (ii), (iii) & (iv)", "(i), (ii), (iii), (iv) &(v)"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM214]: The main functions of Traffic Control are: i) Running of material trains and other track machines, tower wagons etc. ii) Arranging relief for engine crews and Guards. iii) Ensuring minimum utilisation of locomotives. iv) Issuing instructions for train working in case of equipment failures and whenever abnormal methods or working have to be resorted to. v) Speedy arrangements for relief rescue and restoration in the event of accident.",
+        options: ["(ii), (iii) (iv) & (v)", "(i), (ii), (iv) & (v)", "(i), (ii), (iii) & (iv)", "(i), (ii), (iii), (iv) &(v)"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM215]: The main functions of Traffic Control are: i) To assist in the realistic planning of time tables and punctual running of passenger trains in coordination with various departments, other divisions and other railways. ii) To keep a watch over damaged stock at road side stations, yards and sick lines and to ensure that they are promptly attended to iii) To provide operations management information. iv) To ensure smooth functioning of FOIS and other IT applications.",
+        options: ["(ii), (iii) & (iv)", "(i), (ii) & (iv)", "(i), (ii), (iii) & (iv)", "(i), (ii) & (iii)"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM216]: Trains are plotted on control charts which consist of horizontal and vertical lines representing ______________ respectively. Along side the vertical lines stations are spaced to a uniform scale.",
+        options: ["time and distance", "speed & distance", "distance & station", "distance and time"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM217]: Along side the vertical lines in the control charts stations are spaced to a uniform scale. Each one hour is first divided into ____________________and each unit is further sub-divided into 5 smaller units of 2 minutes each.",
+        options: ["5 units of 12 minutes each", "4 units of 15 minutes each", "6 units of 10 minutes each", "10 units of 6 minutes each"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM218]: Along side the vertical lines in the control charts stations are spaced to a uniform scale. Each one hour is first divided into 6 units of 10 minutes each and each unit is further sub-divided into____________________.",
+        options: ["2 smaller units of 5 minutes each", "5 smaller units of 2 minutes each", "3 smaller units of 4 minutes each", "4 smaller units of 3 minutes each"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM219]: Each control graph at the end of the shift may have the following information on it: i. Name and total distance of the section in Kilometres. ii. Distance in Kms. between each station on the section. iii. State of weather in each shift. iv. Engineering restrictions on the section. v. Code names of each station of the Division.",
+        options: ["(ii), (iii) (iv) & (v)", "(i), (ii), (iv) & (v)", "(i), (ii), (iii) & (iv)", "(i), (ii), (iii), (iv) &(v)"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM220]: Each control graph at the end of the shift may have the following information on it: i) Time lost by each train on loco, traffic or engineering account at or between stations. ii) Section Controller's remarks against Engineering restrictions iii) Time made up by each train on loco, traffic or engineering account. iv) Guard's record of time lost on loco, traffic or engineering account at or between stations and remarks. v) Signal failures",
+        options: ["(ii), (iii) (iv) & (v)", "(i), (ii), (iv) & (v)", "(i), (ii), (iii) & (iv)", "(i), (ii), (iii), (iv) &(v)"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM221]: In the control charts all _________ are plotted from bottom of the chart upwards from left diagonally towards the right; and all _________ are plotted from top of chart downwards and diagonally from left towards the right.",
+        options: ["Up trains", "Dn trains", "Up trains, branch trains", "branch trains, Dn trains"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM222]: For judicious crossing and precedence, it is necessary to have plotting of passenger trains at least _______in advance depending on traffic density in easily erasable lines.",
+        options: ["two hours", "1 & ½ hours", "1 hour", "30 mins"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM223]: For every section, _________indicating trains run in 24 hours are prepared which show the running of each Mail, Express or passenger trains over the sections according to its scheduled running.",
+        options: ["Control charts", "Loco charts", "Train schdule charts", "Master Charts"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM224]: In____________, paths for goods trains are worked out and plotted between the running of trains carrying passengers,.",
+        options: ["Control charts", "Master Charts", "Train schdule charts", "Loco charts"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM225]: _____________are helpful in revision of time tables and planning the running of any extra train and guidance of section controllers and should be displayed on the boards to which they refer.",
+        options: ["Master charts", "working time table", "control charts", "Rake links"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM226]: Chief Controller (In-charge).The Chief controller is in- overall charge of control office and is responsible for the total transportation of the Division on day to day basis. His duties includei) A review of previous day's performance to confirm that all forecasts made have been fully met. ii) Prepare current forecast indicating assistance needed from Hedquarters, adjoining Divisions, railways iii) Checking control charts and bringing to the notice of the Sr.DOM/DOM all avoidable detention to trains. iv) Punctuality performance with particular reference to trains which have not lost punctuality v) Granting engineering blocks, power blocks etc.,",
+        options: ["(ii), (iii) (iv) & (v)", "(i), (ii), (iv) & (v)", "(i), (ii), (iii) & (v)", "(i), (ii), (iii), (iv) &(v)"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM227]: Chief controller (Movement)/Dy. Chief Controller / Shift duty: He is responsible for: i) Running of goods trains, preparing interchange forecast, and monitoring the same, loco utilisation and passenger and goods train operations in general. ii) Dealing immediately with significant detentions or transport bottlenecks and other unusuals. iii) Co-ordinate the work of various Section Controllers. iv) Maintain indiscipline among control staff in the absence of Chief Controller. v) Maintain co-ordination and liaison with various functionaries involved in train running.",
+        options: ["(ii), (iii) (iv) & (v)", "(i), (ii), (iii) & (v)", "(i), (ii), (iii) & (iv)", "(i), (ii), (iii), (iv) &(v)"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM228]: Chief Controller (stock) / Dy. Chief Controller: is responsible for: i) Scrutinising the indent register in details with regard to the oldest date of registration, nature of goods and type of stock required for lifting goods as per the oldest date of registration. ii) Checking Divisional stock report and position of empties. iii) Chasing movements of stock as per supply order issued on the previous day. iv) Cross checking the daily Restriction Bulletin with Restriction Messages received from HQ office and issuing the same. v) Not Assisting the Sr. DOM/DOM in allotments.",
+        options: ["(ii), (iii) (iv) & (v)", "(i), (ii), (iv) & (v)", "(i), (ii), (iii) & (iv)", "(i), (ii), (iii), (iv) &(v)"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM229]: Duties of Deputy Chief Controller (Punctuality) i) Ensuring punctuality of passenger trains in system ii) Ensuring punctuality at the start of all outgoing passenger train iii) Maintaining Detention Reports of Coaching trains iv) Ensure that late running trains make up time",
+        options: ["(ii), (iii) & (iv)", "(i), (ii) & (iv)", "(i), (ii) & (iii)", "(i), (ii), (iii), & (iv)"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM230]: The Section Controller shall be responsible for: i) Recording the movement of trains on the 'Control' graph including crossing, connections and shunting reasons for detentions etc. ii) Arranging for the supply and clearance of stock as ordered by Stations. iii) Advising stations in advance of the work to be done on trains on move iv) Informing sheds and stations about the late running of trains to avoid the calling of Crew and Guards earlier than necessary or to put back trains wherever advisable. v) Informing major stations and concerned Section Controller about the current running of trains on the section and their anticipated arrivals well in time",
+        options: ["(ii), (iii) (iv) & (v)", "(i), (ii), (iv) & (v)", "(i), (iii), (iv) & (v)", "(i), (ii), (iii), (iv) &(v)"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM231]: The Section Controller shall be responsible for: i) Keeping in close touch with Engineering-blocks and working of material trains so as to give the minimum possible time with more detention to other traffic. ii) Incident management to include adjusting movements of trains in view of the likely impact of the incident, informing all concerned iii) Keeping a watch over damaged vehicles detached at road side stations and arranging repairs or transhipment of their contents and proper attention on the part of the train examining staff. iv) Arrangement of ART & M/Van in case of accident. v) Making timely arrangements for the relief of Guards /loco pilots whose duty hours are likely to exceed enroute. .",
+        options: ["(ii), (iii) (iv) & (v)", "(i), (ii), (iv) & (v)", "(i), (ii), (iii) & (iv)", "(i), (ii), (iii), (iv) &(v)"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM232]: Important instructions from control will first be recorded in a register maintained in the control office and serially numbered, commencing with number 1 after midnight each day is called____________.",
+        options: ["Control message book", "Control order register", "control notice", "Control chart"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM233]: No Terminal Station should start a goods or unscheduled train or block the section without the permission of the _______",
+        options: ["Sr.DOM", "Controller.", "Chief controller", "Dy.Chief controller"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM234]: The Controller's permission must be obtained before ___________that should run through except to avert an accident or dangerous condition.",
+        options: ["stopping a train", "starting the train", "GLP check", "checking the train"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM235]: Station Master must advise the controller of any _________________to trains at their stations with full explanation.",
+        options: ["unauthorised detention", "unauthorised or undue detention", "undue detention", "None of the above"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM236]: Whenever a train, either passenger or goods is detained at a station for longer than the booked halt without the orders of the Controller, on its departure, the Station Master must immediately inform the brief _______________to the Controller.",
+        options: ["particulars of train", "particulars of crew", "particulars of failure", "cause of the detention"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM237]: Whenever any damaged wagon is detached_______, the Station Master on duty should inform the Controller.",
+        options: ["in mid section", "at rear station", "out of course at a station", "at advance station"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM238]: ___________must promptly advise the Controller of any defects of signals, points, interlocking apparatus and line clear instruments at the stations.",
+        options: ["Station Master", "ESM", "TI", "S&T controller"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM239]: As soon as a train leaves a train starting station, the _________ must intimate the following particulars to the control office: Number and description of train, Engine number and class, Loco pilot's name, Guard's name, load of the train (in tonnes and vehicles) particulars of shunting to be done on the journey, time of departure, brief reasons of late start, time of sign on of crew, fuel balance etc.",
+        options: ["Shunting Master", "Station Master", "TI", "Pointsman"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM240]: Station Master of intermediate station must communicate to the Control as early as possible, the following information in regard to every train dealt with: i) In case the train has run through, the time it passed the station. ii) If it is a stopping train, the time or arrival and departure along with the explanation for every detention beyond the scheduled stoppage. iii) If any shunting has been performed, the number of vehicles attached and detached. iv) If any extra time has been taken in loading and unloading of packages, the number of such packages and name of the loading station.",
+        options: ["(ii), (iii) & (iv)", "(i), (ii) & (iv)", "(i), (ii), (iii) & (iv)", "(i), (iii) & (iv)"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM241]: Any Staff if required to speak with controller, must obtain ________________permission before speaking to Controller.",
+        options: ["CCC", "Traffic inspector", "Not required", "Station Master's"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM242]: The Control telephone is to be used for______________. The field staff wanting to talk to control will give their identity and ____________ communicate .",
+        options: ["operational purposes, wait for their turn to", "Personal talks, wait", "business purposes, wait for their turn", "operational purposes, immediately"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM243]: As the network over control telephone is intensively used, the conversation should be brief, meaningful and polite. ______________________must be avoided.",
+        options: ["Discussions and arguments", "Discussions, disputes and arguments", "Disputes and arguments", "Discussions and disputes"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM244]: As the network over control telephone is intensively used, the conversation should be _________________. Discussions, disputes and arguments must be avoided.",
+        options: ["brief and polite", "Meaningful and polite", "brief, meaningful and polite", "brief and meaningful"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM245]: When, however an urgent message has to be conveyed on control telephone, and the line happens to be engaged, the station name must be called indicating___________. The Controller will immediately attend to the Station.",
+        options: ["Urgent", "loudly", "on auto phone", "Emergency"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM246]: SM of the despatching station shall not ask ________________ for a less important train until the train is ready to leave and until the Section Controller's permission has been obtained.",
+        options: ["Line clear enquiry", "Line clear reply", "Line clear request", "Any other"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM247]: SM of the receiving station shall ___________________ for a less important train, until the Section Controller's permission has been obtained.",
+        options: ["grant line clear", "not grant line clear", "not permit", "Give a PN"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM248]: The permission of the _____________ must be obtained by the SM before the performance of any shunting, informing the likely duration to enable crossing and precedence of trains being arranged.",
+        options: ["Chief controller", "Traffic inspector", "Section controller", "Power controller"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM249]: Unless specific orders to the contrary are issued by the PCOM or by those acting on his behalf, the following general orders of precedence shall be observed by control and stations. Arrange in order of preference i) Departmental trains. ii) Super fast trains like Shatabdi, Rajdhani etc. iii) Suburban train in peak rush direction. iv) ARME, ART proceeding to the site of accident. v) Mail / Express trains. vi) Through goods train. vii) Passenger trains.",
+        options: ["(ii), (iii) (v), (i), (iv),(vii) & (vi)", "(i), (iii), (ii), (iv), (v), (vii) & (vi)", "(iii), (ii) (vi), (iv), (v),(vii) & (i)", "(iv), (iii) (ii), (v), (vii),(vi) & (i)"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM250]: A Passenger train nearing the end of its run should ___________in preference to a train which has a longer run before it, as the latter train is more likely to make up time and reach its destination punctually than the former.",
+        options: ["not normally be detained", "normally be detained", "be kept for crossing", "be kept for precedence"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM251]: A train ____________due to defective engine, or defect in rolling stock or any other cause which is likely to continue to operate against it and prevent it from making up time, should generally give way to a train running properly.",
+        options: ["running to time", "running late", "running before time", "none of the above"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM252]: In case of any accident or disaster the Order of priority to be given are :- i) Expedite restoration of train operation ii) Protect Railway property iii) Provide help to stranded passengers and arrange their prompt evacuation iv) Save lives and alleviate suffering v) Instil a sense of security amongst all concerned by providing accurate information vi) Ascertain the cause of accident, preserving clues by cordoning of incident site etc.",
+        options: ["(ii), (iii) (v), (i), (iv) & (vi)", "(i), (iii), (ii), (iv), (v) & (vi)", "(iii), (ii) (vi), (iv), (v) & (i)", "(iv), (iii) (v), (ii),(vi) & (i)"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM253]: There is a difference between a disaster and an accident. All disasters need not be the outcome of_____________, neither are all accidents classified as___________.",
+        options: ["collisions, disasters", "accidents, serious accidents", "train accidents , disasters", "human failures, consequential accidents"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM254]: In the context of Indian Railways, unusual events are classified as under:",
+        options: ["Incidents", "Accidents", "Emergency/serious accidents/disasters", "all the above"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM255]: In the context of Indian Railways, unusual events are classified as under ________ which cause delay to trains",
+        options: ["Accidents", "incidents", "Disasters", "None of the above"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM256]: In the context of Indian Railways, unusual events are classified as under ____________which have the potential or do actually cause loss of life and or injury and damage to property",
+        options: ["Accidents", "incidents", "Disasters", "None of the above"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM257]: _____________ may or may not necessarily be the outcome of train accidents but have the potential to cause loss of life and or injury to human beings causing further death/injury and wide spread and prolonged distress to all those involved unless tackled in an effective manner.",
+        options: ["Accidents", "incidents", "Disasters", "None of the above"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM258]: Which of the following are false The following is the list of personnel authorized to act as Officer-in-Charge site (OCS). i) Train Superintendent or Guard of the affected train ii) Doctor travelling by train iii) Station Manager/ Station Master iv) Rail Operations Supervisor or Traffic Inspector v) Any Railway Officer either on duty, off duty or on leave, present at the site of incident vi) Members of Division Disaster Management Team vii) GRP official escorting the train",
+        options: ["only (ii)", "(iii) &(vii)", "(v), (vi) &(vii)", "(ii) & (vii)"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM259]: When none of the authorised personnel are present at the accident spot, ____________ shall appoint an Officer-in-Charge site as directed by DRM from the personnel available.",
+        options: ["Sr.DOM", "Divisional control office", "Sr.DSO", "Traffic inspector"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM260]: The first Guard in Charge /Loco pilot, at the site of accident , shall act as the Officer-in-Charge site until he/she is relieved by the first _________ to arrive.",
+        options: ["Senior personnel", "Rail operations supervisor", "senior personnel /Rail Operations Supervisor", "DRM"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM261]: In case of accident, the Chief Controller or incharge of the control office shall: i) Ensure that ARME & ART is turned out on time ii) Appoint the initial Officer-in-Charge site iii) Coordinate all field activities and requests through the Officer-in-Charge site. iv) Notify members of Disaster Management Team and all departments and personnel, as required. v) Coordinate and direct unsafe movement of all trains, to include those trains not involved in the incident;",
+        options: ["(i), (ii), (iii) & (iv)", "(i), (iii), (iv) &(v)", "(ii), (iii), (iv) &(v)", "(i), (ii), (iii), (iv) & (v)"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM262]: In case of accident, the Chief Controller or incharge of the control office shall: i) Request Police /RPF assistance in critical stations for crowd control; ii) Keep Loco pilots and Station Managers informed of system status and instruct them to make appropriate announcements to their passengers; iii) Ensure that system-wide public address announcements are made frequently to provide patrons with up-to-date information concerning Rail System status; iv) Coordinate and assist Officer-in-Charge site with restoration activities and obtain, frequent updates on events v) Immediately Inform Commissioner Rail Safety and local civil authorities for all accidents",
+        options: ["(i), (ii), (iii) & (v)", "(i), (ii), (iii) & (iv)", "(ii), (iii), (iv) &(v)", "(i), (ii), (iii), (iv) & (v)"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM263]: In case of accident, the Officer-in-Charge site shall: i) Ensure that the safety of passengers and personnel at the incident scene is maintained; ii) Control and coordinate all field activities with personnel at the scene. iii) Coordinate all police related activities and requirements with the senior police official at the scene. iv) Update activities at the incident site and keep DIVISIONAL CONTROL OFFICE informed of progress; v) Maintain a chronological log of all events.",
+        options: ["(i), (ii), (iii) & (v)", "(i), (ii), (iii) & (iv)", "(ii), (iii), (iv) &(v)", "(i), (ii), (iii), (iv) & (v)"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM264]: Station Operations/Commercial personnel shall: i) Make appropriate station announcements; ii) Inform local people for protection of property of passengers and railway. iii) Assist Police with crowd control; and iv) Make every effort to identify and retain knowledgeable witnesses. or to obtain their testimony along with their address. v) Send relief trains at the accident site without informing to the officer in charge at site.",
+        options: ["(i), (ii), (iii) & (v)", "(i), (ii), (iii) & (iv)", "(i), (iii) & (iv)", "(i), (ii), (iii), (iv) & (v)"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM265]: Emergency Control shall be manned by designated officers as per procedure laid down shall take prompt action to inform concerned officers for all assistance to the Division by i) Mobilize resources and manpower. ii) Seek GM/PCOM's approval to relay the information to Railway Board iii) Regulate traffic on the affected line, on adjoining Divisions and Zonal railways, to include train cancellation, diversion rerouting and road bridging of stranded passengers. iv) Suspend the staff immediately involved in prima facie cause and initiate DAR action without enquiry v) CPRO will continuously brief media to inform passengers of the current status of rail situation.",
+        options: ["(i), (ii), (iii) & (v)", "(i), (ii), (iii) & (iv)", "(i), (ii),(iii) & (iv)", "(i), (ii), (iii), (iv) & (v)"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM266]: In case of accidents, Headquarter Commercial Control would collect following information: i) Time and place of accident ii) Details of dead/injured Passengers, rescue operations, helps/assistance being rendered at the site of accident, iii) Details of specials being run to the accident site and officials accompanying. iv) CCM/IT will get the reservation charts printed and supplied to control. v) In addition the addresses as per requisition slips shall also be collected by CCM/IT & supplied to Commercial control, and Divisional Control.",
+        options: ["(i), (ii), (iii) & (v)", "(i), (ii), (iii) & (iv)", "(i), (ii),(iii) & (iv)", "(i), (ii), (iii), (iv) & (v)"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM267]: In case of accident involving Goods Train, following actions will be taken promptly by the commercial department i) Arrangements of adequate labour by mobilising resources available at other stations as well as from the market locally, for unloading of material from the wagons involved in accident. ii) Adequate tarpaulins to cover the contents so that these are saved from rains etc. iii) Consignor/consignee would not be informed regarding involvement of their consignments in accident. iv) Arrangements of road transport for evacuation of the contents from the site of accident. v) To coordinate with the Operating branch for supply of adequate empty stock for transhipment /disposal of the contents.",
+        options: ["(i), (ii), (iii) & (v)", "(i), (ii), (iv) & (v)", "(i), (ii),(iii) & (iv)", "(i), (ii), (iii), (iv) & (v)"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM268]: In case of accidents Catering arrangements will be ensured by the Sr. DCM as follows i) Adequate eatables, water etc. is available at the site of accident in case of involvement of a passenger carrying train ii) Prepare advance section-wise nomination of catering agencies both departmental and private for rushing to site. iii) Open a stall at the site and ensure food is served on payment basis. iv) To supplement railways catering arrangements, nearby Dhabas and hotels should be contacted and arrangements made for opening up stalls at the site.",
+        options: ["(i), (ii), & (iv)", "(ii), (iii) & (iv)", "(i), (ii),(iii) & (iv)", "(i), (ii) & (iii)"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM269]: In case of accident the commercial department shall render the following assistance in hospitals i) One assistant officer/Inspector will be deputed in the hospitals to look after where injured passengers are admitted or dead passengers are kept. ii) All dead bodies must not be photographed after wiping their faces to establish identify. iii) The nominated officer will work in close coordination with doctors and render required help. iv) Officer incharge of the hospital will assist kith and kin of the passengers involved, in disposal of dead bodies, release injured passengers. v) Deputed official will obtain details like name, address, etc. of hospitalized/dead passengers. He will also obtain the details of injured, nature of injuries with the help of doctors and convey it to the divisional Commercial control.",
+        options: ["(i), (ii), (iii) & (v)", "(i), (ii), (iv) & (v)", "(i), (iii),(iv) & (v)", "(i), (ii), (iii), (iv) & (v)"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM270]: In case of accident the commercial department shall render the following assistance regarding Payment of exgratia i) Payment of ex-gratia at the site as well as in the hospitals will be arranged on the basis of the identification of injuries by the doctors. ii) Sr.DCM/DCM will ensure availability of sufficient cash for payment of ex.gratia. iii) CCO will also depute claims officials at the site/hospitals to assist the relatives of the injured/dead passengers regarding filing of claims for compensation. iv) If some injured passengers/kith & kin of deceased involved in accident have not been paid ex-gratia at the site of accident or in the hospital, arrangements should be made to pay at their residence by deputing officials of the division or seeking help of the other divisions/railway. v) If ex-gratia payment is made at their residence, it will be witnessed by the Pardhan or Sarpanch or any other responsible official of the area.",
+        options: ["(i), (ii) & (iii)", "(i), (ii), (iii) & (v)", "(i), (ii),(iii) & (iv)", "(i), (ii), (iii), (iv) & (v)"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM271]: Marshalling Yard can be classified under three groups on the basis of the method of sorting out trains:-",
+        options: ["Flat Yard", "Hump Yard", "Gravity Yard", "All the above"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM272]: Yards can be classified as:",
+        options: ["Terminal Yard", "Marshalling Yard", "Either'A' or 'B'", "Both 'A' & 'B'"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM273]: Yards are nominated as ___________on the basis of the work done and wagons dealt with.",
+        options: ["Terminal yards", "Sidings", "Marshalling Yards", "Private freight terminal"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM274]: _______ means the Yard attached to goods sheds where large number of wagons are loaded and/or unloaded.",
+        options: ["Terminal yards", "Sidings", "Marshalling Yards", "Private freight terminal"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM275]: The rights of the CONCOR shall include the following: i) The right to undertake the business of collecting, storing and loading onto Wagons, consignments of goods from any third party; ii) The right to determine, charge, collect, retain and appropriate all the fees that it charges from the consigners; iii) The right to obtain access to Rail Terminals and develop, own, operate and maintain Rail Terminals, including inland container depots; iv) Right to procure and own/lease locos for the trains. v) The right to procure and own/lease Wagons and containers.",
+        options: ["(i), (ii) & (iii)", "(i), (ii), (iii) & (v)", "(i), (ii),(iii) & (iv)", "(i), (ii), (iii), (iv) & (v)"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM276]: The CONCOR will be responsible for __________________operations at both the origin and destination Rail Terminals",
+        options: ["loading and unloading", "loading or unloading", "only loading", "only unloading"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM277]: All _______________like that contained in Commercial Manual, as amended from time to time and as applicable to other freight traffic moving on Indian Railways shall apply to the Container traffic.",
+        options: ["operating rules", "commercial rules", "concession rules", "schemes"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM278]: Each Rail Terminal, other than a Railway owned Terminal, that is used by the CONCOR shall have to the following: i) Rail facilities for handling CONCOR Trains along with locomotive in conformity with siding rules prescribed by Railway Administration from time to time. ii) Running staff/crew to work the trains between two terminals. iii) Be equipped with a RDSO approved in-motion weigh bridge of prescribed standards for weighing of Wagons with and without containers of the CONCOR's Train. iv) Be equipped with TMS and such other facilities as may be required to interface with, and v) Ensure transfer of data online to, FOIS of Railway Administration.",
+        options: ["(i), (ii), (iii) & (iv)", "(i), (ii), (iv) & (v)", "(i), (ii),(iii) & (v)", "(i), (ii), (iv) & (v)"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM279]: The CONCOR shall procure by way of purchase, lease or hire, Wagons including ______________required for the purposes of operating the CONCOR's Trains.",
+        options: ["Brake vans", "Containers", "Brake Vans and Containers", "couplings & wheels"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM280]: The CONCOR's Wagons shall be maintained by the Railway Administration and include________________.",
+        options: ["intensive examination", "routine overhaul (ROH)", "periodic overhaul (POH)", "all the above"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM281]: CONCOR will provide and maintain the requisite Wagon examination facilities(as specified by railway Administration) ____________and bear a one time capital cost for tools and plants approved by RDSO.",
+        options: ["outside the rail terminal", "inside the Rail Terminal", "at the serving stations", "at Junction stations"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM282]: Railway Administration shall normally complete the intensive train examination within a period of _________from the time the CONCOR's Wagons (in empty Rake formation) are handed over by the CONCOR for such examination",
+        options: ["4 hours", "5 hours", "6 hours", "8 hours"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM283]: At least four ___________ prior to the planned departure of CONCOR's Train, the CONCOR shall submit an indent (Indent for Locomotive) for supply of locomotive.",
+        options: ["4 hours", "5 hours", "6 hours", "8 hours"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM284]: The existing incentive schemes for ________________may be extended to the CONCOR's Trains with suitable modifications such that it is applied in a non discriminatory manner among different CONCORs.",
+        options: ["supply of BV", "Supply of wagons", "supply of crew", "supply of locomotives"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM285]: The CONCOR shall be liable to pay to Railway Administration Stabling Charges, only where the detention of the CONCOR's Train is for a period in excess of 4 hours.in the following events : i) In case the CONCOR's Train suffers detention at the serving station for reasons attributable to the CONCOR or ii) When the CONCOR declines to accept Wagons inside the Rail Terminal, iii) When the CONCOR declines to accept locos not ordered by them inside the Rail Terminal iv) In case of non acceptance of trains inside any port by the port authority concerned; v) At any of the stations en route due to any reason attributable to the CONCOR.",
+        options: ["(i), (ii), (iii) & (iv)", "(i), (ii), (iv) & (v)", "(i), (ii),(iii) & (v)", "(i), (ii), (iv) & (v)"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM286]: Passengers arriving at Road side stations at night may be allowed to occupy waiting halls ___________",
+        options: ["between trains", "until morning", "between trains or until morning", "connecting trains"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM287]: At junction stations passengers may use waiting halls when waiting for.",
+        options: ["between trains", "until morning", "between trains or until morning", "connecting trains"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM288]: To ensure that bona fide use of waiting rooms is being made, they shall be checked by a ticket checking staff every ________",
+        options: ["8 hours", "5 hours", "4 hours", "3 hours"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM289]: Station Master or Parcel Clerk shall ensure Parcel, luggage, goods and vendors' trays and barrows shall not be placed on passenger platforms within 3 meters of the edge of the platform.",
+        options: ["2 metres", "3 metres", "4 metres", "5 metres"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM290]: The barrows with _______________which are to be loaded, be kept 3 metres away at a point opposite where the vehicle, into which they are to be loaded is likely to stop.",
+        options: ["passenger baggage", "Guard's box", "parcels or luggage", "cash safe"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM291]: Packages ____________must be removed as quickly as possible to the usual place of stacking, if they are not taken away into luggage and parcel offices or the goods shed.",
+        options: ["loaded by train", "unloaded from a train", "unloaded from passenger coaches", "None of the above"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM292]: Under no circumstances should ______________be left on the platform in such a position that they may roll into the track.",
+        options: ["drums and barrels", "drums", "barrels", "drums or barrels"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM293]: Conductor or TTEs are responsible for ensuring that _____________of all coaches are functioning satisfactorily.",
+        options: ["electrical equipments", "electrical fittings", "electrical equipments or fittings", "electrical equipments and fittings"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM294]: Where any defect or deficiency is noticed in electrical equipments and fittings , they should inform the ______________or advise through control to the next station where electrical staff is provided.",
+        options: ["electrical staff from the nearby village", "electrical staff available by the train", "electric staff on duty of AC coaches", "Station Master of next station"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM295]: Conductor and TTEs must see that passengers are not getting in and out of carriage when trains are about to start and that no one is travelling on the____________.",
+        options: ["couplings", "roofs of carriage", "locos", "in rear of SLR"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM296]: For greater safety of the travelling public, passengers suffering from _______________should be segregated from other passengers by TTE with the help of security forces.",
+        options: ["infections or contagious diseases", "infections and contagious diseases", "infection diseases", "contagious diseases"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM297]: When alarm chain has been pulled mischievously or for an unjustifiable cause or the hose pipe has been disconnected by some miscreants, the Conductor or TTE in charge must ascertain the ________who pulled the chain or disconnected the hose pipe.",
+        options: ["ticket no. of passenger", "witness of other passengers", "name of the person", "contact No. of the person"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM298]: Conductor or TTE should make a report regarding the alarm chain pulling or the hose pipe disconnection incident and hand over the same to_____________, if time permits who will take action in lodging the report with the GRP of the station in whose jurisdiction the incident has occurred.",
+        options: ["SM of station at which incident occurs", "at the next stopping station", "Either A or B", "Both A & B"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM299]: Passenger of all classes occupying reserved accommodation shall not be roused for tickets, to be rechecked between ________ except when there are reasons to believe that a certain passenger is travelling without a ticket",
+        options: ["20 hours & 06 hours", "00.00 hours & 06 hours", "23 hours & 5 hours", "22 hours & 06 hours"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM300]: TTE,s of trains are to arouse AC and Ist class Passengers at night at any station ______________by the passengers to do so and will be assisted by the coach attendant.",
+        options: ["when requested", "when instructed", "when demanded", "compulsorily"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM301]: When a request is made by a passenger for waking up in night, Ticket Checking staff shall enter in the _________the name of the passengers /class/No. of the carriage occupied and name of station at which the passenger is to be called.",
+        options: ["remainder message", "wake up memo", "chart", "diary"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM302]: In no case, whatever, shall a male passenger except a boy under _______________ of age be allowed to travel in a compartment reserved for Ladies in any train.",
+        options: ["8 years", "10 years", "12 years", "15 years"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM303]: A lady travelling alone at night in a first class compartment reserved for ladies may take with her in the same compartment, one women attendant holding ______for that portion of the journey which is performed between the hours 8 p.m. and 6 a.m.",
+        options: ["a second class ticket", "no ticket", "sleeper ticket", "II/III AC ticket"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM304]: It will be the duty of the train manning staff or station staff to ________to any injured person within Railway premises immediately.",
+        options: ["render help", "assist him to hospital", "call a doctor", "render first aid"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM305]: If a crime of serious nature such as a murder or a serious assault be committed in a Railway carriage on a running train, the Conductor or TTE of the train shall have the compartment _______________",
+        options: ["emptied and locked up", "emptied", "locked up", "emptied or locked up"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM306]: _____________ shall report to the train guard for his appearance and the time of his appearance shall be noted down by the train guard in the Constitution Report.",
+        options: ["Train Conductor", "TTE", "TCs", "AC maintenance staff"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM307]: Duties of Train Conductor i) See that the passenger carriages are thoroughly cleaned and filled with water. ii) Look after the safety and comfort of passengers of all classes iii) Make it a practice to walk along his train at stations to see if passengers want any assistance or information and keep a careful look out for irregularities of any kind, specially at night. iv) Wake up all class passengers alighting at night if requested; v) See, as far as possible that there is no irregular or unauthorized travel by trains.",
+        options: ["(i), (ii), (iii) & (iv)", "(i), (ii), (iv) & (v)", "(i), (ii),(iii) & (v)", "(i), (ii), (iv) & (v)"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM308]: Duties of Train Conductor i) Note the Coach, which is to be detached short of the destination of the train, must see that such carriages are not occupied by passengers who have tickets for beyond the station to which they are booked. ii) Conductor must see that passengers are not getting in and out of carriages when trains are about to start and that no one is travelling on the roof of carriages iii) In the event of any passenger being found molested, a passenger's property being stolen or tempered with, he shall, promptly, take action in conjunction with the guard in-charge of the train, or the station master as the case may be and see that police is advised immediately. iv) The passenger's name, address and ticket numbers of those who are allegedly responsible for the trouble and also the some witnesses, should be taken and full report submitted to the Divisional Commercial Manager concerned. v) When alarm chain is pulled or hose pipe is disconnected, the disc at the end of the reserved coach should be returned to normal position and FIR to be lodged to GRP under advice to Guard/ Station Master",
+        options: ["(i), (ii), (iii) & (iv)", "(i), (iii), (iv) & (v)", "(i), (ii),(iii) (iv)& (v)", "(i), (ii), (iv) & (v)"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM309]: Following objects shall be borne in mind while conducting inspection i) Verify whether every Railway employee is fully conversant with rules, instructions and procedures relating to his duties. ii) Ascertain that staff is performing their duties according to rules, instructions and the procedure in force. iii) Observe the conditions actually prevailing at the work spots to understand the difficulties experienced by staff including their personal grievances and seeking on the spot redressal. iv) Ensure that full complement of staff and equipment is available and staff have knowledge of its operation. v) Ascertain that registers, documents and other records are not being maintained and preserved according to instructions.",
+        options: ["(i), (ii), (iii) & (iv)", "(i), (ii), (iv) & (v)", "(i), (ii),(iii) (iv)& (v)", "(i), (iii), (iv) & (v)"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM310]: Following objects shall be borne in mind while conducting inspection i) Monitor the behaviour of staff towards customers, particularly promptness of response and willingness to help. ii) Assess as far as possible that the interest of the public and the Railways are not kept in view and safeguarded. iii) Inculcate discipline and build up the morale of the workers. iv) Check the compliance of previous inspection reports. v) Analyse efficiency targets vis-à-vis performance.",
+        options: ["(i), (ii), (iii) & (iv)", "(i), (iii), (iv) & (v)", "(i), (ii),(iii) (iv)& (v)", "(i), (ii), (iv) & (v)"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM311]: During inspections detect undesirable shortcuts, irregularities or unsafe practices being resorted to by the staff taking remedial action which may be:-",
+        options: ["Educative", "Corrective", "Punitive", "All the above"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM312]: During inspections detect undesirable shortcuts, irregularities or unsafe practices being resorted to by the staff taking remedial action which may be:-_____________, in case these are resorted to out of ignorance.",
+        options: ["Educative", "Corrective", "Punitive", "authorative"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM313]: During inspections detect undesirable shortcuts, irregularities or unsafe practices being resorted to by the staff taking remedial action which may be:- ________, if there is something wrong in the working conditions, or there are system deficiencies.",
+        options: ["Educative", "Corrective", "Punitive", "authorative"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM314]: During inspections detect undesirable shortcuts, irregularities or unsafe practices being resorted to by the staff taking remedial action which may be:- ________, if resorted to wilfully or negligently and persisting even after repeated guidance and counselling.",
+        options: ["Educative", "Corrective", "Punitive", "authorative"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM315]: Inspections, thus provide the means to achieve __through spot checks and personal contact with the staff on line.",
+        options: ["efficiency or effectiveness", "efficiency", "effectiveness", "efficiency and effectiveness"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM316]: Various Types of Inspections include -Regular Inspection, Safety Inspections, __________, Night Inspection, Level Crossing Inspections, Surprise Inspection by Road, Footplate Inspections, Joint Footplate Inspections, Surprise Speed checks, Running Rooms Inspections, Ambush checks, Running Trains Inspections, Loco shed inspections, C & W Depots inspections, Accident Relief / Medical Equipment Scale I (ARME)",
+        options: ["Casual inspection", "Surprise Inspection", "Safety meeting", "Proxy inspection"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM317]: Various Types of Inspections include -___________, Safety Inspections, Surprise Inspection, Night Inspection, Level Crossing Inspections, Surprise Inspection by Road, Footplate Inspections, Joint Footplate Inspections, Surprise Speed checks, Running Rooms Inspections, Ambush checks, Running Trains Inspections, Loco shed inspections, C & W Depots inspections, Accident Relief / Medical Equipment Scale I (ARME)",
+        options: ["Regular inspection", "Casual inspection", "Safety meeting", "Proxy inspection"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM318]: Various Types of Inspections include -Regular Inspection, Safety Inspections, Surprise Inspection, __________, Level Crossing Inspections, Surprise Inspection by Road, Footplate Inspections, Joint Footplate Inspections, Surprise Speed checks, Running Rooms Inspections, Ambush checks, Running Trains Inspections, Loco shed inspections, C & W Depots inspections, Accident Relief / Medical Equipment Scale I (ARME)",
+        options: ["Casual inspection", "Safety meeting", "Night Inspection", "Proxy inspection"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM319]: Various Types of Inspections include -Regular Inspection, Safety Inspections, Surprise Inspection , Night Inspection, Level Crossing Inspections, Surprise Inspection by Road, _____________, Joint Footplate Inspections, Surprise Speed checks, Running Rooms Inspections, Ambush checks, Running Trains Inspections, Loco shed inspections, C & W Depots inspections, Accident Relief / Medical Equipment Scale I (ARME)",
+        options: ["Casual inspection", "Proxy inspection", "Safety meeting", "Footplate inspections"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM320]: Inspection in which each station on the division is inspected in details at least once in every six months covering the various aspects of safety, operations and allied matters including staff matters and comprehensive in nature is called__________",
+        options: ["Regular inspection", "surprise inspection", "Footplate inspection", "safety inspection"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM321]: Regular inspection in which each station on the division is inspected in details at least ___________covering the various aspects of safety, operations and allied matters including staff matters and comprehensive in nature",
+        options: ["once in every three months", "once in every four months", "once in every six months", "once in every 12 months"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM322]: Inspections which are basically meant to be preventive by detecting short cut methods and unsafe practices resorted to by train passing, running and maintenance staff is known as________.",
+        options: ["Regular inspection", "surprise inspection", "Footplate inspection", "safety inspection"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM323]: In case of any serious irregularity is observed in safety inspection, the inspecting officials must at once inform ____________ concerned personally or telephonically beside making a written report.",
+        options: ["Sr.DSO/DSO", "Sr.DSO/DSO or Sr.DOM/DOM", "Sr.DOM/DOM", "Sr.DSO/DSO and Sr.DOM/DOM"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM324]: Officers and Inspectors may inspect a station either while passing through it or during the short time at their disposal or when they want to check some aspect at the station without prior notice and has a element of surprise is known as.",
+        options: ["Regular inspection", "surprise inspection", "Footplate inspection", "safety inspection"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM325]: Minimum Surprise Inspections that shall be conducted by the sectional TI in a month is ________.",
+        options: ["3", "4", "5", "6"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM326]: ______________ inspection may be carried out between 00 hrs. to 4 hrs. because during this period, the staff is likely to be lethargic and negligent in duties.",
+        options: ["Regular", "surprise", "Surprise night", "safety"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM327]: Inspections approached by Bus/Taxi, which have an element of surprise and create a sense of alertness amongst the staff and carried out without informing anybody is known as________..",
+        options: ["Surprise Inspection by Road", "Surprise inspection by train", "Surprise inspection by trolley", "Road inspection"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM328]: Inspections which are carried out by travelling on the engine of running trains and afford an opportunity to observe and check certain aspect of working on the engine, along the track and at the stations which can not be checked otherwise is _________",
+        options: ["Joint footplate inspections", "Footplate Inspections", "Surprise inspections", "Inspections of the loco"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM329]: Inspections which are carried out jointly with officials of Electrical (Running), Permanent Way and Signalling, checking the visibility of the signals, their locations, operations, lighting up, speed restrictions and caution boards rail wheel interaction and loco pilots' and assistant loco pilots' operating behaviour is known as.",
+        options: ["Joint footplate inspections", "Footplate Inspections", "Surprise inspections", "Inspections of the loco"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM330]: In order to ensure the maximum permissible speed are not exceeded, permanent and temporary speed restrictions are correctly observed and limits of speed over turnouts and facing points are observed, __________should be conducted as per schedule.",
+        options: ["surprise checks", "speed monitoring", "surprise LP check", "surprise speed checks"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM331]: During regular, safety, surprise and night inspections opportunity should also be taken to inspect _______ to ensure that running staff are able to get proper food and resting facilities.",
+        options: ["Sign on kiosk", "Running Rooms", "welfare of running staff", "systems of Lobbies"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM332]: In order to ensure rigid observation of rules when automatic stop signals are passed in 'ON' position the inspecting officials should carry out ______with the help of signalling officials who will arrange to put an automatic stop signal to 'ON' position.",
+        options: ["surprise checks", "speed checks", "ambush checks", "Alertness checks"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM333]: Inspections carried out whenever an operating officer or an inspector is travelling by a train on duty, and pay special attention in observing the performance of duties by Guards, Loco pilots, Station staff, Gatemen and others is known as ________.",
+        options: ["Running Trains Inspections", "Train inspections", "Inspections of train crew", "surprise inspections"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM334]: Each Break down train- Accident Relief Train (ART) shall be inspected _____________.",
+        options: ["once in a month", "once in 2 months", "once in 3 months", "once in 4 months"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM335]: Which of the statements is/are false in case of conducting inspections by Sr.DSO/DSO i) Regular Inspection -atleast 2 important stations as nominated by the PCSO ii) Safety Inspections-4 stations every Month iii) Surprise Inspections-As often as possible (minimum 2 every month) iv) Night Inspections – 2 per month each on Level crossing, Station & Footplate on goods train v) Individual footplate inspections –one section per month by Mail/Express/Pass. & by goods trains",
+        options: ["only (i)", "Only (iv)", "Only (v)", "(i) & (iv)"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM336]: Which of the statements is/are false in case of conducting inspections by TIs i) Regular inspections half yearly-All stations in their jurisdiction once in three months. ii) Surprise inspections – as often as possible (minimum 6 every month) iii) Night inspections- 6 each at LC gates, Stations & footplate on goods train iv) Individual footplate inspections- 1 section per month by both Mail/express/pass & 3 goods trains",
+        options: ["only (i)", "Only (iii)", "Only (v)", "(i) & (iv)"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM337]: Before _______________the inspection, all inspection books should be called for and the notes made by inspecting official previously should be carefully persued to check whether the staff have complied with instructions. If any of these instructions have not been carried out written explanation of the Station Master should be obtained.",
+        options: ["terminating", "submitting report of", "conversing with SM", "commencing"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM338]: It requires both expertise and experience to carry out intelligent inspections. To evolve a sound technique of inspections an inspecting official should: i) Have a clear understanding of not only G& S Rules but also of Station Working Rules. ii) Should have a clear conception about the feature of working which he intends to check during his inspection. iii) Inspect the aspect of working by thorough inspection records & equipments and personal observation of actual operations. iv) Discuss the irregularities or lapses noticed during inspection with the staff as well as those supervising their work. v) Discuss, how the staff are co-ordinating with other departments and if any issue conflicting is there try to resolve in consultation of the staff of other departments.",
+        options: ["(i), (ii), (iii) & (iv)", "(i), (iii), (iv) & (v)", "(i), (ii),(iii) (iv)& (v)", "(i), (ii), (iv) & (v)"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM339]: Arrange the objectives of interlocking for taking off signals given below in sequential order:- i) Prevention of conflicting movements ii) Holding, iii) Locking iv) Setting of route.",
+        options: ["(iv),(iii), (ii) & (i)", "(iii), (iv), (ii) & (i)", "(iv),(iii), (i) & (ii)", "(iii),(iv), (ii) & (i)"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM340]: Which of these is correct regarding Types of Interlocking: i) Mechanical Interlocking. ii) Panel Interlocking (Relay) iii) Visual display unit iv) Route Relay Interlocking. v) Solid State Interlocking.",
+        options: ["(i),(iii), (iv) & (v)", "(i), (ii), (iv) & (v)", "(i),(ii), (iii) & (iv)", "(i),(ii), (iii), (iv) & (v)"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM341]: In_______________, the functions are operated by levers, the relationship that should exist between the functions can be transferred to exist between the levers.",
+        options: ["Panel interlocking", "Route relay interlocking", "mechanical interlocking", "Solid state interlocking"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM342]: Where interlocking is done between one route and another route in big yards and SM is required press two buttons simultaneously for operation of an event is known as",
+        options: ["Panel interlocking", "Route relay interlocking", "mechanical interlocking", "Solid state interlocking"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM343]: Computer based interlocking which uses thousands of Electro-mechanical relays requiring complex wiring and Inter-connections. Is known as",
+        options: ["Panel interlocking", "Route relay interlocking", "mechanical interlocking", "Solid state interlocking"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM344]: SSI system occupies considerably less space, consumes less power, is more reliable and is easy to____________..",
+        options: ["install and maintain", "install", "maintain", "install or maintain"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM345]: In SSI system initial commissioning & __________________________can be carried out in negligible time requiring skeleton manpower for traffic management during the blocks.",
+        options: ["changes in interlocking", "changes in staff", "changes due to yard re-modeling", "training of staff"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM346]: Which of the following is/are not Advantages of SSI:- i) Increase in section capacity. ii) Faster operation. iii) User friendly operation. iv) Increase in staff v) Fail safe technique vi) Identification & Rectification takes more time vii) Multiple mode operation.",
+        options: ["Only (i)", "(i), (iv) & (v)", "(iv), (v) & (vii)", "(iv) & (vi)"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM347]: Which of the following is not the Significance of SSI for operating staff: i) Reduces man power ii) Centralised operation iii) Control cum indication panel iv) Video display unit (P.C) v) CTC (Centralised Traffic Control)—permits remote control vi) Significant reduction in traffic block time vii) Easier & simple operation",
+        options: ["Only (i)", "Only (iii)", "(vi) & (vii)", "None of the above"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM348]: ____________means that the points are set and locked from one place and the signals are operated from another place and another lever frame; the interlocking is effected by means of keys carried from one place to the other.",
+        options: ["Indirect interlocking", "Direct interlocking", "Hibrid interlocking", "mechanical locking"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM349]: _______________________ means point, the point locks and the signal levers are concentrated in one lever frame and worked there from;",
+        options: ["Indirect interlocking", "Direct interlocking", "Hibrid interlocking", "mechanical locking"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM350]: Interlocking at stations is standardized into _________________different classes",
+        options: ["one", "two", "three", "Four"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM351]: Maximum speed permitted for a train to run at a Standard I.(R) interlocked station is",
+        options: ["30kmph", "50kmph", "110kmph", "140kmph"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM352]: Maximum speed permitted for a train to run at a Standard II.(R) interlocked station is",
+        options: ["50kmph", "75kmph", "110kmph", "140kmph"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM353]: Maximum speed permitted for a train to run at a Standard III.(R) interlocked station is",
+        options: ["50kmph", "75kmph", "110kmph", "140kmph"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM354]: Maximum speed permitted for a train to run at a Standard IV.(R) interlocked station is",
+        options: ["50kmph", "110kmph", "140kmph", "160kmph"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM355]: An extended portion of track of minimum 180m used to isolate main line from loop line and can be an efficient substitute for signal overlp is known as _______________.",
+        options: ["Snag Dead End", "Sand hump", "Trap points", "Derailing switch"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM356]: An extended portion of rail embedded in sand of 60m in length with increasing gradient of 1 in 60 of which first 30m is laid with normal track embedded in sand and remaining an earthen lump of 4m width is known as ______",
+        options: ["Snag Dead End", "Sand hump", "Trap points", "Derailing switch"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM357]: Sand hump is an extended portion of rail embedded in sand of ____ in length with increasing gradient of 1 in 60",
+        options: ["20M", "40M", "60M", "100M"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM358]: Sand hump is an extended portion of rail embedded in sand of 60 M in length with increasing gradient of ______",
+        options: ["1 in 100", "1 in 90", "1 in 80", "1 in 60"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM359]: A single rail cut point provided to isolate running line from non running line and when vehicle moves over it if it is open the vehicle derails is known as ___________",
+        options: ["Snag Dead End", "Sand hump", "Trap points", "Scotch block"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM360]: A lump of log covered with iron sheets and coloured red, connected with a chain tied up on the earth and placed across the rail and locked to prevent vehicles moving away used normally to isolate running line from non-running line is _________",
+        options: ["Scotch block", "Sand hump", "Trap points", "Snag Dead End"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM361]: A device designed to limit the movement of free rolling, uncontrolled wagons/vehicles accomplished by grinding the flange of a wheel up and over the railhead, dropping the wheel clear of the rail on outside of the rails is ___________",
+        options: ["Scotch block", "Hayes Derail", "Trap points", "Snag Dead End"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM362]: An extended portion of track about 15feet from points ending with some sand to isolate main line from loop line and an efficient substitute for signal overlap and when vehicle moves it will derail on the sand is known as ____________",
+        options: ["Scotch block", "Hayes Derail", "Derailing switch", "Snag Dead End"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM363]: EGGN button is for",
+        options: ["Route initiation", "emergency full route release", "Emergency sub route release", "Emergency signal"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM364]: EUUYN button is for",
+        options: ["Route initiation", "emergency full route release", "Emergency sub route release", "Emergency signal"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM365]: WN button is",
+        options: ["signal button", "route button", "point button", "shunt signal button"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM366]: GN button is",
+        options: ["signal button", "route button", "point button", "shunt signal button"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM367]: WWN button is for",
+        options: ["emergency point release", "common/group point", "point failure", "power supply failure acknowledgement"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM368]: 'UN' button is ------",
+        options: ["signal button", "route button", "point button", "shunt signal button"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM369]: Emergency point button code is ------",
+        options: ["WWN", "EWN", "EUYN", "WN"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM370]: To put back the signal to 'ON' position in SSI panel, buttons to be pressed are",
+        options: ["UN&EUYN", "EUUYN&GN", "GN&UN", "GN&EGGN"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM371]: To take 'off; signal in SSI panel _____________________ buttons are to be presses",
+        options: ["UN&EUYN", "EUUYN&GN", "GN& concerned UN", "GN&EGGN"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM372]: The object of issuing____________is to inform all staff concerned with working of trains about the special features of the station to ensure safe train operations at & between stations including level crossings, depending on local conditions.",
+        options: ["Station Working Rules", "Gate working rules", "Temporary working instructions", "Temporary working rules"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM373]: Power to issue SWRs has been delegated to the ______________jointly for all stations within the Division.",
+        options: ["Sr.DOM/DOM", "Sr.DOM/DOM and Sr.DSTE/DSTE", "Sr.DSTE/DSTE", "Sr.DOM/DOM or Sr.DSTE/DSTE"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM374]: ______will prepare/amend the Rule Diagram on the basis of signalling plan/appendices and send the Rule Diagram and also signalling plan/ appendices in case of interlocked station, to the Sr.DOM/DOM for framing Station Working Rules.",
+        options: ["Sr.DSTE/DSTE", "TI/SWR", "Sr.DEN/DEN", "Sr.DEE/DSEE"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM375]: The Sr.DOM/DOM will arrange for preparation of the Draft Working Rules by the _________in the Standard Format, after which these will be checked and approved by the Sr.DOM/DOM personally. In case of interlocked stations the Draft Working Rules shall be checked and approved by Sr.DSTE/DSTE. Sr.DEE/DEE (TRD) shall also be associated in electrified sections.",
+        options: ["TI/Concerned section", "TI/General", "TI/SWR", "SSE/Signal/SWR"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM376]: If there is a 'D' (_____) and 'DK' (______________) between two Block Stations, the SWRs of the Block Stations on either side shall contain a reference to such D/DK class Station in SWR.",
+        options: ["Station, station with siding", "Flag Station, station with coaching siding", "Block Station, Flag station", "Flag Station, station with siding"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM377]: The SWRs should be reviewed once in every___________. In case the review brings out the necessity of carrying out changes, the SWRs should be re-issued.",
+        options: ["four years", "five years", "six years", "seven years"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM378]: Whenever any addition/amendment is required to be made in the said rules, the ____________ by concerned officers on which the provisions requiring addition/amendment appears should be replaced.",
+        options: ["entire page/pages duly signed", "relevant portion be pasted and signed", "relevant portion of the page duly signed", "page/pages"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM379]: If SS/SM finds any discrepancy in the SWR, he shall immediately bring such discrepancies and difficulties to the notice of the________________.",
+        options: ["Sr.DOM/DOM or TI of the section", "Sr.DOM/DOM", "Sr.DOM/DOM and TI of the section", "TI of the section"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM380]: Before taking up duties independently at the station staff associated with train passing duties, must sign a declaration in the ___________in token of having studied the SWRs, Rule Diagram and other instructions pertaining to their duties and understood the same.",
+        options: ["SWR", "Acknowledgement book", "Safety register", "Assurance Register"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM381]: In case of_______________, Station Manager in charge shall explain SWRs, Rule Diagram and their duties and obtain their acknowledgements in the Assurance Register as a token of their having understood the instructions and certify.",
+        options: ["literate staff", "illiterate staff", "staff who are not able to understand", "Other than SMs"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM382]: Fresh assurance for SWR shall be obtained in the Assurance Register from the staff concerned when – i. He joins at the station as a new member, ii. There is any change in the Station Working Rules, iii. He resumes duty at the station after an absence of 15 consecutive days or more. iv. When it mutilated/misplaced/torn",
+        options: ["(i) is not correct", "(ii) is not correct", "(iii) is not correct", "(iv) is not correct"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM383]: SWR must be page numbered with the station name code written on each page and signed on each page by the DOM and DSTE at ____",
+        options: ["non interlocked stations", "top of each page", "interlocked stations", "Non block stations"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM384]: SWR must be page numbered with the station name code written on each page and signed by the DOM and DEN at ____",
+        options: ["non interlocked stations", "top of each page", "interlocked stations", "Non block stations"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM385]: Temporary Working order is an embodiment of detailed instructions issued and circulated by the ________whenever any pre-planned work of signalling, electrical (OHE) or engineering department is to be executed, requiring special safety precautions to be observed by staff.",
+        options: ["DOM/DSTE", "Sr.DOM/DOM", "DOM/DEN", "DOM/DEE"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM386]: Working of level crossing gates is mentioned in ____________ ofStation working rules",
+        options: ["APPENDIX 'A'", "APPENDIX 'B'", "APPENDIX 'C'", "APPENDIX 'D'"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM387]: System of signalling, interlocking and communication arrangements at station is mentioned in ___________ of Station working rules",
+        options: ["APPENDIX 'A'", "APPENDIX 'B'", "APPENDIX 'C'", "APPENDIX 'D'"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM388]: Anti collision device (Raksha Kavach) is mentioned in _______________ of Station working rules",
+        options: ["APPENDIX 'A'", "APPENDIX 'B'", "APPENDIX 'C'", "APPENDIX 'D'"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM389]: Duties of train passing staff and staff in each shift is mentioned in _______________ of Station working rules",
+        options: ["APPENDIX 'A'", "APPENDIX 'B'", "APPENDIX 'C'", "APPENDIX 'D'"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM390]: List of essential equipments provided at the station is mentioned in _______________ of Station working rules",
+        options: ["APPENDIX 'D'", "APPENDIX 'E'", "APPENDIX 'F'", "APPENDIX 'G'"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM391]: Rules for working of DK stations, halts, IBH, IBS, and Outlying sidings is mentioned in ________ of Station working rules",
+        options: ["APPENDIX 'D'", "APPENDIX 'E'", "APPENDIX 'F'", "APPENDIX 'G'"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM392]: Rules for working of trains in electrified sections is mentioned in ________ of Station working rules",
+        options: ["APPENDIX 'D'", "APPENDIX 'E'", "APPENDIX 'F'", "APPENDIX 'G'"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM393]: Station working rule diagram is mentioned in ________ of Station working rules",
+        options: ["Chapter I", "Chapter II", "Chapter VI", "Chapter VII"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM394]: Description of station is mentioned in ________ of Station working rules",
+        options: ["Chapter I", "Chapter II", "Chapter VI", "Chapter VII"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM395]: System of train working is mentioned in ________ of Station working rules",
+        options: ["Chapter I", "Chapter II", "Chapter VI", "Chapter VII"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM396]: Blocking of line is mentioned in ________ of Station working rules",
+        options: ["Chapter I", "Chapter II", "Chapter VI", "Chapter VII"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM397]: Shunting is mentioned in ________ of Station working rules",
+        options: ["Chapter VIII", "Chapter IX", "Chapter X", "Chapter XII"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM398]: Abnormal conditions is mentioned in ________ of Station working rules",
+        options: ["Chapter VIII", "Chapter IX", "Chapter X", "Chapter XII"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM399]: Visibility test object is mentioned in ________ of Station working rules",
+        options: ["Chapter VIII", "Chapter IX", "Chapter X", "Chapter XII"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM400]: Fog signal men nominated to be called in case of fog is mentioned in ________ of Station working rules",
+        options: ["Chapter VIII", "Chapter IX", "Chapter X", "Chapter XII"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM401]: The draft of ____________ is prepared by the supervisor concerned department of engineering, signalling and electrical detailing the requirement of the work and precaution to be observed.",
+        options: ["Station Working Rules", "Temporary working order", "Working instructions", "Temporary instructions"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM402]: _______________means temporary disconnection of points, signals, track circuits, axle counters and other signalling gadgets for any designated works.",
+        options: ["N.I. Working", "interlocked working", "working during failures", "None of the above"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM403]: At the project proposal stage itself, _________________should make it clear whether the project requires NI or not; and if it does, the duration of such NI.",
+        options: ["Operating department", "S&T department", "Engineering department", "Electrical department"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM404]: _________________must quantify anticipated losses on account of Non interlocked working due to cancellation, short termination, diversion, rescheduling, detention to trains and imposition of restriction on booking/movement of freight traffic",
+        options: ["Sr. DOM", "Sr. DCM", "Sr. DOM & Sr. DCM", "Sr. DOM or Sr. DCM"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM405]: NI working is not required and the work can be managed by traffic block in following cases :\ni) Replacement of Mechanical lever frame by panel.\nii) Replacement of Panel by RRI.\niii) Replacement of RRI by RRI.\niv) Commissioning of new SSI/RRI.\nv) Amalgamation of newly constructed double line portion into existing conventional double line.",
+        options: ["All are true", "All are false", "Only (i) & (v) are true", "Only (ii) & (iii) are false"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM406]: NI working is not required for following cases :\n(i) Overhauling of cabins.\n(ii) Replacement of Panel by Panel at road side stations.\n(iii) Meggering of cables.\n(iv) Changes in yard layouts",
+        options: ["All are true", "All are false", "Only (i) & (v) are true", "Only (ii) & (iii) are false"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM407]: General instructions during NI working to be observed are\ni) Speed restriction of 15 kmph. shall be imposed over all facing points.\nii) The common line should be used for reception of trains coming from opposite directions.\niii) Emergency and other crossovers including sidings taking off from the station should be set for normal position and clamped and padlocked.\niv) The keys of all padlocked points of crossovers must be kept in the personal custody of the overall incharge of NI working to prevent their being used even by mistake.",
+        options: ["All are true", "All are false", "Only (i) & (v) are true", "Only (ii) is false"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM408]: Train Running on double line section during NI working :\ni) Twin single line should be suspended during and section worked as conventional double line only.\nii) No temporary single line working should be introduced, except in case of an accident.\niii) At road side stations on double line, route must be set for platform line in each direction and clamped and padlocked.\niv) In case there is more than one platform in each direction, route must be set for one nominated platform.\nv) At all such stations precedence should be arranged.",
+        options: ["All are true", "All are false", "Only (v) is false", "Only (ii) & (iii) are true"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM409]: Train Running on single line section during NI working :\ni) If possible only one platform line should be nominated for train running.\nii) The route must be set for this platform line in each direction and clamped and padlocked.\niii) Precedence or crossing may be arranged at this station.\niv) In case it is not possible to nominate only one line, then 2 specific lines should be nominated for Up and Down movement.\nv) In that case, while crossings would have to take place, no precedence should be arranged at this station",
+        options: ["All are true", "All are false", "Only (iii) are false", "Only (ii) is true"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM410]: For NI working of up to 3 days, plans will be finalized in consultation with____________, Branch Officers and concerned HOD of Construction/RE Organization.",
+        options: ["DRM", "Sr.DSO", "PCSO", "PCOM"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM411]: For NI working of more than 3 days, plans will be finalized in consultation with ___________and HOD of RE/Construction Organization at Zonal level to assess the duration and arrangements of NI working.",
+        options: ["CTPM", "CTPM, CPTM", "CTPM", "PCSO"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM412]: For NI working of more than 7 days personal approval of the _______________must be obtained.",
+        options: ["Railway Board", "AGM", "General Manager", "PCSO"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM413]: No NI working should last for more than_______________.",
+        options: ["10 days", "12 days", "13 days", "14 days"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM414]: All changes in yard layout, insertion /removal of points & crossings etc. Changing/installation of new point machines must be done in advance in the _________ that can be carried out without non – interlocking",
+        options: ["pre – NI work", "Post NI work", "After NI working starts", "in between NI works"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM415]: Preparatory work in connection with OHE work must also be done in advance, including shifting of__________, if required.",
+        options: ["sub-section", "neutral section", "intermediate section", "transformers"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM416]: Construction officials responsible for carrying out the NI work should send a \"circular notice\" to the Sr. DOM/Sr. DSO at least ___________in advance.",
+        options: ["15 days", "one month", "two months", "three months"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM417]: Green notice is to be issued by Sr. DOM. should incorporate the following :\n(i) Details of existing yard layout and its various provisions.\n(ii) List of all works to be completed by Civil Engg./S&T/Elec. before start of NI.\n(iii) List of all works to be undertaken by Civil Engg./S&T/Elec. during NI period.\n(iv) Additional facilities to be made available after commissioning of new works.\n(v) Existing facilities that are to be dismantled.\n(vi) Details of yard layout to be made available after completion of NI.",
+        options: ["All are true", "All are false", "Only (iii) is false", "Only (ii) is true"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM418]: During NI working Shunting should be restricted as far as possible and\ni) Engine changing for through trains must not be curtailed.\nii) Locomotives must not be freely extendable beyond territorial jurisdiction.\niii) If it is avoidable, then changing of locos may be done at either side of NI station.",
+        options: ["All are true", "All are false", "Only (iii) is false", "Only (ii) is true"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM419]: During NI working, for a group of maximum of ________operated from the ground, one goomty should be made.",
+        options: ["one set of points", "two sets of points", "three sets of points", "four sets of points"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM420]: During NI working, it should ensured that 2 ends of the same points/crossings to be with __________________",
+        options: ["Different goomties", "goomty with only one set of points", "manned by same staff", "same Goomties"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM421]: Each goomty should have ____________in each shift.",
+        options: ["two ASM and two Pointsman", "one ASM and two Pointsman", "one ASM and four Pointsman", "one ASM and one Pointsman"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM422]: A group of four goomties or more at each end of the station should be put in one zone. Each zone should be under the charge of a ____________in each shift.",
+        options: ["SM", "AOM", "TI", "none of the above"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM423]: ________is basically meant to replace some portion of Station Working Rules of the station during the period of NI working.",
+        options: ["Temporary working instructions", "Temporary instructions", "working orders", "guidelines of NI"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM424]: Temporary working instructions should list out :\n(i) Number of goomties.\n(ii) Portions of yard that each goomty would control.\n(iii) Which goomties are to be involved for reception/departure of a train on/from different lines.",
+        options: ["All the above", "None of the above", "only (i) (ii)", "only (iii)"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM425]: Temporary working instructions should list out different conditions required to be fulfilled for reception despatch of train :\ni) How line clear is to be granted/obtained.\nii) How clearance of nominated line is to be ensured.\niii) Procedure for closure of level crossing gates, if any.\niv) What are the series of points involved and who has to operate them.\nv) Which one of them are to be in normal position and which ones in reverse.",
+        options: ["All the above are correct", "None of the above are correct", "except (i) all are correct", "except (iii) all are correct"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM426]: Detailed working instructions clearly specifying the zone of responsibility of each and every staff and supervisor along with temporary working instructions must be issued at least ___________in advance of NI working",
+        options: ["05 days", "10 days", "15 days", "20 days"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM427]: Normal/reverse position of points should be painted on _________to indicate position of the set line during NI working.",
+        options: ["stock rail", "crossing nose", "point machine", "tongue rail"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM428]: Before starting actual non-interlocked working, a __________demonstration/training should be given to all staff for at least 1 to 3 days in advance (depending on the size of the station) to familiarize them with the type of work.",
+        options: ["mock drill", "ambush drill", "drill of", "pre NI work of"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM429]: No staff should be deployed during NI working unless proper entries are made in the ____________and relevant signatures obtained.",
+        options: ["attendance register", "Assurance Register", "Special register", "muster copy"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM430]: Arrangements for ____________should also be made so that the same can be used for warning the public etc. __________ must be provided on each goomty for making announcements regarding train movement.",
+        options: ["public address system, phones", "public address system, Loud speakers", "addressing by TC , Loud speakers", "intimation over whistle code, whistle code"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM431]: Before permitting introduction of NI working _______________will satisfy himself regarding arrangement of staff, safety equipment, lighting, telecommunication and ground position.",
+        options: ["Sr.DOM", "Sr.DSO", "Sr.DSTE", "DRM/ADRM"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM432]: On the notified day, for introduction of NI working, Signal Inspector concerned shall give a general ________________for gears proposed for NI workinng.",
+        options: ["Disconnection memo", "Reconnection memo", "memo", "certificate of NI working"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM433]: During NI working at stations, Speed restriction of ___________. must be in force over all points and crossings. Speed restriction Board of _______. must be exhibited at the foot of the first stop signal.",
+        options: ["15 kmph, 30kmph", "15kmph, 15 kmph", "10kmph, 20kmph", "30kmph, 15kmph"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM434]: NI Home/Starter signal can be taken off only after ensuring that :\ni) All points on the route are correctly set, both facing and trailing points clamped and padlocked.\nii) In addition to correct setting, clamping and padlocking of facing points, they must also be manned.\niii) Level crossing gates on the route have been closed against road traffic.",
+        options: ["All are correct", "All are incorrect", "only (i) is correct", "only (ii) is incorrect"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM435]: During NI working at stations, Last stop signal should not be disconnected throughout NI working except at the________.",
+        options: ["starting of NI", "End of NI", "fag end of NI", "before issue of reconnection"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM436]: During NI working at stations, Loco pilot of an incoming train must not under any circumstances pass the outermost facing points even though signals have been taken off ______________is exhibited towards him from the points",
+        options: ["hand signal", "proceed with caution", "stop hand signal", "proceed hand signal"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM437]: After NI working at stations is completed, the installation shall jointly be tested by Traffic, S&T and Engg. officials and for their correct functioning.",
+        options: ["Traffic, and Engg. officials", "Traffic, S&T and Engg. officials", "S&T and Engg. officials", "Traffic, and S&T officials"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM438]: After NI working at stations, Engineering and S&T officers shall give a ______________stating that all works as per the approved plan are completed.",
+        options: ["certificate", "memo", "intimation", "verbal orders"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM439]: Within _____________ of completion of NI, a brain storming session should be held with all the senior supervisors involved for taking stock of lessons learnt.",
+        options: ["03 days", "05 days", "07 days", "10 days"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM440]: The __________________are based on four factors Quantity, Distance, Duration and service.",
+        options: ["Statistics", "Managerial reports", "Engineering statistics", "Railway statistics"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM441]: In railway statistics _________ expressed as tonnes and number of passenger carried and earnings derived.",
+        options: ["Distance", "Quantity", "Duration", "Service performed"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM442]: In railway statistics _________ expressed in kilometres",
+        options: ["Distance", "Quantity", "Duration", "Service performed"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM443]: In railway statistics _________ expressed in minutes, hours & days",
+        options: ["Distance", "Quantity", "Duration", "Service performed"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM444]: In railway statistics _________ expressed in terms of trains, vehicles, wagons Engines.",
+        options: ["Distance", "Quantity", "Duration", "Service performed"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM445]: Relationship between primary units, expressed in composite terms is called '___________________.",
+        options: ["Primary unit", "Fundamental units'", "Derived unit", "Composite unit"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM446]: The relationship that exists between two sets of primary or fundamental units and the results thus arrived is termed ________",
+        options: ["Primary unit", "Fundamental units'", "Derived unit", "Composite unit"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM447]: Passenger kilometres, Train-kilometres, Wagon-kilometres, Engine hours, Wagon days etc. are examples of",
+        options: ["Primary unit", "Fundamental units'", "Derived unit", "Composite unit"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM448]: Wagon kilometres per wagon day is examples of",
+        options: ["Primary unit", "Fundamental units'", "Derived unit", "Composite unit"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM449]: Average distance travelled by a passenger also called lead of passenger traffic is examples of",
+        options: ["Primary unit", "Fundamental units'", "Derived unit", "Composite unit"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM450]: Earning per passenger kilometre. is examples of",
+        options: ["Primary unit", "Fundamental units'", "Derived unit", "Composite unit"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM451]: These _______highlight special features of transportation output and are useful in evolving suitable management\nstrategies",
+        options: ["Primary unit", "Fundamental units'", "Derived unit", "Composite unit"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM452]: The __________include statistics of wagons loaded, wagon mobility, wagon usage, train loads, train mobility, productive and unproductive services, wagon detention, marshalling yard, terminal goods station and punctuality",
+        options: ["Primary statistics", "traffic statistics", "Engineering statistics", "Mechanical statistics"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM453]: The ratio of workings expense (excluding suspense but including appropriation to Depreciation Reserve Fund and Pension Fund) to Gross Earnings is known as",
+        options: ["Net tonne KM per train KM", "Passenger earning per train KM", "Traffic ratio", "Operating Ratio"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM454]: The formula (RT + NLTx 100) / Total no. of Passenger trains (RT = Trains arriving Right Time; NLT = Trains not loosing time) is for calculation of",
+        options: ["Coaching performance", "Punctuality", "Passenger performance", "Punctuality analysis"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM455]: The formula Punctuality = (RT + NLTx 100) / Total no. of Passenger trains RT denotes",
+        options: ["Trains arriving Right Time", "Trains not loosing time", "Right train", "trains losing time"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM456]: The formula (RT + NLTx 100) / Total no. of Passenger trains NLT denotes",
+        options: ["Trains arriving Right Time", "Trains not loosing time", "Right train", "trains losing time"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM457]: This figure indicating the extent to which coaching vehicles are kept \"on the move\".",
+        options: ["Vehicle services per day", "vehicle run per day", "Vehicle Kilometres per Vehicles Day", "vehicle speeds per vehicle"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM458]: The main factors affecting Vehicle Kilometres per Vehicles Day value are:",
+        options: ["Average speed of trains", "average length of train run", "idle period provided in rake links", "All the above"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM459]: The figure to measure wagon mobility and indicates the average number of kilometres moved by a wagon, on the average, per day, both loaded and empty journeys being included is known as",
+        options: ["Wagon Kilometres per Wagon Day", "Wagons dealt per wagon day", "Wagon per wagon hours", "Wagon kilometres per engine hour"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM460]: The unit of measure of the revenue earning work done by the wagons and reflects both mobility and loading.",
+        options: ["Tonne KM per wagon hours", "Net Tonne Kilometres per Wagon Day", "Net tonne kilometres per train", "Train KMs per wagon kms"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM461]: Some of the factors on which the average speed of goods trains depends are:\ni. The proportion of the density of trains to the sectional capacity.\nii. Hauling power of the engines used,\niii. Loads of trains.\niv. Condition of rolling stock, particularly the brake power available.\nv. Standards and maintenance of signalling and interlocking.\nvi. Engineering restrictions – permanent and temporary gradients and curves.",
+        options: ["All are statements true", "All the statements are false", "Only ((ii), (iii) are true", "Only ((i),(v)are false"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM462]: The figure used to measure efficiency of freight working on a division and the amount of revenue earning work done while engine hour measure the cost of if doing is known as",
+        options: ["Net Tonne days per Engine Hour", "Wagon days per Engine Hour", "Net Tonne Kilometres per Engine Hour", "Net Tonne hours per Engine KM"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM463]: A decrease in net tonne Kilometres per engine hour may be due to factors such as:\ni) Shunting engine hours not cut down in proportion to the decrease in traffic offering.\nii) Increase in the average train and or the average speed of goods train.\niii) Increase in the average starting wagon load.\niv) Decrease in the wagon loads of wagons received from other divisions.",
+        options: ["All are statements true", "All the statements are false", "Only ((ii), (iii) are true", "Only (ii), (iii) are false"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM464]: The statistics target set for each yard for detention suffered by stock in a yard depending, on the layout of the yard and on the number of trains per day that can be despatched in various directions is known as",
+        options: ["Average Detention per Wagon", "Detention per wagon", "wagon day per wagon hour", "average detention per wagon day"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM465]: Engine Kilometres per Day per Engine in Use is compiled separately for ________________train services",
+        options: ["Passenger & Goods", "Passenger, Mixed and Goods", "Mixed & Goods", "Passenger & Mixed"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM466]: In Engine Kilometres per Day per Engine on Line, the term \"on line\" denotes locos that were put to____________.",
+        options: ["use", "not use", "effective use", "run in empty"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM467]: A Total transparent system with continuous Cargo visibility and an up-to date business environment to the Customers with instant access to information regarding their consignments in transit for just in time inventory' is _",
+        options: ["Freight operations system", "Operation information system", "Goods operation information", "Freight operations information system"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM468]: A management On-line Real-Time system tool to optimize utilization of costly assets and resources by improving distribution of Rakes/Wagons & Locos, and also scheduling and Routing Traffic in an optimized cost effective manner is known as",
+        options: ["Freight operations information system", "Operation information system", "Goods operation information", "Freight operations system"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM469]: The modules available in FOIS are",
+        options: ["Only RMS", "Only TMS", "RMS & TMS", "Only CMS"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM470]: The following cannot be tracked in Rake Management Systems –RMS of FOIS\ni. Rake based consignment tracking and pipeline\nii. Train/Rake operations\niii. Stock Holding in terms of summary of wagon types\niv. Terminal Handling performance\nv. Loco holding, outage and power on-line",
+        options: ["All are true", "All are false", "Only (i) & (ii) is true", "only ((iv) & (v) are false"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM471]: The following can be tracked in Rake Management Systems –RMS of FOIS\ni. Invoice based consignment tracking\nii. Wagon wise Stock Holding\niii. Invoice based loading originating tonnage and revenues.\niv. Wagon wise Interchange\nv. Statement of missing Wagons/wrongly delivered",
+        options: ["All are true", "All are false", "Only (i) & (ii) is true", "only (iv) & (v) are false"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM472]: The following can be tracked in Terminal Management Systems –TMS of FOIS\ni. Computerized booking and delivery of consignment\nii. Station Accounting\niii. RR generation/Transmission\niv. Improved Customer Interface",
+        options: ["All are true", "All are false", "Only (i) & (ii) is true", "only (iii) & (iv) are false"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM473]: The operations and data capturing, will remain ____________for train, rake locomotive and stock management taking into account the spatial distribution of activities, which need to be captured.",
+        options: ["Station centric", "control centric", "terminal centric", "Zonal centric"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM474]: The operations and data capturing, will remain terminal centric for booking, loading, unloading, and delivery taking into account the spatial distribution of activities, which need to be captured.",
+        options: ["Station centric", "control centric", "terminal centric", "Zonal centric"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM475]: Application servers of FOIS are centrally placed at _______and these servers are connected to the Zonal Hd. Qrs., Divisional Control Offices, yards, interchange points, and good sheds etc., with a reliable and integrated network.",
+        options: ["Railways information system", "IRCTC", "Central information system", "Centre for railway information system"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM476]: The central Server of FOIS at ____________provides management Reports at board level and acts as repository of all the global data and also provides global services to maintain referential integrity of the databases including master files.",
+        options: ["IRCTC", "CRIS", "RIS", "RCIL"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM477]: The Optimised Asset Utilisation of FOIS are\ni) Improved Locomotive Utilization by reduction in Light Engine running and reduced in effectives\nii) Statement of missing or wrongly delivered wagons and finally its elimination.\niii) Elimination of unconnected wagons\niv) Stock Holding\nv) Loco Holding",
+        options: ["All are true", "All are false", "Only (i) & (ii) is true", "only (iii) & (iv) are false"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM478]: Utilization of FOIS helps in Increased Revenue in the following ways\ni) Savings in wagon fleet would result in corresponding saving in the recurring cost of maintenance of wagons\nii) Increased Locomotive power and Rolling Stock Maintenance Cost\niii) Savings in Time & Cost of handling in yards, cost of empty haulage\niv) Ensures optimal crew management and monitors statutory limits for running duty and overtime payments\nv) Reduction in staff cost per unit of transportation due to improved productivity of the available manpower",
+        options: ["All are true", "All are false", "Only (i) & (v) is true", "only (ii) is false"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM479]: Enhancing the ease in Goods shed Operations by use of FOIS are\ni) Arrival particulars of Wagons\nii) Placement and Release Particulars\niii) Information on demands registered and pending Indents\niv) Preparation of Railway Receipts\nv) Information on Demurrage and Wharfage\nvi) Loading Particulars\nvii) Goods Shed Earning\nviii)Information on delayed wagons and Wagons awaiting Placement/Release",
+        options: ["All are true", "All are false", "Only (i) & (v) is true", "only (ii) & (viii) are false"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM480]: Train Ordering, Train Departure, Train Arrival, Train Run-through and Train rerouting are the tasks for online reporting of train cycle in _________",
+        options: ["TMS", "RMS", "CMS", "ICMS"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM481]: Load Related, Vehicle Guidance Related, Rake Related and Loco Related Tasks are the tasks for online reporting of yard cycle in _______",
+        options: ["TMS", "CMS", "RMS", "ICMS"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM482]: In yard cycle of RMS ____________ includes online reporting of Inward Number Taking, Load Planning, Load Stabling, Load Diversion/Termination/Extension",
+        options: ["Load related tasks", "Vehicle guidance tasks", "Rake related tasks", "Loco related tasks"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM483]: In yard cycle of RMS ____________ includes online reporting of consist of the rakes",
+        options: ["Load related tasks", "Vehicle guidance tasks", "Rake related tasks", "Loco related tasks"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM484]: In yard cycle of RMS ____________ includes online reporting of rake formation, movement order, rake placement/release",
+        options: ["Load related tasks", "Vehicle guidance tasks", "Rake related tasks", "Loco related tasks"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM485]: In yard cycle of RMS ____________ includes online reporting of attachment/detachment of locos, loco reporting, light engine",
+        options: ["Load related tasks", "Vehicle guidance tasks", "Rake related tasks", "Loco related tasks"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM486]: In RMS the new demand, modify demand, add/delete demand, fulfilling demand, forfeiture/withdrawal of demand is to be reported ________where the party/consignor registers his Demand for supply of Rake/Piecemeal wagon for loading of goods.",
+        options: ["at station", "at goods shed", "at division office", "at terminal"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM487]: Forecast can be reported by selecting trains from the pipeline generated from Originating Station to destination and the position shown at the interchange point. The task used is ______________reporting task.",
+        options: ["interchange position", "interchange forecast", "Review forecast", "forecast position"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM488]: In FOIS ____________ includes Rake Related , Load Related, Train Related, Loco Related, Roadside/Piecemeal Wagons Related Tasks are fields required for online reporting in the system.",
+        options: ["interchange position", "interchange forecast", "Review forecast", "forecast position"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM489]: Reports available in RMS module conference set in ______________ gives desktop summarized view of forecast & interchange of current date. It is updated by I/C forecast and arr. /dep reporting task.",
+        options: ["Running interchange", "Current interchange", "Interchange forecast summary", "Likely shortfall"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM490]: Reports available in RMS module conference set in ______________ gives detailed view of forecast & interchange and also gives running position of trains forecasted. It is updated by I/C forecast and arr. /dep.reporting task.",
+        options: ["Running interchange", "Current interchange", "Interchange forecast summary", "Likely shortfall"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM491]: Reports available in RMS module conference set in ______________ gives summary information of interchange with break-up of empties and loaded stock, stock (4w) interchanged. It also provides summary of jumbo and box rakes interchange It is updated by I/C forecast and arr. /dep. reporting task.",
+        options: ["Running interchange", "Current interchange", "Interchange forecast summary", "Likely shortfall"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM492]: Reports available in RMS module conference set in ______________ gives shortfall /excess of yesterday interchange along with reason of shortfall in despatch. It is updated by I/C forecast and arr. /dep. report task.",
+        options: ["Running interchange", "Current interchange", "Interchange forecast summary", "Train interchange shortfall"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM493]: Reports available in RMS module conference set in ______________ this is an unstructured query for all loads on run in the system. There are different filters available for viewing loads according to users requirements. It is updated by Load planning, Train ordering, arrival / departure reporting tasks.",
+        options: ["Traffic flow", "Loads on run", "Outward train railway wise", "Terminal position"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM494]: Reports available in RMS module conference set in ______________ gives information regarding likely traffic flow interchange points upto 3 days in advance. It is updated by Load planning, Train ordering, arrival / departure reporting tasks.",
+        options: ["Traffic flow", "Loads on run", "Outward train railway wise", "Terminal position"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM495]: Reports available in RMS module conference set in ______________ gives division wise destination railway wise view of all outward trains on a zone. Filters for rake types, commodity are also available. It is updated by Load planning, arrival / departure reporting tasks.",
+        options: ["Traffic flow", "Loads on run", "Outward train railway wise", "Terminal position"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM496]: Reports available in RMS module conference set in ______________ displays total rakes at the terminals as well as the insight for those terminals. On selecting a cell relevant details rake wise are displayed. It is updated by arrival/departure reporting, I/w no. taking, Rake placement/rel tasks.",
+        options: ["Traffic flow", "Loads on run", "Outward train railway wise", "Terminal position"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM497]: Reports available in RMS module conference set in ______________ gives break up of rakes over a division/zone Under following heads:U/R,U/L,O/W,I/W and Empty. It is updated by arrival / departure reporting, I/W no. taking, Rake placement /rel tasks",
+        options: ["Rake integrity", "Rake position", "Rake performance", "Terminal management planning"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM498]: Reports available in RMS module conference set in ______________ gives details of all attachment/detachment/sick reporting on a individual rake on the selected zone. The examination & dissipation if done) is also shown. Further details can be seen after selecting a cell and pressing enter. It is updated by all rake reporting, consist reporting, and TXR examination",
+        options: ["Rake integrity", "Rake position", "Rake performance", "Terminal management planning"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM499]: Reports available in RMS module conference set in ______________ for a selected group rake type, division wise, outstanding rake demands, rakes on hand and pipeline of terminating loads are displayed. On selection of cell & pressing enter, details relevant to that cell are displayed.It is updated by Demand, rake placement/rel and arrival/departure task.",
+        options: ["Rake integrity", "Rake position", "Rake performance", "Terminal management planning"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM500]: For Post facto analysis of punctuality loss and its causes ________________module captures train running at Originating/ Terminating and interchange points and the causes of detention. Data input predominantly at Divisional HQ level..",
+        options: ["COIS", "CMM", "PAM", "COA"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM501]: ___________________captures events on Coaches/Rakes, generates Reports for Management of Coaching Stock. Data input predominantly at Station/Coaching Yard level.",
+        options: ["COIS", "CMM", "PAM", "COA"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM502]: _______________ capture depot activities related to coaching maintenance operations, Utility tool for managers looking after mechanical and electrical maintenance, Data input at CDO level.",
+        options: ["Coaching operation information system", "Coaching maintenance module", "Punctuality analysis module", "Integrated coaching information system"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM503]: _______is comprehensive software for the automation of Control Charting at a railway divisional control office.",
+        options: ["Punctuality analysis module", "Integrated coaching information system", "Control Office Application", "Freight operation information system"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM504]: COA is designed to form the core application to drive the existing allied systems like FOIS. NTES and COIS. The integration with allied systems will be facilitated through a Central Application Server at__________________. .",
+        options: ["Railways information system", "IRCTC", "Central information system", "Centre for railway information system"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM505]: COA covers the following core functionalities Control Office Operations. They include: - i) Train Ordering ii) Maintain Train Information iii) Manage Train Movement (Abnormal Working, Stabling, Banker Movement) iv) Management of Maintenance Blocks v) Caution Orders vi) Plot Graph.Advance Plotting _ System / Manual",
+        options: ["All are true", "All are false", "Only (i) & (v) is true", "only (ii) & (vi) are false"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM506]: Benefits of COA are i) Fully Automated work environment ii) As an aid to the controller in terms of efficiency, precision & time management. iii) Leverage to Controller's Experience in decision making through manual forecast iv) Real time information on train operation without human dependence v) To serve as a backbone system for sharing of data between allied systems",
+        options: ["All are true", "All are false", "Only (i) & (v) is true", "only (ii) & (vi) are false"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM507]: ___________________ is a fully integrated Electronic Control System designed to minimize collisions and increase safety on Railway system.",
+        options: ["Train collision system", "Collision Avoidance system", "Anti collision device", "Anti collision system"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM508]: Whenever site investigation is done after the accident, condition of track with special reference to gauge cross level, super elevation to be taken note. Gauge of the track to be checked under the load and for a distance of ______on either side of point of mount, if cause is indisputably known otherwise for a distance of _______ahead of the point of mount.",
+        options: ["45 meters, 90 meters", "30 meters, 60 meters", "45 meters, 60 meters", "60 meters, 90 meters"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM509]: Whenever site investigation is done after the accident, condition of track with special reference to gauge cross level, super elevation to be taken note. In case of _____________nothing to be disturbed except to rescue life till clearance from police.",
+        options: ["suspected sabotage", "sabotage or suspected sabotage", "sabotage", "None of these"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM510]: In case of Site investigation of an accident place is done a _________showing the position of derailed vehicles marks on sleepers should be made - Point of _________to be indicated.",
+        options: ["correct sketch, drop", "diagram, mount", "scaled sketch, drop/mount", "rough sketch, drop/mount"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM511]: In case of Site investigation of an accident place is done following particulars to be taken\ni) Locomotive speed records/graph\nii) Condition of rolling stock with special reference to brake power; marshalling of trains and engine details as also breakage of components like brake blocks underframe assemblies having caused obstructions.\niii) The position of block instruments, signals, points indicators.\niv) At stations with panel interlocking position of switches & indicators to be recorded preferably by two officers or two Sr. Subordinates of different branches and relay room to be sealed;\nv) Position of important relays.",
+        options: ["All are true", "All are false", "Only (i) & (v) is true", "only (ii) & (iv) are false"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM512]: In case of Site investigation of an accident place is done following particulars are not to be taken\ni) Seize & freeze all records as laid down in accident manual\nii) The statement of the concerned staff available at site should be recorded for finding the cause of accident.\niii) To give the prima-facie cause of the accident with expected time of restoration\niv) Arrange to take photographs from different angles to assist in reconstructing the scene of the accident;\nv) The track and coach/wagon is to be examined jointly and the data and information collected are to be recorded jointly signed by the Sr. Subordinates available at the site.",
+        options: ["All are true", "All are false", "Only (i) & (v) is true", "only (ii) & (iv) are false"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM513]: In case of Site investigation of an accident place is done following particulars to be taken\ni) Speed of the train just before the accident\nii) Uneven load/shifted load/load in all the vehicles must be checked to get an idea of loading and lashing/securing loads.\niii) Application of brakes\niv) Brake power of the train and location of vehicles without brake power\nv) Whether all hand brakes are in released condition.\nvi) How was the train received or dispatched by the SM. Whether station staff adopted any abnormal method of working",
+        options: ["All are true", "All are false", "Only (i) & (v) is true", "only (ii) & (iv) are false"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM514]: In derailments when one or both wheels of the same wheel-set fall inside the track the cause of accident is very clear, i.e., ____or may be a remote possibility of shifting of wheel disc on the axle or breakage of axle or journal.",
+        options: ["buckling", "spread gauge", "creep", "obstruction on path"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM515]: In derailments when no flange marks are found on the rail table, majority of such derailments following reasons may have caused the accident:\ni) Obstruction in the path of wheel.\nii) Breaking of vehicle suspension arrangement.\niii) Jamming of wheel due to roller bearing failure.\niv) Mishandling of train by loco pilot\nv) Marshalling of vehicles with no brake power kept together or heavy vehicles in the rear.",
+        options: ["All are true", "All are false", "Only (i) & (v) is true", "only (v) is false"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM516]: In derailments when the wheel derails with single flange mark on the rail table, the length of flange mark gives a clue to reasons for derailment. The following factors must be considered after seeing the flange mark:\ni) Long flange mark suggests that the wheel load reduced considerably for a long period.\nii) Short flange mark suggests that the lateral thrust increased to a considerably high value.\niii) The weight of the vehicle and speed of the train at the time of accident affect the impression of flange mark on the rail.",
+        options: ["Only (i) & (ii) is correct", "Only (ii) & (iii) is correct", "(i) (ii) & (iii) is correct", "Only (i) & (iii) is correct"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM517]: In derailments when a number of wheels derail with several flange marks on the rail table, the probable reasons for derailment can be as follows:\ni) Obstructions in the path of wheels.\nii) Disturbed track (work being done on the track or sabotage)\niii) Rail failure\niv) Serious track defect-twist misalignment or formation failure\nv) Buckling of track",
+        options: ["All are true", "All are false", "Only (i) & (v) are true", "only (iv) is false"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM518]: Most of the derailments at points and crossings either initiate at the toe of the ________or near the nose of the crossing.",
+        options: ["stock rail", "tongue rail", "check rail", "nose rail"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM519]: Most of the derailments at points and crossings either initiate at the toe of the tongue rail or near the______.",
+        options: ["stock rail", "tongue of crossing", "nose of the crossing", "check rails of crossing"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM520]: Whenever a derailment takes place on a point, Gauge must be correct at all places except at the toe where it may be 6 mm slack for housing the tongue rail. Gauge of point must be checked at these locations:\ni) 305 mm in advance of nose of tongue rail\nii) 152 mm inside the tongue rail for straight road and turn out.\niii) At heel for tongue rail for straight road and turn out.\niv) At middle of tongue rail for straight road and turn out.",
+        options: ["Only (iii) & (iv) are false", "Only (i) & (iii) are true", "all are correct", "all are not correct"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM521]: Spread gauge, Gaping in points, Tipping of the toe of switch, Worn out & broken tongue Rail, Excessive clearances of check rail opposite to the nose of the crossing, Uneven Cross level, Shearing of fish plate bolts are some Important Defects of",
+        options: ["S&T", "Mechanical", "Traffic", "Permanent Way"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM522]: Loose or slack points connections, Sharp curves with kinking alignments, Worn out Rails, Abrupt introduction of super elevation, Super elevation not corresponding to speed of the train, Buckling of track, are some Important Defects of",
+        options: ["S&T", "Permanent Way", "Traffic", "Mechanical"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM523]: Shortest distance between the two rails of the track is known as",
+        options: ["Guage", "maximum gauge", "Creep", "Minimum guage"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM524]: Rail Fasteners used for Wooden sleepers are",
+        options: ["Dog spikes", "Steel keys", "Round head spikes", "All the above"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM525]: Rail Fasteners used for Steel trough sleeper are",
+        options: ["Dog spikes", "Steel keys", "Elastic clips with liners between the foot of rail and clip", "Round head spikes"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM526]: Rail Fasteners used for Prestressed concrete sleepers are",
+        options: ["Dog spikes", "Steel keys", "Elastic clips with liners between the foot of rail and clip", "Round head spikes"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM527]: Longitudinal displacement of track is known as",
+        options: ["buckling", "creep", "spread guage", "defect of rail fasteners"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM528]: Creep is a silent but very dangerous phenomenon of the track and is caused by\ni) Temperature variation causing expansion and contraction of the rail.\nii) The tractive forces of locomotive to push the rail backward.\niii) Braking forces of train trying to push the rail forward.",
+        options: ["Only (i)", "Only (ii)", "Only (ii) & (iii)", "All the above"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM529]: The effect of the _____________ forces is accelerated if the rail fasteners are not able to hold the rails properly to the sleepers or rail seat on the sleepers is damaged or bad joint in the track with out proper expansion gap.",
+        options: ["Tractive forces", "Braking forces", "Traction/Braking forces", "None of the above"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM530]: When in a section, about one or two rails length of the track leaves its place and moves side way is known as.",
+        options: ["buckling", "creep", "spread guage", "defect of rail fasteners"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM531]: Buckling happens due to the _____________and tractive/braking forces.",
+        options: ["Drop in temperature", "Rise in temperature", "variation in temperature", "All the above"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM532]: Buckling normally happens in the __________mostly, when the track has absorbed max. heat and also near the bridges, level crossings etc. where the track is firmly held in ground.",
+        options: ["1st half of the day", "Night time", "any time", "2nd half of the day"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM533]: Defects in wheel and Axle Broken & Hanging fittings, Bolster and Assemblies, spring gear, axle guard and trolley, Brake gear and Hot box/Roller bearing failure, Poor brake power Defects, Defective Draw gear, CBC gear are some of defects of",
+        options: ["Permanent way", "Loco traction", "Mechanical", "Electrical"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM534]: Warning boards are provided to remind the Loco pilot of an approaching electric locomotive/EMU to open locomotive circuit breaker (DJ) before approaching the_________, to coast through it and then switch 'on' on the other side.",
+        options: ["Sub-station", "Transformer", "Neutral section", "Active section"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM535]: Special care is taken in fixing the location of neutral sections, to ensure that the train coasts through neutral section at a sufficiently_____, to obviate the possibility of its stopping and getting stuck within the neutral section.",
+        options: ["low speed", "high speed", "moderate speed", "maximum speed"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM536]: Running staff review should be carried out after every ----------- by Senior technical assistant of the division.",
+        options: ["3 months", "4 months", "six months", "year"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM537]: Running staff review should be carried out after every six months on __________by Senoir technical assistant of the division.",
+        options: ["1st Jan. and 1st July", "15th Jan. and 15th July", "1st Jan. and 15th July", "15t Jan. and 1st July"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM538]: Running staff review when carried out the requirement for goods crews should be worked out as per _______signed by Sr DME(P) and Sr. DOM.",
+        options: ["power plan", "loco links", "rake links", "previous year utilization"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM539]: Running staff review when carried out separate crews to be demanded for the activities which cannot been covered in power plan e.g., ___________",
+        options: ["Light engine movements", "empty coaching rake movement", "working in the lobbies", "Both \"A\" & \"B\""],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM540]: Running staff review when carried out _______ leave reserve and ______ trainee reserve should be demanded for additional requirement.",
+        options: ["25%, 10 %", "30%, 10 %", "30%, 20 %", "20%, 15 %"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM541]: Running staff review when carried out, Shunters should be demanded @ 1 against__________, rest giver @ 1 for ______ to be demanded and Leave reserve and trainee post to be demanded separately.",
+        options: ["6 hrs. point, 8 shunters", "12 hrs. point, 6 shunters", "8 hrs. point, 6 shunters", "8 hrs. point, 4 shunters"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM542]: Running staff review when carried out, after accounts vetting sanction of ___________be taken and Sr. DPO will issue circulars of revised sanction.",
+        options: ["DRM", "ADRM", "Sr.DOM", "Sr.DME/Sr.DEE"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM543]: Running supervisors review should also be made with staff review @ 1 loco Inspector against __ loco pilots or ___ shunters.",
+        options: ["20,20", "25,30", "30,50", "25, 50"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM544]: Running supervisors review should also be made with staff review @ 1 loco Inspector against 25 loco pilots or 50 shunters. __________ rest giver allowed. Leave reserve _________",
+        options: ["5%, 10%", "No, 12.5%.", "2.5%, 15%", "3%, 5%"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM545]: Points to be kept in view while preparing loco pilot's links is Max. duty hours in anyone trip should not exceed________. Avg. duty hours in a fortnight should not exceed____________.",
+        options: ["8 hours, 102 hours", "9 hours, 104 hours", "10 hours, 104 hours", "12 hours, 106 hours"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM546]: Points to be kept in view while preparing loco pilot's links is Min. no. of rests in a month should be________. or _______ hours including night in bed from 22 hrs. to 6 hrs. from sign off to sign on.",
+        options: ["5 of 22 hrs, 4 of 30", "6 of 20 hrs, 2 of 60hrs", "5 of 20 hrs, 4 of 25hrs", "5 of 16 hrs, 4 of 20 hours"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM547]: Points to be kept in view while preparing loco pilot's links is Min. out of station rest in case less than 8 hrs. duty should be _____. In case of duty of 8 hrs or more than ___, rest to be given. In case of short trips of less than or equal to ____then duty performed plus 1 hrs. will be sufficient.",
+        options: ["8hrs, 10 hrs, 6 hours", "6hrs, 8 hrs, 5 hours", "7hrs, 10 hrs, 4 hours", "6hrs, 10 hrs, 4 hours"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM548]: Points to be kept in view while preparing loco pilot's links is Min. home station rest, if duty is performed less than 8 hrs should be _____ and if duty is performed 8hrs or more it should be ______ .",
+        options: ["8hrs, 10 hrs", "9hrs, 12 hrs", "10hrs, 14 hrs", "12hrs, 16 hrs"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM549]: If staff is required to work train less then stipulated rest then __________allowance is payable to running staff.",
+        options: ["Breach of duty", "In liew of mileage", "breach of rest", "overtime"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM550]: Points to be kept in view while preparing loco pilot's links is link having the maximum earning kilometerage should be worked by ___________loco pilots and so on.",
+        options: ["senior most", "junior most", "senior most aged", "most experienced"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM551]: Loco/Power links are prepared by ________and circulated to the divisions objective of which is to ensure optimum utilization of powers.",
+        options: ["CPTM office", "HQ.'s office", "PCEE office", "PCOM office"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM552]: Points that are to be kept in view while preparing locomotive links are\ni) Train timings should be checked from latest time table.\nii) Links to be prepared before commencement of new time table.\niii) Efforts should be made to send the loco to home shed for servicing within the stipulated schedule time\niv) Minimum possible out station halt should be provided.\nv) Ensure loco is permitted to run on the sections at the max. permissible speed of the train.",
+        options: ["All are true", "All are false", "Only (i) & (v) is true", "only (iv) is false"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM553]: Power requirement (Power Plan) to be prepared once in ____months. Avg. No. of trains run on each section per day and Avg. hours on road for that period duly signed by Sr.DME(P) and Sr.DOM to be prepared.",
+        options: ["4 months", "6 months", "9 months", "12 months"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM554]: While preparing Power requirement (Power Plan) the formula for calculation of bare power on line is ____ where (PDD = Pre departure detention; HOR=Hours on road; PAD=Post arrival detention)",
+        options: ["PDD + HOR - PAD", "PDD - HOR + PAD", "PDD + HOR + PAD", "HOR-( PDD + PAD)"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM555]: While preparing Power requirement (Power Plan) _____further growth and ______ Bunching allowance to be demanded on Bare power on line",
+        options: ["1.5%, 5%", "2%, 7.5%", "3%,8%", "3.5 %, 10%"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM556]: While preparing Power requirement (Power Plan), ____ is added for major repair allowance in case of Mail/Exp./Pass. Loco requirement worked out on the basis of loco link.",
+        options: ["5%", "8%", "10%", "15%"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM557]: Brake Power Certificate for Ordinary end to end rakes is valid for",
+        options: ["examination to loading and further upto destination", "loading to destination", "12 days", "15 days"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM558]: Minimum Brake power for a Ordinary End to End rakes at originating should be ______ & enroute ___________",
+        options: ["90%, 85%", "90%, 75%", "85%,not specified", "85%, 85%"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM559]: Brake Power Certificate for Ordinary End to End rakes becomes invalid in case of\ni) No destination is mentioned on the BPC of loaded train,\nii) Train composition is changed by 4WU or more,\niii) Train is stabled for more than 24 hours in examination yard",
+        options: ["Only (i) is correct", "only (i) &(ii) are correct", "All are correct", "All are incorrect"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM560]: Brake Power Certificate for Premium air brake rakes is valid for",
+        options: ["30 days", "loading to destination", "12 days", "15 days"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM561]: Minimum Brake power for a Premium air brake rakes at originating should be ______ & enroute ___________",
+        options: ["90%, 85%", "95%,not specified", "85%,75%", "95%, 85%"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM562]: Grace period given in case of Premium air brake rakes after 12 days validity for movement of loaded train to destination is",
+        options: ["one day", "two days", "three days", "four days"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM563]: In case of Brake Power Certificate for Premium air brake rakes the following statements are\ni) After lapse of 15 days rake either empty or loaded to be intensively checked,\nii) Train composition is changed by 4WU or more BPC becomes invalid,\niii) Train is stabled for more than 24 hours in examination yard, train can be started without any check\niv) After each loading/unloading, the rake shall be subjected to GDR check\nv) 5 days grace period to given for movement of loaded trains to destination",
+        options: ["Only (i) is correct", "only (i) &(ii) are correct", "All are correct", "only (i), (ii) & (iv) are correct"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM564]: Brake Power Certificate for Premium Closed circuit air brake rakes is valid for",
+        options: ["7500kms or 35 days whichever is earlier", "7500kms", "35 days", "7500 kms or 35 days"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM565]: Brake Power Certificate for Closed circuit air brake rakes is valid for",
+        options: ["6000kms or 30 days whichever is earlier", "6000kms", "30 days", "6000kms or 30 days"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM566]: Minimum Brake power for a closed circuit air brake rakes at originating should be ______ & enroute ___________",
+        options: ["90%, 85%", "95%,not specified", "100%,90 %", "95%, 85%"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM567]: The BPC of Closed circuit air brake rakes will become invalid, if –\ni) Rake is not running in nominated circuit.\nii) Rake is stabled more than 4 hrs at examination station.\niii) Rake has completed either stipulated Kms or days\niv) More than 4 wagons are replaced between two Periodical Maintenance Examination ie., PME\nv) Wagons to be attached may not be good examined wagons.",
+        options: ["All are correct", "All are incorrect", "Only (ii) & (v) are false", "Only (v) is false"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM568]: Container rakes BLCA+BLCB BPC is valid for",
+        options: ["4000kms", "5000kms", "6000kms", "6000kms+35days"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM569]: 09-3X, CSM UNO & DUO(0) are track machines used for",
+        options: ["Plain Track Tamping", "Ballast cleaning", "Turnout packing", "Track laying"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM570]: 09-3X- track machine corrects track geometry, i.e. alignment, twist, cross level, longitudinal level and pack ballast under sleepers. This machine can pack ____________at a time in 4 hours of block the output is __________ Block period4 hours output 1.6km",
+        options: ["One sleeper, 1.6kms", "three sleepers, 1.6kms", "two sleepers, 1.2 kms", "three sleepers, 1.5kms"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM571]: CSM- track machines corrects track geometry, i.e. alignment, twist, cross level, longitudinal level and pack ballast under sleepers. This machine can pack ____________at a time in 4 hours of block the output is __________",
+        options: ["One sleeper, 1.2kms", "three sleepers, 1.6kms", "two sleepers, 1.2 kms", "two sleepers, 1.5kms"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM572]: BCM- Ballast screening of plain & turnout track screens track ballast by removing muck, thus improve drainage & elasticity of track for safe & comfortable running. In 4 hours of block this machine output is __________",
+        options: ["0.1km", "0.2km", "0.3km", "0.4km"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM573]: The track machine which screens plain & turnout track ballast by removing muck, thus improve drainage & elasticity of track for safe & comfortable running is known as __________",
+        options: ["CSM", "DUO", "UNIMAT", "BCM"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM574]: The track machine which is used for Shoulder ballast cleaning is known as __________",
+        options: ["CSM", "DUO", "FRM", "BCM"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM575]: The track machine which corrects turnout track geometry is known as __________",
+        options: ["CSM", "UNI", "FRM", "BCM"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM576]: The track machine which is used in consolidation of newly tamped track and builds up lateral resistance & consolidation of track faster and helps to relax speed restriction early. It consolidates 1km in a block of 4 hours is _________",
+        options: ["DGS", "UNI", "FRM", "BCM"],
+        correctAnswer: 0
+    },
+    {
+        question: "[TROM577]: The track machine which is fully mechanized system of complete track renewal is known as __________",
+        options: ["DGS", "TRT", "FRM", "BCM"],
+        correctAnswer: 1
+    },
+    {
+        question: "[TROM578]: The track machine which is a semi mechanized system of track renewal wherein pre fabricated rail panels are laid and existing panels removed with minimum labour is known as _____________",
+        options: ["DGS", "TRT", "FRM", "PQRS"],
+        correctAnswer: 3
+    },
+    {
+        question: "[TROM579]: The track machine which is also known as turnout replacement machine is a fully mechanised system of complete turnout with minimum manual labour is known as _______________",
+        options: ["DGS", "TRT", "T-28", "PQRS"],
+        correctAnswer: 2
+    },
+    {
+        question: "[TROM580]: The track machine which is a mechanized system of track ballast equalization, regulation and profiling",
+        options: ["DGS", "BRM", "BCM", "PQRS"],
+        correctAnswer: 1
+    }
+];
+
+const RAJABHASHA_HINDI_ALL = [
+    {
+        question: "[OLH001]: Constitutional provision related to Official Language is in which part of the Constitution of India?",
+        options: ["Part-15", "Part-16", "Part-17", "Part-18"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH002]: Which chapter of the Constitution mentions about the Official Language of the Union?",
+        options: ["Chapter - 1", "Chapter - 2", "Chapter - 3", "Chapter - 4"],
+        correctAnswer: 0
+    },
+    {
+        question: "[OLH003]: In which article of the Constitution of India mentions about the language to be used in the Parliament?",
+        options: ["Article - 110", "Article - 120", "Article - 210", "Article - 343"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH004]: Which article of the Constitution of India mentions about the language to be used in the Legislature?",
+        options: ["Article - 120", "Article - 210", "Article - 343", "Article - 351"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH005]: Which article of the Constitution of India mentions about the Official Language of the Union?",
+        options: ["Article - 343", "Article - 344", "Article - 345", "Article - 346"],
+        correctAnswer: 0
+    },
+    {
+        question: "[OLH006]: Which article of the Constitution of India mentions about the Commission and Committee of Parliament in connection with the Official Language?",
+        options: ["Article - 343", "Article - 344", "Article - 345", "Article - 351"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH007]: Which article of the Constitution of India mentions about the Official Language or Official Languages of the state?",
+        options: ["Article - 343", "Article - 344", "Article - 345", "Article - 346"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH008]: Which article of the Constitution of India mentions about the language of communication between one state and another or between a state and the Union?",
+        options: ["Article - 343", "Article - 345", "Article - 346", "Article - 348"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH009]: Which article of the Constitution of India mentions about the language used in the Supreme Court and High Courts and for the Acts, Bills etc.?",
+        options: ["Article - 343", "Article - 348", "Article - 350", "Article - 351"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH010]: Which article of the Constitution of India mentions about the language used in the representation for the redressal of grievances?",
+        options: ["Article - 348", "Article - 349", "Article - 350", "Article - 351"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH011]: Which article of the Constitution of India mentions the Directive for the development of Hindi language?",
+        options: ["Article - 343", "Article - 344", "Article - 350", "Article - 351"],
+        correctAnswer: 3
+    },
+    {
+        question: "[OLH012]: According to the Constitution of India, the Official Language of the Union will be Hindi and the script will be ________?",
+        options: ["Brahmi", "Roman", "Devnagri", "Sanskrit"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH013]: Which sub-committee of Parliamentary Committee on Official Language inspects Railway offices?",
+        options: ["First Sub Committee", "Second Sub Committee", "Third Sub Committee", "Fourth Sub Committee"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH014]: How many members of Lok Sabha are there in the Parliamentary Committee on Official Language constituted under section 4 of the Official Language Act?",
+        options: ["10", "20", "30", "40"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH015]: How many members of Rajya Sabha are there in the Parliamentary Committee on Official Language?",
+        options: ["10", "20", "30", "40"],
+        correctAnswer: 0
+    },
+    {
+        question: "[OLH016]: Which Schedule of the Constitution mentions about the Official Languages of the state?",
+        options: ["Seventh", "Eighth", "Ninth", "Tenth"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH017]: Part-17 of the Constitution of India contains how many articles for the purpose of Official language?",
+        options: ["7", "9", "11", "12"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH018]: In which year was the Official Language Act passed?",
+        options: ["1950", "1963", "1967", "1976"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH019]: Under which section of the Official Language Act, some documents are compulsorily prepared, issued in both Hindi and English languages?",
+        options: ["Section 3(1)", "Section 3(2)", "Section 3(3)", "Section 8"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH020]: Who is empowered to make rules to implement the Official Language Act?",
+        options: ["President", "Parliament", "Central Government", "Supreme Court"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH021]: During which year the first amendment to the Official Language Act was made?",
+        options: ["1963", "1965", "1967", "1970"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH022]: In which year the President's orders regarding the Official Language were issued on 27 April?",
+        options: ["1950", "1955", "1960", "1965"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH023]: During which year the Official Language Resolution was passed?",
+        options: ["1963", "1967", "1968", "1976"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH024]: In which year the Official Language Rules were passed?",
+        options: ["1963", "1968", "1976", "1987"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH025]: When the Official Language Rules were amended first?",
+        options: ["1980", "1985", "1987", "1990"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH026]: Official Language Rules do not apply to which state of India?",
+        options: ["Kerala", "Andhra Pradesh", "Tamil Nadu", "West Bengal"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH027]: With a view of implementation of Official Language, how many regions have been classified in India under Official Language Rules 1976?",
+        options: ["2", "3", "4", "5"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH028]: Which Region is classified for states like Uttar Pradesh, Bihar, and Madhya Pradesh?",
+        options: ["Region 'A'", "Region 'B'", "Region 'C'", "Region 'D'"],
+        correctAnswer: 0
+    },
+    {
+        question: "[OLH029]: Which Region includes Bihar, Haryana, Himachal Pradesh, MP, Rajasthan, UP, Delhi, and Andaman & Nicobar?",
+        options: ["'A' region", "'B' region", "'C' region", "None of these"],
+        correctAnswer: 0
+    },
+    {
+        question: "[OLH030]: Which Region includes Gujarat, Maharashtra, Punjab, Chandigarh, and Daman & Diu?",
+        options: ["'A' region", "'B' region", "'C' region", "All regions"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH031]: States and Union territories other than those referred in A & B regions fall under:",
+        options: ["'A' region", "'B' region", "'C' region", "'D' region"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH032]: The definition of 'Working Knowledge in Hindi' is given in which rule of the Official Language Rules?",
+        options: ["Rule 8", "Rule 9", "Rule 10", "Rule 11"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH033]: Definition of 'Proficiency in Hindi' is included in which rule of the Official Language Rules?",
+        options: ["Rule 8", "Rule 9", "Rule 10", "Rule 12"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH034]: The names of the Central Government offices of which ______ percent employees have acquired working knowledge of Hindi are notified in the Gazette.",
+        options: ["50%", "75%", "80%", "100%"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH035]: When is Hindi Day celebrated every year in the Central Government Offices?",
+        options: ["10 January", "15 August", "14 September", "26 January"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH036]: When did the Constituent Assembly accept Hindi as the Official Language?",
+        options: ["15 August 1947", "14 September 1949", "26 January 1950", "2nd October 1869"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH037]: Which of the following languages is not included in the 8th Schedule of the Constitution?",
+        options: ["Urdu", "English", "Sanskrit", "Sindhi"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH038]: How many languages have been recognized in the 8th schedule of the constitution so far?",
+        options: ["14", "18", "22", "25"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH039]: Which schedule includes languages like Assamese, Dogri, and Santhali?",
+        options: ["Seventh", "Eighth", "Ninth", "Tenth"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH040]: According to the Official Language Rules, in which language can any employee submit an application, appeal or representation?",
+        options: ["Only Hindi", "Only English", "In Hindi or English", "Regional Language"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH041]: During which year was the first Official Language Commission formed?",
+        options: ["1949", "1950", "1955", "1963"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH042]: Which rule mentions the imperative of issuing bilingual form manuals, codes, and other literature?",
+        options: ["Rule 9", "Rule 10", "Rule 11", "Rule 12"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH043]: According to Rule 12, who ensures proper compliance of Official Language instructions?",
+        options: ["Hindi Officer", "Administrative Head of the Office", "General Manager", "Railway Board"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH044]: Who was the Chairman of the First Official Language Commission constituted in 1955?",
+        options: ["Shri B.G. Kher", "Shri G.B. Pant", "Shri Lal Bahadur Shastri", "Shri Morarji Desai"],
+        correctAnswer: 0
+    },
+    {
+        question: "[OLH045]: As per the Annual Programme, what percentage of originating correspondence should be in Hindi from divisions to headquarters?",
+        options: ["25%", "55%", "75%", "100%"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH046]: What is the period for holding the meetings of the Official Language Implementation Committee (OLIC)?",
+        options: ["Once in a month", "Once in 3 months", "Once in 6 months", "Once in a year"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH047]: What is the periodicity of holding the meetings of the Town Official Language Implementation Committee (TOLIC)?",
+        options: ["Once in 3 months", "Once in 6 months", "Once in 9 months", "Once in a year"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH048]: How many rules are there in the Official Language Rules 1976?",
+        options: ["9", "10", "12", "15"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH049]: The Annual Program of Official Language is released by which ministry?",
+        options: ["Ministry of Railways", "Ministry of Home Affairs", "Ministry of Education", "Ministry of Law"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH050]: How many times in a year are the examinations of Hindi courses under Hindi Teaching Scheme conducted?",
+        options: ["Once", "Twice", "Thrice", "Four times"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH051]: In which order should boards be displayed in Non-Hindi speaking areas?",
+        options: ["Hindi, English, Regional", "Regional, Hindi, English", "English, Hindi, Regional", "Regional, English, Hindi"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH052]: Who is the Chairman of the OLIC of the Divisional Railway Office?",
+        options: ["ADRM", "DRM", "Sr. DPO", "Sr. DOM"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH053]: Who is the Chairman of the Zonal Railways OLIC?",
+        options: ["AGM", "GM", "PCPO", "SDGM"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH054]: Who is the Chairman of the Railway Board OLIC?",
+        options: ["Minister of Railways", "Chairman, Railway Board", "Member Staff", "Director (OL)"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH055]: Who is the member secretary of the Railway Board OLIC?",
+        options: ["Chairman, Railway Board", "Director (OL)", "Deputy Director (OL)", "Member Staff"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH056]: How many Sections are there in the Official Language Act 1963?",
+        options: ["7", "8", "9", "12"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH057]: Which section of the Official Language Act 1963 gives the Central Government the power to make rules?",
+        options: ["Section 3", "Section 5", "Section 8", "Section 9"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH058]: Name of the scheme for writing original books in Hindi on technical subjects of Railways:",
+        options: ["Premchand Award", "Maithilisharan Gupta Award", "Lal Bahadur Shastri Technical Award", "Indira Gandhi Award"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH059]: What is the name of the scheme for original fiction/story collection and novel writing?",
+        options: ["Munshi Premchand Award Scheme", "Maithilisharan Gupta Award Scheme", "Rajiv Gandhi Award", "None of these"],
+        correctAnswer: 0
+    },
+    {
+        question: "[OLH060]: What is the name of the scheme for original poetry/poetry collection?",
+        options: ["Munshi Premchand Award", "Maithilisharan Gupta Award Scheme", "Lal Bahadur Shastri Award", "Railway Board Award"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH061]: Under which Rule can an employee write notings or minutes on a file in Hindi or English?",
+        options: ["Rule 5", "Rule 7", "Rule 8(1)", "Rule 10"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH062]: Who is responsible for complying with Section 3(3) of the Official Language Act?",
+        options: ["The Hindi Translator", "The Administrative Head", "The Officer signing such documents", "The DRM"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH063]: Under Rule 5, in which language should a letter received in Hindi be replied to?",
+        options: ["English", "Regional Language", "Hindi", "Bilingual"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH064]: For which work has 'Mantra' Software been developed by the Dept. of OL?",
+        options: ["Translation", "Typing", "Speech to Text", "Dictionary"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH065]: Name the software used to learn Hindi through other Indian languages:",
+        options: ["Leela", "Shruthlekhan", "Pravachak", "Mantra"],
+        correctAnswer: 0
+    },
+    {
+        question: "[OLH066]: Name the software for converting Hindi speech to Hindi text:",
+        options: ["Leela", "Shruthlekhan - Rajbhasha", "Pravachak", "None of these"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH067]: Name the software for converting Hindi text to Hindi speech:",
+        options: ["Leela", "Shruthlekhan", "Pravachak - Rajbhasha", "Mantra"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH068]: Required percentage of Hindi correspondence from 'C' region to central offices in 'A' region:",
+        options: ["30%", "55%", "75%", "100%"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH069]: Required percentage of Hindi correspondence from 'C' region to central offices in 'B' region:",
+        options: ["30%", "55%", "75%", "100%"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH070]: Required percentage of Hindi correspondence from 'C' region to central offices in 'C' region:",
+        options: ["30%", "55%", "75%", "100%"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH071]: Required percentage of Hindi correspondence from 'C' region with offices in 'A' and 'B' regions:",
+        options: ["55%", "75%", "85%", "100%"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH072]: What percentage of letters received in Hindi must be replied to in Hindi?",
+        options: ["50%", "75%", "90%", "100%"],
+        correctAnswer: 3
+    },
+    {
+        question: "[OLH073]: What is the target percentage for Hindi noting in the 'C' region?",
+        options: ["10%", "20%", "30%", "55%"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH074]: What is the target percentage for Hindi dictations in the 'C' region?",
+        options: ["10%", "20%", "30%", "55%"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH075]: Target for purchasing electronic devices in bilingual form in 'C' region:",
+        options: ["50%", "75%", "90%", "100%"],
+        correctAnswer: 3
+    },
+    {
+        question: "[OLH076]: Which form of numerals should be used for official purposes of the Union?",
+        options: ["Devanagari numerals", "Roman numerals", "International form of Indian Numerals", "Local numerals"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH077]: Names of offices are notified in the Gazette when ____ percent employees acquire working knowledge of Hindi:",
+        options: ["50%", "60%", "80%", "100%"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH078]: Gazette notification of offices is mentioned under which Rule?",
+        options: ["Rule 8", "Rule 9", "Rule 10(4)", "Rule 12"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH079]: Amount of award under Railway Board Individual Cash Award Scheme:",
+        options: ["Rs.1000", "Rs.1500", "Rs.3000", "Rs.5000"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH080]: Percentage of sections required to be nominated for 100% Hindi work:",
+        options: ["10%", "20%", "30%", "50%"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH081]: Rule 12 entrusts the _____ with responsibility for Official Language compliance:",
+        options: ["Hindi Officer", "DRM", "Administrative Head", "GM"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH082]: Under Rule 7(1), an employee can submit applications in:",
+        options: ["Only Hindi", "Only English", "Hindi or English", "Regional language"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH083]: Under Rule 7(3), an employee can demand orders/notices served to him in:",
+        options: ["Hindi", "English", "Hindi or English", "Bilingual"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH084]: Rule 11(3) requires name plates and sign boards to be in:",
+        options: ["Only Hindi", "Only English", "Hindi and English", "Hindi, English and Regional"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH085]: Award given to GMs and above for excellent work in Hindi:",
+        options: ["Silver Medal", "Kamlapati Tripathi Rajbhasha Gold Medal", "Lal Bahadur Shastri Award", "None of these"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH086]: Award given to SAG and above officers for excellent work in Hindi:",
+        options: ["Gold Medal", "Rail Manthri Rajbhasha Silver Medal", "Premchand Award", "GM Award"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH087]: Award scheme for writing at least 10,000 words in Hindi annually:",
+        options: ["Railway Board Award", "Home Ministry Award Scheme", "Zonal Award", "Collective Award"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH088]: Percentage of sections to be nominated for 100% work in Hindi (Repeat):",
+        options: ["10", "20", "30", "40"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH089]: Required bilingual percentage for Central Government office websites:",
+        options: ["50%", "75%", "90%", "100%"],
+        correctAnswer: 3
+    },
+    {
+        question: "[OLH090]: Required bilingual percentage for codes, manuals, and literature:",
+        options: ["50%", "75%", "90%", "100%"],
+        correctAnswer: 3
+    },
+    {
+        question: "[OLH091]: Required bilingual percentage for training material in institutes:",
+        options: ["50%", "75%", "90%", "100%"],
+        correctAnswer: 3
+    },
+    {
+        question: "[OLH092]: Minimum percentage of subordinate offices to be inspected by OL officers:",
+        options: ["10%", "20%", "25%", "50%"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH093]: Percentage of library grants to be spent on Hindi books/e-books:",
+        options: ["25%", "50%", "75%", "100%"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH094]: Personal pay for passing Hindi typing exam is given for ____ months:",
+        options: ["6", "12", "18", "24"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH095]: Personal pay for passing Hindi Stenography exam is given for ____ months:",
+        options: ["12", "18", "24", "36"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH096]: If a state doesn't choose an OL, what will be its Official Language?",
+        options: ["Hindi", "English", "Sanskrit", "Regional Language"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH097]: Authoritative texts of all Bills and amendments shall be in:",
+        options: ["Hindi", "English", "Both Hindi and English", "Regional Language"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH098]: Proceedings in the Supreme Court and every High Court shall be in:",
+        options: ["Hindi", "English", "Bilingual", "Sanskrit"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH099]: For enrichment of Hindi, vocabulary should be drawn primarily from:",
+        options: ["English", "Urdu", "Sanskrit Language", "Regional Languages"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH100]: What should be the order of announcements at Railway stations?",
+        options: ["Hindi, English, Regional", "Regional, Hindi, English", "English, Hindi, Regional", "Hindi, Regional, English"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH101]: Constitutional provision related to Official Language is in which part of the Constitution of India?",
+        options: ["Part-15", "Part-16", "Part-17", "Part-18"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH102]: Which chapter of the Constitution mentions the Official Language of the Union?",
+        options: ["Chapter - 1", "Chapter - 2", "Chapter - 3", "Chapter - 4"],
+        correctAnswer: 0
+    },
+    {
+        question: "[OLH103]: In which article of the Constitution of India mentions the language to be used in the Parliament?",
+        options: ["Article - 110", "Article - 120", "Article - 210", "Article - 343"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH104]: Which article of the Constitution of India mentions the language to be used in the Legislature?",
+        options: ["Article - 120", "Article - 210", "Article - 343", "Article - 351"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH105]: Which article of the Constitution of India mentions the Official Language of the Union?",
+        options: ["Article - 340", "Article - 342", "Article - 343", "Article - 345"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH106]: Which article of the Constitution of India mentions the Commission and Committee of Parliament in connection with the Official Language?",
+        options: ["Article - 343", "Article - 344", "Article - 345", "Article - 346"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH107]: Which article of the Constitution of India mentions the Official Language or Official Languages of the state?",
+        options: ["Article - 343", "Article - 344", "Article - 345", "Article - 346"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH108]: Which article mentions the language of communication between one state and another or between a state and the Union?",
+        options: ["Article - 343", "Article - 345", "Article - 346", "Article - 348"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH109]: Which article mentions the language used in the Supreme Court and High Courts?",
+        options: ["Article - 343", "Article - 345", "Article - 348", "Article - 350"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH110]: Which article mentions the language used in representations for the redressal of grievances?",
+        options: ["Article - 348", "Article - 349", "Article - 350", "Article - 351"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH111]: Which article mentions the Directive for the development of Hindi language?",
+        options: ["Article - 343", "Article - 345", "Article - 350", "Article - 351"],
+        correctAnswer: 3
+    },
+    {
+        question: "[OLH112]: According to the Constitution, the script of the Official Language of the Union will be:",
+        options: ["Brahmi", "Roman", "Devnagri", "Sanskrit"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH113]: Which sub-committee of the Parliamentary Committee on Official Language inspects Railway offices?",
+        options: ["First Sub Committee", "Second Sub Committee", "Third Sub Committee", "Fourth Sub Committee"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH114]: Number of Lok Sabha members in the Parliamentary Committee on Official Language:",
+        options: ["10", "15", "20", "30"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH115]: Number of Rajya Sabha members in the Parliamentary Committee on Official Language:",
+        options: ["10", "20", "30", "40"],
+        correctAnswer: 0
+    },
+    {
+        question: "[OLH116]: Which Schedule of the Constitution mentions the Official Languages?",
+        options: ["Seventh", "Eighth", "Ninth", "Tenth"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH117]: Part-17 of the Constitution contains how many articles (343-351) for Official Language purposes?",
+        options: ["7", "9", "11", "12"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH118]: In which year was the Official Language Act passed?",
+        options: ["1950", "1955", "1963", "1967"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH119]: Under which section of the OL Act are certain documents compulsorily bilingual?",
+        options: ["Section 3(1)", "Section 3(2)", "Section 3(3)", "Section 4"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH120]: Who is empowered to make rules to implement the Official Language Act?",
+        options: ["President", "Central Government", "Supreme Court", "Parliament"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH121]: During which year was the first amendment to the Official Language Act made?",
+        options: ["1963", "1965", "1967", "1970"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH122]: President's orders regarding Official Language were issued on 27 April of which year?",
+        options: ["1950", "1955", "1960", "1965"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH123]: During which year was the Official Language Resolution passed?",
+        options: ["1963", "1967", "1968", "1976"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH124]: In which year was the Official Language Rule passed?",
+        options: ["1963", "1968", "1976", "1987"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH125]: When were the Official Language Rules first amended?",
+        options: ["1980", "1985", "1987", "1990"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH126]: Official Language Rules do not apply to which state?",
+        options: ["Kerala", "Tamil Nadu", "West Bengal", "Goa"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH127]: How many regions are classified in India under the OL Rules 1976?",
+        options: ["2", "3", "4", "5"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH128]: Andaman and Nicobar Islands come under which area for OL propagation?",
+        options: ["'A' region", "'B' region", "'C' region", "None of these"],
+        correctAnswer: 0
+    },
+    {
+        question: "[OLH129]: The state of Himachal Pradesh comes under which area?",
+        options: ["'A' region", "'B' region", "'C' region", "Non-Hindi region"],
+        correctAnswer: 0
+    },
+    {
+        question: "[OLH130]: Rule for the definition of 'Working Knowledge in Hindi':",
+        options: ["Rule 8", "Rule 9", "Rule 10", "Rule 11"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH131]: Rule for the definition of 'Proficiency in Hindi':",
+        options: ["Rule 8", "Rule 9", "Rule 10", "Rule 12"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH132]: Offices with ____% employees having working knowledge are notified in the Gazette:",
+        options: ["50%", "75%", "80%", "100%"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH133]: When is Hindi Day celebrated annually?",
+        options: ["10 January", "15 August", "14 September", "26 January"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH134]: When did the Constituent Assembly accept Hindi as the Official Language?",
+        options: ["15 August 1947", "14 September 1949", "26 January 1950", "2nd October 1869"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH135]: Language NOT included in the 8th Schedule:",
+        options: ["Sanskrit", "Urdu", "English", "Kashmiri"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH136]: Total languages recognized in the 8th Schedule currently:",
+        options: ["14", "18", "22", "25"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH137]: Employee applications/appeals can be submitted in:",
+        options: ["Only Hindi", "Only English", "Hindi or English", "Regional language"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH138]: Year of formation of the first Official Language Commission:",
+        options: ["1949", "1950", "1955", "1963"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH139]: Rule mentioning bilingual manuals and codes:",
+        options: ["Rule 9", "Rule 10", "Rule 11", "Rule 12"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH140]: Responsibility for compliance under Rule 12 lies with:",
+        options: ["Hindi Officer", "Administrative Head of the Office", "General Manager", "Railway Board"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH141]: Chairman of the First Official Language Commission (1955):",
+        options: ["Shri B.G. Kher", "Shri G.B. Pant", "Shri Lal Bahadur Shastri", "Shri Morarji Desai"],
+        correctAnswer: 0
+    },
+    {
+        question: "[OLH142]: Percentage of correspondence from divisions to headquarters in Hindi (Annual Programme 2019-20):",
+        options: ["25%", "55%", "75%", "100%"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH143]: Periodicity for OLIC meetings in Central Govt Offices:",
+        options: ["Monthly", "Once in 3 months", "Once in 6 months", "Annually"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH144]: Periodicity for Town OLIC (TOLIC) meetings:",
+        options: ["Once in 3 months", "Once in 6 months", "Once in 9 months", "Annually"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH145]: Total number of rules in the Official Language Rules 1976:",
+        options: ["9", "10", "12", "15"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH146]: Ministry that releases the Annual Program of Official Language:",
+        options: ["Ministry of Railways", "Ministry of Home Affairs", "Ministry of Education", "Ministry of Law"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH147]: Frequency of Hindi Teaching Scheme exams annually:",
+        options: ["Once", "Twice", "Thrice", "Four times"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH148]: Order of boards in Non-Hindi speaking areas:",
+        options: ["Regional, Hindi, English", "Hindi, English, Regional", "English, Hindi, Regional", "Regional, English, Hindi"],
+        correctAnswer: 0
+    },
+    {
+        question: "[OLH149]: Chairman of OLIC at Divisional Railway Office:",
+        options: ["ADRM", "DRM", "Sr. DPO", "DCM"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH150]: Chairman of Zonal Railways OLIC:",
+        options: ["AGM", "GM", "PCPO", "SDGM"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH151]: Total sections in the Official Language Act 1963:",
+        options: ["7", "8", "9", "12"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH152]: Section of the OL Act 1963 giving power to make rules:",
+        options: ["Section 3", "Section 5", "Section 8", "Section 9"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH153]: Scheme for writing original Hindi books on technical Railway subjects:",
+        options: ["Lal Bahadur Shastri Technical Original Book Writing Award", "Premchand Award", "Maithilisharan Gupta Award", "GM Award"],
+        correctAnswer: 0
+    },
+    {
+        question: "[OLH154]: Scheme for original fiction, story collections, and novels:",
+        options: ["Munshi Premchand Award Scheme", "Maithilisharan Gupta Award Scheme", "Rajiv Gandhi Award", "Indira Gandhi Award"],
+        correctAnswer: 0
+    },
+    {
+        question: "[OLH155]: Scheme for original poetry or poetry collections:",
+        options: ["Munshi Premchand Award", "Maithilisharan Gupta Award Scheme", "Lal Bahadur Shastri Award", "None of these"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH156]: Rule allowing employees to write notings in Hindi or English:",
+        options: ["Rule 5", "Rule 7", "Rule 8(1)", "Rule 10"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH157]: Chairman of the Railway Board OLIC:",
+        options: ["Minister of Railways", "Chairman, Railway Board", "Member Staff", "Director (OL)"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH158]: Member Secretary of the Railway Board OLIC:",
+        options: ["Chairman, Railway Board", "Director (OL)", "PCPO", "GM"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH159]: Responsibility for Section 3(3) compliance lies with:",
+        options: ["Officer signing the document", "Administrative Head", "Hindi Officer", "DRM"],
+        correctAnswer: 0
+    },
+    {
+        question: "[OLH160]: Language to reply to letters received in Hindi (Rule 1976):",
+        options: ["English", "Regional language", "Hindi", "Bilingual"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH161]: 'Mantra' software is developed for:",
+        options: ["Translation", "Typing", "Speech to Text", "Dictionary"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH162]: Software to learn Hindi through other Indian languages:",
+        options: ["Leela", "Shruthlekhan", "Pravachak", "Mantra"],
+        correctAnswer: 0
+    },
+    {
+        question: "[OLH163]: Software for converting Hindi speech to Hindi text:",
+        options: ["Leela", "Shruthlekhan - Rajbhasha", "Pravachak", "None of these"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH164]: Software for converting Hindi text to Hindi speech:",
+        options: ["Leela", "Shruthlekhan", "Pravachak - Rajbhasha", "Mantra"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH165]: Hindi correspondence target from 'C' region to central offices in 'A' region:",
+        options: ["30%", "55%", "75%", "100%"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH166]: Hindi correspondence target from 'C' region to central offices in 'B' region:",
+        options: ["30%", "55%", "75%", "100%"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH167]: Hindi correspondence target from 'C' region to central offices in 'C' region:",
+        options: ["30%", "55%", "75%", "100%"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH168]: Target percentage for correspondence from 'C' region with 'A' and 'B' states:",
+        options: ["55%", "75%", "85%", "100%"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH169]: Target percentage for replying to Hindi letters in Hindi:",
+        options: ["50%", "75%", "90%", "100%"],
+        correctAnswer: 3
+    },
+    {
+        question: "[OLH170]: Target for Hindi noting in 'C' region:",
+        options: ["10%", "20%", "30%", "55%"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH171]: Target for Hindi dictations in 'C' region:",
+        options: ["10%", "20%", "30%", "55%"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH172]: Target for bilingual purchase of electronic devices in 'C' region:",
+        options: ["50%", "75%", "90%", "100%"],
+        correctAnswer: 3
+    },
+    {
+        question: "[OLH173]: Form of numerals for official Union purposes:",
+        options: ["Devanagari numerals", "Roman numerals", "International form of Indian Numerals", "Local numerals"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH174]: Offices notified in Gazette when ____% employees acquire working knowledge:",
+        options: ["50%", "60%", "80%", "100%"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH175]: Rule for Gazette notification of offices (80% working knowledge):",
+        options: ["Rule 8", "Rule 9", "Rule 10(4)", "Rule 12"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH176]: Amount of award under Rly Board Individual Cash Award Scheme:",
+        options: ["Rs.1000", "Rs.1500", "Rs.3000", "Rs.5000"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH177]: Percentage of sections to be nominated for 100% Hindi work:",
+        options: ["10%", "20%", "30%", "50%"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH178]: Duplicate - Gazette notification of offices rule:",
+        options: ["Rule 8", "Rule 9", "Rule 10(4)", "Rule 12"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH179]: Rule 12 entrusts the _____ with responsibility for OL compliance:",
+        options: ["Hindi Officer", "DRM", "Administrative Head", "GM"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH180]: Under Rule 7(1), an employee can submit applications in:",
+        options: ["Only Hindi", "Only English", "Hindi or English", "Regional language"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH181]: Rule 7(3) allows employee to demand orders/notices in:",
+        options: ["Hindi", "English", "Hindi or English", "Bilingual"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH182]: Rule 11(3) requires sign boards to be in:",
+        options: ["Only Hindi", "Only English", "Hindi and English", "Regional only"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH183]: Gold medal for GMs and above for excellent Hindi work:",
+        options: ["Kamlapati Tripathi Rajbhasha Gold Medal", "Rail Manthri Silver Medal", "Lal Bahadur Shastri Award", "None"],
+        correctAnswer: 0
+    },
+    {
+        question: "[OLH184]: Silver medal for SAG and above officers:",
+        options: ["Gold Medal", "Rail Manthri Rajbhasha Silver Medal", "Premchand Award", "GM Award"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH185]: Award for writing at least 10,000 words in Hindi annually:",
+        options: ["Railway Board Award", "Home Ministry Award Scheme", "Zonal Award", "Collective Award"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH186]: Percentage of sections to be nominated for 100% Hindi work (Repeat):",
+        options: ["10", "20", "30", "40"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH187]: Bilingual target for Central Govt office websites:",
+        options: ["50%", "75%", "90%", "100%"],
+        correctAnswer: 3
+    },
+    {
+        question: "[OLH188]: Bilingual target for codes, manuals, and procedures:",
+        options: ["50%", "75%", "90%", "100%"],
+        correctAnswer: 3
+    },
+    {
+        question: "[OLH189]: Bilingual target for training material in institutes:",
+        options: ["50%", "75%", "90%", "100%"],
+        correctAnswer: 3
+    },
+    {
+        question: "[OLH190]: Minimum percentage of subordinate offices to be inspected by OL officers:",
+        options: ["10%", "25%", "50%", "75%"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH191]: Percentage of library grant to be spent on Hindi books/e-books:",
+        options: ["25%", "50%", "75%", "100%"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH192]: Personal pay for passing Hindi typing exam is given for ____ months:",
+        options: ["6", "12", "18", "24"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH193]: Personal pay for passing Hindi Stenography exam is given for ____ months:",
+        options: ["12", "18", "24", "36"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH194]: If a state doesn't choose an Official Language, it will be:",
+        options: ["Hindi", "English Language", "Sanskrit", "Regional Language"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH195]: Authoritative texts of all Bills and amendments shall be in:",
+        options: ["Hindi", "English", "Bilingual", "Regional language"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH196]: Supreme Court and High Court proceedings shall be in:",
+        options: ["Hindi", "English", "Bilingual", "Sanskrit"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH197]: Primary source of vocabulary for Hindi enrichment:",
+        options: ["English", "Urdu", "Sanskrit Language", "Regional Language"],
+        correctAnswer: 2
+    },
+    {
+        question: "[OLH198]: Display order for boards in Non-Hindi areas:",
+        options: ["Hindi, English, Regional", "Regional Language, Hindi, English", "English, Hindi, Regional", "Regional, English, Hindi"],
+        correctAnswer: 1
+    },
+    {
+        question: "[OLH199]: Order of announcements at Railway stations:",
+        options: ["Hindi, English, Regional", "Regional language, Hindi, English", "English, Hindi, Regional", "Hindi, Regional, English"],
+        correctAnswer: 1
     }
 ];
