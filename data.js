@@ -12331,1756 +12331,1756 @@ const AOM01062025_70 = [
 
 const AOM04082024_30 = [
     {
-        question: "Gross clearance of B Class ODC is?",
+        question: "[Q040824_30001]: Gross clearance of B Class ODC is?",
         options: [
             "22.86 cm (9 inches) and above",
             "Less than 22.86 cm (9 inches)",
-            "15.24 cm (6 inches) and above but less than 22.86 cm (9 inches) +1",
+            "15.24 cm (6 inches) and above but less than 22.86 cm (9 inches)",
             "None of the Above"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
-        question: "Maximum Permissible Sanctioned Speed of B Class ODC in BG.",
+        question: "[Q040824_30002]: Maximum Permissible Sanctioned Speed of B Class ODC in BG.",
         options: [
             "75 Kmph",
             "Sectional speed",
             "60 Kmph",
             "40 Kmph"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
-        question: "In case of double exit siding target time for turning out the Medical Van is- [DELETED]",
+        question: "[Q040824_30003]: In case of double exit siding target time for turning out the Medical Van is- [DELETED]",
         options: [
             "25 Minutes",
             "15 Minutes",
             "35 Minutes",
             "30 Minutes"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "On the broad gauge the first detonator shall be placed at 600 meters and How many detonators at 1200 meters about 10 meters apart, from the place where the train has stopped? [DELETED AND MODIFIED]",
+        question: "[Q040824_30004]: On the broad gauge the first detonator shall be placed at 600 meters and How many detonators at 1200 meters about 10 meters apart, from the place where the train has stopped? [DELETED AND MODIFIED]",
         options: [
             "One detonator",
             "Two detonators",
             "Three detonators",
             "Four detonators"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
-        question: "Which whistle code is given by the Loco Pilot during Train Parting?",
+        question: "[Q040824_30005]: Which whistle code is given by the Loco Pilot during Train Parting?",
         options: [
             "One short, one long and one short whistles",
             "One long continuous whistle",
             "One long, one short, one long and one short whistles",
             "Three short whistle"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
-        question: "Which module is not included in ICMS?",
+        question: "[Q040824_30006]: Which module is not included in ICMS?",
         options: [
             "PAM",
             "COIS",
             "TMS",
             "Time Tabling Module"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
-        question: "Commissioner of Railway Safety means CCRS or CRS appointed under section ___ of the Railways Act 1989",
+        question: "[Q040824_30007]: Commissioner of Railway Safety means CCRS or CRS appointed under section ___ of the Railways Act 1989",
         options: [
             "4",
             "3",
             "5",
             "8"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
-        question: "To treat any accident as averted collision, outside station limits, the distance between two trains shall be:",
+        question: "[Q040824_30008]: To treat any accident as averted collision, outside station limits, the distance between two trains shall be:",
         options: [
             "600 meters or less",
             "400 meters or less",
             "Less than 400 meters",
             "180 meters or less"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
-        question: "CRS shall hold statutory enquiry into the accidents falling under Section ___ of Railways Act 1989.",
+        question: "[Q040824_30009]: CRS shall hold statutory enquiry into the accidents falling under Section ___ of Railways Act 1989.",
         options: [
             "110",
             "111",
             "112",
             "113"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
-        question: "According to the policy, who is responsible for the maintenance of OHE (Over Head Equipment) from the take-off point onward, including inside the Terminal?",
+        question: "[Q040824_30010]: According to the policy, who is responsible for the maintenance of OHE (Over Head Equipment) from the take-off point onward, including inside the Terminal?",
         options: [
             "GCTO",
             "Zonal Railway",
             "The Accounts department of the Division",
             "None of these"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "What provision should the GCTO make for the Electronic In-motion Weighbridge (EIMWB) at GCTs planning to deal with outward cargo (loading)?",
+        question: "[Q040824_30011]: What provision should the GCTO make for the Electronic In-motion Weighbridge (EIMWB) at GCTs planning to deal with outward cargo (loading)?",
         options: [
             "EIMWB provision is not essential",
             "EIMWB provision is mandatory and should be done at the GCTO's cost",
             "The Railway provides EIMWB",
             "EIMWB is only required for inward cargo"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "What is the maximum tenure for which Railway land can be leased to the GCTO under the GCT Agreement?",
+        question: "[Q040824_30012]: What is the maximum tenure for which Railway land can be leased to the GCTO under the GCT Agreement?",
         options: [
             "25 years",
             "30 years",
             "35 years",
             "40 years"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
-        question: "In case of defective speedometer Loco pilot will reduce speed [DELETED AND OPTIONS MODIFIED]",
+        question: "[Q040824_30013]: In case of defective speedometer Loco pilot will reduce speed [DELETED AND OPTIONS MODIFIED]",
         options: [
             "Can take decision of his own",
             "0.2 times booked speed",
             "0.3 times booked speed",
             "0.1 times booked speed"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
-        question: "When Train Stops at First stop signal for more than---- Guard will go for protection from rear.",
+        question: "[Q040824_30014]: When Train Stops at First stop signal for more than---- Guard will go for protection from rear.",
         options: [
             "10 min. or such less time as may be prescribed by special instructions",
             "15min. or such less time as may be prescribed by special instructions",
             "5 min. or such less time as may be prescribed by special instructions",
             "According to Guard wish"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "To protect train from rear guard shall place first detonator in BG",
+        question: "[Q040824_30015]: To protect train from rear guard shall place first detonator in BG",
         options: [
             "400m",
             "500m",
             "600m",
             "800m"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
-        question: "How many total no. of system of working for train running?",
+        question: "[Q040824_30016]: How many total no. of system of working for train running?",
         options: [
             "4",
             "5",
             "6",
             "3"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
-        question: "What is Adequate distance beyond first stop signal for granting line clear in case of two aspect lower quadrant signaling?",
+        question: "[Q040824_30017]: What is Adequate distance beyond first stop signal for granting line clear in case of two aspect lower quadrant signaling?",
         options: [
             "180m",
             "580m",
             "240m",
             "400m"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
-        question: "Where two detonators are to be placed for Protection of a train stopped in automatic block signaling section in foggy weather? [DELETED AND MODIFIED]",
+        question: "[Q040824_30018]: Where two detonators are to be placed for Protection of a train stopped in automatic block signaling section in foggy weather? [DELETED AND MODIFIED]",
         options: [
             "90m+10m",
             "250m+10m",
             "270m+10m",
             "250m+90m"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
-        question: "In train following system all the trains following the first train shall be timed to run at the same speed and such speed shall not exceed:",
+        question: "[Q040824_30019]: In train following system all the trains following the first train shall be timed to run at the same speed and such speed shall not exceed:",
         options: [
             "30KMPH",
             "25KMPH",
             "15KMPH",
             "As per Loco pilot convenience"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "When the train is required to stop and the restriction is likely to last only for a day or less three detonators shall be placed at a distance of-------in BG.",
+        question: "[Q040824_30020]: When the train is required to stop and the restriction is likely to last only for a day or less three detonators shall be placed at a distance of-------in BG.",
         options: [
             "1200m",
             "800m",
             "600m",
             "400m"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "Collision Train Accidents will be termed as consequential train Accidents in --- categories.",
+        question: "[Q040824_30021]: Collision Train Accidents will be termed as consequential train Accidents in --- categories.",
         options: [
             "A1 to A2",
             "A1 to A3",
             "A1 to A4",
             "None of these"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
-        question: "Guard Driver (GDR) Check, at locations where TXR is not available, will be conducted by crew along with the prescribed performa if… [DELETED AND MODIFIED]",
+        question: "[Q040824_30022]: Guard Driver (GDR) Check, at locations where TXR is not available, will be conducted by crew along with the prescribed performa if… [DELETED AND MODIFIED]",
         options: [
             "The rake is stabled for more than 24 hours",
             "The rake integrity is missing (+ or - 4 wagons)",
             "BPC is invalid",
             "All of the above"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
-        question: "\"Forwarding note\" means the document executed under section ___",
+        question: "[Q040824_30023]: \"Forwarding note\" means the document executed under section ___",
         options: [
             "64",
             "77",
             "71",
             "89"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "The following relatives of a deceased passenger comes in the category of dependents:",
+        question: "[Q040824_30024]: The following relatives of a deceased passenger comes in the category of dependents:",
         options: [
             "Minor brother or unmarried sister, widowed sister, widowed daughter-in-law",
             "A minor child of a pre-deceased daughter if dependent on deceased passenger",
             "The wife, husband, son and daughter",
             "All of above"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
-        question: "Train passing Signal at Danger, which one is false:",
+        question: "[Q040824_30025]: Train passing Signal at Danger, which one is false:",
         options: [
             "When a train passes a fixed stop signal in \"ON\" position",
             "When a train passes a Banner Flag",
             "When a train passes a automatic stop signal in \"ON\" position",
             "When a train passes an Engineering stop indicator"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
-        question: "Loco outage is:",
+        question: "[Q040824_30026]: Loco outage is:",
         options: [
             "The time taken by a locomotive to travel from one division to another",
             "The average number of locos available for traffic use in a day",
             "The time spent by each locomotive for various activities in a day",
             "The total number of locomotives available in a railway system"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "What is the Wagon Turn Round (WTR) for a division if it loads 350 wagons, receives 150 loaded wagons from other divisions, and has an effective wagon holding of 2250 wagons at the end of the day?",
+        question: "[Q040824_30027]: What is the Wagon Turn Round (WTR) for a division if it loads 350 wagons, receives 150 loaded wagons from other divisions, and has an effective wagon holding of 2250 wagons at the end of the day?",
         options: [
             "3.5 days",
             "4.0 days",
             "4.5 days",
             "5.0 days"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
-        question: "Which section of the Railways Act, 1989 empowers the Central Government (Railway Board) to lay down the Schedule of Preferential Traffic?",
+        question: "[Q040824_30028]: Which section of the Railways Act, 1989 empowers the Central Government (Railway Board) to lay down the Schedule of Preferential Traffic?",
         options: [
             "Section 71",
             "Section 198",
             "Section 89",
             "Section 169"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "What does General Rule 5.06 of Indian Railways state about?",
+        question: "[Q040824_30029]: What does General Rule 5.06 of Indian Railways state about?",
         options: [
             "WTT",
             "ACD",
             "SWR",
             "Fog Device"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
-        question: "When does the 'A' marker get illuminated in a Semi-Automatic Stop signal?",
+        question: "[Q040824_30030]: When does the 'A' marker get illuminated in a Semi-Automatic Stop signal?",
         options: [
             "When the signal works as a Manual Stop signal",
             "When the signal works as an Automatic Stop signal",
             "When the signal works as a Semi-Automatic Stop signal",
             "When the signal works as an Advance Stop signal"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "When more than one Shunt signal is placed on the same post, how are they applied to the lines from left to right?",
+        question: "[Q040824_30031]: When more than one Shunt signal is placed on the same post, how are they applied to the lines from left to right?",
         options: [
             "The bottom most Shunt signal applies to the extreme left hand line...",
             "The topmost Shunt signal applies to the extreme left hand line...",
             "The topmost Shunt signal applies to the extreme right-hand line...",
             "Two Shunt signals cannot be placed on the same post."
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "Which aspect will a Shunt signal show in 'On' position when it is placed below a Stop signal?",
+        question: "[Q040824_30032]: Which aspect will a Shunt signal show in 'On' position when it is placed below a Stop signal?",
         options: [
             "No Light",
             "Red",
             "Similar aspect of the Stop Signal",
             "Single Yellow"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "When should a Warner signal be provided at a class 'B' station (both single and double line)?",
+        question: "[Q040824_30033]: When should a Warner signal be provided at a class 'B' station (both single and double line)?",
         options: [
             "If trains run through at a speed exceeding 50 kilometers per hour without stopping.",
             "If trains run through at a speed exceeding 40 kilometers per hour without stopping.",
             "If trains run through at a speed exceeding 45 kilometers per hour without stopping.",
             "Warner signals are not required at class 'B' stations."
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "Minimum distance of Visibility Test Object (VTO) from station master's office should not be less than:",
+        question: "[Q040824_30034]: Minimum distance of Visibility Test Object (VTO) from station master's office should not be less than:",
         options: [
             "120 meters or a lesser distance if expressly sanctioned by the Railway Board",
             "180 meters or a lesser distance if expressly sanctioned by the Railway Board",
             "270 meters or a lesser distance if expressly sanctioned by the Railway Board",
             "400 meters or a lesser distance if expressly sanctioned by the Railway Board"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "On which authority departure of a train from a line provided with a common departure signal is done?",
+        question: "[Q040824_30035]: On which authority departure of a train from a line provided with a common departure signal is done?",
         options: [
             "T-509",
             "T-510",
             "T-511",
             "T-512"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
-        question: "Under which section/rule of general rules, shunting at stations under centralised traffic control is performed?",
+        question: "[Q040824_30036]: Under which section/rule of general rules, shunting at stations under centralised traffic control is performed?",
         options: [
             "Section 5.14 of general rules",
             "Section 5.15 of general rules",
             "Section 5.16 of general rules",
             "Section 5.17 of general rules"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "When does a goods train considered 'Over Due Train'?",
+        question: "[Q040824_30037]: When does a goods train considered 'Over Due Train'?",
         options: [
             "If does not arrive within 05 minutes after allowing for its normal running time",
             "If does not arrive within 10 minutes after allowing for its normal running time",
             "If does not arrive within 15 minutes after allowing for its normal running time",
             "If does not arrive within 20 minutes after allowing for its normal running time"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
-        question: "How long should the Loco Pilot wait after stopping the train in the rear of the Automatic Stop signal during the night?",
+        question: "[Q040824_30038]: How long should the Loco Pilot wait after stopping the train in the rear of the Automatic Stop signal during the night?",
         options: [
             "30 seconds",
             "1 minute",
             "2 minutes",
             "5 minutes"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
-        question: "Brake power % ___ at originating station for 'Close Circuit' rakes in Air Brake Stock.",
+        question: "[Q040824_30039]: Brake power % ___ at originating station for 'Close Circuit' rakes in Air Brake Stock.",
         options: [
             "1",
             "0.9",
             "0.95",
             "None of these"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "TVU is abbreviated for:",
+        question: "[Q040824_30040]: TVU is abbreviated for:",
         options: [
             "Track vulnerable unit",
             "Train vehicle unit",
             "Total vehicle unit",
             "Traffic variation unit"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "What is the distance at which the caution indicator is placed from the place of obstruction on the Broad Gauge?[DELETED]",
+        question: "[Q040824_30041]: What is the distance at which the caution indicator is placed from the place of obstruction on the Broad Gauge?[DELETED]",
         options: [
             "800 meters",
             "1200 meters",
             "600 meters",
             "1000 meters"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "What equipment is NOT a part of trolley, lorry, or motor trolley as prescribed by the Railway Administration?",
+        question: "[Q040824_30042]: What equipment is NOT a part of trolley, lorry, or motor trolley as prescribed by the Railway Administration?",
         options: [
             "Copy of the Working Time Table with correction slips and appendices.",
             "Copy of the SWR with correction slips and appendices.",
             "Two hand signal lamps",
             "Two red and two green hand signal flags"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "A Shunt Signal may be placed on a post by itself or below a stop signal other than the ....signal of station. [DELETED]",
+        question: "[Q040824_30043]: A Shunt Signal may be placed on a post by itself or below a stop signal other than the ....signal of station. [DELETED]",
         options: [
             "Last Stop Signal",
             "First Stop Signal",
             "1 and 2 both",
             "None of the above"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "\"RFID\" means",
+        question: "[Q040824_30044]: \"RFID\" means",
         options: [
-            "Regulation Frequency Identification +1",
+            "Regulation Frequency Identification",
             "Radio Frequency Identification",
             "Radio Frequency Identification Department",
             "Rail Fracture Identification Design"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "Every consignment of explosives tendered for despatch shall be accompanied by a pass (in duplicate) issued by the consignor in .........as required under the Explosive, Rules, 1983.",
+        question: "[Q040824_30045]: Every consignment of explosives tendered for despatch shall be accompanied by a pass (in duplicate) issued by the consignor in .........as required under the Explosive, Rules, 1983.",
         options: [
             "Form-10",
             "Form 15",
             "Form-16",
             "Form-22"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
-        question: "The Central Government may... constitute such railways into as many Zonal Railways under the section.......of Railway Act, 1989.",
+        question: "[Q040824_30046]: The Central Government may... constitute such railways into as many Zonal Railways under the section.......of Railway Act, 1989.",
         options: [
             "2",
             "3 (1)",
             "4 (1)",
             "4 (2)"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "Exhibition of train timing & tables of fares at stations in Hindi and English... is mandatory under the section......... of Railway Act, 1989.",
+        question: "[Q040824_30047]: Exhibition of train timing & tables of fares at stations in Hindi and English... is mandatory under the section......... of Railway Act, 1989.",
         options: [
             "20 (11)",
             "30 (1)",
             "49 (1)",
             "50 (1)"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
-        question: "Which is not subsystems of \"FOIS\"?",
+        question: "[Q040824_30048]: Which is not subsystems of \"FOIS\"?",
         options: [
             "RMS",
             "TMS",
             "ICMS",
-            "nan"
+            "None"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
-        question: "Which of the following software is used to monitor booking of Crew & Train Manager?",
+        question: "[Q040824_30049]: Which of the following software is used to monitor booking of Crew & Train Manager?",
         options: [
             "ICMS",
             "RMS",
             "TMS",
             "CMS"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
-        question: "\"ICMS\" means-",
+        question: "[Q040824_30050]: \"ICMS\" means-",
         options: [
             "India Coaching Management Systems",
             "Integrated Coaching Management Systems",
             "Integral Coaching Management Systems",
             "Integrated Coaching Management Software"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "SATSaNG means.",
+        question: "[Q040824_30051]: SATSaNG means.",
         options: [
             "Software Aided Train Scheduling and Network Governance",
             "Software Aided Train Scheduling and Navigation Governance",
             "Scheduling and Train Software Aided Navigation Global",
             "Station And Train Scheduling Aided Navigation Governance"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "RTIS means..",
+        question: "[Q040824_30052]: RTIS means..",
         options: [
             "Real Time Information System",
             "Real Time Train Information System",
             "Right Time Information System",
             "Route Track Information System"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "Installation of a device in the locomotives to direct position and speed using \"GAGAN\" means..",
+        question: "[Q040824_30053]: Installation of a device in the locomotives to direct position and speed using \"GAGAN\" means..",
         options: [
             "GPS aided GEO augmented Navigation",
             "GPS arrangement GEO augmented Navigation",
             "Global Aided GPS aided Navigation",
             "GEO aided GPS augmented Navigation"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "Permissible Free Time for use of ground for dealing with container train for type II goods shed is .........hours.",
+        question: "[Q040824_30054]: Permissible Free Time for use of ground for dealing with container train for type II goods shed is .........hours.",
         options: [
             "12",
             "15",
             "18",
             "30"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "In which following Zone, 25 Ton Axle Load Route is not available?",
+        question: "[Q040824_30055]: In which following Zone, 25 Ton Axle Load Route is not available?",
         options: [
             "NWR",
             "SER",
             "SCR",
             "ECOR"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "What could be maximum speed of trains in Standard - I (R) interlocking?",
+        question: "[Q040824_30056]: What could be maximum speed of trains in Standard - I (R) interlocking?",
         options: [
             "60",
             "70",
             "40",
             "50"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
-        question: "Choose correct option about objective of DATA Loggers-",
+        question: "[Q040824_30057]: Choose correct option about objective of DATA Loggers-",
         options: [
             "To record signal infractions and help in preventive maintenance",
             "To detect SPAD cases",
             "To ascertain the status of signals in the event of a dispute",
             "All the above"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
-        question: "Which of the following abbreviation is wrong?",
+        question: "[Q040824_30058]: Which of the following abbreviation is wrong?",
         options: [
             "COIS- Cargo Operations Information System",
             "CMS- Crew Management System",
             "TMS- Terminal Management System",
             "RMS- Rake Management System"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "What is the full form of \"GCT\"?",
+        question: "[Q040824_30059]: What is the full form of \"GCT\"?",
         options: [
             "Gati Shakti Carriage Terminal",
             "Gati Shakti Multi-Modal Cargo Terminal",
             "Government Cargo Terminal",
             "Goods Cargo Terminal"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "Which of the followings are eligible for to set-up GCTs as GCTO-",
+        question: "[Q040824_30060]: Which of the followings are eligible for to set-up GCTs as GCTO-\n A. Partnership Firm\n B. Company registered under Companies Act 2013\n C. Limited Liability Partnership\n D. Registered Society/ Registered Trust\n Choose the correct options given below-",
         options: [
             "A and C",
             "A, B and D",
             "A, B and C",
             "A, B, C and D"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
-        question: "Gati Shakti Multi-Modal Cargo Terminals can be developed on",
+        question: "[Q040824_30061]: Gati Shakti Multi-Modal Cargo Terminals can be developed on",
         options: [
             "Non-Railway land",
             "Railway land",
             "Fully or partially on Railway land",
             "All A, B and C are correct"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
-        question: "Within how many days the In-principle Approval (IPA) will be granted to the applicant... in case of GCT on Non-Railways land?",
+        question: "[Q040824_30062]: Within how many days the In-principle Approval (IPA) will be granted to the applicant... in case of GCT on Non-Railways land?",
         options: [
             "15 days",
             "20 days",
             "25 days",
             "30 days"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "Which of the following is true about Shunt Signal?",
+        question: "[Q040824_30063]: Which of the following is true about Shunt Signal?",
         options: [
             "More than one Shunt Signal can be placed on same post",
             "Upper most signal on post shall apply to left and lower out to right",
             "Not more than one Shunt Signal can be placed on same post",
             "Upper most signal on post shall apply to right"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "When IBS is at \"ON\" and the telephone is out of order...",
+        question: "[Q040824_30064]: When IBS is at \"ON\" and the telephone is out of order...",
         options: [
             "2 min., 10/8kmph",
             "4 min., 25/10kmph",
             "5 min., 15/8kmph",
             "2 min., 15/10kmph"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
-        question: "What are the minimum equipment of fixed signals in a 'A' class stations provided with two-aspect signalling?",
+        question: "[Q040824_30065]: What are the minimum equipment of fixed signals in a 'A' class stations provided with two-aspect signalling?",
         options: [
             "Warner, Home, Starter",
             "Warner, Home",
             "Home, Starter",
             "None of these"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "ETA @........minutes per 100 kms shall be provided in sections having speed of 110 kmph.",
+        question: "[Q040824_30066]: ETA @........minutes per 100 kms shall be provided in sections having speed of 110 kmph.",
         options: [
             "6",
             "4",
             "10",
             "8"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "Full Form of PDD.",
+        question: "[Q040824_30067]: Full Form of PDD.",
         options: [
             "Post Departure Delay",
             "Post Departure Detention",
             "Pre Departure Detention",
             "None of these"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
-        question: "What does Section 50(2) of the Indian Railways Act state?",
+        question: "[Q040824_30068]: What does Section 50(2) of the Indian Railways Act state?",
         options: [
             "The railway administration shall display the station's contact information",
             "The railway administration shall display the schedule of train services",
             "The railway administration shall display the hours during which booking windows...",
             "The railway administration shall display the list of prohibited items on trains"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
-        question: "What type of examination is conducted for intensive examination of freight wagons? [DELETED]",
+        question: "[Q040824_30069]: What type of examination is conducted for intensive examination of freight wagons? [DELETED]",
         options: [
             "Premium examination",
             "End-to-end examination",
             "Round trip examination",
             "C.C Rake"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "What does the term \"power plan\" refer to in the context of freight services?",
+        question: "[Q040824_30070]: What does the term \"power plan\" refer to in the context of freight services?",
         options: [
             "A plan to generate locos for train operations",
             "A plan to allocate locomotives for freight services",
             "A plan to control limited use of locos",
             "A plan for crew scheduling"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "What action should be taken if walkie-talkie communication fails during running of long haul train?",
+        question: "[Q040824_30071]: What action should be taken if walkie-talkie communication fails during running of long haul train?",
         options: [
             "Continue the operation without communication",
             "Terminate the long haul movement at the next station",
             "Reduce the speed of the train",
             "Loco is declared fail"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "If a weighbridge becomes non-functional, how many days of loading permission can be granted by the General Manager? [DELETED]",
+        question: "[Q040824_30072]: If a weighbridge becomes non-functional, how many days of loading permission can be granted by the General Manager? [DELETED]",
         options: [
             "Up to 1 day",
             "Up to 7 days",
             "Up to 30 days",
             "Up to 6 months"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
-        question: "Under \"Cargo Aggregator Transportation Product,\" scheme, how many maximum wagons can be loaded with more than two commodities in Block Rake?",
+        question: "[Q040824_30073]: Under \"Cargo Aggregator Transportation Product,\" scheme, how many maximum wagons can be loaded with more than two commodities in Block Rake?",
         options: [
             "Not more than 20 wagons",
             "Not more than 10 wagons",
             "Not more than 5 wagons",
             "None of these"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "Under which of the following condition, the working of goods train without brake van is prohibited? [DELETED]",
+        question: "[Q040824_30074]: Under which of the following condition, the working of goods train without brake van is prohibited? [DELETED]",
         options: [
             "When the train is passing through a ghat section",
             "When the train is running without continuous air pressure",
             "When there is total interruption of communication",
             "When the train is running at night"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
-        question: "What does REMMLOT stand for?",
+        question: "[Q040824_30075]: What does REMMLOT stand for?",
         options: [
             "Remote Electric Locomotive Management and Monitoring System",
             "Remote Monitoring and Management of Locomotives and Trains",
             "Rail Engine Mobile Management and Observation Tool",
             "Real-time Engine Monitoring and Mobility System"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "What technology is used by the ACD system to determine train location, speed, and course of travel?",
+        question: "[Q040824_30076]: What technology is used by the ACD system to determine train location, speed, and course of travel?",
         options: [
             "Radar systems",
             "GPRS",
             "Global Positioning System (GPS)",
             "Local Area Network (LAN)"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
-        question: "Operating Ratio indicates",
+        question: "[Q040824_30077]: Operating Ratio indicates",
         options: [
             "Performance of Operating Department",
             "Financial Performance of the Railway",
             "Goods Train Performance",
             "Passenger Train Performance"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "W/L board is provided before Level crossing gate. +1",
+        question: "[Q040824_30078]: W/L board is provided before Level crossing gate.",
         options: [
             "250 m",
             "350 m",
             "600 m",
             "800 m"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
-        question: "While stabling of a goods train Hand brakes of atleast ___ wagons from either end must be fully tightened.",
+        question: "[Q040824_30079]: While stabling of a goods train Hand brakes of atleast ___ wagons from either end must be fully tightened.",
         options: [
             "2",
             "4",
             "6",
             "8"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
-        question: "Form filled after restoration of any means of communication after TFC on Single Line or Double line is",
+        question: "[Q040824_30080]: Form filled after restoration of any means of communication after TFC on Single Line or Double line is",
         options: [
             "T/F-602",
             "T/G-602",
             "T/H-602",
             "T/I-602"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
-        question: "Fog signal post is placed at ___ from First stop signal. +1",
+        question: "[Q040824_30081]: Fog signal post is placed at ___ from First stop signal.",
         options: [
             "120 m",
             "180 m",
             "270 m",
             "400 m"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
-        question: "Which of the following signal never placed alone on a post.",
+        question: "[Q040824_30082]: Which of the following signal never placed alone on a post.",
         options: [
             "Calling-On signal",
             "Shunt Signal",
             "Repeating Signal",
             "Warner Signal"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "Particular of stock of detonator is mentioned in ___ part of fog signal register. +1",
+        question: "[Q040824_30083]: Particular of stock of detonator is mentioned in ___ part of fog signal register.",
         options: [
             "1st",
             "2nd",
             "3rd",
             "4th"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "In which appendix of SWR, rules for the working of trains in electrified section is mentioned?",
+        question: "[Q040824_30084]: In which appendix of SWR, rules for the working of trains in electrified section is mentioned?",
         options: [
             "B",
             "D",
             "G",
             "F"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
-        question: "The Bell code beats for the signalling of trains to 'Stop and Examine' is",
+        question: "[Q040824_30085]: The Bell code beats for the signalling of trains to 'Stop and Examine' is",
         options: [
             "Only Six",
             "Six Pause One",
             "Six Pause Two",
             "Six Pause Three"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "By which Constitutional Amendment Bill, the Anglo-Indian reserved seats in the Lok Sabha and state legislative assemblies of India were discontinued?",
+        question: "[Q040824_30086]: By which Constitutional Amendment Bill, the Anglo-Indian reserved seats in the Lok Sabha and state legislative assemblies of India were discontinued?",
         options: [
             "120th",
             "126th",
             "97th",
             "None of these"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "Who is first Indian player to win Olympic medal in badminton?",
+        question: "[Q040824_30087]: Who is first Indian player to win Olympic medal in badminton?",
         options: [
             "Prakash Padukone",
             "Saina Nehwal",
             "PV Sindhu",
             "Sania Mirza"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "Chambal river is tributary of which river?",
+        question: "[Q040824_30088]: Chambal river is tributary of which river?",
         options: [
             "Ganges",
             "Yamuna",
             "Narmada",
             "None of these"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "Who was the first Viceroy of India?",
+        question: "[Q040824_30089]: Who was the first Viceroy of India?",
         options: [
             "Lord Duffrin",
             "Lord Canning",
             "Lord Curzon",
             "William Bentinck"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "In which year, the Battle of Buxar was fought?",
+        question: "[Q040824_30090]: In which year, the Battle of Buxar was fought?",
         options: [
             "1764",
             "1757",
             "1760",
             "1776"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "In which state Manas National Park national park is located?",
+        question: "[Q040824_30091]: In which state Manas National Park national park is located?",
         options: [
             "Assam",
             "Madhya Pradesh",
             "Karnataka",
             "Maharastra"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "Who is the director of the 3 Idiots film?",
+        question: "[Q040824_30092]: Who is the director of the 3 Idiots film?",
         options: [
             "Karan Johar",
             "Subhash Ghai",
             "Rajkumar Hirani",
             "Adiya Chopra"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
-        question: "What name is given by ISRO to its Reusable Launch Vehicle (RLV) after successful testing on 22nd March 2024?",
+        question: "[Q040824_30093]: What name is given by ISRO to its Reusable Launch Vehicle (RLV) after successful testing on 22nd March 2024?",
         options: [
             "Jatayu",
             "Gaganyan",
             "Pushpak",
             "None of these"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
-        question: "The Department of Telecommunications has Launched a Spam-Call Reporting Platform. What is name of it?",
+        question: "[Q040824_30094]: The Department of Telecommunications has Launched a Spam-Call Reporting Platform. What is name of it?",
         options: [
             "Chakshu",
             "Bhashanet",
             "Nazar",
             "Avatar"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "Who has won the most grand slam titles in Men's Single?",
+        question: "[Q040824_30095]: Who has won the most grand slam titles in Men's Single?",
         options: [
             "Rafael Nadal",
             "Roger Federer",
             "Pete Sampras",
             "Novak Djokovic"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
-        question: "When National Tourism Day is being celebrated every year?",
+        question: "[Q040824_30096]: When National Tourism Day is being celebrated every year?",
         options: [
-            "46027",
-            "46047",
-            "46068",
-            "46371"
+            "5th Jan",
+            "25th Jan",
+            "15th Feb",
+            "15th Dec"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "Who is the Chief of the Naval Staff of India?",
+        question: "[Q040824_30097]: Who is the Chief of the Naval Staff of India?",
         options: [
             "Admira R. Hari Kumar",
             "Admiral Dinesh Kumar Tripathi",
             "Admiral Sunil Lamba",
             "Admiral Suresh Mehta"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "In which organ of the human body, lymphocyte cells are formed?",
+        question: "[Q040824_30098]: In which organ of the human body, lymphocyte cells are formed?",
         options: [
             "Thymus",
             "Lever",
             "Spleen",
             "Pancreas"
         ],
-        correctAnswer: -1
-    },
-    {
-        question: "Optical Fiber works on which principle for its operation?",
-        options: [
-            "Refraction",
-            "Total internal reflection +1",
-            "Scattering",
-            "Interference"
-        ],
         correctAnswer: 0
     },
     {
-        question: "Where is the famous Virupaksha temple located?",
+        question: "[Q040824_30099]: Optical Fiber works on which principle for its operation?",
+        options: [
+            "Refraction",
+            "Total internal reflection",
+            "Scattering",
+            "Interference"
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "[Q040824_30100]: Where is the famous Virupaksha temple located?",
         options: [
             "Srikalahasti",
             "Chidambaram",
             "Hampi",
             "Bhadrachalam"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
-        question: "Where did the Moplah revolt of 1921 broke out?",
+        question: "[Q040824_30101]: Where did the Moplah revolt of 1921 broke out?",
         options: [
             "Karnataka",
             "Tamilnadu",
             "Maharastra",
             "Kerala"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
-        question: "Which party was founded by Subhash Chadra Bose in the year 1939 after he left the Indian National Congress?",
+        question: "[Q040824_30102]: Which party was founded by Subhash Chadra Bose in the year 1939 after he left the Indian National Congress?",
         options: [
             "Indian Freedom Party",
             "Azad Hind Fauj",
             "Republic Party",
             "Forward Bloc"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
-        question: "Out of these, which state of India has the lowest density of population as per census of the year 2011?",
+        question: "[Q040824_30103]: Out of these, which state of India has the lowest density of population as per census of the year 2011?",
         options: [
             "Sikkim",
             "Meghalaya",
             "Arunachal Pradesh",
             "Himachal Pradesh"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
-        question: "Which of the following is the custodian of the Indian Constitution?",
+        question: "[Q040824_30104]: Which of the following is the custodian of the Indian Constitution?",
         options: [
             "The President of India",
             "The Prime Minister of India",
             "The Lok Sabha Secretariat",
             "The Supreme Court of India"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
-        question: "Right to Privacy' is protected under which Article of the Constitution of India?",
+        question: "[Q040824_30105]: Right to Privacy' is protected under which Article of the Constitution of India?",
         options: [
             "Article 15",
             "Article 21",
             "Article 29",
             "Article 19"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "Who was first Indian lady actress to receive the Padma Shri Award?",
+        question: "[Q040824_30106]: Who was first Indian lady actress to receive the Padma Shri Award?",
         options: [
             "Smita Patil",
             "Nargis Dutt",
             "Meena Kumari",
             "Madhubala"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "Pulitzer Prize is associated with which one of the following areas?",
+        question: "[Q040824_30107]: Pulitzer Prize is associated with which one of the following areas?",
         options: [
             "Environmental protection",
             "Olympic games",
             "Journalism",
             "Civil aviation"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
-        question: "Which one of the following was the first fort constructed by the British in India?",
+        question: "[Q040824_30108]: Which one of the following was the first fort constructed by the British in India?",
         options: [
             "Fort William",
             "Fort St. George",
             "Fort St. David",
             "Fort St. Angelo"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "Which one of the following began with the Dandi March?",
+        question: "[Q040824_30109]: Which one of the following began with the Dandi March?",
         options: [
             "Swadeshi Movement",
             "Non- Cooperation Movement",
             "Civil Disobedience Movement",
             "Quit India Movement"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
-        question: "India bought the Barak anti- missile defence systems from which country?",
+        question: "[Q040824_30110]: India bought the Barak anti- missile defence systems from which country?",
         options: [
             "Israel",
             "France",
             "Russia",
             "USA"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "Famous Golf player Vijay Singh is from which country?",
+        question: "[Q040824_30111]: Famous Golf player Vijay Singh is from which country?",
         options: [
             "Fiji",
             "Mauritius",
             "Malaysia",
             "India"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "What dance form is Lachhu Maharaj related to?",
+        question: "[Q040824_30112]: What dance form is Lachhu Maharaj related to?",
         options: [
             "Odissi dance",
             "Bharatnatyam dance",
             "Kathak dance",
             "Folk dance"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
-        question: "Who won the French Open 2024 women's singles in Tennis?",
+        question: "[Q040824_30113]: Who won the French Open 2024 women's singles in Tennis?",
         options: [
             "Iga Świątek",
             "Jasmine Paolini",
             "Elina Svitolina",
             "Coco Gauff"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "Who is Chief of the Defence Staff (CDS) of India?",
+        question: "[Q040824_30114]: Who is Chief of the Defence Staff (CDS) of India?",
         options: [
             "General Anil Chauhan",
             "General Vipin Rawat",
             "General Manoj Pande",
             "General Manoj Mukund Narvane"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "Quit India Movement was launched in response to which of the following event?",
+        question: "[Q040824_30115]: Quit India Movement was launched in response to which of the following event?",
         options: [
             "Cabinet Mission Plan",
             "Cripps Proposals",
             "Simon Commission Report",
             "Wavell Plan"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "The first marine sanctuary in India was established at where?",
+        question: "[Q040824_30116]: The first marine sanctuary in India was established at where?",
         options: [
             "Sundarbans",
             "Chilka Lake",
             "Gulf of Kutch",
             "Lakshadweep"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
-        question: "World Environment Day is celebrated on which date?",
+        question: "[Q040824_30117]: World Environment Day is celebrated on which date?",
         options: [
             "5th June",
             "46228",
             "10th July",
             "1st July"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "The Clouds float in the atmosphere because of their low ..........?",
+        question: "[Q040824_30118]: The Clouds float in the atmosphere because of their low ..........?",
         options: [
             "Temperature",
             "Velocity",
             "Pressure",
             "Density"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
-        question: "Cryogenic engines find applications in which technology?",
+        question: "[Q040824_30119]: Cryogenic engines find applications in which technology?",
         options: [
             "Sub- marine propulsion",
             "Frost- free refrigerators",
             "Rocket technology",
             "Research in superconductivity"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
-        question: "Epiphytes plants which depend on other plants for what?",
+        question: "[Q040824_30120]: Epiphytes plants which depend on other plants for what?",
         options: [
             "Food",
             "Physical Support",
             "Shade",
             "Water"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "What is the major component of the honey?",
+        question: "[Q040824_30121]: What is the major component of the honey?",
         options: [
             "Glucose",
             "Sucrose",
             "Maltose",
             "Fructose"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
-        question: "Octopus is -",
+        question: "[Q040824_30122]: Octopus is -",
         options: [
             "An Arthropod",
             "An Echinoderm",
             "A hemichordate",
             "A Mollusc"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
-        question: "Sunil Chhetri is related to which sport?",
+        question: "[Q040824_30123]: Sunil Chhetri is related to which sport?",
         options: [
             "Football",
             "Hockey",
             "Cricket",
             "Tennis"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "Haldhar Nag who was given Padma Shree Award belongs to which state?",
+        question: "[Q040824_30124]: Haldhar Nag who was given Padma Shree Award belongs to which state?",
         options: [
             "Chhattisgarh",
             "Bihar",
             "Odisha",
             "Jharkhand"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
-        question: "Who won best actor award in lead role in 69th Filmfare Award?",
+        question: "[Q040824_30125]: Who won best actor award in lead role in 69th Filmfare Award?",
         options: [
             "Salman Khan",
             "Ranbir Kapoor",
             "Akshay Kumar",
             "Ranveer Singh"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "Which of the following document is not covered under Section 3 (3) of the Official Language Act 1963?",
+        question: "[Q040824_30126]: Which of the following document is not covered under Section 3 (3) of the Official Language Act 1963?",
         options: [
             "General Order",
             "Notification",
             "Press Communique",
             "Representation"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
-        question: "Which one of the following languages is not included in the 8th Schedule of the Constitution?",
+        question: "[Q040824_30127]: Which one of the following languages is not included in the 8th Schedule of the Constitution?",
         options: [
             "Nepalese",
             "Urdu",
             "Bhojpuri",
             "Sindhi"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
-        question: "In which article of the Constitution of India mentioned Directive for development of the Hindi language?",
+        question: "[Q040824_30128]: In which article of the Constitution of India mentioned Directive for development of the Hindi language?",
         options: [
             "Article 343",
             "Article 344",
             "Article 351",
             "None of these"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
-        question: "When was Official Language Act 1963 amended?",
+        question: "[Q040824_30129]: When was Official Language Act 1963 amended?",
         options: [
             "1965",
             "1970",
             "1967",
             "1976"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
-        question: "How many members of the Rajya Sabha are there in the Parliamentary Committee on Official Language?",
+        question: "[Q040824_30130]: How many members of the Rajya Sabha are there in the Parliamentary Committee on Official Language?",
         options: [
             "18",
             "10",
             "22",
             "15"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "According to the Official Language Rules, which of the following states does not come under 'B' region?",
+        question: "[Q040824_30131]: According to the Official Language Rules, which of the following states does not come under 'B' region?",
         options: [
             "Chhattisgarh",
             "Gujarat",
             "Maharastra",
             "None of these"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "How many languages were initially included in the 8th Schedule of the Constitution?",
+        question: "[Q040824_30132]: How many languages were initially included in the 8th Schedule of the Constitution?",
         options: [
             "12",
             "20",
             "21",
             "14"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
-        question: "When \"Hindi Diwas\" is celebrated every year?",
+        question: "[Q040824_30133]: When \"Hindi Diwas\" is celebrated every year?",
         options: [
-            "46340",
-            "46279",
-            "46036",
-            "46269"
+            "14th  November",
+            "14th September",
+            "14th January",
+            "4th September"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "Which ministry issues the annual program of official language?",
+        question: "[Q040824_30134]: Which ministry issues the annual program of official language?",
         options: [
             "Ministry of Railways",
             "Home Ministry",
             "Ministry of Defence",
             "Finance Ministry"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "How many Sub-Committees are there in the Committee of Parliament on Official Language?",
+        question: "[Q040824_30135]: How many Sub-Committees are there in the Committee of Parliament on Official Language?",
         options: [
             "01 Sub Committee",
             "02 Sub Committee",
             "03 Sub Committee",
             "04 Sub Committee"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
-        question: "In which articles of the constitution does the provision of the Eighth Schedule exist?",
+        question: "[Q040824_30136]: In which articles of the constitution does the provision of the Eighth Schedule exist?",
         options: [
             "Article 344(1) and 351",
             "Article 345",
             "Article 348 and 346(1)",
             "Article 344"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "In which year was the Nepali language included in the Eighth Schedule?",
+        question: "[Q040824_30137]: In which year was the Nepali language included in the Eighth Schedule?",
         options: [
             "2003",
             "1998",
             "1967",
             "1992"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
-        question: "Who is the Chairperson of the Regional Official Language Implementation Committee of Indian Railways?",
+        question: "[Q040824_30138]: Who is the Chairperson of the Regional Official Language Implementation Committee of Indian Railways?",
         options: [
             "General Manager",
             "Additional General Manager",
             "Divisional Railway Manager",
             "Mukhya Rajbhasha Adhikari"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "Official Language Rules-1976 are not applicable to which of the following state?",
+        question: "[Q040824_30139]: Official Language Rules-1976 are not applicable to which of the following state?",
         options: [
             "Goa",
             "Sikkim",
             "Tamilnadu",
             "Arunachal Pradesh"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
-        question: "What is the name of the award given for writing original books in Hindi on technical Railway Subjects?",
+        question: "[Q040824_30140]: What is the name of the award given for writing original books in Hindi on technical Railway Subjects?",
         options: [
             "Lal Bahadur Shastri Technical Puraskar",
             "Visvesvaraya Technical Puraskar",
             "Jagjivan Ram Technical Puraskar",
             "Rajeev Gandhi Technical Puraskar"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "Under which rule of Railway Service Conduct Rules is movable and immovable property mentioned?",
+        question: "[Q040824_30141]: Under which rule of Railway Service Conduct Rules is movable and immovable property mentioned?",
         options: [
             "Rule 18",
             "Rule 17",
             "Rule 22A",
             "Rule 19"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "Period of appeal under DAR rules is ........",
+        question: "[Q040824_30142]: Period of appeal under DAR rules is ........",
         options: [
             "30 days",
             "15 days",
             "45 days",
             "35 days"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
-        question: "How much employee contribution goes to NPS?",
+        question: "[Q040824_30143]: How much employee contribution goes to NPS?",
         options: [
             "10% of Basic pay + DA",
             "15% of Basic pay + DA",
             "25% of Basic pay",
             "8% of Basic pay + DA"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "Which Authority is empowered to order for cut in pension of retired railway servant under DAR proceedings?",
+        question: "[Q040824_30144]: Which Authority is empowered to order for cut in pension of retired railway servant under DAR proceedings?",
         options: [
             "GM",
             "DRM",
             "President of India",
             "None of these"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
-        question: "What is the minimum period of child care leave to be considered for sanction to a female government servant?",
+        question: "[Q040824_30145]: What is the minimum period of child care leave to be considered for sanction to a female government servant?",
         options: [
             "5 days",
             "10 days",
             "20 days",
             "None of these"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "Who is custodian of listed documents in a departmental enquiry?",
+        question: "[Q040824_30146]: Who is custodian of listed documents in a departmental enquiry?",
         options: [
             "Presenting officer",
             "Defence assistant",
             "Inquiry officer",
             "None of these"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "From which financial year, was the Railway Budget included with the General Budget?",
+        question: "[Q040824_30147]: From which financial year, was the Railway Budget included with the General Budget?",
         options: [
             "2017-18",
             "2015-16",
             "2018-19",
             "2014-15"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "The full form of RRSK is",
+        question: "[Q040824_30148]: The full form of RRSK is",
         options: [
             "Rashtriya Rail Sanraksha Kosh",
             "Rashtriya Rail Sahayata Kosh",
             "Rashtriya Rail Suraksha Kosh",
             "Rashtriya Rail Sahitya Kosh"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "The plan Head under which works for Traffic facilities are included?",
+        question: "[Q040824_30149]: The plan Head under which works for Traffic facilities are included?",
         options: [
             "17",
             "16",
             "53",
             "42"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "Re-appropriation of funds from one itemised work to another itemised work of a plan head is within the power of?",
+        question: "[Q040824_30150]: Re-appropriation of funds from one itemised work to another itemised work of a plan head is within the power of?",
         options: [
             "PHOD",
             "DRM",
             "Railway Board",
             "GM"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
-        question: "Railway servant is required to report to government any movable property transaction, if value of this transaction exceeds \"X\" amount. What is value of \"X\"?",
+        question: "[Q040824_30151]: Railway servant is required to report to government any movable property transaction, if value of this transaction exceeds \"X\" amount. What is value of \"X\"?",
         options: [
             "One month's basic pay",
             "Two month's basic pay",
             "One year's basic pay",
             "Six month's basic pay"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "To what extent commutation of pension is allowed into a lumpsum payment as a retirement benefit to a railway employee?",
+        question: "[Q040824_30152]: To what extent commutation of pension is allowed into a lumpsum payment as a retirement benefit to a railway employee?",
         options: [
             "0.25",
             "0.4",
             "0.5",
             "0.6"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "What is full form of CGEGIS?",
+        question: "[Q040824_30153]: What is full form of CGEGIS?",
         options: [
             "Central Government Employee Group Investment Scheme",
             "Central Government Employee Group Insurance Scheme",
             "Central Government Employee Group increment Scheme",
             "None of these"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "How much Transport Allowance is paid to a railway employee with disabilities?",
+        question: "[Q040824_30154]: How much Transport Allowance is paid to a railway employee with disabilities?",
         options: [
             "The normal rate of Transport Allowance",
             "Double the normal rate of Transport Allowance",
             "Triple the normal rate of Transport Allowance",
             "None of these"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "Name the tribunal specially constituted to adjudicate disputes and complaints with respect to recruitment and conditions of service...",
+        question: "[Q040824_30155]: Name the tribunal specially constituted to adjudicate disputes and complaints with respect to recruitment and conditions of service...",
         options: [
             "Central Administrative Tribunal",
             "Railway Claims Tribunal",
             "Railway Rates Tribunal",
             "Industrial Tribunal"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "What is full form of RESS?",
+        question: "[Q040824_30156]: What is full form of RESS?",
         options: [
             "Railway employee Service Record store",
             "Railway Employee Service site",
             "Railway Employee self service",
             "Railway employee Service Record system"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
-        question: "Under HOER (Hours of Employment Regulations) rules, which category of employees will not have roster hours?",
+        question: "[Q040824_30157]: Under HOER (Hours of Employment Regulations) rules, which category of employees will not have roster hours?",
         options: [
             "Excluded",
             "Intensive",
             "Continuous",
             "Essentially intermittent"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "Which standard form is used for deemed suspension of a railway servant?",
+        question: "[Q040824_30158]: Which standard form is used for deemed suspension of a railway servant?",
         options: [
             "SF-1",
             "SF-2",
             "SF-3",
             "SF-4"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "Commuted pension of a railway servant is restored after a period of .......",
+        question: "[Q040824_30159]: Commuted pension of a railway servant is restored after a period of .......",
         options: [
             "12 years",
             "15 years",
             "10 years",
             "6 years"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "Who is the chairman of Headquarter level committee of the SBF (staff benefit fund)?",
+        question: "[Q040824_30160]: Who is the chairman of Headquarter level committee of the SBF (staff benefit fund)?",
         options: [
             "PCPO",
             "GM",
             "AGM",
             "PFA"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "What amount is given as Subsistence Allowance?",
+        question: "[Q040824_30161]: What amount is given as Subsistence Allowance?",
         options: [
             "30% of last pay",
             "40% of last pay",
             "50% of last pay",
             "25% of last pay"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
-        question: "What is full form is UMID?",
+        question: "[Q040824_30162]: What is full form is UMID?",
         options: [
             "Universal Medical Identity Card",
             "Unique Medical Identity Card",
             "Unique Medical Information Details",
             "None of these"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "The Study of proposals for new marshalling yards... with an objective of removing bottlenecks... are known as",
+        question: "[Q040824_30163]: The Study of proposals for new marshalling yards... with an objective of removing bottlenecks... are known as",
         options: [
             "Machine & Plant Works",
             "Line Capacity Works",
             "Development Works",
             "Maintenance Works"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "Which of the following tier is mandatory under National Pension Scheme (NPS) for Railway Employees?",
+        question: "[Q040824_30164]: Which of the following tier is mandatory under National Pension Scheme (NPS) for Railway Employees?",
         options: [
             "Tier-II",
             "Tier-I",
             "Both tier-I & tier-II",
             "Not compulsory"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "CAG is an abbreviation for?",
+        question: "[Q040824_30165]: CAG is an abbreviation for?",
         options: [
             "Comptroller and Auditor General",
             "Comptroller and Accounts General",
             "Chief Auditor General",
             "Chief Accounts General"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "Which is the platform through which procurement of goods and services is done by the Government Ministries and Departments...",
+        question: "[Q040824_30166]: Which is the platform through which procurement of goods and services is done by the Government Ministries and Departments...",
         options: [
             "Government eMarket",
             "National eMarket Ltd",
             "Rashtriya eMarket",
             "eSamrudhi"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "What is the periodicity of 'Participation of Railway Employees in Management' (PREM) meeting at Zonal level?",
+        question: "[Q040824_30167]: What is the periodicity of 'Participation of Railway Employees in Management' (PREM) meeting at Zonal level?",
         options: [
             "Once in a year",
             "Once in 6 months",
             "Once in 3 months",
             "Once in a month"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
-        question: "Pink Book is issued by......",
+        question: "[Q040824_30168]: Pink Book is issued by......",
         options: [
             "Ministry of Finance",
             "Division",
             "Zonal Railway",
             "Railway Board"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
-        question: "Administrative approval of Competent Authority for incurring expenditure is accorded at this stage?",
+        question: "[Q040824_30169]: Administrative approval of Competent Authority for incurring expenditure is accorded at this stage?",
         options: [
             "Abstract Estimate",
             "Detailed Estimate",
             "Revised Estimate",
             "Completion Estimate"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "The total value of Railway Assets is reflected in which Accounts Statement?",
+        question: "[Q040824_30170]: The total value of Railway Assets is reflected in which Accounts Statement?",
         options: [
             "Capital and Revenue Accounts",
             "Block Accounts",
             "Final Accounts",
             "Current Account"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "Operating Expenses- Fuel shall be charged to .......?",
+        question: "[Q040824_30171]: Operating Expenses- Fuel shall be charged to .......?",
         options: [
             "Demand No. 12",
             "Demand No. 10",
             "Demand No. 11",
             "Demand No. 14"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "Which is correct plan head for RSP proposals?",
+        question: "[Q040824_30172]: Which is correct plan head for RSP proposals?",
         options: [
             "PH-21",
             "PH-41",
             "PH-31",
             "PH-42"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "The unavailed period of joining time admissible to a Railway servant shall be credited to his/her which leave account?",
+        question: "[Q040824_30173]: The unavailed period of joining time admissible to a Railway servant shall be credited to his/her which leave account?",
         options: [
             "LHAP",
             "LAP",
             "Casual Leave",
             "Restricted holiday"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "A person seeking any information from any Railway office, under Right to Information Act, has to make request to the",
+        question: "[Q040824_30174]: A person seeking any information from any Railway office, under Right to Information Act, has to make request to the",
         options: [
             "Central Public Information Officer of that office",
             "Head of that office",
             "Officer who is custodian of that information",
             "Head of Dak Receipt section"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "The Report of the Comptroller and Auditor General of India is... taken up for consideration by the ___ of the Parliament.",
+        question: "[Q040824_30175]: The Report of the Comptroller and Auditor General of India is... taken up for consideration by the ___ of the Parliament.",
         options: [
             "Estimates Committee",
             "Committee on Public Undertakings",
             "Business Advisory Committee",
             "Public Accounts Committee"
         ],
-        correctAnswer: 2
-    },
-]
+        correctAnswer: 3
+    }
+];
 
 const AOM_PART_BC_90 = [
     {

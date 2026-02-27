@@ -6,7 +6,7 @@ var REG_USERS = {
         password: "ganesh", 
         name: "Mugada Ganesh Kumar", 
         photo: "img/MUGAN01.png", 
-        exams: ['auto', 'AOM25062023_30'] 
+        exams: ['auto', 'AOM25062023_30','AOM04082024_30'] 
     },
     "BOOVI01": { 
         password: "vinnu", 
