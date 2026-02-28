@@ -76,7 +76,7 @@ var REG_USERS = {
     },
     "SAI": {
         password: "sai",
-        name: "Pothala Sai Pavan",
+        name: "POTHALA PAVAN SAI",
         photo: "img/sai.png",
         exams: [
             'AOM23JUNE', 'generalSafetyRules', 'accidentManual', 'autoQuestions', 'freeQuestions',

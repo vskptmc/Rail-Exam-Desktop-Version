@@ -9039,7 +9039,7 @@ const AOM04052025_70 = [
             "Attention or Proceed",
             "Only Attention"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "In the context of Block working, UFSBI means....",
@@ -9049,7 +9049,7 @@ const AOM04052025_70 = [
             "Universal Fail Safe Block Interface",
             "Unique Fail Safe Block Identity"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Which of the following will be classified as serious accident?",
@@ -9059,7 +9059,7 @@ const AOM04052025_70 = [
             "3 grievous injury plus no damage to railway property",
             "All of these"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "Which section of the Railways Act, 1989 deals with reportable accidents ?",
@@ -9069,7 +9069,7 @@ const AOM04052025_70 = [
             "Section 113",
             "Section 120"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "In case of a serious passenger train accident, the central control shall first of all inform...",
@@ -9079,7 +9079,7 @@ const AOM04052025_70 = [
             "Secretary to General Manager",
             "Principal Chief Operations Manager"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Who is responsible for the availability, helpfulness and good conduct of station porters ?",
@@ -9089,7 +9089,7 @@ const AOM04052025_70 = [
             "Commercial Inspector",
             "Booking Clerk"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Power plan indicates........",
@@ -9099,7 +9099,7 @@ const AOM04052025_70 = [
             "the number of locos required for freight services in peak loading period.",
             "the daily average number of locos required for freight services section wise."
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "In operating statistics, which is not a Primary Unit?",
@@ -9109,7 +9109,7 @@ const AOM04052025_70 = [
             "Quantity",
             "Commodity"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "Which of the following category of trains does not require ordering?",
@@ -9119,7 +9119,7 @@ const AOM04052025_70 = [
             "Scheduled M Exp train",
             "Container trains"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Which class of ODC can be moved during day and night?",
@@ -9129,7 +9129,7 @@ const AOM04052025_70 = [
             "Both Class A and Class B",
             "Class C"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Under which section of the Railways Act, 1989, railway board has been empowered to charge freight over route, which may not be the shortest between loading point and destination?",
@@ -9139,7 +9139,7 @@ const AOM04052025_70 = [
             "Section 100",
             "Section 20"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "When checking an ESP, how much minimum radius of curve will you accept as per SOD for BG?",
@@ -9149,7 +9149,7 @@ const AOM04052025_70 = [
             "100 mt",
             "300 mt"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "In case of ODC, what is the minimum gross clearance from the over head contact wire that can be permitted over electrified section ?",
@@ -9159,7 +9159,7 @@ const AOM04052025_70 = [
             "390 mm",
             "340 mm"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "One consignment has gross clearance of 7 inches (17.78 cm) from minimum fixed structure profile. What is its ओ डी सी classification?",
@@ -9169,7 +9169,7 @@ const AOM04052025_70 = [
             "C class",
             "Not permitted as ODC"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Which of the following is not a function of Control Office ?",
@@ -9179,7 +9179,7 @@ const AOM04052025_70 = [
             "Arrange supply of wagons",
             "Waiver of demurrage"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "According to the Disaster Management Plan, what is CBRN?",
@@ -9189,7 +9189,7 @@ const AOM04052025_70 = [
             "Chemical Biological radiological Nuclear",
             "None of these"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Which of the following is recognized as disaster within the DMP?",
@@ -9199,7 +9199,7 @@ const AOM04052025_70 = [
             "Man-made disasters",
             "All of these"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "Under the DMP, which department is responsible for evacuation of people and animals in case of a railway disaster?",
@@ -9209,7 +9209,7 @@ const AOM04052025_70 = [
             "Mechanical",
             "Safety"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "What is the target time for tuning out of ART by day from the time of sounding siren?",
@@ -9219,7 +9219,7 @@ const AOM04052025_70 = [
             "20 Minutes",
             "60 Minutes"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "The average speed of a superfast train is at least....",
@@ -9229,7 +9229,7 @@ const AOM04052025_70 = [
             "55 Kmph",
             "90 Kmph"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Which of the following affects the section capacity adversely?",
@@ -9239,7 +9239,7 @@ const AOM04052025_70 = [
             "Reduction in PSR",
             "Additional loop lines"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "The CCRS organization is under the administrative control of....",
@@ -9249,7 +9249,7 @@ const AOM04052025_70 = [
             "Ministry of Urban Development",
             "Ministry of Transport"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Which is the nodal department for procurement of new weighbridges?",
@@ -9259,7 +9259,7 @@ const AOM04052025_70 = [
             "Commercial",
             "Civil Engineering"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "When LC gate is closed & locked, Gate control provided on the SM's control panel shall display.......indicaion.",
@@ -9269,7 +9269,7 @@ const AOM04052025_70 = [
             "Steady Red",
             "Flashing Yellow"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "If a signal fails to display any aspect at a location where it is ordinarily shown, the LP should.....",
@@ -9279,7 +9279,7 @@ const AOM04052025_70 = [
             "treat it as the most restrictive aspect (Danger/Stop), bring the train to a stop at the foot of the signal",
             "Proceed cautiously till the next signal"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "With the latest amendment of Railway Act, 1989, which of the following acts has been repealed ?",
@@ -9289,7 +9289,7 @@ const AOM04052025_70 = [
             "Indian Railway Board Act, 1905 and Indian Railways Act, 1890",
             "None of these"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "What is the minimum length of platform line you will plan to handle 22 coach LHB train plus one VPU plus one loco ??",
@@ -9299,7 +9299,7 @@ const AOM04052025_70 = [
             "At least 600 mt",
             "At least 800 mt"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Dispensation for non isolated shunting movements with separation distance of more than 120 mt can be permitted by...",
@@ -9309,7 +9309,7 @@ const AOM04052025_70 = [
             "CRS",
             "GM"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "If gradient is steeper than 1 in 80 falling towards the station section, a..... is provided to protect the station section.",
@@ -9319,7 +9319,7 @@ const AOM04052025_70 = [
             "Slip siding",
             "Shunting neck"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "How are track circuits bifurcated electrically and physically?",
@@ -9329,7 +9329,7 @@ const AOM04052025_70 = [
             "By Glued joints",
             "None of these"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "What is the purpose of traffic block for de-stressing of track ?",
@@ -9339,7 +9339,7 @@ const AOM04052025_70 = [
             "Improve riding",
             "Avoid buckling"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "A colour light Distant signal can be combined with the last Stop signal of a station in rear with the approval of....",
@@ -9349,7 +9349,7 @@ const AOM04052025_70 = [
             "PCOM",
             "PCSO"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Which of the following is not a fixed stop signal for approaching train ?",
@@ -9359,7 +9359,7 @@ const AOM04052025_70 = [
             "Routing signal",
             "Calling-On signal"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "How many high density network (HDN) routes have been identified on IR?",
@@ -9369,7 +9369,7 @@ const AOM04052025_70 = [
             "7",
             "5"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Which disaster risk reduction framework has been adopted by IR?",
@@ -9379,7 +9379,7 @@ const AOM04052025_70 = [
             "Sendai framework",
             "None of these"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "How much clear maintenance time should be ensured for primary examination of mainline coaching trains ?",
@@ -9389,7 +9389,7 @@ const AOM04052025_70 = [
             "8 hrs",
             "5 hrs"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Expand DCPT In the context of estimation of line capacity utilization over a period of time..",
@@ -9399,7 +9399,7 @@ const AOM04052025_70 = [
             "Direct Capacity Planning Table",
             "Digital Capacity for Planning Transportation"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "What is the frequency of crew review by the division?",
@@ -9409,7 +9409,7 @@ const AOM04052025_70 = [
             "Quarterly",
             "Six monthly"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Which of the following parameter best captures the freight operation performance ?",
@@ -9419,7 +9419,7 @@ const AOM04052025_70 = [
             "NTKm per Wagon Day",
             "WTR"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Which wagon defect is detected by HABD equipment?",
@@ -9429,7 +9429,7 @@ const AOM04052025_70 = [
             "Hanging part",
             "Hot axle"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "How many TEUs are carried in a fully loaded double stack container rake ?",
@@ -9439,7 +9439,7 @@ const AOM04052025_70 = [
             "45",
             "360"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "What is the adequate distance beyond the first stop signal that is required to be kept clear for granting line clear in MACLS territory?",
@@ -9449,7 +9449,7 @@ const AOM04052025_70 = [
             "120 mt",
             "300 mt"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Under the Gati Shakti Policy, who is the Railway Administration?",
@@ -9459,7 +9459,7 @@ const AOM04052025_70 = [
             "PCOM",
             "RAILWAY BOARD"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Charges levied by Railways on customers for handling of Railway owned rakes at goods sheds are called",
@@ -9469,7 +9469,7 @@ const AOM04052025_70 = [
             "Terminal charges",
             "Terminal access charges"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Who amongst the following is eligible as a GCT operator?",
@@ -9479,7 +9479,7 @@ const AOM04052025_70 = [
             "Registered society",
             "All of these"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "Which of the following is not essential for ordering a goods train ?",
@@ -9489,7 +9489,7 @@ const AOM04052025_70 = [
             "Power availability",
             "Path availability"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Theme based tourist circuit trains introduced by IR, to showcase india's rich cultural heritage and managed by service provider are called......",
@@ -9499,7 +9499,7 @@ const AOM04052025_70 = [
             "Bharat Gaurav",
             "Aastha specials"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "When a freight train is stabled at a station hand brakes of atleast how many wagons from either end are to be fully tightened?",
@@ -9509,7 +9509,7 @@ const AOM04052025_70 = [
             "4",
             "2"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "When stabling a consist of three locomotives in a station, hand brakes of which loco should be applied fully?",
@@ -9519,7 +9519,7 @@ const AOM04052025_70 = [
             "Only trailing loco",
             "All the locOS"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "Which of the following is a double decker, AC chair car intercity train?",
@@ -9529,7 +9529,7 @@ const AOM04052025_70 = [
             "Tejas exp",
             "None of these"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Which of the following is an economical, unreserved, superfast Mail/Express service ?",
@@ -9539,7 +9539,7 @@ const AOM04052025_70 = [
             "Garib rath",
             "None of these"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "If the loading for day is 17 BCN, what will be the closing balance of empty BCN?",
@@ -9549,7 +9549,7 @@ const AOM04052025_70 = [
             "46",
             "58"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "According to Preferential Traffic Order, imported coal traffic when sponsored by consignors or coal importers is transported under which priority?",
@@ -9559,7 +9559,7 @@ const AOM04052025_70 = [
             "C",
             "D"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Under Preferential Traffic Order, who is the accepting authority for POL traffic?",
@@ -9569,7 +9569,7 @@ const AOM04052025_70 = [
             "PCOM",
             "CFTM"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Which stock is used for loading of parcel traffic as deemed VP?",
@@ -9579,7 +9579,7 @@ const AOM04052025_70 = [
             "BOST",
             "VPU"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Which of the following activities cannot be done in CMS?",
@@ -9589,7 +9589,7 @@ const AOM04052025_70 = [
             "Breathlyser test",
             "RS valve simulation"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "Which of the following locos is better suited for operation of heavy trains in graded section?",
@@ -9599,7 +9599,7 @@ const AOM04052025_70 = [
             "WAG7",
             "WAG9"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "In planning process, NPG stands for...",
@@ -9609,7 +9609,7 @@ const AOM04052025_70 = [
             "New Planning Grant",
             "Network Planning Gateway"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Which of the following is not developed by CRIS ?",
@@ -9619,7 +9619,7 @@ const AOM04052025_70 = [
             "SFOORTI",
             "KAVACH"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "Who is competent to issue special instructions under G and SR ?",
@@ -9629,7 +9629,7 @@ const AOM04052025_70 = [
             "GM",
             "PCOM"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "Zonal wagon balance is 12000. Daily loading is 2200 wagons and loaded receipt is 1600 wagons. If the ineffective wagons are 200, the WTR of the zone is...",
@@ -9639,7 +9639,7 @@ const AOM04052025_70 = [
             "3.21 days",
             "None of these"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "What was the originating freight loading achieved by IR in FY 24/25?",
@@ -9649,7 +9649,7 @@ const AOM04052025_70 = [
             "Approx. 1617 million tonnes",
             "Approx. 1650 million tonnes"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "On a panel, EURRB button is used for.....",
@@ -9659,7 +9659,7 @@ const AOM04052025_70 = [
             "Reversal of points",
             "Simultaneous reception"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "What is the limit of validity of BPC for an ordinary Mail/Express train running with ICF coaches ?",
@@ -9669,7 +9669,7 @@ const AOM04052025_70 = [
             "3500 Km",
             "5000 Km"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Shunting operations shall be controlled by which means ?",
@@ -9679,7 +9679,7 @@ const AOM04052025_70 = [
             "Shunt signals",
             "All of these"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "A freight trains was stabled in examination yard for 18 hours after examination. Is the BPC valid ?",
@@ -9689,7 +9689,7 @@ const AOM04052025_70 = [
             "Yes",
             "No"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "What is MSDAC?",
@@ -9699,7 +9699,7 @@ const AOM04052025_70 = [
             "Modified Safe Digital Axle Counter",
             "Modified Signal Data Analysis Center"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Which of the following is a 3 tier AC sleeper coach ?",
@@ -9709,7 +9709,7 @@ const AOM04052025_70 = [
             "WFACEN",
             "WGACCW"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Which of the following commodities is permitted to be carried in containers?",
@@ -9719,7 +9719,7 @@ const AOM04052025_70 = [
             "Iron Ore",
             "Imported coal"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "In operating statistics, which of the following is a derived unit?",
@@ -9729,7 +9729,7 @@ const AOM04052025_70 = [
             "Engine hours",
             "Earning per passenger kilometre"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "When was the Official Language Act enacted?",
@@ -9739,7 +9739,7 @@ const AOM04052025_70 = [
             "May 10, 1963",
             "April 10, 1963"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Which is not included in the eighth schedule of constitution?",
@@ -9749,7 +9749,7 @@ const AOM04052025_70 = [
             "Bhojpuri",
             "Kashmiri"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Under which article of the Constitution it shall be the duty of the Union to promote the spread of the Hindi language?",
@@ -9759,7 +9759,7 @@ const AOM04052025_70 = [
             "Article 244",
             "Article 365"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Which medal is awarded to a General Manager for efforts made in the spread and use of Rajbhasha?",
@@ -9769,7 +9769,7 @@ const AOM04052025_70 = [
             "Maithilisharan Gupt Puraskar",
             "Premchand Puraskar"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Who is the Chairperson of Railway Hindi Salahkaar Samiti?",
@@ -9779,7 +9779,7 @@ const AOM04052025_70 = [
             "CRB",
             "DG HR"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "When was the Committee of Parliament on Official Language constituted?",
@@ -9789,7 +9789,7 @@ const AOM04052025_70 = [
             "1973",
             "1976"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "What is the name of the award scheme of Ministry of Railways, for fiction/story, novel, drama and other prose literature?",
@@ -9799,7 +9799,7 @@ const AOM04052025_70 = [
             "Premchand award scheme",
             "Lal Bahadur Shastri technical original writing award scheme"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Which state is included under \"Ga\" region for the implementation of official language policy?",
@@ -9809,7 +9809,7 @@ const AOM04052025_70 = [
             "West Bengal",
             "Maharashtra"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Under which section of the Official Language Act, 1963 the Ministry of Railways has the legal obligation to use both English and Hindi for resolutions, general orders, rules, notifications, administrative reports etc.?",
@@ -9819,7 +9819,7 @@ const AOM04052025_70 = [
             "section 3(3)",
             "section 4"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "The Central Hindi Committee is chaired by...",
@@ -9829,7 +9829,7 @@ const AOM04052025_70 = [
             "Hon. Defence Minister",
             "Hon. Vice President"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "A Railway servant may be placed under suspension when....",
@@ -9839,7 +9839,7 @@ const AOM04052025_70 = [
             "case against him in respect of any criminal offence, is under investigation",
             "All of these"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "Which is not a minor penalty as per DAR?",
@@ -9849,7 +9849,7 @@ const AOM04052025_70 = [
             "Withholding of the Privilege Passes",
             "Recovery from pay of any pecuniary loss caused"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Foreign Service means service in which a railway servant receives pay with sanction of government from......",
@@ -9859,7 +9859,7 @@ const AOM04052025_70 = [
             "Foreign railways",
             "Any source other than the consolidated fund of India or state or UT"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "A monthly grant made to a railway servant who is not in receipt of pay or leave-salary is called.....",
@@ -9869,7 +9869,7 @@ const AOM04052025_70 = [
             "Ex gratia",
             "Special pay"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "A railway service post carrying the pay in the pay matrix at level 11 will be classified as....",
@@ -9879,7 +9879,7 @@ const AOM04052025_70 = [
             "Gr. A Gaz.",
             "Gr. D"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Recruitment to Group A service in Railways can be through.....",
@@ -9889,7 +9889,7 @@ const AOM04052025_70 = [
             "Transfer of an officer in the service of the government",
             "All of these"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "Procedure for imposing Major Penalties is prescribed in Rule .... of DAR.",
@@ -9899,7 +9899,7 @@ const AOM04052025_70 = [
             "10",
             "11"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "No Railway servant shall be granted leave of any kind for a continuous period exceeding....years.",
@@ -9909,7 +9909,7 @@ const AOM04052025_70 = [
             "4",
             "2"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "At the Railway Board level, the Personnel department is headed by.......",
@@ -9919,7 +9919,7 @@ const AOM04052025_70 = [
             "DG(HR)",
             "Establishment Officer"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "The Doctrine of Pleasure is contained in Article.... Of the Constitution of India.",
@@ -9929,7 +9929,7 @@ const AOM04052025_70 = [
             "356",
             "365"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Who is the chairperson of PNM at the zonal level?",
@@ -9939,7 +9939,7 @@ const AOM04052025_70 = [
             "GM",
             "DGM(G)"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "The amount of subscription payable towards Provident Fund for any particular year is capped at Rs....Lakh.",
@@ -9949,7 +9949,7 @@ const AOM04052025_70 = [
             "6",
             "5"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "Which conduct rule requires every railway servant to maintain absolute integrity at all times?",
@@ -9959,7 +9959,7 @@ const AOM04052025_70 = [
             "Rule 3(1)(vi)",
             "Rule 3(1)(x)"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Which conduct rule prohibits Railway servant to give or take or abet the giving or taking of dowry?",
@@ -9969,7 +9969,7 @@ const AOM04052025_70 = [
             "Rule 3c(1)",
             "Rule 5"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Where the distance between the old headquarters and the new headquarters is more than 1000 km, joining time admissible is ....days.",
@@ -9979,17 +9979,17 @@ const AOM04052025_70 = [
             "15",
             "30"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "Traffic Costing Office provides the data for....",
+        question: "Traffic Costing Office provides the data for...",
         options: [
             "Seeking budetary support",
             "Increasing profits",
             "Profitability analysis for traffic",
             "Minimization of social obligation"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Under which article of the Constitution is the Consolidated Fund of India estabished?",
@@ -9999,7 +9999,7 @@ const AOM04052025_70 = [
             "356",
             "270"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "The financial powers of the government, which have not been delegated to a subordinate authority, vest in......",
@@ -10009,7 +10009,7 @@ const AOM04052025_70 = [
             "CAG",
             "Lok Sabha"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Which departments are responsible for contracts with siding owners?",
@@ -10019,7 +10019,7 @@ const AOM04052025_70 = [
             "Operating and Engineering",
             "Engineering and Accounts"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "In the context of contracts, what is EPC?",
@@ -10029,7 +10029,7 @@ const AOM04052025_70 = [
             "Emergeny Procurement Contract",
             "Essential Property Contract"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Who represents the CAG of India in a Railway Zone?",
@@ -10039,7 +10039,7 @@ const AOM04052025_70 = [
             "PDA",
             "None of the"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "In railway finance, EBR means...",
@@ -10049,7 +10049,7 @@ const AOM04052025_70 = [
             "Expected Budgetary Resource",
             "Established Budget Rules"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "The report of the Comptroller and Auditor General of India presented to the parliament, is taken up for consideration by....",
@@ -10059,7 +10059,7 @@ const AOM04052025_70 = [
             "Public Accounts Committee",
             "JPC constituted by the Speaker"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Who is the budget officer of a Zone?",
@@ -10069,7 +10069,7 @@ const AOM04052025_70 = [
             "PFA",
             "GM"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "All charges for maintenance and repairs after opening of the line for Traffic are allocated to...",
@@ -10079,7 +10079,7 @@ const AOM04052025_70 = [
             "EBR(IF)",
             "EBR(IRFC)"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "What is the full-form of IRFC?",
@@ -10089,7 +10089,7 @@ const AOM04052025_70 = [
             "Integrated Railway Finance Committee",
             "Indian Railway Funding Company"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Who is the Plan Head Coordinator for PH 42 works?",
@@ -10099,7 +10099,7 @@ const AOM04052025_70 = [
             "PCOM",
             "PCME"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "BOLT stands for.....",
@@ -10109,7 +10109,7 @@ const AOM04052025_70 = [
             "Buy Own Lease Transfer",
             "Build Own Lend Terminate"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Which is the Plan Head for Traffic Facility Works?",
@@ -10119,7 +10119,7 @@ const AOM04052025_70 = [
             "PH 16",
             "PH 53"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "GFR stands for....",
@@ -10129,9 +10129,9 @@ const AOM04052025_70 = [
             "Green Finance Rating",
             "General Financial Rules"
         ],
-        correctAnswer: 2
-    },
-]
+        correctAnswer: 3
+    }
+];
 
 const AOM18052025_70 = [
     {
@@ -10142,7 +10142,7 @@ const AOM18052025_70 = [
             "amount of fare",
             "All of these"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "Which of the following is not a kind of signal permitted by GR 3.02 to regulate the movement of trains ?",
@@ -10152,7 +10152,7 @@ const AOM18052025_70 = [
             "Warning signal",
             "Detonating signal"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "A fixed signal can be placed on the right side of the line to which it refers with....",
@@ -10162,7 +10162,7 @@ const AOM18052025_70 = [
             "aprroval of DRM",
             "approval of GM"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "According to G &SR, when a shunt signal is provided on the same post as the stop signal, what will be its aspect in ON position?",
@@ -10172,7 +10172,7 @@ const AOM18052025_70 = [
             "Two horizontal yellow lights",
             "None of these"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "When a train carrying passengers has been brought to a stand at a station, the Loco Pilot shall not move it except.......",
@@ -10182,7 +10182,7 @@ const AOM18052025_70 = [
             "under orders of the Guard or to avert an accident",
             "to maintain punctuality"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "For freight traffic, the issue of RR is mandated by Section... of the Railway Act, 1989.",
@@ -10192,7 +10192,7 @@ const AOM18052025_70 = [
             "63",
             "64"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "According to G&SR 3.32(2), on a BSLB the words \"Block section limit\" should face...",
@@ -10202,7 +10202,7 @@ const AOM18052025_70 = [
             "the adjacent line",
             "None of these"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Expand POMKA...",
@@ -10212,7 +10212,7 @@ const AOM18052025_70 = [
             "Power Management Knowledge Application",
             "Portable Medical Kit for Accident"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "What is the typical axle load of a BCNHL wagon (in tonnes) ?",
@@ -10222,7 +10222,7 @@ const AOM18052025_70 = [
             "25",
             "20"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "According to the Preferential Traffic Order, levy Sugar for PDS sponsored by FCI is under Priority.....",
@@ -10232,7 +10232,7 @@ const AOM18052025_70 = [
             "D",
             "B"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "In MACLS territory, goods warning board to warn the Loco-pilot of approaching a Stop Signal is provided at a distance of.....meter in rear of the First Stop Signal of a station.",
@@ -10242,7 +10242,7 @@ const AOM18052025_70 = [
             "1300",
             "1400"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "In case of absolute block system, can calling on signal be placed below the last stop signal ?",
@@ -10252,7 +10252,7 @@ const AOM18052025_70 = [
             "Yes, with special instructions",
             "Yes, with approved special instructions"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "According to RPC-4, what is the validity limit (in Km) of M/Express train with LHB rake with round trip BPC?",
@@ -10262,7 +10262,7 @@ const AOM18052025_70 = [
             "3500",
             "6000"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "At an intermediate station with MACLS on double line, what is the adequate distance beyond the starter that must be kept clear for taking off the Home signal ?",
@@ -10272,7 +10272,7 @@ const AOM18052025_70 = [
             "400 mt",
             "300 mt"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "De-gassing and purging activities are associated with..... wagons.",
@@ -10282,7 +10282,7 @@ const AOM18052025_70 = [
             "BTPGLN",
             "BOBRN"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "What is ESP?",
@@ -10292,7 +10292,7 @@ const AOM18052025_70 = [
             "Engineering Signal Plan",
             "Emergency Service Plan"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "According to the Disaster Management Plan, who is the Chairperson of the National Crisis Management Committee?",
@@ -10302,7 +10302,7 @@ const AOM18052025_70 = [
             "DG/NDRF",
             "Secretary, NDMA"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "In the context of FOIS, what is FNR?",
@@ -10312,7 +10312,7 @@ const AOM18052025_70 = [
             "Freight Numbered Receipt",
             "Freight Notified Rate"
         ],
-        correctAnswer: -1
+        correctAnswer: 0 // Note: Marked "Deleted" in PDF, but Right Answer matches option A
     },
     {
         question: "In a division having diesel and electric loco operation, Control office can prepare loco outage based on .......",
@@ -10322,7 +10322,7 @@ const AOM18052025_70 = [
             "home shed",
             "All of these"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "Revenue Freight Traffic Statistics is detailed in which group of statements generated from FOIS ?",
@@ -10332,7 +10332,7 @@ const AOM18052025_70 = [
             "7-A, 7-B",
             "None of these"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Which of the following is not a function of Control Office during management of accident?",
@@ -10342,7 +10342,7 @@ const AOM18052025_70 = [
             "Arrange regulation and diversion of trains",
             "Issue new tickets to affected passengers"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "When a staion manager receives information from LP. TM etc. about any defect in signals not pertaining to his station, what should he do?",
@@ -10352,7 +10352,7 @@ const AOM18052025_70 = [
             "Inform the controller only",
             "No action since the defective signal does not pertain to his station."
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Which of the following commodities has the highest classification rate?",
@@ -10362,7 +10362,7 @@ const AOM18052025_70 = [
             "Fertilizer",
             "POL"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "Who is the plan head coordinator for PH 53 works?",
@@ -10372,7 +10372,7 @@ const AOM18052025_70 = [
             "PCE",
             "PCME"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Which of the following works is not proposed under PH 16?",
@@ -10382,7 +10382,7 @@ const AOM18052025_70 = [
             "Provision of additional loop line",
             "Provision of high level platform"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "According to Gr 5.13(3), the speed during shunting operations shall not exceed......... kilometers an hour unless otherwise authorized by Special Instructions.",
@@ -10392,7 +10392,7 @@ const AOM18052025_70 = [
             "15",
             "20"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Which of the following is a GPS based tracking system used by Control Office for tracking locomotives?",
@@ -10402,7 +10402,7 @@ const AOM18052025_70 = [
             "SATSANG",
             "SFOORTI"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Each Train Manager shall have with him while on duty with his train,......pairs of such spectacles as he is required to wear under medical advice.",
@@ -10412,7 +10412,7 @@ const AOM18052025_70 = [
             "1",
             "None of these"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "In the context of planning, what is IRPSM ?",
@@ -10422,7 +10422,7 @@ const AOM18052025_70 = [
             "Integrated Railway Planning System and Monitoring",
             "None of these"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Warning boards are provided at what distance before a neutral section?",
@@ -10432,7 +10432,7 @@ const AOM18052025_70 = [
             "180 and 120 meter",
             "None of these"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "According to Schedule of Dimensions, 2022, what is the minimum center to center distance between two adjacent straight tracks (in mm) in case of new works?",
@@ -10442,7 +10442,7 @@ const AOM18052025_70 = [
             "4265",
             "4750"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Four divisions have wagon turnaround(in days) as follows.. Division P..3.1, Division Q...3.3, Division R...3.5, and Division S.. 3. Which Division is performing the best on WTR?",
@@ -10452,7 +10452,7 @@ const AOM18052025_70 = [
             "R",
             "S"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "Which of the following is a standard composition of freight rake ?",
@@ -10462,7 +10462,7 @@ const AOM18052025_70 = [
             "58 BRN",
             "35 BLCA or BLCB"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Arrival/departure timing of trains at intermediate stations except originating/terminating stations in Public Time Table is.......than in Working Time Table.",
@@ -10472,7 +10472,7 @@ const AOM18052025_70 = [
             "always same",
             "None of these"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Who is the Chairperson of NDMA?",
@@ -10482,7 +10482,7 @@ const AOM18052025_70 = [
             "DG, NDRF",
             "None of these"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "For the main line at a station, Clear standing length means the distance between.....",
@@ -10492,7 +10492,7 @@ const AOM18052025_70 = [
             "starter signals at both ends",
             "None of these"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Which member of the Railway Board is responsible for compilation of operating and other types of railway statistics ?",
@@ -10502,7 +10502,7 @@ const AOM18052025_70 = [
             "Member, Traction and Rolling Stock",
             "Member, Finance"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "Horizontal distance from center of track to signal post, OHE mast etc. is called.......",
@@ -10512,7 +10512,7 @@ const AOM18052025_70 = [
             "stagger",
             "Implantation"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "Which is not a function of control office?",
@@ -10522,7 +10522,7 @@ const AOM18052025_70 = [
             "Registration of indents for loading",
             "Movement of wagons for unloading"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "According to GR 4.01, when is the correct time transmitted to all the stations everyday in prescribed manner?",
@@ -10532,7 +10532,7 @@ const AOM18052025_70 = [
             "1600 hrs",
             "2400 hrs"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "According to the guidelines issued by the Railway Board for operation of long haul trains, if 2 trains are combined to form a long haul train which of the locos will be braking in normal circumstances ?",
@@ -10542,7 +10542,7 @@ const AOM18052025_70 = [
             "both locos",
             "Trailing loco with emergency braking from leading loco if needed"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "According to the definition of disaster in the disaster management plan, which will qualify as disaster?",
@@ -10552,7 +10552,7 @@ const AOM18052025_70 = [
             "Disruption of traffic due to cyclone",
             "All of these"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "In the context of planning process, what is CCEA?",
@@ -10562,7 +10562,7 @@ const AOM18052025_70 = [
             "Central Committee on External Assistance",
             "Comprehensive Central Economic Assistance"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "According to the guidelines for procurement of new weighbridges, the capacity of all new weighbridges shall be....tonnes.",
@@ -10572,7 +10572,7 @@ const AOM18052025_70 = [
             "92",
             "150"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Which is a method of improving section capacity?",
@@ -10582,7 +10582,7 @@ const AOM18052025_70 = [
             "Temporary augmentation of trains",
             "None of these"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "If a siding owner installs an EIMWB at his own cost, how much extra free time for weighment will be admissible ?",
@@ -10592,7 +10592,7 @@ const AOM18052025_70 = [
             "30 minutes",
             "1 hrs"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "According to the Disaster Management Plan, which is the nodal department for rescue centric training of railway personnel ?",
@@ -10602,7 +10602,7 @@ const AOM18052025_70 = [
             "Mechanical department",
             "Engineering department"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "What is the duration of concession agreement between private container train operators and IR?",
@@ -10612,7 +10612,7 @@ const AOM18052025_70 = [
             "25 years",
             "20 years"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "ODR stands for",
@@ -10622,7 +10622,7 @@ const AOM18052025_70 = [
             "Ordinary date of registration",
             "optional date of registration"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "In coaching operations, which is not true about HOG technology?",
@@ -10632,7 +10632,7 @@ const AOM18052025_70 = [
             "It improves braking characteristics of loco",
             "It reduces requirement of power car"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "According to the Preferential Traffic Order, which traffic is under Priority A ?",
@@ -10642,7 +10642,7 @@ const AOM18052025_70 = [
             "Goods for emergncy relief work when sponsored by Central government",
             "POL traffic"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "In operating statistics, which of the following is a fundamental unit?",
@@ -10652,7 +10652,7 @@ const AOM18052025_70 = [
             "Wagon Kilometers",
             "Net tonne Kilometers per Wagon day"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "What is the periodicity of POH of BTPN wagons (in years) ?",
@@ -10662,7 +10662,7 @@ const AOM18052025_70 = [
             "2",
             "6"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "What is the purpose of granting block for BCM?",
@@ -10672,7 +10672,7 @@ const AOM18052025_70 = [
             "Ballast screening of plain track and turnouts",
             "None of these"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "A consignment has a gross clearance of 23 cm from minimum fixed structure profile. What will be its ODC class ?",
@@ -10682,7 +10682,7 @@ const AOM18052025_70 = [
             "C",
             "Not permitted as ODC"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "BCACBM wagons are used for loading of.......",
@@ -10692,7 +10692,7 @@ const AOM18052025_70 = [
             "B class ODC consignment",
             "parcels"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "On a double line where tains on the two lines run in opposite directions, when a loco pilot becomes aware that his train has met with an accident, what actions should he take?",
@@ -10702,7 +10702,7 @@ const AOM18052025_70 = [
             "switch on the flasher, switch on the headlights, place banner flag on adjacent line",
             "switch on the flasher and tell train manager to protect the adjacent line"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "What is the periodicity of POH of LHB coaches ? [DELETED]",
@@ -10712,7 +10712,7 @@ const AOM18052025_70 = [
             "3 yearly +/- 60 days",
             "3 yearly +/- 90 days"
         ],
-        correctAnswer: -1
+        correctAnswer: 0 // Note: Marked "eliminate" in PDF, but Right Answer matches option A
     },
     {
         question: "What is the code for LHB, vestibuled, air conditioned executive chair car?",
@@ -10722,7 +10722,7 @@ const AOM18052025_70 = [
             "LWFAC",
             "LWSCZAC"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Which organization handles booking of FTR trains ?",
@@ -10732,7 +10732,7 @@ const AOM18052025_70 = [
             "Zonal Railway",
             "Division"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Charges collected by Railways from container train operators for moving their wagons on IR network are called....",
@@ -10742,7 +10742,7 @@ const AOM18052025_70 = [
             "track access charges",
             "None of these"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Which is not a constituent of formula for WTR?",
@@ -10752,7 +10752,7 @@ const AOM18052025_70 = [
             "Loaded wagons received by the division",
             "Total number of wagons interchanged by division"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "On a division originating lead of cement traffic has reduced but the originating earning from cement has increased in FY 24...25 compared to 23...24. It means......",
@@ -10762,7 +10762,7 @@ const AOM18052025_70 = [
             "originating cement loading has decreased in 24...25.",
             "None of these"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Who is nominated by the Board under disaster management plan to declare an untoward incident as railway disaster?",
@@ -10772,7 +10772,7 @@ const AOM18052025_70 = [
             "CCRS",
             "General Manager"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "Which is vital equipment for safety of passenger coaches ?",
@@ -10782,7 +10782,7 @@ const AOM18052025_70 = [
             "Emergency window",
             "All of these"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "For taking off the Home signal, Derailing switch can substitute for signal overlap.......",
@@ -10792,7 +10792,7 @@ const AOM18052025_70 = [
             "Under approval of pcste",
             "With speed restriction of 50 kmph"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "What is the period of validity of BPC of premium rakes?",
@@ -10802,7 +10802,7 @@ const AOM18052025_70 = [
             "12 days with 3 days additional grace period",
             "21 days with 3 days additional grace period"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Which module of ICMS is used for analysis of punctuality loss and its causes ?",
@@ -10812,7 +10812,7 @@ const AOM18052025_70 = [
             "Time Tabling Module",
             "None of these"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "On a double line BG section, Panel interlocking at a station is to be replaced with El. Which plan head is best suited to propose this work?",
@@ -10822,7 +10822,7 @@ const AOM18052025_70 = [
             "PH 53",
             "None of these"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Who is the principal technical advisor to Central Government on matters pertaining to Commissioners of Railway Safety?",
@@ -10832,7 +10832,7 @@ const AOM18052025_70 = [
             "DG Safety",
             "None of these"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "When is the Hindi Diwas celebrated?",
@@ -10842,7 +10842,7 @@ const AOM18052025_70 = [
             "2026-09-14 00:00:00",
             "None of these"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Which types of documents are covered under Section 3(3)1 of the Official Language Act, 1963?",
@@ -10852,7 +10852,7 @@ const AOM18052025_70 = [
             "Rules",
             "All of these"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "Which is the nodal ministry for implementation of Official Language Act, 1963?",
@@ -10862,7 +10862,7 @@ const AOM18052025_70 = [
             "Ministry of Home Affairs",
             "Ministry of human Resource Development"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Who is the Chairperson of Zonal Official Language Implementation Committee ?",
@@ -10872,7 +10872,7 @@ const AOM18052025_70 = [
             "PCPO",
             "AGM"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Which of the following states is included in \"Kha\" region for implementation of Official Language Act, 1963?",
@@ -10882,7 +10882,7 @@ const AOM18052025_70 = [
             "Uttarakhand",
             "Himachal Pradesh"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "The Maithilisharan Gupt Puraskar is awarded for......",
@@ -10892,7 +10892,7 @@ const AOM18052025_70 = [
             "Novels, short stories in Hindi",
             "Railyatra Vrittant in Hindi"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Committee of Parliament on Official Language consists of how many members from the Lok Sabha ?",
@@ -10902,7 +10902,7 @@ const AOM18052025_70 = [
             "20",
             "25"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "How many languages are included in Schedule VIII of the Constitution?",
@@ -10912,7 +10912,7 @@ const AOM18052025_70 = [
             "25",
             "30"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "For promotion of official language in their jurisdiction, HAG/SAG officers are awarded the",
@@ -10922,7 +10922,7 @@ const AOM18052025_70 = [
             "Acharya Mahavir Prasad Chal vaijayanti",
             "Rail Mantri Rajbhasha Rajat Padak"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "Who can participate in the Rail Yatra Vrittant Puraskar Yojana ?",
@@ -10932,7 +10932,7 @@ const AOM18052025_70 = [
             "Only group C railway staff",
             "Only Group B officers"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Appointment to a Gazetted post is made by..",
@@ -10942,7 +10942,7 @@ const AOM18052025_70 = [
             "General Manager",
             "None of these"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Director in Railway Board is a Group ... post.",
@@ -10952,7 +10952,7 @@ const AOM18052025_70 = [
             "A",
             "None of these"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "First appointments to a Group A Post in Railway Service are made by........",
@@ -10962,7 +10962,7 @@ const AOM18052025_70 = [
             "the President on the recommendation of the DOPT",
             "None of these"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Where a Railway servant is lent to any other Ministry or Department of the Central Government, who has the powers of the disciplinary authority for the purpose of conducting disciplinary proceedings against him ?",
@@ -10972,7 +10972,7 @@ const AOM18052025_70 = [
             "The Lending Authority",
             "None of these"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Conversion of one kind of leave into another is....",
@@ -10982,7 +10982,7 @@ const AOM18052025_70 = [
             "possible even after superannuation",
             "possible with the sanction of authority granting leave"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "According to the Railway Services Conduct Rules, which of the following activities is permissible for a Railway servant ?",
@@ -10992,7 +10992,7 @@ const AOM18052025_70 = [
             "Displaying political party's symbols on residence",
             "Acting as polling agent of a candidate in an election to state legislature"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Which Conduct Rule is regarding prohibition of sexual harassment of working women?",
@@ -11002,7 +11002,7 @@ const AOM18052025_70 = [
             "Rule 3C",
             "Rule 6"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Can a Railway servant participate in the management of electronic media ?",
@@ -11012,7 +11012,7 @@ const AOM18052025_70 = [
             "Yes, with the previous sanction of the Government",
             "Yes, with prior intimation to the Government"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Provisions regarding dismissal etc. of Railway servant are contained in article.... of the Constitution.",
@@ -11022,7 +11022,7 @@ const AOM18052025_70 = [
             "315",
             "311"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "Who is the Chairperson of the Committee for management of Railway Staff Benefit Fund on a Zonal Railway ?",
@@ -11032,7 +11032,7 @@ const AOM18052025_70 = [
             "PFA",
             "None of these"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Major and Minor penalties that can be imposed upon a Railway servant are contained in Rule.... of the D&A Rules.",
@@ -11042,7 +11042,7 @@ const AOM18052025_70 = [
             "9",
             "11"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Compulsory retirement of a Railway servant in accordance with the provisions relating to his superannuation or retirement is.......",
@@ -11052,7 +11052,7 @@ const AOM18052025_70 = [
             "not a penalty under D&A Rules",
             "None of these"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "According to Rule 10 of D&AR, how much time is allowed to a charged Railway servant to submit his representation to DA on inquiry report?",
@@ -11062,7 +11062,7 @@ const AOM18052025_70 = [
             "30 days",
             "15 days"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "In the context of HRMS, what is ADARSH ?",
@@ -11072,7 +11072,7 @@ const AOM18052025_70 = [
             "Award scheme for divisions",
             "None of these"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "According to Clause 8 (3) of Railway Servants (Hours of Work and Period of Rest) Rules, 2005, what are the standard hours of duty for\" Essentially intermittent\" classification?",
@@ -11082,7 +11082,7 @@ const AOM18052025_70 = [
             "42 hours per week",
             "56 hours per week"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "From which financial year the Railway budget has been merged with the General budget?",
@@ -11092,7 +11092,7 @@ const AOM18052025_70 = [
             "FY 2012/13",
             "FY 2014/15"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Under which article of the Constitution is the Contingency Fund of India established ?",
@@ -11102,7 +11102,7 @@ const AOM18052025_70 = [
             "Article 267(1)",
             "None of these"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Government account means accounts related to the",
@@ -11112,7 +11112,7 @@ const AOM18052025_70 = [
             "Public accounts of India",
             "All of these"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "The expenditure on projects of doubling is booked under...",
@@ -11122,7 +11122,7 @@ const AOM18052025_70 = [
             "PH 53",
             "PH 33"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Under the General Financial Rules, which of the following is considered a standard of financial propriety?",
@@ -11132,7 +11132,7 @@ const AOM18052025_70 = [
             "Expenditure should not be prima facie more than the occasion demands.",
             "All of these"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "Budget estimates should be framed for which of the following?",
@@ -11142,7 +11142,7 @@ const AOM18052025_70 = [
             "Works expenditure",
             "All of these"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "Who is responsible for compilation of accounts of a Zonal Railway ?",
@@ -11152,7 +11152,7 @@ const AOM18052025_70 = [
             "PDA",
             "CAG"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Goods revenue estimate for major commodities is based on........",
@@ -11162,7 +11162,7 @@ const AOM18052025_70 = [
             "the anticipated NTKM to be carried, and the average yield per NTKM",
             "The originating loading in tonnes"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "In the context of works contracts, what is Standard GCC?",
@@ -11172,7 +11172,7 @@ const AOM18052025_70 = [
             "Standard General Catalogue of Contracts",
             "None of these"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Who can close the part-II Audit Inspection Report?",
@@ -11182,7 +11182,7 @@ const AOM18052025_70 = [
             "DRM",
             "None of these"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "In respect of Railways, which expenditure is \"charged\" on the Consolidated Fund of India?",
@@ -11192,7 +11192,7 @@ const AOM18052025_70 = [
             "Arbitration awards where made into rule of Court",
             "All of these"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "Land taken up permanently for works or Revenue purposes of the railway is charged to.......",
@@ -11202,7 +11202,7 @@ const AOM18052025_70 = [
             "Capital",
             "None of these Fund"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Who is responsible for framing the estimates of expenditure/ earning?",
@@ -11212,7 +11212,7 @@ const AOM18052025_70 = [
             "The spending/earning authorities concerned",
             "Only Construction Organiztion"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Audit of the accounts of a Zonal Railway is conducted by...",
@@ -11222,7 +11222,7 @@ const AOM18052025_70 = [
             "CAG",
             "Accountant General"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Which two parameters form the Operating Ratio?",
@@ -11232,20 +11232,20 @@ const AOM18052025_70 = [
             "Gross Working Expenses, and Gross Earnings",
             "None of these"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
-]
+];
 
 const AOM01062025_70 = [
     {
         question: "In MACLS territory, what will be the aspect of an independently placed position light shunt signal in \"ON\" position?",
         options: [
-            "It will be blank",
+            "It will be blank.",
             "Two horizontal white lights",
             "Two horizontal yellow lights",
             "None of these"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "In the context of electric traction, what is SSP?",
@@ -11255,37 +11255,37 @@ const AOM01062025_70 = [
             "Sectioning and Paralleling Post",
             "None of these"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "What is the purpose of giving block for CSM?",
+        question: "What is the purpose of giving block for CSM ?",
         options: [
             "For screening of ballast",
             "For correction of turnouts",
             "For tamping of plain track",
             "None of these"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
-        question: "Coaching revenue statistics is detailed in which statement generated from CRIS/ ICMS?",
+        question: "Coaching revenue statistics is detailed in which statement generated from CRIS/ ICMS ?",
         options: [
             "1-A",
             "4-A",
             "6-A (Part I, Part II)",
             "7-A"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
-        question: "In operating statistics, Wagon km per wagon day is a ......unit.",
+        question: "In opertating statistics, Wagon km per wagon day is a ......unit.",
         options: [
             "Primary",
             "Fundamental",
             "Derived",
             "None of these"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Which of the following commodities has the highest classification rate?",
@@ -11295,7 +11295,7 @@ const AOM01062025_70 = [
             "Steel coils",
             "De oiled cake (DOC)"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "What is IREPS",
@@ -11305,7 +11305,7 @@ const AOM01062025_70 = [
             "Indian Railways Electric Power Supply",
             "Indian Railways Electrical Protection System"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Slip Siding is provided to protect Block Section, if the gradient is steeper than........ falling towards the Block Section.",
@@ -11315,7 +11315,7 @@ const AOM01062025_70 = [
             "1 in 400",
             "1 in 150"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "What is LSFTO?",
@@ -11325,17 +11325,17 @@ const AOM01062025_70 = [
             "a scheme for operating private coaching trains",
             "a goods shed redevelopment scheme"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "In the context of safety, what is TCAS?",
+        question: "In the context of safety, what is TCAS ?",
         options: [
             "Train Control and Automatic Signalling",
             "Train Collision Avoidance System",
             "Traffic Control And Safety",
             "None of these"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "E-RR is generated through.....",
@@ -11345,7 +11345,7 @@ const AOM01062025_70 = [
             "PAM",
             "ICMS"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "BFNV wagons are primarily used for loading which of the following commodities?",
@@ -11355,57 +11355,57 @@ const AOM01062025_70 = [
             "Steel coils",
             "Bagged fertilizers"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
-        question: "Under which section of the Railway Act, 1989 Accommodation works are constructed and maintained?",
+        question: "Under which section of the Railway Act, 1989 Accommodation works are constructed and maintained by the Railways?",
         options: [
             "Section 21",
             "Section 20",
             "Section 16",
             "Section 12"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Under the Disaster Management Plan, the concept of disaster means....",
         options: [
-            "Railways handle alone",
-            "Serious rail accidents only",
-            "Requires resources of Railways and state/other depts",
+            "Railways should be able to handle it alone with its resources",
+            "Serious railway accidents only",
+            "Incidents which require resources of Railways as well as other departments, state government to handle",
             "Serious incidents in railway premises only"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
-        question: "The nodal department for management of Floods, Landslides, etc. shall be......",
+        question: "According to the Disaster Management Plan, the nodal department for the management of Floods, Landslides, etc. and preventive action/ mitigation shall be......",
         options: [
             "Safety department",
             "Civil Engineering department",
             "RPF",
             "Mechanical department"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "Who is the Chairperson of NDMA?",
+        question: "Who is the Chairperson of NDMA ?",
         options: [
             "Hon. Prime Minister",
             "Hon. Home Minister",
-            "DG, NDRF",
+            "DG,NDRF",
             "None of these"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "Which department is responsible for data collection/management of rescue and relief services?",
+        question: "Under the Disaster Management Plan, which department is responsible for data collection and management of record of accidents and essential services needed for rescue, response, and relief?",
         options: [
-            "Safety dept (coordination with Operating/Mech)",
-            "Mech dept (coordination with Operating/Medical)",
-            "Operating dept (coordination with Mech/Medical)",
-            "Medical dept (coordination with Security/Mech)"
+            "Safety department, in coordination with Operating and Mechanical departments",
+            "Mechanical department in coordination with Operating and Medical departments",
+            "Operating department in coordination with Mechanical and Medical departments",
+            "Medical department, in coordination with Security and Mechanical departments"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "LHB, vestibuled, Non AC, 3 tier sleeper coach will have the code......",
@@ -11415,17 +11415,17 @@ const AOM01062025_70 = [
             "LWGSCN",
             "None of these"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Which of the following methods will not improve the section capacity?",
         options: [
-            "Improving interlocking",
-            "Automatic signalling",
+            "Improving the standard of interlocking at stations",
+            "Introduction of automatic signalling",
             "Introduction of IBS",
             "Introduction of HOG trains"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "A division should ideally prepare rolling block program for a period of ....... weeks.",
@@ -11435,7 +11435,7 @@ const AOM01062025_70 = [
             "4",
             "12"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Sanction for movement of C class ODC is issued by.......",
@@ -11445,27 +11445,27 @@ const AOM01062025_70 = [
             "GM",
             "DRM"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "Which combination of two trains is NOT permitted in long haul operation?",
+        question: "Which of the following combinations of two constituent trains is not permitted in long haul operation?",
         options: [
             "Two empty rakes",
             "Two loaded rakes",
-            "Loaded front, empty trailing",
-            "Empty front, loaded trailing"
+            "Loaded rake in front and empty rake in trailing",
+            "Empty rake in front and loaded rake in trailing"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "What is DPWCS in train operation?",
         options: [
-            "Regulate OHE supply",
-            "Wireless technology to control loco from another loco",
-            "Monitor wagon parameters",
+            "A technology to regulate OHE supply",
+            "A wireless technology to control operation of one loco from another loco",
+            "A technology to monitor wagon parameters",
             "None of these"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "In the context of container operation, what is DSDC?",
@@ -11475,67 +11475,67 @@ const AOM01062025_70 = [
             "Double Stack Dwarf Container",
             "None of these"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
-        question: "\"Mission 3000 MT\" recommends measures for 3000 MT by which year?",
+        question: "\"Mission 3000 MT\" recommends various measures to cater to loading of 3000 MT by which year ?",
         options: [
             "2025",
             "2027",
             "2047",
             "None of these"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "During NI work which is not permitted?",
         options: [
             "Non-interlocked Last Stop Signal",
             "Non-interlocked First Stop Signal",
-            "Clamping/padlocking points",
+            "Clamping and padlocking of points",
             "Paper Line Clear Ticket"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "At what speed should a driver pass a distant signal showing Caution aspect?",
+        question: "According to GR, at what speed (in kmph) should a driver pass a distant signal showing Caution aspect?",
         options: [
             "50",
             "60",
             "30",
-            "No particular speed prescribed"
+            "No particular speed is prescribed in relevant GR"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
-        question: "Is a station yard gradient of 1 in 450 permissible on ESP during remodeling?",
+        question: "While planning yard remodeling, gradient of a station yard on ESP is found to be 1 in 450. Is this grade permissible?",
         options: [
             "Yes",
             "No",
-            "Yes, only branch lines",
-            "Yes, only B class stations"
+            "Yes, only in branch lines",
+            "Yes, only in B class stations"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "Which is not a method of controlling terminal detention?",
+        question: "Which is not a method of controlling terminal detention ?",
         options: [
             "Engine on load working",
             "Round the clock working",
             "Mechanized loading/unloading",
             "Terminal Restriction"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
-        question: "What is the HOER classification of a Goods LP performing running duty?",
+        question: "According to HOER, what is the classification of employment of a Goods LP performing train running duty?",
         options: [
             "Continuous",
             "Intensively Continuous",
             "Essentially Intermittent",
             "None of these"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "PCOM is the plan head coordinator for PH......",
@@ -11545,127 +11545,127 @@ const AOM01062025_70 = [
             "33",
             "42"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "OHE must be switched off for ODC if clearance is less than..... mm.",
+        question: "During movement of ODCs in 25 kV AC, Electrified Sections, OHE must be switched off when the clearance from the contact wire is less than..... mm.",
         options: [
             "100",
             "300",
             "200",
             "None of these"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
-        question: "Work of doubling of line is proposed under PH .....",
+        question: "In the planning process, work of doubling of line will be proposed under PH .....",
         options: [
             "11",
             "15",
             "33",
             "53"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "Can goods traffic commence on a newly constructed line without CRS?",
+        question: "Can goods traffic commence on a newly constructed line without CRS authorization?",
         options: [
             "Yes",
             "No",
             "Yes, only for 6 months",
             "Yes, only for 3 months"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "Which feature of FOIS enables tracking consignments online?",
+        question: "Which feature of FOIS enables customers to track their consignments online?",
         options: [
-            "E-Demand Registration",
+            "E-Demand Registration System",
             "Freight Calculator",
             "FNR Enquiry",
             "Rail Green Points"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
-        question: "How many Highly Utilized Network (HUN) Routes in National Rail Plan?",
+        question: "How many Highly Utilized Network (HUN) Routes have been identified in the National Rail Plan ?",
         options: [
             "11",
             "15",
             "7",
             "20"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "Modal share of Railways (in%) in freight traffic by 2030?",
+        question: "What is the Modal share of Railways (in%) in freight traffic by 2030 as envisaged under the National Rail Plan?",
         options: [
             "40 to 45",
             "More than 20",
             "More than 60",
             "30"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "Accepting Authority for Fertilizer traffic under Priority C?",
+        question: "According to the Preferential Traffic Order, who is the Accepting Authority for programmed traffic of Fertilizer under Priority C?",
         options: [
             "Ministry of Railways",
             "Ministry of Fertilizers",
             "Zonal Railways",
             "None of these"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
-        question: "What is the priority of cement traffic under PTO?",
+        question: "What is the priority of cement traffic under the Preferential Traffic Order ?",
         options: [
             "A",
             "B",
             "C",
             "D"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
-        question: "Semi-mechanised system of track renewal using rail panels?",
+        question: "A \"semi mechanised system of track renewal wherein pre fabricated rail panels are laid and existing panels removed with minimum labour is called......",
         options: [
             "BRM",
             "DGS",
             "PQRS",
             "T-28"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
-        question: "Headquarter rest for all running staff will be.... hours.",
+        question: "Subject to exigencies of service, headquarter rest for all running staff will be.... hours, regardless of duration of incoming trip.",
         options: [
             "16",
             "24",
             "12",
             "6"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "Conventional OHE power supply for train operation is...",
+        question: "The conventional OHE power supply for train operation is...",
         options: [
-            "25 kV AC single phase",
-            "2500 KV AC single phase",
-            "2.5 KV AC dual phase",
-            "30 KV AC Dual phase"
+            "25 kV, AC, single phase",
+            "2500 KV, AC, single phase",
+            "2.5 KV, AC, dual phase",
+            "30 KV, AC, Dual phase"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "What is the axle load (in tonnes) of BCNA wagon?",
+        question: "What is the axle load (in tonnes) of BCNA wagon ?",
         options: [
             "20.32",
             "22.9",
             "25",
             "30"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Which of the following is a hopper type wagon?",
@@ -11675,387 +11675,387 @@ const AOM01062025_70 = [
             "BCBFG",
             "All of these"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
-        question: "Periodicity (in years) of the first POH of BCN/BCNA?",
+        question: "What is the periodicity (in years) of the first POH of BCN/BCNA wagons?",
         options: [
             "6",
             "12",
             "8",
             "10"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "Originating Brake Power for CC air braked goods trains?",
+        question: "The Originating Brake Power for air braked goods trains running in the close circuit shall be ......%",
         options: [
-            "0.9",
-            "1",
-            "0.95",
-            "0.7"
+            "90",
+            "100",
+            "95",
+            "70"
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "In which of the following circumstances a GDR check is performed at locations without TXR staff ?",
+        options: [
+            "After loading/back loading",
+            "After tippling",
+            "After the rake is stabled for more than 24 hours",
+            "All of these"
+        ],
+        correctAnswer: 3
+    },
+    {
+        question: "Revenue freight traffic statistics is based on which source document?",
+        options: [
+            "Electronic RR",
+            "Weighment reports",
+            "Classification Rate tables",
+            "Forwarding note"
         ],
         correctAnswer: 0
     },
     {
-        question: "Circumstances for a GDR check at locations without TXR staff?",
-        options: [
-            "After loading",
-            "After tippling",
-            "Stabled > 24 hours",
-            "All of these"
-        ],
-        correctAnswer: 2
-    },
-    {
-        question: "Revenue freight traffic statistics is based on which document?",
-        options: [
-            "Electronic RR",
-            "Weighment reports",
-            "Rate tables",
-            "Forwarding note"
-        ],
-        correctAnswer: -1
-    },
-    {
-        question: "Parameter NOT included in revenue freight traffic statement?",
+        question: "Which of the following parameters is not included in revenue freight traffic statement?",
         options: [
             "Number of rakes",
             "Number of wagons",
             "NTKM",
             "Average lead"
         ],
-        correctAnswer: -1
-    },
-    {
-        question: "Does an electrical lifting barrier at LC gate require CRS sanction?",
-        options: [
-            "Yes",
-            "No",
-            "No, only in siding",
-            "Yes, only if TVU > 1000"
-        ],
         correctAnswer: 0
     },
     {
-        question: "Is CRS sanction required for closing of manned LC gate?",
+        question: "Will the provision of electrical lifting barrier at an already interlocked level crossing gate require sanction of CRS?",
         options: [
             "Yes",
             "No",
-            "Yes, if TVU > 1000",
-            "Yes, only for main line"
-        ],
-        correctAnswer: -1
-    },
-    {
-        question: "In the context of signaling, what is AFTC?",
-        options: [
-            "Alternate Frequency",
-            "Additional Fail-safe",
-            "Audio Frequency track",
-            "None of these"
+            "No, only if it is in siding",
+            "Yes, only if TVU is more than 1000"
         ],
         correctAnswer: 1
     },
     {
-        question: "Board used for obstructing line outside Home at Class B station?",
+        question: "Is sanction of CRS required for closing of manned LC gate after approval of district administration?",
         options: [
-            "Block Section Limit",
-            "Shunting Limit",
-            "Indication board",
-            "None of these"
+            "Yes",
+            "No",
+            "Yes, only if TVU is more than 1000",
+            "Yes, only for main line"
         ],
         correctAnswer: 0
     },
     {
-        question: "Which indications are available on station control panel?",
+        question: "In the context of signaling, what is AFTC ?",
         options: [
-            "Power supply",
-            "Track circuit",
-            "Route indication",
-            "All of these"
+            "Alternate Frequency Track Circuit",
+            "Additional Fail-safe Track Circuit",
+            "Audio Frequency track Circuit",
+            "None of these"
         ],
         correctAnswer: 2
     },
     {
-        question: "Single distant territory: min distance Distant to First Stop?",
+        question: "According to GR 3.32(1), at Class 'B' station over a single line section worked on Absolute Block System, where obstructing the line outside the Home signal is permitted under special instructions, a........ is provided.",
         options: [
-            "1000m",
-            "400m",
-            "300m",
-            "800m"
-        ],
-        correctAnswer: -1
-    },
-    {
-        question: "According to GR 3.45, calling-on signal is taken Off when...",
-        options: [
-            "Adequate distance clear",
-            "Clear to next signal",
-            "Train brought to stand",
+            "Block Section Limit Board",
+            "Shunting Limit Board",
+            "Indication board",
             "None of these"
         ],
         correctAnswer: 1
     },
     {
-        question: "LSS shall not be Off unless Line Clear is obtained (T/F)?",
+        question: "Which of the following types of indications are available on the station control panel?",
         options: [
-            "1",
-            "True (double line only)",
-            "True (single line only)",
-            "False"
+            "Power supply indication",
+            "Track circuit indication",
+            "Route indicaion",
+            "All of these"
         ],
-        correctAnswer: -1
+        correctAnswer: 3
     },
     {
-        question: "Speed to pass Auto Stop signal at ON in clear visibility?",
+        question: "In single distant territory, the adequate distance between the distant signal and the first stop signal should not be less than .......meter.",
         options: [
-            "No specific speed",
+            "1000",
+            "400",
+            "300",
+            "800"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "According to GR 3.45, a calling-on signal shall not be taken Off until........",
+        options: [
+            "the line in advance of the calling on signal is clear upto adequate distance",
+            "the line in advance of the calling on signal is clear upto the next stop signal",
+            "the train has been brought to a stand at the stop signal below which the calling-on signal is provided",
+            "None of these"
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "The last stop signal shall not be taken Off for a train unless Line Clear has been obtained from the block station in advance. True or false ?",
+        options: [
+            "True",
+            "True, only for double line section",
+            "True, only for single line section.",
+            "False"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "What speed is prescribed in GR 9.02, when an automatic stop signal on double line is to be passed at ON in clear visibility?",
+        options: [
+            "No specific speed is prescribed",
             "30 kmph",
             "25 kmph",
             "20 kmph"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "Shunting engine at night exhibits head light plus...",
+        question: "According to GR 4.14(2), an engine employed exclusively on shunting at station shall, at night exhibit in addition to head light......",
         options: [
-            "Two white marker front/rear",
-            "Flashing red front/rear",
-            "Two red marker front/rear",
+            "two white marker lights in front and in rear.",
+            "a flashing red light in front and rear",
+            "two red marker lights in front and in rear.",
             "None of these"
-        ],
-        correctAnswer: 1
-    },
-    {
-        question: "Defective speedometer/recorder action during run?",
-        options: [
-            "Approved special instructions",
-            "PCEE instructions",
-            "RDSO instructions",
-            "Special Instructions"
         ],
         correctAnswer: 2
     },
     {
-        question: "SM notice passing train without tail lamp in absolute block?",
+        question: "In case of speedometer/recorder becoming defective during the run the train should run at a speed prescribed by........",
         options: [
-            "Withhold closing block",
-            "Close block & advice",
-            "Withhold block & stop train",
-            "None of these"
+            "Approved special instructions",
+            "PCEE",
+            "RDSO",
+            "Special Instructions."
         ],
-        correctAnswer: 1
+        correctAnswer: 3
     },
     {
-        question: "Coordinate with which agency for landslide warnings?",
+        question: "In absolute block section, a station master has noticed that a passing train is without a tail lamp on the last vehicle. What actions should he take?",
         options: [
-            "SASE",
-            "IMD",
+            "Withhold closing of the block section and advice station in advance to confirm the train is complete",
+            "Close the block section and Advice the station in advance to remedy the defect",
+            "Withhold closing of the block section, and advice the station in advance to stop the train to remedy the defect and to advise whether or not the train is complete",
+            "None of these"
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "Assume your Division is prone to landslides. According to Disaster Management Plan, which central government agency will you coordinate with for early warning of landslides?",
+        options: [
+            "Snow and Avalanche Study Establishment",
+            "India Meteorological Department",
             "Geological Survey of India",
             "Central Water Commission"
         ],
+        correctAnswer: 2
+    },
+    {
+        question: "In the case of an electric engine, if the leading driving compartment becomes defective, the train shall be driven from the trailing driving compartment by .......",
+        options: [
+            "the Loco Pilot with ALP on the front driving compartment",
+            "the Assistant Loco Pilot if he is duly qualified to drive with LP on the front driving compartment",
+            "both LP and ALP",
+            "LP with TM and ALP on the front driving compartment"
+        ],
         correctAnswer: 1
     },
     {
-        question: "Defective leading compartment: driven from trailing by...",
-        options: [
-            "LP with ALP in front",
-            "Qualified ALP with LP in front",
-            "Both LP and ALP",
-            "LP with TM/ALP in front"
-        ],
-        correctAnswer: 0
-    },
-    {
-        question: "Which department is responsible for maintenance of weighbridges?",
+        question: "Which department is responsible for maintenanc of weighbridges?",
         options: [
             "Commercial",
             "Operating",
             "Mechanical",
             "Civil"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
-        question: "Defective speedometer in home shed: Coaching link?",
+        question: "Speedometer of a loco has gone defective in home shed. Can it be turned out to work a coacjhing link ?",
         options: [
             "Yes",
             "No",
-            "Yes, with PCEE approval",
-            "Yes, if not Rajdhani"
+            "Yes, with the approval of PCEE",
+            "Yes, if it is not in Rajdhani link"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "Alarm Chain provision under which section of Railway Act?",
+        question: "Under which section of the Railway Act, 1989 provision of Alarm Chain is made in the passenger carrying trains ?",
         options: [
             "Section 59",
             "Section 57",
             "Section 54",
             "Section 49"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "What is eDAS portal used for?",
+        question: "In planning process, what is eDAS portal used for?",
         options: [
-            "Approval of ESP",
-            "Scrutiny of estimates",
-            "Uploading DPRs",
-            "Siding agreements"
+            "approval of ESP.",
+            "scrutiny of estimates",
+            "uploading DPRs",
+            "executing siding agreements"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "Act section for fixing max carrying capacity of wagons?",
+        question: "Which section of the Railway Act 1989 authorizes the central government to fix the maximum carrying capacity of wagons?",
         options: [
             "Section 70",
             "Section 74",
             "Section 76",
             "Section 72"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
-        question: "CRS Inquiry section for accidents with loss of life?",
+        question: "Inquiry by CRS into accidents involving passenger carrying trains resulting in loss of human lives is conducted under Section ........ Of Railway Act, 1989.",
         options: [
             "114",
             "121",
             "122",
             "119"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "Mandatory equipment for passenger Train Manager?",
+        question: "Which of the following is mandatory equipment of each Train Manager of passenger carrying train?",
         options: [
-            "Detonators",
-            "First aid box",
-            "A watch",
+            "stock of detonators",
+            "first aid box",
+            "a watch",
             "All of these"
+        ],
+        correctAnswer: 3
+    },
+    {
+        question: "According to the Official Language Rules, 1976, communications from a Central Government office in reply to communications in Hindi shall be ......",
+        options: [
+            "either in Hindi or in English.",
+            "in English.",
+            "in Hindi.",
+            "None of these"
         ],
         correctAnswer: 2
     },
     {
-        question: "Reply to communications in Hindi shall be in...",
+        question: "Who is eligible to participate in Premchand Puraskar Yojna ?",
         options: [
-            "Hindi/English",
-            "English",
-            "Hindi",
-            "None of these"
+            "Any Indian",
+            "Any serving railway employee",
+            "Any retired railway employee",
+            "Only non gazetted railway employee"
         ],
         correctAnswer: 1
     },
     {
-        question: "Who is eligible for Premchand Puraskar Yojna?",
-        options: [
-            "Any Indian",
-            "Any serving employee",
-            "Any retired employee",
-            "Non-gazetted only"
-        ],
-        correctAnswer: 0
-    },
-    {
-        question: "Employee declaring proficiency in Hindi is deemed so (T/F)?",
+        question: "An employee shall be deemed to possess proficiency in Hindi if he declares himself to possess proficiency in Hindi in prescribed form. True or False ?",
         options: [
             "False",
-            "1",
-            "True (Region A only)",
-            "True (Region C only)"
+            "True",
+            "True, only for employees in Region A",
+            "True, only for employees in Region C"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "Min service for Rail Mantri Hindi Nibandh Pratiyogita?",
+        question: "What is the minimum length of service required to participate in the Rail Mantri Hindi Nibandh Pratiyogita ?",
         options: [
             "3 months",
             "3 years",
             "1 year",
             "6 months"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "Communications to State in Region \"C\" shall be...",
+        question: "According to the Official Language Rules, 1976, communications from a Central Government office to State in Region \"C\" shall be........",
         options: [
-            "Hindi",
-            "Regional language",
-            "English",
-            "Hindi/Regional"
+            "in Hindi.",
+            "in the regional language of the State",
+            "in English.",
+            "either in Hindi or regional language."
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
-        question: "Rajya Sabha members on Committee on Official Language?",
+        question: "How many members from Rajya Sabha are there on the Committee of Parliament on Official Language?",
         options: [
             "10",
             "20",
             "30",
             "15"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "Which state is in Region C?",
+        question: "In the context of Official Language Rules, 1976, which of the following states is in Region C?",
         options: [
             "Assam",
             "Maharashtra",
             "Bihar",
             "Haryana"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "Communications from Region \"C\" office to Region \"A\" state?",
+        question: "According to the Official Language Rules, 1976, communications from a Central Government office in Region \"C\" to a State of Region \"A\" may be.....",
         options: [
-            "Hindi/English",
-            "Only English",
-            "Only Hindi",
-            "Regional language"
+            "either in Hindi or in English.",
+            "only in English.",
+            "only in Hindi.",
+            "in regional language of the state in Region C"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "Which language is in the eighth schedule?",
+        question: "Which of the following languages is in the eighth schedule of the Constitution?",
         options: [
             "Bodo",
             "Konkani",
             "Kashmiri",
             "All of these"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
-        question: "Award scheme for Hindi poetry collection?",
+        question: "A Railway Servant has composed a collection of poems in Hindi. Under which award scheme can he submit his collection?",
         options: [
-            "Premchand",
-            "Maithilisharan Gupt",
-            "Rajbhasha Rajat Padak",
-            "Kamalapati Tripathi"
+            "Premchand Puraskaar",
+            "Maithilisharan Gupt Puraskaar",
+            "Rail Mantri Rajbhasha Rajat Padak",
+            "Kamalapati Tripathi Swarna Padak"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "Plan head for level crossing Road Safety Works?",
+        question: "Under which plan head is the expenditure on Road Safety Works pertaining to level crossings classified ?",
         options: [
             "PH 29",
             "PH 31",
             "PH 32",
             "PH 33"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "Estimated operating ratio (in %) for FY 25-26?",
+        question: "What is the estimated operating ratio (in %) in Railways budget for FY 25...26?",
         options: [
             "101",
             "98.43",
             "95",
             "None of these"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Earning from commercial publicity is part of...",
@@ -12063,281 +12063,281 @@ const AOM01062025_70 = [
             "Passenger earning",
             "Goods earning",
             "Sundry earning",
-            "Other coaching"
+            "Other coaching earning"
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "Can tender notice period of 21 days be reduced in exceptional circumstances ?",
+        options: [
+            "Yes, by the executive authority directly.",
+            "Yes, by executive authority in consultation with PFA.",
+            "No",
+            "Yes, by associate finance directly."
         ],
         correctAnswer: 1
     },
     {
-        question: "Can 21-day tender notice period be reduced?",
-        options: [
-            "Yes (directly)",
-            "Yes (with PFA)",
-            "No",
-            "Yes (finance direct)"
-        ],
-        correctAnswer: 0
-    },
-    {
-        question: "Authorized to reply to Draft para to Audit Director?",
+        question: "Who is authorized to send reply to Draft para to the Principal Director of Audit where the cause of audit objection and the remedial measures are within the control of an individual Railway?",
         options: [
             "PFA",
-            "Executive directly",
-            "GM after vetting",
+            "Concerned Executive directly",
+            "General Manager after vetting by Finance",
             "None of these"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
-        question: "Cost of ballast/fuel sidings charged to...",
+        question: "The cost of sidings required purely for revenue purposes like ballast and fuel sidings is charged to........",
         options: [
             "Capital Fund",
             "Development Fund",
-            "DRF",
+            "Depreciation Reserve Fund",
             "Revenue Fund"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "What is Capital Expenditure?",
         options: [
-            "Acquiring tangible assets",
-            "Maintenance/repairs",
-            "Day-to-day running",
+            "expenditure incurred with the object of acquiring tangible assets of a permanent nature",
+            "expenditure on maintenance, repair and working expenses, required to maintain the assets",
+            "expenditure incurred for the day to day running of Railways, including establishment and administrative expenses",
             "All of these"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "Framing coaching revenue estimates class-wise?",
+        question: "Estimates of coaching revenue class-wise should be framed on the basis of........",
         options: [
-            "PKM & avg fare",
-            "PKM & passengers",
-            "Passengers & avg fare",
-            "None of these"
-        ],
-        correctAnswer: -1
-    },
-    {
-        question: "Awarding contracts for supply of uniforms?",
-        options: [
-            "Commercial",
-            "Operating",
-            "Civil Engineering",
-            "Stores department"
-        ],
-        correctAnswer: 2
-    },
-    {
-        question: "Works Tenders without earnest money should be...",
-        options: [
-            "Considered",
-            "Summarily rejected",
-            "Extension given",
+            "passenger kilometres and the average fare per passenger kilometre",
+            "passenger kilometres and the number of passengers",
+            "total passengers and the average fare per passenger kilometre",
             "None of these"
         ],
         correctAnswer: 0
     },
     {
-        question: "Replies to Audit inspection reports sent by...",
+        question: "Which department is primarily responsible for awarding contracts for fabrication and supply of clothing and uniforms ?",
         options: [
-            "Executive to Accounts",
-            "Executive to Audit",
-            "Executive to GM",
-            "GM to Board"
+            "Commercial department",
+            "Operating department",
+            "Civil Engineering deoartment.",
+            "Stores (Materials Management) department"
         ],
-        correctAnswer: -1
+        correctAnswer: 3
     },
     {
-        question: "Can TC member be Accepting Authority for same tender?",
+        question: "Works Tenders un-accompanied by the requisite earnest money should be.....",
         options: [
-            "1",
-            "True (< 5 Cr)",
-            "True (L14 and above)",
+            "considered by the tender committee",
+            "summarily rejected by the tender committee,",
+            "given extension of time for submitting EMD by the executive.",
+            "None of these"
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "Replies to Audit inspection reports of executive offices should be sent by.....",
+        options: [
+            "execurive officer to the Accounts Officer.",
+            "execurive officer to the Audit officer directly",
+            "executive officer to the General Manager.",
+            "General Manager to the Railway Board."
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "Officer recommending acceptance of a tender in his capacity as a member of the tender Committee can be the accepting authority for the same tender. True or False ?",
+        options: [
+            "True",
+            "True only for tenders under Rs. 5 Cr value.",
+            "True, only if the officer is in L14 and above",
             "False"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
-        question: "Who is plan head coordinator for PH 31?",
+        question: "Who is the plan head coordinator for PH 31 works?",
         options: [
             "PCME",
             "PCCM",
             "PCOM",
             "PCE"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
-        question: "What does \"Re-appropriation\" mean?",
+        question: "According to General Financial Rules, what does \"Re-appropriation\" mean?",
         options: [
-            "Work to work",
-            "Unit to unit",
-            "PH to PH",
+            "the transfer of funds from one sanctioned work to any other sanctioned work",
+            "the transfer of funds from one primary unit of appropriation to another such unit",
+            "the transfer of funds from one plan head to another plan head",
             "None of these"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "Article for annual budget before Parliament?",
+        question: "Under which article of the Constitution the annual budget is presented before the Parliament?",
         options: [
             "Article 112(1)",
             "Article 283",
             "Article 284",
             "None of these"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "Rule 1966: \"Government\" for Gazetted officer means...",
+        question: "Under the Railway services (Conduct) Rules, 1966 in relation to Gazetted officer posted in the Division, the term \"Government\" means....",
         options: [
-            "Railway Board",
-            "DRM",
-            "Secretary Board",
+            "The Railway Board",
+            "The DRM",
+            "Secretary, Railway Board",
             "None of these"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "Maintain high ethical standards and honesty rule?",
+        question: "Which Conduct rule requires a railway servant to maintain high ethical standards and honesty at all times ?",
         options: [
             "Rule 3(1)(iii)",
             "Rule 3(1)(vi)",
             "Rule 3B",
             "Rule 3C"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "Presides over Divisional Staff Benefit Fund Committee?",
+        question: "Who presides over the Divisional Staff Benefit Fund Committee ?",
         options: [
             "DRM",
             "ADRM",
             "Sr. DPO",
             "Sr. DFM"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
-        question: "Mediates settlement of industrial dispute?",
+        question: "Under the Industrial Disputes Act, 1947, the person who mediates and promotes the settlement of industrial dispute is called",
         options: [
             "Coordinating officer",
             "Liason officer",
-            "Dispute officer",
+            "Dispute settlement officer",
             "Conciliation officer"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
-        question: "Competent authority to confirm Group A probationer?",
+        question: "Who is the competent authority to confirm an officer in Group A on probation if he has satisfactorily completed his probationary period?",
         options: [
             "PCPO",
             "CRB and CEO",
-            "Cadre Controlling",
+            "Cadre Controlling Authority",
             "General Manager"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "Expand MACP",
         options: [
-            "Mutually Agreed",
-            "Management Agreed",
-            "Modified Assured",
-            "Mutually agreed"
+            "Mutually Agreed Confirmed Promotion",
+            "Management Agreed Career Progression",
+            "Modified Assured Career Progression",
+            "Mutually agreed Career Progession"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
-        question: "Act in accordance with environment preservation rule?",
+        question: "Which conduct rule requires every railway servant at all times to act in accordance with the Government's policies regarding preservation of environment ?",
         options: [
             "Rule 3B(i)",
             "Rule 2",
             "Rule 13",
             "Rule 7"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "Recall to duty before leave expiry treated as...",
+        question: "In case a Railway servant is recalled to duty before the expiry of his leave, such recall to duty shall be treated as......",
         options: [
-            "Voluntary",
-            "Discretion (granting)",
-            "Discretion (ordering)",
-            "Compulsory"
+            "voluntary in all cases.",
+            "compulsory or voluntary at the discretion of authority granting leave.",
+            "compulsory or voluntary at the discretion of authority ordering recall to duty.",
+            "compulsory in all cases."
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
-        question: "On leave: can't accept employment without sanction?",
+        question: "A Railway servant on leave may not accept any employment in India without obtaining the previous sanction of.....",
         options: [
-            "Appointing authority",
-            "Cadre Controlling",
+            "the authority empowered to appoint him.",
+            "Cadre Controlling Authority",
             "CRB and CEO",
             "None of these"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
-        question: "Maximum extent of commutation of pension (in %)?",
+        question: "What is the maximum extent of commutation of pension (in %) that can be availed ?",
         options: [
             "20",
             "40",
             "30",
             "50"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "Paternity Leave surviving children limit?",
+        question: "Paternity Leave is entitled upto ....... surviving children.",
         options: [
             "3",
             "2",
             "4",
             "None of these"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "Lent from post outside Board control included in \"Servant\"?",
+        question: "Is a person lent from a post which is not under the administrative control of the Railway Board to a post which is under such administrative control included under \"Railway Servant\"?",
         options: [
             "Yes",
             "No",
-            "Yes (Gazetted only)",
-            "Yes (Non-Gazetted)"
+            "Yes, only if it is a Gazetted post",
+            "Yes, if it is a non- Gazetted post."
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "Substantive promotions to Group 'A' made by...",
+        question: "All substantive promotions to Railway Services Group 'A' shall be made by......",
         options: [
             "CRB and CEO",
             "DOPT",
             "the Hon. President",
             "General Manager"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
-        question: "Chairperson of PNM at the Division level?",
+        question: "Who is the Chairperson of PNM at the Division level?",
         options: [
             "DRM",
             "ADRM",
             "SR. DPO",
             "None of these"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Expand IRWO",
         options: [
-            "Women's Org",
-            "Injured Welfare",
-            "Welfare Organization",
+            "Indian Railways Women's Organization",
+            "Injured Railwaymen Welfare Organization",
+            "Indian Railways Welfare Organization",
             "None of these"
         ],
-        correctAnswer: 1
-    },
-]
+        correctAnswer: 2
+    }
+];
 
 const AOM04082024_30 = [
     {
@@ -14101,7 +14101,7 @@ const AOM_PART_BC_90 = [
             "Sania Mirza",
             "Kapil Dev"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "The book based on the life of Srinivasa Ramanujan is titled",
@@ -14111,7 +14111,7 @@ const AOM_PART_BC_90 = [
             "Fascinating Mathematics",
             "Zero"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Which Planet is known as \"Red Planet\"?",
@@ -14121,7 +14121,7 @@ const AOM_PART_BC_90 = [
             "Mars",
             "Mercury"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "\"Tropic of Cancer\" does not pass through which of these Indian states?",
@@ -14131,7 +14131,7 @@ const AOM_PART_BC_90 = [
             "Rajasthan",
             "Odisha"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "\"MS Word\" is an example of",
@@ -14141,7 +14141,7 @@ const AOM_PART_BC_90 = [
             "Application Software",
             "An Input Device"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Statue of Equality is located in which city?",
@@ -14151,7 +14151,7 @@ const AOM_PART_BC_90 = [
             "Ahmedabad",
             "New Delhi"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Height of \"Statue of Unity\" is",
@@ -14161,7 +14161,7 @@ const AOM_PART_BC_90 = [
             "182 meters",
             "120 meters"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Mohammad Bin Tughlaq shifted his capital from Delhi to which place?",
@@ -14171,7 +14171,7 @@ const AOM_PART_BC_90 = [
             "Hyderabad",
             "Tughlakabad"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Santosh Trophy is associated with which sport?",
@@ -14181,7 +14181,7 @@ const AOM_PART_BC_90 = [
             "Badminton",
             "Hockey"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Swapnil Kusale won an Olympic medal for which event?",
@@ -14191,7 +14191,7 @@ const AOM_PART_BC_90 = [
             "Men's 10 meters Air Pistol event",
             "Men's 50 meters Rifle three position event"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "Recently the President of India inaugurated the \"Vishwashanti Buddha Vihar\" in which district of Maharashtra?",
@@ -14201,7 +14201,7 @@ const AOM_PART_BC_90 = [
             "Latur",
             "Gondia"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "How many medals did India win in Olympics 2024?",
@@ -14211,7 +14211,7 @@ const AOM_PART_BC_90 = [
             "5",
             "10"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "What is the chemical formula for common table salt?",
@@ -14221,7 +14221,7 @@ const AOM_PART_BC_90 = [
             "NaCl",
             "H2SO4"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Name of the author of \"The God of Small Things\" is",
@@ -14231,7 +14231,7 @@ const AOM_PART_BC_90 = [
             "Vikram Seth",
             "Kiran Bedi"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "What is the pH of pure water at room temperature?",
@@ -14241,7 +14241,7 @@ const AOM_PART_BC_90 = [
             "14",
             "0"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "What is the purpose of Parliamentary Committees?",
@@ -14251,7 +14251,7 @@ const AOM_PART_BC_90 = [
             "To prepare the agenda of the house sessions",
             "To study and analyse the various issues related to legislation and policy matters"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "Who among the following is the ex-officio Chairman of the Rajya Sabha?",
@@ -14261,7 +14261,7 @@ const AOM_PART_BC_90 = [
             "Speaker of Lok-Sabha",
             "Leader of the opposition"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Pattachitra art is famous in which state",
@@ -14271,7 +14271,7 @@ const AOM_PART_BC_90 = [
             "Odisha",
             "Kerala"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Polavarum Water project is associated with which state?",
@@ -14281,7 +14281,7 @@ const AOM_PART_BC_90 = [
             "Andhra Pradesh",
             "Kerala"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "\"Rat Hole Mining\" is a method of manual drilling most prevalent in which state?",
@@ -14291,7 +14291,7 @@ const AOM_PART_BC_90 = [
             "Arunachal Pradesh",
             "Assam"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Which State Government has launched the \"Mahtari Vandana Yojana\"?",
@@ -14301,7 +14301,7 @@ const AOM_PART_BC_90 = [
             "Odisha",
             "Assam"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Pandit Bhimsen Joshi belongs to which Gharana?",
@@ -14311,7 +14311,7 @@ const AOM_PART_BC_90 = [
             "Kirana Gharana",
             "Mewati Gharana"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Which of the following is the birth place of Guru Nanak Dev?",
@@ -14321,7 +14321,7 @@ const AOM_PART_BC_90 = [
             "Nankana Sahib",
             "Shahlot"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "What is the significance of Saffron colour in Indian National flag?",
@@ -14331,7 +14331,7 @@ const AOM_PART_BC_90 = [
             "Truth",
             "Life and Vitality"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Reykjavik is the capital of which country?",
@@ -14341,7 +14341,7 @@ const AOM_PART_BC_90 = [
             "Iceland",
             "Ireland"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Which of the following Tourist monument of India was built in 1911 to commemorate the visit of King George V and Queen Mary?",
@@ -14351,7 +14351,7 @@ const AOM_PART_BC_90 = [
             "Victoria Terminus",
             "Gateway of India"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "Gol Gumbaj is a monument",
@@ -14361,7 +14361,7 @@ const AOM_PART_BC_90 = [
             "Mausoleum of Mohd. Adil Shah",
             "Mausoleum of Chand Bibi"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Due to increase in taxes, price of TV has increased to Rs. 84,500/- which is 30% increase over its original price. What is the original price?",
@@ -14371,7 +14371,7 @@ const AOM_PART_BC_90 = [
             "Rs. 67600",
             "Rs. 78000"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Who amongst the following is considered the founding father of ISRO?",
@@ -14381,7 +14381,7 @@ const AOM_PART_BC_90 = [
             "Sir M. Vishveshvaraiya",
             "Jagadish Chandra Bose"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "What is the name of ISRO's human spacelift program?",
@@ -14391,7 +14391,7 @@ const AOM_PART_BC_90 = [
             "Chandrayan",
             "Vayuyan"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Which gas is most abundant in Earth's atmosphere?",
@@ -14401,7 +14401,7 @@ const AOM_PART_BC_90 = [
             "Hydrogen",
             "Nitrogen"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "Indian Railway plans to run a train on fuel based on which gas",
@@ -14411,7 +14411,7 @@ const AOM_PART_BC_90 = [
             "Nitrogen",
             "Methane"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Vande Bharat Train propulsion is based on",
@@ -14421,7 +14421,7 @@ const AOM_PART_BC_90 = [
             "Generator based Technology",
             "Auxiliary Propulsion Technology"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Amjad Ali Khan is associated with which music instrument -",
@@ -14431,7 +14431,7 @@ const AOM_PART_BC_90 = [
             "Violin",
             "Sarod"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "Dr. M. S. Swaminathan is a distinguished personality from which of the fields",
@@ -14441,7 +14441,7 @@ const AOM_PART_BC_90 = [
             "Medicine",
             "Physics"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "The office of the UN General Assembly is situated in",
@@ -14451,7 +14451,7 @@ const AOM_PART_BC_90 = [
             "Paris",
             "Zurich"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Which Railway Station has the World's longest platform?",
@@ -14461,7 +14461,7 @@ const AOM_PART_BC_90 = [
             "Chennai Central",
             "SSS Hubballi Junction"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "What is the width of Broad Guage railway line in Indian Railways?",
@@ -14471,7 +14471,7 @@ const AOM_PART_BC_90 = [
             "4 ft 11 inches",
             "5 ft 1 inches"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "In the year 2024, Dada Saheb Phalke award has been conferred on which film personality -",
@@ -14481,7 +14481,7 @@ const AOM_PART_BC_90 = [
             "Rekha",
             "Asha Parekh"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "\"World Environment Day\" is celebrated on",
@@ -14491,7 +14491,7 @@ const AOM_PART_BC_90 = [
             "June 5th",
             "August 6th"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "What is the number of vowels in the standard Hindi alphabets?",
@@ -14501,7 +14501,7 @@ const AOM_PART_BC_90 = [
             "12",
             "13"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "What is the name of the quarterly in-house magazine of the Department of Official Language?",
@@ -14511,7 +14511,7 @@ const AOM_PART_BC_90 = [
             "Rajbhasha Kamal",
             "Rajbhasha Hindi"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "To whom does the Parliamentary Official Language Committee submit its report?",
@@ -14521,7 +14521,7 @@ const AOM_PART_BC_90 = [
             "Home Minister",
             "Vice-President"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "How many meetings of the Town Official Language Implementation Committee should be held in a year?",
@@ -14531,7 +14531,7 @@ const AOM_PART_BC_90 = [
             "2",
             "4"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Under which article of the constitution, Hindi is Rajbhasha of Union?",
@@ -14541,7 +14541,7 @@ const AOM_PART_BC_90 = [
             "343(3)",
             "344(1)"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "What is the level of Hindi qualification for Pragya?",
@@ -14551,7 +14551,7 @@ const AOM_PART_BC_90 = [
             "10th Class equivalent",
             "None of the given options"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Who is the Chairman of the Railway Hindi Salahkar Samiti?",
@@ -14561,7 +14561,7 @@ const AOM_PART_BC_90 = [
             "Director General (HR)",
             "Railway Minister"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "How many motivational Prizes are given under the Hindi Essay Competition organized at the Zonal Railway level?",
@@ -14571,7 +14571,7 @@ const AOM_PART_BC_90 = [
             "4",
             "5"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Which Award Scheme is being run for collection of stories/Novel to promote literary talent of Railway employees?",
@@ -14581,7 +14581,7 @@ const AOM_PART_BC_90 = [
             "Premchand Award Scheme",
             "Sumitranandan Pant Award Scheme"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "In which article of Constitution are directions given for the development of Hindi language?",
@@ -14591,7 +14591,7 @@ const AOM_PART_BC_90 = [
             "Article 351",
             "Article 346"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Which language was included in the Eighth Schedule by the 21st Amendment to the Constitution?",
@@ -14601,7 +14601,7 @@ const AOM_PART_BC_90 = [
             "Sindhi",
             "Urdu"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "The instruction that all name-plates, sign boards/notice boards, letter heads and inscriptions on envelopes and other items of stationery written, printed or inscribed shall be in Hindi and in English, is referred to which one of the following sub-rules?",
@@ -14611,7 +14611,7 @@ const AOM_PART_BC_90 = [
             "Under Sub-Rule 1 of Rule-11",
             "Under Sub-Rule 3 of Rule-11"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "Which Sub-Committee of the Committee of Parliament on official language carries out inspection of the offices of the Ministry of Railway?",
@@ -14621,7 +14621,7 @@ const AOM_PART_BC_90 = [
             "Third Sub-Committee",
             "Fourth Sub-Committee"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "When was the Parliamentary Committee on Official Language constituted?",
@@ -14631,7 +14631,7 @@ const AOM_PART_BC_90 = [
             "May, 1965",
             "October, 1967"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Who is the head of the Town Official Language Implementation Committee constituted in major cities?",
@@ -14641,7 +14641,7 @@ const AOM_PART_BC_90 = [
             "One of the Senior most official of the central government based in the city",
             "City Head"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Including dependents how many members are included in a Privilege Pass?",
@@ -14651,7 +14651,7 @@ const AOM_PART_BC_90 = [
             "03 Members",
             "04 Members"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Children education allowance shall be admissible for receipt only for children upto the age of Years.",
@@ -14661,7 +14661,7 @@ const AOM_PART_BC_90 = [
             "20 Yrs",
             "24 Yrs"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "In DAR proceedings ... Form is issued to nominate an Inquiry Officer.",
@@ -14671,7 +14671,7 @@ const AOM_PART_BC_90 = [
             "SF-2",
             "SF-1"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Who has the powers to relax recruitment criteria?",
@@ -14681,7 +14681,7 @@ const AOM_PART_BC_90 = [
             "PCPO",
             "None of the given options"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Re-appropriation of funds from one source to another source is within the powers of?",
@@ -14691,7 +14691,7 @@ const AOM_PART_BC_90 = [
             "PHOD",
             "DRM"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Operating Expenses- Fuel shall be charged to ........",
@@ -14701,7 +14701,7 @@ const AOM_PART_BC_90 = [
             "Demand No.11",
             "Demand No. - 14"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Cash in transit is?",
@@ -14711,7 +14711,7 @@ const AOM_PART_BC_90 = [
             "Cash accounted by cash office in a month",
             "None of the options given"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Minimum notice period for Quotations is?",
@@ -14721,7 +14721,7 @@ const AOM_PART_BC_90 = [
             "15 days",
             "7 days"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "Documents which are integral part of contracts?",
@@ -14731,7 +14731,7 @@ const AOM_PART_BC_90 = [
             "Schedule of rates, quantities",
             "All of the given options"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "The check exercised by railway accounts office on financial transactions is called",
@@ -14741,7 +14741,7 @@ const AOM_PART_BC_90 = [
             "Internal Check",
             "Internal Audit"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "What is the time limit for Appeal under DAR?",
@@ -14751,7 +14751,7 @@ const AOM_PART_BC_90 = [
             "30 days",
             "60 days"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Which of the following options is the rate of Ordinary Family pension ?",
@@ -14761,7 +14761,7 @@ const AOM_PART_BC_90 = [
             "30% of Basic Pay (Subject to minimum of Rs. 9000)",
             "40% of Basic Pay (Subject to minimum of Rs. 18000)"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "There a provision to give the document related to disciplinary proceedings to the employee in which language?",
@@ -14771,7 +14771,7 @@ const AOM_PART_BC_90 = [
             "English",
             "Hindi or English - in the language the employee wants"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "Traffic Book Part - A deals with",
@@ -14781,7 +14781,7 @@ const AOM_PART_BC_90 = [
             "Accounts Office Balance Sheet",
             "None of the given options"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "The following is not accounted under other coaching earnings",
@@ -14791,7 +14791,7 @@ const AOM_PART_BC_90 = [
             "TTE earnings",
             "Luggage Earnings"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Lower Operating ratio indicates",
@@ -14801,7 +14801,7 @@ const AOM_PART_BC_90 = [
             "No loss no Profit",
             "None of the given options"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Net earnings is",
@@ -14811,7 +14811,7 @@ const AOM_PART_BC_90 = [
             "Difference between Gross Earnings and Working Expenses excluding Suspense including DRF",
             "Difference between Gross Earnings and Working Expenses excluding Suspense including DRF and Pension Fund"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "Traffic Suspense consists of",
@@ -14821,7 +14821,7 @@ const AOM_PART_BC_90 = [
             "Cash in Transit and Balance under Demands Recoverable",
             "All the options given"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "During Study leave availed in India, an employee is eligible for",
@@ -14831,7 +14831,7 @@ const AOM_PART_BC_90 = [
             "Pay, Dearness Allowance and House Rent Allowance",
             "Pay, Dearness Allowance, Study Allowance and House Rent Allowance"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "After availing 365 days of child care leave a female railway servant or a single male railway servant shall be paid @ of salary for the next 365 days of child care leave.",
@@ -14841,7 +14841,7 @@ const AOM_PART_BC_90 = [
             "0.5",
             "1"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Within how much period after delivery, Paternity Leave can be granted to a railway servant?",
@@ -14851,7 +14851,7 @@ const AOM_PART_BC_90 = [
             "Four months",
             "15 days"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "How many maximum days of leave can be encashed during entire service period?",
@@ -14861,7 +14861,7 @@ const AOM_PART_BC_90 = [
             "80 days",
             "150 days"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Maximum Leave on average pay shall be granted at a time to a railway servant is",
@@ -14871,7 +14871,7 @@ const AOM_PART_BC_90 = [
             "180 days",
             "360 days"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "(A) Compulsory retired penalty loses pension; (B) Dismissed/removed forfeits pension/gratuity.",
@@ -14881,7 +14881,7 @@ const AOM_PART_BC_90 = [
             "Both (A) & (B) are correct",
             "Both (A) & (B) are incorrect"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "The highest pay level in the Railways is level- as per the 7th CPC.",
@@ -14891,7 +14891,7 @@ const AOM_PART_BC_90 = [
             "18",
             "None of the given options"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Indian Railway Institute of Finance Management (IRIFM) is located in which city.",
@@ -14901,7 +14901,7 @@ const AOM_PART_BC_90 = [
             "Secunderabad",
             "Ahmedabad"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "What is the parameter that indicates the financial performance of a division?",
@@ -14911,7 +14911,7 @@ const AOM_PART_BC_90 = [
             "Operating Ratio",
             "Performance Efficiency Index"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "Reply to Draft Para must be sent under the personal signature of",
@@ -14921,7 +14921,7 @@ const AOM_PART_BC_90 = [
             "PHOD concerned",
             "AGM"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Unspent Budget allotment is",
@@ -14931,7 +14931,7 @@ const AOM_PART_BC_90 = [
             "Both revenue and capital grants available for that financial year only",
             "None of the given options"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Medium through which Originating earnings are monitored concurrently with monthly targets?",
@@ -14941,7 +14941,7 @@ const AOM_PART_BC_90 = [
             "Statement 7B",
             "Statement 7C"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "C&AG Report presented to Parliament is taken up for consideration by the",
@@ -14951,7 +14951,7 @@ const AOM_PART_BC_90 = [
             "Business Advisory Committee",
             "Public Accounts Committee"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "How many days of LHAP can be accumulated to a Railway Employee in his whole service?",
@@ -14961,7 +14961,7 @@ const AOM_PART_BC_90 = [
             "600 days",
             "300 days"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Temporary transfer daily allowance: (A) First 180 days - Full (B) Beyond 180 days - Nil.",
@@ -14971,7 +14971,7 @@ const AOM_PART_BC_90 = [
             "Both (A) & (B) are correct",
             "Both (A) & (B) are incorrect"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Which section of the RTI Act (2005) deals with exemption from disclosure of information?",
@@ -14981,7 +14981,7 @@ const AOM_PART_BC_90 = [
             "Section 8",
             "Section 9"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "What does abbreviation 'IPAS' stand for?",
@@ -14991,9 +14991,9 @@ const AOM_PART_BC_90 = [
             "Integrated Payment & Accounting System",
             "Interconnected Payroll & Accounting System"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
-]
+];
 
 const DPQ_GTMR_A1_70 = [
     {
@@ -15004,7 +15004,7 @@ const DPQ_GTMR_A1_70 = [
             "Rakes",
             "Handles"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Q2. BoxN is a type of ?",
@@ -15014,7 +15014,7 @@ const DPQ_GTMR_A1_70 = [
             "Seat",
             "Siding"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Q3. Coal is normally loaded in ?",
@@ -15024,7 +15024,7 @@ const DPQ_GTMR_A1_70 = [
             "BCN",
             "Seat"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Q4. HO is a type of?",
@@ -15034,7 +15034,7 @@ const DPQ_GTMR_A1_70 = [
             "Weight",
             "Brake"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Q5. Wheat is normally loaded in",
@@ -15044,7 +15044,7 @@ const DPQ_GTMR_A1_70 = [
             "bobR",
             "pqrs"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Q6. PQRS is a?",
@@ -15054,7 +15054,7 @@ const DPQ_GTMR_A1_70 = [
             "Brake",
             "Machine"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "Q7. Unimat is a ?",
@@ -15064,7 +15064,7 @@ const DPQ_GTMR_A1_70 = [
             "Brake",
             "Machine"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "Q8. Duomatic is a?",
@@ -15074,7 +15074,7 @@ const DPQ_GTMR_A1_70 = [
             "Brake",
             "Machine"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "Q9. Bscan is a ?",
@@ -15084,7 +15084,7 @@ const DPQ_GTMR_A1_70 = [
             "Brake",
             "Machine"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "Q10. HABD is a ?",
@@ -15094,7 +15094,7 @@ const DPQ_GTMR_A1_70 = [
             "Brake",
             "Machine"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "Q11. Headquater of South East Railway is at ?",
@@ -15104,7 +15104,7 @@ const DPQ_GTMR_A1_70 = [
             "Mumbai",
             "Chennai"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Q12. Headquater of Eastern Railway is at ?",
@@ -15114,7 +15114,7 @@ const DPQ_GTMR_A1_70 = [
             "Mumbai",
             "Chennai"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Q13. Headquater of Northern Railway is at ?",
@@ -15124,7 +15124,7 @@ const DPQ_GTMR_A1_70 = [
             "Mumbai",
             "Chennai"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Q14. Headquater of North Eastern Railway is at ?",
@@ -15134,7 +15134,7 @@ const DPQ_GTMR_A1_70 = [
             "Mumbai",
             "Gorakhpur"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "Q15. Patna lies in which railway ?",
@@ -15144,7 +15144,7 @@ const DPQ_GTMR_A1_70 = [
             "East central",
             "Southern"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Q16. Which of following is a division?",
@@ -15154,7 +15154,7 @@ const DPQ_GTMR_A1_70 = [
             "Bokaro",
             "Tata"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Q17. Which of following is a division?",
@@ -15164,7 +15164,7 @@ const DPQ_GTMR_A1_70 = [
             "Bokaro",
             "Tata"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Q18. Which of following is not a division?",
@@ -15174,7 +15174,7 @@ const DPQ_GTMR_A1_70 = [
             "Patna",
             "Adra"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Q19. Which of following is not a division?",
@@ -15184,7 +15184,7 @@ const DPQ_GTMR_A1_70 = [
             "Barka",
             "Adra"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Q20. East central railway lies in which state ?",
@@ -15194,7 +15194,7 @@ const DPQ_GTMR_A1_70 = [
             "Gujarat",
             "Punjab"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Q21. Who issues WTT ?",
@@ -15204,7 +15204,7 @@ const DPQ_GTMR_A1_70 = [
             "PCCM",
             "GM"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Q22. How many times is WTT issued in a year ?",
@@ -15214,7 +15214,7 @@ const DPQ_GTMR_A1_70 = [
             "4",
             "6"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Q23. WTT is issued separately for?",
@@ -15224,7 +15224,7 @@ const DPQ_GTMR_A1_70 = [
             "Zone",
             "Station"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Q24. ACP is means of communication between passenger and ?",
@@ -15234,7 +15234,7 @@ const DPQ_GTMR_A1_70 = [
             "Crew",
             "Sr DOM"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Q25. L in LVCD is ?",
@@ -15244,7 +15244,7 @@ const DPQ_GTMR_A1_70 = [
             "Last",
             "Light"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Q26. B in BPAC is ?",
@@ -15254,7 +15254,7 @@ const DPQ_GTMR_A1_70 = [
             "Bang",
             "None"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Q27. S in SWR is ?",
@@ -15264,7 +15264,7 @@ const DPQ_GTMR_A1_70 = [
             "Station",
             "Section"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Q28. B in BLW is?",
@@ -15274,7 +15274,7 @@ const DPQ_GTMR_A1_70 = [
             "Block",
             "Blast"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Q29. CRS works under the ministry of ?",
@@ -15284,7 +15284,7 @@ const DPQ_GTMR_A1_70 = [
             "Shipping",
             "Home"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Q30. M in MPS stands for ?",
@@ -15294,7 +15294,7 @@ const DPQ_GTMR_A1_70 = [
             "Major",
             "Most"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Q31. Validity of SWR in years is ?",
@@ -15304,7 +15304,7 @@ const DPQ_GTMR_A1_70 = [
             "5",
             "2"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Q32. T/409 form is ?",
@@ -15314,7 +15314,7 @@ const DPQ_GTMR_A1_70 = [
             "Brake certificate",
             "None"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Q33. What is T369(3b) ?",
@@ -15324,7 +15324,7 @@ const DPQ_GTMR_A1_70 = [
             "Authority to pass defective signal",
             "Caution order"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Q34. How many copies of shunting order is prepared ?",
@@ -15334,7 +15334,7 @@ const DPQ_GTMR_A1_70 = [
             "4",
             "1"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Q35. While exchanging alright signal, red hand singnal should be in which hand ?",
@@ -15344,7 +15344,7 @@ const DPQ_GTMR_A1_70 = [
             "Both",
             "None"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Q36. Length of signal overlap in multiple aspect ?",
@@ -15354,7 +15354,7 @@ const DPQ_GTMR_A1_70 = [
             "130mtr",
             "120mtr"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "Q37. Length of block overlap in multiple aspect ?",
@@ -15364,7 +15364,7 @@ const DPQ_GTMR_A1_70 = [
             "180mtr",
             "200mtr"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Q38. How many divisions are in ECR ?",
@@ -15374,7 +15374,7 @@ const DPQ_GTMR_A1_70 = [
             "5",
             "6"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Q39. V in TVU is ?",
@@ -15384,7 +15384,7 @@ const DPQ_GTMR_A1_70 = [
             "Variation",
             "None"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Q40. LC gate beyond last stop signal is called ?",
@@ -15394,7 +15394,7 @@ const DPQ_GTMR_A1_70 = [
             "Signal gate",
             "None"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Q41. How many classification of LCs are there?",
@@ -15404,7 +15404,7 @@ const DPQ_GTMR_A1_70 = [
             "3",
             "2"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Q42. Special class LC has TVU greater than ?",
@@ -15414,7 +15414,7 @@ const DPQ_GTMR_A1_70 = [
             "40000",
             "50000"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "Q43. USFD testing is done primarily for?",
@@ -15424,7 +15424,7 @@ const DPQ_GTMR_A1_70 = [
             "Wagon",
             "Engine"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Q44. Which of following is not a pass ?",
@@ -15434,7 +15434,7 @@ const DPQ_GTMR_A1_70 = [
             "Business",
             "Privilege"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Q45. H in HOER is ?",
@@ -15444,7 +15444,7 @@ const DPQ_GTMR_A1_70 = [
             "Hindustan",
             "Heaven"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Q46. SF5 is a ?",
@@ -15454,7 +15454,7 @@ const DPQ_GTMR_A1_70 = [
             "No penalty",
             "Prize"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Q47. SF11 is a ?",
@@ -15464,7 +15464,7 @@ const DPQ_GTMR_A1_70 = [
             "No penalty",
             "Prize"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Q48. How many types of encroachments are classified by railways?",
@@ -15474,7 +15474,7 @@ const DPQ_GTMR_A1_70 = [
             "3",
             "4"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "Q49. Height of low level platform for BG section is ?",
@@ -15484,7 +15484,7 @@ const DPQ_GTMR_A1_70 = [
             "2mtr",
             "1.455mtr"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Q50. Height of high level platform for BG Section is ?",
@@ -15494,7 +15494,7 @@ const DPQ_GTMR_A1_70 = [
             "1.76mtr",
             "1.455mtr"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Q51. H in HAZ is ?",
@@ -15504,7 +15504,7 @@ const DPQ_GTMR_A1_70 = [
             "Home",
             "High"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Q52. V in VTO is ?",
@@ -15514,7 +15514,7 @@ const DPQ_GTMR_A1_70 = [
             "Vision",
             "View"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Q53. General rules apply to ?",
@@ -15524,7 +15524,7 @@ const DPQ_GTMR_A1_70 = [
             "Only divisions",
             "None"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Q54. Subsidiary rules apply to ?",
@@ -15534,7 +15534,7 @@ const DPQ_GTMR_A1_70 = [
             "Only divisions",
             "None"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Q55. Day means ?",
@@ -15544,7 +15544,7 @@ const DPQ_GTMR_A1_70 = [
             "Sunrise to 18.00",
             "Sunrise to sunset"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "Q56. Night means ?",
@@ -15554,7 +15554,7 @@ const DPQ_GTMR_A1_70 = [
             "Sunset to 18.00",
             "Sunset to sunrise"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "Q57. Fouling marks can be seen on ?",
@@ -15564,7 +15564,7 @@ const DPQ_GTMR_A1_70 = [
             "Wagon",
             "Loco"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Q58. Fouling mark helps in avoiding which collision ?",
@@ -15574,7 +15574,7 @@ const DPQ_GTMR_A1_70 = [
             "Head-on",
             "None"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Q59. Block back is possible in ?",
@@ -15584,7 +15584,7 @@ const DPQ_GTMR_A1_70 = [
             "Both",
             "None"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Q60. Forward block is possible in ?",
@@ -15594,7 +15594,7 @@ const DPQ_GTMR_A1_70 = [
             "Both",
             "None"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Q61. How many types of markings are there ?",
@@ -15604,7 +15604,7 @@ const DPQ_GTMR_A1_70 = [
             "3",
             "4"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Q62. Generally for how many months is forwarding note valid ?",
@@ -15614,7 +15614,7 @@ const DPQ_GTMR_A1_70 = [
             "9",
             "12"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Q63. Smoking in railway premises is prohibited under which section?",
@@ -15624,7 +15624,7 @@ const DPQ_GTMR_A1_70 = [
             "177",
             "187"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Q64. Male passenger found in ladies compartment is punishable under ?",
@@ -15634,7 +15634,7 @@ const DPQ_GTMR_A1_70 = [
             "172",
             "182"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Q65. Travelling without ticket is prohibited under which section ?",
@@ -15644,7 +15644,7 @@ const DPQ_GTMR_A1_70 = [
             "65",
             "75"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Q66. Application for compensation due to death is made to ?",
@@ -15654,7 +15654,7 @@ const DPQ_GTMR_A1_70 = [
             "DBT",
             "None"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Q67. Which of following is not a departmental train ?",
@@ -15664,7 +15664,7 @@ const DPQ_GTMR_A1_70 = [
             "Both",
             "None"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "Q68. M in ARME stands for ?",
@@ -15674,7 +15674,7 @@ const DPQ_GTMR_A1_70 = [
             "Medium",
             "Minister"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Q69. How many systems of train operation working are there in IR ?",
@@ -15684,7 +15684,7 @@ const DPQ_GTMR_A1_70 = [
             "7",
             "8"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Q70. S in SLB stands for ?",
@@ -15694,7 +15694,7 @@ const DPQ_GTMR_A1_70 = [
             "Section",
             "Safety"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Q71. How many types of signals are there in IR ?",
@@ -15704,7 +15704,7 @@ const DPQ_GTMR_A1_70 = [
             "4",
             "6"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Q72. What kind of signal is shunt signal ?",
@@ -15714,7 +15714,7 @@ const DPQ_GTMR_A1_70 = [
             "Permissive",
             "None"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Q73. What kind of signal is distant signal ?",
@@ -15724,7 +15724,7 @@ const DPQ_GTMR_A1_70 = [
             "Permissive",
             "None"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Q74. What is the normal aspect of distant signal ?",
@@ -15734,7 +15734,7 @@ const DPQ_GTMR_A1_70 = [
             "Stop",
             "Proceed"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Q75. What is the normal aspect of home signal ?",
@@ -15744,7 +15744,7 @@ const DPQ_GTMR_A1_70 = [
             "Stop",
             "Proceed"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Q76. What kind of signal is repeating signal ?",
@@ -15754,7 +15754,7 @@ const DPQ_GTMR_A1_70 = [
             "Permissive",
             "None"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Q77. What kind of signal is calling on signal ?",
@@ -15764,7 +15764,7 @@ const DPQ_GTMR_A1_70 = [
             "Permissive",
             "None"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Q78. What does F in FSP stand for?",
@@ -15774,7 +15774,7 @@ const DPQ_GTMR_A1_70 = [
             "Future",
             "Fast"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Q79. Which of following is a type of interlocking ?",
@@ -15784,7 +15784,7 @@ const DPQ_GTMR_A1_70 = [
             "Solid signal",
             "None"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Q80. O in ODC stands for?",
@@ -15794,7 +15794,7 @@ const DPQ_GTMR_A1_70 = [
             "Over",
             "Owl"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Q81. I in FOIS stands for?",
@@ -15804,7 +15804,7 @@ const DPQ_GTMR_A1_70 = [
             "Integer",
             "None"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Q82. C in COA stands for ?",
@@ -15814,7 +15814,7 @@ const DPQ_GTMR_A1_70 = [
             "Change",
             "Central"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Q83. CRIS works under ministry of ?",
@@ -15824,7 +15824,7 @@ const DPQ_GTMR_A1_70 = [
             "Home",
             "None"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "Q84. C in ICMS stands for?",
@@ -15834,7 +15834,7 @@ const DPQ_GTMR_A1_70 = [
             "Change",
             "Central"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Q85. A in RAS stands for ?",
@@ -15844,7 +15844,7 @@ const DPQ_GTMR_A1_70 = [
             "Alright",
             "None"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Q86. TSR is maintained by ?",
@@ -15854,7 +15854,7 @@ const DPQ_GTMR_A1_70 = [
             "DRM",
             "GM"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Q87. Which class of gate is busiest ?",
@@ -15864,7 +15864,7 @@ const DPQ_GTMR_A1_70 = [
             "Super",
             "Special"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "Q88. E in MEMU is ?",
@@ -15874,7 +15874,7 @@ const DPQ_GTMR_A1_70 = [
             "Eleven",
             "Elite"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Q89. What is validity of CC rakes in days ?",
@@ -15884,7 +15884,7 @@ const DPQ_GTMR_A1_70 = [
             "30+5",
             "40+5"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Q90. What is validity of premium rakes in days ?",
@@ -15894,7 +15894,7 @@ const DPQ_GTMR_A1_70 = [
             "15+3",
             "20+3"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Q91. Who wrote the national song of India ?",
@@ -15904,7 +15904,7 @@ const DPQ_GTMR_A1_70 = [
             "S Mukhopadhyay",
             "None"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "Q92. Who won Wimbledon 2024 men singles final?",
@@ -15914,7 +15914,7 @@ const DPQ_GTMR_A1_70 = [
             "Djokovic",
             "None"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Q93. Who won Wimbledon 2024 women singles final ?",
@@ -15924,7 +15924,7 @@ const DPQ_GTMR_A1_70 = [
             "Jasmine",
             "None"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Q94. Where was Wimbledon 2024 held ?",
@@ -15934,7 +15934,7 @@ const DPQ_GTMR_A1_70 = [
             "Sydney",
             "None"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "Q95. Who is the vice president of India ?",
@@ -15944,7 +15944,7 @@ const DPQ_GTMR_A1_70 = [
             "P Patil",
             "None"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Q96. Where is Olympics 2024 going to be held ?",
@@ -15954,7 +15954,7 @@ const DPQ_GTMR_A1_70 = [
             "Tokyo",
             "None"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Q97. Which country shares border with India?",
@@ -15964,7 +15964,7 @@ const DPQ_GTMR_A1_70 = [
             "Cambodia",
             "None"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Q98. Which state has shared boundary with Bihar ?",
@@ -15974,7 +15974,7 @@ const DPQ_GTMR_A1_70 = [
             "Assam",
             "None"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "Q99. River Ganga flows through which state ?",
@@ -15984,7 +15984,7 @@ const DPQ_GTMR_A1_70 = [
             "MP",
             "None"
         ],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Q100. Danapur division shares boundary with which division ?",
@@ -15994,7 +15994,7 @@ const DPQ_GTMR_A1_70 = [
             "Sealdah",
             "None"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Q101. When was the Official Languages Act 1963 passed?",
@@ -16004,7 +16004,7 @@ const DPQ_GTMR_A1_70 = [
             "8th Mar, 1963",
             "26th Jan, 1963"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Q102. When was the Official Languages Act 1963 amended?",
@@ -16014,7 +16014,7 @@ const DPQ_GTMR_A1_70 = [
             "1967",
             "1976"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Q103. From when did Section 3(3) of Official Languages Act come into force?",
@@ -16024,7 +16024,7 @@ const DPQ_GTMR_A1_70 = [
             "8th Mar, 1976",
             "26th Jan, 1965"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "Q104. How many sections are in Official Language Act 1963?",
@@ -16034,7 +16034,7 @@ const DPQ_GTMR_A1_70 = [
             "9",
             "10"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Q105. Members on Committee of Parliament on Official Language?",
@@ -16044,7 +16044,7 @@ const DPQ_GTMR_A1_70 = [
             "10",
             "30"
         ],
-        correctAnswer: 2
+        correctAnswer: 3
     },
     {
         question: "Q106. Lok Sabha members on Committee of Parliament on Official Language?",
@@ -16054,7 +16054,7 @@ const DPQ_GTMR_A1_70 = [
             "10",
             "30"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Q107. Documents mandatory in bilingual form per Section 3(3)?",
@@ -16064,7 +16064,7 @@ const DPQ_GTMR_A1_70 = [
             "13",
             "16"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Q108. When was the Committee of Parliament on Official Language constituted?",
@@ -16074,7 +16074,7 @@ const DPQ_GTMR_A1_70 = [
             "May, 1965",
             "Oct, 1967"
         ],
-        correctAnswer: -1
+        correctAnswer: 0
     },
     {
         question: "Q109. Rajya Sabha members on Committee of Parliament on Official Language?",
@@ -16084,7 +16084,7 @@ const DPQ_GTMR_A1_70 = [
             "10",
             "30"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
     {
         question: "Q110. Year of first amendment in Official Languages Rules, 1976?",
@@ -16094,9 +16094,9 @@ const DPQ_GTMR_A1_70 = [
             "1987",
             "1967"
         ],
-        correctAnswer: 1
+        correctAnswer: 2
     },
-]
+];
 
 const TRANSPORTATION_QB = [
     {
