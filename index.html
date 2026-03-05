@@ -59,6 +59,26 @@
             background: #94a3b8;
         }
 
+        .hint-content table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 10px 0;
+            background-color: #fff;
+        }
+
+        .hint-content th,
+        .hint-content td {
+            border: 1px solid #94a3b8;
+            padding: 8px;
+            text-align: left;
+            font-size: 13px;
+        }
+
+        .hint-content th {
+            background-color: #f1f5f9;
+            font-weight: bold;
+        }
+
         .question-btn {
             width: 44px;
             height: 38px;
@@ -155,6 +175,28 @@
 
         .gradient-bg {
             background: linear-gradient(135deg, #1e3a5f 0%, #2d5a87 50%, #1e3a5f 100%);
+        }
+
+        /* --- Print Specific Styles for Response Sheet --- */
+        @media print {
+            body>*:not(#printableResponseSheet) {
+                display: none !important;
+            }
+
+            body {
+                background: white !important;
+                margin: 0;
+            }
+
+            #printableResponseSheet {
+                display: block !important;
+                width: 100%;
+                color: black;
+            }
+
+            #printableResponseSheet * {
+                visibility: visible;
+            }
         }
     </style>
 
@@ -427,16 +469,20 @@
                 <!-- FOOTER BUTTONS -->
                 <div class="h-[46px] border-t border-[#ccc] flex items-center justify-between px-4 shrink-0 bg-white">
                     <div class="flex gap-[14px]">
-                        <button onclick="markReview()"
+                        <button id="btnMarkReview" onclick="markReview()"
                             class="px-5 py-1.5 bg-white hover:bg-gray-50 text-black border border-[#ccc] font-[Arial,sans-serif] text-[13px]">Mark
                             for Review & Next</button>
-                        <button onclick="clearRes()"
+                        <button id="btnClearResponse" onclick="clearRes()"
                             class="px-5 py-1.5 bg-white hover:bg-gray-50 text-black border border-[#ccc] font-[Arial,sans-serif] text-[13px]">Clear
                             Response</button>
                     </div>
-                    <button onclick="saveNext()"
+                    <button id="btnSaveNext" onclick="saveNext()"
                         class="px-6 py-1.5 bg-[#17719d] text-white hover:bg-[#125d83] font-[Arial,sans-serif] text-[13px] font-bold">
                         Save & Next
+                    </button>
+                    <button id="btnNextReview" onclick="nextReview()"
+                        class="hidden px-6 py-1.5 bg-[#17719d] text-white hover:bg-[#125d83] font-[Arial,sans-serif] text-[13px] font-bold">
+                        Next
                     </button>
                 </div>
             </div>
@@ -501,14 +547,18 @@
                     Choose a Question
                 </div>
                 <!-- Palette Grid -->
-                <div class="flex-1 overflow-y-auto px-3 pb-4 w-full">
-                    <div id="paletteGrid" class="flex flex-wrap gap-2 content-start justify-center"></div>
+                <div class="flex-1 overflow-y-auto px-1 pb-4 w-full">
+                    <div id="paletteGrid" class="grid grid-cols-5 gap-y-3 gap-x-1 content-start justify-items-center">
+                    </div>
                 </div>
                 <!-- Submit Btn -->
                 <div
                     class="h-16 border-t shrink-0 flex justify-center items-center shadow-[0_-4px_10px_rgba(0,0,0,0.05)] bg-[#e6f3f9] border-gray-300">
-                    <button onclick="submitPrompt()"
+                    <button id="btnSubmitExam" onclick="submitPrompt()"
                         class="px-10 py-2 bg-[#64aed2] text-white font-bold text-base hover:bg-[#529abf] transition-all">Submit</button>
+                    <button id="btnBackToResults" onclick="backToResults()"
+                        class="hidden px-10 py-2 bg-blue-600 text-white font-bold text-base hover:bg-blue-700 transition-all rounded-full shadow">Back
+                        to Results</button>
                 </div>
             </div>
         </div>
@@ -546,6 +596,10 @@
                     </div>
                 </div>
 
+                <!-- Section-wise Breakdown Section -->
+                <div id="sectionBreakdownContainer" class="mb-8">
+                </div>
+
                 <!-- Detailed Analysis Section -->
                 <div class="text-left border rounded-lg overflow-hidden bg-gray-50">
                     <div class="bg-gray-200 px-4 py-2 font-bold text-gray-700 border-b flex justify-between items-center cursor-pointer hover:bg-gray-300 transition-colors"
@@ -563,7 +617,15 @@
                 </div>
             </div>
 
-            <div class="p-4 bg-gray-50 border-t shrink-0 flex justify-end">
+            <div class="p-4 bg-gray-50 border-t shrink-0 flex justify-end gap-3">
+                <button onclick="checkResponseAndKey()"
+                    class="bg-blue-600 text-white px-6 py-3 rounded-full font-bold shadow-lg hover:shadow-xl hover:scale-105 transition-all text-sm uppercase tracking-wide">
+                    Check Response & Key
+                </button>
+                <button onclick="printResponseSheet()"
+                    class="bg-green-600 text-white px-6 py-3 rounded-full font-bold shadow-lg hover:shadow-xl hover:scale-105 transition-all text-sm uppercase tracking-wide">
+                    Print Response Sheet
+                </button>
                 <button onclick="location.reload()"
                     class="bg-rail-primary text-white px-8 py-3 rounded-full font-bold shadow-lg hover:shadow-xl hover:scale-105 transition-all text-sm uppercase tracking-wide">Exit
                     / Logout</button>
@@ -587,7 +649,8 @@
             sectionLimits: {},
             sectionAttempts: {},
             currentSection: 'General',
-            zoomLevel: 15 // Default font size
+            zoomLevel: 15, // Default font size
+            isReviewMode: false
         };
         const $ = id => document.getElementById(id);
 
@@ -891,22 +954,62 @@
 
             q.options.forEach((opt, i) => {
                 const sel = state.ans[state.idx] === i;
+                const setCorrect = q.correctAnswer === i;
                 const d = document.createElement('div');
 
-                d.className = `flex gap-3 items-start transition-all ${isLocked && !sel ? 'opacity-50 cursor-not-allowed' : 'cursor-pointer'} group`;
+                let rowBgClass = '';
 
-                if (!isLocked || sel) {
+                if (state.isReviewMode) {
+                    if (setCorrect) {
+                        rowBgClass = 'bg-green-100 border border-green-300 rounded p-1.5 -ml-1.5 -mt-1.5 shadow-sm';
+                    } else if (sel && !setCorrect) {
+                        rowBgClass = 'bg-red-100 border border-red-300 rounded p-1.5 -ml-1.5 -mt-1.5 shadow-sm';
+                    } else {
+                        rowBgClass = 'p-1.5 -ml-1.5 -mt-1.5 border border-transparent';
+                    }
+                }
+
+                d.className = `flex gap-3 items-start transition-all ${isLocked && !sel && !state.isReviewMode ? 'opacity-50 cursor-not-allowed' : 'cursor-pointer'} group ${rowBgClass}`;
+
+                if (state.isReviewMode) {
+                    d.className += ' cursor-default';
+                } else if (!isLocked || sel) {
                     d.onclick = () => { selectOpt(i); };
                 }
 
+                let bgClass = sel ? 'bg-[#1b75b9]' : 'bg-transparent group-hover:bg-gray-200';
+                let borderClass = 'border-[#ccc]';
+                let textColor = 'text-black';
+
+                if (state.isReviewMode) {
+                    bgClass = 'bg-transparent';
+                    if (setCorrect) {
+                        bgClass = 'bg-green-500';
+                        borderClass = 'border-green-500';
+                        textColor = 'text-green-800 font-bold';
+                    } else if (sel && !setCorrect) {
+                        bgClass = 'bg-red-500';
+                        borderClass = 'border-red-500';
+                        textColor = 'text-red-800 font-bold';
+                    }
+                }
+
                 d.innerHTML = `
-                    <div class="mt-0.5 w-4 h-4 rounded-full border border-[#ccc] flex items-center justify-center shrink-0 bg-white">
-                        <div class="w-2.5 h-2.5 rounded-full ${sel ? 'bg-[#1b75b9]' : 'bg-transparent group-hover:bg-gray-200'}"></div>
+                    <div class="mt-0.5 w-4 h-4 rounded-full border ${borderClass} flex items-center justify-center shrink-0 bg-white">
+                        <div class="w-2.5 h-2.5 rounded-full ${bgClass}"></div>
                     </div>
-                    <div class="text-black font-[Times_New_Roman,serif] text-[15px] select-none leading-relaxed" style="font-size: ${state.zoomLevel || 15}px;">${opt}</div>
+                    <div class="${textColor} font-[Times_New_Roman,serif] text-[15px] select-none leading-relaxed" style="font-size: ${state.zoomLevel || 15}px;">${opt}</div>
                 `;
                 cnt.appendChild(d);
             });
+
+            if (state.isReviewMode && q.hint) {
+                const hintDiv = document.createElement('div');
+                hintDiv.className = 'hint-content mt-4 p-3 bg-blue-50 border border-blue-200 rounded text-[15px] font-[Times_New_Roman,serif]';
+                hintDiv.style.fontSize = (state.zoomLevel || 15) + 'px';
+                hintDiv.innerHTML = `<b style="color:blue;">Explanation :</b> ${q.hint}`;
+                cnt.appendChild(hintDiv);
+            }
 
             if ($('questionText')) $('questionText').style.fontSize = (state.zoomLevel || 15) + 'px';
         }
@@ -955,7 +1058,7 @@
                 const qLimit = state.sectionLimits[qInfo.key];
                 const qAttempts = state.sectionAttempts[qInfo.key] || 0;
                 const qSectionFull = qLimit && qAttempts >= qLimit;
-                const isGrayed = !a && qSectionFull;
+                const isGrayed = !a && qSectionFull && !state.isReviewMode;
 
                 if (a && m) { cls = 'status-answered-marked'; countMarkAns++; }
                 else if (m) { cls = 'status-marked'; countMark++; }
@@ -964,9 +1067,29 @@
                 else { countNotVis++; }
 
                 const b = document.createElement('div');
-                b.className = `question-btn ${cls} ${state.idx === i ? 'ring-2 ring-black z-20 scale-110 shadow-lg' : ''} ${isGrayed ? '!bg-gray-200 !text-gray-400 !border-gray-300 cursor-not-allowed opacity-75' : ''}`;
-                b.textContent = i + 1;
+
+                // Add before:bg-white/60 to lighten the underlying colors WITHOUT fading the child tick
+                let reviewStyles = (state.isReviewMode && a) ? 'before:content-[""] before:absolute before:inset-0 before:bg-white/60 overflow-hidden' : '';
+
+                b.className = `question-btn relative ${cls} ${state.idx === i ? 'ring-2 ring-black z-20 scale-110 shadow-lg' : ''} ${isGrayed ? '!bg-gray-200 !text-gray-400 !border-gray-300 cursor-not-allowed opacity-75' : ''} ${reviewStyles}`;
+
+                // Add an explicit container for the text so we can hide it 
+                // in review mode while maintaining shape integrity
+                b.innerHTML = `<span class="relative z-10 ${state.isReviewMode && a ? 'invisible' : ''}">${i + 1}</span>`;
+
                 b.onclick = () => jumpTo(i);
+
+                if (state.isReviewMode && a) {
+                    const isCorrect = state.ans[i] === questions[i].correctAnswer;
+
+                    // Add the tick mark centered ON TOP of the shape, same size for all
+                    const tick = document.createElement('div');
+                    // Much darker green, strictly large size, z-index above the wash
+                    tick.className = `absolute inset-0 flex items-center justify-center text-2xl font-black drop-shadow-[0_1px_1px_rgba(255,255,255,1)] z-[60] ${isCorrect ? 'text-[#006400]' : 'text-[#8b0000]'}`;
+                    tick.innerHTML = isCorrect ? '&#10004;' : '&#10008;';
+                    b.appendChild(tick);
+                }
+
                 p.appendChild(b);
             });
 
@@ -1039,6 +1162,7 @@
         function finishExam() {
             clearInterval(state.tid);
             $('examPage').classList.add('hidden');
+            $('examPage').classList.remove('flex');
             $('resultModal').classList.remove('hidden');
             $('resultModal').classList.add('flex');
 
@@ -1046,14 +1170,33 @@
             const analysisDiv = $('detailedAnalysis');
             analysisDiv.innerHTML = '';
 
+            // Section stats tracker
+            let sectionStats = {};
+
             questions.forEach((q, i) => {
                 const userAns = state.ans[i];
                 const correct = q.correctAnswer;
                 let isCorrect = false;
 
+                const secInfo = getSectionInfo(i, questions.length);
+                const secName = secInfo.name;
+
+                if (!sectionStats[secName]) {
+                    sectionStats[secName] = { attempted: 0, correct: 0, total: 0 };
+                }
+                sectionStats[secName].total++;
+
                 if (userAns === null) s++;
-                else if (userAns === correct) { c++; isCorrect = true; }
-                else w++;
+                else if (userAns === correct) {
+                    c++;
+                    isCorrect = true;
+                    sectionStats[secName].correct++;
+                    sectionStats[secName].attempted++;
+                }
+                else {
+                    w++;
+                    sectionStats[secName].attempted++;
+                }
 
                 // Build Analysis Card
                 const card = document.createElement('div');
@@ -1084,6 +1227,43 @@
                 analysisDiv.appendChild(card);
             });
 
+            // Render section breakdown
+            const breakdownContainer = $('sectionBreakdownContainer');
+            if (Object.keys(sectionStats).length > 1 || (Object.keys(sectionStats).length === 1 && Object.keys(sectionStats)[0] !== 'General')) {
+                let breakdownHtml = `
+                    <div class="text-left border rounded-lg overflow-hidden bg-gray-50">
+                        <div class="bg-gray-200 px-4 py-2 font-bold text-gray-700 border-b">
+                            Section-wise Breakdown
+                        </div>
+                        <div class="p-4 grid grid-cols-1 gap-2 sm:grid-cols-2 md:grid-cols-3">
+                `;
+                for (const [sec, stats] of Object.entries(sectionStats)) {
+                    breakdownHtml += `
+                        <div class="bg-white border rounded p-3 shadow-sm text-center">
+                            <div class="font-bold text-gray-800 text-sm mb-2 border-b pb-1">${sec}</div>
+                            <div class="flex justify-around text-xs mt-2">
+                                <div class="flex flex-col">
+                                    <span class="text-gray-500 font-semibold mb-1">Attempted</span>
+                                    <span class="text-lg font-bold text-blue-600">${stats.attempted}<span class="text-xs text-gray-400 font-normal"> / ${stats.total}</span></span>
+                                </div>
+                                <div class="flex flex-col">
+                                    <span class="text-gray-500 font-semibold mb-1">Correct</span>
+                                    <span class="text-lg font-bold text-green-600">${stats.correct}</span>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                }
+                breakdownHtml += `
+                        </div>
+                    </div>
+                `;
+                breakdownContainer.innerHTML = breakdownHtml;
+                breakdownContainer.style.display = 'block';
+            } else {
+                breakdownContainer.style.display = 'none';
+            }
+
             let score = 0;
             if (questions.length === 175) {
                 score = (c * 1.0) - (w * 0.33);
@@ -1097,6 +1277,229 @@
             $('rWrong').textContent = w;
             $('rSkip').textContent = s;
         }
+
+        window.checkResponseAndKey = () => {
+            state.isReviewMode = true;
+            $('resultModal').classList.add('hidden');
+            $('resultModal').classList.remove('flex');
+
+            // Adjust buttons for review mode
+            $('btnMarkReview').classList.add('hidden');
+            $('btnClearResponse').classList.add('hidden');
+            $('btnSaveNext').classList.add('hidden');
+            $('btnNextReview').classList.remove('hidden');
+
+            $('btnSubmitExam').classList.add('hidden');
+            $('btnBackToResults').classList.remove('hidden');
+
+            $('examPage').classList.remove('hidden');
+            $('examPage').classList.add('flex');
+
+            // Re-render
+            state.idx = 0; // Go to first question
+            renderQ();
+            renderPal();
+        };
+
+        window.backToResults = () => {
+            $('examPage').classList.add('hidden');
+            $('examPage').classList.remove('flex');
+            $('resultModal').classList.remove('hidden');
+            $('resultModal').classList.add('flex');
+        };
+
+        window.printResponseSheet = () => {
+            var sheet = document.getElementById('printableResponseSheet');
+            if (!sheet) {
+                sheet = document.createElement('div');
+                sheet.id = 'printableResponseSheet';
+                sheet.style.display = 'none'; // Hidden on screen
+                document.body.appendChild(sheet);
+            }
+            sheet.innerHTML = ""; // Clear previous content if clicked multiple times
+
+            const examSelect = document.getElementById('examPaper');
+            const examName = examSelect.options[examSelect.selectedIndex]?.text || "Railway Departmental Exam";
+            const now = new Date();
+            const dateStr = now.toLocaleDateString();
+
+            const cName = document.getElementById('loginCandidateName')?.textContent || "Candidate";
+            const cId = document.getElementById('username')?.value || "";
+            const cPhoto = document.getElementById('candidatePhotoDash')?.src || "img/IR.png";
+
+            // Calculate time taken
+            let totalDuration = questions.length * 60;
+            if (questions.length === 175) totalDuration = 180 * 60;
+            else if (questions.length === 110) totalDuration = 120 * 60;
+            let timeTakenSecs = totalDuration - state.time;
+            if (timeTakenSecs < 0) timeTakenSecs = 0;
+            const takenMins = Math.floor(timeTakenSecs / 60);
+            const takenSecs = timeTakenSecs % 60;
+            const timeTakenStr = `${takenMins} Mins ${takenSecs} Secs`;
+            const durationMins = totalDuration / 60;
+
+            // Calculate marks
+            let c = 0, w = 0;
+            let sectionStats = {};
+
+            // First, pre-initialize section stats so we can count total questions per section
+            questions.forEach((q, i) => {
+                const secInfo = getSectionInfo(i, questions.length);
+                const secName = secInfo.name;
+                if (!sectionStats[secName]) {
+                    sectionStats[secName] = { correct: 0, wrong: 0, attempted: 0, totalQuestions: 0 };
+                }
+                sectionStats[secName].totalQuestions++;
+
+                const userAns = state.ans[i];
+                if (userAns !== null) {
+                    sectionStats[secName].attempted++;
+                    if (userAns === q.correctAnswer) { c++; sectionStats[secName].correct++; }
+                    else { w++; sectionStats[secName].wrong++; }
+                }
+            });
+
+            let totalScore = (questions.length === 175) ? (c * 1.0 - w * 0.33) : (c * 1.0);
+            totalScore = Math.max(0, totalScore).toFixed(2);
+
+            let sectionScoresHtml = '';
+            const secKeys = Object.keys(sectionStats);
+            if (secKeys.length > 1 || (secKeys.length === 1 && secKeys[0] !== 'General')) {
+                for (const [sec, stats] of Object.entries(sectionStats)) {
+                    let secScore = (questions.length === 175) ? (stats.correct * 1.0 - stats.wrong * 0.33) : (stats.correct * 1.0);
+                    secScore = Math.max(0, secScore).toFixed(2);
+                    sectionScoresHtml += `<div style="margin-top:2px;">${sec} : <strong>${secScore}</strong> ( Attempted: ${stats.attempted}/${stats.totalQuestions}, Correct: ${stats.correct})</div>`;
+                }
+            }
+
+            var html = `
+                <div style="text-align: center; font-weight: bold; margin-bottom: 10px; font-family: sans-serif;">
+                    <h3 style="margin: 0 0 10px 0; font-size: 16px;">QUESTION PAPER</h3>
+                    <p style="margin: 0 0 10px 0; font-size: 14px;">${examName}</p>
+                    <div style="display: flex; justify-content: space-between; align-items: center; border: 1px solid #ccc; padding: 10px; margin-bottom: 10px; text-align: left;">
+                        <div style="font-size: 13px; font-weight: normal;">
+                            <div style="margin-bottom: 5px;"><strong>Candidate Name :</strong> ${cName}</div>
+                            <div><strong>Registration No :</strong> ${cId}</div>
+                        </div>
+                        <div style="width: 70px; height: 85px; border: 1px solid #eee; padding: 2px;">
+                            <img src="${cPhoto}" style="width: 100%; height: 100%; object-fit: contain;" alt="Candidate Photo"/>
+                        </div>
+                    </div>
+                </div>
+                <div style="border: 1px solid #ccc; padding: 10px; margin-bottom: 10px; font-family: sans-serif; font-size: 12px;">
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
+                        <span>Exam Date : ${dateStr}</span>
+                        <span>Time : ${durationMins} Mins</span>
+                    </div>
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 4px;">
+                        <span>Total Marks obtained : <strong>${totalScore}</strong></span>
+                        <span>Exam Attempted in : <strong>${timeTakenStr}</strong></span>
+                    </div>
+                    ${sectionScoresHtml ? `<div>${sectionScoresHtml}</div>` : ''}
+                </div>
+            `;
+
+            var sections = [];
+            if (questions.length === 175) {
+                sections = [{ l: 'PART A - Traffic', i: 0 }, { l: 'PART B - GK/Raj', i: 85 }, { l: 'PART C - Est/Fin', i: 140 }];
+            } else if (questions.length === 110) {
+                sections = [{ l: 'PART A - Traffic', i: 0 }, { l: 'PART B - Rajbhasha', i: 70 }, { l: 'PART C - Est/Fin', i: 80 }];
+            } else {
+                sections = [{ l: 'PART A', i: 0 }];
+            }
+
+            questions.forEach((q, i) => {
+                // Check if the current question index is the start of a new section
+                const section = sections.find(s => s.i === i);
+                if (section) {
+                    html += `<h4 style="text-align: center; margin: 15px 0 10px 0; font-family: sans-serif; font-size: 14px;">${section.l}</h4>`;
+                }
+
+                const qId = 1000 + i + 1;
+                html += `
+                <div style="border: 1px solid #ccc; padding: 10px 15px; margin-bottom: 10px; page-break-inside: avoid; font-family: sans-serif;">
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 8px; color: #1b4d82; font-weight: bold; font-size: 13px;">
+                        <span>Question ${i + 1}</span>
+                        <span>Question Id : ${qId}</span>
+                    </div>
+                    <div style="margin-bottom: 10px; font-size: 13px;">${q.question.replace(/\n/g, '<br>')}</div>
+                    
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 4px; color: #1b4d82; font-size: 12px;">
+                        <span>Answer :</span>
+                        <span>Option Id</span>
+                    </div>
+                `;
+
+                const labels = ['(A)', '(B)', '(C)', '(D)', '(E)', '(F)'];
+
+                q.options.forEach((opt, optIdx) => {
+                    const optId = Number(qId + "00" + (optIdx + 1));
+                    const isSelected = state.ans[i] === optIdx;
+                    // Radio circle rendering
+                    const radioChar = isSelected ? '&#9673;' : '&#9675;';
+
+                    html += `
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 3px; padding-left: 10px; font-size: 13px; color: #333;">
+                        <span style="flex-grow: 1;">${labels[optIdx] || ''} ${opt}</span>
+                        <span style="color: #1b4d82; white-space: nowrap; margin-left: 10px; font-size: 13px;">${radioChar} <span style="font-size: 13px;">${optId}</span></span>
+                    </div>
+                    `;
+                });
+
+                const correctOptId = Number(qId + "00" + (q.correctAnswer + 1));
+                const correctText = q.options[q.correctAnswer];
+
+                html += `
+                    <div style="margin-top: 15px;">
+                        <div style="color: green; font-weight: bold; margin-bottom: 3px; font-size: 13px;">Right Answer :</div>
+                        <div style="color: #333; margin-bottom: 5px; font-size: 13px;">${correctText}</div>
+                        <div style="text-align: right; color: green; font-weight: bold; font-size: 13px;">Right Option Id : ${correctOptId}</div>
+                    </div>`;
+
+                let chosenHtml = '';
+                if (state.ans[i] !== null) {
+                    const userOptId = Number(qId + "00" + (state.ans[i] + 1));
+                    let color = state.ans[i] === q.correctAnswer ? "green" : "red";
+                    chosenHtml = `<span style="color: ${color}; font-weight: bold; font-size: 13px;">Chosen Option Id : ${userOptId}</span>`;
+                } else {
+                    chosenHtml = `<span style="color: gray; font-weight: bold; font-size: 13px;">Not Answered</span>`;
+                }
+
+                if (q.hint) {
+                    html += `
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 8px; border-top: 1px dashed #ccc; padding-top: 8px;">
+                        <b style="border-radius: 5px 15px; background-color: PowderBlue; padding: 4px 10px; font-size: 13px; color: #000;">Explanation :</b>
+                        ${chosenHtml}
+                    </div>
+                    <div class="hint-content" style="margin-top: 5px; margin-bottom: 5px; font-size: 13px;">
+                        ${q.hint}
+                    </div>`;
+                } else {
+                    html += `
+                    <div style="display: flex; justify-content: flex-end; margin-top: 8px; border-top: 1px dashed #ccc; padding-top: 8px;">
+                        ${chosenHtml}
+                    </div>`;
+                }
+
+                html += `</div>`;
+            });
+
+            sheet.innerHTML = html;
+            setTimeout(() => {
+                window.print();
+            }, 300);
+        };
+
+        window.nextReview = () => {
+            if (state.idx < questions.length - 1) {
+                state.idx++;
+                state.vis[state.idx] = true;
+                renderQ();
+                renderPal();
+            } else {
+                window.backToResults();
+            }
+        };
 
         window.toggleAnalysis = () => {
             const div = $('detailedAnalysis');

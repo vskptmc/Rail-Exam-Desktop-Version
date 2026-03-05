@@ -290,34 +290,35 @@
           <li>Candidate should write his/ her Name and Roll Number on the Rough sheet(s) provided for rough work. The
             Rough sheet(s) will have to be returned after the test.</li>
         </ol>
-
-        <div class="declaration-box">
-          <div class="lang-select">
-            Choose your default language :
-            <select id="defaultLang">
-              <option>-- Select --</option>
-              <option value="English">English</option>
-            </select>
-          </div>
-          <div class="red-text">Please note all questions will appear in your default language. This language can be
-            changed for a particular question later on.</div>
-
-          <div class="checkbox-container">
-            <input type="checkbox" id="agreeCheckbox">
-            <label for="agreeCheckbox" style="line-height: 1.4;">I have read and understood the instructions. All
-              computer
-              hardware allotted to me are in proper working condition. I declare that I am not in possession of / not
-              wearing / not carrying any prohibited gadget like mobile phone, bluetooth devices etc. /any prohibited
-              material with me into the Examination Hall.I agree that in case of not adhering to the instructions, I
-              shall
-              be liable to be debarred from this Test and/or to disciplinary action, which may include ban from future
-              Tests / Examinations</label>
-          </div>
-        </div>
-
       </div>
-      <div class="action-bars"
-        style="margin-top: 0; border-top: 1px solid #ccc; padding: 15px 40px; background: white; flex-shrink: 0;">
+
+      <!-- Pinned Declaration Box -->
+      <div class="declaration-box shadow-sm"
+        style="margin-top: 0; border-top: 2px solid #ccc; padding: 15px 40px; background: #fff; flex-shrink: 0; z-index: 10;">
+        <div class="lang-select">
+          Choose your default language :
+          <select id="defaultLang">
+            <option>-- Select --</option>
+            <option value="English">English</option>
+          </select>
+        </div>
+        <div class="red-text">Please note all questions will appear in your default language. This language can be
+          changed for a particular question later on.</div>
+
+        <div class="checkbox-container">
+          <input type="checkbox" id="agreeCheckbox">
+          <label for="agreeCheckbox" style="line-height: 1.4;">I have read and understood the instructions. All
+            computer
+            hardware allotted to me are in proper working condition. I declare that I am not in possession of / not
+            wearing / not carrying any prohibited gadget like mobile phone, bluetooth devices etc. /any prohibited
+            material with me into the Examination Hall.I agree that in case of not adhering to the instructions, I
+            shall
+            be liable to be debarred from this Test and/or to disciplinary action, which may include ban from future
+            Tests / Examinations</label>
+        </div>
+      </div>
+
+      <div class="action-bars" style="margin-top: 0; padding: 10px 40px 15px; background: white; flex-shrink: 0;">
         <button class="btn-prev" onclick="window.location.href='instructions_general.html'">&lt; Previous</button>
         <button class="btn-ready" id="startExamBtn" onclick="tryStartExam()">I am ready to begin</button>
       </div>

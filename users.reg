@@ -6,7 +6,7 @@ var REG_USERS = {
         password: "ganesh", 
         name: "Mugada Ganesh Kumar", 
         photo: "img/MUGAN01.png", 
-        exams: ['auto', 'AOM25062023_30','AOM04082024_30'] 
+        exams: ['auto', 'AOM25062023_30'] 
     },
     "BOOVI01": { 
         password: "vinnu", 
@@ -18,13 +18,13 @@ var REG_USERS = {
         password: "yugi", 
         name: "Yugi Oh", 
         photo: "img/user_2.png", 
-        exams: ['auto', 'AOM25062023_30','AOM04082024_30']
+        exams: ['auto', 'AOM25062023_30']
     },
     "MULTE01": { 
         password: "teja", 
         name: "Teja M", 
         photo: "img/user_3.png", 
-        exams: ['auto', 'AOM25062023_30','AOM04082024_30']
+        exams: ['auto', 'AOM25062023_30']
     },
     "NAGAG01": { 
         password: "gagan", 
@@ -38,11 +38,11 @@ var REG_USERS = {
         photo: "img/user_3.png", 
         exams: ['auto'] 
     },
-    "KOMMARA": { 
+    "MIPM7602": { 
         password: "tmrOP@123", 
         name: "Kommara Suresh", 
         photo: "img/Kommara.png", 
-        exams: ['AOM23JUNE','AOM20112022_30','AOM19022023_70'] 
+        exams: ['AOM23JUNE','AOM20112022_30','AOM19022023_70', 'DPQ_GTMR_A1_70'] 
     },
     "11111": { 
         password: "11111", 
