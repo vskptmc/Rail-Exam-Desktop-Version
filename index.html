@@ -696,12 +696,12 @@
         // Helper to determine section info
         function getSectionInfo(index, total) {
             if (total === 175) {
-                if (index < 85) return { key: 'Traffic', name: 'Traffic (Max 80)' };
-                if (index < 140) return { key: 'GK/Rajabhasha', name: 'GK/Raj (Max 40)' };
-                return { key: 'Est/Fin/Acc', name: 'Est/Fin (Max 30)' };
+                if (index < 85) return { key: 'Traffic', name: 'Traffic (max 80 out of 85)' };
+                if (index < 140) return { key: 'GK/Rajabhasha', name: 'GK/Raj (Max 40 out of 55)' };
+                return { key: 'Est/Fin/Acc', name: 'Est/Fin (Max 30 out of 35)' };
             } else if (total === 110) {
-                if (index < 70) return { key: 'Traffic+Rajabhasha', name: 'Traffic+Raj (Max 70)' }; // Traffic
-                if (index < 80) return { key: 'Traffic+Rajabhasha', name: 'Traffic+Raj (Max 70)' }; // Raj (Combined)
+                if (index < 70) return { key: 'Traffic+Rajabhasha', name: 'Traffic+Raj (Max 70 out of 80)' }; // Traffic
+                if (index < 80) return { key: 'Traffic+Rajabhasha', name: 'Traffic+Raj (Max 70 out of 80)' }; // Raj (Combined)
                 return { key: 'Est/Fin/Acc', name: 'Est/Fin (No Limit)' };
             }
             return { key: 'General', name: 'General' };
@@ -1207,9 +1207,10 @@
 
                 const secInfo = getSectionInfo(i, questions.length);
                 const secName = secInfo.name;
+                const secKey = secInfo.key;
 
                 if (!sectionStats[secName]) {
-                    sectionStats[secName] = { attempted: 0, correct: 0, total: 0 };
+                    sectionStats[secName] = { attempted: 0, correct: 0, total: 0, limit: state.sectionLimits[secKey] };
                 }
                 sectionStats[secName].total++;
 
@@ -1265,13 +1266,16 @@
                         <div class="p-4 grid grid-cols-1 gap-2 sm:grid-cols-2 md:grid-cols-3">
                 `;
                 for (const [sec, stats] of Object.entries(sectionStats)) {
+                    let limitStr = stats.limit ? stats.limit : stats.total;
+                    if (sec === 'Est/Fin (No Limit)') limitStr = stats.total;
+
                     breakdownHtml += `
                         <div class="bg-white border rounded p-3 shadow-sm text-center">
                             <div class="font-bold text-gray-800 text-sm mb-2 border-b pb-1">${sec}</div>
                             <div class="flex justify-around text-xs mt-2">
                                 <div class="flex flex-col">
                                     <span class="text-gray-500 font-semibold mb-1">Attempted</span>
-                                    <span class="text-lg font-bold text-blue-600">${stats.attempted}<span class="text-xs text-gray-400 font-normal"> / ${stats.total}</span></span>
+                                    <span class="text-lg font-bold text-blue-600">${stats.attempted}<span class="text-xs text-gray-400 font-normal"> / ${limitStr}</span></span>
                                 </div>
                                 <div class="flex flex-col">
                                     <span class="text-gray-500 font-semibold mb-1">Correct</span>
@@ -1409,8 +1413,10 @@
             questions.forEach((q, i) => {
                 const secInfo = getSectionInfo(i, questions.length);
                 const secName = secInfo.name;
+                const secKey = secInfo.key;
+
                 if (!sectionStats[secName]) {
-                    sectionStats[secName] = { correct: 0, wrong: 0, attempted: 0, totalQuestions: 0 };
+                    sectionStats[secName] = { correct: 0, wrong: 0, attempted: 0, totalQuestions: 0, limit: state.sectionLimits[secKey] };
                 }
                 sectionStats[secName].totalQuestions++;
 
@@ -1428,11 +1434,64 @@
             let sectionScoresHtml = '';
             const secKeys = Object.keys(sectionStats);
             if (secKeys.length > 1 || (secKeys.length === 1 && secKeys[0] !== 'General')) {
+                sectionScoresHtml += `
+                    <table style="width: 100%; border-collapse: collapse; margin-top: 10px; font-size: 12px; text-align: left;">
+                        <thead>
+                            <tr style="background-color: #f2f2f2;">
+                                <th style="border: 1px solid #ccc; padding: 6px;">Section</th>
+                                <th style="border: 1px solid #ccc; padding: 6px;">Attempted</th>
+                                <th style="border: 1px solid #ccc; padding: 6px;">Correct</th>
+                                <th style="border: 1px solid #ccc; padding: 6px;">Incorrect</th>
+                                <th style="border: 1px solid #ccc; padding: 6px;">Score</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                `;
+
+                let overallAttempted = 0;
+                let overallCorrect = 0;
+                let overallIncorrect = 0;
+                let overallMax = 0;
+                let limitTotalStr = 0;
+
                 for (const [sec, stats] of Object.entries(sectionStats)) {
                     let secScore = (questions.length === 175) ? (stats.correct * 1.0 - stats.wrong * 0.33) : (stats.correct * 1.0);
                     secScore = Math.max(0, secScore).toFixed(2);
-                    sectionScoresHtml += `<div style="margin-top:2px;">${sec} : <strong>${secScore}</strong> ( Attempted: ${stats.attempted}/${stats.totalQuestions}, Correct: ${stats.correct})</div>`;
+
+                    overallAttempted += stats.attempted;
+                    overallCorrect += stats.correct;
+                    overallIncorrect += stats.wrong;
+
+                    let limitStr = stats.limit ? stats.limit : stats.totalQuestions;
+                    if (sec === 'Est/Fin (No Limit)' || sec === 'General') limitStr = stats.totalQuestions;
+
+                    overallMax += stats.totalQuestions;
+                    if (typeof limitStr === 'number') limitTotalStr += limitStr;
+
+                    sectionScoresHtml += `
+                            <tr>
+                                <td style="border: 1px solid #ccc; padding: 6px; font-weight: bold;">${sec}</td>
+                                <td style="border: 1px solid #ccc; padding: 6px;">${stats.attempted}</td>
+                                <td style="border: 1px solid #ccc; padding: 6px;">${stats.correct}</td>
+                                <td style="border: 1px solid #ccc; padding: 6px;">${stats.wrong}</td>
+                                <td style="border: 1px solid #ccc; padding: 6px; font-weight: bold;">${secScore}</td>
+                            </tr>
+                    `;
                 }
+
+                let totalName = (questions.length === 175 || questions.length === 110) ? `Total (Max ${limitTotalStr}/${overallMax})` : 'Total';
+
+                sectionScoresHtml += `
+                            <tr style="background-color: #fafafa;">
+                                <td style="border: 1px solid #ccc; padding: 6px; font-weight: bold;">${totalName}</td>
+                                <td style="border: 1px solid #ccc; padding: 6px; font-weight: bold;">${overallAttempted}</td>
+                                <td style="border: 1px solid #ccc; padding: 6px; font-weight: bold;">${overallCorrect}</td>
+                                <td style="border: 1px solid #ccc; padding: 6px; font-weight: bold;">${overallIncorrect}</td>
+                                <td style="border: 1px solid #ccc; padding: 6px; font-weight: bold; color: #1b75b9;">${totalScore}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                `;
             }
 
             var html = `
@@ -1452,11 +1511,7 @@
                 <div style="border: 1px solid #ccc; padding: 10px; margin-bottom: 10px; font-family: sans-serif; font-size: 12px;">
                     <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
                         <span>Exam Date : ${dateStr}</span>
-                        <span>Time : ${durationMins} Mins</span>
-                    </div>
-                    <div style="display: flex; justify-content: space-between; margin-bottom: 4px;">
-                        <span>Total Marks obtained : <strong>${totalScore}</strong></span>
-                        <span>Exam Attempted in : <strong>${timeTakenStr}</strong></span>
+                        <span>Time Used : ${takenMins} Mins ${takenSecs} Secs Out of ${durationMins} Mins</span>
                     </div>
                     ${sectionScoresHtml ? `<div>${sectionScoresHtml}</div>` : ''}
                 </div>
