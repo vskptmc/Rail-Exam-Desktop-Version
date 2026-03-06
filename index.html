@@ -564,6 +564,27 @@
         </div>
     </div>
 
+    <!-- PRINT CONFIRM MODAL -->
+    <div id="printConfirmModal"
+        class="fixed inset-0 z-[60] bg-black/50 backdrop-blur-sm hidden flex items-center justify-center p-4">
+        <div
+            class="bg-white rounded-2xl shadow-2xl max-w-sm w-full text-center overflow-hidden animate-fade-in transform scale-100 transition-all flex flex-col">
+            <div class="bg-rail-primary p-4 text-white relative overflow-hidden shrink-0">
+                <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-yellow-400 to-red-500"></div>
+                <h2 class="text-2xl font-bold mb-1">Print Options</h2>
+            </div>
+            <div class="p-6">
+                <p class="text-gray-700 mb-6 font-medium text-lg">Do you want to print with explanation?</p>
+                <div class="flex justify-center gap-4">
+                    <button onclick="handlePrintConfirm(true)"
+                        class="px-8 py-2 bg-gray-200 text-gray-800 rounded-full font-bold hover:bg-gray-300 transition-colors uppercase text-sm tracking-wide shadow-sm hover:shadow">Yes</button>
+                    <button id="btnConfirmPrintNo" onclick="handlePrintConfirm(false)"
+                        class="px-8 py-2 bg-green-600 text-white rounded-full font-bold shadow-lg hover:shadow-xl hover:scale-105 hover:bg-green-700 transition-all outline-none focus:ring-4 focus:ring-green-300 uppercase text-sm tracking-wide">No</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- RESULT MODAL -->
     <div id="resultModal"
         class="fixed inset-0 z-50 bg-black/50 backdrop-blur-sm hidden flex items-center justify-center p-4">
@@ -622,8 +643,8 @@
                     class="bg-blue-600 text-white px-6 py-3 rounded-full font-bold shadow-lg hover:shadow-xl hover:scale-105 transition-all text-sm uppercase tracking-wide">
                     Check Response & Key
                 </button>
-                <button onclick="printResponseSheet()"
-                    class="bg-green-600 text-white px-6 py-3 rounded-full font-bold shadow-lg hover:shadow-xl hover:scale-105 transition-all text-sm uppercase tracking-wide">
+                <button id="btnPrintResponseSheet" onclick="printResponseSheet()"
+                    class="hidden bg-green-600 text-white px-6 py-3 rounded-full font-bold shadow-lg hover:shadow-xl hover:scale-105 transition-all text-sm uppercase tracking-wide">
                     Print Response Sheet
                 </button>
                 <button onclick="location.reload()"
@@ -1004,11 +1025,17 @@
             });
 
             if (state.isReviewMode && q.hint) {
-                const hintDiv = document.createElement('div');
-                hintDiv.className = 'hint-content mt-4 p-3 bg-blue-50 border border-blue-200 rounded text-[15px] font-[Times_New_Roman,serif]';
-                hintDiv.style.fontSize = (state.zoomLevel || 15) + 'px';
-                hintDiv.innerHTML = `<b style="color:blue;">Explanation :</b> ${q.hint}`;
-                cnt.appendChild(hintDiv);
+                const u = document.getElementById('username')?.value || "";
+                const user = typeof REG_USERS !== 'undefined' ? REG_USERS[u] : null;
+                const allowExplanation = user && user.allowExplanation;
+
+                if (allowExplanation) {
+                    const hintDiv = document.createElement('div');
+                    hintDiv.className = 'hint-content mt-4 p-3 bg-blue-50 border border-blue-200 rounded text-[15px] font-[Times_New_Roman,serif]';
+                    hintDiv.style.fontSize = (state.zoomLevel || 15) + 'px';
+                    hintDiv.innerHTML = `<b style="color:blue;">Explanation :</b> ${q.hint}`;
+                    cnt.appendChild(hintDiv);
+                }
             }
 
             if ($('questionText')) $('questionText').style.fontSize = (state.zoomLevel || 15) + 'px';
@@ -1276,6 +1303,13 @@
             $('rCorrect').textContent = c;
             $('rWrong').textContent = w;
             $('rSkip').textContent = s;
+
+            const u = document.getElementById('username')?.value || "";
+            const user = typeof REG_USERS !== 'undefined' ? REG_USERS[u] : null;
+            if (user && user.allowPrint) {
+                const printBtn = document.getElementById('btnPrintResponseSheet');
+                if (printBtn) printBtn.classList.remove('hidden');
+            }
         }
 
         window.checkResponseAndKey = () => {
@@ -1309,6 +1343,35 @@
         };
 
         window.printResponseSheet = () => {
+            const u = document.getElementById('username')?.value || "";
+            const user = typeof REG_USERS !== 'undefined' ? REG_USERS[u] : null;
+
+            // User must be allowed AND at least one question must have a hint
+            const allowExplanation = user && user.allowExplanation;
+            const hasAnyHints = questions && questions.some(q => q.hint && q.hint.trim() !== "");
+
+            if (allowExplanation && hasAnyHints) {
+                const modal = document.getElementById('printConfirmModal');
+                if (modal) {
+                    modal.classList.remove('hidden');
+                    modal.classList.add('flex');
+                    setTimeout(() => {
+                        const noBtn = document.getElementById('btnConfirmPrintNo');
+                        if (noBtn) noBtn.focus();
+                    }, 50);
+                }
+            } else {
+                window.handlePrintConfirm(false);
+            }
+        };
+
+        window.handlePrintConfirm = (includeExplanation) => {
+            const modal = document.getElementById('printConfirmModal');
+            if (modal) {
+                modal.classList.add('hidden');
+                modal.classList.remove('flex');
+            }
+
             var sheet = document.getElementById('printableResponseSheet');
             if (!sheet) {
                 sheet = document.createElement('div');
@@ -1465,7 +1528,7 @@
                     chosenHtml = `<span style="color: gray; font-weight: bold; font-size: 13px;">Not Answered</span>`;
                 }
 
-                if (q.hint) {
+                if (q.hint && includeExplanation) {
                     html += `
                     <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 8px; border-top: 1px dashed #ccc; padding-top: 8px;">
                         <b style="border-radius: 5px 15px; background-color: PowderBlue; padding: 4px 10px; font-size: 13px; color: #000;">Explanation :</b>
