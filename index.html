@@ -10,6 +10,8 @@
         rel="stylesheet">
     <script src="data.js"></script>
     <script src="users.reg"></script>
+    <link rel="stylesheet" href="https://unpkg.com/simple-keyboard@latest/build/css/index.css">
+    <script src="https://unpkg.com/simple-keyboard@latest/build/index.js"></script>
     <script>
         tailwind.config = {
             theme: {
@@ -198,6 +200,24 @@
                 visibility: visible;
             }
         }
+
+        /* --- Virtual Keyboard Custom Adjustments --- */
+        .simple-keyboard {
+            padding: 3px !important;
+        }
+
+        .simple-keyboard .hg-row:not(:last-child) {
+            margin-bottom: 3px !important;
+        }
+
+        .simple-keyboard .hg-button {
+            height: 36px !important;
+            /* ~10% smaller than default 40px */
+        }
+
+        .simple-keyboard .hg-button:not(:last-child) {
+            margin-right: 3px !important;
+        }
     </style>
 
 </head>
@@ -264,43 +284,82 @@
             <!-- Login Box -->
             <div
                 class="w-[380px] border border-gray-300 shadow-sm bg-[#f1f1f1] rounded-sm overflow-hidden translate-y-[-10%] box-border">
-                <div class="bg-[#e0e0e0] text-gray-700 font-bold px-4 py-3 border-b border-gray-300 text-lg">Login</div>
+                <div class="bg-[#DDD] text-gray-700 font-bold px-5 py-1.5 border-b border-gray-300 text-sm">Login</div>
                 <form id="loginForm" class="p-8 bg-white space-y-5">
                     <div
-                        class="flex items-center border border-gray-300 bg-white px-2 py-1.5 rounded-sm focus-within:border-blue-500 focus-within:ring-1 focus-within:ring-blue-500 transition-all">
-                        <svg class="w-8 h-8 text-gray-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
-                            <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
-                                clip-rule="evenodd"></path>
-                        </svg>
+                        class="flex items-stretch border border-gray-300 bg-white rounded-sm focus-within:border-[#3eb0eb] focus-within:ring-1 focus-within:ring-[#3eb0eb] transition-all overflow-hidden h-11">
+                        <!-- Left Icon Box -->
+                        <div
+                            class="bg-[#eeeeee] flex items-center justify-center px-3 border-r border-gray-300 shrink-0">
+                            <img src="img/user.png" class="w-6 h-6" alt="User Icon">
+                        </div>
+
+                        <!-- Input -->
                         <input type="text" id="username"
-                            class="w-full bg-transparent outline-none text-gray-700 placeholder-gray-400 text-base font-normal h-8"
+                            class="flex-1 w-full bg-transparent outline-none text-gray-700 placeholder-gray-400 text-base font-normal px-3 min-w-0"
                             placeholder="Username" value="11111" oninput="updateCandidateInfo(this.value)">
-                        <img src="img/keyboard.png"
-                            class="w-6 h-6 ml-2 cursor-pointer opacity-70 hover:opacity-100 object-contain"
-                            alt="Keyboard">
+
+                        <!-- Right Icon Box -->
+                        <div class="bg-[#eeeeee] flex items-center justify-center px-3 border-l border-gray-300 shrink-0 cursor-pointer hover:bg-[#e4e4e4] transition-colors"
+                            onclick="VirtualKeyboard.open('username', this, event)">
+                            <img src="img/keyboard.png" class="w-6 h-6 object-contain" alt="Keyboard">
+                        </div>
                     </div>
 
                     <div
-                        class="flex items-center border border-gray-300 bg-white px-2 py-1.5 rounded-sm focus-within:border-blue-500 focus-within:ring-1 focus-within:ring-blue-500 transition-all">
-                        <svg class="w-8 h-8 text-gray-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
-                            <path fill-rule="evenodd"
-                                d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z"
-                                clip-rule="evenodd"></path>
-                        </svg>
+                        class="flex items-stretch border border-gray-300 bg-white rounded-sm focus-within:border-[#3eb0eb] focus-within:ring-1 focus-within:ring-[#3eb0eb] transition-all overflow-hidden h-11">
+                        <!-- Left Icon Box -->
+                        <div
+                            class="bg-[#eeeeee] flex items-center justify-center px-3 border-r border-gray-300 shrink-0">
+                            <img src="img/Lock-26.png" class="w-6 h-6" alt="Password Icon">
+                        </div>
+
+                        <!-- Input -->
                         <input type="password" id="password"
-                            class="w-full bg-transparent outline-none text-gray-700 placeholder-gray-400 text-base font-normal h-8"
+                            class="flex-1 w-full bg-transparent outline-none text-gray-700 placeholder-gray-400 text-base font-normal px-3 min-w-0"
                             placeholder="Password" value="pass">
-                        <img src="img/keyboard.png"
-                            class="w-6 h-6 ml-2 cursor-pointer opacity-70 hover:opacity-100 object-contain"
-                            alt="Keyboard">
+
+                        <!-- View Password Eye Icon -->
+                        <div class="flex items-center px-2 bg-white">
+                            <svg id="togglePasswordIcon" onclick="togglePasswordVisibility()"
+                                class="w-5 h-5 cursor-pointer text-gray-400 hover:text-gray-700 transition-colors shrink-0"
+                                fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                            </svg>
+                        </div>
+
+                        <!-- Right Icon Box -->
+                        <div class="bg-[#eeeeee] flex items-center justify-center px-3 border-l border-gray-300 shrink-0 cursor-pointer hover:bg-[#e4e4e4] transition-colors"
+                            onclick="VirtualKeyboard.open('password', this, event)">
+                            <img src="img/keyboard.png" class="w-6 h-6 object-contain" alt="Keyboard">
+                        </div>
                     </div>
 
                     <button type="submit"
-                        class="w-full bg-[#2d9cdb] hover:bg-[#268bc3] text-white font-bold py-2.5 rounded-sm shadow-sm transition-colors mt-6 text-base">Sign
+                        class="w-full bg-[#3eb0eb] hover:bg-[#3298cd] text-white font-bold py-2.5 rounded-sm shadow-sm transition-colors mt-6 text-base">Sign
                         In</button>
                 </form>
             </div>
         </div>
+
+        <script>
+            function togglePasswordVisibility() {
+                const passwordInput = document.getElementById('password');
+                const toggleIcon = document.getElementById('togglePasswordIcon');
+                if (passwordInput.type === 'password') {
+                    passwordInput.type = 'text';
+                    // Eye slash icon
+                    toggleIcon.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" d="M13.875 18.825A10.05 10.05 0 0112 19c-4.478 0-8.268-2.943-9.543-7a9.97 9.97 0 011.563-3.029m5.858.908a3 3 0 114.243 4.243M9.878 9.878l4.242 4.242M9.88 9.88l-3.29-3.29m7.532 7.532l3.29 3.29M3 3l3.59 3.59m0 0A9.953 9.953 0 0112 5c4.478 0 8.268 2.943 9.543 7a10.025 10.025 0 01-4.132 5.411m0 0L21 21" />';
+                } else {
+                    passwordInput.type = 'password';
+                    // Eye icon
+                    toggleIcon.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" /><path stroke-linecap="round" stroke-linejoin="round" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />';
+                }
+            }
+        </script>
 
         <!-- Footer -->
         <div style="    bottom: 0;    min-width: 945px;
@@ -1721,6 +1780,183 @@
         </div>
     </div>
 
+    <!-- VIRTUAL KEYBOARD CONTAINER -->
+    <div id="virtualKeyboardWrapper"
+        class="hidden absolute z-[99999] shadow-2xl border border-gray-300 rounded bg-white p-2"
+        style="width: 440px; max-width: 90vw;">
+        <div class="flex justify-end p-1 mb-1">
+            <button onclick="VirtualKeyboard.close()" class="text-gray-500 hover:text-red-500 font-bold">&times;
+                Close</button>
+        </div>
+        <div class="simple-keyboard text-black"></div>
+    </div>
+
+    <!-- VIRTUAL KEYBOARD LOGIC -->
+    <script>
+        const VirtualKeyboard = {
+            keyboard: null,
+            activeInputId: null,
+            shiftActive: false,
+            capsLockActive: false,
+
+            init() {
+                const Keyboard = window.SimpleKeyboard.default;
+                this.keyboard = new Keyboard({
+                    onChange: input => this.onChange(input),
+                    onKeyPress: button => this.onKeyPress(button),
+                    layout: {
+                        'default': [
+                            '` 1 2 3 4 5 6 7 8 9 0 - = {bksp}',
+                            '{tab} q w e r t y u i o p [ ] \\',
+                            '{lock} a s d f g h j k l ; \' {enter}',
+                            '{shift} z x c v b n m , . / {shift}',
+                            '@ {space} .com'
+                        ],
+                        'shift': [
+                            '~ ! @ # $ % ^ & * ( ) _ + {bksp}',
+                            '{tab} Q W E R T Y U I O P { } |',
+                            '{lock} A S D F G H J K L : " {enter}',
+                            '{shift} Z X C V B N M < > ? {shift}',
+                            '@ {space} .com'
+                        ]
+                    }
+                });
+
+                // Close when clicking outside
+                document.addEventListener('mousedown', (e) => {
+                    const wrapper = document.getElementById('virtualKeyboardWrapper');
+                    if (this.activeInputId && !wrapper.contains(e.target) && !e.target.closest('img[alt="Keyboard"]')) {
+                        this.close();
+                    }
+                });
+            },
+
+            onChange(input) {
+                if (this.activeInputId) {
+                    const el = document.getElementById(this.activeInputId);
+                    el.value = input;
+                    // Trigger input event to update Candidate Info if it's the username
+                    const event = new Event('input', { bubbles: true });
+                    el.dispatchEvent(event);
+                }
+            },
+
+            onKeyPress(button) {
+                if (button === "{shift}") {
+                    this.handleShift();
+                } else if (button === "{lock}") {
+                    this.handleCapsLock();
+                } else {
+                    // It's a normal character button press, handle auto-revert
+                    this.handleAutoRevertShift();
+                }
+            },
+
+            handleShift() {
+                // If Caps Lock is already on, pressing Shift is often a no-op or temporarily lowers case. 
+                // For simplicity, we just toggle to shift layout if we aren't already in it manually.
+                let currentLayout = this.keyboard.options.layoutName;
+
+                if (currentLayout === "default") {
+                    this.keyboard.setOptions({ layoutName: "shift" });
+                    this.shiftActive = true;
+                } else if (this.shiftActive) {
+                    // Turn off shift if it was on
+                    this.keyboard.setOptions({ layoutName: "default" });
+                    this.shiftActive = false;
+                }
+            },
+
+            handleCapsLock() {
+                let currentLayout = this.keyboard.options.layoutName;
+
+                if (currentLayout === "default") {
+                    this.keyboard.setOptions({ layoutName: "shift" });
+                    this.capsLockActive = true;
+                    this.shiftActive = false; // Override any hanging shift
+                } else if (this.capsLockActive) {
+                    this.keyboard.setOptions({ layoutName: "default" });
+                    this.capsLockActive = false;
+                }
+            },
+
+            handleAutoRevertShift() {
+                // Only revert if Shift is active AND Caps Lock is NOT active
+                if (this.shiftActive && !this.capsLockActive) {
+                    this.keyboard.setOptions({ layoutName: "default" });
+                    this.shiftActive = false;
+                }
+            },
+
+            open(inputId, iconElement, event) {
+                if (event) event.stopPropagation();
+                if (!this.keyboard) this.init();
+
+                this.activeInputId = inputId;
+                const inputEl = document.getElementById(inputId);
+
+                // Sync current value
+                this.keyboard.setInput(inputEl.value);
+
+                const wrapper = document.getElementById('virtualKeyboardWrapper');
+
+                // Temporarily show to get real dimensions
+                wrapper.style.visibility = 'hidden';
+                wrapper.classList.remove('hidden');
+                const kbWidth = wrapper.offsetWidth || 400; // fallback width
+                const kbHeight = wrapper.offsetHeight || 250; // fallback height
+                wrapper.style.visibility = 'visible';
+
+                const inputRect = inputEl.getBoundingClientRect();
+                const iconRect = iconElement.getBoundingClientRect();
+
+                // If available space is tiny, aggressively scroll the input near the top FIRST
+                if (window.innerHeight < kbHeight + 100) {
+                    inputEl.scrollIntoView({ behavior: 'auto', block: 'start' });
+                    // Slight top margin logic
+                    window.scrollBy(0, -20);
+                }
+
+                // Recalculate rects after immediate scroll
+                const newInputRect = inputEl.getBoundingClientRect();
+                const newIconRect = iconElement.getBoundingClientRect();
+
+                let topPosition = newIconRect.bottom + 10;
+                let leftPosition = newIconRect.right - kbWidth;
+
+                const spaceBelow = window.innerHeight - newIconRect.bottom;
+                const spaceAbove = newIconRect.top;
+
+                // Horizontal pin
+                if (leftPosition < 5) leftPosition = 5;
+                if (leftPosition + kbWidth > window.innerWidth - 5) leftPosition = window.innerWidth - kbWidth - 5;
+
+                // Vertical logic
+                if (spaceBelow >= kbHeight + 5) {
+                    topPosition = newIconRect.bottom + 5;
+                } else if (spaceAbove >= kbHeight + 5) {
+                    topPosition = newIconRect.top - kbHeight - 5;
+                } else {
+                    topPosition = newIconRect.bottom + 5;
+                }
+
+                // Add absolute page scroll offsets
+                wrapper.style.top = `${topPosition + window.scrollY}px`;
+                wrapper.style.left = `${leftPosition + window.scrollX}px`;
+
+                // If bottom still bleeds, scroll window down smoothly to reveal it
+                const keyboardBottom = topPosition + kbHeight + 10;
+                if (keyboardBottom > window.innerHeight) {
+                    window.scrollBy({ top: keyboardBottom - window.innerHeight, behavior: 'smooth' });
+                }
+            },
+
+            close() {
+                this.activeInputId = null;
+                document.getElementById('virtualKeyboardWrapper').classList.add('hidden');
+            }
+        };
+    </script>
 </body>
 
 </html>

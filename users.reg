@@ -12,6 +12,8 @@ var REG_USERS = {
         password: "vinnu", 
         name: "Boorli Vinod Kumar", 
         photo: "img/BOOVI01.png", 
+        allowPrint: true,
+        allowExplanation: true,
         exams: ['auto', 'AOM25062023_30'] 
     },
     "MAYUG01": { 
