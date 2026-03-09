@@ -8,6 +8,12 @@ var REG_USERS = {
         photo: "img/MUGAN01.png", 
         exams: ['auto', 'AOM25062023_30'] 
     },
+    "KORSA01": { 
+        password: "sai", 
+        name: "Koruvada D A S Sai", 
+        photo: "img/KORSA01.jpeg", 
+        exams: ['auto', 'AOM25062023_30'] 
+    },
     "BOOVI01": { 
         password: "vinnu", 
         name: "Boorli Vinod Kumar", 
@@ -91,3 +97,4 @@ var REG_USERS = {
         ]
     }
 };
+
