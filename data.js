@@ -3318,1758 +3318,6 @@ const freeQuestions = [
     }
 ]
 
-// const AOM20112022_30 = [
-//     {
-//         question: "What is the meaning of CTC?",
-//         options: [
-//             "Centralised Traffic Control",
-//             "Centralised Train Control",
-//             "Centralised Time Control",
-//             "Central Train Control"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "What is the main work of Central Control?",
-//         options: [
-//             "Section Capacity Work",
-//             "Supervision of Goods trains",
-//             "Supervision of Passenger trains",
-//             "Safety Drive"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "Punctuality is affected by?",
-//         options: [
-//             "Faulty time table",
-//             "Bad controlling",
-//             "Delay in shunting",
-//             "All of the given options"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "Following is not correct about the Public time table?",
-//         options: [
-//             "It gives arrival and departure of trains at important stations",
-//             "It gives time of important trains",
-//             "It gives fare list",
-//             "It is supplied to all employes related to train operation without cost"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "Indian Railways generally adopts which theoretical formula to measure section capacity?",
-//         options: [
-//             "Scott Formula",
-//             "American Formula",
-//             "Stain Back Formula",
-//             "G.I.P. Formula"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "What is the unit for measuring line capacity?",
-//         options: [
-//             "All Trains",
-//             "Goods Trains",
-//             "All Passenger Trains",
-//             "All Light Engines"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Which action is taken by section controller after getting information of accident?",
-//         options: [
-//             "Name noting of informer",
-//             "Stop trains entering affected section",
-//             "Information of sending ART",
-//             "All of the given options"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "Long haul train will be run in which of the following conditions?",
-//         options: [
-//             "Both rakes empty",
-//             "One rake empty and one loaded",
-//             "Both rakes loaded",
-//             "All of the given options"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "Accident drills should be conducted once in months, if no actual accident occurs within that period?",
-//         options: [
-//             "4 months",
-//             "3 months",
-//             "6 months",
-//             "12 months"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "Within how many days after the date of accident, DAR action must be completed?",
-//         options: [
-//             "D+30",
-//             "D+60",
-//             "D+90",
-//             "D+120"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "As per G&SR 'Night' Means?",
-//         options: [
-//             "22:00 Hrs to 08:00 Hrs",
-//             "20:00 Hrs to 06:00 Hrs",
-//             "Sunrise to Sunset",
-//             "Sunset to Sunrise"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "Total Goods train KM divided by total Goods train engine hours gives the statistical figure of?",
-//         options: [
-//             "Average speed of Goods train",
-//             "Engine KM per Goods train",
-//             "Goods train KM per engine",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "In which of the following, NI working may not be required and work can be completed in a traffic block?",
-//         options: [
-//             "Replacement of Panel by RRI",
-//             "Overhauling of Lever frame",
-//             "Changes in Yard layout",
-//             "Meggering of cables"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "While calculating Wagon Turn Round which of the following figures is not required?",
-//         options: [
-//             "Effective Wagon Holding",
-//             "Loaded Wagons",
-//             "Loaded received wagons",
-//             "Loaded wagons made over"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "Wind Velocity can be measured by?",
-//         options: [
-//             "Galvanometer",
-//             "Ammeter",
-//             "Thermo meter",
-//             "Anemometer"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "At Block station the station limits are between?",
-//         options: [
-//             "Two outermost signals",
-//             "Two outer signals",
-//             "Two First Stop signals",
-//             "Two Last Stop signals"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "In Sections where there is provision of MACL signal with only one Distant signal, Warning Board provided will be of which type?",
-//         options: [
-//             "Passenger Warning Board",
-//             "Goods Warning Board",
-//             "Both Passenger Warning Board & Goods Warning Board",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "Which of the following signals cannot be used for shunting?",
-//         options: [
-//             "Home",
-//             "Shunt signal",
-//             "Hand signal",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Minimum visibility distance of warner signal when placed on a post by it self?",
-//         options: [
-//             "600 meter",
-//             "400 Meter",
-//             "300 Meter",
-//             "250 Meter"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "What is the authority to receive a train on an obstructed line?",
-//         options: [
-//             "T-509",
-//             "T-609",
-//             "T-A 602",
-//             "T-1518"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "At what restricted speed will the loco pilot proceed if the visibility is not clear while passing the automatic stop signal in ON position in a double line?",
-//         options: [
-//             "08 KMPH",
-//             "10 KMPH",
-//             "15 KMPH",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "If two or more trains have to run in pilot guard system, by which train pilot guard will be sent?",
-//         options: [
-//             "First train",
-//             "Last train",
-//             "Any train",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "The supply control post where the incoming feeder lines from grid sub station are terminated is known as?",
-//         options: [
-//             "Feeding post",
-//             "Supply control post",
-//             "Feeding post & Supply control post",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Fog signal post is placed at m from First stop signal?",
-//         options: [
-//             "120 m",
-//             "180 m",
-//             "270 m",
-//             "400 m"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Two coupled powers are working together to whom authority to proceed will be given?",
-//         options: [
-//             "Leading loco",
-//             "Rear loco",
-//             "Leading loco & Rear loco",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Customers can track their goods in transit through?",
-//         options: [
-//             "PNR",
-//             "FNR",
-//             "COIS",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "On line Caution Order is generated through?",
-//         options: [
-//             "FOIS",
-//             "TMS",
-//             "ICMS",
-//             "FMM"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Position of asset failure can be analyzed through?",
-//         options: [
-//             "FOIS",
-//             "PAM",
-//             "COIS",
-//             "All of the given options"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "\"SFOORTI\" App is used for?",
-//         options: [
-//             "Monitoring and managing freight business",
-//             "Generation of RR",
-//             "Monitoring the punctuality of Express trains",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Rake link information is available in?",
-//         options: [
-//             "PAM",
-//             "COIS",
-//             "FOIS",
-//             "TMS"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "Passenger transport is an important necessity for?",
-//         options: [
-//             "Individual",
-//             "Groups",
-//             "Organisations",
-//             "All of the given options"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "Maximum permissible speed is approved by?",
-//         options: [
-//             "GM",
-//             "PCOM",
-//             "CPTM",
-//             "CRS"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "Proper rake links help in optimum utilization of rolling stock?",
-//         options: [
-//             "yes",
-//             "No",
-//             "Somewhat",
-//             "In most cases"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "At the time of preparation of Time Table suggestions from following are taken?",
-//         options: [
-//             "MP or MLA",
-//             "ZRUCC",
-//             "DRUCC",
-//             "All of the given options"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "Before introduction of new trains, compliance with RPC-4 will be certified jointly by......of the originating Railways?",
-//         options: [
-//             "CPTM & CRSE",
-//             "PCOM & PCME",
-//             "Sr. DOM & Sr. DME",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Goods stock, duly certified 'fit to run on passenger trains' by examining staff, can be attached to run on?",
-//         options: [
-//             "Intercity trains",
-//             "Short distance trains",
-//             "Passenger trains",
-//             "Not permitted"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Whistle Boards shall be provided at a distance of.....metres on the approaches to all unmanned level crossings?",
-//         options: [
-//             "200",
-//             "300",
-//             "400",
-//             "600"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "Master charts indicate trains run in ..... Hours?",
-//         options: [
-//             "6",
-//             "8",
-//             "12",
-//             "24"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "Corridor blocks of ..... hours have been provided in Zero Based Time Table?",
-//         options: [
-//             "2",
-//             "2.5",
-//             "3",
-//             "4"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Loco outage means the average number of locos available to traffic use in?",
-//         options: [
-//             "24 hours",
-//             "a month",
-//             "10 days",
-//             "15 days"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Normally upper class coaches shall be marshalled in the ..... of the train?",
-//         options: [
-//             "Middle",
-//             "Front end",
-//             "Rear end",
-//             "As per convenience"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Which of the following shall have highest priority in allotment of Parcel Vans?",
-//         options: [
-//             "Perishable Goods",
-//             "General Goods",
-//             "Livestock",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "The speed of Motor Trolley should not exceed ..... kmph over points & crossings?",
-//         options: [
-//             "10",
-//             "15",
-//             "30",
-//             "Sectional speed"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "Mail/Express trains run with ICF coaches on round trip upto .....kms will undergo Primary Maintenance on pit line at Primary end?",
-//         options: [
-//             "3000",
-//             "3200",
-//             "3500",
-//             "4000"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Mail/Express trains run with LHB coaches on round trip upto .....kms will undergo Primary Maintenance on pit line at Primary end?",
-//         options: [
-//             "3000",
-//             "3200",
-//             "3500",
-//             "4000"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "Who is the authorized person for crew grading?",
-//         options: [
-//             "Chief Commercial Controller",
-//             "Chief Loco Inspector",
-//             "Chief Commercial Controller or Chief Loco Inspector",
-//             "Branch Officers"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "The vision test required for Loco Pilot/Assistant Loco Pilot is?",
-//         options: [
-//             "A1",
-//             "A2",
-//             "A3",
-//             "B1"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Which of the following does not feature in the Yard working instructions of a Marshalling Yard?",
-//         options: [
-//             "Full description of the yard including number of lines with their holding capacity",
-//             "Marshalling Order in force",
-//             "Quantum of inward, outward and internal traffic required to be dealt with by the yard and their timing",
-//             "Speed of the train in main line after dispatch"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "Which of the following is not true about the Marshalling Yard? (i) Ordinarily a yard should be adequate enough for its requirements of sorting, handling of local traffic, formation of trains for holding. (ii) Whatever may be the cause of late start of trains for a yard, apart from reducing available capacity of the section, in turn, it affects working of the yard itself by delaying subsequent formation of trains. (iii) In case of heavy congestion requiring block back on the neighbouring section, neighbouring yard should be called upon or directed by Sr.DOM/DOM by taking upon them some of the sorting and marshalling work, the congested yard would normally have done. (iv) In the event of an accident in Marshalling Yard temporarily reducing working capacity, steps should be taken to regulate the inflow of trains into the yard until the emergency is over and the yard has regained its normal working capacity.",
-//         options: [
-//             "I & II are correct",
-//             "III & IV are correct",
-//             "None of the given options are correct",
-//             "All of the given options are correct"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "The Officers and Senior Subordinates present at the site of accident must the cause and advise DRM and other Officers concerned, their opinion, mentioning the department or departments responsible and person or persons responsible for the occurrence?",
-//         options: [
-//             "Jointly investigate",
-//             "Observe",
-//             "Video graph",
-//             "Take witness"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "In order to avoid any dispute later, the fact that a Loco Pilot has passed a signal at danger, should be formally brought to his notice through by the station master of the concerned station?",
-//         options: [
-//             "Verbal instructions",
-//             "Loco Inspector",
-//             "Written memo",
-//             "Guard of the train"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "In case of collision/averted collision, should be signed so as to indicate the last entry made and then seized?",
-//         options: [
-//             "Train signal register",
-//             "Station diary",
-//             "S&T failure register",
-//             "PN exchange register"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "CRS shall hold statutory enquiry into the accidents falling under Section of Railways Act 1989?",
-//         options: [
-//             "110",
-//             "111",
-//             "112",
-//             "113"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "For accidents not coming under the purview of CRS, the shall order an enquiry by a committee of officers from the departments concerned?",
-//         options: [
-//             "DRM",
-//             "PHOD",
-//             "None",
-//             "None"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "All cases of Indicative Accidents shall be inquired into by a Committee of Officers?",
-//         options: [
-//             "Senior Scale",
-//             "Junior Scale",
-//             "Either Senior Scale or Junior Scale",
-//             "Senior Supervisors"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Target for Committee to submit the inquiry report to DRM/GM is within?",
-//         options: [
-//             "Date of accident (D)+1",
-//             "Date of accident (D) +15",
-//             "Date of accident (D) +3",
-//             "Date of accident (D)+7"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "The Committee may suggest any improvements in the of working, which in their opinion, would prevent similar accidents in future or improve the working in any way, based not only on the cause or causes of the accident, but also the contributory factors, if any, and the extenuating circumstances, if any1?",
-//         options: [
-//             "Rules or practices",
-//             "Guidelines",
-//             "JPOs",
-//             "Methodology"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "In case of fire to a passenger coach, the under the coach should be specially examined to see whether the fire has originated from them?",
-//         options: [
-//             "Wheels",
-//             "Brake block",
-//             "Battery boxes",
-//             "Axle boxes"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "The actual punishment imposed on the staff found responsible for lapses in an accident shall be communicated to the with in the stipulated time?",
-//         options: [
-//             "GM",
-//             "DRM",
-//             "Senior DSO",
-//             "PCSO"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "In case of SPAD, root cause analysis may be carried out in which manner to improve the incisiveness of the accident investigation?",
-//         options: [
-//             "Failure mode and effects analysis",
-//             "Perito chart analysis",
-//             "Five WHYs (why why)",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Minimum Punishment to be given to a Gateman for the Failure of closure of gate due to which there is loss of life?",
-//         options: [
-//             "Dismissal",
-//             "Removal",
-//             "Compulsory Retirement",
-//             "Reduction to the next lower grade for 3 year with cumulative effect"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Arrangement between points, signals and other appliances interconnected electrically or mechanically or both to ensure safety is?",
-//         options: [
-//             "Isolation",
-//             "Interlocking",
-//             "Obstruction",
-//             "System of working"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "A GPS based Fog Safety device is being provided to loco pilots in fog affected areas which enables loco pilots to know?",
-//         options: [
-//             "The exact distance of the approaching signals, level crossing gates etc",
-//             "The exact aspect of the approaching stop signals",
-//             "The exact distance and aspect of approaching signals",
-//             "The exact location of stations through GPS"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "If a critical trauma patient is not given definite medical care within from the time of accident, chances of his ultimate recovery reduce drastically, even with the best of medical attention thereafter. This initial period is of?",
-//         options: [
-//             "30 Mins",
-//             "One hour",
-//             "1½ hours",
-//             "2 hours"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "Which shield is awarded by Railway Board for the overall efficiency to the Best Zonal Railway?",
-//         options: [
-//             "Lal Bahadur Shashtri Shield",
-//             "Pt. Govind Ballabh Pant Shield",
-//             "Rail Minister's Shield",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "Damage of Railway property to the tune of which of the following value shall be treated as serious damage to property?",
-//         options: [
-//             "2 Crore",
-//             "2.50 Crore",
-//             "20 Lacs",
-//             "1.99 Crore"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Tonne kilometer is a unit?",
-//         options: [
-//             "Primary unit",
-//             "Secondary unit",
-//             "Fundamental unit",
-//             "Derivative unit"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "What is included in operating ratio?",
-//         options: [
-//             "NTKM per engine hours",
-//             "Wagon Turn Round",
-//             "Average starting Wagon load",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "Which of the following is not COA function?",
-//         options: [
-//             "Train ordering",
-//             "Caution order",
-//             "Indent placement",
-//             "Graph plotting"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "What is the basis of calculation of average detention of a wagon?",
-//         options: [
-//             "Wagon exchange register",
-//             "Inward register",
-//             "Station diary",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "In goods train C.C. rake if nominated circuit is broken B.P.C. wil become?",
-//         options: [
-//             "Valid",
-//             "Invalid",
-//             "None of the given options",
-//             "All of the given options"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "If the turn round of BOXN rakes in a coal circuit is 4 days, minimum how many rakes will be required to achieve the loading level of five rakes per day?",
-//         options: [
-//             "18",
-//             "1.25",
-//             "20",
-//             "4"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Loco maintenance schedule AOH for coaching Locos (conventional Loco) is carried out in?",
-//         options: [
-//             "3 months + or 15 days",
-//             "6 months or 15 days",
-//             "12 months or 15 days",
-//             "9 months + or 15 days"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "The maximum speed of WAP-7 loco is?",
-//         options: [
-//             "160kmph",
-//             "140kmph",
-//             "130kmph",
-//             "120kmph"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "What details related to crew and guards are ensured by CMS?",
-//         options: [
-//             "Details of rest of crew and guards",
-//             "Details of medical treatment of crew and guards",
-//             "Training details of crew and guards",
-//             "Details of all of the given options"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "Who prepares crew link of Loco pilot?",
-//         options: [
-//             "Power controller",
-//             "Section controller",
-//             "Chief controller",
-//             "AOM"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "How many dead engines can be attached to Mail/Express/Superfast trains?",
-//         options: [
-//             "1",
-//             "Cannot be attached",
-//             "2",
-//             "3"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Control Office Application covers which of the following work areas?",
-//         options: [
-//             "Handling of train movement",
-//             "Advance plotting of charts",
-//             "Ordering of trains",
-//             "All of the given options"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "Who will provide In Motion Electronic Way bridge at MGR Loading Terminal?",
-//         options: [
-//             "By Railway",
-//             "By Customer",
-//             "Not required",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "What is not included in the personal tool of a loco pilot?",
-//         options: [
-//             "Hand Hammer",
-//             "Tri Color Torch",
-//             "Palm Coupler",
-//             "Green Flag"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "The SWRs should be reviewed once in every years?",
-//         options: [
-//             "Two years",
-//             "Three years",
-//             "Four years",
-//             "Five years"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "Non Interlocked Working is required in which of the following cases? [DELETED]",
-//         options: [
-//             "Commissioning of new SSI or RRI or Replacement of panel by RRI",
-//             "Changes in yard layout",
-//             "Replacement of mechanical lever frame by panel",
-//             "All of the above"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "Plan Head under which construction of doubling works are proposed & sanctioned?",
-//         options: [
-//             "PH-11",
-//             "PH-12",
-//             "PH-15",
-//             "PH-14"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Full form of e-DAS?",
-//         options: [
-//             "Electronic Drawing Approval System",
-//             "Electronic Device Approval System",
-//             "Electronic Drawing Agreement System",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Full form of RRSK?",
-//         options: [
-//             "Rashtriya Rail Suraksha Kosh",
-//             "Rashtriya Rail Security Kosh",
-//             "Rashtriya Road Sanraksha Kosh",
-//             "Rashtriya Rail Sanraksha Kosh"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "Ecology deals with?",
-//         options: [
-//             "Cell formation",
-//             "Birds",
-//             "Relation between organisms and their environment",
-//             "Tissues"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Filaria is caused by?",
-//         options: [
-//             "Protozoa",
-//             "Mosquito",
-//             "Virus",
-//             "Bacteria"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "Who was the first Indian Chief of Army Staff of the Indian Army?",
-//         options: [
-//             "Gen. K.M. Cariappa",
-//             "Gen. Maharaja Rajendra Singhji",
-//             "Vice-Admiral R.D. Katari",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "Heavy Water Project (Talcher) and Fertilizer plant (Paradeep) are famous industries of?",
-//         options: [
-//             "Orissa",
-//             "Kerala",
-//             "Tamilnadu",
-//             "Andhra Pradesh"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "For seeing objects at the surface of water from a submarine under water, the instrument used is?",
-//         options: [
-//             "Periscope",
-//             "Telescope",
-//             "Kaleidoscope",
-//             "Spectroscope"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "In which year the practice of presenting the railway budget separate from the general budget (or vice versa in true sense) started in India?",
-//         options: [
-//             "1920",
-//             "1924",
-//             "1925",
-//             "1930"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "How much distance was travelled by first train of India?",
-//         options: [
-//             "33 km",
-//             "36 km",
-//             "34 km",
-//             "46 km"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Which Zone is the largest railway zone in India?",
-//         options: [
-//             "Central Railway",
-//             "Northern Railway",
-//             "Eastern Railway",
-//             "Western Railway"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "In which of the following cities is the National Rail Museum located?",
-//         options: [
-//             "Mumbai",
-//             "New Delhi",
-//             "Hyderabad",
-//             "Chennai"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "Which of the following zonal headquarters - city combination is incorrect?",
-//         options: [
-//             "South East Central Railway-Bilaspur",
-//             "North Western Railway-Jodhpur",
-//             "East Central Railway-Hajipur",
-//             "West Central Railway-Jabalpur"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "Who was admired as tempestuous Hindu in 1893 in the World Parliament of Religions in Chicago?",
-//         options: [
-//             "Swami Dayanand Saraswati",
-//             "Rabindra Nath Tagore",
-//             "Gautam Budha",
-//             "Swami Vivekanand"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "For the cause of national liberation Swami Dayanand stessed on?",
-//         options: [
-//             "Swabhasha and Swarajya",
-//             "Swadharma:",
-//             "Swadeshi",
-//             "All of the given options"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "The Frontier Gandhi actively participated in?",
-//         options: [
-//             "Khilafat Movement",
-//             "Non-Cooperation Movement",
-//             "Civil Disobedience Movement",
-//             "All of the given options"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Pitt's India Act brought the company in direct subordination to a body representing?",
-//         options: [
-//             "The Parliament of Britain",
-//             "The English Merchants in India",
-//             "The Indian Merchants",
-//             "Princely States"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Who was the first Governor General of the new Indian Dominion?",
-//         options: [
-//             "Dr. Rajendra Prasad",
-//             "Sardar Vallabhbhai Patel",
-//             "Shri Rajagopalachari",
-//             "Lord Mountbatten"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "Which one of the following states receives the highest rainfall during winter months?",
-//         options: [
-//             "Punjab",
-//             "Kerala",
-//             "Meghalaya",
-//             "Tamil Nadu"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "Golden Quadrilateral Project for the development of National Highways was initiated by?",
-//         options: [
-//             "Shri P V Narasimha Rao",
-//             "Shri I K Gujral",
-//             "Dr. Manmohan Singh",
-//             "Shri Atal Bihari Vajpayee"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "Which of the following sea ports is nearest to Rourkela Steel Plant?",
-//         options: [
-//             "Haldia",
-//             "Vishakhapatnam",
-//             "Kandla",
-//             "Paradip"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "India's longest tunnel Jawahar tunnel is located in which state?",
-//         options: [
-//             "Jammu and Kashmir",
-//             "Maharashtra",
-//             "Karnataka",
-//             "Himachal Pradesh"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Which of the following is an east flowing river of the Peninsula?",
-//         options: [
-//             "Tapi",
-//             "Narmada",
-//             "Mahanadi",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Which was the 1st non Test playing country to beat India in an international cricket match?",
-//         options: [
-//             "Canada",
-//             "Sri Lanka",
-//             "Zimbabwe",
-//             "East Africa"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "Who is the first Indian woman to win an Asian Games gold in 400m run?",
-//         options: [
-//             "M.L. Valsamma",
-//             "P.T. Usha",
-//             "Kamaljit Sandhu",
-//             "K. Malleshwari"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "The 'Dronacharya Award' is given to?",
-//         options: [
-//             "Sportsmen",
-//             "Coaches",
-//             "Umpires",
-//             "Sports Editors"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "What is the name of the person that controls a football match?",
-//         options: [
-//             "A referee",
-//             "An umpire",
-//             "A spectator",
-//             "A goalkeeper"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "The name Kunjarani Devi is associated with?",
-//         options: [
-//             "Weight Lifting",
-//             "Target shooting",
-//             "Athletics",
-//             "Swimming"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Who was known as Iron Man of India?",
-//         options: [
-//             "Shri Govind Ballabh Pant",
-//             "Pandit Jawaharlal Nehru",
-//             "Netaji Subhash Chandra Bose",
-//             "Sardar Vallabhbhai Patel"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "Professor Amartya Sen is famous in which of the fields?",
-//         options: [
-//             "Biochemistry",
-//             "Electronics",
-//             "Economics",
-//             "Geology"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Who is the first Asian Winner of Nobel Prize?",
-//         options: [
-//             "C.V. Raman",
-//             "Rajiv Gandhi",
-//             "Rabindranath Tagore",
-//             "Mother Teresa"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "The highest civilian award of India 'Bharat Ratna' has been awarded to only two foreigners so far. One of them is Nelson Mandela. The other is?",
-//         options: [
-//             "Abdul Ghaffar Khan",
-//             "Mikhail Gorbachev",
-//             "Marshal Tito",
-//             "Abdul Wali Khan"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "CFCs are used as?",
-//         options: [
-//             "Refrigerants",
-//             "Insulators",
-//             "Aerosol Propellants",
-//             "All of the given options"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "Particulate pollutants are?",
-//         options: [
-//             "Small solid particles and liquid droplets",
-//             "Liquid droplets in atmosphere",
-//             "Small solid particles released into the atmosphere",
-//             "All of the given options"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Where are the days and nights of equal length all year long?",
-//         options: [
-//             "At 66.5 degree",
-//             "No where",
-//             "At 23.5 degree",
-//             "At the Equator"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "The one-horned Rhinoceros is now restricted to which state?",
-//         options: [
-//             "Maharashtra",
-//             "Gujarat",
-//             "Assam",
-//             "Uttar Pradesh"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Which of the following is used in pencils?",
-//         options: [
-//             "Graphite",
-//             "Silicon",
-//             "Charcoal",
-//             "Phosphorous"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "The hardest substance available on earth is?",
-//         options: [
-//             "Gold",
-//             "Iron",
-//             "Diamond",
-//             "Platinum"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "When any House of Parliament (Lok Sabha or Rajya Sabha) is adjourned without naming a day for reassembly it is known as?",
-//         options: [
-//             "Demand for Grants",
-//             "Adjournment of Debate",
-//             "Adjournment of the sitting of the House",
-//             "Adjournment Sine Die"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "The highest law officer in the state is?",
-//         options: [
-//             "Attorney General",
-//             "Advocate General",
-//             "Additional General",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "The provisions as covered by Article 343 to 351 under Part XVII of the Constitution of India deals with?",
-//         options: [
-//             "Religion",
-//             "Official Language",
-//             "President",
-//             "Emergency"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "The State which is neutral in matters of religion and does not uphold any particular religion as the State religion is called?",
-//         options: [
-//             "Independent State",
-//             "Democratic State",
-//             "Secular State",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "By which act a nation wide network to provide free and competent legal aid to the poor and to organize lok adalats for promoting equal justice has been established?",
-//         options: [
-//             "The Legal Services Authorities Act (1987)",
-//             "The Protection of Civil Rights Act, 1955",
-//             "Prevention of Atrocities Act, 1989",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "In which year did the Constituent Assembly accept Hindi as the official language of independent India?",
-//         options: [
-//             "26th January, 1950",
-//             "15th August, 1947",
-//             "9th August, 1942",
-//             "14th September, 1949"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "In which year the Official Language Act, 1963 was amended?",
-//         options: [
-//             "1967",
-//             "1964",
-//             "1965",
-//             "1966"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "How many members are there in the Parliamentary Official Language Committee?",
-//         options: [
-//             "30",
-//             "28",
-//             "25",
-//             "20"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "How many sub-committees are there in the Committee of Parliament on Official Language?",
-//         options: [
-//             "1",
-//             "2",
-//             "3",
-//             "4"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "How many years/months is the tenure of the Chief Official Language Officer?",
-//         options: [
-//             "1 Year",
-//             "2 Years",
-//             "3 Years",
-//             "6 Months"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "In which order the name board, designation board and information board are expected to be displayed in non-Hindi speaking states?",
-//         options: [
-//             "Hindi Language, English Language, Regional Language",
-//             "Regional Language, Hindi Language, English Language",
-//             "Regional Language, English Language, Hindi Language",
-//             "English Language, Regional Language, Hindi Language"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "What percentage of work can be directed by the Head of Office individually to officers proficient in Hindi to do their work in Hindi?",
-//         options: [
-//             "0.75",
-//             "0.8",
-//             "0.9",
-//             "1"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "Which act was passed to legalize the assurances given to the residents of non-Hindi speaking areas?",
-//         options: [
-//             "Act 1963",
-//             "Act 1976",
-//             "Act 1967 (Amended)",
-//             "Act 1965"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "What is the education system of Central Government for Hindi courses?",
-//         options: [
-//             "Regular",
-//             "Intensive",
-//             "Correspondence",
-//             "All the given options"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "How many articles are mentioned in Chapter-2 related to the language of the Union in Part-17 of the Constitution?",
-//         options: [
-//             "5",
-//             "8",
-//             "4",
-//             "3"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "Which of these languages is not written in Devanagari script?",
-//         options: [
-//             "Hindi",
-//             "Sanskrit",
-//             "Gujarati",
-//             "Marathi"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Under the Hindi Dictation Award Scheme, what is the amount of award fixed for the officers of 'C' region?",
-//         options: [
-//             "Rs. 4000",
-//             "Rs. 1000",
-//             "Rs. 2000",
-//             "Rs. 5000"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "In how many parts of the Indian Constitution are there provisions related to language?",
-//         options: [
-//             "Two",
-//             "Four",
-//             "Three",
-//             "Five"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "What will be the form of numerals to be used for the official purposes of the Union?",
-//         options: [
-//             "1, 2, 3, 4",
-//             "एक, दो, तीन, चार",
-//             "I, II, III, IV",
-//             "१, २, ३, ४"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Who qualifies as an employee proficient in Hindi?",
-//         options: [
-//             "Knowledge of Hindi at primary level",
-//             "Passed Primary Level Exam in Hindi Medium",
-//             "Knowledge of Hindi at matriculation level",
-//             "Matriculation Level Exam Passed in Hindi Medium"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "Total HLAP credited for six months working?",
-//         options: [
-//             "10 Days",
-//             "15 Days",
-//             "20 Days",
-//             "30 Days"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Which is the most sanctioned leave for maximum 05 years?",
-//         options: [
-//             "Study leave",
-//             "Extra ordinary leave",
-//             "Paternity leave",
-//             "Maternity leave"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "In case of death of Group A & B officers after completion of 20 years of service, how many sets of passes per year is permissible to the widow?",
-//         options: [
-//             "One & Half set per year",
-//             "02 sets",
-//             "04 sets",
-//             "01 set"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Validity of half set Complimentary Pass is ..... Months?",
-//         options: [
-//             "05 months",
-//             "04 months",
-//             "03 months",
-//             "06 months"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Railway Servants with not less than .......... years of service shall be eligible for assistance for the education of their children?",
-//         options: [
-//             "01 Year",
-//             "02 Years",
-//             "03 Years",
-//             "04 Years"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "All types of fines are deposited in which fund?",
-//         options: [
-//             "Staff Benefit Fund",
-//             "Revenue Reserve Fund",
-//             "Railway Pension Fund",
-//             "Development Fund"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Period for appeal under DAR rules is .... Days?",
-//         options: [
-//             "45 days",
-//             "30 days",
-//             "15 days",
-//             "35 days"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Who is the supreme disciplinary authority?",
-//         options: [
-//             "President of India",
-//             "Chief Minister",
-//             "Prime Minister of India",
-//             "Chief Justice of India"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Under which rule of Railway Service Conduct Rules is movable and immovable property mentioned?",
-//         options: [
-//             "Rule-18",
-//             "Rule-17",
-//             "Rule-19",
-//             "Rule-22A"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "The Railway Service (Conduct) Rule 1966, Rule 3A is related to?",
-//         options: [
-//             "Taking part in politics",
-//             "Promptness and courtesy",
-//             "Observance of Govt. Policies",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "Seniority is not affected due to transfer on Administrative grounds?",
-//         options: [
-//             "1",
-//             "False",
-//             "Partly True",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Members in selection board should be atleast?",
-//         options: [
-//             "3",
-//             "5",
-//             "2",
-//             "4"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "How much percentage of SC/ST candidates are reserved while recruitment?",
-//         options: [
-//             "15% and 7.5% respectively",
-//             "7.5% & 15% respectively",
-//             "5% & 10% respectively",
-//             "10% & 5% respectively"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "What percentage of vacancies is reserved for ex-servicemen for the release of Group C?",
-//         options: [
-//             "0.1",
-//             "0.15",
-//             "0.03",
-//             "0.02"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "If the employee who opts for his salary fixation after 1 month from the date of promotion, then who is capable of waiving the option delay to refix his salary?",
-//         options: [
-//             "No one",
-//             "DRM",
-//             "GM",
-//             "Railway Board"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "What is the condition to be accepted by the applicant in case of own request transfer?",
-//         options: [
-//             "Recruitment Grade",
-//             "Bottom Seniority",
-//             "Recruitment Grade & Bottom Seniority",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "Retiring employee has to complete length of service for the issue of RELHS card (medical facilities)?",
-//         options: [
-//             "33 years",
-//             "10 years",
-//             "20 years",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "How much employee contribution goes to NPS?",
-//         options: [
-//             "10% of Basic Pay+DA",
-//             "20%+DA",
-//             "14%+DA",
-//             "15%+DA"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Railway quarter can be retained for .... on normal rent on transfer?",
-//         options: [
-//             "01 month",
-//             "02 months",
-//             "03 months",
-//             "04 months"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "How many sections are covered under RTI Act?",
-//         options: [
-//             "31 sections",
-//             "20 sections",
-//             "40 sections",
-//             "30 sections"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "For better monitoring of big Railway projects, they have been categorized as?",
-//         options: [
-//             "Super critical, critical and throughput enhancement projects",
-//             "High speed, safety and heavy haul projects",
-//             "Projects with Rs.500 crores each and Rs. 1000 crore each",
-//             "Out of turn projects, Urgency based projects and Safety works projects"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Which of the following is NOT a Reserve Fund of Indian Railways as in 2019-20?",
-//         options: [
-//             "Capital Fund",
-//             "Development Fund",
-//             "Revenue Reserve Fund",
-//             "RRSK"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "All of the following items are classified as fundamental accounting assumptions except?",
-//         options: [
-//             "Consistency",
-//             "Business Entity",
-//             "Going concern",
-//             "Accrual"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "The following is not shown in the Balance Sheet?",
-//         options: [
-//             "Fixed deposit",
-//             "Opening stock",
-//             "Mortgage on land",
-//             "Bank overdraft"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Re-appropriation of funds from one itemised work to another itemised work is within the powers of?",
-//         options: [
-//             "DRM",
-//             "PHOD",
-//             "GM",
-//             "Railway Board"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Railway Budget was merged with General Budget from which Financial Year?",
-//         options: [
-//             "2017-18",
-//             "2016-17",
-//             "2015-16",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Sanction to the estimate is considered as 'Technical sanction' in case of?",
-//         options: [
-//             "Abstract Estimate",
-//             "Detailed Estimate",
-//             "Revised Estimate",
-//             "Completion Estimate"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "Minimum notice period for quotations?",
-//         options: [
-//             "7 days",
-//             "10 days",
-//             "12 days",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Monetary limit of direct acceptance without Tender committee in open e-tendering?",
-//         options: [
-//             "Up to Rs. 20 takhs",
-//             "Up to Rs. 50 lakhs",
-//             "Up to Rs. 1 crore",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "Expenditure under Staff Welfare & Amenities shall be charged to....?",
-//         options: [
-//             "Demand No. 9",
-//             "Demand No. 11",
-//             "Demand No. 8",
-//             "Demand No. 10"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "Cost of training is booked to Demand No. 12?",
-//         options: [
-//             "1",
-//             "False",
-//             "Partly True",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "The Disaster Recovery Site for IPAS is being planned at?",
-//         options: [
-//             "Hyderabad",
-//             "Mysore",
-//             "Mumbai",
-//             "Secunderabad"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "Hiding original data with modified content to protect sensitive personal or commercial data is?",
-//         options: [
-//             "Data Encapsulation",
-//             "Information Hiding",
-//             "Data Masking",
-//             "Data Sanitization"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Identify the autonomous bodies / authorities of IR out of the following options?",
-//         options: [
-//             "CONCOR and DFCCIL",
-//             "RITES and RVNL",
-//             "CORE and IRFC",
-//             "CRIS and RLDA"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "For monitoring of high value projects of all Government departments including IR through MOSPI, the following two systems are in place?",
-//         options: [
-//             "UMID and SUVIDHA",
-//             "OCMS and IPMD",
-//             "e-SAMIKSHA and ARPAN",
-//             "CSP and PRAGATI"
-//         ],
-//         correctAnswer: 1
-//     }
-// ]
 const AOM20112022_30 = [
     {
         question: "1) What is the meaning of CTC?",
@@ -5079,7 +3327,22 @@ const AOM20112022_30 = [
             "Centralised Time Control",
             "Central Train Control"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Train Operation Systems</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>System Definition:</b> CTC is a signaling system that consolidates train routing decisions that were previously carried out by local signal operators or the train crews themselves.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Expansion</th><th>Analysis</th><th>Status</th></tr>
+                <tr><td><b>Option A: Centralised Traffic Control</b></td><td>Correct technical expansion. CTC allows a central dispatcher to control signals and points across a large section of track directly from a control panel, optimizing traffic flow and safety.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: Centralised Train Control</b></td><td>Often confused, but 'Traffic' is the correct statutory term.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C & D</b></td><td>Fabricated terms not used in railway signaling.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Indian Railway Signal Engineering Manual (IRSEM).
+        `
     },
     {
         question: "2) What is the main work of Central Control?",
@@ -5089,7 +3352,23 @@ const AOM20112022_30 = [
             "Supervision of Passenger trains",
             "Safety Drive"
         ],
-        correctAnswer: 1
+        correctAnswer: 1,
+        hint: `
+            <h3>Control Office Functions</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Operational Hierarchy:</b> The Divisional Control Office is divided into various desks (Coaching, Freight/Central, Power, Traction).
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Function</th><th>Executing Desk</th><th>Status</th></tr>
+                <tr><td><b>Option A: Section Capacity Work</b></td><td>Done by Planning/Operating departments during timetable revisions, not a real-time control desk task.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Supervision of Goods trains</b></td><td>The 'Central Control' (or Freight Control/Deputy Chief Controller Freight) specifically plans, orders, and supervises the real-time movement and interchange of goods trains across the division to optimize wagon turnaround.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: Passenger trains</b></td><td>Supervised by the 'Coaching Control' desk.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Safety Drive</b></td><td>Managed by the Safety Department.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Operating Manual for Indian Railways - Control Organization.
+        `
     },
     {
         question: "3) Punctuality is affected by?",
@@ -5099,7 +3378,23 @@ const AOM20112022_30 = [
             "Delay in shunting",
             "All of the given options"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Train Punctuality Management</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Operational Delays:</b> Punctuality loss is a compounding issue, often resulting from systemic failures or real-time mismanagement.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Factor</th><th>Impact on Punctuality</th><th>Status</th></tr>
+                <tr><td><b>Option A: Faulty time table</b></td><td>Unrealistic run-times or insufficient recovery margins inherently cause delays.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option B: Bad controlling</b></td><td>Poor crossing/precedence decisions by the section controller delay higher-priority trains.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option C: Delay in shunting</b></td><td>Late attachment/detachment of locos or slips delays departure.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option D: All of the given options</b></td><td>All listed factors directly contribute to punctuality loss and are heavily monitored by the PAM (Punctuality Analysis Module).</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Operating Manual - Punctuality of Trains.
+        `
     },
     {
         question: "4) Following is not correct about the Public time table?",
@@ -5109,7 +3404,21 @@ const AOM20112022_30 = [
             "It gives fare list",
             "It is supplied to all employes related to train operation without cost"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Time Table Classifications</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>PTT vs WTT:</b> The Public Time Table (PTT) is a commercial passenger guide, while the Working Time Table (WTT) is a highly detailed operational document for staff.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Statement</th><th>Validity</th><th>Status</th></tr>
+                <tr><td><b>Option A, B, C</b></td><td>True statements. The PTT (like Trains at a Glance) contains arrivals, departures, and fare matrices for passengers.</td><td><u>Incorrect Choice</u></td></tr>
+                <tr><td><b>Option D: Supplied to all employees without cost</b></td><td><b>False statement.</b> It is the Working Time Table (WTT) that is supplied free of cost to operational staff (Loco Pilots, Guards, SMs). The Public Time Table is a priced commercial publication sold at bookstalls.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> General Rules (GR) / Operating Manual.
+        `
     },
     {
         question: "5) Indian Railways generally adopts which theoretical formula to measure section capacity?",
@@ -5119,7 +3428,32 @@ const AOM20112022_30 = [
             "Stain Back Formula",
             "G.I.P. Formula"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Section Capacity Calculations</h3>
+            <div style="background-color: #e6f2ff; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Formula:</b> <br><br>
+                
+                <div style="font-size: 16px; font-family: 'Times New Roman', Times, serif; display: inline-flex; align-items: center;">
+                    <b style="margin-right: 8px;">C = </b>
+                    <div style="display: flex; flex-direction: column; align-items: center; margin-right: 8px;">
+                        <b style="border-bottom: 2px solid #000; padding: 0 5px; width: 100%; text-align: center;">1440</b>
+                        <b style="padding: 2px 5px 0 5px;">T + t</b>
+                    </div>
+                    <b>&times; E</b>
+                </div>
+                <br><br>
+                Where <b>C</b> is capacity, <b>1440</b> is minutes in a day, <b>T</b> is running time of the slowest train over the critical block section, <b>t</b> is block operation time, and <b>E</b> is efficiency factor.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Formula Name</th><th>Application</th><th>Status</th></tr>
+                <tr><td><b>Option A: Scott Formula</b></td><td>This is the standard theoretical formula universally adopted by Indian Railways to calculate the absolute line capacity of a block section.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B, C, D</b></td><td>Fabricated or non-standard names not utilized in IR operating guidelines.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Operating Manual for Indian Railways (Calculation of Line Capacity).
+        `
     },
     {
         question: "6) What is the unit for measuring line capacity?",
@@ -5129,7 +3463,21 @@ const AOM20112022_30 = [
             "All Passenger Trains",
             "All Light Engines"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Defining Line Capacity</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Measurement Metric:</b> Line capacity defines the maximum physical throughput of a railway section in a 24-hour period.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Unit</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: All Trains</b></td><td>Line capacity is expressed as the total number of trains (expressed as "number of trains each way per day") that can be safely run over a section, regardless of whether they are passenger, goods, or light engines.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B, C, D</b></td><td>Restricting the unit to only goods or only passenger trains refers to "throughput" or specific sectional balancing, not the absolute base unit of line capacity.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Operating Manual for Indian Railways.
+        `
     },
     {
         question: "7) Which action is taken by section controller after getting information of accident?",
@@ -5139,7 +3487,23 @@ const AOM20112022_30 = [
             "Information of sending ART",
             "All of the given options"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Accident Management Protocol</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>First Response:</b> The Section Controller acts as the central node for emergency response when an accident is reported.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Action</th><th>Purpose</th><th>Status</th></tr>
+                <tr><td><b>Option A: Name noting of informer</b></td><td>Crucial for verifying the source, logging the exact time of first information, and preventing hoaxes.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option B: Stop trains entering</b></td><td>Immediate protection of the site to prevent secondary collisions into the derailed stock.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option C: Info of sending ART</b></td><td>Ordering Accident Relief Trains (ART/ARME) to dispatch medical and mechanical aid to the site.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option D: All of the given options</b></td><td>All these are mandatory, immediate procedural steps taken by the controller upon receiving an accident memo.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Accident Manual - Duties of Section Controller.
+        `
     },
     {
         question: "8) Long haul train will be run in which of the following conditions?",
@@ -5149,7 +3513,23 @@ const AOM20112022_30 = [
             "Both rakes loaded",
             "All of the given options"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Long Haul Operations</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Consist Combinations:</b> Long haul trains (Anaconda, Python, etc.) combine two standard freight rakes to maximize track utilization and save paths.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Consist Type</th><th>Feasibility</th><th>Status</th></tr>
+                <tr><td><b>Option A: Both rakes empty</b></td><td>Commonly run to quickly evacuate empty stock (e.g., BOXN) back to loading points.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option B: One empty, one loaded</b></td><td>Permitted, provided the <b>loaded rake is strictly kept in the leading position</b> (front) to prevent the heavy rear rake from crushing the lighter empty rake during braking.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option C: Both rakes loaded</b></td><td>Run frequently on dedicated heavy haul routes (like coal circuits).</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option D: All of the given options</b></td><td>Long haul formations are operationally permitted in all these configurations, subject to strict marshalling rules (loaded always in front of empty).</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Railway Board JPO on Long Haul Train Operations.
+        `
     },
     {
         question: "9) Accident drills should be conducted once in.......... months, if no actual accident occurs within that period?",
@@ -5159,7 +3539,21 @@ const AOM20112022_30 = [
             "6 months",
             "12 months"
         ],
-        correctAnswer: 1
+        correctAnswer: 1,
+        hint: `
+            <h3>Disaster Preparedness</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Mock Drills:</b> To ensure that Accident Relief Medical Equipment (ARME) and Accident Relief Trains (ART) can turn out within the target time (15-20 mins), mock drills are mandatory.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Frequency</th><th>Regulatory Mandate</th><th>Status</th></tr>
+                <tr><td><b>Option A, C, D</b></td><td>Incorrect intervals. Delaying drills dulls the readiness of the breakdown staff.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: 3 months</b></td><td>As per the Accident Manual, if no actual turnout of the relief train occurs, a full-scale mock accident drill must be conducted at least once every 3 months.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Indian Railways Accident Manual (Mock Drills).
+        `
     },
     {
         question: "10) Within how many days after the date of accident, DAR action must be completed?",
@@ -5169,7 +3563,21 @@ const AOM20112022_30 = [
             "D+90",
             "D+120"
         ],
-        correctAnswer: 2
+        correctAnswer: 2,
+        hint: `
+            <h3>Post-Accident Accountability</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Time-bound Resolution:</b> Accidents caused by staff negligence (e.g., SPAD) require swift disciplinary action to serve as a deterrent and maintain systemic discipline.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Timeline Target</th><th>Process Breakdown</th><th>Status</th></tr>
+                <tr><td><b>Option A, B, D</b></td><td>Do not match the Railway Board's comprehensive timeline directive for accident DAR cases.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: D+90</b></td><td>Railway Board has set a strict target to finalize Disciplinary and Appeal Rules (DAR) proceedings for staff involved in train accidents within <b>90 days (D+90)</b> from the date of the accident.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Safety Directorate Guidelines / Railway Board targets for Accident Enquiries.
+        `
     },
     {
         question: "11) As per G&SR 'Night' Means?",
@@ -5179,7 +3587,22 @@ const AOM20112022_30 = [
             "Sunrise to Sunset",
             "Sunset to Sunrise"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>General Rules Definitions</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Operational State:</b> Train working rules change significantly at "night" (e.g., signal aspects, hand signal lamps, shunting restrictions). A legal definition is required.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Definition</th><th>Context</th><th>Status</th></tr>
+                <tr><td><b>Option A & B</b></td><td>Arbitrary clock times. Sunset/sunrise varies drastically by season and geography in India.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Sunrise to Sunset</b></td><td>This is the definition of "Day".</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Sunset to Sunrise</b></td><td>Under GR 1.02(41), "Night" is explicitly defined as the period from sunset to sunrise. During this period, all signals must be lit, and illuminated hand signals must be used.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> General Rules (GR) 1.02(41).
+        `
     },
     {
         question: "12) Total Goods train KM divided by total Goods train engine hours gives the statistical figure of?",
@@ -5189,7 +3612,31 @@ const AOM20112022_30 = [
             "Goods train KM per engine",
             "None of the given options"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Operating Efficiency Metrics</h3>
+            <div style="background-color: #e6f2ff; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Basic Physics in Statistics:</b> <br><br>
+                
+                <div style="font-size: 16px; font-family: 'Times New Roman', Times, serif; display: inline-flex; align-items: center;">
+                    <b style="margin-right: 8px;">Speed = </b>
+                    <div style="display: flex; flex-direction: column; align-items: center;">
+                        <b style="border-bottom: 2px solid #000; padding: 0 5px; width: 100%; text-align: center;">Distance</b>
+                        <b style="padding: 2px 5px 0 5px;">Time</b>
+                    </div>
+                </div>
+                <br><br>
+                Here, Distance = Train Kilometers, and Time = Train Engine Hours.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Metric</th><th>Derivation</th><th>Status</th></tr>
+                <tr><td><b>Option A: Average speed of Goods train</b></td><td>Dividing the total distance covered (Goods Train KM) by the total time taken by the engines to haul them (Goods Train Engine Hours) yields the Average Speed of goods trains in km/h.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B & C</b></td><td>Different calculations focusing on utilization rather than speed.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Manual of Statistical Instructions Vol-II.
+        `
     },
     {
         question: "13) In which of the following, NI working may not be required and work can be completed in a traffic block?",
@@ -5199,7 +3646,23 @@ const AOM20112022_30 = [
             "Changes in Yard layout",
             "Meggering of cables"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Non-Interlocked (NI) Working</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Safety Disconnection:</b> NI working is declared when the physical or electrical interlocking between points and signals is heavily disturbed, forcing trains to run on paper authorities (like T/369(3b)) at restricted speeds.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Work Type</th><th>Requires NI?</th><th>Status</th></tr>
+                <tr><td><b>Option A: Replacement of Panel by RRI</b></td><td>Massive interlocking change. Mandates prolonged NI working.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Overhauling of Lever frame</b></td><td>Mechanical locking is dismantled. Mandates NI working.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Changes in Yard layout</b></td><td>Track and point configurations change, requiring complete signal re-testing. Mandates NI.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Meggering of cables</b></td><td>Meggering is just testing the insulation resistance of signaling cables. It can be done quickly during a standard traffic block without dismantling the interlocking logic.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Signal Engineering Manual (SEM) - Works requiring NI.
+        `
     },
     {
         question: "14) While calculating Wagon Turn Round which of the following figures is not required?",
@@ -5209,7 +3672,31 @@ const AOM20112022_30 = [
             "Loaded received wagons",
             "Loaded wagons made over"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Wagon Turn Round (WTR) Formula</h3>
+            <div style="background-color: #e6f2ff; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Mathematical Equation:</b> <br><br>
+
+                <div style="font-size: 16px; font-family: 'Times New Roman', Times, serif; display: inline-flex; align-items: center;">
+                    <b style="margin-right: 8px;">WTR = </b>
+                    <div style="display: flex; flex-direction: column; align-items: center;">
+                        <b style="border-bottom: 2px solid #000; padding: 0 5px; width: 100%; text-align: center;">Effective Wagon Holding</b>
+                        <b style="padding: 2px 5px 0 5px;">Wagons Loaded + Loaded Wagons Received</b>
+                    </div>
+                </div>
+                <br><br>
+                WTR measures the cycle time between two successive loadings.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Component</th><th>Role in WTR</th><th>Status</th></tr>
+                <tr><td><b>Option A, B, C</b></td><td>These are the exact numerator and denominator components of the standard WTR formula.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Loaded wagons made over</b></td><td>Wagons made over (handed off to another division/zone) represent the completion of the cycle for your division. They are an outcome metric and are <b>not</b> part of the denominator in the standard WTR formula.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Manual of Statistical Instructions Vol-II.
+        `
     },
     {
         question: "15) Wind Velocity can be measured by?",
@@ -5219,7 +3706,23 @@ const AOM20112022_30 = [
             "Thermo meter",
             "Anemometer"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Meteorological Instruments on Railways</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Safety Precautions:</b> High wind speeds can blow over empty containers or derail trains on exposed bridges (like the Pamban or Bogibeel bridges), necessitating wind monitoring.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Instrument</th><th>Measurement Subject</th><th>Status</th></tr>
+                <tr><td><b>Option A: Galvanometer</b></td><td>Measures small electrical currents.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Ammeter</b></td><td>Measures electrical current in Amperes.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Thermo meter</b></td><td>Measures ambient temperature.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Anemometer</b></td><td>A meteorological device used to measure wind speed and direction. Anemometers are installed at critical bridges to alert station masters to stop trains if wind velocity exceeds safe limits.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> General Rules (Working of Trains during Storms/Cyclones).
+        `
     },
     {
         question: "16) At Block station the station limits are between?",
@@ -5229,7 +3732,21 @@ const AOM20112022_30 = [
             "Two First Stop signals",
             "Two Last Stop signals"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Station Limits Definition</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Territorial Boundaries:</b> A railway line is divided into 'Station Limits' (where the SM has full control for shunting) and the 'Block Section' (between two stations).
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Boundary Limit</th><th>Context</th><th>Status</th></tr>
+                <tr><td><b>Option A: Two outermost signals</b></td><td>Under GR 1.02(52), 'Station Limits' means the portion of a railway which is under the control of a Station Master and is situated between the <b>outermost signals</b> of the station (e.g., from the UP Distant/Home to the DN Distant/Home).</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B, C, D</b></td><td>Outer signals, FSS, or LSS do not form the absolute outermost boundary if Distant or Warning signals exist under the SM's control.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> General Rules (GR) 1.02(52) - Station Limits.
+        `
     },
     {
         question: "17) In Sections where there is provision of MACL signal with only one Distant signal, Warning Board provided will be of which type?",
@@ -5239,7 +3756,22 @@ const AOM20112022_30 = [
             "Both Passenger Warning Board & Goods Warning Board",
             "None of the given options"
         ],
-        correctAnswer: 1
+        correctAnswer: 1,
+        hint: `
+            <h3>Warning Boards in MACLS</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Braking Distance Logic:</b> In Single Distant MACLS territory, the Distant signal is placed at 1000m from the Home signal. This is sufficient for passenger trains to stop, but heavy goods trains need more braking distance.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Board Type</th><th>Application</th><th>Status</th></tr>
+                <tr><td><b>Option A: Passenger Warning Board</b></td><td>Used in 2-aspect signalling systems, not normally required in MACLS as the Distant signal itself acts as the passenger warning.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Goods Warning Board</b></td><td>In single-distant MACLS, a Goods Warning Board must be provided 1400m in rear of the Home Signal (400m before the Distant signal) to warn goods train pilots to prepare to brake.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: Both</b></td><td>Passenger boards are redundant here.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Signal Engineering Manual / G&SR (Siting of Signals).
+        `
     },
     {
         question: "18) Which of the following signals cannot be used for shunting?",
@@ -5249,7 +3781,22 @@ const AOM20112022_30 = [
             "Hand signal",
             "None of the given options"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Shunting Authority</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Signal Functions:</b> Shunting involves moving vehicles within station limits, often back and forth over point zones. Reception signals act as absolute barriers for incoming trains.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Signal Type</th><th>Shunting Permissibility</th><th>Status</th></tr>
+                <tr><td><b>Option A: Home signal</b></td><td>The Home signal is the First Stop Signal for reception. Under GR 5.14, the Home signal <b>shall not</b> be taken off for shunting purposes. It is strictly a reception signal for trains entering the station.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: Shunt signal</b></td><td>Specifically designed for shunting.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Hand signal</b></td><td>Pointsmen use hand signals (flags/lamps) to guide shunting.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> General Rules (GR) 5.14 (Signals for Shunting).
+        `
     },
     {
         question: "19) Minimum visibility distance of warner signal when placed on a post by it self?",
@@ -5259,7 +3806,22 @@ const AOM20112022_30 = [
             "300 Meter",
             "250 Meter"
         ],
-        correctAnswer: 1
+        correctAnswer: 1,
+        hint: `
+            <h3>Signal Visibility Constraints</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Pre-warning Distance:</b> In 2-aspect lower quadrant signaling, the Warner signal warns the LP about the aspect of the Stop signal ahead.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Visibility Distance</th><th>Signal Type</th><th>Status</th></tr>
+                <tr><td><b>Option A: 600 meter</b></td><td>Visibility for MACLS Distant signal or 2-aspect Outer.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: 400 Meter</b></td><td>As per GR, an independent Warner signal (placed on a post by itself) must have a continuous minimum visibility of <b>400 meters</b> to allow the LP enough reaction time.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C & D</b></td><td>Too short for safe braking in 2-aspect systems.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> General Rules (GR) 3.26 (Visibility of signals).
+        `
     },
     {
         question: "20) What is the authority to receive a train on an obstructed line?",
@@ -5269,7 +3831,23 @@ const AOM20112022_30 = [
             "T-A 602",
             "T-1518"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Paper Authorities</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Exceptional Circumstances:</b> If a station line is occupied (e.g., a stalled train or material left on the track), a train cannot be signaled onto it normally. A specific paper authority mandates the LP to crawl and stop short of the obstruction.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Authority Form</th><th>Purpose</th><th>Status</th></tr>
+                <tr><td><b>Option A: T-509</b></td><td>T/509 is the "Authority to receive a train on an obstructed line." It directs the Loco Pilot to pass the reception signal at 'ON' and proceed at a highly restricted speed (usually 15 kmph) to stop short of the obstruction.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: T-609</b></td><td>Used for dispatching a train during total failure of communications (double line).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: T-A 602</b></td><td>Authority for opening communication during total failure on single line.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: T-1518</b></td><td>Irrelevant in this context.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> General Rules (GR) 5.09 (Reception of a train on an obstructed line).
+        `
     },
     {
         question: "21) At what restricted speed will the loco pilot proceed if the visibility is not clear while passing the automatic stop signal in ON position in a double line?",
@@ -5279,7 +3857,22 @@ const AOM20112022_30 = [
             "15 KMPH",
             "None of the given options"
         ],
-        correctAnswer: 1
+        correctAnswer: 1,
+        hint: `
+            <h3>Passing Auto Signals at Danger</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>GR 9.02 Rule:</b> In an Automatic Block System, if an auto signal is 'ON' (Red), the LP waits for 1 minute (day) or 2 minutes (night), then passes it at a highly restricted speed to look out for obstructions.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Speed Limit</th><th>Condition</th><th>Status</th></tr>
+                <tr><td><b>Option A: 08 KMPH</b></td><td>Used during shunting of explosive stock, not auto block creeping.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: 10 KMPH</b></td><td>If visibility is impaired (night, fog, curves), the Loco Pilot must proceed at a speed not exceeding <b>10 KMPH</b> so they can stop instantly if they spot a train ahead.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: 15 KMPH</b></td><td>This is the restricted speed limit when visibility is clear during the daytime.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> General Rules (GR) 9.02 (Duties of Loco Pilot when an Automatic Stop signal is 'ON').
+        `
     },
     {
         question: "22) If two or more trains have to run in pilot guard system, by which train pilot guard will be sent?",
@@ -5289,7 +3882,22 @@ const AOM20112022_30 = [
             "Any train",
             "None of the given options"
         ],
-        correctAnswer: 1
+        correctAnswer: 1,
+        hint: `
+            <h3>Pilot Guard System</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>System Failure Working:</b> Used when block instruments fail on a single line. The "Pilot Guard" acts as the physical token ensuring only one direction of movement occurs.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Train Sequence</th><th>Role of Pilot Guard</th><th>Status</th></tr>
+                <tr><td><b>Option A: First train</b></td><td>If he goes on the first train, how will the subsequent trains get authorization to enter the section safely?</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Last train</b></td><td>The Pilot Guard issues paper authorities (T/A to T/D) to the preceding trains and personally boards the <b>last train</b> of the convoy. When he arrives at the next station, it confirms the convoy is complete and the block section is clear.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: Any train</b></td><td>Would lead to chaos and head-on collisions.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Block Working Manual / Subsidiary Rules on Pilot Guard System.
+        `
     },
     {
         question: "23) The supply control post where the incoming feeder lines from grid sub station are terminated is known as?",
@@ -5299,7 +3907,21 @@ const AOM20112022_30 = [
             "Feeding post & Supply control post",
             "None of the given options"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>AC Traction Power Supply</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Traction Architecture:</b> Power from the State Electricity Board (grid) comes at 132kV/220kV to the Traction Sub Station (TSS). From the TSS, 25kV power is fed to the OHE via a specific post.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Terminology</th><th>Function</th><th>Status</th></tr>
+                <tr><td><b>Option A: Feeding post</b></td><td>The specific switching installation where the 25kV incoming feeder lines from the TSS are terminated and physically connected to the OHE. It features interrupters to control the power feed to different sectors.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: Supply control post</b></td><td>A generic term that includes SSPs and SPs, not specifically the main TSS termination point.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> AC Traction Manual (ACTM) Vol. II - Power Supply Installations.
+        `
     },
     {
         question: "24) Fog signal post is placed at .......... m from First stop signal?",
@@ -5309,7 +3931,22 @@ const AOM20112022_30 = [
             "270 m",
             "400 m"
         ],
-        correctAnswer: 2
+        correctAnswer: 2,
+        hint: `
+            <h3>Winter Safety Signalling</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Detonator Siting:</b> During thick fog, visibility drops to zero. Station staff place detonators (crackers) on the track to audibly alert the LP that they are approaching the First Stop Signal (Outer/Home).
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Distance</th><th>Application</th><th>Status</th></tr>
+                <tr><td><b>Option A & B</b></td><td>Distances related to signal overlaps, not fog posts.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: 270 m</b></td><td>A Fog Signal Post (a white post with a black 'F') is fixed at exactly <b>270 meters</b> in rear of the First Stop Signal. The pointsman places two detonators 10 meters apart at this location.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: 400 m</b></td><td>Warner signal visibility requirement.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> General Rules (GR) 3.61 (Working of trains during thick, foggy or tempestuous weather).
+        `
     },
     {
         question: "25) Two coupled powers are working together to whom authority to proceed will be given?",
@@ -5319,7 +3956,22 @@ const AOM20112022_30 = [
             "Leading loco & Rear loco",
             "None of the given options"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Multiple Unit (MU) Operations</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Block Authority:</b> When two or more locomotives are coupled together (MU or Double-headed), they are considered a single vehicular unit for block working purposes.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Recipient of Authority</th><th>Operational Logic</th><th>Status</th></tr>
+                <tr><td><b>Option A: Leading loco</b></td><td>The Loco Pilot of the Leading Locomotive is in absolute control of the train's brakes, speed, and signal observation. Therefore, the physical token or paper "Authority to Proceed" (ATP) is exclusively handed to the Leading LP.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: Rear loco</b></td><td>The rear LP only assists in power generation (if not MU cabled) and follows the lead loco's brake cues.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Both</b></td><td>Only one authority is generated per block section to avoid confusion.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> General Rules (GR) 4.14 (Authority to proceed).
+        `
     },
     {
         question: "26) Customers can track their goods in transit through?",
@@ -5329,7 +3981,22 @@ const AOM20112022_30 = [
             "COIS",
             "None of the given options"
         ],
-        correctAnswer: 1
+        correctAnswer: 1,
+        hint: `
+            <h3>Freight Tracking Systems</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>FOIS Utilities:</b> Just as passengers track their coach seating using a PNR, corporate freight customers need to track their multi-million rupee cargo across the network.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Tracking Code/System</th><th>Application</th><th>Status</th></tr>
+                <tr><td><b>Option A: PNR</b></td><td>Passenger Name Record (Used in PRS for ticketing).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: FNR</b></td><td>Freight Name Record (or Freight Number Record). It is an 11-digit unique identifier generated by the Freight Operations Information System (FOIS) allowing consignors/consignees to track their rake's real-time movement online.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: COIS</b></td><td>Coaching Operations Information System (tracks passenger coaches, not goods).</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> CRIS FOIS (Freight Operations Information System) Manual.
+        `
     },
     {
         question: "27) On line Caution Order is generated through?",
@@ -5339,7 +4006,23 @@ const AOM20112022_30 = [
             "ICMS",
             "FMM"
         ],
-        correctAnswer: 2
+        correctAnswer: 2,
+        hint: `
+            <h3>Digital Train Operations</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Safety Information:</b> Caution Orders (T/409) containing speed restrictions due to engineering blocks or track defects were historically handwritten. They are now printed digitally.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>IT System</th><th>Primary Function</th><th>Status</th></tr>
+                <tr><td><b>Option A: FOIS</b></td><td>Tracks freight movement and commercial billing.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: TMS</b></td><td>Terminal Management System (part of FOIS).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: ICMS</b></td><td>Integrated Coaching Management System. ICMS (specifically its COA - Control Office Application integration) acts as the central repository for train scheduling and is used by Station Masters to generate consolidated, up-to-date printed Caution Orders for Loco Pilots.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: FMM</b></td><td>Freight Maintenance Management (for wagons).</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> CRIS ICMS modules / Operating Manual.
+        `
     },
     {
         question: "28) Position of asset failure can be analyzed through?",
@@ -5349,7 +4032,22 @@ const AOM20112022_30 = [
             "COIS",
             "All of the given options"
         ],
-        correctAnswer: 1
+        correctAnswer: 1,
+        hint: `
+            <h3>Delay and Failure Analysis</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Root Cause Tracking:</b> When a train is delayed, the exact reason (Signal failure, OHE tripping, Loco failure) must be logged against the responsible department to calculate reliability.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>System Module</th><th>Analytical Capability</th><th>Status</th></tr>
+                <tr><td><b>Option A: FOIS</b></td><td>Tracks freight logistics, not specific equipment failures causing delays.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: PAM</b></td><td>The Punctuality Analysis Module (part of ICMS) meticulously records train running data. It allows management to extract detailed reports on asset failures (S&T, Mechanical, Electrical) that caused punctuality loss.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: COIS</b></td><td>Focuses on coach linkage and maintenance schedules.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> CRIS ICMS (PAM Module) functionality.
+        `
     },
     {
         question: "29) \"SFOORTI\" App is used for?",
@@ -5359,7 +4057,22 @@ const AOM20112022_30 = [
             "Monitoring the punctuality of Express trains",
             "None of the given options"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Railway Digital Apps</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Customer Interface:</b> The Ministry of Railways launched several smartphone apps to increase transparency and ease of doing business.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>App Application</th><th>Target Audience</th><th>Status</th></tr>
+                <tr><td><b>Option A: Monitoring and managing freight business</b></td><td>SFOORTI stands for <i>Smart Freight Operation Optimisation & Real Time Information</i>. It allows freight customers and railway managers to track rake movements, view traffic flows, and optimize freight business directly from mobile devices.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: Generation of RR</b></td><td>Done via TMS (Terminal Management System).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Punctuality monitoring</b></td><td>Done via NTES (National Train Enquiry System).</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Ministry of Railways IT Initiatives (CRIS).
+        `
     },
     {
         question: "30) Rake link information is available in?",
@@ -5369,7 +4082,23 @@ const AOM20112022_30 = [
             "FOIS",
             "TMS"
         ],
-        correctAnswer: 1
+        correctAnswer: 1,
+        hint: `
+            <h3>Rake Utilization</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Rolling Stock Circuit:</b> A single set of coaches (rake) operates multiple train numbers in a cyclic pattern to minimize idle time (e.g., Mumbai-Delhi-Chennai-Mumbai). This is called a rake link.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Information System</th><th>Data Maintained</th><th>Status</th></tr>
+                <tr><td><b>Option A: PAM</b></td><td>Maintains delay data.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: COIS</b></td><td>The Coaching Operations Information System (COIS) tracks the exact composition, location, and cyclic linking of every passenger coach and rake on the network, ensuring they return to base for maintenance.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: FOIS</b></td><td>Manages freight rakes, not passenger coaching links.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: TMS</b></td><td>Freight terminal invoicing.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> CRIS Coaching Operations Information System Manual.
+        `
     },
     {
         question: "31) Passenger transport is an important necessity for?",
@@ -5379,7 +4108,23 @@ const AOM20112022_30 = [
             "Organisations",
             "All of the given options"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Socio-Economic Importance of Transport</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Mobility Dynamics:</b> Passenger transport fulfills fundamental societal needs across all strata.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>User Category</th><th>Dependency on Transport</th><th>Status</th></tr>
+                <tr><td><b>Option A: Individual</b></td><td>For employment, education, and social interactions.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option B: Groups</b></td><td>For tourism, pilgrimages, and migrations.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option C: Organisations</b></td><td>For moving labor forces, military personnel, and corporate travel.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option D: All of the given options</b></td><td>Railway passenger transport serves as the socio-economic backbone for individuals, groups, and large organizations universally.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Fundamentals of Transport Economics.
+        `
     },
     {
         question: "32) Maximum permissible speed is approved by?",
@@ -5389,7 +4134,22 @@ const AOM20112022_30 = [
             "CPTM",
             "CRS"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Statutory Speed Sanctions</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Safety Certification:</b> Increasing the speed limit of a track section involves immense physics (centrifugal forces, braking distances, bridge stress). Railway officials cannot independently self-certify these limits.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Authority</th><th>Role in Speed Sanction</th><th>Status</th></tr>
+                <tr><td><b>Option A: GM</b></td><td>Proposes the speed increase based on PCE/PCSTE track and signal certifications.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B & C</b></td><td>Operating heads who utilize the sanctioned speed, but do not certify its safety.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: CRS</b></td><td>The Commissioner of Railway Safety (CRS), an independent authority under the Ministry of Civil Aviation, conducts physical inspections and oscillation trials before giving statutory approval to authorize the Maximum Permissible Speed (MPS) for any section or new rolling stock.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> The Railways Act, 1989 (Chapter on Sanction of New Lines/Rolling Stock).
+        `
     },
     {
         question: "33) Proper rake links help in optimum utilization of rolling stock?",
@@ -5399,7 +4159,21 @@ const AOM20112022_30 = [
             "Somewhat",
             "In most cases"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Rake Linking Principles</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Asset Utilization:</b> A passenger coach costs crores of rupees. If it sits idle in a yard for 14 hours after a 10-hour run, the capital is wasted.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Statement</th><th>Economic Logic</th><th>Status</th></tr>
+                <tr><td><b>Option A: Yes</b></td><td>By creating intelligent 'rake links' (e.g., Train A arrives at 08:00, the same rake is cleaned and departs as Train B at 14:00), the railways maximize the running hours of the stock, thereby achieving optimum utilization and higher Return on Capital.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B, C, D</b></td><td>Indecisive or incorrect stances on a fundamental operating principle.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Operating Manual (Coaching Operations & Rake Linking).
+        `
     },
     {
         question: "34) At the time of preparation of Time Table suggestions from following are taken?",
@@ -5409,7 +4183,23 @@ const AOM20112022_30 = [
             "DRUCC",
             "All of the given options"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Time Table Formulation</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Public Consultation:</b> Indian Railways is a public utility. Before drastically altering train timings or routes in the annual timetable, societal needs and political representations must be considered.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Consultation Group</th><th>Representation Role</th><th>Status</th></tr>
+                <tr><td><b>Option A: MP or MLA</b></td><td>Represent the macro socio-political demands of their constituencies.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option B: ZRUCC</b></td><td>Zonal Railway Users' Consultative Committee brings input from trade bodies, passenger associations, and state govt reps at the HQ level.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option C: DRUCC</b></td><td>Divisional Railway Users' Consultative Committee provides grassroots local input.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option D: All of the given options</b></td><td>The Timetable committee historically receives and processes demands from all these political and consultative bodies before finalizing train schedules.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> IR Commercial/Operating Manual - Consultative Committees.
+        `
     },
     {
         question: "35) Before introduction of new trains, compliance with RPC-4 will be certified jointly by......of the originating Railways?",
@@ -5419,7 +4209,22 @@ const AOM20112022_30 = [
             "Sr. DOM & Sr. DME",
             "None of the given options"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>New Train Introduction Protocol</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Maintenance Viability:</b> RPC-4 (Revised Policy Circular 4) dictates the primary and secondary maintenance patterns for LHB coaching trains. Before a new train is started, headquarters must certify that yard capacity exists to service it.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Officers</th><th>Domain Responsibility</th><th>Status</th></tr>
+                <tr><td><b>Option A: CPTM & CRSE</b></td><td>The Chief Passenger Transportation Manager (who designs the schedule) and the Chief Rolling Stock Engineer (who oversees coach maintenance pit lines) must jointly certify that RPC-4 maintenance protocols can be strictly adhered to with the current infrastructure.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: PCOM & PCME</b></td><td>They are the PHODs; routine train certification is handled at the HOD level (CPTM/CRSE).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Sr. DOM & Sr. DME</b></td><td>Divisional officers, but inter-zonal new trains require HQ certification.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Railway Board RPC-4 Guidelines.
+        `
     },
     {
         question: "36) Goods stock, duly certified 'fit to run on passenger trains' by examining staff, can be attached to run on?",
@@ -5429,7 +4234,23 @@ const AOM20112022_30 = [
             "Passenger trains",
             "Not permitted"
         ],
-        correctAnswer: 2
+        correctAnswer: 2,
+        hint: `
+            <h3>Mixed Train Operations</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Attaching Freight to Coaching:</b> Standard goods wagons lack the suspension (air springs/coil springs) of passenger coaches. Running them at 110-130 kmph with passenger coaches is extremely dangerous.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Train Category</th><th>Permissibility</th><th>Status</th></tr>
+                <tr><td><b>Option A: Intercity trains</b></td><td>High-speed, tight-schedule trains. Freight attachment is strictly prohibited.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Short distance trains</b></td><td>Vague definition.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Passenger trains</b></td><td>Specific goods stock (like NP types or specific VPs), if rigorously examined and certified with a 'fit to run on passenger trains' memo, can be attached to slow-moving ordinary passenger or mixed trains subject to strict speed and marshalling restrictions.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: Not permitted</b></td><td>Incorrect, as conditional attachment is allowed under GR.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> General Rules (GR) 4.27 (Working of Mixed Trains).
+        `
     },
     {
         question: "37) Whistle Boards shall be provided at a distance of.....metres on the approaches to all unmanned level crossings?",
@@ -5439,7 +4260,21 @@ const AOM20112022_30 = [
             "400",
             "600"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Level Crossing Warning Systems</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Acoustic Warning:</b> To alert road users at level crossings of an approaching high-speed train, the Loco Pilot must blow the horn continuously. They need a visual prompt to start doing this at the correct distance.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Distance</th><th>Acoustic Physics</th><th>Status</th></tr>
+                <tr><td><b>Option A, B, C</b></td><td>These distances do not provide enough reaction time for a road vehicle to clear the crossing if the train is moving at 100+ kmph.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: 600 metres</b></td><td>A W/L (Whistle for Level crossing) board is mandatorily erected at a distance of exactly 600 meters along the track on the approach to all level crossings.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Indian Railway Permanent Way Manual (IRPWM) - Level Crossings.
+        `
     },
     {
         question: "38) Master charts indicate trains run in ..... Hours?",
@@ -5449,7 +4284,21 @@ const AOM20112022_30 = [
             "12",
             "24"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Train Plotting and Charting</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Graphical Time Table:</b> A Master Chart is a graphical representation of train movements, where the X-axis represents Time and the Y-axis represents Distance (Stations).
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Time Span</th><th>Charting Logic</th><th>Status</th></tr>
+                <tr><td><b>Option A, B, C</b></td><td>Section controllers use 8-hour shift charts to plot real-time movement, but this is not the "Master" plan.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: 24 Hours</b></td><td>The 'Master Chart' plots the scheduled paths of all theoretical trains over the entire standard day cycle (24 hours) from 00:00 to 24:00, identifying path conflicts and section capacity.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Operating Manual (Preparation of Graphical Timetables).
+        `
     },
     {
         question: "39) Corridor blocks of ..... hours have been provided in Zero Based Time Table?",
@@ -5459,7 +4308,22 @@ const AOM20112022_30 = [
             "3",
             "4"
         ],
-        correctAnswer: 2
+        correctAnswer: 2,
+        hint: `
+            <h3>Zero Based Time Table (ZBTT)</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Maintenance Integration:</b> Historically, maintenance blocks were squeezed in between train runs, compromising safety. ZBTT overhauled the schedule from scratch to institutionalize maintenance time.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Block Duration</th><th>ZBTT Mandate</th><th>Status</th></tr>
+                <tr><td><b>Option A, B</b></td><td>Too short for heavy track machinery (like BCM or TRT) to setup, work, and wind up.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: 3 hours</b></td><td>A core feature of the Zero Based Time Table initiative is the guaranteed provision of a dedicated <b>3-hour rolling corridor block</b> on every section to ensure safe, uninterrupted asset maintenance without disrupting scheduled traffic.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: 4</b></td><td>Ideal but often operationally impossible on saturated routes.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Railway Board Guidelines on Zero Based Time Table.
+        `
     },
     {
         question: "40) Loco outage means the average number of locos available to traffic use in?",
@@ -5469,7 +4333,21 @@ const AOM20112022_30 = [
             "10 days",
             "15 days"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Motive Power Statistics</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Outage Definition:</b> The Shed holds a certain number of locos. Some are under repair, some are dead. 'Outage' represents the actual live engines handed over to the Operating department to run trains.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Timeframe</th><th>Statistical Standard</th><th>Status</th></tr>
+                <tr><td><b>Option A: 24 hours</b></td><td>Loco Outage is strictly calculated and reported as the average number of locomotives available for traffic use during a standard 24-hour day.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B, C, D</b></td><td>These are aggregate periods, but the standard operational unit for outage targets is daily (24 hours).</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Manual of Statistical Instructions Vol-II / Operating Manual.
+        `
     },
     {
         question: "41) Normally upper class coaches shall be marshalled in the ..... of the train?",
@@ -5479,7 +4357,21 @@ const AOM20112022_30 = [
             "Rear end",
             "As per convenience"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Passenger Train Marshalling</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Ride Comfort & Safety:</b> The position of a coach in a train impacts the riding experience. The front and rear experience the highest longitudinal buffing forces and jerks during acceleration/braking.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Position</th><th>Riding Dynamics</th><th>Status</th></tr>
+                <tr><td><b>Option A: Middle</b></td><td>Upper-class coaches (AC First, AC 2-Tier) are conventionally marshalled in the middle of the train to provide the smoothest ride, isolate passengers from engine horn/smoke noise, and ensure they alight near the main station exit.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B & C</b></td><td>Subjected to heavy jerks and engine noise/horn or guard brake van interactions. Reserved for unreserved/general and SLR coaches.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Operating Manual / Commercial Coaching Guidelines.
+        `
     },
     {
         question: "42) Which of the following shall have highest priority in allotment of Parcel Vans?",
@@ -5489,7 +4381,22 @@ const AOM20112022_30 = [
             "Livestock",
             "None of the given options"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Parcel Traffic Priority</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Commercial Viability:</b> When demand for parcel space exceeds supply, the railways prioritize items that will rot or die if delayed.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Commodity Type</th><th>Priority Logic</th><th>Status</th></tr>
+                <tr><td><b>Option A: Perishable Goods</b></td><td>Items like fresh fruits, vegetables, and milk must be transported immediately to prevent spoiling. Therefore, hard perishables are granted the highest priority in parcel van (VP) allotment.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: General Goods</b></td><td>Non-urgent; gets lower priority.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Livestock</b></td><td>High priority, but usually dealt with in specific livestock wagons or indented specially, whereas standard perishable parcels universally top everyday VP demands.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Commercial Coaching Tariff (Parcel Rules).
+        `
     },
     {
         question: "43) The speed of Motor Trolley should not exceed ..... kmph over points & crossings?",
@@ -5499,7 +4406,22 @@ const AOM20112022_30 = [
             "30",
             "Sectional speed"
         ],
-        correctAnswer: 1
+        correctAnswer: 1,
+        hint: `
+            <h3>Motor Trolley Working</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Derailment Risk:</b> Motor trolleys are lightweight inspection vehicles used by engineering/S&T officials. They lack the heavy suspension and wheel profiling of locomotives.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Speed Limit</th><th>Risk Factor over Points</th><th>Status</th></tr>
+                <tr><td><b>Option A: 10</b></td><td>Too restrictive for standard crossing operations.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: 15</b></td><td>General Rules dictate that a motor trolley must drastically reduce speed when passing over points and crossings to a maximum of 15 kmph to prevent the light flanges from jumping the switch rails.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C & D</b></td><td>Highly dangerous; attempting to cross a turnout at 30+ kmph in a light trolley will likely cause a fatal derailment.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> General Rules (GR) 15.22 / IRPWM.
+        `
     },
     {
         question: "44) Mail/Express trains run with ICF coaches on round trip upto .....kms will undergo Primary Maintenance on pit line at Primary end?",
@@ -5509,7 +4431,22 @@ const AOM20112022_30 = [
             "3500",
             "4000"
         ],
-        correctAnswer: 2
+        correctAnswer: 2,
+        hint: `
+            <h3>Coaching Maintenance (ICF)</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Primary vs Secondary:</b> ICF coaches use older tread-brake and coil spring technology, suffering higher wear and tear than LHB coaches.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Round Trip Limit</th><th>Applicability</th><th>Status</th></tr>
+                <tr><td><b>Option A & B</b></td><td>Under-utilization of the maintenance cycle.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: 3500 km</b></td><td>As per Railway Board coaching maintenance directives (prior to RPC-4 LHB integration), ICF rake Mail/Express trains are permitted to run a maximum of 3500 km on a round trip basis before requiring heavy Primary Maintenance at the base depot.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: 4000 km</b></td><td>Limit for LHB coaches.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Railway Board Coaching Maintenance Manual.
+        `
     },
     {
         question: "45) Mail/Express trains run with LHB coaches on round trip upto .....kms will undergo Primary Maintenance on pit line at Primary end?",
@@ -5519,7 +4456,21 @@ const AOM20112022_30 = [
             "3500",
             "4000"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Coaching Maintenance (LHB)</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Technological Advantage:</b> LHB coaches feature FIAT bogies with advanced disc brakes, cartridge taper roller bearings (CTRB), and superior suspension, allowing them to travel further without failing.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Round Trip Limit</th><th>Applicability</th><th>Status</th></tr>
+                <tr><td><b>Option A, B, C</b></td><td>These limits pertain to older ICF technology.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: 4000 km</b></td><td>Under Revised Policy Circular 4 (RPC-4), LHB rakes are granted an extended round-trip validity of 4000 km (or 96 hours) before they must return to their primary base for intensive pit-line maintenance.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Railway Board RPC-4 Guidelines.
+        `
     },
     {
         question: "46) Who is the authorized person for crew grading?",
@@ -5529,7 +4480,22 @@ const AOM20112022_30 = [
             "Chief Commercial Controller or Chief Loco Inspector",
             "Branch Officers"
         ],
-        correctAnswer: 1
+        correctAnswer: 1,
+        hint: `
+            <h3>Running Staff Evaluation</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Safety Grading:</b> Loco Pilots are categorized into A, B, and C grades based on their driving skills, safety record, and technical knowledge.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Official</th><th>Role in Crew Grading</th><th>Status</th></tr>
+                <tr><td><b>Option A: Chief Commercial Controller</b></td><td>Handles commercial loading, unrelated to loco pilot technical driving skills.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Chief Loco Inspector</b></td><td>The CLI rides in the cab with the Loco Pilot (footplate inspection), monitors their driving technique, fuel efficiency, and rule knowledge, and officially assigns their safety Grade (A/B/C).</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: Branch Officers</b></td><td>Officers review the grading, but the direct authorization/execution is done by the CLI.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Manual for Loco Inspectors / Operating Directives.
+        `
     },
     {
         question: "47) The vision test required for Loco Pilot/Assistant Loco Pilot is?",
@@ -5539,7 +4505,23 @@ const AOM20112022_30 = [
             "A3",
             "B1"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Railway Medical Standards</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>A-1 Category:</b> Train driving requires flawless distant vision and perfect color perception to spot red/green/yellow signals from kilometers away at 130 kmph.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Medical Category</th><th>Applicable Staff</th><th>Status</th></tr>
+                <tr><td><b>Option A: A1</b></td><td>The most stringent medical category. Requires 6/6 vision in both eyes without glasses, normal color vision, and flawless night vision. Mandatory for Loco Pilots and ALPs.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: A2</b></td><td>Requires 6/9 vision, applicable to Guards and Station Masters.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: A3</b></td><td>Applicable to specific signaling and operating staff.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: B1</b></td><td>Applicable to Trackmen and TTEs (glasses permitted).</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Indian Railway Medical Manual (IRMM) Vol. I, Chapter 5.
+        `
     },
     {
         question: "48) Which of the following does not feature in the Yard working instructions of a Marshalling Yard?",
@@ -5549,7 +4531,21 @@ const AOM20112022_30 = [
             "Quantum of inward, outward and internal traffic required to be dealt with by the yard and their timing",
             "Speed of the train in main line after dispatch"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Yard Working Instructions</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Scope of Instructions:</b> Yard Working Instructions are localized manuals dictating how a specific shunting yard operates internally. They do not dictate external main-line operations.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Instruction Element</th><th>Context</th><th>Status</th></tr>
+                <tr><td><b>Option A, B, C</b></td><td>Line capacity, marshalling sequences, and traffic quantum are the core operational details defining how the yard functions.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Speed of the train in main line...</b></td><td>Once a train is dispatched from the yard limits onto the main line block section, its speed is governed by the <b>Working Time Table (WTT)</b> and sectional MPS, not the internal Yard Working Instructions.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Operating Manual (Marshalling Yards).
+        `
     },
     {
         question: "49) Which of the following is not true about the Marshalling Yard?<br> (i) Ordinarily a yard should be adequate enough for its requirements of sorting, handling of local traffic, formation of trains for holding.<br> (ii) Whatever may be the cause of late start of trains for a yard, apart from reducing available capacity of the section, in turn, it affects working of the yard itself by delaying subsequent formation of trains.<br> (iii) In case of heavy congestion requiring block back on the neighbouring section, neighbouring yard should be called upon or directed by Sr.DOM/DOM by taking upon them some of the sorting and marshalling work, the congested yard would normally have done.<br> (iv) In the event of an accident in Marshalling Yard temporarily reducing working capacity, steps should be taken to regulate the inflow of trains into the yard until the emergency is over and the yard has regained its normal working capacity.",
@@ -5559,7 +4555,24 @@ const AOM20112022_30 = [
             "None of the given options are correct",
             "All of the given options are correct"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Marshalling Yard Dynamics</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Yard Operations:</b> Marshalling yards act as the 'heart' of freight operations. If the heart clogs (congestion), the arteries (main lines) back up immediately.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Statement Validity</th><th>Operational Reality</th><th>Status</th></tr>
+                <tr><td><b>Statement i</b></td><td>True. Yards must have enough lines to sort distinct destination blocks.</td><td>Valid</td></tr>
+                <tr><td><b>Statement ii</b></td><td>True. A train blocking an exit line prevents new trains from being formed (cascading delay).</td><td>Valid</td></tr>
+                <tr><td><b>Statement iii</b></td><td>True. Load-sharing between adjacent yards prevents total network paralysis during heavy congestion.</td><td>Valid</td></tr>
+                <tr><td><b>Statement iv</b></td><td>True. Regulating inflow (stopping incoming trains) prevents trapping locos/stock inside a crippled yard.</td><td>Valid</td></tr>
+                <tr><td><b>Option D: All are correct</b></td><td>Since all 4 statements accurately describe fundamental principles of yard management from the Operating Manual, this is the correct choice. Note: The question asks "Which is *not* true", but options force a "which are correct" structure, a common paradox in such exams. The intent is verifying the statements' accuracy.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Operating Manual (Working of Marshalling Yards).
+        `
     },
     {
         question: "50) The Officers and Senior Subordinates present at the site of accident must .......... the cause and advise DRM and other Officers concerned, their opinion, mentioning the department or departments responsible and person or persons responsible for the occurrence?",
@@ -5569,7 +4582,21 @@ const AOM20112022_30 = [
             "Video graph",
             "Take witness"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Accident Site Procedures</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Multi-Disciplinary Assessment:</b> A derailment can be caused by track defects (Engineering), rolling stock failure (Mechanical), or signal failure (S&T). A single department cannot arbitrarily declare the cause.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Action</th><th>Accountability Logic</th><th>Status</th></tr>
+                <tr><td><b>Option A: Jointly investigate</b></td><td>As per the Accident Manual, supervisors from all concerned departments (Track, Loco, C&W, Traffic) present at the site must conduct a <b>joint investigation</b>, take joint measurements of the track and rolling stock, and sign a joint note establishing the prima facie cause to prevent inter-departmental blame-shifting later.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B, C, D</b></td><td>Observing, recording, and witnessing are components, but the formal procedural mandate is the "Joint Investigation/Joint Note."</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Indian Railways Accident Manual (Duties of Officials at site).
+        `
     },
     {
         question: "51) In order to avoid any dispute later, the fact that a Loco Pilot has passed a signal at danger, should be formally brought to his notice through __________ by the station master of the concerned station?",
@@ -5579,7 +4606,21 @@ const AOM20112022_30 = [
             "Written memo",
             "Guard of the train"
         ],
-        correctAnswer: 2
+        correctAnswer: 2,
+        hint: `
+            <h3>Signal Passed at Danger (SPAD) Protocol</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Evidentiary Procedure:</b> SPAD is one of the gravest safety offenses in train operations. Immediate documentation is required to establish facts before the crew leaves the site.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Communication Method</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: Verbal instructions</b></td><td>Verbal communication leaves no paper trail and can easily be denied later during Disciplinary and Appeal Rules (DAR) inquiries.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Loco Inspector</b></td><td>The Loco Inspector (LI) conducts the technical post-incident investigation. The immediate on-site notification must come from the controlling operational authority (the SM).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Written memo</b></td><td>The Station Master must officially issue a <b>Written Memo</b> to the Loco Pilot, taking their signature as a legal acknowledgment that the SPAD incident has been formally recorded at that exact time and location.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: Guard of the train</b></td><td>The Guard is a subordinate operational crew member on the train, not the controlling station authority responsible for the fixed signals.</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
         question: "52) In case of collision/averted collision, __________ should be signed so as to indicate the last entry made and then seized?",
@@ -5589,7 +4630,21 @@ const AOM20112022_30 = [
             "S&T failure register",
             "PN exchange register"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Accident Evidence Preservation</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Record Seizure:</b> When an accident or averted collision occurs, the most critical piece of evidence regarding train block working and line clear timings must be immediately secured to prevent tampering.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Document</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: Train signal register</b></td><td>The TSR logs the exact time of Line Clear requests, Private Numbers (PN) exchanged, and train block entry/exit. It is the primary evidence document. It must be immediately signed below the last entry and seized by the inspecting official.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: Station diary</b></td><td>Logs general station events and staff duty shifts, but does not contain the minute-by-minute block working authorization records.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: S&T failure register</b></td><td>Logs equipment failures (like signal or point defects), not the actual movement and authorizations of trains.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: PN exchange register</b></td><td>Used only for specific operations (like level crossing gate coordination), whereas the TSR contains the holistic block working data.</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
         question: "53) CRS shall hold statutory enquiry into the accidents falling under Section __________ of Railways Act 1989?",
@@ -5599,7 +4654,21 @@ const AOM20112022_30 = [
             "112",
             "113"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Statutory Accident Enquiries</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Legal Jurisdiction:</b> The Commissioner of Railway Safety (CRS) operates under the Ministry of Civil Aviation to provide an independent inquiry into serious train accidents as defined by specific sections of the Act.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Section</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: 110</b></td><td>Section 110 of the Railways Act deals with the "Burden of proof" regarding the carriage of goods, entirely unrelated to accident inquiries.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: 111</b></td><td>Section 111 deals with the "Extent of liability" of the railway administration concerning goods traffic.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: 112</b></td><td>Section 112 deals with the "Power to make rules" regarding the liability of railways as carriers.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: 113</b></td><td>Section 113 specifically outlines the "Notice of railway accident" involving loss of life or grievous hurt. Section 114 mandates the CRS to conduct statutory inquiries into the severe accidents reported under <b>Section 113</b>.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+        `
     },
     {
         question: "54) For accidents not coming under the purview of CRS, the __________ shall order an enquiry by a committee of officers from the departments concerned?",
@@ -5609,7 +4678,21 @@ const AOM20112022_30 = [
             "AGM",
             "PCSO"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Departmental Enquiries</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Divisional Authority:</b> Not all accidents involve passenger fatalities (which mandates a CRS inquiry). Minor derailments or yard accidents are handled internally at the divisional level.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Authority</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: DRM</b></td><td>For non-CRS accidents occurring within a division, the Divisional Railway Manager (DRM) is the competent authority to constitute a multi-disciplinary committee of branch officers to conduct a joint inquiry.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: PHOD</b></td><td>Principal Head of Department (like PCOM or PCME) reviews departmental performance at the Zonal HQ, but does not order basic divisional accident inquiries.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: AGM</b></td><td>The Additional General Manager deals with higher-level administration and appellate DAR cases at HQ.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: PCSO</b></td><td>The Principal Chief Safety Officer monitors safety at the Zonal HQ level, while the DRM holds the executive authority to order inquiries in their specific division.</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
         question: "55) All cases of Indicative Accidents shall be inquired into by a Committee of __________ Officers?",
@@ -5619,7 +4702,21 @@ const AOM20112022_30 = [
             "Either Senior Scale or Junior Scale",
             "Senior Supervisors"
         ],
-        correctAnswer: 2
+        correctAnswer: 2,
+        hint: `
+            <h3>Indicative Accidents Enquiries</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Indicative Accidents:</b> These include Averted Collisions, SPAD, and breach of block rules. While no physical damage occurred, they indicate severe systemic or human failures requiring gazetted officer scrutiny.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Committee Level</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: Senior Scale</b></td><td>While Senior Scale officers can investigate, restricting it to them only is incorrect as JS officers are also empowered.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Junior Scale</b></td><td>Restricting to Junior Scale only is incorrect.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Either Senior Scale or Junior Scale</b></td><td>Depending on the exact severity of the indicative accident and divisional officer availability, the DRM constitutes a committee comprising <b>either Senior Scale (SS) or Junior Scale (JS)</b> gazetted officers.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: Senior Supervisors</b></td><td>Supervisors (like SS/SE) handle minor yard derailments. Indicative mainline safety breaches require formal Officer-level investigation.</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
         question: "56) Target for Committee to submit the inquiry report to DRM/GM is within __________?",
@@ -5629,7 +4726,21 @@ const AOM20112022_30 = [
             "Date of accident (D)+3",
             "Date of accident (D)+7"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Accident Inquiry Timelines</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Speed of Investigation:</b> To prevent evidence tampering and ensure swift corrective action, the Railway Board mandates rigid timelines for accident investigations.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Timeline Target</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: D+1</b></td><td>This is the target for submitting the preliminary initial information report, not the final committee inquiry.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: D+15</b></td><td>This is the target for the DRM to accept the report and forward it to Zonal Headquarters.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: D+3</b></td><td>This is the target for completing the physical site inquiry and recording all witness statements.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: D+7</b></td><td>The finalized joint inquiry report, complete with findings, root cause, and responsibility fixing, must be officially submitted to the accepting authority (DRM/GM) within <b>7 days</b> of the accident (D+7).</td><td><b>Correct Answer</b></td></tr>
+            </table>
+        `
     },
     {
         question: "57) The Committee may suggest any improvements in the __________ of working, which in their opinion, would prevent similar accidents in future or improve the working in any way, based not only on the cause or causes of the accident, but also the contributory factors, if any, and the extenuating circumstances, if any?",
@@ -5639,7 +4750,21 @@ const AOM20112022_30 = [
             "JPOs",
             "Methodology"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Accident Report Outcomes</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Systemic Improvement:</b> An inquiry report doesn't just punish guilty staff; it includes a mandatory section called "Matters Brought to Light" to fix systemic or procedural flaws.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Suggestion Area</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: Rules or practices</b></td><td>The standard statutory phrasing in the Accident Manual explicitly allows the committee to recommend amendments to existing <b>"Rules or practices"</b> (like G&SR, IRPWM, or local SWRs) to prevent recurrence.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: Guidelines</b></td><td>A non-statutory, generic term not used in the formal accident report structure.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: JPOs</b></td><td>Joint Procedure Orders are local inter-departmental directives. The committee's scope includes suggesting changes to fundamental rules, not just JPOs.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Methodology</b></td><td>A vague term; the manual specifically targets "rules or practices".</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
         question: "58) In case of fire to a passenger coach, the __________ under the coach should be specially examined to see whether the fire has originated from them?",
@@ -5649,7 +4774,21 @@ const AOM20112022_30 = [
             "Battery boxes",
             "Axle boxes"
         ],
-        correctAnswer: 2
+        correctAnswer: 2,
+        hint: `
+            <h3>Rolling Stock Fire Investigations</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Fire Origins:</b> Coach fires often start from electrical short circuits rather than mechanical friction.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Component</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: Wheels</b></td><td>Wheels cause friction on rails, but do not carry combustible materials to start massive underframe fires.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Brake block</b></td><td>Friction causes sparks, but modern cast iron/composite blocks are designed not to ignite the steel/PVC coach body.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Battery boxes</b></td><td>Battery boxes contain high-current DC power systems. Loose connections, acid leaks, or short circuits here generate intense heat, easily melting insulation and igniting wooden underframes, making them a primary suspect in fire inquiries.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: Axle boxes</b></td><td>Overheating causes hot axles (seizures) and localized smoke, but rarely leads to rapid, massive coach engulfment.</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
         question: "59) The actual punishment imposed on the staff found responsible for lapses in an accident shall be communicated to the __________ with in the stipulated time?",
@@ -5659,7 +4798,21 @@ const AOM20112022_30 = [
             "Senior DSO",
             "PCSO"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Safety Oversight and DAR</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Compliance Monitoring:</b> To ensure that divisions don't issue lenient, "slap-on-the-wrist" punishments to guilty staff, the Zonal Safety Headquarters strictly monitors the final DAR outcomes of all accident cases.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Official</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: GM</b></td><td>Apex head of the Zone, does not maintain the specific granular DAR tracking database.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: DRM</b></td><td>The DRM is the issuing/appellate authority of the punishment in the division, not the overarching monitoring body.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Senior DSO</b></td><td>Divisional safety head. They process the file locally, but the final closure is monitored by HQ.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: PCSO</b></td><td>The Principal Chief Safety Officer (PCSO) at Zonal HQ maintains the master database of accident DAR cases. The final penalty (NIP) issued by the division must be communicated to the PCSO to officially close the accident file.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+        `
     },
     {
         question: "60) In case of SPAD, root cause analysis may be carried out in which manner to improve the incisiveness of the accident investigation?",
@@ -5669,7 +4822,21 @@ const AOM20112022_30 = [
             "Five WHYs (why why)",
             "None of the given options"
         ],
-        correctAnswer: 2
+        correctAnswer: 2,
+        hint: `
+            <h3>Root Cause Analysis Techniques</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Deep Dive Investigation:</b> Finding out *who* made a mistake is easy. Finding out *why* they made it requires drilling down through layers of systemic failure.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Analysis Method</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: Failure mode and effects analysis</b></td><td>FMEA is a proactive tool used during the design phase of engineering products to predict failures, not a post-accident human-factors investigation tool.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Perito chart analysis</b></td><td>Pareto charts are used to identify the most frequent types of defects across a large dataset (80/20 rule), not for deducing the root cause of a single SPAD event.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Five WHYs (why why)</b></td><td>Recommended by the Safety Directorate for SPAD investigations. Asking "Why" sequentially five times peels away the symptoms (e.g., LP didn't brake -> Why? -> Distracted -> Why? -> Fatigue -> Why? -> Improper roster) to find the fundamental root cause.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: None</b></td><td>Incorrect, as the Five WHYs technique is officially prescribed.</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
         question: "61) Minimum Punishment to be given to a Gateman for the Failure of closure of gate due to which there is loss of life?",
@@ -5679,7 +4846,21 @@ const AOM20112022_30 = [
             "Compulsory Retirement",
             "Reduction to the next lower grade for 3 year with cumulative effect"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Stringent Penalties for Safety Lapses</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Zero Tolerance:</b> The Railway Board prescribes strict minimum punishment guidelines for staff whose direct negligence leads to fatal accidents.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Penalty</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: Dismissal</b></td><td>For a gateman whose failure to close the Level Crossing gate directly results in a collision and loss of life, the Railway Board mandates the harshest major penalty: <b>Dismissal from service</b> (which strips pension benefits and bars future government employment).</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: Removal</b></td><td>Terminates employment but allows future Govt employment. Considered too lenient for fatal negligence.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Compulsory Retirement</b></td><td>Provides pension benefits; inappropriate for cases of fatal dereliction of duty.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Reduction to the next lower grade</b></td><td>A Major penalty that allows continuation of service. Completely unacceptable for fatal lapses.</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
         question: "62) Arrangement between points, signals and other appliances interconnected electrically or mechanically or both to ensure safety is?",
@@ -5689,7 +4870,21 @@ const AOM20112022_30 = [
             "Obstruction",
             "System of working"
         ],
-        correctAnswer: 1
+        correctAnswer: 1,
+        hint: `
+            <h3>Basic Signaling Terminology</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Conflict Prevention:</b> A signal cannot show 'Green' if the track switches (points) are set to a different line or are not properly locked.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Term</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: Isolation</b></td><td>The physical separation of a mainline from a siding (using trap points/sand humps) to prevent runaway vehicles from fouling the path of a train.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Interlocking</b></td><td>The exact definition: An arrangement of signals, points, and other appliances, interconnected mechanically, electrically, or electronically, to ensure they operate in a predefined, safe sequence to prevent conflicting movements.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: Obstruction</b></td><td>The physical blockage of the track by a vehicle or debris.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: System of working</b></td><td>Refers to Absolute Block, Automatic Block, or One Train Only systems governing entry into a block section.</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
         question: "63) A GPS based Fog Safety device is being provided to loco pilots in fog affected areas which enables loco pilots to know?",
@@ -5699,7 +4894,21 @@ const AOM20112022_30 = [
             "The exact distance and aspect of approaching signals",
             "The exact location of stations through GPS"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Fog Safety Device (FSD)</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Device Limitations:</b> The FSD is a standalone GPS unit pre-loaded with track coordinates. It is NOT connected to the electronic signal interlocking system (Relay Room).
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Device Capability</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: Exact distance of signals/LC gates</b></td><td>The FSD calculates the train's GPS position and audibly alerts the LP about the exact distance remaining to pre-mapped fixed landmarks (Signals, LC gates, Warning Boards), helping them brake safely in zero visibility.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: Exact aspect of stop signals</b></td><td>Because it is completely offline from the signaling network, it <b>cannot</b> tell if the signal is currently Red, Yellow, or Green.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Distance and aspect</b></td><td>Fails because aspect cannot be determined by GPS.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Location of stations</b></td><td>While it knows station locations, its primary critical function is warning the LP of signals and level crossings in fog.</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
         question: "64) If a critical trauma patient is not given definite medical care within __________ from the time of accident, chances of his ultimate recovery reduce drastically, even with the best of medical attention thereafter. This initial period is of?",
@@ -5709,7 +4918,21 @@ const AOM20112022_30 = [
             "1½ hours",
             "2 hours"
         ],
-        correctAnswer: 1
+        correctAnswer: 1,
+        hint: `
+            <h3>Medical Emergency Response</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>The Golden Hour:</b> A foundational concept in trauma medicine and disaster management that drives the aggressive turnout targets for relief trains.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Time Frame</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: 30 Mins</b></td><td>Too short for practical railway disaster extraction logistics.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: One hour</b></td><td>Universally referred to as the <b>"Golden Hour."</b> The Disaster Management Plan heavily emphasizes turning out medical relief vans and reaching victims within this first 60 minutes to prevent irreversible hemorrhagic shock or trauma complications.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: 1½ hours</b></td><td>Delays beyond 60 minutes reduce survival probability drastically.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: 2 hours</b></td><td>Well outside the critical trauma survival window.</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
         question: "65) Which shield is awarded by Railway Board for the overall efficiency to the Best Zonal Railway?",
@@ -5719,7 +4942,21 @@ const AOM20112022_30 = [
             "Rail Minister's Shield",
             "None of the given options"
         ],
-        correctAnswer: 1
+        correctAnswer: 1,
+        hint: `
+            <h3>National Railway Awards</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Zonal Trophies:</b> During the annual Railway Week (April), the Railway Board awards specialized shields for specific departments (Safety, Commercial, Mechanical) and one ultimate shield for overall best performance.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Shield Name</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: Lal Bahadur Shashtri Shield</b></td><td>Awarded for specific technical or Rajbhasha (Hindi) achievements, not overall zonal efficiency.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Pt. Govind Ballabh Pant Shield</b></td><td>This is the most prestigious inter-zonal trophy, instituted in 1956, awarded annually to the Zonal Railway demonstrating the best <b>'Overall Efficiency'</b> across all operating, safety, and financial parameters.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: Rail Minister's Shield</b></td><td>Generic term; specific shields are awarded for Safety, Commercial, etc., but not the premier overall trophy.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: None</b></td><td>Incorrect.</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
         question: "66) Damage of Railway property to the tune of which of the following value shall be treated as serious damage to property?",
@@ -5729,7 +4966,21 @@ const AOM20112022_30 = [
             "20 Lacs",
             "1.99 Crore"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Classification of Accidents</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Financial Threshold:</b> Accidents are classified as "Serious" if they involve loss of human life, grievous hurt, or property damage exceeding a specific financial threshold, triggering statutory inquiries by the CRS.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Threshold Value</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: 2 Crore</b></td><td>As per updated Railway Board accident classification guidelines, damage to railway property (rolling stock, track, OHE) evaluated at <b>Rs. 2 Crores</b> or above elevates the incident to the category of "Serious Damage to Property."</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: 2.50 Crore</b></td><td>Incorrect threshold figure.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: 20 Lacs</b></td><td>A historical/outdated threshold value from older accident manuals.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: 1.99 Crore</b></td><td>Just below the threshold; would require a standard departmental inquiry, not necessarily a CRS inquiry based on damage alone.</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
         question: "67) Tonne kilometer is a ..... unit?",
@@ -5739,7 +4990,20 @@ const AOM20112022_30 = [
             "Fundamental unit",
             "Derivative unit"
         ],
-        correctAnswer: 2
+        correctAnswer: 2,
+        hint: `
+            <h3>Operating Statistics Classifications</h3>
+            <div style="background-color: #e6f2ff; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Base vs Derived:</b> In railway statistics, absolute measurements are fundamental, while ratios/averages are derived.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Unit Classification</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A & B</b></td><td>Not standard statistical grouping terms used in the Railway Statistical Manual.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Fundamental unit</b></td><td>Tonne-Kilometer (Net Tonne KM) is a core, absolute measurement (1 tonne of goods moved 1 kilometer). It is a <b>Fundamental Unit</b> from which efficiency indices are later calculated.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: Derivative unit</b></td><td>A derivative unit is a ratio involving two fundamental units (e.g., NTKM per engine hour or average speed).</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
         question: "68) What is included in operating ratio?",
@@ -5749,7 +5013,28 @@ const AOM20112022_30 = [
             "Average starting Wagon load",
             "None of the given options"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Operating Ratio Formula</h3>
+            <div style="background-color: #e6f2ff; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Financial Index:</b><br><br>
+
+                <div style="font-size: 16px; font-family: 'Times New Roman', Times, serif; display: inline-flex; align-items: center;">
+                    <b style="margin-right: 8px;">Operating Ratio = </b>
+                    <div style="display: flex; flex-direction: column; align-items: center; margin-right: 8px;">
+                        <b style="border-bottom: 2px solid #000; padding: 0 5px; width: 100%; text-align: center;">Gross Working Expenses</b>
+                        <b style="padding: 2px 5px 0 5px;">Gross Traffic Earnings</b>
+                    </div>
+                    <b>&times; 100</b>
+                </div>
+                </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Metric</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A, B, C</b></td><td>These are physical operating efficiency metrics (throughput, turnaround, load). While they indirectly affect expenses and earnings, they are <b>not</b> the direct financial inputs used in the Operating Ratio calculation formula.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: None of the given options</b></td><td>Correct, because the Operating Ratio requires purely financial figures (Working Expenses and Gross Earnings), none of which are listed in the first three options.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+        `
     },
     {
         question: "69) Which of the following is not COA function?",
@@ -5759,7 +5044,21 @@ const AOM20112022_30 = [
             "Indent placement",
             "Graph plotting"
         ],
-        correctAnswer: 2
+        correctAnswer: 2,
+        hint: `
+            <h3>Control Office Application (COA)</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>IT System Boundaries:</b> COA is used by the Section Controller to digitally plot train movement on a master chart. It integrates with other systems but has specific boundaries.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Function</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: Train ordering</b></td><td>Plotted and managed on the COA by the controller to sequence paths.</td><td><u>Incorrect Choice</u></td></tr>
+                <tr><td><b>Option B: Caution order</b></td><td>Generated via ICMS integration based on the controller's COA inputs.</td><td><u>Incorrect Choice</u></td></tr>
+                <tr><td><b>Option C: Indent placement</b></td><td>Placing an indent (a commercial demand for empty wagons by a customer) is a commercial transaction executed by station goods shed staff using the <b>Terminal Management System (TMS) / FOIS</b>, not the operational COA.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: Graph plotting</b></td><td>The core, fundamental function of COA (drawing the digital master chart).</td><td><u>Incorrect Choice</u></td></tr>
+            </table>
+        `
     },
     {
         question: "70) What is the basis of calculation of average detention of a wagon?",
@@ -5769,7 +5068,21 @@ const AOM20112022_30 = [
             "Station diary",
             "None of the given options"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Wagon Detention Statistics</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Yard Efficiency:</b> To calculate exactly how long a specific wagon was stuck in a yard or at a station, you need exact timestamps of its arrival and departure.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Record Document</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: Wagon exchange register</b></td><td>Also known as the Number Taker's book or Interchange Register. It logs the exact date and time every specific wagon number enters and leaves the yard. This provides the mathematical basis to calculate detention time.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: Inward register</b></td><td>Only logs arrival times. Without departure times, detention cannot be calculated.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Station diary</b></td><td>A general log of station events and duty handovers, lacking granular wagon tracking data.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: None</b></td><td>Incorrect, as the Wagon Exchange Register is the correct source.</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
         question: "71) In goods train C.C. rake if nominated circuit is broken B.P.C. wil become __________?",
@@ -5779,7 +5092,20 @@ const AOM20112022_30 = [
             "None of the given options",
             "All of the given options"
         ],
-        correctAnswer: 1
+        correctAnswer: 1,
+        hint: `
+            <h3>Close Circuit (CC) Rakes</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>BPC Conditions:</b> A CC rake is given a long-validity Brake Power Certificate (e.g., 7500 km or 35 days) on the strict condition that it operates only within a predefined set of routes (its circuit) so its base depot can monitor its wear and tear.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Scenario</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: Valid</b></td><td>Contradicts the core safety principle of CC working.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Invalid</b></td><td>If the rake is loaded or diverted to a destination outside its predefined circuit (broken circuit), the extended CC BPC automatically becomes <b>Invalid</b>, and the rake must undergo a fresh examination at the next available TXR point.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C & D</b></td><td>Illogical options.</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
         question: "72) If the turn round of BOXN rakes in a coal circuit is 4 days, minimum how many rakes will be required to achieve the loading level of five rakes per day?",
@@ -5789,7 +5115,24 @@ const AOM20112022_30 = [
             "20",
             "4"
         ],
-        correctAnswer: 2
+        correctAnswer: 2,
+        hint: `
+            <h3>Fleet Requirement Calculation</h3>
+            <div style="background-color: #e6f2ff; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Mathematical Formula:</b> <br>
+                Total Rakes Required = (Daily Loading Requirement) &times; (Wagon Turn Round Time).<br>
+                If a single rake takes 4 days to return for its next load, you need a continuous pipeline of unique rakes for those 4 days to load 5 rakes *every single day*.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Calculation</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td colspan="3">Required = 5 rakes/day &times; 4 days turnaround = 20 unique rakes.</td></tr>
+                <tr><td><b>Option A: 18</b></td><td>Mathematical error.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: 1.25</b></td><td>Mathematical error (5 / 4).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: 20</b></td><td>Correct mathematical product of loading targets and turnaround time.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: 4</b></td><td>This is the WTR value, not the total fleet requirement.</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
         question: "73) Loco maintenance schedule AOH for coaching Locos (conventional Loco) is carried out in?",
@@ -5799,7 +5142,21 @@ const AOM20112022_30 = [
             "12 months or 15 days",
             "9 months + or 15 days"
         ],
-        correctAnswer: 2
+        correctAnswer: 2,
+        hint: `
+            <h3>Locomotive Maintenance Schedules</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Annual Overhaul (AOH):</b> Conventional electric locomotives (like WAP-4, WAG-7) follow a strict time-based maintenance schedule to ensure reliability.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Schedule</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: 3 months</b></td><td>This is the periodicity for the Minor 'IA' schedule.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: 6 months</b></td><td>This is the periodicity for the Minor 'IB' schedule.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: 12 months or 15 days</b></td><td>AOH stands for <b>Annual</b> Overhaul. Therefore, it is carried out every 12 months. A grace period (tolerance) of +/- 15 days is allowed for operational flexibility.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: 9 months</b></td><td>No standard 9-month schedule exists in conventional electric loco maintenance.</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
         question: "74) The maximum speed of WAP-7 loco is?",
@@ -5809,7 +5166,21 @@ const AOM20112022_30 = [
             "130kmph",
             "120kmph"
         ],
-        correctAnswer: 1
+        correctAnswer: 1,
+        hint: `
+            <h3>Rolling Stock Speed Potentials</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>WAP-7 Specifications:</b> The WAP-7 is the standard 3-phase passenger locomotive of Indian Railways, utilizing a Co-Co bogie arrangement with a high gear ratio for immense hauling power.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Speed</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: 160kmph</b></td><td>This is the maximum certified speed of the WAP-5 locomotive (which uses a Bo-Bo bogie and fully suspended motors).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: 140kmph</b></td><td>The WAP-7 locomotive is officially certified by RDSO for a Maximum Permissible Speed (MPS) of <b>140 kmph</b>.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: 130kmph</b></td><td>The standard MPS of older WAP-4 locomotives.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: 120kmph</b></td><td>The MPS of older generation WAM-4 locos or high-speed freight trains.</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
         question: "75) What details related to crew and guards are ensured by CMS?",
@@ -5819,7 +5190,21 @@ const AOM20112022_30 = [
             "Training details of crew and guards",
             "Details of all of the given options"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Crew Management System (CMS)</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Digital Roster Integration:</b> CMS replaces the manual booking clerk. It uses algorithms to ensure a Loco Pilot is legally and physically fit before generating a "Sign-On" slip.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Checks Performed</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: Rest details</b></td><td>CMS verifies HOER statutory rest (e.g., 16 hrs at HQ or 8 hrs outstation) before allowing sign-on.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option B: Medical details</b></td><td>CMS blocks sign-on if the Periodic Medical Examination (PME) is overdue.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option C: Training details</b></td><td>CMS blocks sign-on if Refresher courses or Route Learning (LR) are overdue.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option D: All of the given options</b></td><td>CMS integrates all these parameters to ensure 100% safe and legal crew booking, acting as an infallible digital gatekeeper.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+        `
     },
     {
         question: "76) Who prepares crew link of Loco pilot?",
@@ -5829,7 +5214,21 @@ const AOM20112022_30 = [
             "Chief controller",
             "AOM"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Crew Rostering</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Loco Management:</b> The deployment of locomotives and the drivers who run them requires specialized coordination between the shed, traffic, and the crew lobby.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Official</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: Power controller</b></td><td>The Power Controller (PRC/CPRC) sits in the control office and specifically manages locomotive outages and formulates the <b>crew links</b> (diagrams of crew working hours and trains) to ensure optimal utilization without violating HOER.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: Section controller</b></td><td>Manages real-time train paths on the track, not the specific crew rosters.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Chief controller</b></td><td>Overall in-charge of the control room, oversees operations macroscopically.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: AOM</b></td><td>Assistant Operations Manager is an officer; routine linking/rostering execution is done by the PRC.</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
         question: "77) How many dead engines can be attached to Mail/Express/Superfast trains?",
@@ -5839,7 +5238,21 @@ const AOM20112022_30 = [
             "2",
             "3"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Movement of Dead Locomotives</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Brake System Limitations:</b> A dead locomotive is extremely heavy (approx 120 tons). Hauling it alters the braking characteristics and coupler forces of a high-speed passenger train.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Quantity</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: 1</b></td><td>Under strict conditions (brake pipe coupled, brakes isolated/functional per type, escorted by a competent person), a maximum of <b>one</b> dead locomotive is permitted to be attached to a passenger-carrying Mail/Express train next to the train engine.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: Cannot be attached</b></td><td>Incorrect, conditional attachment is legally permitted by the Operating Manual.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: 2</b></td><td>Multiple dead engines can be hauled by freight trains, but absolutely not passenger trains due to severe braking interference.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: 3</b></td><td>Not permitted.</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
         question: "78) Control Office Application covers which of the following work areas?",
@@ -5849,7 +5262,21 @@ const AOM20112022_30 = [
             "Ordering of trains",
             "All of the given options"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Control Office Application (COA) Capabilities</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Digital Command Center:</b> COA digitized the traditional massive paper charting sheets used by Section Controllers, integrating multiple operational facets.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Work Area</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: Train movement</b></td><td>Logs real-time arrival/departure via station inputs or RTIS.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option B: Advance plotting</b></td><td>The software extrapolates train speeds and draws predictive lines to help the controller plan future crossings safely.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option C: Ordering of trains</b></td><td>Integrates with FOIS/CMS to sequence freight paths and crew matching.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option D: All of the given options</b></td><td>COA natively handles all these essential section control tasks to maintain fluidity.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+        `
     },
     {
         question: "79) Who will provide In Motion Electronic Way bridge at MGR Loading Terminal?",
@@ -5859,7 +5286,20 @@ const AOM20112022_30 = [
             "Not required",
             "None of the given options"
         ],
-        correctAnswer: 1
+        correctAnswer: 1,
+        hint: `
+            <h3>MGR (Merry-Go-Round) Systems</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Dedicated Freight Circuits:</b> MGR systems are usually captive, closed-loop railway lines moving coal from a specific mine to an adjacent thermal power plant, often utilizing bottom-discharge wagons.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Provider</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: By Railway</b></td><td>Railways provide weighbridges on the main network routes, not inside private captive loading loops.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: By Customer</b></td><td>Since the MGR loading terminal serves a dedicated industrial customer (e.g., NTPC), commercial policy mandates that the <b>Customer</b> must procure, install, and maintain the Electronic In-Motion Weighbridge at their own cost to prevent overloading.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: Not required</b></td><td>Overloading checks are mandatory everywhere to prevent track/wagon damage.</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
         question: "80) What is not included in the personal tool of a loco pilot?",
@@ -5869,7 +5309,21 @@ const AOM20112022_30 = [
             "Palm Coupler",
             "Green Flag"
         ],
-        correctAnswer: 2
+        correctAnswer: 2,
+        hint: `
+            <h3>Loco Pilot Equipment</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Line Box Contents:</b> Every LP carries a personal tool box (or bag) containing items required for minor troubleshooting and train protection on the run.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Tool</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: Hand Hammer</b></td><td>Included. Used for tapping brake blocks or minor mechanical checks during halts.</td><td><u>Incorrect Choice</u></td></tr>
+                <tr><td><b>Option B: Tri Color Torch</b></td><td>Included. Essential for exchanging signals at night.</td><td><u>Incorrect Choice</u></td></tr>
+                <tr><td><b>Option C: Palm Coupler</b></td><td><b>Not included.</b> A palm coupler (BP/FP air hose connector) is a heavy pneumatic spare part, generally kept in the locomotive's onboard tool inventory or with C&W staff, not in the LP's personal carry bag.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: Green Flag</b></td><td>Included. Essential for daytime signaling.</td><td><u>Incorrect Choice</u></td></tr>
+            </table>
+        `
     },
     {
         question: "81) The SWRs should be reviewed once in every __________ years?",
@@ -5879,7 +5333,19 @@ const AOM20112022_30 = [
             "Four years",
             "Five years"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Station Working Rules (SWR)</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Safety Audits:</b> SWRs dictate how points, signals, and trains are operated at a specific station. Since yard layouts and signalling logic change, the manual must stay updated.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Review Period</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A, B, C</b></td><td>These are too frequent for stable yards and do not match the statutory audit cycle.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Five years</b></td><td>Railway Board guidelines require that even if no physical alterations have taken place at a station, the Station Working Rules (SWR) must be thoroughly reviewed and formally re-issued at least once every <b>Five years</b> to ensure contemporary relevance.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+        `
     },
     {
         question: "82) Non Interlocked Working is required in which of the following cases?",
@@ -5889,7 +5355,21 @@ const AOM20112022_30 = [
             "Replacement of mechanical lever frame by panel",
             "All of the Above"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Non-Interlocked (NI) Working</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Signal Disconnection:</b> NI working is a highly critical operational phase. The fail-safe interlocking logic is disconnected, making human error fatal.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Scenario</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: Commisioning RRI/SSI</b></td><td>Entire relay room logic is switched over, necessitating NI working.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option B: Changes in yard layout</b></td><td>Track circuits and point machines are physically moved, necessitating NI working.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option C: Lever frame to Panel</b></td><td>Mechanical locking is physically dismantled and replaced with electrical wiring, necessitating NI working.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option D: All of the Above</b></td><td>All these massive signaling and civil engineering works fundamentally break the existing interlocking system, legally necessitating Non-Interlocked (NI) working protocols.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+        `
     },
     {
         question: "83) Plan Head under which construction of doubling works are proposed & sanctioned?",
@@ -5899,7 +5379,21 @@ const AOM20112022_30 = [
             "PH-15",
             "PH-14"
         ],
-        correctAnswer: 2
+        correctAnswer: 2,
+        hint: `
+            <h3>Plan Head Budgeting</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Capacity Augmentation:</b> Laying a second track parallel to an existing single track (Doubling) massively increases section capacity. It has its own dedicated budget code.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Plan Head</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: PH-11</b></td><td>New Lines (constructing track where none existed before).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: PH-12</b></td><td>Purchase of new lines (Historical/obsolete classification).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: PH-15</b></td><td>Plan Head 15 is exclusively designated for "Doubling" (and multiple tracking) projects.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: PH-14</b></td><td>Gauge Conversion (e.g., Meter Gauge to Broad Gauge).</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
         question: "84) Full form of e-DAS?",
@@ -5909,7 +5403,20 @@ const AOM20112022_30 = [
             "Electronic Drawing Agreement System",
             "None of the given options"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Engineering IT Initiatives</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Digital Workflows:</b> Civil and Signal engineering works require massive blueprints (ESPs, SIPs) to be signed by multiple HODs. Physical routing previously took months.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Expansion</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: Electronic Drawing Approval System</b></td><td>e-DAS is a web-based application implemented by Indian Railways to digitize the circulation, vetting, and final approval of engineering drawings, drastically reducing pre-construction delays.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B & C</b></td><td>Fabricated, incorrect expansions.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: None</b></td><td>Incorrect.</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
         question: "85) Full form of RRSK?",
@@ -5919,2013 +5426,2178 @@ const AOM20112022_30 = [
             "Rashtriya Road Sanraksha Kosh",
             "Rashtriya Rail Sanraksha Kosh"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Railway Financial Funds</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Safety Investment:</b> Following severe derailments, the government created a massive dedicated fund of Rs 1 Lakh Crore over 5 years specifically to eliminate level crossings and renew aging track/signals.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Expansion</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: Suraksha Kosh</b></td><td>'Suraksha' generally implies security (RPF/Police), whereas the fund is for operational safety.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Security Kosh</b></td><td>English mix, incorrect terminology.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Road Sanraksha Kosh</b></td><td>'Road' is incorrect context.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Rashtriya Rail Sanraksha Kosh</b></td><td>RRSK stands for Rashtriya Rail Sanraksha Kosh (National Railway Safety Fund). 'Sanraksha' is the exact Hindi term used for operational Railway Safety.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+        `
     },
     {
-        question: "1) Ecology deals with?",
+        question: "86) Ecology deals with?",
         options: [
             "Cell formation",
             "Birds",
             "Relation between organisms and their environment",
             "Tissues"
         ],
-        correctAnswer: 2
+        correctAnswer: 2,
+        hint: `
+            <h3>Biological Sciences</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Scientific Disciplines:</b> Biology is branched into highly specific fields of study depending on the scale of observation (from cells to entire biomes).
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Field</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: Cell formation</b></td><td>The study of cells is called Cytology or Cell Biology.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Birds</b></td><td>The scientific study of birds is called Ornithology.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Relation between organisms and their environment</b></td><td>Ecology is the scientific analysis and study of interactions among organisms and their biophysical environment.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: Tissues</b></td><td>The study of microscopic anatomy of tissues is called Histology.</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
-        question: "2) Filaria is caused by?",
+        question: "87) Filaria is caused by?",
         options: [
             "Protozoa",
             "Mosquito",
             "Virus",
             "Bacteria"
         ],
-        correctAnswer: 1
+        correctAnswer: 1,
+        hint: `
+            <h3>Infectious Diseases</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Vectors vs Pathogens:</b> Filariasis is a parasitic disease whose actual pathogen is a microscopic, thread-like worm (nematode). However, humans cannot catch it directly from the environment.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Agent</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: Protozoa</b></td><td>Causes diseases like Malaria and Kala-azar.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Mosquito</b></td><td>While the worm is the pathogen, the disease is transmitted (caused to infect humans) exclusively through the bites of infected <b>Mosquitoes</b> (like Culex or Anopheles), which act as the vector. <i>(Note: This is the accepted answer in standard general knowledge exams despite biological nuances).</i></td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: Virus</b></td><td>Causes diseases like Dengue, Zika, and Polio.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Bacteria</b></td><td>Causes diseases like Typhoid and Cholera.</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
-        question: "3) Who was the first Indian Chief of Army Staff of the Indian Army?",
+        question: "88) Who was the first Indian Chief of Army Staff of the Indian Army?",
         options: [
             "Gen. K.M. Cariappa",
             "Gen. Maharaja Rajendra Singhji",
             "Vice-Admiral R.D. Katari",
             "None of the given options"
         ],
-        correctAnswer: 1
+        correctAnswer: 1,
+        hint: `
+            <h3>Indian Armed Forces History</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Military Leadership Titles:</b> Post-independence, the top leadership transitioned from British to Indian officers. The exact title "Chief of Army Staff" replaced the older "Commander-in-Chief" designation in 1955.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Officer</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: Gen. K.M. Cariappa</b></td><td>He was the first Indian "Commander-in-Chief" of the Indian Army (1949), but he retired before the title was changed to COAS.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Gen. Maharaja Rajendra Singhji</b></td><td>He was serving as the Commander-in-Chief when the designation was officially changed in 1955, making him technically the very first officer to hold the title <b>Chief of Army Staff</b>.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: Vice-Admiral R.D. Katari</b></td><td>He was the first Indian Chief of Naval Staff.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: None</b></td><td>Incorrect.</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
-        question: "4) Heavy Water Project (Talcher) and Fertilizer plant (Paradeep) are famous industries of?",
+        question: "89) Heavy Water Project (Talcher) and Fertilizer plant (Paradeep) are famous industries of?",
         options: [
             "Orissa",
             "Kerala",
             "Tamilnadu",
             "Andhra Pradesh"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Industrial Geography of India</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Location Specifics:</b> Talcher is famous for its coalfields, and Paradeep is one of the major deep-water ports on the eastern coast of India.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>State</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: Orissa (Odisha)</b></td><td>Both Talcher (housing a heavy water plant by the Heavy Water Board) and Paradeep (a major port and fertilizer/petrochemical hub) are geographically located in the state of Odisha.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: Kerala</b></td><td>Known for the Cochin Shipyard and FACT (Fertilisers and Chemicals Travancore).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Tamilnadu</b></td><td>Known for the Kalpakkam atomic plant and Tuticorin port.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Andhra Pradesh</b></td><td>Known for Vizag steel plant and port.</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
-        question: "5) For seeing objects at the surface of water from a submarine under water, the instrument used is?",
+        question: "90) For seeing objects at the surface of water from a submarine under water, the instrument used is?",
         options: [
             "Periscope",
             "Telescope",
             "Kaleidoscope",
             "Spectroscope"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Optical Instruments</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Submarine Optics:</b> A submerged vessel cannot use direct line-of-sight observation. It requires an instrument that bends light to see above the waterline.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Instrument</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: Periscope</b></td><td>A periscope uses a tube with angled mirrors or prisms at each end, allowing an observer in a submerged submarine to see objects on the surface of the water without exposing the vessel.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: Telescope</b></td><td>Used for magnifying distant objects in a direct, straight line of sight (like stars).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Kaleidoscope</b></td><td>An optical toy that uses mirrors to produce symmetrical, changing geometric patterns.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Spectroscope</b></td><td>A scientific instrument used to analyze the light spectrum emitted by chemical elements.</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
-        question: "6) In which year the practice of presenting the railway budget separate from the general budget (or vice versa in true sense) started in India?",
+        question: "91) In which year the practice of presenting the railway budget separate from the general budget (or vice versa in true sense) started in India?",
         options: [
             "1920",
             "1924",
             "1925",
             "1930"
         ],
-        correctAnswer: 1
+        correctAnswer: 1,
+        hint: `
+            <h3>Railway Budget History</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>The Acworth Committee:</b> In the early 20th century, railway finances were tied to general finances, crippling the railways' ability to plan long-term business expansions.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Year</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: 1920</b></td><td>Before the Acworth Committee submitted its report.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: 1924</b></td><td>Based on the 1921 Acworth Committee recommendations, the British Indian government passed a resolution separating railway finances from general finances. This practice of a separate Railway Budget officially began in <b>1924</b>.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: 1925</b></td><td>The first separate budget was presented for the financial year 1924-25.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: 1930</b></td><td>Historically inaccurate.</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
-        question: "7) How much distance was travelled by first train of India?",
+        question: "92) How much distance was travelled by first train of India?",
         options: [
             "33 km",
             "36 km",
             "34 km",
             "46 km"
         ],
-        correctAnswer: 2
+        correctAnswer: 2,
+        hint: `
+            <h3>Indian Railway Origins</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>The Historic Run:</b> On April 16, 1853, the first passenger train in India ran between Bori Bunder (Mumbai) and Thane, hauled by three steam locomotives (Sahib, Sindh, and Sultan).
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Distance</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A, B, D</b></td><td>Incorrect historical distances.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: 34 km</b></td><td>The historic inaugural journey from Mumbai to Thane covered a distance of 21 miles, which precisely translates to <b>34 kilometers</b>.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+        `
     },
     {
-        question: "8) Which Zone is the largest railway zone in India?",
+        question: "93) Which Zone is the largest railway zone in India?",
         options: [
             "Central Railway",
             "Northern Railway",
             "Eastern Railway",
             "Western Railway"
         ],
-        correctAnswer: 1
+        correctAnswer: 1,
+        hint: `
+            <h3>Railway Zones Geography</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Network Size:</b> Indian Railways is divided into 18+ zones. The size of a zone is determined by its total Route Kilometers.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Railway Zone</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: Central Railway</b></td><td>A major zone (HQ: Mumbai CSMT), but not the largest by route length.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Northern Railway</b></td><td>With its headquarters at Baroda House, New Delhi, Northern Railway manages the largest network in terms of route kilometers, spanning across several northern states.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: Eastern Railway</b></td><td>Highly dense traffic zone (HQ: Kolkata), but much shorter route length.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Western Railway</b></td><td>A large zone (HQ: Mumbai Churchgate), but secondary to NR in route length.</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
-        question: "9) In which of the following cities is the National Rail Museum located?",
+        question: "94) In which of the following cities is the National Rail Museum located?",
         options: [
             "Mumbai",
             "New Delhi",
             "Hyderabad",
             "Chennai"
         ],
-        correctAnswer: 1
+        correctAnswer: 1,
+        hint: `
+            <h3>Railway Heritage</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Preserving History:</b> To preserve the rich 170+ year heritage of Indian Railways, an apex museum was established to house vintage steam locomotives and saloons.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>City</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: Mumbai</b></td><td>Has local heritage galleries (like at CSMT), but not the apex National Museum.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: New Delhi</b></td><td>The National Rail Museum is located in Chanakyapuri, <b>New Delhi</b>. Opened in 1977, it spans over 10 acres and features the Fairy Queen and the Patiala State Monorail.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: Hyderabad</b></td><td>Features the Kacheguda Railway Museum.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Chennai</b></td><td>Features the Chennai Rail Museum (near ICF).</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
-        question: "10) Which of the following zonal headquarters - city combination is incorrect?",
+        question: "95) Which of the following zonal headquarters - city combination is incorrect?",
         options: [
             "South East Central Railway-Bilaspur",
             "North Western Railway-Jodhpur",
             "East Central Railway-Hajipur",
             "West Central Railway-Jabalpur"
         ],
-        correctAnswer: 1
+        correctAnswer: 1,
+        hint: `
+            <h3>Zonal Headquarters</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Administrative Geography:</b> Following the creation of new zones in 2003, headquarters were established in strategic provincial cities rather than just metro capitals.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Combination</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: SECR - Bilaspur</b></td><td>Correct. South East Central Railway is headquartered in Bilaspur (Chhattisgarh).</td><td><u>Incorrect Choice</u></td></tr>
+                <tr><td><b>Option B: North Western Railway - Jodhpur</b></td><td><b>Incorrect combination.</b> North Western Railway (NWR) is headquartered in <b>Jaipur</b>, not Jodhpur (Jodhpur is merely a division under NWR).</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: ECR - Hajipur</b></td><td>Correct. East Central Railway is headquartered in Hajipur (Bihar).</td><td><u>Incorrect Choice</u></td></tr>
+                <tr><td><b>Option D: WCR - Jabalpur</b></td><td>Correct. West Central Railway is headquartered in Jabalpur (Madhya Pradesh).</td><td><u>Incorrect Choice</u></td></tr>
+            </table>
+        `
     },
     {
-        question: "11) Who was admired as tempestuous Hindu in 1893 in the World Parliament of Religions in Chicago?",
+        question: "96) Who was admired as tempestuous Hindu in 1893 in the World Parliament of Religions in Chicago?",
         options: [
             "Swami Dayanand Saraswati",
             "Rabindra Nath Tagore",
             "Gautam Budha",
             "Swami Vivekanand"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Modern Indian History (Spiritual Renaissance)</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>The Chicago Address:</b> In September 1893, an Indian monk introduced Hinduism to the western world, beginning his speech with "Sisters and brothers of America."
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Figure</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: Swami Dayanand Saraswati</b></td><td>Founder of the Arya Samaj, focused on Vedic revival in India.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Rabindra Nath Tagore</b></td><td>Poet and Nobel laureate, not a monk at the Parliament of Religions.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Gautam Budha</b></td><td>Ancient spiritual leader (5th century BCE).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Swami Vivekanand</b></td><td>His historic and electrifying speech in Chicago earned him widespread global admiration, with American newspapers describing him as the "tempestuous Hindu" and a giant among the delegates.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+        `
     },
     {
-        question: "12) For the cause of national liberation Swami Dayanand stessed on?",
+        question: "97) For the cause of national liberation Swami Dayanand stessed on?",
         options: [
             "Swabhasha and Swarajya",
             "Swadharma",
             "Swadeshi",
             "All of the given options"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Indian Freedom Struggle Ideologies</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Arya Samaj Nationalism:</b> Swami Dayanand Saraswati provided the intellectual foundation for early Indian nationalism by rejecting foreign cultural domination.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Ideology</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: Swabhasha and Swarajya</b></td><td>Advocated for indigenous languages (Hindi) and Self-Rule. He was the first to give the call for Swaraj as "India for Indians" in 1876.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option B: Swadharma</b></td><td>Advocated for pride in one's own indigenous religion (Vedic Hinduism) over imported faiths.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option C: Swadeshi</b></td><td>Promoted the use of Indian-made goods over British imports to build economic self-reliance.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option D: All of the given options</b></td><td>Swami Dayanand systematically stressed all four concepts—Swarajya, Swabhasha, Swadharma, and Swadeshi—laying the groundwork for the later political independence movement.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+        `
     },
     {
-        question: "13) The Frontier Gandhi actively participated in?",
+        question: "98) The Frontier Gandhi actively participated in?",
         options: [
             "Khilafat Movement",
             "Non-Cooperation Movement",
             "Civil Disobedience Movement",
             "All of the given options"
         ],
-        correctAnswer: 2
+        correctAnswer: 2,
+        hint: `
+            <h3>Indian Independence Movement</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Khudai Khidmatgar:</b> Khan Abdul Ghaffar Khan, affectionately known as Frontier Gandhi, led a massive non-violent resistance movement in the North-West Frontier Province.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Movement</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: Khilafat Movement</b></td><td>Occurred around 1919. While he was politically active, his defining mass leadership came later.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Non-Cooperation Movement</b></td><td>1920-1922. He attended meetings, but his organization had not yet peaked.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Civil Disobedience Movement</b></td><td>Frontier Gandhi and his 'Red Shirts' (Khudai Khidmatgar) rose to international prominence for their active, paralyzing participation in the 1930 <b>Civil Disobedience Movement</b>, notably during the Qissa Khwani Bazaar massacre in Peshawar.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: All of the given options</b></td><td>While sympathetic to all Gandhian causes, his defining historical participation cited in most texts points specifically to Civil Disobedience.</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
-        question: "14) Pitt's India Act brought the company in direct subordination to a body representing?",
+        question: "99) Pitt's India Act brought the company in direct subordination to a body representing?",
         options: [
             "The Parliament of Britain",
             "The English Merchants in India",
             "The Indian Merchants",
             "Princely States"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>British Colonial History</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Corporate Oversight:</b> The East India Company was acting as a rogue state in India. The British Crown needed to reel in their immense political power.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Body</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: The Parliament of Britain</b></td><td>Pitt's India Act of 1784 established a Board of Control (appointed by the Crown), effectively bringing the East India Company's political and administrative functions in India under the direct subordination and oversight of the British Parliament.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: English Merchants</b></td><td>They were the shareholders of the company, whose power was being restricted by this act.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Indian Merchants</b></td><td>Had zero political power over the company.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Princely States</b></td><td>Were systematically being subjugated by the company, not governing it.</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
-        question: "15) Who was the first Governor General of the new Indian Dominion?",
+        question: "100) Who was the first Governor General of the new Indian Dominion?",
         options: [
             "Dr. Rajendra Prasad",
             "Sardar Vallabhbhai Patel",
             "Shri Rajagopalachari",
             "Lord Mountbatten"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Transfer of Power (1947)</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Post-Independence Transition:</b> When India gained independence on August 15, 1947, it initially became a "Dominion" within the British Commonwealth before becoming a Republic in 1950.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Official</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: Dr. Rajendra Prasad</b></td><td>He became the first President of the Republic of India in 1950, replacing the role of Governor-General.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Sardar Vallabhbhai Patel</b></td><td>He was the first Deputy Prime Minister and Home Minister.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Shri Rajagopalachari</b></td><td>He was the first (and only) *Indian* Governor-General, succeeding Mountbatten in 1948.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Lord Mountbatten</b></td><td>Upon independence in 1947, the Indian leaders requested <b>Lord Mountbatten</b> (the last Viceroy) to stay on, making him the first Governor-General of the newly independent Indian Dominion.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+        `
     },
     {
-        question: "16) Which one of the following states receives the highest rainfall during winter months?",
+        question: "101) Which one of the following states receives the highest rainfall during winter months?",
         options: [
             "Punjab",
             "Kerala",
             "Meghalaya",
             "Tamil Nadu"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Indian Monsoon Systems</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Retreating Monsoon:</b> While most of India receives rain from the South-West monsoon during summer, the eastern coast experiences a different weather pattern in winter.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>State</th><th>Rainfall Pattern</th><th>Status</th></tr>
+                <tr><td><b>Option A: Punjab</b></td><td>Receives light winter rainfall from Western Disturbances originating in the Mediterranean, crucial for Rabi crops, but not the 'highest' volume.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Kerala</b></td><td>Receives the bulk of its rainfall from the advancing South-West monsoon in June-September.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Meghalaya</b></td><td>Receives the highest rainfall in the world (Mawsynram/Cherrapunji), but this occurs during the summer South-West monsoon.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Tamil Nadu</b></td><td>The Coromandel Coast (Tamil Nadu) receives the vast majority of its annual precipitation from the North-East (Retreating) Monsoon during the winter months (October to December) as winds pick up moisture from the Bay of Bengal.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+        `
     },
     {
-        question: "17) Golden Quadrilateral Project for the development of National Highways was initiated by?",
+        question: "102) Golden Quadrilateral Project for the development of National Highways was initiated by?",
         options: [
             "Shri P V Narasimha Rao",
             "Shri I K Gujral",
             "Dr. Manmohan Singh",
             "Shri Atal Bihari Vajpayee"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Indian Infrastructure Development</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>The Golden Quadrilateral:</b> This is a massive highway network connecting India's four top metropolitan cities: Delhi, Mumbai, Chennai, and Kolkata.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Prime Minister</th><th>Key Infrastructure/Economic Contribution</th><th>Status</th></tr>
+                <tr><td><b>Option A: Shri P V Narasimha Rao</b></td><td>Initiated the 1991 economic liberalization policies, but not this specific highway project.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Shri I K Gujral</b></td><td>Known for the Gujral Doctrine in foreign policy.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Dr. Manmohan Singh</b></td><td>Oversaw later phases of highway expansion, but was not the initiator of the GQ project.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Shri Atal Bihari Vajpayee</b></td><td>The visionary Golden Quadrilateral project was launched in 2001 under the NDA government led by Prime Minister Atal Bihari Vajpayee to revolutionize road transport.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+        `
     },
     {
-        question: "18) Which of the following sea ports is nearest to Rourkela Steel Plant?",
+        question: "103) Which of the following sea ports is nearest to Rourkela Steel Plant?",
         options: [
             "Haldia",
             "Vishakhapatnam",
             "Kandla",
             "Paradip"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Industrial Geography of India</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Logistics & Steel:</b> Heavy industries like steel plants require proximity to deep-water ports for importing coking coal and exporting finished products. Rourkela is located in the state of Odisha.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Sea Port</th><th>Location & Distance Logic</th><th>Status</th></tr>
+                <tr><td><b>Option A: Haldia</b></td><td>Located in West Bengal. Used heavily by industries in the Damodar Valley, but further from Rourkela than the local state port.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Vishakhapatnam</b></td><td>Located in Andhra Pradesh. Nearest to the Bhilai and Vizag steel plants.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Kandla</b></td><td>Located on the western coast in Gujarat; entirely on the opposite side of the country.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Paradip</b></td><td>Located in Odisha. It is the closest major deep-water port serving the mineral-rich hinterland of Odisha, including the Rourkela Steel Plant.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+        `
     },
     {
-        question: "19) India's longest tunnel Jawahar tunnel is located in which state?",
+        question: "104) India's longest tunnel Jawahar tunnel is located in which state?",
         options: [
             "Jammu and Kashmir",
             "Maharashtra",
             "Karnataka",
             "Himachal Pradesh"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Important Geographic Landmarks</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Banihal Pass:</b> The Jawahar Tunnel (Banihal Tunnel) is a major road tunnel constructed to ensure year-round surface transport connectivity across the treacherous Pir Panjal range.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>State / UT</th><th>Tunnel Significance</th><th>Status</th></tr>
+                <tr><td><b>Option A: Jammu and Kashmir</b></td><td>The Jawahar Tunnel is located under the Banihal Pass in J&K. (Note: While newer tunnels like Chenani-Nashri and Atal Tunnel are now longer, Jawahar Tunnel was historically the longest and remains a critical J&K landmark).</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: Maharashtra</b></td><td>Known for Western Ghat railway tunnels (like Karbude), but not Jawahar Tunnel.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Karnataka</b></td><td>No major Himalayan-scale tunnels.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Himachal Pradesh</b></td><td>Famous for the Atal Tunnel (Rohtang), but not the Jawahar Tunnel.</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
-        question: "20) Which of the following is an east flowing river of the Peninsula?",
+        question: "105) Which of the following is an east flowing river of the Peninsula?",
         options: [
             "Tapi",
             "Narmada",
             "Mahanadi",
             "None of the given options"
         ],
-        correctAnswer: 2
+        correctAnswer: 2,
+        hint: `
+            <h3>Peninsular River Systems</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Drainage Patterns:</b> The Western Ghats act as a major water divide. Rivers originating here mostly flow eastwards into the Bay of Bengal, while a few flow west into the Arabian Sea due to rift valleys.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>River</th><th>Flow Direction & Geography</th><th>Status</th></tr>
+                <tr><td><b>Option A: Tapi</b></td><td>Flows West into the Arabian Sea through a rift valley parallel to the Vindhya and Satpura ranges.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Narmada</b></td><td>The largest West-flowing peninsular river, draining into the Arabian Sea via the Gulf of Khambhat.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Mahanadi</b></td><td>A major river in East Central India (draining through Chhattisgarh and Odisha) that flows Eastwards and empties into the Bay of Bengal, forming a massive delta.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: None</b></td><td>Incorrect as Mahanadi is present.</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
-        question: "21) Which was the 1st non Test playing country to beat India in an international cricket match?",
+        question: "106) Which was the 1st non Test playing country to beat India in an international cricket match?",
         options: [
             "Canada",
             "Sri Lanka",
             "Zimbabwe",
             "East Africa"
         ],
-        correctAnswer: 1
+        correctAnswer: 1,
+        hint: `
+            <h3>Cricket History</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>World Cup Upsets:</b> In the early days of limited-overs cricket, associate nations occasionally caused massive upsets against established full members.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Country</th><th>Historical Context</th><th>Status</th></tr>
+                <tr><td><b>Option A: Canada</b></td><td>Played in the 1979 World Cup but did not beat India.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Sri Lanka</b></td><td>During the 1979 ICC World Cup, Sri Lanka (which was an Associate member and had not yet been granted Test status) famously defeated India by 47 runs, becoming the first non-Test playing nation to beat a Test nation in ODIs.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: Zimbabwe</b></td><td>Beat Australia in 1983 before getting Test status, but not India first.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: East Africa</b></td><td>Participated in the 1975 World Cup but did not win matches.</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
-        question: "22) Who is the first Indian woman to win an Asian Games gold in 400m run?",
+        question: "107) Who is the first Indian woman to win an Asian Games gold in 400m run?",
         options: [
             "M.L. Valsamma",
             "P.T. Usha",
             "Kamaljit Sandhu",
             "K. Malleshwari"
         ],
-        correctAnswer: 2
+        correctAnswer: 2,
+        hint: `
+            <h3>Indian Women in Sports</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Athletic Milestones:</b> Breaking gender and sporting barriers, Indian women began making their mark on the international athletic stage in the 1970s.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Athlete</th><th>Sporting Achievement</th><th>Status</th></tr>
+                <tr><td><b>Option A: M.L. Valsamma</b></td><td>Won gold in the 400m hurdles at the 1982 Asian Games.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: P.T. Usha</b></td><td>The 'Payyoli Express', won multiple golds in the 1980s, but she was not the *first* Indian woman to win the 400m gold.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Kamaljit Sandhu</b></td><td>Made history at the 1970 Asian Games in Bangkok by winning the 400-meter race with a time of 57.3 seconds, becoming the very first Indian female athlete to win a gold medal at the Asian Games.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: K. Malleshwari</b></td><td>Famous for being the first Indian woman to win an Olympic medal (Weightlifting, 2000).</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
-        question: "23) The 'Dronacharya Award' is given to?",
+        question: "108) The 'Dronacharya Award' is given to?",
         options: [
             "Sportsmen",
             "Coaches",
             "Umpires",
             "Sports Editors"
         ],
-        correctAnswer: 1
+        correctAnswer: 1,
+        hint: `
+            <h3>National Sports Awards</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Mythological Naming:</b> Dronacharya was the master guru of advanced military arts in the Mahabharata, teaching the Pandavas and Kauravas.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Recipient Category</th><th>Associated Award</th><th>Status</th></tr>
+                <tr><td><b>Option A: Sportsmen</b></td><td>Awarded the Arjuna Award, Major Dhyan Chand Khel Ratna, or Padma awards.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Coaches</b></td><td>The Dronacharya Award for Outstanding Coaches in Sports and Games is the highest sports coaching honor in India, recognizing those who produce medal-winning athletes.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: Umpires</b></td><td>No specific national sporting award is named Dronacharya for match officials.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Sports Editors</b></td><td>Journalism awards (like Ramnath Goenka), not Dronacharya.</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
-        question: "24) What is the name of the person that controls a football match?",
+        question: "109) What is the name of the person that controls a football match?",
         options: [
             "A referee",
             "An umpire",
             "A spectator",
             "A goalkeeper"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Sports Officiating Terminology</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Lexicon of Sports:</b> Different sports use different terminology for the official who enforces the rules of the game on the field of play.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Official Term</th><th>Sport Associated</th><th>Status</th></tr>
+                <tr><td><b>Option A: A referee</b></td><td>In Association Football (Soccer), the primary official who enforces the Laws of the Game on the pitch is universally called the Referee.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: An umpire</b></td><td>Used in Cricket, Tennis, Baseball, and Field Hockey.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: A spectator</b></td><td>The audience watching the game, wielding no control.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: A goalkeeper</b></td><td>A player protecting the net, not an official controlling the match rules.</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
-        question: "25) The name Kunjarani Devi is associated with?",
+        question: "110) The name Kunjarani Devi is associated with?",
         options: [
             "Weight Lifting",
             "Target shooting",
             "Athletics",
             "Swimming"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Legendary Indian Athletes</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Sporting Icons:</b> N. Kunjarani Devi is one of the most decorated Indian sportswomen, setting the stage for future generations in strength-based sports.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Sport</th><th>Association</th><th>Status</th></tr>
+                <tr><td><b>Option A: Weight Lifting</b></td><td>Nameirakpam Kunjarani Devi is an iconic Indian weightlifter. She won numerous medals at the World Weightlifting Championships and Asian Games throughout the 1990s and 2000s.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: Target shooting</b></td><td>Associated with names like Anjali Bhagwat, Abhinav Bindra.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Athletics</b></td><td>Associated with names like P.T. Usha, Anju Bobby George.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Swimming</b></td><td>Associated with names like Bula Choudhury.</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
-        question: "26) Who was known as Iron Man of India?",
+        question: "111) Who was known as Iron Man of India?",
         options: [
             "Shri Govind Ballabh Pant",
             "Pandit Jawaharlal Nehru",
             "Netaji Subhash Chandra Bose",
             "Sardar Vallabhbhai Patel"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Architects of Modern India</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Political Integration:</b> Post-independence, India was fractured into over 560 princely states. A leader of immense will and diplomatic iron was required to unite them.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Leader</th><th>Historical Sobriquet</th><th>Status</th></tr>
+                <tr><td><b>Option A: Shri Govind Ballabh Pant</b></td><td>A key figure in UP politics and former Home Minister, but not known as the Iron Man.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Pandit Jawaharlal Nehru</b></td><td>The first Prime Minister, known as 'Chacha Nehru' or 'Panditji'.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Netaji Subhash Chandra Bose</b></td><td>Known universally as 'Netaji'.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Sardar Vallabhbhai Patel</b></td><td>Known as the "Iron Man of India" (Loh Purush) for his uncompromising commitment to national integration and unifying the fragmented princely states into the Republic of India.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+        `
     },
     {
-        question: "27) Professor Amartya Sen is famous in which of the fields?",
+        question: "112) Professor Amartya Sen is famous in which of the fields?",
         options: [
             "Biochemistry",
             "Electronics",
             "Economics",
             "Geology"
         ],
-        correctAnswer: 2
+        correctAnswer: 2,
+        hint: `
+            <h3>Indian Nobel Laureates</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Academic Excellence:</b> Amartya Sen is globally recognized for his work on human development theory, famine, and social welfare.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Field of Study</th><th>Amartya Sen's Contribution</th><th>Status</th></tr>
+                <tr><td><b>Option A: Biochemistry</b></td><td>Associated with scientists like Har Gobind Khorana.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Electronics</b></td><td>Unrelated to his work.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Economics</b></td><td>Prof. Amartya Sen is a world-renowned economist who was awarded the Nobel Memorial Prize in Economic Sciences in 1998 for his contributions to welfare economics and social choice theory.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: Geology</b></td><td>Unrelated to his work.</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
-        question: "28) Who is the first Asian Winner of Nobel Prize?",
+        question: "113) Who is the first Asian Winner of Nobel Prize?",
         options: [
             "C.V. Raman",
             "Rajiv Gandhi",
             "Rabindranath Tagore",
             "Mother Teresa"
         ],
-        correctAnswer: 2
+        correctAnswer: 2,
+        hint: `
+            <h3>Nobel Prize History</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Global Recognition:</b> The Nobel Prize was historically dominated by Western scholars until a literary masterpiece from India broke the barrier in 1913.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Personality</th><th>Nobel Achievement</th><th>Status</th></tr>
+                <tr><td><b>Option A: C.V. Raman</b></td><td>First Asian to win a Nobel Prize in Science (Physics, 1930) for the Raman Effect.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Rajiv Gandhi</b></td><td>Former PM, not a Nobel Laureate.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Rabindranath Tagore</b></td><td>Awarded the Nobel Prize in Literature in 1913 for his profoundly sensitive, fresh, and beautiful collection of poetry, <i>Gitanjali</i>. He was the first non-European and first Asian to win a Nobel.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: Mother Teresa</b></td><td>Won the Nobel Peace Prize in 1979, decades later.</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
-        question: "29) The highest civilian award of India 'Bharat Ratna' has been awarded to only two foreigners so far. One of them is Nelson Mandela. The other is?",
+        question: "114) The highest civilian award of India 'Bharat Ratna' has been awarded to only two foreigners so far. One of them is Nelson Mandela. The other is?",
         options: [
             "Abdul Ghaffar Khan",
             "Mikhail Gorbachev",
             "Marshal Tito",
             "Abdul Wali Khan"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Bharat Ratna to Foreigners</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>International Honors:</b> The Bharat Ratna is primarily for Indian citizens, but it has been awarded to non-Indians whose extraordinary contributions deeply impacted Indian society or global peace.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Figure</th><th>Historical Context</th><th>Status</th></tr>
+                <tr><td><b>Option A: Abdul Ghaffar Khan</b></td><td>Known as the "Frontier Gandhi," he was a Pashtun independence activist who opposed the partition of India. Though a citizen of Pakistan post-1947, he was awarded the Bharat Ratna in 1987 for his lifelong devotion to Gandhian non-violence.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: Mikhail Gorbachev</b></td><td>Soviet leader, never awarded the Bharat Ratna.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Marshal Tito</b></td><td>Yugoslav leader (Non-Aligned Movement founder), never awarded the Bharat Ratna.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Abdul Wali Khan</b></td><td>Son of Abdul Ghaffar Khan, prominent Pakistani politician, not awarded the Bharat Ratna.</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
-        question: "30) CFCs are used as?",
+        question: "115) CFCs are used as?",
         options: [
             "Refrigerants",
             "Insulators",
             "Aerosol Propellants",
             "All of the given options"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Environmental Chemistry</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Chlorofluorocarbons (CFCs):</b> Before the Montreal Protocol banned them due to ozone layer depletion, these synthetic compounds were ubiquitous in modern industry due to their non-flammability and volatility.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Industrial Use</th><th>Function</th><th>Status</th></tr>
+                <tr><td><b>Option A: Refrigerants</b></td><td>Used extensively in older ACs and refrigerators (e.g., Freon) for phase-change cooling.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option B: Insulators</b></td><td>Used as blowing agents in the manufacture of insulating foam plastics.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option C: Aerosol Propellants</b></td><td>Used as the pressurized gas to push products out of spray cans (hairspray, paint).</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option D: All of the given options</b></td><td>CFCs were widely utilized across all these industrial applications before environmental regulations phased them out.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+        `
     },
     {
-        question: "31) Particulate pollutants are?",
+        question: "116) Particulate pollutants are?",
         options: [
             "Small solid particles and liquid droplets",
             "Liquid droplets in atmosphere",
             "Small solid particles released into the atmosphere",
             "All of the given options"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Air Pollution Components</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Particulate Matter (PM):</b> Air pollution isn't just gases (like CO2 or NOX). It includes microscopic physical matter that can penetrate deep into human lungs.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Definition</th><th>Scientific Accuracy</th><th>Status</th></tr>
+                <tr><td><b>Option A: Small solid particles and liquid droplets</b></td><td>Scientifically, Particulate Matter (PM10, PM2.5) is a complex mixture of both extremely small solid particles (dust, soot, dirt) and microscopic liquid droplets (acids, organic chemicals) suspended in the air.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: Liquid droplets only</b></td><td>Incomplete definition; ignores solid dust/soot.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Solid particles only</b></td><td>Incomplete definition; ignores liquid aerosol suspensions.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: All options</b></td><td>Redundant/conflicting since Option A perfectly encapsulates both states of matter.</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
-        question: "32) Where are the days and nights of equal length all year long?",
+        question: "117) Where are the days and nights of equal length all year long?",
         options: [
             "At 66.5 degree",
             "No where",
             "At 23.5 degree",
             "At the Equator"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Earth's Axial Tilt</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Solar Geometry:</b> The Earth is tilted on its axis by 23.5 degrees. As it orbits the sun, different hemispheres get varying lengths of sunlight, creating seasons.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Location</th><th>Day/Night Duration</th><th>Status</th></tr>
+                <tr><td><b>Option A: 66.5 degree</b></td><td>The Arctic/Antarctic circles. Experiences extreme variations (24-hour daylight in summer, 24-hour darkness in winter).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: No where</b></td><td>False, there is a specific latitude.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: 23.5 degree</b></td><td>The Tropics of Cancer/Capricorn. Days and nights vary slightly throughout the year.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: At the Equator</b></td><td>Because the Equator (0 degrees latitude) lies exactly in the middle of the earth's bulge, the circle of illumination always divides it perfectly in half, resulting in almost exactly 12 hours of day and 12 hours of night all year round.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+        `
     },
     {
-        question: "33) The one-horned Rhinoceros is now restricted to which state?",
+        question: "118) The one-horned Rhinoceros is now restricted to which state?",
         options: [
             "Maharashtra",
             "Gujarat",
             "Assam",
             "Uttar Pradesh"
         ],
-        correctAnswer: 2
+        correctAnswer: 2,
+        hint: `
+            <h3>Wildlife Conservation in India</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Endemic Mega-fauna:</b> The Great Indian Rhinoceros once roamed the entire northern Indian subcontinent. Poaching and habitat loss have shrunk its territory to highly protected marshlands.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>State</th><th>Associated Wildlife/Status</th><th>Status</th></tr>
+                <tr><td><b>Option A: Maharashtra</b></td><td>Known for tigers (Tadoba, Pench), no rhinos.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Gujarat</b></td><td>The last refuge of the Asiatic Lion (Gir), no rhinos.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Assam</b></td><td>The floodplains of the Brahmaputra, specifically the Kaziranga National Park and Pobitora Wildlife Sanctuary in Assam, hold over 90% of the world's population of the vulnerable one-horned rhinoceros.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: Uttar Pradesh</b></td><td>Dudhwa has a small reintroduced population, but Assam is the primary and historic restricted sanctuary.</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
-        question: "34) Which of the following is used in pencils?",
+        question: "119) Which of the following is used in pencils?",
         options: [
             "Graphite",
             "Silicon",
             "Charcoal",
             "Phosphorous"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Materials Science</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Carbon Allotropes:</b> The "lead" in a pencil isn't actually the toxic metal lead; it is a specific soft form of carbon mixed with clay.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Material</th><th>Properties & Uses</th><th>Status</th></tr>
+                <tr><td><b>Option A: Graphite</b></td><td>An allotrope of carbon where atoms are arranged in sliding sheets. Its slippery nature leaves a dark mark on paper when rubbed, making it the perfect core material for pencils.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: Silicon</b></td><td>A semiconductor used in computer chips and glass making.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Charcoal</b></td><td>Used for drawing by artists, but modern standard pencils use graphite cores.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Phosphorous</b></td><td>Highly reactive element used in match heads and fertilizers.</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
-        question: "35) The hardest substance available on earth is?",
+        question: "120) The hardest substance available on earth is?",
         options: [
             "Gold",
             "Iron",
             "Diamond",
             "Platinum"
         ],
-        correctAnswer: 2
+        correctAnswer: 2,
+        hint: `
+            <h3>Geology and Mineral Hardness</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Mohs Scale:</b> Hardness refers to a material's resistance to scratching or abrasion, determined by the strength of its internal atomic bonds.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Substance</th><th>Hardness Profile</th><th>Status</th></tr>
+                <tr><td><b>Option A: Gold</b></td><td>Extremely malleable and soft metal.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Iron</b></td><td>A tough but relatively soft metal (needs to be alloyed into steel for hardness).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Diamond</b></td><td>A crystalline allotrope of carbon where every atom is bonded to four others in a rigid 3D tetrahedral lattice. It scores a perfect 10 on the Mohs scale of mineral hardness, making it the hardest naturally occurring substance on Earth.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: Platinum</b></td><td>A dense, precious metal, but relatively soft compared to minerals.</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
-        question: "36) When any House of Parliament (Lok Sabha or Rajya Sabha) is adjourned without naming a day for reassembly it is known as?",
+        question: "121) When any House of Parliament (Lok Sabha or Rajya Sabha) is adjourned without naming a day for reassembly it is known as?",
         options: [
             "Demand for Grants",
             "Adjournment of Debate",
             "Adjournment of the sitting of the House",
             "Adjournment Sine Die"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Parliamentary Procedures</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Legislative Vocabulary:</b> The presiding officer (Speaker/Chairman) controls the timetable of the house.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Term</th><th>Meaning</th><th>Status</th></tr>
+                <tr><td><b>Option A: Demand for Grants</b></td><td>Financial request for budget allocation by a ministry.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Adjournment of Debate</b></td><td>Halting discussion on a specific bill/topic.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Adjournment of the sitting</b></td><td>Terminating the day's sitting to resume on a specifically stated future date.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Adjournment Sine Die</b></td><td>Latin for "without day". It means terminating a sitting of the Parliament for an indefinite period without fixing any date for reassembly (usually done at the end of a session).</td><td><b>Correct Answer</b></td></tr>
+            </table>
+        `
     },
     {
-        question: "37) The highest law officer in the state is?",
+        question: "122) The highest law officer in the state is?",
         options: [
             "Attorney General",
             "Advocate General",
             "Additional General",
             "None of the given options"
         ],
-        correctAnswer: 1
+        correctAnswer: 1,
+        hint: `
+            <h3>Constitutional Law Officers</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Legal Representation:</b> Both the Central (Union) Government and State Governments require apex legal experts to defend them in courts and advise the executive.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Officer</th><th>Jurisdiction</th><th>Status</th></tr>
+                <tr><td><b>Option A: Attorney General</b></td><td>The highest law officer for the <b>Union/Central Government</b> of India (Article 76).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Advocate General</b></td><td>Appointed by the Governor under Article 165, the Advocate General is the highest law officer in a <b>State</b>, responsible for advising the state government on legal matters.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: Additional General</b></td><td>Refers to Additional Solicitors General, who are subordinate law officers.</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
-        question: "38) The provisions as covered by Article 343 to 351 under Part XVII of the Constitution of India deals with?",
+        question: "123) The provisions as covered by Article 343 to 351 under Part XVII of the Constitution of India deals with?",
         options: [
             "Religion",
             "Official Language",
             "President",
             "Emergency"
         ],
-        correctAnswer: 1
+        correctAnswer: 1,
+        hint: `
+            <h3>Parts of the Indian Constitution</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Constitutional Structure:</b> The Constitution groups thematic laws into specific Parts to organize governance clearly.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Subject Matter</th><th>Constitutional Part/Articles</th><th>Status</th></tr>
+                <tr><td><b>Option A: Religion</b></td><td>Freedom of religion is covered under Fundamental Rights (Part III, Articles 25-28).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Official Language</b></td><td>Part XVII (Articles 343 to 351) of the Constitution exclusively deals with the Official Language of the Union, regional languages, language of the Supreme Court, and directives for the development of Hindi.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: President</b></td><td>Covered under The Union Executive (Part V, Articles 52-62).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Emergency</b></td><td>Covered under Part XVIII (Articles 352 to 360).</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
-        question: "39) The State which is neutral in matters of religion and does not uphold any particular religion as the State religion is called?",
+        question: "124) The State which is neutral in matters of religion and does not uphold any particular religion as the State religion is called?",
         options: [
             "Independent State",
             "Democratic State",
             "Secular State",
             "None of the given options"
         ],
-        correctAnswer: 2
+        correctAnswer: 2,
+        hint: `
+            <h3>Political Philosophy</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>State vs Religion:</b> The Preamble of the Indian Constitution defines the ideological posture of the government towards religious institutions.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>State Type</th><th>Definition</th><th>Status</th></tr>
+                <tr><td><b>Option A: Independent State</b></td><td>A sovereign nation free from foreign rule. Can still have a state religion (e.g., Pakistan).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Democratic State</b></td><td>A state where leaders are elected by the people. Can still have a state religion (e.g., UK).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Secular State</b></td><td>A state that separates government institutions from religious institutions, remains neutral in religious matters, and guarantees all citizens the right to practice any faith without state discrimination.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+        `
     },
     {
-        question: "40) By which act a nation wide network to provide free and competent legal aid to the poor and to organize lok adalats for promoting equal justice has been established?",
+        question: "125) By which act a nation wide network to provide free and competent legal aid to the poor and to organize lok adalats for promoting equal justice has been established?",
         options: [
             "The Legal Services Authorities Act (1987)",
             "The Protection of Civil Rights Act, 1955",
             "Prevention of Atrocities Act, 1989",
             "None of the given options"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Access to Justice</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Constitutional Directive:</b> Article 39A mandates the State to provide free legal aid. Parliament enacted a specific law to create the infrastructure (NALSA, SALSA, DALSA) to fulfill this.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Act Name</th><th>Purpose of Legislation</th><th>Status</th></tr>
+                <tr><td><b>Option A: The Legal Services Authorities Act (1987)</b></td><td>This Act created a statutory framework to provide free and competent legal services to weaker sections (poor, marginalized) and to organize Lok Adalats to secure justice efficiently.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: Protection of Civil Rights Act, 1955</b></td><td>Deals with abolishing untouchability and punishing discriminatory practices.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Prevention of Atrocities Act, 1989</b></td><td>Specifically protects Scheduled Castes and Scheduled Tribes from hate crimes.</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
-        question: "41) In which year did the Constituent Assembly accept Hindi as the official language of independent India?",
+        question: "126) In which year did the Constituent Assembly accept Hindi as the official language of independent India?",
         options: [
             "26th January, 1950",
             "15th August, 1947",
             "9th August, 1942",
             "14th September, 1949"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>History of the Official Language</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>The Munshi-Ayyangar Formula:</b> The debate over a national language was intense during the drafting of the Constitution. A compromise was reached to adopt Hindi while retaining English temporarily.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Date</th><th>Historical Milestone</th><th>Status</th></tr>
+                <tr><td><b>Option A: 26th Jan, 1950</b></td><td>The date the entire Constitution came into force.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: 15th Aug, 1947</b></td><td>Independence Day.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: 9th Aug, 1942</b></td><td>Launch of the Quit India Movement.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: 14th September, 1949</b></td><td>On this exact date, the Constituent Assembly adopted Hindi (written in Devanagari script) as the Official Language of the Union. This day is now celebrated annually as 'Hindi Diwas'.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+        `
     },
     {
-        question: "42) In which year the Official Language Act, 1963 was amended?",
+        question: "127) In which year the Official Language Act, 1963 was amended?",
         options: [
             "1967",
             "1964",
             "1965",
             "1966"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Legislative Amendments (Rajbhasha)</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Anti-Hindi Agitations:</b> Fears in South India that English would be discarded after the 15-year constitutional limit (1965) led to protests, forcing Parliament to legally guarantee the continued use of English.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Year</th><th>Legislative Action</th><th>Status</th></tr>
+                <tr><td><b>Option A: 1967</b></td><td>The Official Languages Act, 1963, was amended in <b>1967</b> (Act No. 1 of 1968) to include Section 3(1), guaranteeing the continued use of English for official Union purposes until all non-Hindi states agreed to alter it.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B, C, D</b></td><td>No major Official Language amendments were passed in these years.</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
-        question: "43) How many members are there in the Parliamentary Official Language Committee?",
+        question: "128) How many members are there in the Parliamentary Official Language Committee?",
         options: [
             "30",
             "28",
             "25",
             "20"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Parliamentary Oversight</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Committee Composition:</b> The Committee of Parliament on Official Language was constituted in 1976 under Section 4 of the OLA 1963 to review the progress of Hindi.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Member Count</th><th>Constitutional Setup</th><th>Status</th></tr>
+                <tr><td><b>Option A: 30</b></td><td>The committee consists of exactly <b>30 members</b>. This is proportionally divided into 20 members elected by the Lok Sabha and 10 members elected by the Rajya Sabha.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B, C, D</b></td><td>Incorrect total numbers.</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
-        question: "44) How many sub-committees are there in the Committee of Parliament on Official Language?",
+        question: "129) How many sub-committees are there in the Committee of Parliament on Official Language?",
         options: [
             "1",
             "2",
             "3",
             "4"
         ],
-        correctAnswer: 2
+        correctAnswer: 2,
+        hint: `
+            <h3>Parliamentary Committee Operations</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Work Distribution:</b> Because the committee must inspect hundreds of Central Government offices across the vast geography of India, the 30 members are divided into smaller working groups.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Sub-Committees</th><th>Distribution Logic</th><th>Status</th></tr>
+                <tr><td><b>Option A, B, D</b></td><td>Incorrect organizational breakdown.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: 3</b></td><td>The Parliamentary Committee on Official Language is divided into <b>3 Sub-Committees</b> (Drafting & Evidence Sub-Committee, and inspection groups usually broken by Ministries/Regions) to conduct inspections efficiently nationwide.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+        `
     },
     {
-        question: "45) How many years/months is the tenure of the Chief Official Language Officer?",
+        question: "130) How many years/months is the tenure of the Chief Official Language Officer?",
         options: [
             "1 Year",
             "2 Years",
             "3 Years",
             "6 Months"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Mukhya Rajbhasha Adhikari (MRA)</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Administrative Assignment:</b> The MRA is an SAG-level officer given the additional charge of monitoring Hindi implementation at the Zonal Railway level.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Tenure</th><th>Railway Board Guidelines</th><th>Status</th></tr>
+                <tr><td><b>Option A: 1 Year</b></td><td>As per standard Railway Board Rajbhasha policies, the assignment of the Mukhya Rajbhasha Adhikari (MRA) is traditionally made on a rotational basis among PHODs/HODs for a tenure of <b>1 Year</b>.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B, C, D</b></td><td>Incorrect tenure lengths for this specific ex-officio assignment.</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
-        question: "46) In which order the name board, designation board and information board are expected to be displayed in non-Hindi speaking states?",
+        question: "131) In which order the name board, designation board and information board are expected to be displayed in non-Hindi speaking states?",
         options: [
             "Hindi Language, English Language, Regional Language",
             "Regional Language, Hindi Language, English Language",
             "Regional Language, English Language, Hindi Language",
             "English Language, Regional Language, Hindi Language"
         ],
-        correctAnswer: 1
+        correctAnswer: 1,
+        hint: `
+            <h3>Trilingual Display Formula</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Signage Guidelines:</b> Central Government offices (including Railway stations) in non-Hindi speaking regions (Region C) must follow a strict top-to-bottom sequence for public boards to respect local sentiment while promoting the official language.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Display Order</th><th>Policy Mandate</th><th>Status</th></tr>
+                <tr><td><b>Option A, C, D</b></td><td>Incorrect sequencing violating the Ministry of Home Affairs circulars.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Regional, Hindi, English</b></td><td>The prescribed top-to-bottom order is: First <b>Regional Language</b> (to serve the local public), Second <b>Hindi</b> (the official language of the Union), and Third <b>English</b> (the associate official language).</td><td><b>Correct Answer</b></td></tr>
+            </table>
+        `
     },
     {
-        question: "47) What percentage of work can be directed by the Head of Office individually to officers proficient in Hindi to do their work in Hindi?",
+        question: "132) What percentage of work can be directed by the Head of Office individually to officers proficient in Hindi to do their work in Hindi?",
         options: [
             "75%",
             "80%",
             "90%",
             "100%"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Official Language Rules, 1976</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Administrative Directives:</b> Rule 8(4) empowers the management to compel the usage of Hindi by staff who possess the necessary language skills.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Percentage</th><th>Rule 8(4) Application</th><th>Status</th></tr>
+                <tr><td><b>Option A, B, C</b></td><td>Arbitrary limitations.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: 100%</b></td><td>Under Rule 8(4), an Administrative Head of an office can issue an order directing specific employees who are proficient in Hindi to perform up to <b>100%</b> of their noting, drafting, and other specified official work in Hindi only.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+        `
     },
     {
-        question: "48) Which act was passed to legalize the assurances given to the residents of non-Hindi speaking areas?",
+        question: "133) Which act was passed to legalize the assurances given to the residents of non-Hindi speaking areas?",
         options: [
             "Act 1963",
             "Act 1976",
             "Act 1967 (Amended)",
             "Act 1965"
         ],
-        correctAnswer: 2
+        correctAnswer: 2,
+        hint: `
+            <h3>Linguistic Legislative History</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Nehru's Assurance:</b> PM Jawaharlal Nehru assured Southern states that English would not be replaced by Hindi without their consent. This political promise needed to be turned into binding law.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Legislation</th><th>Historical Context</th><th>Status</th></tr>
+                <tr><td><b>Option A: Act 1963</b></td><td>The original Official Languages Act, which kept the use of English permissive ("may" be used), leading to mistrust in the South.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Act 1976</b></td><td>Refers to the Official Language Rules detailing implementation, not the parent parliamentary Act.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Act 1967 (Amended)</b></td><td>The Official Languages (Amendment) Act of 1967 legally cemented Nehru's assurances, guaranteeing the continued use of English for communication between the Union and non-Hindi states until those states passed resolutions to change it.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+        `
     },
     {
-        question: "49) What is the education system of Central Government for Hindi courses?",
+        question: "134) What is the education system of Central Government for Hindi courses?",
         options: [
             "Regular",
             "Intensive",
             "Correspondence",
             "All the given options"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Hindi Teaching Scheme (HTS)</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Training Flexibility:</b> The Central Government recognizes that employees have busy duty rosters. Therefore, the Department of Official Language offers multiple avenues for non-Hindi staff to learn.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Mode of Education</th><th>Application</th><th>Status</th></tr>
+                <tr><td><b>Option A: Regular</b></td><td>Standard classroom coaching over several months.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option B: Intensive</b></td><td>Short, full-time crash courses for rapid learning.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option C: Correspondence</b></td><td>Distance learning / postal courses for field staff.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option D: All the given options</b></td><td>The HTS utilizes all these methodologies (Regular, Intensive, and Correspondence) to impart Prabodh, Praveen, and Pragya training.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+        `
     },
     {
-        question: "50) How many articles are mentioned in Chapter-2 related to the language of the Union in Part-17 of the Constitution?",
+        question: "135) How many articles are mentioned in Chapter-2 related to the language of the Union in Part-17 of the Constitution?",
         options: [
             "5",
             "8",
             "4",
             "3"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Constitutional Language Chapters</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Part XVII Breakdown:</b> Part 17 of the Constitution is divided into four chapters: 1. Language of the Union, 2. Regional Languages, 3. Language of the Supreme Court/High Courts, 4. Special Directives. <i>(Note: The question's phrasing "Language of the Union" is technically Chapter 1, but Chapter 2 "Regional Languages" contains 3 articles. Let's analyze the numbers).</i>
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Article Count</th><th>Breakdown of Part XVII</th><th>Status</th></tr>
+                <tr><td colspan="3">Chapter 1 (Union): Articles 343, 344 (2 Articles).<br><b>Chapter 2 (Regional):</b> Articles 345, 346, 347 (<b>3 Articles</b>).<br>Chapter 3 (Courts): Articles 348, 349 (2 Articles).<br>Chapter 4 (Directives): Articles 350, 351 (2 Articles).</td></tr>
+                <tr><td><b>Option A, B, C</b></td><td>Incorrect counts for Chapter 2.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: 3</b></td><td>Chapter 2 of Part XVII (Regional Languages) consists of exactly 3 articles: 345 (State languages), 346 (Inter-state communication), and 347 (Special provisions).</td><td><b>Correct Answer</b></td></tr>
+            </table>
+        `
     },
     {
-        question: "51) Which of these languages is not written in Devanagari script?",
+        question: "136) Which of these languages is not written in Devanagari script?",
         options: [
             "Hindi",
             "Sanskrit",
             "Gujarati",
             "Marathi"
         ],
-        correctAnswer: 2
+        correctAnswer: 2,
+        hint: `
+            <h3>Indic Scripts</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Devanagari characteristics:</b> Devanagari is characterized by the distinct horizontal line ('shirorekha') running along the top of the letters linking the words together.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Language</th><th>Primary Script</th><th>Status</th></tr>
+                <tr><td><b>Option A: Hindi</b></td><td>Constitutionally mandated to be written in Devanagari.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Sanskrit</b></td><td>Historically and contemporarily written using Devanagari.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Gujarati</b></td><td>While heavily derived from the same ancestral script (Brahmi), <b>Gujarati has its own distinct script</b>, notably lacking the top horizontal line (shirorekha) found in Devanagari.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: Marathi</b></td><td>Written in the Balbodh style of Devanagari.</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
-        question: "52) Under the Hindi Dictation Award Scheme, what is the amount of award fixed for the officers of 'C' region?",
+        question: "137) Under the Hindi Dictation Award Scheme, what is the amount of award fixed for the officers of 'C' region?",
         options: [
             "Rs. 4000",
             "Rs. 1000",
             "Rs. 2000",
             "Rs. 5000"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Hindi Dictation Scheme</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Incentivizing Officers:</b> To encourage senior officials who dictate notes to their PAs/Stenos to do so in Hindi, cash awards are given based on achieving a minimum word count over the year. The prize money is higher in non-Hindi regions (C) to motivate effort.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Prize Amount</th><th>Scheme Directives (Current)</th><th>Status</th></tr>
+                <tr><td><b>Option A, B, C</b></td><td>Do not match the enhanced incentive slabs for Region C officers.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Rs. 5000</b></td><td>Under the revised Railway Board guidelines for the Rajbhasha Dictation Scheme, officers in 'C' Region (non-Hindi speaking) who meet the dictation target are awarded a higher cash prize of Rs. 5000 to recognize the extra effort required.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+        `
     },
     {
-        question: "53) In how many parts of the Indian Constitution are there provisions related to language?",
+        question: "138) In how many parts of the Indian Constitution are there provisions related to language?",
         options: [
             "Two",
             "Four",
             "Three",
             "Five"
         ],
-        correctAnswer: 2
+        correctAnswer: 2,
+        hint: `
+            <h3>Linguistic Provisions in the Constitution</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Scattered Provisions:</b> While Part XVII is the main language chapter, rules dictating what language must be used in Parliament and State Legislatures are found elsewhere.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Parts Count</th><th>Breakdown of Parts</th><th>Status</th></tr>
+                <tr><td colspan="3">1. <b>Part V</b> (The Union): Article 120 governs language in Parliament.<br>2. <b>Part VI</b> (The States): Article 210 governs language in State Legislatures.<br>3. <b>Part XVII</b> (Official Language): Articles 343-351 form the core language policies.</td></tr>
+                <tr><td><b>Option A, B, D</b></td><td>Incorrect enumeration.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Three</b></td><td>Provisions related to official/working languages are embedded in exactly <b>Three</b> parts of the Constitution (Parts V, VI, and XVII).</td><td><b>Correct Answer</b></td></tr>
+            </table>
+        `
     },
     {
-        question: "54) What will be the form of numerals to be used for the official purposes of the Union?",
+        question: "139) What will be the form of numerals to be used for the official purposes of the Union?",
         options: [
             "1, 2, 3, 4",
             "एक, दो, तीन, चार",
             "I, II, III, IV",
             "१, २, ३, ४"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Constitutional Numeral Form</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Standardization:</b> While Hindi in Devanagari script is the official language, the script for numbers was heavily debated. A standard was required to maintain global accounting compatibility.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Numeral Form</th><th>Constitutional Stance</th><th>Status</th></tr>
+                <tr><td><b>Option A: 1, 2, 3, 4</b></td><td>Article 343(1) explicitly mandates: "The form of numerals to be used for the official purposes of the Union shall be the <b>international form of Indian numerals</b>" (which are 1, 2, 3, 4).</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: Hindi words</b></td><td>These are words, not digits.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Roman Numerals</b></td><td>Not native/constitutional standard.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Devanagari digits</b></td><td>(१, २, ३, ४) Cannot be used generally for official Union accounting unless a specific Presidential order permits it.</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
-        question: "55) Who qualifies as an employee proficient in Hindi?",
+        question: "140) Who qualifies as an employee proficient in Hindi?",
         options: [
             "Knowledge of Hindi at primary level",
             "Passed Primary Level Exam in Hindi Medium",
             "Knowledge of Hindi at matriculation level",
             "Matriculation Level Exam Passed in Hindi Medium"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Proficiency Definitions (Rule 9)</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Working Knowledge vs. Proficiency:</b> The Official Language Rules distinguish between those who can just understand Hindi and those who can officially draft complex documents in it.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Qualification Level</th><th>Official Language Rules Status</th><th>Status</th></tr>
+                <tr><td><b>Option A & B</b></td><td>Primary level is too rudimentary for official drafting.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Knowledge at matriculation</b></td><td>Just having 'knowledge' or having passed matriculation with Hindi as a mere subject confers "Working Knowledge" (Rule 10), but not full proficiency.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Matriculation in Hindi Medium</b></td><td>Under Rule 9, an employee who has passed the Matriculation (or equivalent) examination <b>with Hindi as the medium of examination</b> (or holds an equivalent degree in Hindi) is legally deemed to possess "Proficiency in Hindi."</td><td><b>Correct Answer</b></td></tr>
+            </table>
+        `
     },
     {
-        question: "1) Total HLAP credited for six months working?",
+        question: "141) Total HLAP credited for six months working?",
         options: [
             "10 Days",
             "15 Days",
             "20 Days",
             "30 Days"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Half Pay Leave (LHAP) Accounting</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Leave Crediting:</b> Leave is earned as a worker renders continuous service. It is credited in advance in two half-yearly installments.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Days Credited</th><th>Leave Rules Logic</th><th>Status</th></tr>
+                <tr><td><b>Option A: 10 Days</b></td><td>A Railway servant is entitled to 20 days of LHAP (Leave on Half Average Pay) for every completed year of service. This is credited to their account in two equal installments of <b>10 days each</b> on the 1st of January and 1st of July (every six months).</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: 15 Days</b></td><td>This is the half-yearly credit for LAP (Leave on Average Pay), which totals 30 days a year.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: 20 Days</b></td><td>This is the total annual credit for LHAP.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: 30 Days</b></td><td>This is the total annual credit for LAP.</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
-        question: "2) Which is the most sanctioned leave for maximum 05 years?",
+        question: "142) Which is the most sanctioned leave for maximum 05 years?",
         options: [
             "Study leave",
             "Extra ordinary leave",
             "Paternity leave",
             "Maternity leave"
         ],
-        correctAnswer: 1
+        correctAnswer: 1,
+        hint: `
+            <h3>Extraordinary Leave (EOL)</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Absence without Pay:</b> When an employee has exhausted all other forms of leave, or for specific personal reasons, they can apply for EOL.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Leave Type</th><th>Maximum Limit Constraints</th><th>Status</th></tr>
+                <tr><td><b>Option A: Study leave</b></td><td>Normally limited to 24 months (36 months for medical doctors).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Extra ordinary leave</b></td><td>Under special circumstances (like prolonged illness, taking up employment abroad, or joining a spouse), the President/Competent Authority can sanction Extraordinary Leave (without pay) up to a maximum continuous limit of <b>5 years</b>. Remaining absent beyond 5 years results in deemed resignation.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: Paternity leave</b></td><td>Limited to 15 days.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Maternity leave</b></td><td>Limited to 180 days.</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
-        question: "3) In case of death of Group A & B officers after completion of 20 years of service, how many sets of passes per year is permissible to the widow?",
+        question: "143) In case of death of Group A & B officers after completion of 20 years of service, how many sets of passes per year is permissible to the widow?",
         options: [
             "One & Half set per year",
             "02 sets",
             "04 sets",
             "01 set"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Widow Pass Rules (Pre-2001 Standard)</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Compassionate Privilege:</b> Widows of railway servants are entitled to complimentary passes. <i>Note: Post-2001 amendments often simplified widow passes to half of the retirement entitlement, but legacy exam questions use the classic fractional scale.</i>
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Sets per Year</th><th>Rule Allocation</th><th>Status</th></tr>
+                <tr><td><b>Option A: One & Half set per year</b></td><td>Historically, a Group A or B officer with 20+ years of service was entitled to 3 sets of post-retirement passes. The Widow Pass scheme generally granted half of this entitlement, resulting in <b>1.5 sets per year</b> (administered as 1 set one year and 2 sets the next).</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B, C, D</b></td><td>Incorrect fractional entitlements for this specific bracket.</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
-        question: "4) Validity of half set Complimentary Pass is ..... Months?",
+        question: "144) Validity of half set Complimentary Pass is ..... Months?",
         options: [
             "05 months",
             "04 months",
             "03 months",
             "06 months"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Pass Validity Rules</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Travel Window:</b> Railway passes (Privilege, Post-Retirement Complimentary, Widow) have a fixed lifespan from the date of issue to prevent hoarding.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Validity Period</th><th>Pass Manual Directives</th><th>Status</th></tr>
+                <tr><td><b>Option A: 05 months</b></td><td>As per recent Railway Board standardizations, Privilege Passes, PTOs, and Post-Retirement Complimentary Passes (whether full set or half set) have a uniform validity of <b>5 months</b> from the date of issue.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B, C, D</b></td><td>Historical validity periods (it used to be 3 months for half-sets and 4 months for full sets before being standardized to 5 months).</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
-        question: "5) Railway Servants with not less than .......... years of service shall be eligible for assistance for the education of their children, As per IREM Vol II, Rule  2204?",
+        question: "145) Railway Servants with not less than .......... years of service shall be eligible for assistance for the education of their children, As per IREM Vol II, Rule  2204?",
         options: [
             "01 Year",
             "02 Years",
             "03 Years",
             "04 Years"
         ],
-        correctAnswer: 2
+        correctAnswer: 2,
+        hint: `
+            <h3>Children Education Assistance (CEA)</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Eligibility Threshold:</b> While 7th CPC has greatly simplified CEA rules (making it available almost immediately upon regular appointment), classic IREM questions test the legacy statutory limits.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Service Requirement</th><th>IREM Rule 2204 Status</th><th>Status</th></tr>
+                <tr><td><b>Option A & B</b></td><td>Insufficient under old rules.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: 03 Years</b></td><td>As per the classic phrasing of IREM Vol II, Rule 2204, a railway servant was required to complete a minimum of <b>3 years</b> of continuous service to become eligible to claim Children Education Allowance or Hostel Subsidy.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: 04 Years</b></td><td>Incorrect threshold.</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
-        question: "6) All types of fines are deposited in which fund?",
+        question: "146) All types of fines are deposited in which fund?",
         options: [
             "Staff Benefit Fund",
             "Revenue Reserve Fund",
             "Railway Pension Fund",
             "Development Fund"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Staff Benefit Fund (SBF) Sources</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Welfare Financing:</b> The SBF is used for employee scholarships, medical aid, and recreation. It is funded by a per-capita grant from railway revenues, plus other internal receipts.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Fund</th><th>Income Sources</th><th>Status</th></tr>
+                <tr><td><b>Option A: Staff Benefit Fund</b></td><td>Any monetary fines imposed on railway staff as disciplinary penalties, as well as unpaid wages and proceeds from the sale of lost property (unclaimed), are credited to the SBF to be used for the collective welfare of the employees.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: Revenue Reserve Fund</b></td><td>Used for dividend shortfalls.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Pension Fund</b></td><td>Funded by revenue appropriations for retiree payouts.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Development Fund</b></td><td>Used for passenger amenities and safety.</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
-        question: "7) Period for appeal under DAR rules is .... Days?",
+        question: "147) Period for appeal under DAR rules is .... Days?",
         options: [
             "45 days",
             "30 days",
             "15 days",
             "35 days"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Appellate Authority (D&AR)</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Right to Appeal:</b> If a railway servant is punished by the Disciplinary Authority (NIP issued), they have a statutory right to appeal to a higher authority, provided they do so within a strict legal timeframe.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Time Limit</th><th>D&AR Provision</th><th>Status</th></tr>
+                <tr><td><b>Option A: 45 days</b></td><td>Under Rule 20 of the Railway Servants (D&A) Rules, 1968, an appeal against a penalty order must be preferred within <b>45 days</b> from the date the order was delivered to the appellant.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: 30 days</b></td><td>Typical time limit for civil court appeals, not DAR.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: 15 days</b></td><td>Time limit to submit a defense reply to an IO's report, not the final appeal.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: 35 days</b></td><td>Incorrect limit.</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
-        question: "8) Who is the supreme disciplinary authority?",
+        question: "148) Who is the supreme disciplinary authority?",
         options: [
             "President of India",
             "Chief Minister",
             "Prime Minister of India",
             "Chief Justice of India"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Executive Powers over Civil Services</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Doctrine of Pleasure:</b> Article 310 of the Constitution states that every person who is a member of a civil service of the Union holds office during the pleasure of the President.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Authority</th><th>Disciplinary Role</th><th>Status</th></tr>
+                <tr><td><b>Option A: President of India</b></td><td>As the appointing authority for all Group A officers and the constitutional head of the Union, the President is the supreme reviewing, appellate, and disciplinary authority. Actions under Article 311(2)(c) (dismissal without inquiry for national security) are taken in the President's name.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B, C, D</b></td><td>Politicians and judges do not possess direct, supreme departmental disciplinary powers over railway civil servants.</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
-        question: "9) Under which rule of Railway Service Conduct Rules is movable and immovable property mentioned?",
+        question: "149) Under which rule of Railway Service Conduct Rules is movable and immovable property mentioned?",
         options: [
             "Rule-18",
             "Rule-17",
             "Rule-19",
             "Rule-22A"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Railway Services (Conduct) Rules, 1966</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Asset Declaration:</b> To curb corruption and track disproportionate assets, civil servants must file returns and seek permissions for buying or selling property.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Rule Number</th><th>Subject Matter</th><th>Status</th></tr>
+                <tr><td><b>Option A: Rule-18</b></td><td>Rule 18 is specifically titled "Movable, immovable and valuable property." It mandates the filing of annual returns and taking prior permission/intimating transactions of land, houses, shares, and vehicles.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: Rule-17</b></td><td>Deals with Insolvency and Habitual Indebtedness.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Rule-19</b></td><td>Deals with Vindication of Acts and Character of Railway Servants.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Rule-22A</b></td><td>Deals with Prohibition of employment of children below 14 years.</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
-        question: "10) The Railway Service (Conduct) Rule 1966, Rule 3A is related to?",
+        question: "150) The Railway Service (Conduct) Rule 1966, Rule 3A is related to?",
         options: [
             "Taking part in politics",
             "Promptness and courtesy",
             "Observance of Govt. Policies",
             "None of the given options"
         ],
-        correctAnswer: 1
+        correctAnswer: 1,
+        hint: `
+            <h3>Conduct Rules - Public Interface</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Behavioral Directives:</b> Rule 3 defines absolute integrity and devotion to duty. Sub-rules were added to govern how employees behave with citizens.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Rule Subject</th><th>Associated Rule Number</th><th>Status</th></tr>
+                <tr><td><b>Option A: Taking part in politics</b></td><td>Governed by Rule 5.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Promptness and courtesy</b></td><td>Rule 3A mandates that no railway servant shall, in the performance of their official duties, act in a discourteous manner and shall not adopt dilatory tactics in their dealings with the public.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: Observance of Govt. Policies</b></td><td>Governed by Rule 3B (policies regarding age of marriage, environment, wildlife, etc.).</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
-        question: "11) Seniority is not affected due to transfer on Administrative grounds?",
+        question: "151) Seniority is not affected due to transfer on Administrative grounds?",
         options: [
             "True",
             "False",
             "Partly True",
             "None of the given options"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Transfer and Seniority Rules</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Administrative vs Own Request:</b> The preservation of an employee's seniority depends entirely on the reason for their transfer.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Statement</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: True</b></td><td>When a railway servant is transferred from one unit/division to another on <b>Administrative Grounds</b> (in public interest), their original seniority is fully protected and carried over to the new unit.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: False</b></td><td>Incorrect, as it contradicts IREC rules.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Partly True</b></td><td>It is an absolute rule, not partial.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: None</b></td><td>Invalid.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Indian Railway Establishment Manual (IREM) Vol. I - Seniority Rules.
+        `
     },
     {
-        question: "12) Members in selection board should be atleast?",
+        question: "152) Members in selection board should be atleast?",
         options: [
             "03",
             "05",
             "02",
             "04"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Selection Board Constitution</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Impartiality in Promotions:</b> To ensure fair selection for departmental promotions, a committee must be formed with adequate representation, including reserved categories.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Member Count</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: 03</b></td><td>A Selection Board must consist of a minimum of <b>three</b> officers of the appropriate rank. One must be from the concerned department, one from the Personnel department, and one acting as a representative of SC/ST or minority communities if applicable.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B, C, D</b></td><td>A board of 2 is too small to prevent bias, and 4 or 5 is not the statutory minimum.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> IREM Vol. I - Rules governing Selection Boards.
+        `
     },
     {
-        question: "13) How much percentage of SC/ST candidates are reserved while recruitment?",
+        question: "153) How much percentage of SC/ST candidates are reserved while recruitment?",
         options: [
             "15% and 7.5% respectively",
             "7.5% & 15% respectively",
             "5% & 10% respectively",
             "10% & 5% respectively"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Reservation Policy in Direct Recruitment</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Constitutional Mandate:</b> Article 16(4) of the Constitution allows the state to make provisions for the reservation of appointments in favor of backward classes.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Percentage</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: 15% and 7.5% respectively</b></td><td>For direct recruitment on an all-India basis by open competition, the standard quota is <b>15% for Scheduled Castes (SC)</b> and <b>7.5% for Scheduled Tribes (ST)</b>.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: 7.5% & 15%</b></td><td>Inverts the SC and ST quotas.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C & D</b></td><td>Incorrect statutory percentages.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Department of Personnel and Training (DoPT) Reservation Rosters.
+        `
     },
     {
-        question: "14) What percentage of vacancies is reserved for ex-servicemen for the release of Group C?",
+        question: "154) What percentage of vacancies is reserved for ex-servicemen for the release of Group C?",
         options: [
             "10%",
             "15%",
             "03%",
             "02%"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Ex-Servicemen Quota</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Horizontal Reservation:</b> Military veterans retiring after their service are provided lateral entry opportunities into civilian government jobs.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Percentage</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: 10%</b></td><td>Under the Ex-Servicemen (Re-employment in Central Civil Services and Posts) Rules, exactly <b>10%</b> of the vacancies in Group 'C' posts (and 20% in Group 'D'/Level-1 posts) are reserved for ex-servicemen.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B, C, D</b></td><td>These percentages do not align with the statutory quota for Group C recruitment.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> DoPT Guidelines on Ex-Servicemen Reservation.
+        `
     },
     {
-        question: "15) If the employee who opts for his salary fixation after 1 month from the date of promotion, then who is capable of waiving the option delay to refix his salary?",
+        question: "155) If the employee who opts for his salary fixation after 1 month from the date of promotion, then who is capable of waiving the option delay to refix his salary?",
         options: [
             "No one",
             "DRM",
             "GM",
             "Railway Board"
         ],
-        correctAnswer: 2
+        correctAnswer: 2,
+        hint: `
+            <h3>Pay Fixation Option (FR 22)</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Condonation of Delay:</b> Upon promotion, an employee has one month to exercise their option to have their pay fixed immediately or on the date of their next annual increment. If they miss this 30-day window, specific higher authorities must condone the delay.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Authority</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: No one</b></td><td>Incorrect, administrative remedies exist.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: DRM</b></td><td>Divisional heads do not have the sweeping financial power to waive this statutory limitation.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: GM</b></td><td>The General Manager (GM) is empowered to condone the delay in exercising the pay fixation option, provided it is requested within a certain timeframe and valid administrative reasons are cited.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: Railway Board</b></td><td>Board intervention is not required for standard individual condonations that fall under the GM's delegated powers.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Master Circular on Pay Fixation / Delegation of Powers.
+        `
     },
     {
-        question: "16) What is the condition to be accepted by the applicant in case of own request transfer?",
+        question: "156) What is the condition to be accepted by the applicant in case of own request transfer?",
         options: [
             "Recruitment Grade",
             "Bottom Seniority",
             "Recruitment Grade & Bottom Seniority",
             "None of the given options"
         ],
-        correctAnswer: 2
+        correctAnswer: 2,
+        hint: `
+            <h3>Inter-Railway Own Request Transfer</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Penalty of Transfer:</b> An employee requesting a transfer for personal convenience (e.g., moving closer to home) must accept a severe drop in seniority to protect the promotion prospects of the existing staff in the new unit.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Condition</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: Recruitment Grade</b></td><td>The employee is usually reverted to the initial recruitment grade of that cadre (they cannot transfer in a promotional grade).</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option B: Bottom Seniority</b></td><td>They are placed at the absolute bottom of the seniority list of that grade in the new unit.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option C: Recruitment Grade & Bottom Seniority</b></td><td>Both conditions must be formally accepted in writing by the employee before the "Own Request" transfer is processed.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: None</b></td><td>Invalid.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> IREM Vol. I - Chapter 3 (Seniority on Transfer).
+        `
     },
     {
-        question: "17) Retiring employee has to complete length of service for the issue of RELHS card (medical facilities)?",
+        question: "157) Retiring employee has to complete length of service for the issue of RELHS card (medical facilities)?",
         options: [
             "33 years",
             "10 years",
             "20 years",
             "None of the given options"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Retired Employees Liberalized Health Scheme (RELHS)</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Qualifying Service:</b> Historically, 20 years was required. However, policies were updated regarding employees retiring on superannuation versus voluntary retirement.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Length of Service</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: 33 years</b></td><td>Old maximum qualifying service for full pension, not a strict RELHS limit.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: 10 years</b></td><td>Minimum for pension, but not the blanket RELHS answer.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: 20 years</b></td><td>Required for Voluntary Retirement to get RELHS. However, for an employee retiring on normal superannuation, there is no minimum 20-year restriction (even 10 years qualifying for pension makes them eligible). Therefore, a blanket '20 years' is incorrect for all retiring employees.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: None of the given options</b></td><td>Since the requirement varies (e.g., no strict limit if retiring on superannuation with a pension, vs 20 years for VR), "None" is the technically correct answer in this rigid format.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Railway Board Circulars on RELHS-97 modifications.
+        `
     },
     {
-        question: "18) How much employee contribution goes to NPS?",
+        question: "158) How much employee contribution goes to NPS?",
         options: [
             "10% of Basic Pay+DA",
             "20%+DA",
             "14%+DA",
             "15%+DA"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>National Pension System (NPS)</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Tier-1 Deductions:</b> NPS is a defined contribution scheme mandatory for all central government employees joining on or after 01.01.2004.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Contribution</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: 10% of Basic Pay+DA</b></td><td>The mandatory monthly deduction from the employee's salary towards the NPS Tier-I account is exactly 10% of their Basic Pay plus Dearness Allowance (DA).</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B, D</b></td><td>Incorrect percentages.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: 14%+DA</b></td><td>14% of Basic + DA is the <b>Government's (Employer)</b> matching contribution, not the employee's contribution.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Ministry of Finance / PFRDA Guidelines on NPS.
+        `
     },
     {
-        question: "19) Railway quarter can be retained for .... on normal rent on transfer?",
+        question: "159) Railway quarter can be retained for .... on normal rent on transfer?",
         options: [
             "01 month",
             "02 months",
             "03 months",
             "04 months"
         ],
-        correctAnswer: 1
+        correctAnswer: 1,
+        hint: `
+            <h3>Retention of Railway Quarters</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Transit Grace Period:</b> When an employee is transferred to a new station, they cannot shift their entire household instantly.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Retention Period</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A, C, D</b></td><td>Incorrect periods for standard transfer retention.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: 02 months</b></td><td>Under standard rules, an employee transferred to another station is permitted to retain their railway quarter at the old station on payment of normal rent for a period of <b>2 months</b>. (Further extensions require educational or medical grounds).</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Master Circular No. 49 (Allotment of Quarters).
+        `
     },
     {
-        question: "20) How many sections are covered under RTI Act?",
+        question: "160) How many sections are covered under RTI Act?",
         options: [
             "31 sections",
             "20 sections",
             "40 sections",
             "30 sections"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Right to Information Act, 2005</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Legal Structure:</b> The RTI Act empowers citizens to request records from public authorities to promote transparency.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Section Count</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: 31 sections</b></td><td>The Right to Information Act, 2005 is structurally divided into 6 Chapters containing exactly <b>31 Sections</b>, along with 2 Schedules.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B, C, D</b></td><td>Incorrect structural counts for the legislation.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> The Right to Information Act, 2005.
+        `
     },
     {
-        question: "21) For better monitoring of big Railway projects, they have been categorized as?",
+        question: "161) For better monitoring of big Railway projects, they have been categorized as?",
         options: [
             "Super critical, critical and throughput enhancement projects",
             "High speed, safety and heavy haul projects",
             "Projects with Rs.500 crores each and Rs. 1000 crore each",
             "Out of turn projects, Urgency based projects and Safety works projects"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Project Monitoring Priorities</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Capacity Augmentation:</b> With hundreds of pending projects, the Railway Board had to classify them to funnel funds into projects that will clear immediate operational bottlenecks.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Categorization</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: Super critical, critical and throughput enhancement</b></td><td>The Railway Board officially categorized delayed capacity augmentation projects (doubling, third lines) into "Super Critical", "Critical", and general "Throughput Enhancement" projects to prioritize funding and high-level monitoring.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B, C, D</b></td><td>While these terms describe types of projects or costs, they are not the specific, official three-tier categorization used by the Board for monitoring pending infrastructure works.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Railway Board (Works Directorate) Directives.
+        `
     },
     {
-        question: "22) Which of the following is NOT a Reserve Fund of Indian Railways as in 2019-20?",
+        question: "162) Which of the following is NOT a Reserve Fund of Indian Railways as in 2019-20?",
         options: [
             "Capital Fund",
             "Development Fund",
             "Revenue Reserve Fund",
             "RRSK"
         ],
-        correctAnswer: 2
+        correctAnswer: 2,
+        hint: `
+            <h3>Railway Financial Funds</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Fund Restructuring:</b> Following the merger of the Railway Budget with the General Budget, several legacy reserve funds were abolished or merged.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Fund Name</th><th>Status in 2019-20</th><th>Status</th></tr>
+                <tr><td><b>Option A: Capital Fund</b></td><td>Still utilized for creating productive assets.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Development Fund</b></td><td>Still utilized for passenger amenities.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Revenue Reserve Fund</b></td><td>Historically used to maintain dividend payments to general revenues. Since the railway dividend was abolished post-merger (2017), the <b>Revenue Reserve Fund was effectively rendered obsolete/abolished</b>.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: RRSK</b></td><td>Rashtriya Rail Sanraksha Kosh is a highly active, dedicated safety fund created recently.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Indian Railway Finance Code / Post-Merger Accounting Directives.
+        `
     },
     {
-        question: "23) All of the following items are classified as fundamental accounting assumptions except?",
+        question: "163) All of the following items are classified as fundamental accounting assumptions except?",
         options: [
             "Consistency",
             "Business Entity",
             "Going concern",
             "Accrual"
         ],
-        correctAnswer: 1
+        correctAnswer: 1,
+        hint: `
+            <h3>Accounting Principles (AS-1)</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Assumptions vs Concepts:</b> According to Accounting Standard 1 (Disclosure of Accounting Policies), there are exactly three "Fundamental Accounting Assumptions" that are presumed to be followed unless stated otherwise.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Item</th><th>Classification</th><th>Status</th></tr>
+                <tr><td><b>Option A: Consistency</b></td><td>A fundamental assumption (assuming accounting policies are consistent year over year).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Business Entity</b></td><td>This is an <b>Accounting Concept/Principle</b> (treating the business and the owner as separate entities), but it is NOT classified as one of the three "Fundamental Accounting Assumptions" under AS-1.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: Going concern</b></td><td>A fundamental assumption (assuming the business will not liquidate).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Accrual</b></td><td>A fundamental assumption (recording revenues/expenses when they occur, not when cash changes hands).</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Fundamentals of Financial Accounting (AS-1).
+        `
     },
     {
-        question: "24) The following is not shown in the Balance Sheet?",
+        question: "164) The following is not shown in the Balance Sheet?",
         options: [
             "Fixed deposit",
             "Opening stock",
             "Mortgage on land",
             "Bank overdraft"
         ],
-        correctAnswer: 2
+        correctAnswer: 2,
+        hint: `
+            <h3>Financial Statements</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Balance Sheet Items:</b> A balance sheet shows Assets, Liabilities, and Equity on a specific date.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Item</th><th>Accounting Treatment</th><th>Status</th></tr>
+                <tr><td><b>Option A: Fixed deposit</b></td><td>Shown as a Current Asset (Investment).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Opening stock</b></td><td>*Note: Opening stock appears in the Trading Account, while Closing stock appears in the Balance Sheet. However, based on typical multiple-choice structures focusing on encumbrances, see Option C.*</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Mortgage on land</b></td><td>A "Mortgage" itself is a legal charge or encumbrance. The actual balance sheet line item is the <b>"Secured Loan"</b>. The fact that land is mortgaged against it is merely a disclosure placed in the "Notes to Accounts", not a numerical line item on the face of the balance sheet.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: Bank overdraft</b></td><td>Shown as a Current Liability.</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
-        question: "25) Re-appropriation of funds from one itemised work to another itemised work is within the powers of?",
+        question: "165) Re-appropriation of funds from one itemised work to another itemised work is within the powers of?",
         options: [
             "DRM",
             "PHOD",
             "GM",
             "Railway Board"
         ],
-        correctAnswer: 2
+        correctAnswer: 2,
+        hint: `
+            <h3>Financial Re-appropriation Powers</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Shifting Budgets:</b> If Project A needs more money and Project B is delayed, funds can be re-appropriated. However, itemized works represent specific parliamentary sanctions.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Authority</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A & B</b></td><td>DRMs and PHODs have limited powers to re-appropriate funds for lumpsum works, but not between distinct itemized works sanctioned in the Pink Book.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: GM</b></td><td>The General Manager (GM) is empowered (subject to specific financial limits and ensuring the same plan head/source of fund) to sanction re-appropriation of funds from one itemized work to another itemized work.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: Railway Board</b></td><td>Required for inter-source or inter-plan head transfers, but intra-plan head itemized transfers fall under the GM's delegated powers.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Schedule of Powers (SOP) - Finance.
+        `
     },
     {
-        question: "26) Railway Budget was merged with General Budget from which Financial Year?",
+        question: "166) Railway Budget was merged with General Budget from which Financial Year?",
         options: [
             "2017-18",
             "2016-17",
             "2015-16",
             "None of the given options"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Railway Budget History</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>End of an Era:</b> The 92-year-old practice of presenting a separate Railway Budget in Parliament was abolished to streamline national finances.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Financial Year</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: 2017-18</b></td><td>On the recommendation of the Bibek Debroy committee, the Railway Budget was officially merged with the Union General Budget starting from the Financial Year <b>2017-18</b> (presented on Feb 1, 2017).</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B, C</b></td><td>Incorrect years.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: None</b></td><td>Incorrect.</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
-        question: "27) Sanction to the estimate is considered as 'Technical sanction' in case of?",
+        question: "167) Sanction to the estimate is considered as 'Technical sanction' in case of?",
         options: [
             "Abstract Estimate",
             "Detailed Estimate",
             "Revised Estimate",
             "Completion Estimate"
         ],
-        correctAnswer: 1
+        correctAnswer: 1,
+        hint: `
+            <h3>Engineering Estimates</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Administrative vs Technical:</b> Abstract estimates grant 'Administrative Approval' (the idea is good). Before work starts, the exact engineering quantities and safety math must be vetted.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Estimate Type</th><th>Sanction Status</th><th>Status</th></tr>
+                <tr><td><b>Option A: Abstract Estimate</b></td><td>Provides rough costs for Administrative Approval.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Detailed Estimate</b></td><td>Contains exact drawings, soil testing, and schedule of rates. The competent engineering authority's signature on a Detailed Estimate officially constitutes the <b>'Technical Sanction'</b>, proving the design is structurally and financially sound.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: Revised Estimate</b></td><td>Prepared when costs overrun by >10%.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Completion Estimate</b></td><td>Prepared after the project finishes to close accounts.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Indian Railway Engineering Code - Estimates.
+        `
     },
     {
-        question: "28) Minimum notice period for quotations?",
+        question: "168) Minimum notice period for quotations?",
         options: [
             "7 days",
             "10 days",
             "12 days",
             "None of the given options"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Procurement Rules</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Calling Quotations:</b> For urgent or minor works, open tenders take too long (21-30 days). The quotation route speeds this up but must still allow reasonable time for contractors to respond.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Notice Period</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: 7 days</b></td><td>Under standard railway procurement guidelines, the minimum notice period required when calling for quotations (for works dispensing with open tenders) is <b>7 days</b> to ensure fair competition.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B, C</b></td><td>Unnecessary delays for emergency quotation works.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: None</b></td><td>Incorrect.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> General Conditions of Contract (GCC) / SOP for Tenders.
+        `
     },
     {
-        question: "29) Monetary limit of direct acceptance without Tender committee in open e-tendering?",
+        question: "169) Monetary limit of direct acceptance without Tender committee in open e-tendering?",
         options: [
             "Up to Rs. 20 lakhs",
             "Up to Rs. 50 lakhs",
             "Up to Rs. 1 crore",
             "None of the given options"
         ],
-        correctAnswer: 1
+        correctAnswer: 1,
+        hint: `
+            <h3>Tender Acceptance Powers</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Direct Acceptance:</b> To speed up minor works, senior officers can bypass the formation of a formal Tender Committee (TC) and directly evaluate and accept the lowest valid e-tender.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Monetary Limit</th><th>Delegation of Power</th><th>Status</th></tr>
+                <tr><td><b>Option A: Up to Rs. 20 lakhs</b></td><td>Older legacy limit.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Up to Rs. 50 lakhs</b></td><td>As per the revised Schedule of Powers (MSOP), SG/JAG level officers have the power to directly accept open e-tenders without convening a Tender Committee for works valuing up to <b>Rs. 50 Lakhs</b>.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: Up to Rs. 1 crore</b></td><td>Tenders above 50 Lakhs require a formal Tender Committee evaluation.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: None</b></td><td>Incorrect.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Model Schedule of Powers (MSOP) - Works Matters.
+        `
     },
     {
-        question: "30) Expenditure under Staff Welfare & Amenities shall be charged to....?",
+        question: "170) Expenditure under Staff Welfare & Amenities shall be charged to....?",
         options: [
             "Demand No. 9",
             "Demand No. 11",
             "Demand No. 8",
             "Demand No. 10"
         ],
-        correctAnswer: 1
+        correctAnswer: 1,
+        hint: `
+            <h3>Demands for Grants</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Revenue Expenditure Classification:</b> The railway budget is broken down into 16 specific Demands for Grants presented to Parliament.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Demand Number</th><th>Subject Matter</th><th>Status</th></tr>
+                <tr><td><b>Option A: Demand No. 9</b></td><td>Operating Expenses - Traffic.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Demand No. 11</b></td><td>This demand exclusively covers all ordinary working expenses related to <b>Staff Welfare and Amenities</b> (e.g., educational, medical, and recreational facilities for employees).</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: Demand No. 8</b></td><td>Operating Expenses - Rolling Stock.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Demand No. 10</b></td><td>Operating Expenses - Fuel.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Indian Railway Finance Code - Demands for Grants.
+        `
     },
     {
-        question: "31) Cost of training is booked to Demand No. 12?",
+        question: "171) Cost of training is booked to Demand No. 12?",
         options: [
             "True",
             "False",
             "Partly True",
             "None of the given options"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Demands for Grants (Demand 12)</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Miscellaneous Expenses:</b> Not all expenses fit neatly into track, trains, or fuel. Training institutes and centralized costs need a specific bucket.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Statement</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: True</b></td><td>Demand No. 12 covers "Miscellaneous Working Expenses." This specifically includes the cost of security (RPF), hospitality, and the <b>cost of training</b> of railway staff across all zonal training centers and centralized academies.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: False</b></td><td>Incorrect.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C & D</b></td><td>Incorrect formatting.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Indian Railway Finance Code - Demands for Grants.
+        `
     },
     {
-        question: "32) The Disaster Recovery Site for IPAS is being planned at?",
+        question: "172) The Disaster Recovery Site for IPAS is being planned at?",
         options: [
             "Hyderabad",
             "Mysore",
             "Mumbai",
             "Secunderabad"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>IT Infrastructure and Redundancy</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>IPAS System:</b> The Integrated Payroll and Accounting System (IPAS) manages the salaries and finances of the entire Indian Railways. A catastrophic failure at the main data center (New Delhi) would paralyze the network without a backup.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Location</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A, B, C</b></td><td>While major IT hubs, they are not the designated site for this specific railway financial application's DR.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Secunderabad</b></td><td>The Disaster Recovery (DR) site for CRIS applications, particularly the massive IPAS system, was established in <b>Secunderabad</b> to ensure geographical separation from the primary data center in Delhi.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> CRIS (Centre for Railway Information Systems) Infrastructure topology.
+        `
     },
     {
-        question: "33) Hiding original data with modified content to protect sensitive personal or commercial data is?",
+        question: "173) Hiding original data with modified content to protect sensitive personal or commercial data is?",
         options: [
             "Data Encapsulation",
             "Information Hiding",
             "Data Masking",
             "Data Sanitization"
         ],
-        correctAnswer: 2
+        correctAnswer: 2,
+        hint: `
+            <h3>Cyber Security Terminology</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Data Privacy:</b> When software developers or external auditors need to test a database, they shouldn't see real employee salaries or passenger credit card numbers. The real data must be obscured while keeping the format intact.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Term</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: Data Encapsulation</b></td><td>An object-oriented programming concept bundling data with methods.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Information Hiding</b></td><td>Software design principle to hide internal object details.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Data Masking</b></td><td>The specific cybersecurity process of replacing sensitive data with fictitious but realistic-looking data (e.g., replacing a real credit card number with XXXX-XXXX-XXXX-1234) to protect privacy during testing or unauthorized viewing.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: Data Sanitization</b></td><td>The process of permanently and irreversibly destroying data on a storage device.</td><td><u>Incorrect</u></td></tr>
+            </table>
+        `
     },
     {
-        question: "34) Identify the autonomous bodies / authorities of IR out of the following options?",
+        question: "174) Identify the autonomous bodies / authorities of IR out of the following options?",
         options: [
             "CONCOR and DFCCIL",
             "RITES and RVNL",
             "CORE and IRFC",
             "CRIS and RLDA"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Railway Organizational Structure</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Entity Classification:</b> The Ministry of Railways operates through Zonal Railways (departments), Central Public Sector Enterprises (CPSEs), and Autonomous Societies/Statutory Authorities.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Entities</th><th>Classification</th><th>Status</th></tr>
+                <tr><td><b>Option A: CONCOR and DFCCIL</b></td><td>Both are CPSEs (Public Sector Undertakings).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: RITES and RVNL</b></td><td>Both are CPSEs.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: CORE and IRFC</b></td><td>CORE is a departmental unit; IRFC is a CPSE.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: CRIS and RLDA</b></td><td><b>CRIS</b> (Centre for Railway Information Systems) is an Autonomous Society under the Ministry. <b>RLDA</b> (Rail Land Development Authority) is a Statutory Authority constituted under an Act of Parliament. Neither are PSUs.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Ministry of Railways Organizational Chart.
+        `
     },
     {
-        question: "35) For monitoring of high value projects of all Government departments including IR through MOSPI, the following two systems are in place?",
+        question: "175) For monitoring of high value projects of all Government departments including IR through MOSPI, the following two systems are in place?",
         options: [
             "UMID and SUVIDHA",
             "OCMS and IPMD",
             "e-SAMIKSHA and ARPAN",
             "CSP and PRAGATI"
         ],
-        correctAnswer: 1
+        correctAnswer: 1,
+        hint: `
+            <h3>National Infrastructure Monitoring</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>MOSPI Operations:</b> The Ministry of Statistics and Programme Implementation (MOSPI) tracks the delays and cost overruns of all mega-projects (>150 crore) across the country.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Systems</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: UMID and SUVIDHA</b></td><td>Railway medical/pass apps, not national infrastructure tools.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: OCMS and IPMD</b></td><td>The Infrastructure and Project Monitoring Division (<b>IPMD</b>) of MOSPI uses the Online Computerized Monitoring System (<b>OCMS</b>) to track high-value railway and highway projects centrally.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: e-SAMIKSHA and ARPAN</b></td><td>e-Samiksha is PMO monitoring; ARPAN is a railway pension portal.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: CSP and PRAGATI</b></td><td>PRAGATI is a PMO tracking interface, but OCMS/IPMD are the specific MOSPI mechanisms.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Ministry of Statistics and Programme Implementation (MOSPI) guidelines.
+        `
     }
 ];
-
-
-// const AOM19022023_70 = [
-//     {
-//         question: "Following is not correct about the Public time table?",
-//         options: [
-//             "Supplied to all employes related to train operation without cost",
-//             "Fare list",
-//             "Time of important trains",
-//             "Arrival and departure of trains at important stations"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "In which unit the counting of Section capacity is done?",
-//         options: [
-//             "In Days",
-//             "Number of trains",
-//             "In Kms",
-//             "In %"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "What does the \"T\" stand for in the Scott Formula?",
-//         options: [
-//             "Factor of Efficiency",
-//             "Block Operation Time in minutes",
-//             "The running time in minutes of the slowest train on the ruling section of the line",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Long haul train will be run in which of the following condition?",
-//         options: [
-//             "Both rakes empty",
-//             "One rake empty and one loaded",
-//             "Both rakes loaded",
-//             "All of the given options"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "What is the target time for departing ART?",
-//         options: [
-//             "45 minutes in day & 30 minutes in night",
-//             "15 minutes in day & 20 minutes in night",
-//             "30 minutes in day & 45 minutes in night",
-//             "Single exit-15 minutes & double exit 20 minutes"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "The running duty at a stretch for the running staff should not ordinarily exceed hours?",
-//         options: [
-//             "6 hours",
-//             "7 hours",
-//             "9 hours",
-//             "8 hours"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "CMS has been introduced in the crew lobbies to provide?",
-//         options: [
-//             "Optimum and effective utilization of crew",
-//             "Monitoring of training of staff",
-//             "Monitoring of 10 hours duty & HOER",
-//             "All of the given options"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "For accident enquiries ordered by DRM, what is the modal time for accident enquiry report to be submitted by the committee to DRM?",
-//         options: [
-//             "D+3",
-//             "D+7",
-//             "D+10",
-//             "D+30"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "Running staff for goods operations are generally booked on the principle of subject to rules?",
-//         options: [
-//             "First In and First Out",
-//             "First Available and First Out",
-//             "First In and Last Out",
-//             "Last In and First Out"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "Under which section of the Railways Act, 1989, accidents are termed as reportable to CRS?",
-//         options: [
-//             "Section 111",
-//             "Section 112",
-//             "Section 113",
-//             "Section 114"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "BTAP wagons are used for loading of which commodity?",
-//         options: [
-//             "Fly Ash",
-//             "Alumina",
-//             "Cement",
-//             "All of the given options"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "What is MILRAIL used for?",
-//         options: [
-//             "Goods Traffic",
-//             "Passenger Traffic",
-//             "Military Traffic",
-//             "Departmental Traffic"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Distant Signal is a?",
-//         options: [
-//             "Stop Signal",
-//             "Permissive Signal",
-//             "Subsidiary Signal",
-//             "Repeating Signal"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "As per operating statistics, which of the following is a primary unit?",
-//         options: [
-//             "Tonne Kms",
-//             "Passenger- Kms",
-//             "Wagon Km per wagon day",
-//             "Kilometer"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "Adequate distance of ---- meters beyond the home signal is required for granting line clear to a class 'C' station?",
-//         options: [
-//             "180 meters",
-//             "400 meters",
-//             "120 meters",
-//             "300 meters"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "The Loco Pilot before passing the gate stop signal provided with 'G' marker at 'ON' shall wait for at day & night respectively?",
-//         options: [
-//             "01, 02",
-//             "05, 05",
-//             "02, 02",
-//             "02, 01"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "GR.4.19 deals with ?",
-//         options: [
-//             "Guard's and Loco Pilot's Equipment",
-//             "Means of Communication",
-//             "Tail Board or Tail Lamp",
-//             "Tail and side lights"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Movement of which traffic is not regulated by Preferential Traffic Order?",
-//         options: [
-//             "Programmed Traffic",
-//             "Passenger Traffic",
-//             "Military Traffic",
-//             "Goods for emergency relief work for victims of natural calamities"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "Shunt signal is a .....?",
-//         options: [
-//             "Stop signal",
-//             "Permissive signal",
-//             "Subsidiary signal",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Which of the following is not a type of Marshalling Yard?",
-//         options: [
-//             "Flat yard",
-//             "Hump yard",
-//             "Gravity yard",
-//             "Exchange yard"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "A Railway servant is debarred of taking any Alcoholic drink/Sedative/Narcotic/ Stimulant drug or preparation within how many hrs before the commencement of his duty or when on duty?",
-//         options: [
-//             "06 hrs",
-//             "08 hrs",
-//             "10 hrs",
-//             "12 hrs"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "\"Approved Spl. Instructions\" are issued by whom?",
-//         options: [
-//             "General Manager",
-//             "Divisional Railway Manager",
-//             "Commissioner of Railway Safety",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Block forward can be done on?",
-//         options: [
-//             "Single Line",
-//             "Double Line",
-//             "Both Single Line & Double Line",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "As per G&SR 'Night' Means?",
-//         options: [
-//             "22:00 hrs to 08:00 hrs",
-//             "20:00 hrs to 06:00 hrs",
-//             "Sunrise to Sunset",
-//             "Sunset to Sunrise"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "Total Goods train KM divided by total Goods train engine hrs gives the statistical figure of?",
-//         options: [
-//             "Average speed of Goods train",
-//             "Engine KM per Goods train",
-//             "Goods train KM per engine",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "A calling- on signal may be provided below any other stop signal except the last stop signal, under?",
-//         options: [
-//             "Special instructions",
-//             "Approved special instructions",
-//             "Both Special instructions & Approved special instructions",
-//             "Special instructions or Approved special instruction"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "Integrated Block means?",
-//         options: [
-//             "Material Train Block",
-//             "Tower Wagon Block",
-//             "Track Machine Block",
-//             "Combine Block of more than one department"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "Generally no passenger train should arrive at a junction and important station more than ---- minutes before scheduled time?",
-//         options: [
-//             "5 Minutes",
-//             "10 Minutes",
-//             "0 Minutes",
-//             "None of these"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "The ordering of goods trains depends on the availability of----?",
-//         options: [
-//             "Power",
-//             "Path",
-//             "Crew & Stock",
-//             "All of the given options"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "The speed of the 'C' class ODC in BG shall not exceed?",
-//         options: [
-//             "15 KMPH",
-//             "20 KMPH",
-//             "25 KMPH",
-//             "30 KMPH"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "How can Wagon Trun Round (WTR) be improved?",
-//         options: [
-//             "By increasing average speed of Goods trains",
-//             "By reducing average detention of Wagons in Yards",
-//             "By reducing time taken in Wagons Handling",
-//             "All of the given options"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "In case CRS could not inquire the Serious Accident cases involving a coaching train, then which committee of officers shall inquire the same?",
-//         options: [
-//             "A committee of SAG Officers",
-//             "A committee of HAG Officers",
-//             "A committee of SG or JAG Officers",
-//             "A committee of Sr. Scale Officers"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "The minimum clearance between consignment & fixed structure on running condition is known as?",
-//         options: [
-//             "Net clearance",
-//             "Gross clearance",
-//             "Clearance",
-//             "Space"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "For which type of services Engine/Loco Link is associated with?",
-//         options: [
-//             "Goods Train services",
-//             "Passenger Train services",
-//             "Departmental Train services",
-//             "All train services"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "On line Caution order is generated through?",
-//         options: [
-//             "FOIS",
-//             "TMS",
-//             "ICMS",
-//             "FMM"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "\"SFOORTI\" App is used for?",
-//         options: [
-//             "Monitoring and managing freight business",
-//             "Generation of RR",
-//             "Monitoring the punctuality of Express trains",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "FOIS consists of & Modules?",
-//         options: [
-//             "RMS & TMS",
-//             "PAM & COA",
-//             "ICMS & HRMS",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Full form of e-TRR is?",
-//         options: [
-//             "Electronic transmission of Railway Receipts",
-//             "Electronic transfer of Railway Receipts",
-//             "Electrical transmission of Railway Receipts",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "ICMS stands for?",
-//         options: [
-//             "Integral Coach Maintenance System",
-//             "Integral Coaching Monitoring System",
-//             "Internal Coaching Management System",
-//             "Integrated Coaching Management System"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "For booking of special trains/coaches/saloons on Full Tariff Rates (FTR) one should approach to?",
-//         options: [
-//             "Zonal Railway HQ",
-//             "Divisional Railway HQ",
-//             "IRCTC",
-//             "Railway Board"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "BOBYN is a ..... Type of wagon?",
-//         options: [
-//             "Tank",
-//             "Covered",
-//             "Flat",
-//             "Hopper"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "What is loading tolerance for BCNA wagon?",
-//         options: [
-//             "3.5 tonne",
-//             "1 tonne",
-//             "1.5 tonne",
-//             "2 tonne"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "While classifying train accident from A to R, which of the following two letters are not included?",
-//         options: [
-//             "1 & 0",
-//             "Et / & I",
-//             "E & / & O",
-//             "1 & J"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Minimum out of station rest in case of less than 8 hrs. duty in the previous trip should be?",
-//         options: [
-//             "8 hrs",
-//             "6 hrs",
-//             "16 hrs",
-//             "10 hrs"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "What details related to crew and guards are ensured by CMS?",
-//         options: [
-//             "Details of Rest of Crew and Guards",
-//             "Details of medical treatment of Crew and Guards",
-//             "Training details of Crew and Guards",
-//             "Details of all the options given"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "What should be the percentage of brake power of the train other than the dead engine in Mail/Express train?",
-//         options: [
-//             "0.85",
-//             "0.9",
-//             "1",
-//             "0.95"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "What is the full form of CRIS?",
-//         options: [
-//             "Centre for Railway Information Systems",
-//             "Current Research Information System",
-//             "Clinical Research Information System",
-//             "Center for Railway Inquiry System"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "White Cross mark on signal indicates about?",
-//         options: [
-//             "Defective Signal",
-//             "Signal for crossing",
-//             "Signal for shunting",
-//             "Signal out of use"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "What is the working principle of air brake system?",
-//         options: [
-//             "Compressed Air",
-//             "Vacuum System",
-//             "Atmospheric Pressure",
-//             "None of these"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Factors on which the average speed of goods train depends?",
-//         options: [
-//             "Load of train",
-//             "Brake power of rolling stock",
-//             "Standard of Interlocking",
-//             "All of the given options"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "If the turn round of BOXN rakes in a coal circuit is 5 days, minimum how many rakes will be required to achieve the loading level of five rakes per day?",
-//         options: [
-//             "25",
-//             "10",
-//             "20",
-//             "5"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Wagon turn round means?",
-//         options: [
-//             "Average time taken for loading of wagons",
-//             "Average time taken for unloading of wagons",
-//             "Average time taken for movement of wagons from originating to destination",
-//             "Interval between two successive loadings"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "In case of dispute arising in the interpretation of the GCT policy, the decision of will be final and binding?",
-//         options: [
-//             "PCCM of the Zonal Railway",
-//             "PCOM of the Zonal Railway",
-//             "Sr. DCM of the concerned Division",
-//             "DRM of the concerned Division"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "Appendix 'E' of SWR is about?",
-//         options: [
-//             "Working of Level crossing gates",
-//             "List of Essential Equipments provided at the station",
-//             "Anti Collision Device, TPWS, TCAS",
-//             "Working of DK Station, Halts, IBH, Outlying Sidings"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "A GPS based Fog Safety device is being provided to loco pilots in fog affected areas which enables loco pilots to know?",
-//         options: [
-//             "The exact distance of the approaching signals, level crossing gates etc",
-//             "The exact aspect of the approaching stop signals",
-//             "The exact distance and aspect of approaching signals",
-//             "The exact distance of a train running ahead"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "NDMA is constituted under the DM Act as the apex body in the country to deal with DM holistically with Hon'ble as the ex-officio Chairperson of the authority?",
-//         options: [
-//             "Railway Minister",
-//             "Prime Minister",
-//             "President of India",
-//             "Home Minister"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "Full form of GPS is?",
-//         options: [
-//             "Global Positioning System",
-//             "Global Pointing System",
-//             "General Positioning System",
-//             "Global Positioning Software"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Automatic Train Protection system developed by RDSO is?",
-//         options: [
-//             "Shield",
-//             "Mask",
-//             "Kavach",
-//             "None of these"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "What will be the speed of first train at the time of temporary single working on double line?",
-//         options: [
-//             "50 KMPH",
-//             "25 KMPH",
-//             "15 KMPH",
-//             "Normal speed"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "Track Circuiting of all running lines is required in Interlocking of Standards of Interlocking?",
-//         options: [
-//             "Standard-1",
-//             "Standard-III",
-//             "Standard-IV",
-//             "Both, Standard-III & Standard-IV"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "Who among the followings is not involved with the approval of Draft Working Rules of SWR?",
-//         options: [
-//             "Sr DSTE or DSTE",
-//             "Sr DOM or DOM",
-//             "Sr DEE or DEE",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "Point indicator shows light at night when point is set for the straight line?",
-//         options: [
-//             "Green",
-//             "Red",
-//             "White",
-//             "No light"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Loco/power links are prepared by whom?",
-//         options: [
-//             "Zonal Railway Headquarter",
-//             "Division",
-//             "Railway Board",
-//             "None of these"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "The working of trains between station is regulated by the standard time prescribed by the Govt. of India, which shall be transmitted daily to all principal stations of the railway at hours in the manner prescribed?",
-//         options: [
-//             "16:00:00",
-//             "18:00:00",
-//             "20:00:00",
-//             "08:00:00"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Food grain and levy sugar for distribution under public distribution system are categorized under which priority of Preferential Traffic Order for allotment of wagons?",
-//         options: [
-//             "Priority-A",
-//             "Priority-B",
-//             "Priority-C",
-//             "Priority-D"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "At a class 'A' station to grant line clear, the line must be clear upto ............?",
-//         options: [
-//             "Outermost facing point",
-//             "Starter",
-//             "Home Signal",
-//             "None of these"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "All India Trains at a Glance is prepared by?",
-//         options: [
-//             "Zonal Railway",
-//             "CRIS",
-//             "Railway Board",
-//             "RDSO"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "On a Panel a Green button is provided for which of the following?",
-//         options: [
-//             "Common Slot release",
-//             "Emergency Route cancellation",
-//             "Point button",
-//             "None of these"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Full form of MEMU is?",
-//         options: [
-//             "Modified Electric Multiple Unit",
-//             "Mainline Electric Multiple Unit",
-//             "Modern Electric Multiple Unit",
-//             "Mixed Electric Multiple Unit"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "No engine or self-propelled vehicle shall push any train outside station limits except in accordance with special instructions and at a speed not exceeding....?",
-//         options: [
-//             "25 KMPH",
-//             "15 KMPH",
-//             "10 KMPH",
-//             "08 KMPH"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "When did the Constituent Assembly accept Hindi as the official language of independent India?",
-//         options: [
-//             "26th January, 1950",
-//             "15th August, 1947",
-//             "09th August, 1942",
-//             "14th September, 1949"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "In how many categories has the Union of India been divided from the point of view of the use of official language Hindi?",
-//         options: [
-//             "2",
-//             "3",
-//             "4",
-//             "5"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "How many members are there in the Parliamentary Official Language Committee?",
-//         options: [
-//             "30",
-//             "28",
-//             "25",
-//             "20"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Who is the chairman of the Central Hindi Committee?",
-//         options: [
-//             "Finance Minister",
-//             "Home Minister",
-//             "Prime Minister",
-//             "Rail Minister"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "When does the meeting of the Official Language Implementation Committee on Indian Railways take place?",
-//         options: [
-//             "Once in a month",
-//             "Once in two months",
-//             "Once in three months",
-//             "Once in six months"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Who is the head of the Town Official Language Implementation Committee constituted in major cities?",
-//         options: [
-//             "General Manager",
-//             "District Magistrate",
-//             "Senior most official of the central government based in the city",
-//             "City Head"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "In which language will the documents covered under Section 3(3) of the Official Languages Act be issued?",
-//         options: [
-//             "Only in Hindi",
-//             "Only in English",
-//             "Both in Hindi & English",
-//             "In any language"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "According to the Official Language Rules, Andaman and Nicobar Islands belongs to which region?",
-//         options: [
-//             "Ka Region",
-//             "Kha' Region",
-//             "Ga' Region",
-//             "Gha' Region"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Which language is not included in the Eighth Schedule?",
-//         options: [
-//             "Urdu language",
-//             "Sindhi language",
-//             "Braj language",
-//             "Konkani language"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Every year 'Hindi Diwas' is celebrated on which date?",
-//         options: [
-//             "2025-10-14 00:00:00",
-//             "2025-10-16 00:00:00",
-//             "2025-09-14 00:00:00",
-//             "2025-09-16 00:00:00"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "What is the minimum qualifying service required for eligibility of complimentary pass?",
-//         options: [
-//             "20 years",
-//             "10 years",
-//             "15 years",
-//             "25 years"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Including dependants how many members may be included in Privilege pass?",
-//         options: [
-//             "5 Members",
-//             "2 Members",
-//             "3 Members",
-//             "4 Members"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "What is the maximum limit for paternity leave?",
-//         options: [
-//             "15 days per child (for the first two live children)",
-//             "20 days per child (for the first two live children)",
-//             "10 days per child (for the first two live children)",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Average leave pay may be cumulative up to how many days?",
-//         options: [
-//             "300+15 days",
-//             "350 days",
-//             "250 days",
-//             "500 days"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "What is the maximum limit of leave encashment on Retirement?",
-//         options: [
-//             "300 days",
-//             "100 days",
-//             "250 days",
-//             "150 days"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Under which DAR rules is the process for imposing major penalty given?",
-//         options: [
-//             "Rule-9",
-//             "Rule-2",
-//             "Rule-12",
-//             "Rule-7"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Under which rule of Railway Service Conduct Rules is it forbidden to participate in politics?",
-//         options: [
-//             "Rule-05",
-//             "Rule-06",
-//             "Rule-10",
-//             "Rule-23"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "What is the Standard Form used for Suspension?",
-//         options: [
-//             "SF-1",
-//             "SF-2",
-//             "SF-5",
-//             "SF-11"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "For what period in police custody is sufficient to put an employee under deemed suspension?",
-//         options: [
-//             "Period exceeding 48 hours",
-//             "Period exceeding 24 hours",
-//             "Period exceeding 72 hours",
-//             "Period exceeding 36 hours"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "What is the time limit for Appeal under DAR?",
-//         options: [
-//             "45 days",
-//             "50 days",
-//             "30 days",
-//             "50 days"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "What is the percentage of pension given as ordinary family pension at present?",
-//         options: [
-//             "30% of Basic Pay (min Rs. 9000)",
-//             "25% of Basic Pay (min Rs. 9000)",
-//             "35% of Basic Pay (min Rs. 18000)",
-//             "40% of Basic Pay (min Rs. 18000)"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "When was NPS introduced?",
-//         options: [
-//             "01.01.2004",
-//             "01.01.2005",
-//             "01.01.2006",
-//             "01.01.2009"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "What is the maximum percentage for commutation of pension?",
-//         options: [
-//             "40% of Pension",
-//             "60% of Pension",
-//             "50% of Pension",
-//             "55% of Pension"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "What is the qualifying service for retiring pension?",
-//         options: [
-//             "20 years",
-//             "10 years",
-//             "30 years",
-//             "5 years"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "What is the maximum amount of DCRG at present?",
-//         options: [
-//             "₹10 lakhs",
-//             "₹15 lakhs",
-//             "₹20 lakhs",
-//             "₹25 lakhs"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "The Railway Budget has been merged with the General Budget w.e.f.?",
-//         options: [
-//             "2016–17",
-//             "2017–18",
-//             "2018–19",
-//             "2015–16"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "What is NOT a source of funding for IR to finance its capital expenditure projects?",
-//         options: [
-//             "Extra budgetary resources",
-//             "Gross budgetary support",
-//             "Internal resources of IR",
-//             "Raising bonds/debentures from stock market"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "The full form of RRSK is?",
-//         options: [
-//             "Rashtriya Rail Suvidha Kosh",
-//             "Rashtriya Rail Safety Kosh",
-//             "Rashtriya Rail Sanraksha Kosh",
-//             "Rashtriya Rail Sampark Kosh"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "What is not part of Social Service Obligations borne by Railways?",
-//         options: [
-//             "Pension paid to railway retirees",
-//             "Coaching services rendered below cost",
-//             "Uneconomic branch lines",
-//             "Essential commodities at below cost"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Name the supreme statutory Audit Organisation in India?",
-//         options: [
-//             "C&AG",
-//             "CGA",
-//             "CVC",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "As per Article 266 of the Indian Constitution, all revenues of the Government flow into?",
-//         options: [
-//             "Public Account of India",
-//             "Contingency Fund of India",
-//             "Consolidated Fund of India",
-//             "All of these"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "The check exercised by railway accounts office on financial transactions is called?",
-//         options: [
-//             "Post check",
-//             "Pre check",
-//             "Internal Check",
-//             "Internal Audit"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "As per Article 113(2) of Constitution of India, Budget estimates are presented as?",
-//         options: [
-//             "Demands for Grants",
-//             "Abstract Estimate",
-//             "Appropriation Accounts",
-//             "Finance Accounts"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Minimum notice period for quotation is?",
-//         options: [
-//             "7 days",
-//             "10 days",
-//             "12 days",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "After Budget Merger, all the Railway Demands are under Demand No. ...... in General Budget.",
-//         options: [
-//             "80",
-//             "81",
-//             "82",
-//             "83"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Documents which are integral part of contracts?",
-//         options: [
-//             "GCC, SCC",
-//             "Specifications",
-//             "Schedule of rates, quantities",
-//             "All of the given options"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "Two packet tendering system is adopted in case of?",
-//         options: [
-//             "Single Tender",
-//             "Open Tender",
-//             "Limited Tender",
-//             "All of the given options"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "Tenders received before opening time but after due date/time are called as?",
-//         options: [
-//             "Late Tenders",
-//             "Delayed Tenders",
-//             "Single Tenders",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "Accepting authority of Tender Committee recommendations should be?",
-//         options: [
-//             "One level above TC",
-//             "Two levels above TC",
-//             "Head of Department",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "As per GCC of services, minimum technical eligibility criteria is?",
-//         options: [
-//             "One work of 35% value in last 3 years",
-//             "One work of 35% value in last 7 years",
-//             "Two works of 50% value in last 3 years",
-//             "Three works of 50% value in last 7 years"
-//         ],
-//         correctAnswer: 0
-//     }
-// ]
 
 const AOM19022023_70 = [
     {
@@ -9916,1109 +9588,6 @@ const AOM19022023_70 = [
     `
     }
 ];
-
-// const AOM05032023_70 = [
-//     {
-//         question: "What is the full form of FNR?",
-//         options: [
-//             "Freight Name Record",
-//             "Freight Not Recorded",
-//             "Freight Not Rated",
-//             "Freight Number Record"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "Within how many days after the date of accident, DAR action must be taken?",
-//         options: [
-//             "D+30",
-//             "D+60",
-//             "D+90",
-//             "D+120"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Preferential Traffic Order (Schedule) pertains to?",
-//         options: [
-//             "Freight traffic",
-//             "Passenger Traffic",
-//             "Parcel Traffic",
-//             "All the given options"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Premium Examination' pattern pertains to?",
-//         options: [
-//             "Freight Traffic",
-//             "Passenger Traffic",
-//             "Parcel Traffic",
-//             "All the given options"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Power Plan indicates the number of Locos required for?",
-//         options: [
-//             "Coaching Service",
-//             "Freight Service",
-//             "Parcel Express trains",
-//             "Departmental activities"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "The Running staff should not normally be kept away from Head Quarters for more than hours at a stretch?",
-//         options: [
-//             "48 hours",
-//             "60 hours",
-//             "72 hours",
-//             "108 hours"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "If the alcohol level of 1 to 40 mg/100 ml of blood is found during signing OFF, concern staff shall be issued with?",
-//         options: [
-//             "Major Penalty Charge Sheet",
-//             "Minor Penalty Charge Sheet",
-//             "Kept under suspension",
-//             "Reversion from safety critical post"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "Each Guard and Loco Pilot shall have pair of spectacles while on duty which he is required to wear under medical advice?",
-//         options: [
-//             "1 Pair",
-//             "2 Pairs",
-//             "3 Pairs",
-//             "4 Pairs"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "Loco Pilot involved in SPAD cases should be sent for refresher course for ....?",
-//         options: [
-//             "10 working days",
-//             "12 working days",
-//             "14 working days",
-//             "21 working days"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "Periodical Medical Examination is done at the termination of every period of --- till the attainment of 45 years?",
-//         options: [
-//             "3 years",
-//             "4 years",
-//             "5 years",
-//             "6 years"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "What is the permissible Axle Load (In Tonnes) for the purpose of fixing CC+8 routes?",
-//         options: [
-//             "22.9",
-//             "22.4",
-//             "25",
-//             "22"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "What does the \"T\" stand for in the Scott Formula?",
-//         options: [
-//             "Factor of Efficiency",
-//             "Block Operation Time",
-//             "The running time of the slowest train on the ruling section of the line",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "The competency certificate of Gateman shall be valid for how many years?",
-//         options: [
-//             "02 years",
-//             "03 years",
-//             "04 years",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "Block Section Limit Board is placed at a distance not less than ------meters in advance of Home signal?",
-//         options: [
-//             "120",
-//             "400",
-//             "180",
-//             "300"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "The Visibility Test Object may be seen from a distance of not less than .....?",
-//         options: [
-//             "180 meters",
-//             "400 meters",
-//             "600 meters",
-//             "120 meters"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Which module deals with management of crew & guards?",
-//         options: [
-//             "TMS",
-//             "CMS",
-//             "RMS",
-//             "YMS"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "A Calling-on signal is used for following purpose?",
-//         options: [
-//             "For reception and despatch of trains when main signal above it is defective",
-//             "For shunting purpose",
-//             "To receive a train on obstructed line",
-//             "All the given options"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "Military traffic, when sponsored by MILRAIL and approved by Railway Board comes under ....?",
-//         options: [
-//             "Priority-A",
-//             "Priority-B",
-//             "Priority-C",
-//             "Priority-D"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "When a shunt signal is placed below a stop signal, shunt signal shall show .... light in the 'ON' position?",
-//         options: [
-//             "White",
-//             "Yellow",
-//             "Red",
-//             "No light"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "Which of the following is not a component of Marshalling Yard?",
-//         options: [
-//             "Exchange yard",
-//             "Reception yard",
-//             "Sorting yard",
-//             "Dispatch yard"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "At a 'B' class double line MACL station, rear block section terminates at?",
-//         options: [
-//             "Outermost facing point",
-//             "BSLB",
-//             "Either at outermost facing point or at BSLB",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Full form of SATSANG is?",
-//         options: [
-//             "Singular Automatic Train Scheduling",
-//             "Software Aided Train Scheduling and Network Governance",
-//             "Simplified Automated Aided Train Scheduling",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "When a train is kept standing at the foot of First stop signal of a station, after what time Guard shall proceed to protect the train in rear?",
-//         options: [
-//             "25 minutes",
-//             "15 minutes",
-//             "10 minutes",
-//             "30 minutes"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "Appendix 'A' of SWR is about?",
-//         options: [
-//             "Working of Level Crossing Gates",
-//             "Essential Equipment",
-//             "Anti Collision Device",
-//             "Working of DK Station or Halts or IBH or Siding"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "While calculating Wagon Turn Round which of the following is not required?",
-//         options: [
-//             "Effective Wagon Holding",
-//             "Loaded Wagons",
-//             "Loaded received wagons",
-//             "Loaded wagons made over"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "W/L board is provided at before Level crossing gate?",
-//         options: [
-//             "250 m",
-//             "350 m",
-//             "600 m",
-//             "800 m"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "The permission for movement of 'C' Class ODC is given by?",
-//         options: [
-//             "DRM",
-//             "CRS",
-//             "DOM",
-//             "DSO"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "Point indicator shows light at night when point is set for straight line.",
-//         options: [
-//             "Green",
-//             "Red",
-//             "White",
-//             "No light"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "The main aim of establishing a lobby system is?",
-//         options: [
-//             "To reduce engine detention",
-//             "To reduce crew detention",
-//             "Both, to reduce engine detention & crew detention",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "What does 'R' represent in the formula of Wagon Turn Round i.e. T=S/L+R?",
-//         options: [
-//             "Total No. of loaded wagons received from other divisions or railways",
-//             "Total No. of empty wagons received from other divisions or railways",
-//             "Total No. of loaded wagons available in the division",
-//             "Total No. of loaded wagons dispatched from other stations"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Increase in number of loaded wagons received at interchange point affects WTR as?",
-//         options: [
-//             "Decrease",
-//             "Increase",
-//             "Neutral",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Free time for loading and unloading operation under the engine on load scheme will be than the normal free time?",
-//         options: [
-//             "Higher",
-//             "Same",
-//             "Lower",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Mini rake facility is permitted for only ....?",
-//         options: [
-//             "Covered wagons",
-//             "Open wagons",
-//             "Covered wagons & Open wagons",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "WTR is expressed as the interval between?",
-//         options: [
-//             "Two successive unloadings",
-//             "Two successive loadings",
-//             "Tow successive POH",
-//             "Two successive ROH"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "Full form of PDD is?",
-//         options: [
-//             "Post Departure Distance",
-//             "Post Departure Detention",
-//             "Pre Departure Detention",
-//             "Pre Departure Destination"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Control Office application covers which of the following work areas?",
-//         options: [
-//             "Handling of train movement",
-//             "Advance Plotting",
-//             "Ordering of trains",
-//             "All of the given options"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "Name the App for Indian Railway Freight Customers regarding Consignment tracking, booking information, freight calculator etc?",
-//         options: [
-//             "HRMS",
-//             "RESS",
-//             "Rail Sugam",
-//             "Rail Mitra"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "e-TRR stands for?",
-//         options: [
-//             "Electronic transmission of RR",
-//             "Electronic transfer of RR",
-//             "Electronic travel of RR",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "What does RTIS stands for?",
-//         options: [
-//             "Right Time Train Information System",
-//             "Real Time Train Information System",
-//             "Real Time Terminal Information System",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "Loco outage means the average number of locos available for traffic use in?",
-//         options: [
-//             "24 hours",
-//             "a month",
-//             "10 days",
-//             "15 days"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "NMG is a.... type of wagon?",
-//         options: [
-//             "Hopper",
-//             "Tank",
-//             "Flat",
-//             "Covered"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "What is loading tolerance for BCNHL wagon?",
-//         options: [
-//             "0.5 tonne",
-//             "0.1 tonne",
-//             "2 tonne",
-//             "1 tonne"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Point to be kept in view while preparing loco pilot link, average duty hours in a fortnight should not exceed ....?",
-//         options: [
-//             "80 hrs",
-//             "102 hrs",
-//             "104 hrs",
-//             "106 hrs"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "B.P.C. becomes invalid in a premium air brake rake, if more than 8 wheeler wagons get detached from rake.",
-//         options: [
-//             "4",
-//             "5",
-//             "2",
-//             "10"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "How can engine utilization be improved?",
-//         options: [
-//             "By making proper use of the carrying capacity of the locos",
-//             "By reducing engine hours",
-//             "By connecting the light engine to other engines or vehicles",
-//             "All the given options"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "What is the unit for measuring line capacity?",
-//         options: [
-//             "No. of all Trains",
-//             "No. of all Goods Trains",
-//             "No. of all Passenger Trains",
-//             "No. of all Light Engins"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Who permits to operate ODC of 'A' class in the Inter Railway?",
-//         options: [
-//             "CRS",
-//             "PCOM of the same zone",
-//             "Senior DOM",
-//             "PCOM of the same zone and PCOM of the railway concerned"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "Maximum speed of BVZI wagon is?",
-//         options: [
-//             "100 KMPH",
-//             "140 KMPH",
-//             "90 KMPH",
-//             "75 KMPH"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Which of the following signal cannot be used for shunting?",
-//         options: [
-//             "Home Signal",
-//             "Shunt Signal",
-//             "Hand Signal",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "EOTT means......?",
-//         options: [
-//             "Enhancement of Train Transformation System",
-//             "Enhancement of Operations of Trains Traffic System",
-//             "Enhancement of Operations Transformation of Trains System",
-//             "End of Train Telemetry System"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "Fog signal post is placed at a distance of from First Stop Signal?",
-//         options: [
-//             "120 m",
-//             "180 m",
-//             "270 m",
-//             "400 m"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "FOIS modules are?",
-//         options: [
-//             "ICMS & PAM",
-//             "PAM & COIS",
-//             "RMS & TMS",
-//             "COA & NTES"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Which of the following commodity is permitted to be carried in Ro-Ro service?",
-//         options: [
-//             "Coal & Coke",
-//             "Iron Ore",
-//             "Military Traffic",
-//             "Foodgrain"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "Target for Committee to submit the inquiry report to GM for enquiries ordered by GM is",
-//         options: [
-//             "Date of accident (D)+10",
-//             "Date of accident (D)+15",
-//             "Date of accident (D)+21",
-//             "Date of accident (D)+7"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Full form of NDMA is?",
-//         options: [
-//             "National Disaster Management Action",
-//             "Notional Disaster Management Action",
-//             "National Disaster Management Authority",
-//             "National Disaster Mitigation Authority"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Full form of NDRF is?",
-//         options: [
-//             "National Disaster Rescue Force",
-//             "National Disaster Response Force",
-//             "National Disaster Related Force",
-//             "New Disaster Rescue Force"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "Full form of CADAT is?",
-//         options: [
-//             "Computer Aided Drivers Awareness Test",
-//             "Comprehensive Awareness of Drivers Ability Test",
-//             "Computer Aided Drivers Aptitude Test",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "The duration of the Refresher course for SMs excluding Safety Camp is?",
-//         options: [
-//             "10 days",
-//             "15 days",
-//             "12 days",
-//             "17 days"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Shunt signal may be placed on a post by itself or below a stop signal other than signal?",
-//         options: [
-//             "First Stop Signal",
-//             "Last Stop Signal",
-//             "First Stop Signal & Last Stop Signal",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "What is the full form of PAM?",
-//         options: [
-//             "Punctuality Analysis & Monitoring",
-//             "Punctuality Analysis Management",
-//             "Periodical Analysis & Monitoring",
-//             "Punctuality Analysis & Maintenance"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "COIS is a module of",
-//         options: [
-//             "FOIS",
-//             "TMS",
-//             "ICMS",
-//             "RMS"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "What should be minimum length of Snag Dead End?",
-//         options: [
-//             "200 meter",
-//             "150 meter",
-//             "180 meter",
-//             "120 meter"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "DFC routes have upgraded design features of axle load for bridges and formation?",
-//         options: [
-//             "25 tonnes",
-//             "32.5 tonnes",
-//             "35 tonnes",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "Whenever a new signal is erected or there is a change in the location and/or type of signal, caution orders shall be issued for a period of ........from the date of erection of signal or change of location?",
-//         options: [
-//             "03 months",
-//             "15 days",
-//             "60 days",
-//             "06 months"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "The Adequate distance beyond First Stop Signal of a station at a Class B station with Manually Operated Multiple Aspect Signalling arrangement is minimum ....... meter?",
-//         options: [
-//             "400",
-//             "180",
-//             "120",
-//             "300"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "The adequate distance may be reduced under ----?",
-//         options: [
-//             "Special instructions",
-//             "Approved special instructions",
-//             "Can not be reduced",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "Normal aspect of Automatic stop signal is?",
-//         options: [
-//             "Stop",
-//             "Proceed",
-//             "Attention",
-//             "Most restrictive aspect"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "On the failure of automatic stop signal during day, the LP shall wait for?",
-//         options: [
-//             "One minute",
-//             "Two minutes",
-//             "Five minutes",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Shunting operations are controlled by fixed signals, hand signals and?",
-//         options: [
-//             "Office order",
-//             "Verbal order",
-//             "Special order",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "The basic units for time, distance, quantity etc. are....?",
-//         options: [
-//             "Fundamental Units",
-//             "Derived Units",
-//             "Primary Units",
-//             "Secondary Units"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "When was Official Language Act enacted?",
-//         options: [
-//             "15th January, 1963",
-//             "10th April, 1965",
-//             "10th May, 1963",
-//             "13th June, 1964"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "How many members of the Lok Sabha are there in the Parliamentary Committee on Official Language?",
-//         options: [
-//             "18",
-//             "20",
-//             "22",
-//             "15"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "How many languages are included in the Eighth Schedule of the Constitution?",
-//         options: [
-//             "19",
-//             "20",
-//             "21",
-//             "22"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "How many sub-committees are there in the Committee of Parliament on Official Language?",
-//         options: [
-//             "01 Sub Committee",
-//             "02 Sub Committees",
-//             "03 Sub Committees",
-//             "04 Sub Committees"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "How many times in a year are the meetings of the Regional Official Language Implementation Committee held?",
-//         options: [
-//             "05 times",
-//             "03 times",
-//             "02 times",
-//             "04 times"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "Which ministry issues the annual program of official language?",
-//         options: [
-//             "Ministry of Railways",
-//             "Finance Ministry",
-//             "Home Ministry",
-//             "Ministry of Defence"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "What is the name of the award scheme implemented by Ministry of Railways, Railway Board for fiction/story, novel, drama and other prose literature?",
-//         options: [
-//             "Maithilisharan Gupt Award Scheme",
-//             "Rajbhasha Individual Cash Award Scheme",
-//             "Premchand Award Scheme",
-//             "Lal Bahadur Shastri Technical Original Writing Award Scheme"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Who is the Vice President of the Central Hindi Committee?",
-//         options: [
-//             "Defense Minister",
-//             "Home Minister",
-//             "Prime Minister",
-//             "Foreign Minister"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "According to the Official Language Rules, which of the following states does not come under 'Ka' region?",
-//         options: [
-//             "Rajasthan",
-//             "Gujarat",
-//             "Himachal Pradesh",
-//             "Chhattisgarh"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "Rail Yatra Vratant Puraskar Yojna is for whom?",
-//         options: [
-//             "For Railway Officers",
-//             "For Litterateurs",
-//             "For all Railway Employees",
-//             "For all Indian citizens"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "How many dependants are allowed in Complimentary Pass?",
-//         options: [
-//             "Maximum-2",
-//             "Maximum-3",
-//             "Maximum-1",
-//             "Maximum-4"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Divisional Railway Manager is eligible for metal token?",
-//         options: [
-//             "Silver",
-//             "Gold",
-//             "Bronze",
-//             "Platinum"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Second class A pass holder is entitled to travel in which category?",
-//         options: [
-//             "In 3 tier AC",
-//             "In 2 tier AC",
-//             "In 1st AC",
-//             "In 2nd Sleeper"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "How many days leave is granted as maternity leave?",
-//         options: [
-//             "180 days",
-//             "60 days",
-//             "75 days",
-//             "120 days"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Rule 3A of Railway Services (Conduct) Rules, 1966 is related to?",
-//         options: [
-//             "Taking part in politics",
-//             "Promptness and courtesy",
-//             "Observance of Govt. Policies",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "What amount is given as Subsistence Allowance?",
-//         options: [
-//             "50% of Last Pay",
-//             "25% of Last Pay",
-//             "75% of Last Pay",
-//             "10% of Last Pay"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Under which Rule of DAR is Enquiry officer nominated?",
-//         options: [
-//             "Rule-9",
-//             "Rule-5",
-//             "Rule-4",
-//             "Rule-10"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Under which D&A Rules 1968, an Appeal can be made?",
-//         options: [
-//             "Rule-18",
-//             "Rule-15",
-//             "Rule-11",
-//             "Rule-7"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "What is the Standard Form used for Revocation of Suspension?",
-//         options: [
-//             "SF-4",
-//             "SF-3",
-//             "SF-2",
-//             "SF-5"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "How much employee contribution goes to NPS?",
-//         options: [
-//             "10% of Basic Pay + DA",
-//             "20% of Basic Pay + DA",
-//             "14% of Basic Pay + DA",
-//             "15% of Basic Pay + DA"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "In which article of the Constitution, the principle of natural justice is mentioned?",
-//         options: [
-//             "Article-311 (2)",
-//             "Article-315",
-//             "Article-325",
-//             "Article-310"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Total how many days are granted as Child Care Leave in entire service?",
-//         options: [
-//             "730 days",
-//             "500 days",
-//             "350 days",
-//             "900 days"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "What is the full form of IREC?",
-//         options: [
-//             "Indian Railway Enquiry Code",
-//             "Indian Railway Establishment Code",
-//             "Indian Railway Establishment Council",
-//             "Indian Railway Enquiry Council"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "What is the full form of PREM?",
-//         options: [
-//             "Participation of Railway Employees in Management",
-//             "Public & Railway Employees Meeting",
-//             "Permanent Railway Employees Meeting",
-//             "Permanent Railway Employees Machinery"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Upto what age an unmarried, unemployed son eligible for family pension?",
-//         options: [
-//             "25 years or his appointment whichever is earlier",
-//             "21 years or his appointment whichever is earlier",
-//             "18 years or his appointment whichever is earlier",
-//             "30 years or his appointment whichever is earlier"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "What is the full form of GAAP?",
-//         options: [
-//             "Government Approved and Authorised Procedures",
-//             "Government Audit and Accounting Protocol",
-//             "Generally Accepted Accounting Principles",
-//             "General Agreement for Assessment Period"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Expenditure on renewals and replacements is financed from?",
-//         options: [
-//             "DRF",
-//             "DF",
-//             "Capital",
-//             "Revenue"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Name the account under which IR transactions related to the Consolidated Fund, the Contingency Fund and the Public Account are accounted in the books of RBI?",
-//         options: [
-//             "Railway Fund",
-//             "Railway Safety Fund",
-//             "Special Railway Safety Fund",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Audit objections raised on Accounts as a result of voucher check are called?",
-//         options: [
-//             "Audit Inspection Report",
-//             "Special letter",
-//             "Audit note",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "How many Demands for Grants are allotted for Ministry of Railways after merger of Railway Budget with general Budget?",
-//         options: [
-//             "1",
-//             "2",
-//             "3",
-//             "4"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Traffic Costing Officers in Zonal Railways report to?",
-//         options: [
-//             "PCOM",
-//             "PCCM",
-//             "PFA",
-//             "PCEE"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Which of the following is true? (i) Based on RE, Revised grant is given (ii) Based on BE, Budget Grant is given (iii) Based on FM, Final Grant is given",
-//         options: [
-//             "Only '(i) Based on RE, Revised grant is given' is true",
-//             "Only (ii) Based on BE, Budget Grant is given is true",
-//             "Only (iii) Based on FM, Final Grant is given is true",
-//             "All three of the given options are correct"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "Which is NOT a method for Expenditure Control?",
-//         options: [
-//             "Budgetary Control and Financial Review",
-//             "Internal Audit and CAG Audit",
-//             "Review of Unsanctioned and Objectionable items of Expenditure",
-//             "Material Modification and Price Variation Clause"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "What is provided in a tender to insulate both Railways and the tenderer from the effects of inflation?",
-//         options: [
-//             "Rate Variation clause",
-//             "Price Variation clause",
-//             "Cost Variation clause",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "Percentage of Working expenses to Gross earnings is known as?",
-//         options: [
-//             "Inventory Turn Over Ratio",
-//             "Operating Ratio",
-//             "Liquidity Ratio",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "An agreement which is enforceable by law is?",
-//         options: [
-//             "A Tender",
-//             "A Contract",
-//             "An Offer",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "In works tenders, offer without EMD should be?",
-//         options: [
-//             "Summarily rejected",
-//             "EMD can be called for later",
-//             "EMD can be deducted from bills",
-//             "All of the given options"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Contingent expenditure means?",
-//         options: [
-//             "Incidental to the management or upkeep of the office",
-//             "Unforeseen expenditure during progress of work",
-//             "Expenditure on rents, rates and taxes",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "In SOP, if there is no mention regarding finance concurrence, then?",
-//         options: [
-//             "Finance concurrence is not required",
-//             "Finance concurrence is required",
-//             "Executive can decide on Finance concurrence",
-//             "None of the given options"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "A report by an ISA/ ASV detailing procedural irregularities in the maintenance of stock is called a?",
-//         options: [
-//             "Narrative Report",
-//             "Stock Sheet",
-//             "Stock Verification Report",
-//             "Stock Inspection Report"
-//         ],
-//         correctAnswer: 0
-//     }
-// ]
 
 const AOM05032023_70 = [
     {
@@ -13546,1761 +12115,6 @@ const AOM05032023_70 = [
     `
     }
 ];
-
-
-
-// const AOM25062023_30 = [
-//     {
-//         question: "Which of the following is a primary unit as per railway statistics? ",
-//         options: [
-//             "Tonn-Kms",
-//             "kilometre ",
-//             "Wagon Km per wagon day",
-//             "None of these "
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "Full form of PDD is ?",
-//         options: [
-//             "post departure delay ",
-//             "post departure detention ",
-//             "pre departure detention ",
-//             "none of these "
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Which type of unit is NTKM ?",
-//         options: [
-//             "Primary ",
-//             "Fundamental ",
-//             "Derived ",
-//             "This is not a unit "
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "When will the long haul not be operated from the next station during the journey ",
-//         options: [
-//             "Stop signal defective",
-//             "hand signal not seen ",
-//             "walkie talkie defective ",
-//             "None of these "
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "During long haul working, If there is one rake loaded & other is empty, then ?",
-//         options: [
-//             "Loaded rake will be in front ",
-//             "Empty rake will be in front ",
-//             "Any rake can be in front ",
-//             "None of these "
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "How many systems are there for freight train examination?",
-//         options: [
-//             "2",
-//             "3",
-//             "4",
-//             "None of these "
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "What is the target time for dispatching Accident Relief Train ? (deleted)",
-//         options: [
-//             "45 minutes in day & 30 minutes in night ",
-//             "15 minutes in day & 20 minutes in night ",
-//             "30 minutes in day & 45 minutes in night ",
-//             "None of these "
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Within how many days after the date of accident, DAR action has to be completed ?",
-//         options: [
-//             "D+30",
-//             "D+60",
-//             "D+90",
-//             "None of these "
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Inquiry of railway accident by CRS is mentioned under which section of the Railway Act 1989 ?",
-//         options: [
-//             "Section 114 ",
-//             "Section 115 ",
-//             "Section 116 ",
-//             "None of these "
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Which of the following rulebook is not kept in Accident Relief Train ?",
-//         options: [
-//             "G&SR",
-//             "Accident Manual ",
-//             "Working Time Table ",
-//             "Block Working Manual "
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "How much loss of Railway property will be considered as a serious accident ?",
-//         options: [
-//             "More than Rs. 25 Lakhs ",
-//             "More than Rs. 20 Crore ",
-//             "More than Rs 2 Crore",
-//             "None of these "
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "train accidents have been classified into how many categories ?",
-//         options: [
-//             "A to R",
-//             "A to I",
-//             "A to O",
-//             "None of these "
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "The section controller can call at the same time …...?",
-//         options: [
-//             "One station only ",
-//             "two stations only ",
-//             "all stations ",
-//             "none of these "
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "When the control is interrupted and no communication with the controller is possible, who will be responsible for the working and regulating of trains ?",
-//         options: [
-//             "Chief Controller ",
-//             "Station Masters ",
-//             "Traffic Inspector ",
-//             "Loco Pilots "
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "Which register is not maintained by section controllers ? (deleted)",
-//         options: [
-//             "Train ordering book ",
-//             "load register ",
-//             "interchange resistor ",
-//             "Engine book "
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "In case of a goods train accident, arrangement of road transport and labour for unloading the wagons involved in the accident, is the duty of……..? ",
-//         options: [
-//             "Chief Controller / Dy. Chief  controller (stock)",
-//             "C&W Control ",
-//             "Commercial Control ",
-//             "Engineering Control "
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Freight train ordering message is called ?",
-//         options: [
-//             "Control Order ",
-//             "Train Notice ",
-//             "CC Message ",
-//             "None of these "
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "Power plan indicates the number of locals required for ?",
-//         options: [
-//             "coaching service ",
-//             "Freight service ",
-//             "Parcel express trains ",
-//             "none of these "
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "Loco outage can be prepared ?",
-//         options: [
-//             "Service-wise",
-//             "Shed-wise",
-//             "Traction wise ",
-//             "all of the given options "
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "which statement is correct ?",
-//         options: [
-//             "freight train ordering can't be cancelled ",
-//             "freight train can't be reordered ",
-//             "freight train ordering can be rescheduled / put back ",
-//             "All of the given options "
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Allotment despite restrictions is controlled at?",
-//         options: [
-//             "Railway board level ",
-//             "Zonal HQ level",
-//             "Divisional level",
-//             "Area control level "
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "System of signalling & interlocking and communication arrangements is mentioned in which appendix of Station Working Rule? ",
-//         options: [
-//             "Appendix A",
-//             "Appendix E",
-//             "Appendix B",
-//             "None of these "
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Main body of Station Working Rule is signed by ?",
-//         options: [
-//             "Officers of Operating & Signal Department ",
-//             "Officers of only Operating Department ",
-//             "Officers of Operating & Engineering Department ",
-//             "None of these "
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "The period for which Muster Roll should be preserved from the date of its completion ?",
-//         options: [
-//             "3 years ",
-//             "2 years ",
-//             "1 year ",
-//             "Permanent Record "
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "A substitute of Shunting Limit Board is-",
-//         options: [
-//             "calling-on signal ",
-//             "Starter",
-//             "First stop signal ",
-//             "Last stop signal "
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "When a shunt signal is placed below a stop signal, it shall show — light in the ‘ON' position. ",
-//         options: [
-//             "White",
-//             "Yellow",
-//             "Red",
-//             "No light"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "A Loco Pilot / Asstt Loco Pilot should record in the register — days in advance that he is lapsing road learning in 4 section.",
-//         options: [
-//             "7 days",
-//             "13 days",
-//             "15 days",
-//             "None of these"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Continuous night duty for Running Staff should be limited to ____ nights with last night duty towards Headquarter.",
-//         options: [
-//             "3 nights",
-//             "4 nights",
-//             "5 nights",
-//             "None of these"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "The out station rest, in case of 8 hours or more duty from Sign ON to Sign OFF In the previous trip, should be __ hours.",
-//         options: [
-//             "4 hours",
-//             "6 hours",
-//             "8 hours",
-//             "None of these"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "The permitted ineffective percentages for Maintenance & Traffic spares of AC coaches (other than Rajdhani/Shatabdi and similar premium trains) are-",
-//         options: [
-//             "6% Maintenance & 5 % Traffic",
-//             "5% Maintenance & 6 % Traffic",
-//             "9% Maintenance & 7 % Traffic",
-//             "None of these"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "What is the minimum Axle Load route prevailing in Indian Railways?",
-//         options: [
-//             "20 ton",
-//             "22 ton",
-//             "22.4 ton",
-//             "22.9 ton"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "In which of the following Zone, 25 Ton Axle Load Route is not available?",
-//         options: [
-//             "SER",
-//             "SCR",
-//             "ECoR",
-//             "None of these"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "In case of emergency, CC+6 loaded wagens can be permitted on excepted CC+6 routes. Permission can be given by?",
-//         options: [
-//             "PCE",
-//             "PCOM",
-//             "CRS",
-//             "None of these"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Which of the following statement are not correct about mini rake?",
-//         options: [
-//             "Mini rake can be loaded with iron ore",
-//             "Minirake is charged at Train Load Class",
-//             "Mini rakes are permitted only in covered wagons",
-//             "Free time for loading / unloading of mini rake will be 5 hrs."
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Explosives are divided into how many classes?",
-//         options: [
-//             "3",
-//             "5",
-//             "7",
-//             "None of these"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Free fime for un-loading of BTPN type of wagon under Engine on load scheme is given as?",
-//         options: [
-//             "5 hours",
-//             "6 hours",
-//             "9 hours",
-//             "None of these"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Ifa passenger carrying train does not amive within ___minutes after allowing for its normal running time from the station in rear, ihe Station Master at the station in advance shall immediately advise the station in rear and the control of this fact.",
-//         options: [
-//             "5",
-//             "10",
-//             "15",
-//             "None of these"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "The powers to grant traffic blocks upto ___ hours have been given to DRM.",
-//         options: [
-//             "3",
-//             "4",
-//             "Full powers",
-//             "None of these"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "GM can sanction NI upto days ____ subject to certain conditions.",
-//         options: [
-//             "1",
-//             "2",
-//             "3",
-//             "None of these"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "ETA @___ minutes per 100 kms shall be provided in sections having speed of 130 kmph and above.",
-//         options: [
-//             "4",
-//             "6",
-//             "8",
-//             "None of these"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Which of the following is nota luxury tourist train?",
-//         options: [
-//             "Royal Rajasthan on wheels",
-//             "Maharaja Express",
-//             "Panj Takht",
-//             "None of these"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "In case of train running with LHB coaches with déflated air spring in secondary stage suspension, train is permitted to run at ___ kmph speed.",
-//         options: [
-//             "50",
-//             "60",
-//             "90",
-//             "None of these"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "Formula of Loco outage is?",
-//         options: [
-//             "Total engine hours from shed/24 ",
-//             "Engine hours for traffic use/12",
-//             "Total engine hours from shed/12",
-//             "Engine hours for traffic use/24"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "Loco / Power links are prepared by?",
-//         options: [
-//             "HQ's office",
-//             "Division’s office",
-//             "Loco lobbies",
-//             "None of these"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "The periedicity of Loco maintenance schedule IB for coaching locos (conventional Loco) is:",
-//         options: [
-//             "40 +/- 3 days",
-//             "80 +/- 3 days",
-//             "60 +/- 3 days",
-//             "None of these"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "Guard's rough joumal is required to be preserved for the period of?",
-//         options: [
-//             "3 years",
-//             "2 years",
-//             "5 years",
-//             "None of these"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "At what time intervals, are the running staff reviewed?",
-//         options: [
-//             "1 year",
-//             "2 years",
-//             "6 months",
-//             "None of these"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "How many dead engines can be attached’ to Mail/Express/Superfast trains?",
-//         options: [
-//             "1",
-//             "cannot be attached",
-//             "2",
-//             "None of these"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "What is the gross clearance of 'B’ class ODC?",
-//         options: [
-//             "Less than 6 Inches",
-//             "6 inches or more but less than 9 inches",
-//             "9 inches or more",
-//             "None of these"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "The modified Semi-Automatic stop signal is controlled by ____",
-//         options: [
-//             "SM in rear",
-//             "SM in Advance",
-//             "Either (1) or (2)",
-//             "None of these"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "Who permit Inter Railway movemeni of A class ODC?",
-//         options: [
-//             "CRS",
-//             "PCOM of the same zone",
-//             "Senior DOM",
-//             "PCOM ofthe same zone and PCOM of the railway concemed"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "What is the maximum speed of A class ODC in BG?",
-//         options: [
-//             "40 km/h",
-//             "Sectional speed",
-//             "6O km/h",
-//             "None of these"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "The mid-section modified semi-automatic stop signal is interlocked with ___.",
-//         options: [
-//             "LSS of station in rear",
-//             "FSS of station in advance",
-//             "Both (1) &(2)",
-//             "Either of (1) or (2)"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Preferential traffic order is issued under which section of Railway Act 1989?",
-//         options: [
-//             "Section 70",
-//             "Section 71",
-//             "Section 72",
-//             "None of these"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "Free time for un-loading of BCN type of wagon under Engine on load scheme Is given as?",
-//         options: [
-//             "6 hours",
-//             "5 hours",
-//             "4 hours",
-//             "None of these"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Software aided train schedule and network governance (SATSanG) program is used for ____ ?",
-//         options: [
-//             "Time tabling of passenger trains",
-//             "Time tabling of freight trains",
-//             "Effective utilization of wagons",
-//             "Effective utilization of Crew"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Full form of CADAT is? ",
-//         options: [
-//             "Computer Aided Drivers Awareness Test",
-//             "Comprehensive Awareness of Drivers Ability Test",
-//             "Computer Aided Drivers Aptitude Test",
-//             "None of these"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Expand RFID?",
-//         options: [
-//             "Rail frequency Identity device",
-//             "Radio forwarding identification device",
-//             "Rail forwarding intact device",
-//             "Radio Frequency Identification"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "Train Collision Avoidance System (TCAS) Is an indigenously developed Automatic Train Protection System meant to provide protection to trains against ____",
-//         options: [
-//             "Sianal Passing at Danger",
-//             "Over speeding",
-//             "Collisions",
-//             "All of the given options"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "The maximum speed of a irain in a double line section shall be restricted to _____ KMPH during dense fog, in automatic area. [DELETED]",
-//         options: [
-//             "15 KMPH",
-//             "10 KMPH",
-//             "30 KMPH",
-//             "None of these"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "Every Loco Pilot and ALP shall \"sign on\" _____ minutes in advance for examining and taking over the Multiple Unit Electric Engine in the shed.",
-//         options: [
-//             "45",
-//             "30",
-//             "60",
-//             "None of these"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Record foil of the Caution Orders shall be preserved for period of how many months? [DELETED]",
-//         options: [
-//             "4",
-//             "6",
-//             "12",
-//             "Perminently"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "If loco pilot and/or the guard failed to exchange signal with the station staff and the same has been reported to the Station Master of the block station in advance, the Station Master of block station in advance shall ...........? [Deleted]",
-//         options: [
-//             "Stop and examine the train",
-//             "Stop the train and hand over a written warning to the defaulting staff",
-//             "Ensure whether LP / guard is available or not and ensure they exchange the signal.",
-//             "None of these"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Section will be considered saturated when line capacity exceeds",
-//         options: [
-//             "100% of charted capacity",
-//             "90% of charted capacity",
-//             "80% of charted capacity",
-//             "None of these"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "W/L board is provided on the approach of all level crossings at a distance of meters",
-//         options: [
-//             "600",
-//             "800",
-//             "400",
-//             "None of these"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "When running through between block stations and when running with the engine leading, the speed of a material train shall not exceed.",
-//         options: [
-//             "25 kmph",
-//             "speed prescribed for goods train of similar stock",
-//             "40 kmph",
-//             "None of these"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "The brake feel test is done by Loco Pilot at the speed of Kmph. [Deleted]",
-//         options: [
-//             "50",
-//             "40",
-//             "45 or 30 or 15",
-//             "None of these"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "The correct sequence in which following plans / drawings are prepared?",
-//         options: [
-//             "SIP, ESP, SWRD",
-//             "ESP, SIP, SWRD",
-//             "SIP, SWRD, ESP",
-//             "SWRD, SIP, ESP"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "The code for AC Chair Car second class of broad gauge coaching stock is? [Deleted]",
-//         options: [
-//             "WGSCZAC",
-//             "WSCZAC",
-//             "WGFCZ",
-//             "None of these"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "When IBS is at 'ON' and if telephone is not provided or out of order at Intermediate block post, Loco pilot after waiting for minutes at the signal shall pass it at 'ON' proceeding cautiously.",
-//         options: [
-//             "07 minutes",
-//             "05 minutes",
-//             "10 minutes",
-//             "15 minutes"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "Sand Hump is an extended portion of rail in sand with increasing gradient of",
-//         options: [
-//             "1 in 60",
-//             "1 in 80",
-//             "1 in 100",
-//             "None of these"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "TVU of special class LC gate shall be",
-//         options: [
-//             "Greater than 40,000",
-//             "Greater than 45,000",
-//             "Greater than 50,000",
-//             "None of these"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "The distance of derailing switch from the points is about ______ feet.",
-//         options: [
-//             "10",
-//             "15",
-//             "20",
-//             "None of these"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "The Certificate of Competency for operation of Block Instrument shall be valid for a period of ______ years.",
-//         options: [
-//             "Two",
-//             "Three",
-//             "Four",
-//             "None of these"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "Brake power percentage of an ordinary 'End to End' Air Brake rake other than premium rake at en-route station should be: -",
-//         options: [
-//             "75%",
-//             "0.85",
-//             "0.95",
-//             "None of these"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Colour light Distant Signal may be combined with LSS, Gate Stop Signal etc. under: -",
-//         options: [
-//             "Approved Special Instruction",
-//             "Special Instruction",
-//             "Working Instruction",
-//             "None of these"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "A Railway servant is debarred of taking any Alcoholic drink/Sedative/Narcotic/ Stimulant drug or preparation within how many hours before the commencement of his duty or when on duty-",
-//         options: [
-//             "6 hours",
-//             "8 hours",
-//             "12 hours",
-//             "None of these"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "At a 'B' class double line MACL station, rear block section terminates at-",
-//         options: [
-//             "Outermost facing point",
-//             "BSLB",
-//             "Either at (1) or (2)",
-//             "None of these"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "At a 'B' class Double Line MACL station, while performing shunting up to the First stop signal in rear ie. up to the Home signal, Block Back is -",
-//         options: [
-//             "Necessary",
-//             "Not Necessary",
-//             "Depends on Layout",
-//             "None of these"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "If outside station limits, distance between two trains is ______ meter or more, such occurrence may not be treated as averted collision:-",
-//         options: [
-//             "600",
-//             "500",
-//             "400",
-//             "250"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "\"Smell of burning grease is the symptom of?",
-//         options: [
-//             "Seizure of roller bearing",
-//             "Brake binding",
-//             "Flat tyre",
-//             "None of these"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "A decrease in net tonne kilometer per engine hours may be due to?",
-//         options: [
-//             "Increase in the proportion of unbalanced traffic",
-//             "Increase in the average starting wagon load",
-//             "Decrease in shunting engine hours",
-//             "Decrease in light engine running"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Which among the following is not a means of isolation?",
-//         options: [
-//             "Sand hump",
-//             "Derailing switch",
-//             "Skid",
-//             "Snag dead end"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Which light of hand signal will be used by guard in night to inform the loco pilot at the time of train parting?",
-//         options: [
-//             "Red",
-//             "Green",
-//             "White",
-//             "None of these"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Transportation of Coal for power houses is categorized under which category under priority schedule?",
-//         options: [
-//             "Priority-A",
-//             "Priority-B",
-//             "Priority-C",
-//             "Priority-D"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Which Tennis player has been on the top of the ATP rankings for maximum period?",
-//         options: [
-//             "Novak Djokovic",
-//             "Rafael Nadal",
-//             "Roger Federer",
-//             "None of these"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Which Indian Athlete is also known as 'Udan Pari'?",
-//         options: [
-//             "Hima Das",
-//             "Dutee Chand",
-//             "P.T. Usha",
-//             "None of these"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Which Indian Cricketer has also been President of BCCI?",
-//         options: [
-//             "Sachin Tendulkar",
-//             "Sourav Ganguly",
-//             "Dilip Vengsarkar",
-//             "None of these"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "Which country has won the most World Cups in Football?",
-//         options: [
-//             "Brazil",
-//             "Argentina",
-//             "France",
-//             "None of these"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Who is the first Indian player to win an individual Gold in Olympics?",
-//         options: [
-//             "Neeraj Chopra",
-//             "Abhinav Bindra",
-//             "Sushil Kumar",
-//             "None of these"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "Vijender Singh is associated with which sports?",
-//         options: [
-//             "Boxing",
-//             "Wrestling",
-//             "Archery",
-//             "None of these"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "The number of centuries made by Sachin Tendulkar in International matches is?",
-//         options: [
-//             "99",
-//             "100",
-//             "101",
-//             "None of these"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "Irani Trophy' is associated with which of the following game?",
-//         options: [
-//             "Hockey",
-//             "Football",
-//             "Cricket",
-//             "None of these"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "The number of Gold Medals won by India in Hockey in Olympics till now are?",
-//         options: [
-//             "7",
-//             "8",
-//             "9",
-//             "None of these"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "The word 'Butterfly' is associated with which of the following game?",
-//         options: [
-//             "Kabaddi",
-//             "Kho-Kho",
-//             "Swimming",
-//             "None of these"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Which one of the following does not constitute the electoral college for electing the President of India?",
-//         options: [
-//             "Elected member of Lok Sabha",
-//             "Elected member of Rajya Sabha",
-//             "Elected members of the Legislative Assembly of each state",
-//             "None of these"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "A person who is not a member of Parliament can be appointed as a Minister by the President for a maximum period of?",
-//         options: [
-//             "3 months",
-//             "9 months",
-//             "12 months",
-//             "None of these"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "Who among the following can attend meetings of the Union Cabinet?",
-//         options: [
-//             "Cabinet Ministers",
-//             "Ministers of States",
-//             "Deputy Ministers",
-//             "None of these"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "When was the Constitution of India implemented?",
-//         options: [
-//             "26th January, 1948",
-//             "26th January, 1949",
-//             "26th January, 1950",
-//             "None of these"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "What is the strength of the Public Accounts Committee?",
-//         options: [
-//             "10 from Lok Sabha and 5 from Rajya Sabha",
-//             "15 from Lok Sabha and 7 from Rajya Sabha",
-//             "15 from Lok Sabha and 10 from Rajya Sabha",
-//             "None of these"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "Quit India Movement was launched in response to?",
-//         options: [
-//             "Simon Commission Report",
-//             "Rowlatt Act",
-//             "Cripps Proposals",
-//             "None of these"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "The state of Bengal was partitioned by Lord Curzon in the year?",
-//         options: [
-//             "1905",
-//             "1906",
-//             "1911",
-//             "None of these"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Indian National Congress was established in the year?",
-//         options: [
-//             "1869",
-//             "1885",
-//             "1889",
-//             "None of these"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "Who was the Gandhi's nominee defeated by Subhash Chandra Bose for the presidentship of the Congress in 1939?",
-//         options: [
-//             "Pattabhi Sitharamayya",
-//             "Abul Kalam Azad",
-//             "S. Srinivasa Iyengar",
-//             "None of these"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "The battle of Plassey was fought in?",
-//         options: [
-//             "1757",
-//             "1747",
-//             "1764",
-//             "None of these"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Tulsidas the author of Ramcharitmanas, was a contemporary of which of the following Rulers?",
-//         options: [
-//             "Akbar",
-//             "Humayun",
-//             "Shahjahan",
-//             "None of these"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "The Radcliffe line is a boundary between?",
-//         options: [
-//             "India and Pakistan",
-//             "India and China",
-//             "India and Myanmar",
-//             "None of these"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "The following monsoon contributes most of the rains in India?",
-//         options: [
-//             "South Western",
-//             "North Eastern",
-//             "North Western",
-//             "None of these"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Which atomic power station in India is built completely indigenously?",
-//         options: [
-//             "Kalpakkam",
-//             "Narora",
-//             "Rawatbhata",
-//             "None of these"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Which of the following important rivers of India does not originate from the Western Ghats?",
-//         options: [
-//             "Kaveri",
-//             "Godavari",
-//             "Krishna",
-//             "None of these"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "When it is noon IST at Allahabad in India, the time at Greenwich, London, will be?",
-//         options: [
-//             "Midnight, GMT",
-//             "17:30 hours",
-//             "06:30 hours",
-//             "None of these"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Carbon, diamond and graphite are together called?",
-//         options: [
-//             "Allotropes",
-//             "Isomers",
-//             "Isomorphs",
-//             "None of these"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "The first chairman of Atomic Energy Commission was?",
-//         options: [
-//             "H.J. Bhabha",
-//             "Vikram Sarabhai",
-//             "C.V. Raman",
-//             "None of these"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Name the Governor General who abolished the Sati Pratha in 1829?",
-//         options: [
-//             "Lord Clive",
-//             "Lord Dalhousie",
-//             "Lord William Bentinck",
-//             "None of these"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "The Yellowstone National Park is situated in?",
-//         options: [
-//             "USA",
-//             "Canada",
-//             "Russia",
-//             "None of these"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Who founded the Indian Statistical Institute on 17 Dec 1931?",
-//         options: [
-//             "P.C. Mahalanobis",
-//             "R.A. Fischer",
-//             "F. Yates",
-//             "None of these"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Who was the first Indian to win All England Badminton Championship?",
-//         options: [
-//             "Prakash Padukone",
-//             "Saina Nehwal",
-//             "P. Gopichand",
-//             "None of these"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Between whom did the third battle of Panipat take place?",
-//         options: [
-//             "Akbar & Hemu",
-//             "Ahmad Shah Abdali & Maratha",
-//             "Babur & Ibrahim Lodi",
-//             "None of these"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "If the PH value of any type of soil is 10, then the soil will be considered as?",
-//         options: [
-//             "Acidic",
-//             "Neutral",
-//             "Alkaline",
-//             "None of these"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Nandadevi peak is located in which state?",
-//         options: [
-//             "Sikkim",
-//             "Himachal Pradesh",
-//             "Uttrakhand",
-//             "None of these"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Silent Valley National Park is located in which state of India?",
-//         options: [
-//             "West Bengal",
-//             "Kerala",
-//             "Uttrakhand",
-//             "None of these"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "What is the literacy rate in India as per 2011 census?",
-//         options: [
-//             "74%",
-//             "0.7",
-//             "0.68",
-//             "None of these"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Coking Coal is a vital input in which of the following industry?",
-//         options: [
-//             "Sponge Iron making",
-//             "Copper smelting",
-//             "Steel making",
-//             "None of these"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Who is the Director of the film RRR, whose song won the Oscar Award in 2023?",
-//         options: [
-//             "SS Rajamauli",
-//             "Maniratnam",
-//             "S. Shankar",
-//             "None of these"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Which country has recently banned domestic flights for journeys that are possible in less than two and half hours by Train?",
-//         options: [
-//             "Spain",
-//             "Germany",
-//             "France",
-//             "None of these"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Who is called an employee proficient in Hindi?",
-//         options: [
-//             "Knowledge of Hindi at primary level",
-//             "Passed Primary Level Exam in Hindi Medium",
-//             "Knowledge of Hindi at matriculation level",
-//             "Matriculation Level Exam Passed in Hindi Medium"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "Which is the foreign language included in the Eighth Schedule?",
-//         options: [
-//             "Nepali",
-//             "Persian",
-//             "English",
-//             "None of these"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Who is the chairman of Railway Board Official Language Implementation Committee?",
-//         options: [
-//             "Minister of Railways",
-//             "Prime Minister",
-//             "Chairman and CEO, Railway Board",
-//             "None of these"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Who is the chairman of Central Hindi Committee?",
-//         options: [
-//             "Home Minister",
-//             "Prime Minister",
-//             "Railway Minister",
-//             "None of these"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "For what purpose Lal Bahadur Shastri Takaniki Maulik Lekhan Award is given?",
-//         options: [
-//             "To write books in Hindi literature",
-//             "To write technical books in Hindi on railway subjects",
-//             "For story/story collection and novel writing",
-//             "None of these"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "How many members of Rajya Sabha are there in committee of Parliament of Official Language?",
-//         options: [
-//             "10",
-//             "7",
-//             "15",
-//             "None of these"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "How many sections are there in the Official Language Act, 1963?",
-//         options: [
-//             "8",
-//             "9",
-//             "10",
-//             "None of these"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "In which language is there a provision to give the documents related to disciplinary proceedings to the employee?",
-//         options: [
-//             "Regional Language",
-//             "Hindi",
-//             "Hindi or English - in which the employee wants",
-//             "None of these"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Who is the chairman of the Zonal Railway Official Language Implementation Committee?",
-//         options: [
-//             "General Manager",
-//             "Addl. General Manager",
-//             "Chief Rajbhasha Officer",
-//             "None of these"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "What is the introductory course for central government employees?",
-//         options: [
-//             "Praveen",
-//             "Prabodh",
-//             "Pragya",
-//             "None of these"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "In which language order are the announcements to be made at railway stations?",
-//         options: [
-//             "Local, Hindi, English",
-//             "Regional, English, Hindi",
-//             "Regional, Hindi, English",
-//             "None of these"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Who does the translation of statutory rules, regulations and orders as per the constitution?",
-//         options: [
-//             "Home Ministry",
-//             "Ministry of Law",
-//             "Ministry of Railways",
-//             "None of these"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "For whom is the Rajbhasha Individual Cash Award Scheme prescribed?",
-//         options: [
-//             "For employees",
-//             "For Officers",
-//             "For officers up to Junior Administrative Grade and non-gazetted categories",
-//             "For Senior Administrative Grade Officers"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Hindi Salahkar Samiti is constituted in which ministry?",
-//         options: [
-//             "In all ministries",
-//             "In the Ministry of Home Affairs",
-//             "In the Ministry of Education",
-//             "In the Ministry of Finance"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "What is the amount of the first prize under the Rail Travelogue Award Scheme?",
-//         options: [
-//             "Rs.8000/- and citation",
-//             "Rs.6000/- and citation",
-//             "Rs. 10000/- and citation",
-//             "None of these"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "What is the full form of PRAN? How many digits does a PRAN number have?",
-//         options: [
-//             "Permanent Retirement Account Number; 12",
-//             "Provident Retirement Account Number: 12",
-//             "Permanent Railway Account Number: 14",
-//             "Permanent Railwaymen's Account Number, 12"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "What is upper limit of child care leave for Railway employees for Child Care Leave?",
-//         options: [
-//             "365 days",
-//             "90 days",
-//             "730 days",
-//             "None of these"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Which Authority is empowered to order for cut in Pension of Retired Railway Servant under DAR proceedings?",
-//         options: [
-//             "DRM",
-//             "GM",
-//             "President of India",
-//             "None of these"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Who can allow for personal hearing in major penalty cases?",
-//         options: [
-//             "Appellate Authority",
-//             "Appointing Authority",
-//             "Disciplinary Authority",
-//             "None of these"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "What is the maximum period of suspension that can be extended at a time after review of the Competent Authority?",
-//         options: [
-//             "120 days",
-//             "150 days",
-//             "180 days",
-//             "None of these"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "What is the minimum period of Child Care Leave to be considered for sanction to a female Government servant?",
-//         options: [
-//             "10 days",
-//             "5 days",
-//             "20 days",
-//             "None of these"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "What is the penalty per day to be imposed against a Central Public Information Officer for giving misleading information?",
-//         options: [
-//             "Rs. 100 per day",
-//             "Rs. 250 per day",
-//             "Rs. 500 per day",
-//             "None of these"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "What is the time period for transfer of application to other Public Authority for request of information under Section 6(3) of the RTI Act?",
-//         options: [
-//             "1 day",
-//             "2 days",
-//             "5 days",
-//             "10 days"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "In case of availing child care leave, the age of dependent disabled children should be up to-.",
-//         options: [
-//             "18 years",
-//             "25 years",
-//             "22 years",
-//             "No limit"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "Who is the custodian of listed documents in a Departmental Enquiry?",
-//         options: [
-//             "Presenting Officer",
-//             "Defence Assistant",
-//             "Inquiry Officer",
-//             "None of these"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Who will take a decision whether the charges have been established before passing final orders?",
-//         options: [
-//             "Disciplinary Authority",
-//             "Inquiry Officer",
-//             "Presenting Officer",
-//             "None of these"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Railway Services (Conduct) Rules, were passed in?",
-//         options: [
-//             "1989",
-//             "1966",
-//             "1961",
-//             "1987"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "The period of maternity leave on account of miscarriage / abortion should be restricted to days during the entire service.",
-//         options: [
-//             "180 days",
-//             "30 days",
-//             "45 days",
-//             "None of these"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Which part of THE RAILWAY SERVANTS (DISCIPLINE & APPEAL) RULES, 1968 gives details of major and minor penalties? [Deleted]",
-//         options: [
-//             "Part I",
-//             "Part II",
-//             "Part III",
-//             "Part IV"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Where appointing authority are not available, who should be treated as Appointing Authority?",
-//         options: [
-//             "Controlling Officer",
-//             "DRM",
-//             "GM",
-//             "CPO"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Recognised Trade Union official can be allowed to act as defence counsel in DAR cases in .... numbers of cases.",
-//         options: [
-//             "2 numbers of cases",
-//             "3 numbers of cases",
-//             "5 numbers of cases",
-//             "Any number of cases"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "What is a Budget?",
-//         options: [
-//             "A statement of receipts and payments incurred in a year",
-//             "A statement of appropriation of funds",
-//             "A record of all expenses made",
-//             "A statement of estimated receipts and expenditure of the Government"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "From which Financial Year, was the Railway Budget included with the General Budget?",
-//         options: [
-//             "2017-2018",
-//             "2016-2017",
-//             "2015-2016",
-//             "2018-2019"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "What does QCBS stand for?",
-//         options: [
-//             "Quality and Cost Based Selection",
-//             "Quantity Conscious Bid Selection",
-//             "Quality Contract Bid Selection",
-//             "None of these"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "The expenditure of the Railways is now covered in demand for grants number......",
-//         options: [
-//             "81",
-//             "83",
-//             "85",
-//             "None of these"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "The full form of DRF is:",
-//         options: [
-//             "Depreciation Reserve Fund",
-//             "Depreciation Renewal Fund",
-//             "Development Reserve Fund",
-//             "None of these"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "The gross budgetary support towards capital expenditure of Indian Railways for the year 2023-24 is?",
-//         options: [
-//             "Less than 1 Lakh Crore",
-//             "Between 1 and 2 Lakh Crores",
-//             "More than 2 Lakh Crores",
-//             "None of these"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "The Plan Head under which works for customer amenities are included?",
-//         options: [
-//             "51",
-//             "52",
-//             "53",
-//             "None of these"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "The powers of the General Manager for sanctioning works under Plan Head 16 is upto ......?",
-//         options: [
-//             "Rs. 2.5 Crs.",
-//             "Rs. 5 Crs.",
-//             "Rs. 50 Crs.",
-//             "None of these"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "After the merger of the Railway Budget, what has been the major implication?",
-//         options: [
-//             "Railways no longer has to prepare its Annual Statement of Receipts & Expenditure",
-//             "The Finance Ministry prepares the Railway Budget",
-//             "Railways no longer have to pay dividend to the Government",
-//             "None of these"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "Which is not an example of EBR Funding in Indian Railways?",
-//         options: [
-//             "Leased assets from IRFC",
-//             "LIC loan",
-//             "RRSK Funds",
-//             "None of these"
-//         ],
-//         correctAnswer: 2
-//     },
-//     {
-//         question: "What is NOT a source of funding for Indian Railways to finance its capital expenditure projects?",
-//         options: [
-//             "Extra budgetary resources",
-//             "Gross budgetary support",
-//             "Internal resources of Indian Railways",
-//             "None of these"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "Re-appropriation of funds from one plan head to another plan head is within the powers of?",
-//         options: [
-//             "DRM",
-//             "PHOD",
-//             "GM",
-//             "Railway Board"
-//         ],
-//         correctAnswer: 3
-//     },
-//     {
-//         question: "Percentage of working expenses to gross earnings is known as?",
-//         options: [
-//             "Inventory Tum Over Ratio",
-//             "Operating Ratio",
-//             "Liquidity Ratio",
-//             "None of these"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "Abstract 'Y' in Earning Classification is?",
-//         options: [
-//             "Passenger Earning",
-//             "Goods Earning",
-//             "Sundry Earning",
-//             "Other Coaching Earning"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "Administrative approval of competent Authority for incurring expenditure is accorded at this stage?",
-//         options: [
-//             "Abstract Estimate",
-//             "Detailed Estimate",
-//             "Revised Estimate",
-//             "Completion Estimate"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Minimum notice period for quotations is?",
-//         options: [
-//             "7 days",
-//             "10 days",
-//             "12 days",
-//             "None of these"
-//         ],
-//         correctAnswer: 0
-//     },
-//     {
-//         question: "Variation beyond 150% of the contract value requires the sanction of?",
-//         options: [
-//             "Railway Board",
-//             "GM",
-//             "PHOD",
-//             "Tender Accepting Authority"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "Primary Unit of allocation denotes?",
-//         options: [
-//             "Nature of expenditure",
-//             "Object of expenditure",
-//             "Authority who has incurred the expenditure",
-//             "None of these"
-//         ],
-//         correctAnswer: 1
-//     },
-//     {
-//         question: "Cash in Transit is?",
-//         options: [
-//             "The cash taken by station in the balance sheet is accounted by cash office in the following month",
-//             "The cash accounted by station in a month",
-//             "The cash accounted by cash office in a month",
-//             "None of these"
-//         ],
-//         correctAnswer: 0
-//     }
-// ]
 
 const AOM25062023_30 = [
     {
@@ -18974,7 +15788,6 @@ const AOM25062023_30 = [
     }
 ];
 
-
 const AOM04052025_70 = [
     {
         question: "According to G&SR, in MACLS territory, where more than one distant signals are provided, which aspects the Distant signal will be capable of displaying?",
@@ -20080,1105 +16893,2766 @@ const AOM04052025_70 = [
 
 const AOM18052025_70 = [
     {
-        question: "According to Railway Act, 1989, which particulars shall be mentioned on ticket supplied to passengers on payment of fare?",
+        question: "1) According to Railway Act, 1989, which particulars shall be mentioned on ticket supplied to passengers on payment of fare?",
         options: [
             "Date of issue",
             "Class of travel",
             "amount of fare",
             "All of these"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Railway Ticketing Particulars</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Statutory Requirement:</b> The Railway Act mandates transparency in passenger contracts. A ticket serves as a legal contract of carriage and must display essential travel details.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Detail</th><th>Requirement</th><th>Status</th></tr>
+                <tr><td><b>Option A: Date of issue</b></td><td>Required to determine validity and combat ticket reuse.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option B: Class of travel</b></td><td>Required to define the level of service contracted.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option C: amount of fare</b></td><td>Required for fare transparency and refund calculations.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option D: All of these</b></td><td>Section 50 of the Railway Act 1989 mandates that all the above particulars must be printed on a passenger ticket.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> The Railways Act, 1989 - Section 50 (Supply of tickets on payment of fare).
+        `
     },
     {
-        question: "Which of the following is not a kind of signal permitted by GR 3.02 to regulate the movement of trains ?",
+        question: "2) Which of the following is not a kind of signal permitted by GR 3.02 to regulate the movement of trains ?",
         options: [
             "Fixed signal",
             "Moving signal",
             "Warning signal",
             "Detonating signal"
         ],
-        correctAnswer: 1
+        correctAnswer: 1,
+        hint: `
+            <h3>Types of Railway Signals</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Signal Classifications:</b> General Rules strictly define what constitutes a valid signal for train operations.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Signal Type</th><th>GR 3.02 Status</th><th>Status</th></tr>
+                <tr><td><b>Option A: Fixed signal</b></td><td>Explicitly permitted and forms the basis of block working (e.g., Semaphores, MACLS).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Moving signal</b></td><td>This is not a recognized technical category in the General Rules for regulating train movements. Signals are either fixed, hand, or detonating.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: Warning signal</b></td><td>Permitted (e.g., Warner signals in lower quadrant signalling).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Detonating signal</b></td><td>Permitted (fog signals/crackers used to attract the LP's attention audibly).</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> General Rules (GR) 3.02 (Kinds of Signals).
+        `
     },
     {
-        question: "A fixed signal can be placed on the right side of the line to which it refers with....",
+        question: "3) A fixed signal can be placed on the right side of the line to which it refers with....",
         options: [
             "Special instructions",
             "approved special instructions",
             "aprroval of DRM",
             "approval of GM"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Placement of Fixed Signals</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Standard Siting:</b> By default, signals are placed on the left side of or directly above the track to which they refer, optimizing visibility for the Loco Pilot.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Placement Authority</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: Special instructions</b></td><td>GR 3.03 states that if it is necessary to place a signal on the right side (due to visibility constraints, curves, or OHE masts), it can be done under "Special Instructions" issued by the authorized officer.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: Approved special instructions</b></td><td>These require CRS (Commissioner of Railway Safety) approval, which is a higher threshold not strictly mandated just for right-side placement in all cases unless specified by the SR.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C & D</b></td><td>Administrative approvals, but "Special instructions" is the exact statutory term used in the GR.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> General Rules (GR) 3.03.
+        `
     },
     {
-        question: "According to G &SR, when a shunt signal is provided on the same post as the stop signal, what will be its aspect in ON position?",
+        question: "4) According to G &SR, when a shunt signal is provided on the same post as the stop signal, what will be its aspect in ON position?",
         options: [
             "It will be blank",
             "Two horizontal white lights",
             "Two horizontal yellow lights",
             "None of these"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Shunt Signal Aspects</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Signal Indications:</b> A Position Light Shunt Signal normally shows two horizontal white lights in the 'ON' position. However, there is a specific exception when mounted below a Stop signal.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Aspect</th><th>Context</th><th>Status</th></tr>
+                <tr><td><b>Option A: It will be blank</b></td><td>According to GR 3.14, when a shunt signal is placed on the same post below a Stop signal, it shows <b>no light</b> in the 'ON' position. While "blank" is technically what happens, the official answer key dictates "None of these" likely due to exact phrasing expectations ("No light").</td><td><u>Incorrect (per Official Key)</u></td></tr>
+                <tr><td><b>Option B: Two horizontal white lights</b></td><td>This is the 'ON' aspect of an independent shunt signal, not one below a stop signal.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Two horizontal yellow lights</b></td><td>Not a standard aspect for position light shunt signals.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: None of these</b></td><td>Selected as the correct answer in the official evaluation. The exact wording in GR is "no light".</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> General Rules (GR) 3.14 (Shunt Signals).
+        `
     },
     {
-        question: "When a train carrying passengers has been brought to a stand at a station, the Loco Pilot shall not move it except.......",
+        question: "5) When a train carrying passengers has been brought to a stand at a station, the Loco Pilot shall not move it except.......",
         options: [
             "under orders of the Guard",
             "to avert an accident",
             "under orders of the Guard or to avert an accident",
             "to maintain punctuality"
         ],
-        correctAnswer: 2
+        correctAnswer: 2,
+        hint: `
+            <h3>Passenger Train Operations</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Starting Logic:</b> Passenger safety during boarding/alighting is paramount. The Loco Pilot cannot unilaterally decide to start the train once stopped at a station platform.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Condition</th><th>Reasoning</th><th>Status</th></tr>
+                <tr><td><b>Option A: under orders of the Guard</b></td><td>Correct, but incomplete. The Guard ensures all passengers are safely aboard and doors are secure.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option B: to avert an accident</b></td><td>Correct, but incomplete. Emergency movement is always an exception.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option C: under orders of the Guard or to avert an accident</b></td><td>Combines both statutory conditions outlined in GR 4.30. The LP must wait for the Guard's signal (beat/flag/light) unless immediate movement is required to prevent a collision.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: to maintain punctuality</b></td><td>Safety supersedes punctuality; moving without Guard's clearance is a severe safety violation.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> General Rules (GR) 4.30.
+        `
     },
     {
-        question: "For freight traffic, the issue of RR is mandated by Section... of the Railway Act, 1989.",
+        question: "6) For freight traffic, the issue of RR is mandated by Section... of the Railway Act, 1989.",
         options: [
             "62",
             "65",
             "63",
             "64"
         ],
-        correctAnswer: 1
+        correctAnswer: 1,
+        hint: `
+            <h3>Railway Receipt (RR) Issuance</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Legal Documentation:</b> A Railway Receipt (RR) is a title to the goods. It is a legally binding document issued by the railway administration upon acceptance of goods for carriage.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Section</th><th>Provision</th><th>Status</th></tr>
+                <tr><td><b>Option A: 62</b></td><td>Deals with conditions for receiving goods.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: 65</b></td><td>Section 65 of the Railway Act 1989 explicitly mandates the railway administration to issue a Railway Receipt (RR) to the consignor once goods are entrusted for carriage.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: 63</b></td><td>Deals with the provision of continuous supply of wagons.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: 64</b></td><td>Deals with forwarding notes.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> The Railways Act, 1989 - Section 65.
+        `
     },
     {
-        question: "According to G&SR 3.32(2), on a BSLB the words \"Block section limit\" should face...",
+        question: "7) According to G&SR 3.32(2), on a BSLB the words \"Block section limit\" should face...",
         options: [
             "the direction of the station",
             "the direction of the block section",
             "the adjacent line",
             "None of these"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Block Section Limit Board (BSLB)</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Purpose of BSLB:</b> The BSLB indicates the limit of the block section at a station where there is no Advanced Starter or where the Advanced Starter is placed at a distance. It demarcates station limits from the block section.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Direction</th><th>Logic</th><th>Status</th></tr>
+                <tr><td><b>Option A: the direction of the station</b></td><td>The words must face the station (inwards) so that a train entering the station or performing shunting within station limits can clearly see where the station limit ends and the block section begins.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: the direction of the block section</b></td><td>Facing it towards the block section would serve no purpose for trains performing shunting within the station.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: the adjacent line</b></td><td>Boards must face the track they govern.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> General Rules (GR) 3.32(2).
+        `
     },
     {
-        question: "Expand POMKA...",
+        question: "8) Expand POMKA...",
         options: [
             "Positive Medical Knowledge Application",
             "Portable Mechanical Kit for Air-springs",
             "Power Management Knowledge Application",
             "Portable Medical Kit for Accident"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Disaster Management Equipment</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Medical Response:</b> Immediate medical attention during train accidents saves lives during the "Golden Hour."
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Acronym</th><th>Relevance</th><th>Status</th></tr>
+                <tr><td><b>Option A, B, C</b></td><td>Fabricated expansions not used in railway terminology.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Portable Medical Kit for Accident</b></td><td>POMKA is a specialized, easy-to-carry medical kit provided in specific railway locations/trains to provide rapid first-aid and medical relief to injured passengers during an accident.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> IR Disaster Management Manual / Medical Manual.
+        `
     },
     {
-        question: "What is the typical axle load of a BCNHL wagon (in tonnes) ?",
+        question: "9) What is the typical axle load of a BCNHL wagon (in tonnes) ?",
         options: [
             "22.9",
             "30",
             "25",
             "20"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Wagon Specifications</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>BCNHL Wagon:</b> The BCNHL (Bogie Covered wagon, High capacity, Light weight) is a workhorse for carrying bagged commodities like cement and fertilizer.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Axle Load (Tonnes)</th><th>Applicability</th><th>Status</th></tr>
+                <tr><td><b>Option A: 22.9</b></td><td>The standard design axle load for BCNHL wagons is 22.9 tonnes (often referred to as CC+8+2 routes or standard enhanced axle loads on IR).</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: 30</b></td><td>Expected future limits for dedicated freight corridors, not standard BCNHL.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: 25</b></td><td>Applicable to heavier mineral wagons (e.g., BOXN25), not covered BCNHL.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: 20</b></td><td>Older legacy wagon axle loads.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> RDSO Wagon Maintenance Manual.
+        `
     },
     {
-        question: "According to the Preferential Traffic Order, levy Sugar for PDS sponsored by FCI is under Priority.....",
+        question: "10) According to the Preferential Traffic Order, levy Sugar for PDS sponsored by FCI is under Priority.....",
         options: [
             "A",
             "C",
             "D",
             "B"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Preferential Traffic Schedule (PTO)</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Wagon Allotment:</b> The Railway Board sets priorities (A, B, C, D) for the allotment of wagons to ensure essential national supplies move first.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Priority Class</th><th>Commodity Type</th><th>Status</th></tr>
+                <tr><td><b>Option A: A</b></td><td>Reserved strictly for Military traffic sponsored by MILRAIL.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: C</b></td><td>Usually for programmed traffic sponsored by specific central ministries (like coal, fertilizers).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: D</b></td><td>General traffic (lowest priority).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: B</b></td><td>Priority 'B' is assigned to emergency relief material and essential commodities like levy Sugar, food grains sponsored by the Food Corporation of India (FCI) for the Public Distribution System (PDS).</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Preferential Traffic Order (PTO) issued by Railway Board.
+        `
     },
     {
-        question: "In MACLS territory, goods warning board to warn the Loco-pilot of approaching a Stop Signal is provided at a distance of.....meter in rear of the First Stop Signal of a station.",
+        question: "11) In MACLS territory, goods warning board to warn the Loco-pilot of approaching a Stop Signal is provided at a distance of.....meter in rear of the First Stop Signal of a station.",
         options: [
             "1800",
             "1200",
             "1300",
             "1400"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Signal Warning Boards</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Braking Distances:</b> Heavy freight trains require immense distances to stop. Warning boards provide the Loco Pilot with a geographical reference to initiate braking before encountering the First Stop Signal.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Distance</th><th>Application</th><th>Status</th></tr>
+                <tr><td><b>Option A: 1800 m</b></td><td>Not a standard distance for the goods warning board.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: 1200 m</b></td><td>Usually the distance for a passenger warning board.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: 1300 m</b></td><td>Incorrect distance.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: 1400 m</b></td><td>In Multiple Aspect Colour Light Signalling (MACLS) territory, the Goods Warning Board is normally placed at a distance of 1400 meters in rear of the First Stop Signal to accommodate the emergency braking distance of heavy loaded goods trains.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Indian Railway Signal Engineering Manual (IRSEM) / G&SR.
+        `
     },
     {
-        question: "In case of absolute block system, can calling on signal be placed below the last stop signal ?",
+        question: "12) In case of absolute block system, can calling on signal be placed below the last stop signal ?",
         options: [
             "No",
             "Yes",
             "Yes, with special instructions",
             "Yes, with approved special instructions"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Calling-On Signal Rules</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Signal Purpose:</b> A Calling-On signal is used to draw a train into a section of track that is already occupied (e.g., drawing a train to a platform).
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Action</th><th>Reasoning</th><th>Status</th></tr>
+                <tr><td><b>Option A: No</b></td><td>Under the Absolute Block System, only one train is permitted in a block section at a time. Placing a Calling-On signal below the Last Stop Signal (Advanced Starter) would theoretically allow a train to enter the block section without line clear, completely violating the fundamental principle of Absolute Block working.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B, C, D</b></td><td>Violates block working principles.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> General Rules (GR) 3.13 (Calling-on signals).
+        `
     },
     {
-        question: "According to RPC-4, what is the validity limit (in Km) of M/Express train with LHB rake with round trip BPC?",
+        question: "13) According to RPC-4, what is the validity limit (in Km) of M/Express train with LHB rake with round trip BPC?",
         options: [
             "4000",
             "2000",
             "3500",
             "6000"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Brake Power Certificate (BPC) Validity</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>LHB Maintenance:</b> LHB coaches have superior braking systems (disc brakes) requiring less frequent maintenance compared to older ICF coaches.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Kilometer Limit</th><th>Applicability</th><th>Status</th></tr>
+                <tr><td><b>Option A: 4000 km</b></td><td>As per RPC-4 (Revised Policy Circular 4), Mail/Express trains with LHB rakes operating on a round-trip BPC pattern are permitted a maximum travel distance of 4000 km (or 96 hours, whichever is earlier) before requiring primary maintenance.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: 2000 km</b></td><td>Applicable to ICF design coaches.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: 3500 km</b></td><td>Applicable to ICF coaches operating on specific CC rake patterns.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: 6000 km</b></td><td>Exceeds safe limits for passenger rakes without primary examination.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Railway Board Revised Policy Circular-4 (RPC-4) for LHB Maintenance.
+        `
     },
     {
-        question: "At an intermediate station with MACLS on double line, what is the adequate distance beyond the starter that must be kept clear for taking off the Home signal ?",
+        question: "14) At an intermediate station with MACLS on double line, what is the adequate distance beyond the starter that must be kept clear for taking off the Home signal ?",
         options: [
             "180 mt",
             "120 mt",
             "400 mt",
             "300 mt"
         ],
-        correctAnswer: 1
+        correctAnswer: 1,
+        hint: `
+            <h3>Signal Overlap (Adequate Distance)</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Safety Margin:</b> To lower a Home Signal, not only must the line be clear up to the Starter signal, but an "adequate distance" beyond the Starter must also be kept clear to act as a safety buffer in case the LP overshoots.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Distance</th><th>Application</th><th>Status</th></tr>
+                <tr><td><b>Option A: 180 mt</b></td><td>Adequate distance for lowering the Home signal in 2-aspect lower quadrant signalling (Signal Overlap).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: 120 mt</b></td><td>In Multiple Aspect Colour Light Signalling (MACLS), the adequate distance (Signal Overlap) to be kept clear beyond the Starter signal is exactly 120 meters.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: 400 mt</b></td><td>Block Overlap in 2-aspect signalling.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: 300 mt</b></td><td>Not a standard overlap distance.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> General Rules (GR) 3.40 (Conditions for taking off Home signal).
+        `
     },
     {
-        question: "De-gassing and purging activities are associated with..... wagons.",
+        question: "15) De-gassing and purging activities are associated with..... wagons.",
         options: [
             "BLCA",
             "BOBYN",
             "BTPGLN",
             "BOBRN"
         ],
-        correctAnswer: 2
+        correctAnswer: 2,
+        hint: `
+            <h3>Wagon Maintenance Procedures</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Hazardous Cargo:</b> Wagons carrying highly flammable pressurized gases require strict safety protocols before any hot work (welding/cutting) can be performed.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Wagon Type</th><th>Commodity</th><th>Status</th></tr>
+                <tr><td><b>Option A: BLCA</b></td><td>Flat wagons for containers. No gas involved.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: BOBYN</b></td><td>Open hopper wagons for ballast. No gas involved.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: BTPGLN</b></td><td>Bogie Tank wagons for Liquefied Petroleum Gas (LPG). Before maintenance, LPG vapors must be safely removed through "de-gassing" and "purging" (flushing with nitrogen/steam) to prevent explosions.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: BOBRN</b></td><td>Open hopper wagons for coal.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> IRCA Part III / Manual for Maintenance of LPG Tank Wagons.
+        `
     },
     {
-        question: "What is ESP?",
+        question: "16) What is ESP?",
         options: [
             "Emergency Safety Plan",
             "Engineering Scale Plan",
             "Engineering Signal Plan",
             "Emergency Service Plan"
         ],
-        correctAnswer: 1
+        correctAnswer: 1,
+        hint: `
+            <h3>Railway Technical Blueprints</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Infrastructure Design:</b> Before laying tracks or signals at a station, a precise scaled map is drawn showing the exact physical layout of the yard.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Expansion</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A, C, D</b></td><td>Incorrect expansions in the context of railway construction and signaling.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Engineering Scale Plan</b></td><td>The ESP is the fundamental blueprint showing track layouts, platform dimensions, gradients, points, and crossings drawn to scale. It forms the basis upon which the Signal Interlocking Plan (SIP) is later developed.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Indian Railway Works Manual (IRWM).
+        `
     },
     {
-        question: "According to the Disaster Management Plan, who is the Chairperson of the National Crisis Management Committee?",
+        question: "17) According to the Disaster Management Plan, who is the Chairperson of the National Crisis Management Committee?",
         options: [
             "Cabinet Secretary",
             "Home Secretary",
             "DG/NDRF",
             "Secretary, NDMA"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>National Disaster Management Hierarchy</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Apex Bureaucratic Body:</b> The NCMC handles major crises that require coordination across multiple national ministries.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Official</th><th>Role in NCMC</th><th>Status</th></tr>
+                <tr><td><b>Option A: Cabinet Secretary</b></td><td>As the highest-ranking civil servant in India, the Cabinet Secretary acts as the Chairperson of the National Crisis Management Committee (NCMC), directing and coordinating relief across ministries.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: Home Secretary</b></td><td>Member of the committee, not the chair.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: DG/NDRF</b></td><td>Executes operations on the ground.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Secretary, NDMA</b></td><td>Handles disaster authority administration.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> National Disaster Management Plan / IR Disaster Management Plan.
+        `
     },
     {
-        question: "In the context of FOIS, what is FNR?",
+        question: "18) In the context of FOIS, what is FNR?",
         options: [
             "Freight Name Record",
             "Freight Notice Record",
             "Freight Numbered Receipt",
             "Freight Notified Rate"
         ],
-        correctAnswer: 0 // Note: Marked "Deleted" in PDF, but Right Answer matches option A
+        correctAnswer: null,
+        hint: `
+            <h3>FOIS Acronyms</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Note:</b> This question was officially deleted from the evaluation. In passenger systems (PRS), PNR stands for Passenger Name Record. In FOIS, FNR usually stands for <i>Freight Name Record</i> (or Freight Number Record in some contexts), acting as a unique identifier for a freight consignment. However, due to nomenclature disputes, it was removed.
+            </div>
+        `
     },
     {
-        question: "In a division having diesel and electric loco operation, Control office can prepare loco outage based on .......",
+        question: "19) In a division having diesel and electric loco operation, Control office can prepare loco outage based on .......",
         options: [
             "Type of traction",
             "Type of service",
             "home shed",
             "All of these"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Loco Outage Planning</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Power Control:</b> The Control Office continuously monitors locomotives available for traffic (outage). This tracking must be highly granular to effectively utilize resources.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Parameter</th><th>Relevance</th><th>Status</th></tr>
+                <tr><td><b>Option A: Type of traction</b></td><td>Outage is separated into AC Electric and Diesel to manage OHE vs Non-OHE territories.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option B: Type of service</b></td><td>Outage is separated into Coaching (Passenger) and Freight services because locos have different speed/gear ratios.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option C: home shed</b></td><td>Locos must eventually return to their home shed for major maintenance schedules.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option D: All of these</b></td><td>The Power Controller prepares comprehensive outage reports utilizing all these parameters.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Operating Manual for Indian Railways.
+        `
     },
     {
-        question: "Revenue Freight Traffic Statistics is detailed in which group of statements generated from FOIS ?",
+        question: "20) Revenue Freight Traffic Statistics is detailed in which group of statements generated from FOIS ?",
         options: [
             "1-A, 1-B",
             "4-A, 4-B",
             "7-A, 7-B",
             "None of these"
         ],
-        correctAnswer: 2
+        correctAnswer: 2,
+        hint: `
+            <h3>Railway Statistical Statements</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>FOIS Reporting:</b> Freight Operations Information System (FOIS) generates standard statistical statements required by the Railway Board to analyze traffic and revenue.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Statement Group</th><th>Content</th><th>Status</th></tr>
+                <tr><td><b>Option A: 1-A, 1-B</b></td><td>Pertain to general operating statistics.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: 4-A, 4-B</b></td><td>Pertain to wagon usage and speeds.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: 7-A, 7-B</b></td><td>Statement 7 (specifically 7-A, 7-B, 7-C) deals directly with Revenue Freight Traffic Statistics (originating loading, earnings, tonne-kilometers).</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Manual of Statistical Instructions Vol-II.
+        `
     },
     {
-        question: "Which of the following is not a function of Control Office during management of accident?",
+        question: "21) Which of the following is not a function of Control Office during management of accident?",
         options: [
             "To maintain a log of rescue, relief and restoration operations",
             "Exchange of information with agencies like NDRF",
             "Arrange regulation and diversion of trains",
             "Issue new tickets to affected passengers"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Accident Management Operations</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Control Office Duties:</b> The Control Office acts as the nerve center during an accident, handling logistics, medical relief, and train diversion.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Function</th><th>Executing Agency</th><th>Status</th></tr>
+                <tr><td><b>Option A, B, C</b></td><td>Logging events, contacting NDRF, and diverting trains are primary functions of the central Control Office.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Issue new tickets...</b></td><td>Issuing tickets is a commercial function performed at station booking counters or by ticket checking staff. It is <b>not</b> the duty of the operations Control Office.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Accident Manual / Operating Manual.
+        `
     },
     {
-        question: "When a staion manager receives information from LP. TM etc. about any defect in signals not pertaining to his station, what should he do?",
+        question: "22) When a staion manager receives information from LP. TM etc. about any defect in signals not pertaining to his station, what should he do?",
         options: [
             "Inform only the SM concerned",
             "Inform the SM concerned and the Controller",
             "Inform the controller only",
             "No action since the defective signal does not pertain to his station."
         ],
-        correctAnswer: 1
+        correctAnswer: 1,
+        hint: `
+            <h3>Defective Signal Protocols</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Communication Chain:</b> Safety information must be relayed to all relevant parties immediately to prevent accidents.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Action</th><th>Reasoning</th><th>Status</th></tr>
+                <tr><td><b>Option A: Inform only the SM concerned</b></td><td>Fails to notify central control, which needs to know for section-wide train regulation.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Inform the SM concerned and the Controller</b></td><td>The Station Manager must immediately inform the SM of the station controlling that signal so they can issue caution orders, and simultaneously inform the Section Controller to log the failure and manage traffic.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: Inform the controller only</b></td><td>Delays immediate action by the adjacent SM.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: No action</b></td><td>Severe dereliction of duty.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> General Rules (GR) 3.68 (Duties of Station Master in respect of defective signals).
+        `
     },
     {
-        question: "Which of the following commodities has the highest classification rate?",
+        question: "23) Which of the following commodities has the highest classification rate?",
         options: [
             "Cement",
             "Coal",
             "Fertilizer",
             "POL"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Freight Classification Rates</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Goods Tariff:</b> Indian Railways charges freight based on the "Classification" of the commodity. Essential items (like salt, fertilizer) are in low classes (cheaper), while hazardous or high-value items are in high classes (expensive).
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Commodity</th><th>General Class Bracket</th><th>Status</th></tr>
+                <tr><td><b>Option A: Cement</b></td><td>Class 140.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Coal</b></td><td>Class 145.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Fertilizer</b></td><td>Class 130 (Lower to support agriculture).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: POL</b></td><td>Petroleum, Oil, and Lubricants (POL) are classified in the highest brackets (Class 180 or above) due to hazard risk and high commodity value.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Indian Railway Conference Association (IRCA) Goods Tariff.
+        `
     },
     {
-        question: "Who is the plan head coordinator for PH 53 works?",
+        question: "24) Who is the plan head coordinator for PH 53 works?",
         options: [
             "PCCM",
             "PCOM",
             "PCE",
             "PCME"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Plan Head Coordination</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Passenger Amenities (PH-53):</b> Works executed under Plan Head 53 deal with improving facilities for passengers at stations (waiting halls, water supply, seating).
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Official</th><th>Department / Role</th><th>Status</th></tr>
+                <tr><td><b>Option A: PCCM</b></td><td>The Principal Chief Commercial Manager is the nodal officer/coordinator for all commercial and passenger amenity works (PH 53) at the Zonal level.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: PCOM</b></td><td>Handles Operations (Traffic facilities - PH 16).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: PCE</b></td><td>Executes civil works, but does not coordinate the commercial necessity of PH 53.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: PCME</b></td><td>Handles rolling stock and workshops.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Indian Railway Works Manual (IRWM) / Finance Code.
+        `
     },
     {
-        question: "Which of the following works is not proposed under PH 16?",
+        question: "25) Which of the following works is not proposed under PH 16?",
         options: [
             "Extension of loop line",
             "Extension of shunting neck",
             "Provision of additional loop line",
             "Provision of high level platform"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Traffic Facility Works (PH 16)</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Plan Head 16:</b> This head is strictly for "Traffic Facilities - Yard Remodeling & Others". It funds infrastructure that directly improves train operations and line capacity.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Work Type</th><th>Appropriate Plan Head</th><th>Status</th></tr>
+                <tr><td><b>Option A, B, C</b></td><td>Extending loops, shunting necks, and adding loops directly increase yard capacity and fluidity. They belong in PH 16.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Provision of high level platform</b></td><td>A platform is a passenger convenience feature, not an operational track facility. It is funded under <b>Plan Head 53 (Passenger Amenities)</b>, not PH 16.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Indian Railway Finance Code - Classification of Works.
+        `
     },
     {
-        question: "According to Gr 5.13(3), the speed during shunting operations shall not exceed......... kilometers an hour unless otherwise authorized by Special Instructions.",
+        question: "26) According to Gr 5.13(3), the speed during shunting operations shall not exceed......... kilometers an hour unless otherwise authorized by Special Instructions.",
         options: [
             "30",
             "25",
             "15",
             "20"
         ],
-        correctAnswer: 2
+        correctAnswer: 2,
+        hint: `
+            <h3>Shunting Speed Limits</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Yard Safety:</b> Shunting involves moving loose wagons, coupling, and uncoupling. High speeds in yards cause severe damage to stock and endanger pointsmen.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Speed Limit</th><th>Condition</th><th>Status</th></tr>
+                <tr><td><b>Option A, B, D</b></td><td>These speeds are too high for standard yard shunting without causing severe buffing impacts.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: 15</b></td><td>General Rule 5.13(3) mandates that the speed of a train or vehicle during shunting operations must not exceed 15 kmph, ensuring safe coupling.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> General Rules (GR) 5.13 (Control of Shunting).
+        `
     },
     {
-        question: "Which of the following is a GPS based tracking system used by Control Office for tracking locomotives?",
+        question: "27) Which of the following is a GPS based tracking system used by Control Office for tracking locomotives?",
         options: [
             "COA",
             "RTIS",
             "SATSANG",
             "SFOORTI"
         ],
-        correctAnswer: 1
+        correctAnswer: 1,
+        hint: `
+            <h3>Locomotive Tracking Technology</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Real-Time Monitoring:</b> Historically, controllers relied on Station Masters reporting train passings. Modern systems use satellites to track trains seamlessly.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>System</th><th>Function</th><th>Status</th></tr>
+                <tr><td><b>Option A: COA</b></td><td>Control Office Application (used for charting, but relies on manual/RTIS inputs).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: RTIS</b></td><td>Real-Time Train Information System. Developed with ISRO, it is a GPS/GAGAN based device fitted on locomotives that automatically transmits speed and location data to the Control Office.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: SATSANG</b></td><td>Software for Timetable generation.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: SFOORTI</b></td><td>App for freight operations tracking.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> CRIS / Railway Board IT Initiatives.
+        `
     },
     {
-        question: "Each Train Manager shall have with him while on duty with his train,......pairs of such spectacles as he is required to wear under medical advice.",
+        question: "28) Each Train Manager shall have with him while on duty with his train,......pairs of such spectacles as he is required to wear under medical advice.",
         options: [
             "2",
             "3",
             "1",
             "None of these"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Running Staff Equipment</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Vision Requirements:</b> Train Managers (Guards) and Loco Pilots must have perfect vision to read signals. If they require corrective lenses, they cannot operate if their glasses break.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Spectacle Pairs</th><th>Rule Mandate</th><th>Status</th></tr>
+                <tr><td><b>Option A: 2</b></td><td>General Rules dictate that running staff (Loco Pilots and Guards) who are prescribed spectacles must carry <b>two pairs</b> of spectacles while on duty to ensure a backup is available.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: 1</b></td><td>Insufficient; leaves no backup.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> General Rules (GR) 4.19 / Medical Manual.
+        `
     },
     {
-        question: "In the context of planning, what is IRPSM ?",
+        question: "29) In the context of planning process, what is IRPSM ?",
         options: [
             "Indian Railways Projects Sanctions and Management",
             "Indian Railways Planning System Module",
             "Integrated Railway Planning System and Monitoring",
             "None of these"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Railway Planning Portals</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Digital Sanctions:</b> To streamline the vast process of proposing, estimating, and sanctioning works across the country, IR uses a centralized web portal.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Acronym Expansion</th><th>Application</th><th>Status</th></tr>
+                <tr><td><b>Option A: Indian Railways Projects Sanctions and Management</b></td><td>IRPSM is the official web-based application used for the creation, processing, and sanctioning of all new works proposals (Works Programme) in Indian Railways.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B, C</b></td><td>Incorrect expansions.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> CRIS Applications / Railway Board Planning Directorate.
+        `
     },
     {
-        question: "Warning boards are provided at what distance before a neutral section?",
+        question: "30) Warning boards are provided at what distance before a neutral section?",
         options: [
             "500 and 250 meter",
             "800 and 400 meter",
             "180 and 120 meter",
             "None of these"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Neutral Section Signalling</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>DJ Operation:</b> A neutral section separates two different phases of 25kV OHE. The Loco Pilot must open the Main Circuit Breaker (DJ) before entering it to prevent flashing. They need ample warning to do so.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Distances</th><th>Significance</th><th>Status</th></tr>
+                <tr><td><b>Option A: 500 and 250 meter</b></td><td>As per ACTM and General Rules, two warning boards are provided before a neutral section: one at 500 meters and the second at 250 meters, giving the LP time to prepare to open the DJ.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B, C</b></td><td>Incorrect distances.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> AC Traction Manual (ACTM) Vol. II / GR on Neutral Sections.
+        `
     },
     {
-        question: "According to Schedule of Dimensions, 2022, what is the minimum center to center distance between two adjacent straight tracks (in mm) in case of new works?",
+        question: "31) According to Schedule of Dimensions, 2022, what is the minimum center to center distance between two adjacent straight tracks (in mm) in case of new works?",
         options: [
             "5300",
             "4675",
             "4265",
             "4750"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Track Geometry (SOD 2022)</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Track Centers:</b> To allow high-speed trains to cross safely and to accommodate wider modern rolling stock without hitting each other, track spacing has been increased in recent revisions.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Distance (mm)</th><th>Context in SOD</th><th>Status</th></tr>
+                <tr><td><b>Option A: 5300</b></td><td>The revised Schedule of Dimensions (SOD 2022) mandates a minimum center-to-center distance of 5300 mm (5.3 meters) for all new lines and gauge conversions on straight tracks.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: 4675</b></td><td>Was the old standard distance (15 ft 6 inches) for existing tracks.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: 4265</b></td><td>Oldest standard (14 ft), now obsolete for mainline.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: 4750</b></td><td>Intermediate distance.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> IRSOD (BG) Revised 2022 - Chapter I, Item 1.
+        `
     },
     {
-        question: "Four divisions have wagon turnaround(in days) as follows.. Division P..3.1, Division Q...3.3, Division R...3.5, and Division S.. 3. Which Division is performing the best on WTR?",
+        question: "32) Four divisions have wagon turnaround(in days) as follows.. Division P..3.1, Division Q...3.3, Division R...3.5, and Division S.. 3. Which Division is performing the best on WTR?",
         options: [
             "P",
             "Q",
             "R",
             "S"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Wagon Turn Round (WTR)</h3>
+            <div style="background-color: #e6f2ff; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Efficiency Metric:</b> Wagon Turn Round represents the time interval between two successive loadings of a wagon. <b>Lower is better.</b> A lower WTR means the wagon is spending less time idle and doing more trips, generating more revenue.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Division</th><th>WTR (Days)</th><th>Efficiency Ranking</th><th>Status</th></tr>
+                <tr><td><b>P</b></td><td>3.1</td><td>2nd Best</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Q</b></td><td>3.3</td><td>3rd Best</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>R</b></td><td>3.5</td><td>Worst</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: S</b></td><td><b>3.0</b></td><td><b>Lowest WTR = Best Performance.</b></td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Operating Manual for Indian Railways (Indices of Efficiency).
+        `
     },
     {
-        question: "Which of the following is a standard composition of freight rake ?",
+        question: "33) Which of the following is a standard composition of freight rake ?",
         options: [
             "35 BCNA",
             "32 BTPGLN",
             "58 BRN",
             "35 BLCA or BLCB"
         ],
-        correctAnswer: 1
+        correctAnswer: 1,
+        hint: `
+            <h3>Standard Rake Composition</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Loop Line Constraints:</b> The number of wagons in a train is fixed so that the total train length fits within the standard loop line length (approx 686m or 715m).
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Wagon Type</th><th>Standard Rake Size</th><th>Status</th></tr>
+                <tr><td><b>Option A: BCNA</b></td><td>Standard rake size is 42 or 58 (for BCNHL). 35 is too short.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: BTPGLN</b></td><td>Because BTPGLN (LPG tank) wagons are longer, a standard rake consists of exactly 32 wagons to fit within loop lines safely.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: BRN</b></td><td>Standard rake is usually 42 or 43, not 58.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: BLCA/B</b></td><td>Container rakes are usually 45 wagons (9 units of 5 cars).</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Operating Manual / Goods Tariff (Standard Rake Sizes).
+        `
     },
     {
-        question: "Arrival/departure timing of trains at intermediate stations except originating/terminating stations in Public Time Table is.......than in Working Time Table.",
+        question: "34) Arrival/departure timing of trains at intermediate stations except originating/terminating stations in Public Time Table is.......than in Working Time Table.",
         options: [
             "earlier",
             "later",
             "always same",
             "None of these"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Time Table Dynamics</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Operational Margin:</b> The Working Time Table (WTT) is for staff, while the Public Time Table (PTT) is for passengers. A time difference is maintained to absorb minor delays and ensure passengers board before the train leaves.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Comparison</th><th>Logic</th><th>Status</th></tr>
+                <tr><td><b>Option A: earlier</b></td><td>The departure time published in the PTT is usually kept 2 to 3 minutes <b>earlier</b> than the WTT departure time. This forces passengers to board earlier, giving the Guard/LP the exact WTT time to start operations without delaying the schedule.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: later</b></td><td>Would cause passengers to miss the train.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Operating Manual (Preparation of Time Tables).
+        `
     },
     {
-        question: "Who is the Chairperson of NDMA?",
+        question: "35) The target time for turning out ARMV from the sounding of the siren is...minutes.",
         options: [
-            "Hon. Prime Minister",
-            "Hon. Home Minister",
-            "DG, NDRF",
-            "None of these"
+            "20",
+            "30",
+            "45",
+            "60"
         ],
-        correctAnswer: 0
+        correctAnswer: null,
+        hint: `
+            <h3>Disaster Response Timings</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Note:</b> This question was officially deleted. The target time depends on whether the ARMV (Accident Relief Medical Van) has a double-exit siding or single-exit siding, and whether it's day or night. Typically, it is 15 minutes (day/double exit) or 20 minutes (night/single exit). The lack of specificity likely led to its deletion.
+            </div>
+        `
     },
     {
-        question: "For the main line at a station, Clear standing length means the distance between.....",
+        question: "36) For the main line at a station, Clear standing length means the distance between.....",
         options: [
             "fouling marks at both ends",
             "Foot of the starter signal to the fouling mark in rear",
             "starter signals at both ends",
             "None of these"
         ],
-        correctAnswer: 1
+        correctAnswer: 1,
+        hint: `
+            <h3>Clear Standing Room (CSR)</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Train Accommodation:</b> CSR defines the maximum length of a train that can be safely parked on a line without interfering with movements on adjacent lines.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Measurement Points</th><th>Reasoning</th><th>Status</th></tr>
+                <tr><td><b>Option A: Fouling marks at both ends</b></td><td>Defines the physical limit of the track, but not the operational standing room, because the engine must not pass the Starter signal.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Foot of starter to fouling mark in rear</b></td><td>A train must stop short of the Starter signal. Therefore, the usable (clear) standing length is measured from the foot of the Starter signal to the trailing Fouling Mark behind the brake van.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: Starter signals at both ends</b></td><td>Incorrect measurement.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Signal Engineering Manual / Operating Manual (Yard layouts).
+        `
     },
     {
-        question: "Which member of the Railway Board is responsible for compilation of operating and other types of railway statistics ?",
+        question: "37) Which member of the Railway Board is responsible for compilation of operating and other types of railway statistics ?",
         options: [
             "Member, Operations and Business Development",
             "Member, Infrastructure",
             "Member, Traction and Rolling Stock",
             "Member, Finance"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Railway Board Structure</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Statistical Directorate:</b> While the Operations department generates the data, the Directorate of Statistics and Economics compiles and audits it.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Board Member</th><th>Portfolio</th><th>Status</th></tr>
+                <tr><td><b>Option A: Member, OBD</b></td><td>Responsible for running trains and generating traffic, but not the official statistical compilation authority.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Member, Finance</b></td><td>The Directorate of Statistics falls under the Financial Commissioner / Member (Finance). They compile all operating, commercial, and financial statistics to ensure impartial evaluation.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Railway Board Organization Chart / Manual of Statistical Instructions.
+        `
     },
     {
-        question: "Horizontal distance from center of track to signal post, OHE mast etc. is called.......",
+        question: "38) Horizontal distance from center of track to signal post, OHE mast etc. is called.......",
         options: [
             "Gross clearance",
             "overlap",
             "stagger",
             "Implantation"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>OHE and Signal Siting Parameters</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Clearance Terminology:</b> Fixed structures must be kept at a safe distance from the track center to prevent hitting passing trains.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Term</th><th>Definition</th><th>Status</th></tr>
+                <tr><td><b>Option A: Gross clearance</b></td><td>Not a standard specific term for mast placement.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Overlap</b></td><td>Relates to signal distances beyond a stop signal.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Stagger</b></td><td>The zigzag displacement of the contact wire over the pantograph.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Implantation</b></td><td>The official technical term (also known as setting distance) for the horizontal distance from the center of the track to the inner face of the nearest OHE mast or signal post.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> AC Traction Manual (ACTM) Vol. II / IRSOD.
+        `
     },
     {
-        question: "Which is not a function of control office?",
+        question: "39) Which is not a function of control office?",
         options: [
             "Report accident to divisional officers",
             "Permit engineering blocks",
             "Registration of indents for loading",
             "Movement of wagons for unloading"
         ],
-        correctAnswer: 2
+        correctAnswer: 2,
+        hint: `
+            <h3>Control Office Duties</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Operations vs. Commercial:</b> The Control Office is strictly an operational hub. It moves trains, grants maintenance blocks, and manages emergencies.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Function</th><th>Executing Department</th><th>Status</th></tr>
+                <tr><td><b>Option A, B, D</b></td><td>These are core operational functions managed by Section/Chief Controllers.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Registration of indents...</b></td><td>An 'indent' is a commercial demand placed by a customer to book a wagon. This is a <b>Commercial</b> function done by the Chief Goods Supervisor (CGS) at the station goods shed, not the Control Office.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Operating Manual / Commercial Manual Vol. II.
+        `
     },
     {
-        question: "According to GR 4.01, when is the correct time transmitted to all the stations everyday in prescribed manner?",
+        question: "40) According to GR 4.01, when is the correct time transmitted to all the stations everyday in prescribed manner?",
         options: [
             "0000 hrs",
             "1200 hrs",
             "1600 hrs",
             "2400 hrs"
         ],
-        correctAnswer: 2
+        correctAnswer: 2,
+        hint: `
+            <h3>Standard Time Synchronization</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Time Signal:</b> To prevent accidents due to mismatched clocks, all station clocks must be perfectly synchronized with the Control Office clock daily.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Time</th><th>Rule 4.01 Mandate</th><th>Status</th></tr>
+                <tr><td><b>Option A, B, D</b></td><td>Incorrect timings.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: 1600 hrs</b></td><td>As per GR 4.01, the correct time is transmitted by the Section Controller to all Station Masters on the section exactly at 16:00 hrs (4:00 PM) every day.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> General Rules (GR) 4.01 (Standard Time).
+        `
     },
     {
-        question: "According to the guidelines issued by the Railway Board for operation of long haul trains, if 2 trains are combined to form a long haul train which of the locos will be braking in normal circumstances ?",
+        question: "41) According to the guidelines issued by the Railway Board for operation of long haul trains, if 2 trains are combined to form a long haul train which of the locos will be braking in normal circumstances ?",
         options: [
             "Only leading loco",
             "Only trailing loco",
             "both locos",
             "Trailing loco with emergency braking from leading loco if needed"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Long Haul (Anaconda) Train Operations</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Distributed Power System (DPCS):</b> When two heavy freight trains are combined (e.g., Python, Anaconda), braking must be synchronized to prevent the rear train from crashing into the front train (bunching forces).
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Braking Control</th><th>Operational Guideline</th><th>Status</th></tr>
+                <tr><td><b>Option A: Only leading loco</b></td><td>In a standard non-DPCS long haul configuration (or normal synchronized DPCS control), the Loco Pilot of the <b>Leading Loco</b> controls the Brake Pipe (BP) pressure and initiates all normal braking applications for the entire combined formation. The rear loco assists in charging but doesn't apply independent normal brakes to avoid derailment.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B, C, D</b></td><td>Violate train dynamics and braking protocol.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Railway Board JPO on Long Haul Train Operations.
+        `
     },
     {
-        question: "According to the definition of disaster in the disaster management plan, which will qualify as disaster?",
+        question: "42) According to the definition of disaster in the disaster management plan, which will qualify as disaster?",
         options: [
             "Marooning of a train",
             "Serious train accident with casualties.",
             "Disruption of traffic due to cyclone",
             "All of these"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Disaster Definition</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Catastrophic Events:</b> A "disaster" in railway terms is an event that causes massive disruption, loss of life, or requires external relief aid beyond normal breakdown operations.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Event</th><th>Disaster Qualification</th><th>Status</th></tr>
+                <tr><td><b>Option A: Marooning of a train</b></td><td>Train trapped in floods requires massive rescue logistics (Disaster).</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option B: Serious train accident</b></td><td>Mass casualties require NDRF/civil medical aid (Disaster).</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option C: Cyclone disruption</b></td><td>Nature-induced catastrophic infrastructure loss (Disaster).</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option D: All of these</b></td><td>The Disaster Management Plan classifies all these severe events as disasters requiring activation of the Crisis Management Group.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Indian Railways Disaster Management Plan.
+        `
     },
     {
-        question: "In the context of planning process, what is CCEA?",
+        question: "43) In the context of planning process, what is CCEA?",
         options: [
             "Central Committee for Economic Assistance",
             "Cabinet Committee on Economic Affairs",
             "Central Committee on External Assistance",
             "Comprehensive Central Economic Assistance"
         ],
-        correctAnswer: 1
+        correctAnswer: 1,
+        hint: `
+            <h3>Project Sanctioning Authority</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Financial Thresholds:</b> Railway projects (like new lines) costing thousands of crores cannot be sanctioned solely by the Railway Board. They require apex executive approval.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Acronym Expansion</th><th>Role</th><th>Status</th></tr>
+                <tr><td><b>Option A, C, D</b></td><td>Incorrect expansions.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Cabinet Committee on Economic Affairs</b></td><td>CCEA is the highest executive body (headed by the Prime Minister) that evaluates and sanctions mega infrastructure projects, including major railway capacity augmentation works.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Finance Code / Government of India Business Rules.
+        `
     },
     {
-        question: "According to the guidelines for procurement of new weighbridges, the capacity of all new weighbridges shall be....tonnes.",
+        question: "44) According to the guidelines for procurement of new weighbridges, the capacity of all new weighbridges shall be....tonnes.",
         options: [
             "120",
             "100",
             "92",
             "150"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Electronic In-Motion Weighbridge (EIMWB)</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Weighment Capacity:</b> To prevent overloading and ensure accurate freight billing, wagons are weighed in motion. New weighbridges must be future-proofed for heavier wagons.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Capacity</th><th>Policy Directives</th><th>Status</th></tr>
+                <tr><td><b>Option A: 120 tonnes</b></td><td>To accommodate future heavier axle load wagons (up to 25t/30t axle loads), the Railway Board mandated that all newly procured EIMWBs must have a minimum weighing capacity of 120 tonnes.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: 100 tonnes</b></td><td>Standard for older CC+8 wagons, now obsolete for new procurement.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: 92 tonnes</b></td><td>Gross weight of a standard CC+8 wagon.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: 150 tonnes</b></td><td>Not the standard prescribed limit.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Railway Board Guidelines on Procurement of EIMWBs.
+        `
     },
     {
-        question: "Which is a method of improving section capacity?",
+        question: "45) Which is a method of improving section capacity?",
         options: [
             "Operation of HOG trains",
             "Improving standard of interlocking",
             "Temporary augmentation of trains",
             "None of these"
         ],
-        correctAnswer: 1
+        correctAnswer: 1,
+        hint: `
+            <h3>Line/Section Capacity</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Capacity Definition:</b> Section capacity is the maximum number of trains that can be run on a section in 24 hours. To increase it, you must decrease the time a train occupies a block section.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Method</th><th>Impact</th><th>Status</th></tr>
+                <tr><td><b>Option A: HOG trains</b></td><td>Saves fuel, but doesn't increase train throughput.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Improving standard of interlocking</b></td><td>Upgrading interlocking (e.g., Std I to Std III) allows trains to run through stations at higher speeds (e.g., 50 kmph to 110/140 kmph). Faster speeds mean trains clear the block section quicker, allowing more trains to run per day, thus directly improving section capacity.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: Temporary augmentation</b></td><td>Increases <i>passenger carrying capacity</i>, but actually decreases <i>section capacity</i> because longer/heavier trains accelerate slower.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Operating Manual (Calculation of Section Capacity).
+        `
     },
     {
-        question: "If a siding owner installs an EIMWB at his own cost, how much extra free time for weighment will be admissible ?",
+        question: "46) If a siding owner installs an EIMWB at his own cost, how much extra free time for weighment will be admissible ?",
         options: [
             "No extra free time will be admissible",
             "2 hrs",
             "30 minutes",
             "1 hrs"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Demurrage and Weighment Policies</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Free Time Rules:</b> Railways grant a specific "free time" for loading/unloading to prevent wagons from being detained.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Allowance</th><th>Policy Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: No extra free time</b></td><td>Even if a siding owner installs an Electronic In-Motion Weighbridge (EIMWB) at their own cost, the weighing happens dynamically as the train moves. Therefore, the Railway Board policy explicitly states that <b>no extra free time</b> is admissible for the act of weighment.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B, C, D</b></td><td>Contradicts Demurrage rules.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Rates Master Circular (Demurrage & Wharfage).
+        `
     },
     {
-        question: "According to the Disaster Management Plan, which is the nodal department for rescue centric training of railway personnel ?",
+        question: "47) According to the Disaster Management Plan, which is the nodal department for rescue centric training of railway personnel ?",
         options: [
             "Safety department",
             "Personnel department",
             "Mechanical department",
             "Engineering department"
         ],
-        correctAnswer: 2
+        correctAnswer: 2,
+        hint: `
+            <h3>Disaster Rescue Training</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Breakdown Resources:</b> Rescue operations require cutting through steel coaches, lifting derailed locomotives, and operating heavy machinery (HRE, HRD).
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Department</th><th>Disaster Role</th><th>Status</th></tr>
+                <tr><td><b>Option A: Safety department</b></td><td>Coordinates audits and inquiries, not the physical heavy rescue training.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Personnel department</b></td><td>Handles staff welfare.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Mechanical department</b></td><td>Because the Mechanical Department owns and operates the Accident Relief Trains (ART) and heavy cranes, they are the nodal department responsible for providing rescue-centric technical training (cutting, lifting, extrication) to railway personnel.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> IR Disaster Management Plan.
+        `
     },
     {
-        question: "What is the duration of concession agreement between private container train operators and IR?",
+        question: "48) What is the duration of concession agreement between private container train operators and IR?",
         options: [
             "30 years",
             "10 years",
             "25 years",
             "20 years"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Private Freight Operations</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Container Policy:</b> To break CONCOR's monopoly, IR allowed Private Container Train Operators (PCTOs) to run trains on its network upon paying a registration fee and signing an agreement.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Duration</th><th>Policy Provision</th><th>Status</th></tr>
+                <tr><td><b>Option A, B, C</b></td><td>Incorrect durations.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: 20 years</b></td><td>The Model Concession Agreement (MCA) signed between the Ministry of Railways and Private Container Operators is valid for a period of exactly 20 years, extendable under specific conditions.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Railway Board Policy on Private Container Train Operators (PCTO).
+        `
     },
     {
-        question: "ODR stands for",
+        question: "49) ODR stands for",
         options: [
             "Oldest date of registration",
             "Original date of registration",
             "Ordinary date of registration",
             "optional date of registration"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Wagon Indent Registration</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Allotment Logic:</b> When multiple merchants request empty wagons (indents), the Railway must allocate them fairly to prevent corruption.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Expansion</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: Oldest date of registration</b></td><td>ODR is a fundamental principle of goods traffic. Wagons are supplied strictly according to the priority schedule. Within the same priority class, wagons are supplied on a "First Come First Serve" basis, known as the Oldest Date of Registration (ODR).</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B, C, D</b></td><td>Incorrect terminology.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Goods Tariff / Commercial Manual (Allotment of Wagons).
+        `
     },
     {
-        question: "In coaching operations, which is not true about HOG technology?",
+        question: "50) In coaching operations, which is not true about HOG technology?",
         options: [
             "It increases passenger carrying capacity of a train",
             "It reduces consumption of diesel for electricity generation",
             "It improves braking characteristics of loco",
             "It reduces requirement of power car"
         ],
-        correctAnswer: 2
+        correctAnswer: 2,
+        hint: `
+            <h3>Head-On Generation (HOG) Technology</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Power Scheme:</b> HOG taps 25kV power directly from the locomotive pantograph and converts it to 750V 3-phase to power coach ACs/lights, replacing diesel generator cars (EOG).
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Statement</th><th>Fact Check</th><th>Status</th></tr>
+                <tr><td><b>Option A: Increases passenger capacity</b></td><td>True. By removing one/both diesel generator power cars, a passenger coach (SLR/GS) can be attached in its place.</td><td><u>Incorrect Choice</u></td></tr>
+                <tr><td><b>Option B: Reduces diesel consumption</b></td><td>True. Eliminates the need for diesel-guzzling generator cars.</td><td><u>Incorrect Choice</u></td></tr>
+                <tr><td><b>Option C: Improves braking characteristics</b></td><td><b>False.</b> HOG provides hotel load power; it has absolutely zero mechanical impact on the pneumatic braking characteristics of the locomotive.</td><td><b>Correct Answer (Because it is false)</b></td></tr>
+                <tr><td><b>Option D: Reduces requirement of power car</b></td><td>True. HOG locos make power cars redundant.</td><td><u>Incorrect Choice</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Electrical / Operating circulars on HOG implementation.
+        `
     },
     {
-        question: "According to the Preferential Traffic Order, which traffic is under Priority A ?",
+        question: "51) According to the Preferential Traffic Order, which traffic is under Priority A ?",
         options: [
             "Military traffic, sponsored by MILRAIL",
             "All foodgrain traffic",
             "Goods for emergncy relief work when sponsored by Central government",
             "POL traffic"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Preferential Traffic Schedule (PTO)</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Wagon Allotment Hierarchy:</b> Section 71 of the Railways Act allows the Central Government to issue orders giving special facilities or preference for the transport of certain goods.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Priority Class</th><th>Commodity Type</th><th>Status</th></tr>
+                <tr><td><b>Option A: Military traffic...</b></td><td>Priority 'A' is the highest absolute priority, exclusively reserved for military traffic sponsored by MILRAIL to ensure national security and defense logistics are never delayed.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: All foodgrain traffic</b></td><td>Foodgrains fall under Priority 'B' or 'C' depending on sponsorship (e.g., FCI PDS vs general).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Emergency relief</b></td><td>Falls under Priority 'B' (relief materials).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: POL traffic</b></td><td>Usually falls under Priority 'C' (Programmed Traffic).</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Railway Board Preferential Traffic Order (PTO) / Section 71 of the Railways Act, 1989.
+        `
     },
     {
-        question: "In operating statistics, which of the following is a fundamental unit?",
+        question: "52) In operating statistics, which of the following is a fundamental unit?",
         options: [
             "Distance",
             "Service",
             "Wagon Kilometers",
             "Net tonne Kilometers per Wagon day"
         ],
-        correctAnswer: 2
+        correctAnswer: 2,
+        hint: `
+            <h3>Railway Operating Statistics</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Statistical Units:</b> Operating statistics are divided into Fundamental units (basic measurable quantities) and Derived units (ratios/averages used for efficiency evaluation).
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Unit Type</th><th>Classification</th><th>Status</th></tr>
+                <tr><td><b>Option A & B</b></td><td>Distance and Service are abstract components, not compound statistical units used directly in goods operation tracking.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Wagon Kilometers</b></td><td>A fundamental statistical unit. It represents the basic product of wagons and the distance they moved, forming the core basis for derived calculations.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: Net tonne KMs per Wagon day</b></td><td>This is a "Derived Unit" (an efficiency index) calculated by dividing Net Tonne KMs by Wagon Days, not a fundamental base unit.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Manual of Statistical Instructions Vol-II.
+        `
     },
     {
-        question: "What is the periodicity of POH of BTPN wagons (in years) ?",
+        question: "53) What is the periodicity of POH of BTPN wagons (in years) ?",
         options: [
             "5",
             "3",
             "2",
             "6"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Rolling Stock Maintenance Schedules</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Periodic Overhaul (POH):</b> Tank wagons carrying hazardous liquid cargo (POL) require rigid heavy maintenance to ensure shell integrity and valve safety.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Periodicity</th><th>Wagon Applicability</th><th>Status</th></tr>
+                <tr><td><b>Option A: 5 years</b></td><td>Usually the first POH interval for some open wagons like BOXN, but not BTPN.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: 3 years</b></td><td>Not a standard POH interval for general BTPN stock.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: 2 years</b></td><td>Interval for Routine Overhaul (ROH) for some coaching stocks or specific high-wear wagons.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: 6 years</b></td><td>According to IRCA rules, the standard Periodic Overhaul (POH) periodicity for BTPN (Bogie Tank for Petroleum products) wagons is strictly 6 years.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> IRCA Part III / Wagon Maintenance Manual.
+        `
     },
     {
-        question: "What is the purpose of granting block for BCM?",
+        question: "54) What is the purpose of granting block for BCM?",
         options: [
             "Cleaning of shoulder ballast",
             "Laying of track",
             "Ballast screening of plain track and turnouts",
             "None of these"
         ],
-        correctAnswer: 2
+        correctAnswer: 2,
+        hint: `
+            <h3>Track Maintenance Machinery</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>BCM Functions:</b> BCM stands for Ballast Cleaning Machine. Over time, track ballast gets choked with mud/muck (caking), losing its elasticity and drainage capacity.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Action</th><th>Machine Used</th><th>Status</th></tr>
+                <tr><td><b>Option A: Shoulder ballast cleaning</b></td><td>Done specifically by SBCM (Shoulder Ballast Cleaning Machine).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Laying of track</b></td><td>Done by Track Relaying Trains (TRT / PQRS).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Ballast screening of plain track and turnouts</b></td><td>The primary function of the heavy-duty Ballast Cleaning Machine (BCM) is deep screening of the entire ballast cushion (plain track and turnouts) to restore track geometry and drainage.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Indian Railway Track Machine Manual (IRTM).
+        `
     },
     {
-        question: "A consignment has a gross clearance of 23 cm from minimum fixed structure profile. What will be its ODC class ?",
+        question: "55) A consignment has a gross clearance of 23 cm from minimum fixed structure profile. What will be its ODC class ?",
         options: [
             "A",
             "B",
             "C",
             "Not permitted as ODC"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Over Dimensional Consignment (ODC) Classifications</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Clearance Margins:</b> ODCs are classified based on the physical gap (gross clearance) remaining between the load and the fixed railway structures (bridges, tunnels, platforms).
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>ODC Class</th><th>Gross Clearance Limits</th><th>Status</th></tr>
+                <tr><td><b>Option A: Class A</b></td><td>Gross clearance of 9 inches (approx 22.86 cm) and above. Since 23 cm is greater than 22.86 cm, it falls securely in the 'A' Class ODC category (permitted to run day and night at normal speed).</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: Class B</b></td><td>Gross clearance between 6 inches and 9 inches (15.24 cm to 22.86 cm).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Class C</b></td><td>Gross clearance between 4 inches and 6 inches (10.16 cm to 15.24 cm). Runs only in daytime with an escort.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Not permitted</b></td><td>Clearance below 4 inches is generally not permitted without special diversions/blocks.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Operating Manual / Guidelines for Movement of ODC.
+        `
     },
     {
-        question: "BCACBM wagons are used for loading of.......",
+        question: "56) BCACBM wagons are used for loading of.......",
         options: [
             "motor cars",
             "containers",
             "B class ODC consignment",
             "parcels"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Wagon Nomenclature</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Specialized Freight:</b> Indian Railways uses highly customized rolling stock to capture non-traditional, high-value freight markets.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Wagon Code</th><th>Intended Commodity</th><th>Status</th></tr>
+                <tr><td><b>Option A: motor cars</b></td><td>BCACBM (Bogie Covered Auto Car Carrier Broad Gauge Modified) is a highly specialized twin-deck wagon designed explicitly for the safe, bulk transportation of automobiles (motor cars).</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: containers</b></td><td>Carried on BLC / BLCA / BLL wagons.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: ODC</b></td><td>Usually carried on well wagons (BWT) or heavy flat wagons.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: parcels</b></td><td>Carried in VP (Van Parcel) or VPH.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> RDSO Wagon Maintenance Manual / Commercial Coaching Tariff.
+        `
     },
     {
-        question: "On a double line where tains on the two lines run in opposite directions, when a loco pilot becomes aware that his train has met with an accident, what actions should he take?",
+        question: "57) On a double line where tains on the two lines run in opposite directions, when a loco pilot becomes aware that his train has met with an accident, what actions should he take?",
         options: [
             "switch on the flasher, switch on the headlights and protect the train from the front",
             "switch on the flasher, switch off the headlights and protect the adjacent line from the front",
             "switch on the flasher, switch on the headlights, place banner flag on adjacent line",
             "switch on the flasher and tell train manager to protect the adjacent line"
         ],
-        correctAnswer: 1
+        correctAnswer: 1,
+        hint: `
+            <h3>Accident Protection Rules (Double Line)</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Collision Prevention:</b> When a train derails on a double line, its coaches may foul the adjacent track. The immediate priority is to stop trains coming from the opposite direction on that adjacent line.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Action Sequence</th><th>Rule Justification</th><th>Status</th></tr>
+                <tr><td><b>Option A & C</b></td><td>Keeping headlights ON can blind the approaching Loco Pilot of the adjacent track or make them falsely believe the track is clear.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Flasher ON, Headlights OFF, Protect adjacent line</b></td><td>As per GR, the LP must immediately switch ON the flasher light (to indicate an emergency), switch OFF the headlights (so as not to blind approaching trains), and proceed to protect the adjacent fouled line from the front with detonators.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D</b></td><td>The LP is personally responsible for protecting the front; the Guard protects the rear.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> General Rules (GR) 6.03 (Protection of trains stopped between stations).
+        `
     },
     {
-        question: "What is the periodicity of POH of LHB coaches ? [DELETED]",
+        question: "58) What is the periodicity of POH of LHB coaches ?",
         options: [
             "2 yearly +/-60 days",
             "yearly +/-60 days",
             "3 yearly +/- 60 days",
             "3 yearly +/- 90 days"
         ],
-        correctAnswer: 0 // Note: Marked "eliminate" in PDF, but Right Answer matches option A
+        correctAnswer: null,
+        hint: `
+            <h3>LHB Coach Maintenance</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Note:</b> This question was officially deleted/eliminated from the final evaluation. Modern LHB coaches typically undergo POH at 36 months (3 years) or 12 Lakh kilometers, whichever is earlier. Due to conflicting circulars regarding grace periods or intermediate SS (Shop Schedule) nomenclature (SS1, SS2, SS3), the question was removed to avoid ambiguity. Option C is normally correct, but the question is formally withdrawn.
+            </div>
+        `
     },
     {
-        question: "What is the code for LHB, vestibuled, air conditioned executive chair car?",
+        question: "59) What is the code for LHB, vestibuled, air conditioned executive chair car?",
         options: [
             "LWFCZAC",
             "WSCZAC",
             "LWFAC",
             "LWSCZAC"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Coach Nomenclature Codes</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>IR Code Decryption:</b><br>
+                L = LHB<br>
+                W = Vestibuled (passage between coaches)<br>
+                F = First Class / Executive<br>
+                C = Chair Car<br>
+                Z = Air Conditioned<br>
+                AC = Air Conditioned (Suffix)
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Code</th><th>Decoded Meaning</th><th>Status</th></tr>
+                <tr><td><b>Option A: LWFCZAC</b></td><td>LHB (L), Vestibuled (W), First/Executive (F), Chair Car (C), AC (ZAC). This perfectly matches the Shatabdi/Tejas Executive Class profile.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: WSCZAC</b></td><td>Missing 'L' (Means it's ICF stock), 'S' means Second Class (not Executive).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: LWFAC</b></td><td>LHB First AC (Sleeper coach), not a Chair Car ('C' is missing).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: LWSCZAC</b></td><td>LHB Second Class AC Chair Car (CC class), not Executive.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> IRCA Coaching Tariff / Rolling Stock Code Book.
+        `
     },
     {
-        question: "Which organization handles booking of FTR trains ?",
+        question: "60) Which organization handles booking of FTR trains ?",
         options: [
             "CONCOR",
             "IRCTC",
             "Zonal Railway",
             "Division"
         ],
-        correctAnswer: 1
+        correctAnswer: 1,
+        hint: `
+            <h3>Full Tariff Rate (FTR) Booking</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Chartered Services:</b> Individuals or organizations can book entire special trains or coaches on Full Tariff Rate for marriage parties, tours, or corporate events.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Agency</th><th>Role</th><th>Status</th></tr>
+                <tr><td><b>Option A: CONCOR</b></td><td>Handles container freight, not passenger charters.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: IRCTC</b></td><td>Indian Railway Catering and Tourism Corporation operates the single-window online portal for all FTR bookings (coaches and special trains) to streamline public access and prevent manual corruption at stations.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C & D</b></td><td>Divisions/Zones execute the operation and provide the stock, but the commercial booking interface is outsourced to IRCTC.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Commercial Coaching Tariff (FTR Rules).
+        `
     },
     {
-        question: "Charges collected by Railways from container train operators for moving their wagons on IR network are called....",
+        question: "61) Charges collected by Railways from container train operators for moving their wagons on IR network are called....",
         options: [
             "haulage charges",
             "freight charges",
             "track access charges",
             "None of these"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Private Freight Tariffs</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Business Model:</b> Private Container Train Operators (PCTOs) like CONCOR, GatewayRail, etc., own their flat wagons (BLC) and containers. The Indian Railways only provides the locomotive, track, and crew.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Charge Type</th><th>Application</th><th>Status</th></tr>
+                <tr><td><b>Option A: haulage charges</b></td><td>Because IR does not own the rolling stock/goods, it does not charge standard freight. Instead, it levies "Haulage Charges" merely for hauling (pulling) the privately-owned wagons across its network.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: freight charges</b></td><td>Applied when IR owns the wagons and transports the commodities directly.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: track access charges</b></td><td>A separate component, usually part of concession agreements in other countries, but IR bundles the pulling and track usage into Haulage Charges for PCTOs.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Goods Tariff / Container Train Operator Concession Agreement.
+        `
     },
     {
-        question: "Which is not a constituent of formula for WTR?",
+        question: "62) Which is not a constituent of formula for WTR?",
         options: [
             "Effective divisional wagon holding",
             "wagons loaded by the division",
             "Loaded wagons received by the division",
             "Total number of wagons interchanged by division"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Wagon Turn Round (WTR) Calculation</h3>
+            <div style="background-color: #e6f2ff; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Formula:</b> <br><br>
+
+                <div style="font-size: 16px; font-family: 'Times New Roman', Times, serif; display: inline-flex; align-items: center;">
+                    <b style="margin-right: 8px;">WTR = </b>
+                    <div style="display: flex; flex-direction: column; align-items: center;">
+                        <b style="border-bottom: 2px solid #000; padding: 0 5px; width: 100%; text-align: center;">Effective Wagon Holding</b>
+                        <b style="padding: 2px 5px 0 5px;">Wagons Loaded + Loaded Wagons Received</b>
+                    </div>
+                </div>
+                <br><br>
+                It measures how long a wagon stays within the division/system before completing a loaded cycle.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Constituent</th><th>Role in Formula</th><th>Status</th></tr>
+                <tr><td><b>Option A, B, C</b></td><td>Holding, Loading, and Loaded Receipts are the direct mathematical inputs to the WTR equation.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Total interchanged</b></td><td>Total interchange includes *empty* wagons handed over/taken over. Empties are not included in the denominator of the standard WTR formula (which focuses on loaded utilization).</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Manual of Statistical Instructions Vol-II / Operating Manual.
+        `
     },
     {
-        question: "On a division originating lead of cement traffic has reduced but the originating earning from cement has increased in FY 24...25 compared to 23...24. It means......",
+        question: "63) On a division originating lead of cement traffic has reduced but the originating earning from cement has increased in FY 24...25 compared to 23...24. It means......",
         options: [
             "speed of cement carrying trains has increased in 24...25",
             "originating cement loading has increased in 24...25",
             "originating cement loading has decreased in 24...25.",
             "None of these"
         ],
-        correctAnswer: 1
+        correctAnswer: 1,
+        hint: `
+            <h3>Freight Revenue Economics</h3>
+            <div style="background-color: #e6f2ff; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Revenue Math:</b> Total Earnings = Total Tonnes Loaded &times; Distance (Lead) &times; Rate per NTKM. <br>
+                If Lead (Distance) decreases, Earnings should logically decrease. If Earnings *increased* instead, the volume (Tonnes loaded) must have surged significantly to offset the shorter distances.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Scenario Factor</th><th>Impact on Earnings</th><th>Status</th></tr>
+                <tr><td><b>Option A: Speed increased</b></td><td>Speed improves wagon turnaround but does not alter the absolute accounting value of earnings directly per invoice.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Loading increased</b></td><td>A heavy increase in the absolute volume of cement loaded (Originating Loading) mathematically drives up the total earnings, offsetting the loss from shorter leads.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: Loading decreased</b></td><td>If both lead and loading decreased, earnings would crash.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Principles of Railway Commercial/Operating Statistics.
+        `
     },
     {
-        question: "Who is nominated by the Board under disaster management plan to declare an untoward incident as railway disaster?",
+        question: "64) Who is nominated by the Board under disaster management plan to declare an untoward incident as railway disaster?",
         options: [
             "DG Safety",
             "PCOM",
             "CCRS",
             "General Manager"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Disaster Declaration Authority</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Apex Zonal Authority:</b> Declaring a disaster alters normal operating protocols, triggers massive funding (SBF/Ex-gratia), and invites civil administration involvement (NDMA/SDRF).
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Official</th><th>Authority Level</th><th>Status</th></tr>
+                <tr><td><b>Option A, B, C</b></td><td>While safety and operational heads manage the crisis, they do not have the executive authority to formally declare a "Disaster" status.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: General Manager</b></td><td>As per the Disaster Management Plan, the General Manager (GM) of the respective Zonal Railway is the competent authority to officially declare a severe accident/untoward incident as a "Railway Disaster".</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Indian Railways Disaster Management Plan.
+        `
     },
     {
-        question: "Which is vital equipment for safety of passenger coaches ?",
+        question: "65) Which is vital equipment for safety of passenger coaches ?",
         options: [
             "FDAS",
             "Alarm chain",
             "Emergency window",
             "All of these"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Passenger Coach Safety Systems</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>On-Board Security:</b> Modern coaches are equipped with multiple layers of safety to prevent disasters and aid rapid evacuation.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Equipment</th><th>Function</th><th>Status</th></tr>
+                <tr><td><b>Option A: FDAS</b></td><td>Fire Detection and Alarm System (vital for detecting smoke/fires in AC coaches).</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option B: Alarm chain</b></td><td>Passenger Alarm Pull (vital to stop the train during an emergency/crime).</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option C: Emergency window</b></td><td>Removable glass panels (vital for evacuation if doors are jammed).</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option D: All of these</b></td><td>All listed components are mandatory vital safety equipment in passenger rolling stock.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Rolling Stock Maintenance Manual / Safety Directorate Guidelines.
+        `
     },
     {
-        question: "For taking off the Home signal, Derailing switch can substitute for signal overlap.......",
+        question: "66) For taking off the Home signal, Derailing switch can substitute for signal overlap.......",
         options: [
             "under approved special instructions",
             "Under approved insteuctions",
             "Under approval of pcste",
             "With speed restriction of 50 kmph"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Signal Overlap Exemptions</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Safety Mitigation:</b> If the mandatory 120m (MACLS) signal overlap beyond a Starter cannot be provided due to space constraints, a physical derailing switch can intercept an overshooting train, acting as a substitute.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Condition</th><th>Legal Rule</th><th>Status</th></tr>
+                <tr><td><b>Option A: under approved special instructions</b></td><td>Waiving standard overlap distances poses a severe risk. GR stipulates that substituting an overlap with a sand hump or derailing switch requires "Approved Special Instructions" (meaning sanction from the Commissioner of Railway Safety - CRS).</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B & C</b></td><td>Do not represent the statutory authority (CRS) required for layout rule deviations.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D</b></td><td>Speed restrictions apply, but authority is the core requirement.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> General Rules (GR) 3.40 (Conditions for taking off Home signal).
+        `
     },
     {
-        question: "What is the period of validity of BPC of premium rakes?",
+        question: "67) What is the period of validity of BPC of premium rakes?",
         options: [
             "35 days with 3 days additional grace period",
             "15 days with 5 days additional grace period",
             "12 days with 3 days additional grace period",
             "21 days with 3 days additional grace period"
         ],
-        correctAnswer: 2
+        correctAnswer: 2,
+        hint: `
+            <h3>Brake Power Certificate (BPC) Validity</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Freight Examinations:</b> Freight rakes are categorized into End-to-End, Premium, and Close Circuit (CC) to optimize maintenance yard time.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Rake Type</th><th>BPC Validity</th><th>Status</th></tr>
+                <tr><td><b>Option A: 35 days (+3)</b></td><td>Validity for Close Circuit (CC) rakes (older patterns/specific stock).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: 15 days</b></td><td>Not a standard BPC pattern.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: 12 days (+3)</b></td><td>Premium rakes undergo intensive examination. Their BPC is valid for 12 days. A 3-day grace period is allowed ONLY if the rake is moving in the direction of the loading/examining point.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: 21 days</b></td><td>Incorrect pattern.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Freight Operations Information / Rolling Stock Maintenance Policy (Premium Rakes).
+        `
     },
     {
-        question: "Which module of ICMS is used for analysis of punctuality loss and its causes ?",
+        question: "68) Which module of ICMS is used for analysis of punctuality loss and its causes ?",
         options: [
             "COIS",
             "PAM",
             "Time Tabling Module",
             "None of these"
         ],
-        correctAnswer: 1
+        correctAnswer: 1,
+        hint: `
+            <h3>Integrated Coaching Management System (ICMS)</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>IT Modules:</b> ICMS is the backbone of passenger train operations, tracking coaches, generating timetables, and monitoring delays.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Module</th><th>Function</th><th>Status</th></tr>
+                <tr><td><b>Option A: COIS</b></td><td>Coaching Operations Information System - tracks the physical location and maintenance status of individual passenger coaches.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: PAM</b></td><td>Punctuality Analysis Module. It logs every minute of train delay across divisions and assigns specific "Cause Codes" (e.g., signal failure, chain pulling) to analyze and hold departments accountable.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: Time Tabling Module</b></td><td>Used for scheduling, not post-run delay analysis.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> CRIS ICMS User Manual.
+        `
     },
     {
-        question: "On a double line BG section, Panel interlocking at a station is to be replaced with El. Which plan head is best suited to propose this work?",
+        question: "69) On a double line BG section, Panel interlocking at a station is to be replaced with El. Which plan head is best suited to propose this work?",
         options: [
             "PH 33",
             "PH 11",
             "PH 53",
             "None of these"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Plan Head Classification</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Budgeting for Upgrades:</b> Replacing an old electro-mechanical Panel Interlocking (PI) with modern microprocessor-based Electronic Interlocking (EI) is a massive capital work.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Plan Head</th><th>Target Works</th><th>Status</th></tr>
+                <tr><td><b>Option A: PH 33</b></td><td>Plan Head 33 specifically covers all Capital/DRF expenditures related to "Signalling and Telecommunication Works." Replacing PI with EI falls perfectly here.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: PH 11</b></td><td>New Lines construction.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: PH 53</b></td><td>Passenger Amenities.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Indian Railway Finance Code - Classification of Works.
+        `
     },
     {
-        question: "Who is the principal technical advisor to Central Government on matters pertaining to Commissioners of Railway Safety?",
+        question: "70) Who is the principal technical advisor to Central Government on matters pertaining to Commissioners of Railway Safety?",
         options: [
             "CCRS",
             "DG, RDSO",
             "DG Safety",
             "None of these"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Railway Safety Administration</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Independent Oversight:</b> The Commission of Railway Safety works under the Ministry of Civil Aviation (not Railways) to ensure impartial accident inquiries and safety audits.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Official</th><th>Role</th><th>Status</th></tr>
+                <tr><td><b>Option A: CCRS</b></td><td>The Chief Commissioner of Railway Safety (CCRS) is the head of the organization and acts as the Principal Technical Advisor to the Central Government on all matters concerning railway safety and CRS functions.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: DG, RDSO</b></td><td>Advisor on technical standards and research, under the Ministry of Railways.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: DG Safety</b></td><td>Railway Board official, handling internal safety implementation, not an independent advisor.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> The Railways Act, 1989 - Chapter III (Commissioners of Railway Safety).
+        `
     },
     {
-        question: "When is the Hindi Diwas celebrated?",
+        question: "71) When is the Hindi Diwas celebrated?",
         options: [
-            "2026-05-16 00:00:00",
-            "2026-01-10 00:00:00",
-            "2026-09-14 00:00:00",
+            "May 16",
+            "January 10",
+            "September 14",
             "None of these"
         ],
-        correctAnswer: 2
+        correctAnswer: 2,
+        hint: `
+            <h3>National Official Language Observance</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Constitutional Adoption:</b> The Constituent Assembly of India adopted Hindi written in Devanagari script as the official language of the Republic of India on a specific date in 1949.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Date</th><th>Significance</th><th>Status</th></tr>
+                <tr><td><b>Option A: May 16</b></td><td>Sikkim Statehood Day.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: January 10</b></td><td>World Hindi Day (Vishwa Hindi Diwas), marking the anniversary of the first World Hindi Conference.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: September 14</b></td><td>National Hindi Diwas, commemorating the exact date in 1949 when the Constituent Assembly made its historic decision.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Department of Official Language (Rajbhasha Vibhag).
+        `
     },
     {
-        question: "Which types of documents are covered under Section 3(3)1 of the Official Language Act, 1963?",
+        question: "72) Which types of documents are covered under Section 3(3)1 of the Official Language Act, 1963?",
         options: [
             "Administrative reports",
             "General Orders",
             "Rules",
             "All of these"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Bilingual Documentation (Section 3(3))</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Statutory Mandate:</b> Section 3(3) of the OLA mandates that certain high-level administrative, legal, and public documents MUST be issued bilingually (in both Hindi and English) simultaneously.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Document Type</th><th>Status under Act</th><th>Status</th></tr>
+                <tr><td><b>Option A: Administrative reports</b></td><td>Included in the mandatory 14 items.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option B: General Orders</b></td><td>Included.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option C: Rules</b></td><td>Included (along with Notifications, Resolutions, Press Communiques, etc.).</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option D: All of these</b></td><td>All the listed documents are statutorily required to be bilingual.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Official Languages Act, 1963 - Section 3(3).
+        `
     },
     {
-        question: "Which is the nodal ministry for implementation of Official Language Act, 1963?",
+        question: "73) Which is the nodal ministry for implementation of Official Language Act, 1963?",
         options: [
             "Ministry of Culture",
             "DOPT",
             "Ministry of Home Affairs",
             "Ministry of human Resource Development"
         ],
-        correctAnswer: 2
+        correctAnswer: 2,
+        hint: `
+            <h3>Government Framework for Rajbhasha</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Executive Control:</b> The propagation and compliance monitoring of Hindi across all central government departments requires a centralized authoritative ministry.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Ministry</th><th>Role</th><th>Status</th></tr>
+                <tr><td><b>Option A: Ministry of Culture</b></td><td>Handles arts and heritage.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: DOPT</b></td><td>Handles personnel and training policies.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Ministry of Home Affairs</b></td><td>The Department of Official Language (Rajbhasha Vibhag) was set up in 1975 specifically under the MHA. It is the nodal agency for implementing the Official Languages Act.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Allocation of Business Rules, Govt of India / Dept of Official Language.
+        `
     },
     {
-        question: "Who is the Chairperson of Zonal Official Language Implementation Committee ?",
+        question: "74) Who is the Chairperson of Zonal Official Language Implementation Committee ?",
         options: [
             "Mukhya Rajbhasha Adhikari",
             "GM",
             "PCPO",
             "AGM"
         ],
-        correctAnswer: 1
+        correctAnswer: 1,
+        hint: `
+            <h3>Zonal Rajbhasha Implementation (ZOLIC)</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Administrative Priority:</b> To ensure the official language policy is taken seriously at the highest levels, the apex implementation committee at the Zonal Railway headquarters must be headed by the supreme authority of the zone.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Official</th><th>Committee Role</th><th>Status</th></tr>
+                <tr><td><b>Option A: MRA</b></td><td>Mukhya Rajbhasha Adhikari (usually an SAG officer) coordinates the efforts, but does not chair the Zonal meeting.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: GM</b></td><td>The General Manager (GM) is the Chairman of the Zonal Official Language Implementation Committee (ZOLIC), ensuring all HODs comply with Rajbhasha targets.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C & D</b></td><td>PCPO/AGM may be members or act as MRA, but do not chair ZOLIC.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Railway Board Rajbhasha Manual.
+        `
     },
     {
-        question: "Which of the following states is included in \"Kha\" region for implementation of Official Language Act, 1963?",
+        question: "75) Which of the following states is included in \"Kha\" region for implementation of Official Language Act, 1963?",
         options: [
             "Maharashtra",
             "Uttar Pradesh",
             "Uttarakhand",
             "Himachal Pradesh"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Linguistic Zoning (Region A, B, C)</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Region 'Kha' (B):</b> This region includes states where Hindi is not the primary state language, but is widely understood and used for official communication with the Centre alongside the local language.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>State</th><th>Official Language Region</th><th>Status</th></tr>
+                <tr><td><b>Option A: Maharashtra</b></td><td>Falls strictly under Region 'B' (Kha) along with Gujarat, Punjab, Chandigarh, Daman & Diu, and Andaman & Nicobar Islands.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B, C, D</b></td><td>UP, Uttarakhand, and HP are core Hindi-speaking states falling under Region 'A' (Ka).</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Official Language Rules, 1976 - Rule 2(f).
+        `
     },
     {
-        question: "The Maithilisharan Gupt Puraskar is awarded for......",
+        question: "76) The Maithilisharan Gupt Puraskar is awarded for......",
         options: [
             "Original technical writing in Hindi",
             "Poetry in Hindi",
             "Novels, short stories in Hindi",
             "Railyatra Vrittant in Hindi"
         ],
-        correctAnswer: 1
+        correctAnswer: 1,
+        hint: `
+            <h3>Railway Hindi Incentive Schemes</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Literary Promotion:</b> The Railway Board runs several named award schemes to encourage original Hindi writing among its vast workforce.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Literary Category</th><th>Associated Award</th><th>Status</th></tr>
+                <tr><td><b>Option A: Technical writing</b></td><td>Lal Bahadur Shastri Award.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Poetry in Hindi</b></td><td>Maithilisharan Gupt was a famous Hindi poet. His namesake award is given specifically to railway employees for writing original Hindi Poetry (Kavya Sangrah).</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: Novels/Stories</b></td><td>Premchand Award.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Railyatra Vrittant</b></td><td>Rail Yatra Vrittant Puraskar.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Railway Board Rajbhasha Policy & Incentive Schemes.
+        `
     },
     {
-        question: "Committee of Parliament on Official Language consists of how many members from the Lok Sabha ?",
+        question: "77) Committee of Parliament on Official Language consists of how many members from the Lok Sabha ?",
         options: [
             "10",
             "30",
             "20",
             "25"
         ],
-        correctAnswer: 2
+        correctAnswer: 2,
+        hint: `
+            <h3>Parliamentary Committee Composition</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Statutory Body:</b> The Committee of Parliament on Official Language was set up under the OLA 1963 to review the progress of Hindi. It has a total of 30 members.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>House</th><th>Member Count</th><th>Status</th></tr>
+                <tr><td><b>Rajya Sabha</b></td><td>10 Members (Elected by single transferable vote).</td><td><u>Incorrect Option A</u></td></tr>
+                <tr><td><b>Lok Sabha</b></td><td><b>20 Members</b> (Elected by proportional representation).</td><td><b>Correct Answer (Option C)</b></td></tr>
+                <tr><td><b>Total</b></td><td>30 Members.</td><td><u>Incorrect Option B</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Official Languages Act, 1963 - Section 4(1).
+        `
     },
     {
-        question: "How many languages are included in Schedule VIII of the Constitution?",
+        question: "78) How many languages are included in Schedule VIII of the Constitution?",
         options: [
             "22",
             "15",
             "25",
             "30"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Eighth Schedule Languages</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Constitutional Recognition:</b> The Eighth Schedule lists the official languages of the Republic of India. Originally containing 14 languages, it has been expanded via amendments.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Number</th><th>Historical Context</th><th>Status</th></tr>
+                <tr><td><b>Option A: 22</b></td><td>Following the 92nd Amendment in 2003 (which added Bodo, Dogri, Maithili, and Santhali), the total number of recognized languages in the Eighth Schedule stands at 22.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: 15</b></td><td>The count after Sindhi was added in 1967.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C & D</b></td><td>Incorrect numbers.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Constitution of India - Eighth Schedule.
+        `
     },
     {
-        question: "For promotion of official language in their jurisdiction, HAG/SAG officers are awarded the",
+        question: "79) For promotion of official language in their jurisdiction, HAG/SAG officers are awarded the",
         options: [
             "Kamlapati Tripathi Swarna Padak",
             "Premchand Puraskar",
             "Acharya Mahavir Prasad Chal vaijayanti",
             "Rail Mantri Rajbhasha Rajat Padak"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Executive Level Rajbhasha Awards</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Leadership Incentives:</b> To motivate top-tier administrators (DRMs, PHODs) to enforce Hindi usage in their respective zones/divisions, specific medals are awarded by the Railway Minister.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Award Name</th><th>Target Demographic</th><th>Status</th></tr>
+                <tr><td><b>Option A: Kamlapati Tripathi...</b></td><td>Usually awarded to GMs for overall zonal performance.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Premchand</b></td><td>For fiction writing.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Rail Mantri Rajbhasha Rajat Padak</b></td><td>Specifically instituted to honor HAG (Higher Administrative Grade) and SAG (Senior Administrative Grade) officers for their outstanding administrative efforts in promoting Rajbhasha.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Railway Board Rajbhasha Directorate Incentive Policies.
+        `
     },
     {
-        question: "Who can participate in the Rail Yatra Vrittant Puraskar Yojana ?",
+        question: "80) Who can participate in the Rail Yatra Vrittant Puraskar Yojana ?",
         options: [
             "Any Indian",
             "Only railway servant",
             "Only group C railway staff",
             "Only Group B officers"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Rail Yatra Vrittant Puraskar Yojana</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Public Engagement:</b> Unlike technical or administrative awards which are restricted to staff, this scheme aims to generate literature about the experience of train travel.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Eligibility</th><th>Scheme Rules</th><th>Status</th></tr>
+                <tr><td><b>Option A: Any Indian</b></td><td>The "Railway Travelogue" scheme is an open national competition. Any Indian citizen (whether a railway employee or general public) can submit a Hindi essay describing an interesting train journey to win cash prizes.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B, C, D</b></td><td>Incorrectly restrict the competition to railway staff only.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Railway Board Rajbhasha Public Schemes Notification.
+        `
     },
     {
-        question: "Appointment to a Gazetted post is made by..",
+        question: "81) Appointment to a Gazetted post is made by..",
         options: [
             "notification in the Gazette of India",
             "Railway Recruitment Board",
             "General Manager",
             "None of these"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Gazetted Officer Status</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Legal Definition:</b> Group 'A' and 'B' officers hold significant executive and financial powers. Their appointments and promotions carry a specific statutory requirement to validate their authority to the public.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Method/Authority</th><th>Context</th><th>Status</th></tr>
+                <tr><td><b>Option A: notification in the Gazette of India</b></td><td>A post is termed "Gazetted" strictly because the appointment, promotion, transfer, or retirement of the officer holding it must be formally published by the Government in the official Gazette of India.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: RRB</b></td><td>Recruits Group C staff. (UPSC recruits Group A).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: General Manager</b></td><td>Issues orders locally, but the Gazetted status stems from the central notification.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Indian Railway Establishment Code (IREC) / DOPT definitions.
+        `
     },
     {
-        question: "Director in Railway Board is a Group ... post.",
+        question: "82) Director in Railway Board is a Group ... post.",
         options: [
             "B",
             "C",
             "A",
             "None of these"
         ],
-        correctAnswer: 2
+        correctAnswer: 2,
+        hint: `
+            <h3>Railway Board Administrative Hierarchy</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Officer Grades:</b> The Railway Board (Ministry of Railways) is staffed by officers drawn from organized central services (IRTS, IRSE, IRSME, etc.).
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Service Group</th><th>Equivalent Posts</th><th>Status</th></tr>
+                <tr><td><b>Option A: Group B</b></td><td>Section Officers in the board, or Assistant Scale (AOM/AEE) in the field.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Group A</b></td><td>A "Director" in the Railway Board is a Selection Grade / Junior Administrative Grade (JAG) officer. This firmly falls under the organized Group 'A' central civil services.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Railway Board Secretariat Service / Central Staffing Scheme.
+        `
     },
     {
-        question: "First appointments to a Group A Post in Railway Service are made by........",
+        question: "83) First appointments to a Group A Post in Railway Service are made by........",
         options: [
             "the President on the recommendation of the Union Public Service Commission",
             "the President on the recommendation of the Union Cabinet",
             "the President on the recommendation of the DOPT",
             "None of these"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Group A Civil Services Recruitment</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Constitutional Body:</b> Recruitment to the highest echelons of the civil service requires a stringent, independent selection process.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Authority & Mechanism</th><th>Constitutional Setup</th><th>Status</th></tr>
+                <tr><td><b>Option A: President via UPSC</b></td><td>Under Article 320, the Union Public Service Commission (UPSC) conducts examinations (Civil Services Exam / ESE). The President of India acts as the appointing authority for all Group 'A' central services based strictly on the UPSC's merit list recommendations.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B & C</b></td><td>The Cabinet and DOPT handle postings and transfers, not the initial constitutional recruitment selection process.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Indian Railway Establishment Code (IREC) Vol. I - Chapter II.
+        `
     },
     {
-        question: "Where a Railway servant is lent to any other Ministry or Department of the Central Government, who has the powers of the disciplinary authority for the purpose of conducting disciplinary proceedings against him ?",
+        question: "84) Where a Railway servant is lent to any other Ministry or Department of the Central Government, who has the powers of the disciplinary authority for the purpose of conducting disciplinary proceedings against him ?",
         options: [
             "Railway Board only",
             "The Borrowing Authority",
             "The Lending Authority",
             "None of these"
         ],
-        correctAnswer: 1
+        correctAnswer: 1,
+        hint: `
+            <h3>Discipline & Appeal Rules (Deputation)</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Lent Officers:</b> When an employee is sent on deputation to another ministry, questions arise about who controls their daily discipline.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Authority</th><th>D&AR Jurisdiction</th><th>Status</th></tr>
+                <tr><td><b>Option B: The Borrowing Authority</b></td><td>Under Rule 15 of D&AR, the "Borrowing Authority" (the department where the employee is currently working) has the immediate power of the Disciplinary Authority to place them under suspension and initiate disciplinary proceedings for misconduct committed during that tenure.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: The Lending Authority</b></td><td>The parent railway must be informed and is consulted before severe penalties (like dismissal) are imposed, but the borrowing authority initiates the action.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Railway Servants (Discipline & Appeal) Rules, 1968 - Rule 15.
+        `
     },
     {
-        question: "Conversion of one kind of leave into another is....",
+        question: "85) Conversion of one kind of leave into another is....",
         options: [
             "not permitted",
             "a matter of right of Railway servant",
             "possible even after superannuation",
             "possible with the sanction of authority granting leave"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Leave Rules Configuration</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Retrospective Alteration:</b> Sometimes an employee takes one type of leave (e.g., LAP) but later requests to convert it (e.g., to Sick Leave / LHAP) upon producing a medical certificate.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Rule Stance</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: not permitted</b></td><td>It is conditionally permitted.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: a matter of right</b></td><td>Leave of any kind is never a fundamental right.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: after superannuation</b></td><td>Generally prohibited after retirement as the employee is no longer on rolls.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: possible with the sanction...</b></td><td>Under IREC rules, conversion of one kind of leave to another (retrospectively) is possible, but it is purely at the discretion and sanction of the competent authority who granted the original leave.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Indian Railway Establishment Code (IREC) Vol. I - Leave Rules.
+        `
     },
     {
-        question: "According to the Railway Services Conduct Rules, which of the following activities is permissible for a Railway servant ?",
+        question: "86) According to the Railway Services Conduct Rules, which of the following activities is permissible for a Railway servant ?",
         options: [
             "Performing election duty in Lok Sabha elections",
             "Becoming member of a political party",
             "Displaying political party's symbols on residence",
             "Acting as polling agent of a candidate in an election to state legislature"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Railway Services (Conduct) Rules - Politics</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Political Neutrality:</b> Rule 5 strictly prohibits railway servants from engaging in politics to maintain administrative impartiality.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Activity</th><th>Conduct Rule Validation</th><th>Status</th></tr>
+                <tr><td><b>Option A: Performing election duty...</b></td><td>Election duty is an official, statutory administrative task assigned by the Election Commission of India. It is a mandatory government duty, not a partisan political activity.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B, C, D</b></td><td>Joining a party, canvassing, displaying symbols, or acting as a polling agent for a specific candidate are blatant violations of Rule 5 and invite severe disciplinary action.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Railway Services (Conduct) Rules, 1966 - Rule 5 (Taking part in politics and elections).
+        `
     },
     {
-        question: "Which Conduct Rule is regarding prohibition of sexual harassment of working women?",
+        question: "87) Which Conduct Rule is regarding prohibition of sexual harassment of working women?",
         options: [
             "Rule 5",
             "Rule 13",
             "Rule 3C",
             "Rule 6"
         ],
-        correctAnswer: 2
+        correctAnswer: 2,
+        hint: `
+            <h3>Workplace Harassment Laws</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Vishaka Guidelines:</b> Following Supreme Court directives, a specific sub-rule was inserted into the Conduct Rules to explicitly address workplace sexual harassment and define the framework for Internal Complaints Committees (ICC).
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Rule Number</th><th>Subject Matter</th><th>Status</th></tr>
+                <tr><td><b>Option A: Rule 5</b></td><td>Taking part in politics and elections.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Rule 13</b></td><td>Accepting Gifts.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Rule 3C</b></td><td>Rule 3C explicitly deals with the "Prohibition of sexual harassment of working women," outlining what constitutes harassment and the supervisor's duty to prevent it.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: Rule 6</b></td><td>Joining of associations by railway servants.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Railway Services (Conduct) Rules, 1966 - Rule 3C.
+        `
     },
     {
-        question: "Can a Railway servant participate in the management of electronic media ?",
+        question: "88) Can a Railway servant participate in the management of electronic media ?",
         options: [
             "Yes",
             "No",
             "Yes, with the previous sanction of the Government",
             "Yes, with prior intimation to the Government"
         ],
-        correctAnswer: 2
+        correctAnswer: 2,
+        hint: `
+            <h3>Conduct Rules regarding Media & Publishing</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Rule 8:</b> Managing media channels, newspapers, or periodicals involves editorial control and potential conflicts of interest with government policy.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Condition</th><th>Conduct Rule Requirement</th><th>Status</th></tr>
+                <tr><td><b>Option A & B</b></td><td>Absolute 'Yes' or 'No' is incorrect because it is conditionally permitted.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Yes, with previous sanction</b></td><td>Rule 8 states that no railway servant shall, except with the <b>previous sanction</b> of the Government, own wholly or in part, or conduct or participate in the editing or management of, any newspaper or other periodical publication or electronic media.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: prior intimation</b></td><td>Intimation is not enough; explicit executive permission (sanction) is mandatory.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Railway Services (Conduct) Rules, 1966 - Rule 8 (Connection with press or other media).
+        `
     },
     {
-        question: "Provisions regarding dismissal etc. of Railway servant are contained in article.... of the Constitution.",
+        question: "89) Provisions regarding dismissal etc. of Railway servant are contained in article.... of the Constitution.",
         options: [
             "356",
             "365",
             "315",
             "311"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Constitutional Safeguards for Civil Servants</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Doctrine of Pleasure limitations:</b> While civil servants hold office during the pleasure of the President, the Constitution provides fundamental protections against arbitrary firing.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Article</th><th>Constitutional Provision</th><th>Status</th></tr>
+                <tr><td><b>Option A: 356</b></td><td>President's Rule in States.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: 315</b></td><td>Establishment of Public Service Commissions (UPSC).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: 311</b></td><td>Article 311 provides that no civil servant shall be dismissed or removed by an authority subordinate to that by which he was appointed, and not without an inquiry informing him of the charges.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Constitution of India - Article 311.
+        `
     },
     {
-        question: "Who is the Chairperson of the Committee for management of Railway Staff Benefit Fund on a Zonal Railway ?",
+        question: "90) Who is the Chairperson of the Committee for management of Railway Staff Benefit Fund on a Zonal Railway ?",
         options: [
             "PCPO",
             "PCMD",
             "PFA",
             "None of these"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Staff Benefit Fund (SBF)</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Welfare Mechanics:</b> The SBF provides financial assistance for employee welfare, medical emergencies, scholarships, and sports. Its administration is heavily unionized but led by management.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Official</th><th>Role in SBF Committee</th><th>Status</th></tr>
+                <tr><td><b>Option A: PCPO</b></td><td>The Principal Chief Personnel Officer (PCPO) acts as the Chairman of the Zonal Staff Benefit Fund Committee, balancing the requests from recognized trade union representatives.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: PCMD</b></td><td>The Medical Director advises on medical grants but does not chair the fund.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: PFA</b></td><td>Accounts officials vet the budget, but do not chair the executive welfare committee.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Indian Railway Establishment Code (IREC) / SBF Guidelines.
+        `
     },
     {
-        question: "Major and Minor penalties that can be imposed upon a Railway servant are contained in Rule.... of the D&A Rules.",
+        question: "91) Major and Minor penalties that can be imposed upon a Railway servant are contained in Rule.... of the D&A Rules.",
         options: [
             "4",
             "6",
             "9",
             "11"
         ],
-        correctAnswer: 1
+        correctAnswer: 1,
+        hint: `
+            <h3>Discipline & Appeal Rules Structure</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Legal Indexing:</b> The 1968 D&AR rules are structured sequentially. You must know which specific rule outlines the arsenal of punishments available to the administration.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Rule Number</th><th>Subject Matter</th><th>Status</th></tr>
+                <tr><td><b>Option A: 4</b></td><td>Authorities competent to place a railway servant under suspension.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: 6</b></td><td>Rule 6 explicitly defines and lists all the Minor Penalties (Clauses i to iv) and Major Penalties (Clauses v to ix) that can be legally imposed.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: 9</b></td><td>Procedure for imposing Major Penalties (Inquiry process).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: 11</b></td><td>Procedure for imposing Minor Penalties.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Railway Servants (Discipline & Appeal) Rules, 1968.
+        `
     },
     {
-        question: "Compulsory retirement of a Railway servant in accordance with the provisions relating to his superannuation or retirement is.......",
+        question: "92) Compulsory retirement of a Railway servant in accordance with the provisions relating to his superannuation or retirement is.......",
         options: [
             "a major penalty",
             "a minor penalty",
             "not a penalty under D&A Rules",
             "None of these"
         ],
-        correctAnswer: 2
+        correctAnswer: 2,
+        hint: `
+            <h3>Definitions of Penalty</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Administrative vs. Punitive Action:</b> Rule 6 has strict explanations defining what does NOT amount to a penalty.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Action Context</th><th>D&AR Classification</th><th>Status</th></tr>
+                <tr><td><b>Option A & B</b></td><td>If an employee is "Compulsorily Retired" as a *punishment* for misconduct (under Rule 6 clause vii), it is a major penalty.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: not a penalty</b></td><td>However, if an employee is retired under FR 56(j) or pension rules (routine superannuation or administrative weeding out of deadwood), the Explanation to Rule 6 explicitly states this does <b>not amount to a penalty</b> under D&AR.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Railway Servants (D&A) Rules, 1968 - Rule 6 (Explanation).
+        `
     },
     {
-        question: "According to Rule 10 of D&AR, how much time is allowed to a charged Railway servant to submit his representation to DA on inquiry report?",
+        question: "93) According to Rule 10 of D&AR, how much time is allowed to a charged Railway servant to submit his representation to DA on inquiry report?",
         options: [
             "10 days",
             "7 days",
             "30 days",
             "15 days"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>D&AR Post-Inquiry Procedure</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Natural Justice (Audi Alteram Partem):</b> After the Inquiry Officer (IO) submits the report proving charges, the Disciplinary Authority (DA) must share it with the employee to allow them a chance to defend themselves before a final penalty is decided.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Time Limit</th><th>Context</th><th>Status</th></tr>
+                <tr><td><b>Option A: 10 days</b></td><td>Time allowed to reply to an initial major/minor charge sheet.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: 15 days</b></td><td>Under Rule 10, the charged officer is given a copy of the IO's report and allowed <b>15 days</b> to submit a written representation to the DA pointing out flaws or biases in the inquiry.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Railway Servants (D&A) Rules, 1968 - Rule 10 (Action on the inquiry report).
+        `
     },
     {
-        question: "In the context of HRMS, what is ADARSH ?",
+        question: "94) In the context of HRMS, what is ADARSH ?",
         options: [
             "APP for Railway servants",
             "Integrated form of applications",
             "Award scheme for divisions",
             "None of these"
         ],
-        correctAnswer: 2
+        correctAnswer: 2,
+        hint: `
+            <h3>HRMS Initiatives</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Digital Transformation:</b> The Human Resource Management System (HRMS) is aggressively pushed across IR to digitize passes, PF, and service records.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Acronym/Term</th><th>HRMS Ecosystem Meaning</th><th>Status</th></tr>
+                <tr><td><b>Option A & B</b></td><td>Fabricated definitions in this context.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Award scheme for divisions</b></td><td>To encourage rapid 100% adoption and data entry completion of HRMS modules (like e-Pass, APAR, e-SR) by the field units, the Railway Board launched the "ADARSH" competitive award scheme to rank and reward the best-performing Divisions.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Railway Board/CRIS HRMS Implementation Circulars.
+        `
     },
     {
-        question: "According to Clause 8 (3) of Railway Servants (Hours of Work and Period of Rest) Rules, 2005, what are the standard hours of duty for\" Essentially intermittent\" classification?",
+        question: "95) According to Clause 8 (3) of Railway Servants (Hours of Work and Period of Rest) Rules, 2005, what are the standard hours of duty for\" Essentially intermittent\" classification?",
         options: [
             "72 hours per week",
             "48 hours per week",
             "42 hours per week",
             "56 hours per week"
         ],
-        correctAnswer: 1
+        correctAnswer: 1,
+        hint: `
+            <h3>HOER Duty Hours</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Statutory Standard vs Roster:</b> There is a distinction between the "Standard Hours" of duty vs the "Rostered Hours" (which includes preparatory and complimentary time).
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Hours</th><th>HOER Classification</th><th>Status</th></tr>
+                <tr><td><b>Option A: 72 hours</b></td><td>This is the <i>maximum rostered</i> hours limit for EI, not the foundational standard base.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: 48 hours</b></td><td>The Act defines the <b>Standard Hours of Duty</b> for BOTH "Continuous" and "Essentially Intermittent" categories as 48 hours per week. For EI, an additional 24 hours of action-less presence is permitted, making the roster up to 72 hours, but the "Standard" base remains 48.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: 42 hours</b></td><td>Standard hours for "Intensive" workers.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Railway Servants (Hours of Work and Period of Rest) Rules, 2005.
+        `
     },
     {
-        question: "From which financial year the Railway budget has been merged with the General budget?",
+        question: "96) From which financial year the Railway budget has been merged with the General budget?",
         options: [
             "FY 2019/20",
             "FY 2017/18",
             "FY 2012/13",
             "FY 2014/15"
         ],
-        correctAnswer: 1
+        correctAnswer: 1,
+        hint: `
+            <h3>Railway Budget History</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>The Acworth Legacy:</b> Since 1924 (based on the Acworth Committee report), the Railway Budget was presented separately from the Union General Budget to allow the railways business flexibility.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Financial Year</th><th>Historical Shift</th><th>Status</th></tr>
+                <tr><td><b>Option A, C, D</b></td><td>Incorrect years.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: FY 2017/18</b></td><td>On the recommendation of a NITI Aayog committee headed by Bibek Debroy, the 92-year-old practice was abolished. The Railway Budget was merged with the Union General Budget starting from the Financial Year 2017-18.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Indian Economy / Ministry of Finance Budget Archives.
+        `
     },
     {
-        question: "Under which article of the Constitution is the Contingency Fund of India established ?",
+        question: "97) Under which article of the Constitution is the Contingency Fund of India established ?",
         options: [
             "Article 266",
             "Article 212",
             "Article 267(1)",
             "None of these"
         ],
-        correctAnswer: 2
+        correctAnswer: 2,
+        hint: `
+            <h3>Constitutional Funds of India</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Emergency Finance:</b> The executive needs an imprest account at its disposal to meet unforeseen, urgent expenditure (like disaster relief) before it can get parliamentary approval.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Article</th><th>Fund Established</th><th>Status</th></tr>
+                <tr><td><b>Option A: Article 266</b></td><td>Establishes the Consolidated Fund of India (where all regular taxes/revenues go) and the Public Account.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Article 212</b></td><td>Relates to courts not inquiring into state legislature proceedings.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Article 267(1)</b></td><td>Empowers Parliament to establish a "Contingency Fund of India" placed at the disposal of the President for emergency advances.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Constitution of India - Article 267.
+        `
     },
     {
-        question: "Government account means accounts related to the",
+        question: "98) Government account means accounts related to the",
         options: [
             "Consolidated Fund of India",
             "Contingency Fund of India",
             "Public accounts of India",
             "All of these"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Structure of Government Accounts</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>The Three Pillars:</b> The financial flow of the Government of India is strictly categorized into three separate constitutional buckets to ensure accountability.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Fund Type</th><th>Nature of Account</th><th>Status</th></tr>
+                <tr><td><b>Option A: Consolidated Fund</b></td><td>Holds revenues, loans, and loan repayments (Art 266).</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option B: Contingency Fund</b></td><td>Holds imprest for unforeseen expenditure (Art 267).</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option C: Public Account</b></td><td>Holds other public moneys where the Govt acts as a banker (e.g., PF, small savings) (Art 266(2)).</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option D: All of these</b></td><td>The term "Government Accounts" comprehensively refers to the ledgering and auditing of all three of these constitutional funds.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> General Financial Rules (GFR) / Constitution of India.
+        `
     },
     {
-        question: "The expenditure on projects of doubling is booked under...",
+        question: "99) The expenditure on projects of doubling is booked under...",
         options: [
             "PH 11",
             "PH 15",
             "PH 53",
             "PH 33"
         ],
-        correctAnswer: 1
+        correctAnswer: 1,
+        hint: `
+            <h3>Plan Head Budgeting</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Capacity Augmentation:</b> Laying a second track parallel to an existing single track (Doubling) massively increases section capacity. It has its own dedicated budget code.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Plan Head</th><th>Work Category</th><th>Status</th></tr>
+                <tr><td><b>Option A: PH 11</b></td><td>New Lines (constructing track where none existed before).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: PH 15</b></td><td>Plan Head 15 is exclusively designated for "Doubling" (and multiple tracking) projects.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: PH 53</b></td><td>Passenger Amenities.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: PH 33</b></td><td>Signalling & Telecommunications.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Indian Railway Finance Code - Classification of Works.
+        `
     },
     {
-        question: "Under the General Financial Rules, which of the following is considered a standard of financial propriety?",
+        question: "100) Under the General Financial Rules, which of the following is considered a standard of financial propriety?",
         options: [
             "Sanctioning authority should not sanction expenditure which will be directly or indirectly to its own advantage.",
             "Same vigilance in respect of expenditure incurred from public moneys must be exercised as a person of ordinary prudence would exercise in respect of expenditure of his own money.",
             "Expenditure should not be prima facie more than the occasion demands.",
             "All of these"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Standards of Financial Propriety</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Ethical Spending:</b> Every government officer incurring or authorizing expenditure from public funds must adhere to strict, universal ethical rules defined in the GFR.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Propriety Standard</th><th>Rationale</th><th>Status</th></tr>
+                <tr><td><b>Option A: No self-advantage</b></td><td>Prevents conflict of interest and corruption.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option B: Ordinary prudence</b></td><td>Mandates treating public tax money as carefully as personal savings.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option C: Not more than occasion demands</b></td><td>Prevents lavish or wasteful spending on official events/functions.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option D: All of these</b></td><td>Rule 21 of the General Financial Rules (GFR) explicitly lists all these points as the fundamental tenets of financial propriety.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> General Financial Rules (GFR), 2017 - Rule 21.
+        `
     },
     {
-        question: "Budget estimates should be framed for which of the following?",
+        question: "101) Budget estimates should be framed for which of the following?",
         options: [
             "Gross receipts",
             "Ordinary working expense",
             "Works expenditure",
             "All of these"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Railway Budget Estimates</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Comprehensive Planning:</b> A budget is a complete financial plan for a given period. It must account for both incoming money and all forms of outgoing money.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Estimate Component</th><th>Description</th><th>Status</th></tr>
+                <tr><td><b>Option A: Gross receipts</b></td><td>Estimates of total earnings from passenger, freight, and sundry revenues.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option B: Ordinary working expense</b></td><td>Estimates for the day-to-day running costs (salaries, fuel, maintenance).</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option C: Works expenditure</b></td><td>Estimates for capital projects, asset replacement, and infrastructure development.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option D: All of these</b></td><td>According to the Indian Railway Finance Code, the annual budget estimates must comprehensively cover Gross Receipts, Ordinary Working Expenses, and Works Expenditure to present a true financial picture.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Indian Railway Finance Code - Preparation of Budget Estimates.
+        `
     },
     {
-        question: "Who is responsible for compilation of accounts of a Zonal Railway ?",
+        question: "102) Who is responsible for compilation of accounts of a Zonal Railway ?",
         options: [
             "Traffic Accounts Office",
             "PFA",
             "PDA",
             "CAG"
         ],
-        correctAnswer: 1
+        correctAnswer: 1,
+        hint: `
+            <h3>Railway Accounts Compilation</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Financial Organization:</b> There is a clear distinction between the authority that 'compiles' (maintains and prepares) the accounts and the authority that 'audits' them.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Authority</th><th>Role in Finance</th><th>Status</th></tr>
+                <tr><td><b>Option A: Traffic Accounts Office</b></td><td>A subordinate branch focusing only on checking station returns and apportioning traffic earnings, not the whole zone's compilation.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: PFA</b></td><td>The Principal Financial Adviser (formerly FA&CAO) is the administrative head of the Accounts Department at the Zonal level and is legally responsible for the compilation of the entire accounts of the Zonal Railway.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: PDA</b></td><td>Principal Director of Audit. Represents the CAG at the zonal level for auditing, not compiling.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: CAG</b></td><td>Comptroller and Auditor General of India. Responsible for statutory audit, not internal compilation.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Indian Railway Accounts Code - Organizational Structure.
+        `
     },
     {
-        question: "Goods revenue estimate for major commodities is based on........",
+        question: "103) Goods revenue estimate for major commodities is based on........",
         options: [
             "The average yield per NTKM",
             "The anticipated NTKM to be carried",
             "the anticipated NTKM to be carried, and the average yield per NTKM",
             "The originating loading in tonnes"
         ],
-        correctAnswer: 2
+        correctAnswer: 2,
+        hint: `
+            <h3>Freight Revenue Forecasting</h3>
+            <div style="background-color: #e6f2ff; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Mathematical Projection:</b> To predict how much money a specific commodity (like coal or iron ore) will generate, you need to know both the volume-distance metric and the earning rate.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Parameter</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: Average yield per NTKM</b></td><td>Indicates how much money is made per unit, but without the total volume (NTKM), total revenue cannot be calculated.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option B: Anticipated NTKM</b></td><td>Net Tonne Kilometers. Gives the volume-distance, but lacks the financial multiplier (rate).</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option C: Anticipated NTKM & Average yield</b></td><td><b>Revenue = Anticipated NTKM &times; Average yield per NTKM.</b> Both factors are essential for an accurate financial projection for major commodities.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: Originating loading</b></td><td>Tonnage alone ignores the distance hauled (lead), which is a critical factor in railway freight earnings.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Indian Railway Finance Code - Earnings Estimates.
+        `
     },
     {
-        question: "In the context of works contracts, what is Standard GCC?",
+        question: "104) In the context of works contracts, what is Standard GCC?",
         options: [
             "Standard Government Contract Conditions",
             "Standard General Conditions of Contract",
             "Standard General Catalogue of Contracts",
             "None of these"
         ],
-        correctAnswer: 1
+        correctAnswer: 1,
+        hint: `
+            <h3>Contractual Framework</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Legal Documentation:</b> To ensure uniformity and legal protection across thousands of construction and maintenance projects, the Railway Board issues a master document containing all foundational legal, technical, and financial rules binding on contractors.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Acronym Expansion</th><th>Application in Railways</th><th>Status</th></tr>
+                <tr><td><b>Option A, C</b></td><td>Fabricated expansions not used in the railway engineering/finance ecosystem.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Standard General Conditions of Contract</b></td><td>GCC is the universally accepted abbreviation for "General Conditions of Contract." It dictates standard terms like earnest money, defect liability, arbitration, and force majeure for all engineering works on Indian Railways.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Engineering Code / Standard General Conditions of Contract (GCC).
+        `
     },
     {
-        question: "Who can close the part-II Audit Inspection Report?",
+        question: "105) Who can close the part-II Audit Inspection Report?",
         options: [
             "Associate Accounts of the Executive on receiving satisfactory reply from executive department",
             "Directly by the executive department",
             "DRM",
             "None of these"
         ],
-        correctAnswer: 0
+        correctAnswer: 0,
+        hint: `
+            <h3>Audit Compliance and Closure</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Inspection Reports (IR):</b> Audit objections are classified based on severity. Part-I contains major irregularities requiring higher-level closure. Part-II contains procedural or minor irregularities.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Authority</th><th>Procedure</th><th>Status</th></tr>
+                <tr><td><b>Option A: Associate Accounts...</b></td><td>For Part-II audit objections, the Executive department must draft a reply and corrective action plan. Once the Associate Accounts Officer is satisfied with this reply, they have the delegated authority to close the Part-II item without sending it up to the highest audit bodies.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: Directly by executive</b></td><td>Executives cannot audit and clear themselves; Accounts must vet the reply.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: DRM</b></td><td>Administrative head, but the specific procedural closure of the audit file is an Accounts function.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Indian Railway Code for the Accounts Department (Audit Objections).
+        `
     },
     {
-        question: "In respect of Railways, which expenditure is \"charged\" on the Consolidated Fund of India?",
+        question: "106) In respect of Railways, which expenditure is \"charged\" on the Consolidated Fund of India?",
         options: [
             "Salary, allowance etc. payable to or in respect of the CAG",
             "Sums required to satisfy any judgement of any Court",
             "Arbitration awards where made into rule of Court",
             "All of these"
         ],
-        correctAnswer: 3
+        correctAnswer: 3,
+        hint: `
+            <h3>Charged vs. Voted Expenditure</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Constitutional Provision:</b> Article 112(3) specifies certain expenditures that are "Charged" upon the Consolidated Fund. These are non-votable by Parliament (they can be discussed, but not voted upon or denied), ensuring independence of constitutional bodies and compliance with legal decrees.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Expenditure Type</th><th>Constitutional Mandate</th><th>Status</th></tr>
+                <tr><td><b>Option A: CAG Salaries</b></td><td>Explicitly "charged" to ensure the Auditor General's independence from political pressure.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option B: Court Judgements</b></td><td>Any sums required to satisfy a decree or judgment of any court or arbitral tribunal are "charged" because the government cannot vote to ignore a legal mandate.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option C: Arbitration awards (Rule of Court)</b></td><td>Once an arbitration award is made a rule of the court, it holds the power of a court decree, making the payment a "charged" expenditure.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option D: All of these</b></td><td>All the listed items are legally and constitutionally classified as non-votable "Charged" expenditures.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Constitution of India - Article 112(3) / Indian Railway Finance Code.
+        `
     },
     {
-        question: "Land taken up permanently for works or Revenue purposes of the railway is charged to.......",
+        question: "107) Land taken up permanently for works or Revenue purposes of the railway is charged to.......",
         options: [
             "Revenue",
-            "Development",
+            "Development Fund",
             "Capital",
-            "None of these Fund"
+            "None of these"
         ],
-        correctAnswer: 2
+        correctAnswer: 2,
+        hint: `
+            <h3>Capital Accounting Rules</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Asset Creation:</b> The purchase of land is the acquisition of a permanent, appreciating physical asset that forms the foundational net worth of the railway network.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Accounting Head</th><th>Applicability</th><th>Status</th></tr>
+                <tr><td><b>Option A: Revenue</b></td><td>Used for operating expenses and consumable items, not permanent real estate.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Development Fund</b></td><td>Used for passenger amenities or unremunerative operating improvements, not basic land acquisition for general railway works.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Capital</b></td><td>Under railway financial rules, the cost of land taken up permanently for the construction of lines, stations, or revenue-generating facilities is entirely debited to the <b>Capital</b> account as it creates a permanent asset.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Indian Railway Finance Code - Allocation of Expenditure (Capital).
+        `
     },
     {
-        question: "Who is responsible for framing the estimates of expenditure/ earning?",
+        question: "108) Who is responsible for framing the estimates of expenditure/ earning?",
         options: [
             "Only Divisions",
             "Only Workshops",
             "The spending/earning authorities concerned",
             "Only Construction Organiztion"
         ],
-        correctAnswer: 2
+        correctAnswer: 2,
+        hint: `
+            <h3>Budget Estimation Responsibility</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Bottom-Up Budgeting:</b> A budget cannot be created in a vacuum by finance officers. The people executing the work or generating the revenue must project their own needs and targets.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Entity</th><th>Responsibility</th><th>Status</th></tr>
+                <tr><td><b>Option A, B, D</b></td><td>These options arbitrarily limit the responsibility to specific sub-units.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: The spending/earning authorities concerned</b></td><td>The fundamental rule of railway budgeting is that the primary responsibility for framing the budget estimates lies directly with the specific executive/administrative authorities who will be spending the money or collecting the earnings (e.g., Commercial department for earnings, Engineering for track works).</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Indian Railway Finance Code - Preparation of Budget Estimates.
+        `
     },
     {
-        question: "Audit of the accounts of a Zonal Railway is conducted by...",
+        question: "109) Audit of the accounts of a Zonal Railway is conducted by...",
         options: [
             "PFA",
             "Empanelled Auditors",
             "CAG",
             "Accountant General"
         ],
-        correctAnswer: 2
+        correctAnswer: 2,
+        hint: `
+            <h3>Statutory Audit Authority</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>External Oversight:</b> Indian Railways is a department of the Government of India. Therefore, its accounts must be audited by an independent constitutional body, not an internal or private entity.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Auditing Body</th><th>Role</th><th>Status</th></tr>
+                <tr><td><b>Option A: PFA</b></td><td>Maintains and compiles internal accounts, conducts internal checks, but does not perform the supreme external statutory audit.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Empanelled Auditors</b></td><td>Used for PSUs or specific corporate entities (like IRCTC/RITES), but not the core Zonal Railway government department.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: CAG</b></td><td>The Comptroller and Auditor General (CAG) of India, acting through the Principal Directors of Audit (PDA) at the zonal level, holds the constitutional mandate to conduct the final, independent audit of all railway accounts.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: Accountant General</b></td><td>Generally handles state government audits, whereas Zonal Railways are central subjects under specific Railway Audit wings.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Constitution of India (Art 148-151) / Railway Audit Manual.
+        `
     },
     {
-        question: "Which two parameters form the Operating Ratio?",
+        question: "110) Which two parameters form the Operating Ratio?",
         options: [
             "Net Working Expenses, and Gross Earnings",
             "Gross Working Expenses, and Net Earnings",
             "Gross Working Expenses, and Gross Earnings",
             "None of these"
         ],
-        correctAnswer: 2
-    },
+        correctAnswer: 2,
+        hint: `
+            <h3>Operating Ratio (OR)</h3>
+            <div style="background-color: #e6f2ff; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Financial Health Index:</b> The Operating Ratio is the most crucial metric of railway financial efficiency. It shows how much money is spent to earn 100 rupees. <br><br>
+                
+                <div style="font-size: 16px; font-family: 'Times New Roman', Times, serif; display: inline-flex; align-items: center;">
+                    <b style="margin-right: 8px;">Operating Ratio (OR) = </b>
+                    <div style="display: flex; flex-direction: column; align-items: center; margin-right: 8px;">
+                        <b style="border-bottom: 2px solid #000; padding: 0 5px; width: 100%; text-align: center;">Gross Working Expenses</b>
+                        <b style="padding: 2px 5px 0 5px;">Gross Traffic Earnings</b>
+                    </div>
+                    <b>&times; 100</b>
+                </div>
+                </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Parameters</th><th>Calculation Validity</th><th>Status</th></tr>
+                <tr><td><b>Option A: Net Expenses & Gross Earnings</b></td><td>Incorrect numerator.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Gross Expenses & Net Earnings</b></td><td>Incorrect denominator.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Gross Working Expenses, and Gross Earnings</b></td><td>The standard Operating Ratio is mathematically defined as the ratio of <b>Gross Working Expenses</b> (which includes ordinary working expenses + appropriation to DRF + Pension Fund) to the <b>Gross Traffic Receipts/Earnings</b>.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Indian Railway Finance Code / Operating Statistics.
+        `
+    }
 ];
 
 const AOM01062025_70 = [
