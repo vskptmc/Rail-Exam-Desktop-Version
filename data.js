@@ -39310,3 +39310,4401 @@ const RAJABHASHA_HINDI_ALL = [
         correctAnswer: 1
     }
 ];
+const AEE19102024_30 = [
+    {
+        question: "1) Which is the apex body to ensure integrated operation of the national power system?",
+        options: [
+            "CERC",
+            "SERC",
+            "RLDC",
+            "NLDC"
+        ],
+        correctAnswer: 3,
+        hint: `
+            <h3>National Power System Operation</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Core Concept:</b> The hierarchy of power dispatch centres in India ensures grid stability. The National Load Despatch Centre (NLDC) oversees the regional centres.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Authority</th><th>Role</th><th>Status</th></tr>
+                <tr><td><b>Option A: CERC</b></td><td>Central Electricity Regulatory Commission formulates policies and tariffs, but does not operate the grid.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: SERC</b></td><td>State Electricity Regulatory Commissions manage intra-state tariffs and regulations.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: RLDC</b></td><td>Regional Load Despatch Centres monitor regional grids (Northern, Western, etc.) under NLDC.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: NLDC</b></td><td>Apex body responsible for the integrated and stable operation of the entire national grid.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Electricity Act, 2003 (Section 26) & National Electricity Policy.
+        `
+    },
+    {
+        question: "2) As per CEA (Measures relating to Safety and Electricity Supply) Regulation- 2023, which type of transformer can be used if substation is located in the basement of the residential and commercial building?",
+        options: [
+            "Only oil filled transformer",
+            "Only dry type transformer",
+            "Any type of transformer",
+            "None of the given option"
+        ],
+        correctAnswer: 1,
+        hint: `
+            <h3>Transformer Safety in Basements</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Safety Protocol:</b> Installing electrical infrastructure in enclosed basement spaces introduces severe fire and explosion risks if insulating oils are used.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Transformer Type</th><th>Characteristics</th><th>Status</th></tr>
+                <tr><td><b>Option A: Only oil filled</b></td><td>Mineral oil is highly flammable. Leakage or internal faults can cause disastrous basement fires.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Only dry type</b></td><td>Uses epoxy resin or cast resin instead of oil. Self-extinguishing and significantly reduces fire hazards in enclosed indoor spaces.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: Any type</b></td><td>Violates stringent safety codes specifically banning flammable liquid volumes indoors.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: None of the given</b></td><td>Invalid as dry-type is explicitly mandated.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> CEA (Measures relating to Safety and Electricity Supply) Regulations, 2023.
+        `
+    },
+    {
+        question: "3) During a refrigeration cycle, heat is rejected by the refrigerant in a...",
+        options: [
+            "Compressor",
+            "Condenser",
+            "Evaporator",
+            "Expansion valve"
+        ],
+        correctAnswer: 1,
+        hint: `
+            <h3>Refrigeration Cycle Dynamics</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Thermodynamic Principle:</b> A standard vapor-compression cycle transfers heat from a low-temperature region to a high-temperature region.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Component</th><th>Function in Cycle</th><th>Status</th></tr>
+                <tr><td><b>Option A: Compressor</b></td><td>Increases the pressure and temperature of the refrigerant vapor. Does not reject heat.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Condenser</b></td><td>Acts as a heat exchanger where the high-pressure, high-temperature vapor releases heat to the ambient environment and condenses into a liquid.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: Evaporator</b></td><td>Absorbs heat from the space being cooled, turning the liquid refrigerant into vapor.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Expansion valve</b></td><td>Reduces the pressure of the refrigerant, cooling it down before it enters the evaporator.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> IS 659: Air Conditioning and Refrigeration standard manuals.
+        `
+    },
+    {
+        question: "4) Reading or writing requires an illumination of more than..",
+        options: [
+            "700 Lux",
+            "1000 Lux",
+            "300 Lux",
+            "None of the given option"
+        ],
+        correctAnswer: 2,
+        hint: `
+            <h3>Illumination Standards</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Lighting Ergonomics:</b> Proper lux levels are mandated to prevent visual fatigue and ensure optical health during sustained tasks.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Lux Level</th><th>Typical Application</th><th>Status</th></tr>
+                <tr><td><b>Option A: 700 Lux</b></td><td>Used for precision mechanical work or drawing offices. Overly bright for standard reading.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: 1000 Lux</b></td><td>Reserved for highly detailed tasks like electronic assembly or surgical theatres.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: 300 Lux</b></td><td>The standard minimum recommended illumination for office work, reading, writing, and classrooms.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: None</b></td><td>Invalid as 300 Lux is the established standard.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Bureau of Indian Standards (BIS) IS 3646 - Code of practice for interior illumination.
+        `
+    },
+    {
+        question: "5) DGA test is performed by.........",
+        options: [
+            "Gas chemical Analysis",
+            "Gas chromatography",
+            "Gas leak checking instruments",
+            "None of the given option"
+        ],
+        correctAnswer: 1,
+        hint: `
+            <h3>Dissolved Gas Analysis (DGA)</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Diagnostic Concept:</b> Internal faults in oil-filled transformers (arcing, partial discharge, overheating) cause the oil to break down into characteristic combustible gases.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Method</th><th>Capability</th><th>Status</th></tr>
+                <tr><td><b>Option A: Gas chemical Analysis</b></td><td>A broad term that does not specify the precision required for extracting and measuring parts-per-million (ppm) gas levels in oil.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Gas chromatography</b></td><td>The exact analytical technique used in DGA. It separates the gas mixture into individual components (Hydrogen, Methane, Ethylene, etc.) to quantify fault severity.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: Gas leak checking</b></td><td>Used for finding external leaks (e.g., SF6 sniffers), not for analyzing dissolved gases inside a liquid matrix.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: None</b></td><td>Invalid since Gas chromatography is the correct tool.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> IS 10593: Method of Evaluating the Analysis of Gases in Oil-filled Electrical Equipment.
+        `
+    },
+    {
+        question: "6) RCBO gives protection in case of....",
+        options: [
+            "Overload",
+            "Earth fault/earth leakage",
+            "Short circuit",
+            "All of the given option"
+        ],
+        correctAnswer: 3,
+        hint: `
+            <h3>RCBO Functionality</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Device Anatomy:</b> RCBO stands for <i>Residual Current Breaker with Overcurrent Protection</i>. It is a hybrid device combining the features of an MCB and an RCCB.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Protection Type</th><th>Mechanism</th><th>Status</th></tr>
+                <tr><td><b>Option A: Overload</b></td><td>Handled by the thermal tripping mechanism (bimetallic strip) built into the RCBO.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option B: Earth fault/leakage</b></td><td>Handled by the core-balance current transformer (CBCT) monitoring residual current mismatch.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option C: Short circuit</b></td><td>Handled by the magnetic tripping mechanism (solenoid coil) for instantaneous high-fault clearance.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option D: All of the given option</b></td><td>Since the RCBO combines thermal, magnetic, and residual current protection, it covers all these fault scenarios comprehensively.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> IEC 61009 / IS 12640 (Part 2) Standards for RCBOs.
+        `
+    },
+    {
+        question: "7) How soft start controller controls the speed",
+        options: [
+            "Control power and frequency",
+            "Control current and frequency",
+            "Control voltage and frequency",
+            "Control resistance and frequency"
+        ],
+        correctAnswer: 2,
+        hint: `
+            <h3>Motor Control Mechanics</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>VFD vs Soft Starter:</b> While traditional soft starters primarily control voltage via thyristors to limit inrush current, modern variable speed/soft start controllers regulate both Voltage and Frequency (V/f ratio) to maintain constant torque.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Method</th><th>Technical Reality</th><th>Status</th></tr>
+                <tr><td><b>Option A: Power and frequency</b></td><td>Power is a resultant parameter, not the primarily controlled independent variable at the semiconductor gate level.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Current and frequency</b></td><td>Current limits are monitored, but the actual gating control modulates the voltage waveform.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Control voltage and frequency</b></td><td>To achieve a smooth ramp-up in speed without saturating the magnetic core, the controller adjusts the RMS Voltage and the Output Frequency synchronously.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: Resistance and frequency</b></td><td>Rotor resistance control is an old method used for slip-ring motors, not modern electronic soft start controllers.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> IEEE standard practices for AC Motor Drives.
+        `
+    },
+    {
+        question: "8) Which safety device to stop descending car and counter weight beyond normal limit in a lift?",
+        options: [
+            "Over speed govermor",
+            "Car door",
+            "COP",
+            "Limit switch in pit"
+        ],
+        correctAnswer: 3,
+        hint: `
+            <h3>Elevator Safety Systems</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Terminal Protection:</b> Lifts have multiple safety layers. To prevent a car from crashing into the ground if normal stopping mechanisms fail, physical electrical switches are placed at the absolute travel limits.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Component</th><th>Safety Role</th><th>Status</th></tr>
+                <tr><td><b>Option A: Over speed governor</b></td><td>Detects excess speed during travel and engages safety gears to grip the guide rails. It does not specifically monitor the terminal pit limit.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Car door</b></td><td>Prevents passenger fallout and ensures the lift only moves when closed.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: COP</b></td><td>Car Operating Panel (buttons). It is a user interface, not a physical end-of-travel safety interlock.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Limit switch in pit</b></td><td>Directional limit switches installed in the pit cut off motor power and apply the machine brake if the car travels beyond its lowest normal landing.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> IS 14665 (Part 3): Safety Rules for Elevator operations.
+        `
+    },
+    {
+        question: "9) Which component of an escalator system carries the handrail?",
+        options: [
+            "Balustrade",
+            "Step Chain",
+            "Lower comb plate",
+            "Upper comb plate"
+        ],
+        correctAnswer: 0,
+        hint: `
+            <h3>Escalator Anatomy</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Structural Design:</b> Escalators require a sturdy side enclosure to protect passengers and provide a track mechanism for the moving handrail.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Component</th><th>Function</th><th>Status</th></tr>
+                <tr><td><b>Option A: Balustrade</b></td><td>The vertical side panel (often glass or steel) extending above the steps. Its primary structural purpose is to house and guide the moving handrail system.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: Step Chain</b></td><td>The mechanical linkage beneath the steps that drives the stair assembly via the main drive gear.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Lower comb plate</b></td><td>The stationary landing plate at the bottom where steps slide underneath.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Upper comb plate</b></td><td>The stationary landing plate at the top. Provides safe transition for feet, not handrails.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> IS 4591: Code of practice for installation and maintenance of escalators.
+        `
+    },
+    {
+        question: "10) Which component in elevator is load carrying element and provide support to the elevator car?",
+        options: [
+            "Buffer",
+            "Counter weight",
+            "Controller",
+            "Car sling"
+        ],
+        correctAnswer: 3,
+        hint: `
+            <h3>Elevator Structural Engineering</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Load Mechanics:</b> The visible elevator cabin does not bear the structural load directly; it sits inside a heavy-duty steel framework that connects to the hoisting ropes.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Component</th><th>Function</th><th>Status</th></tr>
+                <tr><td><b>Option A: Buffer</b></td><td>Shock absorbers located in the pit to dissipate kinetic energy if the car overtravels downward.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Counter weight</b></td><td>Balances the weight of the car plus 40-50% of the capacity, reducing motor load. It doesn't support the car itself.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Controller</b></td><td>The electronic brain (PLC/Microprocessor) managing lift logic and dispatching.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Car sling</b></td><td>Also known as the car frame. It is the robust load-carrying steel structure that holds the passenger cabin, attaches to the guide shoes, and connects to the suspension ropes.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> IS 14665 standards on Elevator suspension and structures.
+        `
+    },
+    {
+        question: "11) Which ISO standard is for energy management system?",
+        options: [
+            "ISO 9001",
+            "ISO 50001",
+            "ISO 14001",
+            "None of the given option"
+        ],
+        correctAnswer: 1,
+        hint: `
+            <h3>International Standardization</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>ISO Frameworks:</b> Organizations use specific ISO codes to audit and certify different aspects of their operational efficiency and compliance.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Standard</th><th>Domain Focus</th><th>Status</th></tr>
+                <tr><td><b>Option A: ISO 9001</b></td><td>Quality Management System (QMS). Focuses on customer satisfaction and quality processes.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: ISO 50001</b></td><td>Energy Management System (EnMS). Specifies requirements for establishing, maintaining, and improving energy efficiency and consumption.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: ISO 14001</b></td><td>Environmental Management System (EMS). Focuses on reducing environmental impact and pollution.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: None</b></td><td>Invalid as ISO 50001 is listed.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Bureau of Energy Efficiency (BEE) and ISO guidelines.
+        `
+    },
+    {
+        question: "12) In a circuit breaker the arc extinction can be achieved by.......",
+        options: [
+            "De-ionization of the arc",
+            "Replacement of the ionized gas by cool fresh gas",
+            "Both De-ionization of the arc and Replacement of the ionized gas by cool fresh gas",
+            "None of the given option"
+        ],
+        correctAnswer: 2,
+        hint: `
+            <h3>Arc Interruption Physics</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Arc Quenching:</b> When contacts separate, high current ionizes the medium, forming an arc. To break the circuit successfully at the zero-crossing, the dielectric strength of the gap must build up faster than the restriking voltage.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Mechanism</th><th>Effect</th><th>Status</th></tr>
+                <tr><td><b>Option A: De-ionization</b></td><td>Recombining ions into neutral atoms reduces the conductivity of the arc path, helping to extinguish the plasma.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option B: Replacement by cool gas</b></td><td>Blasting cool, un-ionized gas (like SF6 or air) physically blows away the conductive plasma and rapidly cools the gap, raising dielectric strength.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option C: Both A and B</b></td><td>Modern breakers (like Air Blast or SF6) utilize both mechanisms simultaneously: rapid cooling promotes de-ionization, and physical replacement removes the conducting medium.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: None</b></td><td>Incorrect.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Switchgear and Protection manuals; Principles of Arc Extinction.
+        `
+    },
+    {
+        question: "13) What is the indication of the Second digit in IP-XX code (Ingress protection code)?",
+        options: [
+            "Degree of protection against ingress of solid foreign object",
+            "Degree of protection against ingress of water with harmful effect",
+            "Degree of protection against temperature variation",
+            "Degree of protection against harmful gases"
+        ],
+        correctAnswer: 1,
+        hint: `
+            <h3>IP Rating Nomenclature</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Code Structure:</b> The Ingress Protection (IP) code consists of two digits classifying the degree of protection provided by electrical enclosures.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Code Element</th><th>Meaning</th><th>Status</th></tr>
+                <tr><td><b>Option A: Solid ingress</b></td><td>This is indicated by the <b>First Digit</b> (ranging from 0 to 6, e.g., protection against dust/hands).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Water ingress</b></td><td>This is indicated by the <b>Second Digit</b> (ranging from 0 to 9, e.g., protection against drips, sprays, or submersion).</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: Temperature</b></td><td>Temperature protection is not governed by the IP code format.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Harmful gases</b></td><td>Gas protection falls under explosion-proof (Ex) or hermetic sealing standards, not basic IP codes.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> IEC 60529 standard for Ingress Protection.
+        `
+    },
+    {
+        question: "14) For which of the following parameter variation, the capacitance of the capacitor remains unaffected?",
+        options: [
+            "Nature of dielectric",
+            "Thickness of the plates",
+            "Distance between the plates",
+            "Area of the plates"
+        ],
+        correctAnswer: 1,
+        hint: `
+            <h3>Capacitance Formula</h3>
+            <div style="background-color: #e6f2ff; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Formula:</b> <br>
+                C = &epsilon;<sub>0</sub> &epsilon;<sub>r</sub> A / d <br>
+                Where A is Area, d is distance, and &epsilon; is the dielectric nature.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Parameter</th><th>Effect on Capacitance</th><th>Status</th></tr>
+                <tr><td><b>Option A: Dielectric</b></td><td>Directly proportional (&epsilon;<sub>r</sub>). Changing the material alters C.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Thickness of plates</b></td><td>The thickness of the metal plates does not factor into the electrostatic field equation. Charge resides on the surfaces facing each other.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: Distance</b></td><td>Inversely proportional (d). Increasing distance decreases capacitance.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Area</b></td><td>Directly proportional (A). Increasing overlap area increases capacitance.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Basic Electrostatics principles.
+        `
+    },
+    {
+        question: "15) If 2V is supplied to a 3F capacitor, calculate the charge stored in the capacitor.",
+        options: [
+            "1.5C",
+            "6C",
+            "2C",
+            "3C"
+        ],
+        correctAnswer: 1,
+        hint: `
+            <h3>Charge Calculation</h3>
+            <div style="background-color: #e6f2ff; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Formula:</b> <br>
+                Q = C &times; V <br>
+                Where:<br>
+                Q = Charge in Coulombs (C)<br>
+                C = Capacitance in Farads (F) = 3F<br>
+                V = Voltage in Volts (V) = 2V
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Calculation</th><th>Result</th><th>Status</th></tr>
+                <tr><td><b>Option A: 1.5C</b></td><td>Mathematical error (would be 3 / 2).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: 6C</b></td><td>Q = 3F &times; 2V = 6 Coulombs.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: 2C</b></td><td>Matches the voltage value, not the product.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: 3C</b></td><td>Matches the capacitance value, not the product.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Fundamental Physics / Electrical Engineering principles.
+        `
+    },
+    {
+        question: "16) The full-load copper loss of a transformer is 1600 W. At half-load, the copper loss will be.........",
+        options: [
+            "6400 W",
+            "1600 W",
+            "800 W",
+            "400 W"
+        ],
+        correctAnswer: 3,
+        hint: `
+            <h3>Transformer Losses</h3>
+            <div style="background-color: #e6f2ff; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Formula:</b> <br>
+                Copper losses (P<sub>cu</sub>) are variable and proportional to the square of the load current (I<sup>2</sup>R).<br>
+                P<sub>cu</sub>(at fraction x) = x<sup>2</sup> &times; P<sub>cu</sub>(full load)
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Option</th><th>Calculation Breakdown</th><th>Status</th></tr>
+                <tr><td><b>Option A: 6400 W</b></td><td>This would occur at double (2x) the full load (2<sup>2</sup> &times; 1600).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: 1600 W</b></td><td>This is the loss at exactly full load (1x).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: 800 W</b></td><td>Mathematical error assuming linear proportionality instead of square (1600 / 2).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: 400 W</b></td><td>x = 0.5. Loss = (0.5)<sup>2</sup> &times; 1600 = 0.25 &times; 1600 = 400W.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Electrical Machines theory.
+        `
+    },
+    {
+        question: "17) Which of the following diode is used as voltage regulators?",
+        options: [
+            "PN junction diode",
+            "Zener diode",
+            "Schottky diode",
+            "Tunnel diode"
+        ],
+        correctAnswer: 1,
+        hint: `
+            <h3>Diode Applications</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Reverse Breakdown:</b> Special diodes are doped heavily to exploit the breakdown region without suffering damage, thereby providing a stable reference voltage.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Diode Type</th><th>Primary Application</th><th>Status</th></tr>
+                <tr><td><b>Option A: PN junction</b></td><td>Standard rectification (AC to DC conversion). Operating in reverse breakdown typically destroys it.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Zener diode</b></td><td>Specifically designed to operate continuously in the reverse-biased breakdown region. It maintains a constant voltage across its terminals, acting as a voltage regulator.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: Schottky diode</b></td><td>Used for high-frequency applications and fast switching due to very low forward voltage drop.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Tunnel diode</b></td><td>Used in microwave frequency oscillators due to its negative resistance characteristic.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Basic Electronics components manuals.
+        `
+    },
+    {
+        question: "18) What is the full form of SMPS in Electronic head code?",
+        options: [
+            "Switched mode power supply",
+            "Switch mode panel supply",
+            "Stand mode power supply",
+            "None of the given option"
+        ],
+        correctAnswer: 0,
+        hint: `
+            <h3>Power Electronics</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Definition:</b> SMPS represents a modern, highly efficient power conversion technique using high-frequency switching.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Expansion</th><th>Analysis</th><th>Status</th></tr>
+                <tr><td><b>Option A: Switched mode power supply</b></td><td>Correct technical terminology. It uses switching devices (MOSFETs, IGBTs) that turn on and off at high frequencies to convert and regulate power.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: Switch mode panel supply</b></td><td>Invented term; 'panel' is not part of the standard acronym.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Stand mode power supply</b></td><td>Invented term; 'stand mode' has no relevance in power topologies.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: None</b></td><td>Invalid since Option A is correct.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Standard Electrical/Electronics Abbreviations.
+        `
+    },
+    {
+        question: "19) Choose the incorrect statement",
+        options: [
+            "SCR is a bidirectional device",
+            "SCR is a controlled device",
+            "In SCR the gate is the controlling terminal",
+            "SCR are used for high-power applications"
+        ],
+        correctAnswer: 0,
+        hint: `
+            <h3>Silicon Controlled Rectifier (SCR) Characteristics</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Device Anatomy:</b> An SCR is a 4-layer (PNPN), 3-terminal thyristor device used to switch large currents.
+            </div>
+            <h4>Option Analysis (Looking for the FALSE statement)</h4>
+            <table>
+                <tr><th>Statement</th><th>Technical Truth</th><th>Status</th></tr>
+                <tr><td><b>Option A: SCR is a bidirectional device</b></td><td><b>False.</b> An SCR conducts current in only one direction (Anode to Cathode), acting like a controlled diode. A TRIAC is the bidirectional equivalent.</td><td><b>Correct Answer (Because it is incorrect)</b></td></tr>
+                <tr><td><b>Option B: SCR is a controlled device</b></td><td>True. It blocks voltage until a trigger pulse is applied.</td><td><u>Incorrect Choice</u></td></tr>
+                <tr><td><b>Option C: Gate is controlling terminal</b></td><td>True. A positive current pulse at the gate triggers conduction.</td><td><u>Incorrect Choice</u></td></tr>
+                <tr><td><b>Option D: Used for high-power</b></td><td>True. SCRs are heavily used in industrial motor drives and HVDC transmissions due to high voltage/current ratings.</td><td><u>Incorrect Choice</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Power Electronics by P.S. Bimbhra.
+        `
+    },
+    {
+        question: "20) If the speed of a DC shunt motor is increased, the back EMF of the motor will.........",
+        options: [
+            "Decrease",
+            "Increase",
+            "Remain same",
+            "Increase then decrease"
+        ],
+        correctAnswer: 1,
+        hint: `
+            <h3>DC Motor Back EMF</h3>
+            <div style="background-color: #e6f2ff; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Formula:</b> <br>
+                E<sub>b</sub> = P &Phi; Z N / 60A <br>
+                Therefore, Back EMF (E<sub>b</sub>) is directly proportional to speed (N) and magnetic flux (&Phi;).
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Effect on Back EMF</th><th>Reasoning</th><th>Status</th></tr>
+                <tr><td><b>Option A: Decrease</b></td><td>Violates the direct proportionality relationship.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Increase</b></td><td>Since E<sub>b</sub> &propto; N, an increase in rotor speed (N) means the armature conductors cut the magnetic flux at a faster rate, generating higher counter-electromotive force (Back EMF).</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: Remain same</b></td><td>Speed change fundamentally alters the rate of flux cutting.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Increase then decrease</b></td><td>There is no transient reversal; the relationship is strictly linear.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Electric Machinery Fundamentals.
+        `
+    },
+    {
+        question: "21) In two packet tender system",
+        options: [
+            "Technical bid is opened first",
+            "Financial bid is opened first",
+            "Both are opened at same time",
+            "None of the given option"
+        ],
+        correctAnswer: 0,
+        hint: `
+            <h3>Railway Tendering System</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Procurement Logic:</b> Complex works or items require assessing the bidder's capability before looking at their price, ensuring safety and quality standards aren't compromised by simply picking the lowest bidder.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Tender Sequence</th><th>Consequence</th><th>Status</th></tr>
+                <tr><td><b>Option A: Technical bid first</b></td><td>In a Two-Packet System, Packet-I (Technical & Commercial Bid) is opened first. Only bidders who pass the technical evaluation have their Packet-II (Financial/Price Bid) opened.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: Financial bid first</b></td><td>Defeats the purpose; knowing the price might bias the technical evaluation.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Both at same time</b></td><td>This is characteristic of a Single Packet system for standard/simple works, not a Two Packet system.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: None</b></td><td>Invalid since Option A is accurate.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Indian Railways Finance Code & General Conditions of Contract (GCC).
+        `
+    },
+    {
+        question: "22) What is the financial limit of SA grade officer in case of works matter under quotation as per model SOP 2018?",
+        options: [
+            "Rs. 5 lakh per case",
+            "Rs. 10 lakh per case",
+            "Rs 2 lakh per case",
+            "Full power"
+        ],
+        correctAnswer: 1,
+        hint: `
+            <h3>Schedule of Powers (SOP)</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Financial Delegation:</b> The Model SOP standardizes the financial limits up to which different grades of officers can sanction works via quotations without calling for open tenders, to ensure rapid execution of urgent works.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Limit per case</th><th>Applicability</th><th>Status</th></tr>
+                <tr><td><b>Option A: Rs. 5 lakh</b></td><td>Usually the limit for SG/JAG (Selection Grade/Junior Administrative Grade) officers.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Rs. 10 lakh</b></td><td>As per Model SOP 2018, Senior Administrative Grade (SAG) officers (like ADRM, CWM) have the power to dispense with calling tenders and accept quotations up to Rs. 10 Lakh per case.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: Rs. 2 lakh</b></td><td>Typically the limit for Senior Scale officers.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Full power</b></td><td>Financial limits are always capped for quotation-based works to prevent bypassing the open tender system for large projects.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Model Schedule of Powers (MSOP) - 2018, Part-A (Works Matters).
+        `
+    },
+    {
+        question: "23) Who is entitled to issue certificate regarding completion of work?",
+        options: [
+            "Firm's representative",
+            "Account officer",
+            "Nominated supervisor/engineer",
+            "Sanctioning authority"
+        ],
+        correctAnswer: 2,
+        hint: `
+            <h3>Contract Management</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Quality Assurance:</b> A work completion certificate is a legal document triggering the release of final payments and the start of the defect liability period.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Authority</th><th>Role in Contract</th><th>Status</th></tr>
+                <tr><td><b>Option A: Firm's representative</b></td><td>Executes the work, but cannot self-certify completion for payment purposes.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Account officer</b></td><td>Processes payments based on executive certification, but does not inspect physical engineering work.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Nominated supervisor/engineer</b></td><td>The Engineer-in-charge or their nominated representative inspects the site, verifies measurements against specifications, and officially issues the completion certificate.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: Sanctioning authority</b></td><td>Sanctions the budget initially, but field supervision and certification are delegated to site engineers.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> General Conditions of Contract (GCC) - Clause 48.
+        `
+    },
+    {
+        question: "24) In the event of Force Majeure.......... can be done",
+        options: [
+            "Extension in time limit",
+            "Temporary Suspension of work",
+            "Termination of Contract",
+            "All of the given option"
+        ],
+        correctAnswer: 3,
+        hint: `
+            <h3>Force Majeure Clause</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Legal Definition:</b> "Force Majeure" refers to unforeseeable circumstances (Acts of God, war, epidemics) that prevent a party from fulfilling a contract.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Action</th><th>GCC Provision</th><th>Status</th></tr>
+                <tr><td><b>Option A: Extension</b></td><td>If the event causes delays but work is still viable, a time extension without penalty is granted.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option B: Suspension</b></td><td>Work can be temporarily halted until the disruptive event passes.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option C: Termination</b></td><td>If the Force Majeure event persists beyond a specified timeframe (e.g., 60/90 days), either party may terminate the contract without financial penalty.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option D: All of the given</b></td><td>Depending on the severity and duration of the event, any of these three actions can be legally invoked.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> General Conditions of Contract (GCC) - Force Majeure clause (Clause 17).
+        `
+    },
+    {
+        question: "25) Which agency is not a vendor approving agency?",
+        options: [
+            "RDSO",
+            "RITES",
+            "CLW",
+            "BLW"
+        ],
+        correctAnswer: 1,
+        hint: `
+            <h3>Railway Quality Assurance</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Vendor Directories:</b> To supply critical safety and operational items to IR, vendors must be technically audited and registered by designated apex bodies.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Agency</th><th>Primary Function</th><th>Status</th></tr>
+                <tr><td><b>Option A: RDSO</b></td><td>Research Designs and Standards Organisation. The primary vendor approving agency for most safety items.</td><td><u>Incorrect (It IS an approving agency)</u></td></tr>
+                <tr><td><b>Option B: RITES</b></td><td>Rail India Technical and Economic Service. Primarily functions as a third-party <b>Inspecting Agency</b> (checking finished goods against approved specs), not a vendor <i>approving/registering</i> authority.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: CLW</b></td><td>Chittaranjan Locomotive Works. Approves vendors for electric locomotive components.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: BLW</b></td><td>Banaras Locomotive Works. Approves vendors for diesel/electric loco specific components.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Railway Board Guidelines on Vendor Approval & RITES inspection mandates.
+        `
+    },
+    {
+        question: "26) Vetting of EAC/AAC is required for.........",
+        options: [
+            "A category Items",
+            "B category Items",
+            "Both A and B category items",
+            "All items"
+        ],
+        correctAnswer: 0,
+        hint: `
+            <h3>Inventory Management (ABC Analysis)</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Financial Vetting:</b> Estimated Annual Consumption (EAC) / Average Annual Consumption (AAC) must be vetted by accounts to ensure budget discipline. The level of scrutiny depends on the financial value of the inventory category.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Category</th><th>Vetting Requirement</th><th>Status</th></tr>
+                <tr><td><b>Option A: A category Items</b></td><td>These represent ~70% of total inventory value but only ~10% of quantity. Due to high financial implication, strict Accounts vetting of AAC is mandatory.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: B category Items</b></td><td>Represent ~20% of value. Vetting is generally relaxed or delegated to executive levels to speed up procurement.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C & D</b></td><td>Mandatory vetting for low-value items (B and C) would create massive administrative bottlenecks without significant financial benefit.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Indian Railways Code for the Stores Department.
+        `
+    },
+    {
+        question: "27) What is the full form of WTA?",
+        options: [
+            "Vendor Trade Association",
+            "World Trade Association",
+            "Wheel Tire and Axle",
+            "Wheel Track Alignment"
+        ],
+        correctAnswer: 2,
+        hint: `
+            <h3>Rolling Stock Procurement</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Centralized Items:</b> Certain critical components are procured centrally by the Railway Board to ensure uniform quality and economies of scale.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Expansion</th><th>Railway Context</th><th>Status</th></tr>
+                <tr><td><b>Option A & B</b></td><td>Irrelevant to rolling stock or railway mechanical inventory.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Wheel Tire and Axle</b></td><td>WTA items are the core running gear of locomotives and coaches. The Railway Board handles the Bulk Indent and procurement for these specifically via the WTA contract.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: Wheel Track Alignment</b></td><td>Alignment is a track geometry concept, not a procurement category.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Railway Board Stores Procurement Manual (WTA Section).
+        `
+    },
+    {
+        question: "28) If for an item, demand has been generated, and tender has been floated. This will come under.........",
+        options: [
+            "Covered dues",
+            "Stores in transit",
+            "Un-covered dues",
+            "Buffer Stock"
+        ],
+        correctAnswer: 2,
+        hint: `
+            <h3>Stores Status Nomenclature</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Procurement Pipeline:</b> To accurately calculate how much more stock needs to be ordered, existing requisitions must be classified based on whether a formal contract exists.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Term</th><th>Definition</th><th>Status</th></tr>
+                <tr><td><b>Option A: Covered dues</b></td><td>Dues for which Purchase Orders (POs) have already been placed and accepted by the firm. The supply is legally "covered".</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Stores in transit</b></td><td>Material that has been dispatched by the vendor but not yet received/receipted by the depot.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Un-covered dues</b></td><td>Demand is generated, indent is placed, and tender is floated, but the PO is NOT yet issued. The demand is pending but legally "uncovered".</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: Buffer Stock</b></td><td>Emergency physical stock kept to absorb fluctuations in consumption or supply delays.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Indian Railways Code for the Stores Department.
+        `
+    },
+    {
+        question: "29) What is the capacity of main power transformer provided in LHB AC Coaches?",
+        options: [
+            "100 KVA",
+            "75 kVA",
+            "60 kVA",
+            "50 kVA"
+        ],
+        correctAnswer: 2,
+        hint: `
+            <h3>LHB Coach Power Supply (HOG/EOG)</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Electrical Architecture:</b> LHB coaches take 750V, 3-Phase AC from the End-On-Generation (EOG) power car or HOG loco and step it down to 415V/110V for coach loads (AC units, lights, fans).
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Capacity</th><th>Context</th><th>Status</th></tr>
+                <tr><td><b>Option A: 100 KVA</b></td><td>Too large for a single LHB coach requirement.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: 75 kVA</b></td><td>Sometimes used in highly specialized loads, but not standard AC coaches.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: 60 kVA</b></td><td>The standard step-down transformer capacity mounted under-slung on LHB AC coaches to handle the 2 RMPUs (Roof Mounted Package Units) and ancillary loads.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: 50 kVA</b></td><td>Historically used in older SG coaches, but insufficient for LHB AC requirements.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> RCF/ICF Maintenance Manual for LHB Coaches (Electrical).
+        `
+    },
+    {
+        question: "30) What is the full form of WRA in LHB Coaches?",
+        options: [
+            "Wire relay appliances",
+            "Water raising apparatus",
+            "Worker relief arrangement",
+            "None of the given options"
+        ],
+        correctAnswer: 1,
+        hint: `
+            <h3>Coach Amenities Systems</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Fluid Mechanics:</b> Water is stored in under-slung tanks in LHB coaches to lower the center of gravity. It must be actively pumped to the overhead auxiliary tanks or directly to the taps.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Expansion</th><th>Analysis</th><th>Status</th></tr>
+                <tr><td><b>Option A: Wire relay</b></td><td>Nonsensical combination of electrical terms.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Water raising apparatus</b></td><td>The centrifugal pump/compressor system used to pressurize and lift water from underframe tanks to the passenger utility areas.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: Worker relief</b></td><td>Irrelevant administrative term.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: None</b></td><td>Invalid.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> LHB Maintenance Manual (Water Supply System).
+        `
+    },
+    {
+        question: "31) Which relay will trip DJ if MVSL-2 burnt with earth fault?",
+        options: [
+            "QLA",
+            "QOP-1",
+            "QOA",
+            "QLM"
+        ],
+        correctAnswer: 2,
+        hint: `
+            <h3>Conventional Loco Protection Circuit (WAG-5/WAG-7)</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Earth Fault Relays:</b> Different sections of the locomotive's electrical circuit have dedicated earth fault relays to trip the Main Circuit Breaker (DJ). MVSL-2 is the Smoothing Reactor Blower Motor.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Relay</th><th>Protection Zone</th><th>Status</th></tr>
+                <tr><td><b>Option A: QLA</b></td><td>Earth fault relay for Auxiliary circuits operating on 380V/415V (Arno/SI outputs). However, QOA specifically handles the auxiliaries.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: QOP-1</b></td><td>Earth fault relay for Power Circuit 1 (Traction Motors 1, 2, 3).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: QOA</b></td><td>Earth fault relay for the Auxiliary power circuit. Since MVSL-2 is an auxiliary motor powered by the auxiliary winding/converter, an earth fault here energizes QOA, which trips the DJ.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: QLM</b></td><td>Overcurrent relay for the Main Transformer.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> AC Electric Loco Operating Manual (Circuit details).
+        `
+    },
+    {
+        question: "32) Which of the following relay is provided on auxiliary control circuit?",
+        options: [
+            "Q-118",
+            "QOA",
+            "Q-100",
+            "QCVAR"
+        ],
+        correctAnswer: null,
+        hint: `
+            <h3>Locomotive Relays</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Note:</b> This question was officially deleted from the evaluation, likely due to ambiguity in the term "auxiliary control circuit" or multiple relays fitting the criteria in different loco configurations.
+            </div>
+        `
+    },
+    {
+        question: "33) J-1 and J-2 (reverser) are operated by whom?",
+        options: [
+            "MP",
+            "MPJ",
+            "ZPT",
+            "BL"
+        ],
+        correctAnswer: 1,
+        hint: `
+            <h3>Locomotive Control Devices</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Directional Control:</b> The reversers (J1, J2) swap the armature/field connections of traction motors to change the locomotive's direction.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Component</th><th>Function</th><th>Status</th></tr>
+                <tr><td><b>Option A: MP</b></td><td>Master Controller handle. Operates traction/braking notches (GR progression).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: MPJ</b></td><td>Master Controller for Reverser. Moving MPJ to Forward (F) or Reverse (R) throws the electro-pneumatic valves controlling the J-1 and J-2 reverser drums.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: ZPT</b></td><td>Pantograph selector switch.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: BL</b></td><td>Key box controlling various low voltage switches (BLDJ, BLCP, etc.).</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Electric Locomotive Manual (Tap Changer Locos).
+        `
+    },
+    {
+        question: "34) Which fuse will melt in WAG-7 loco if there is earth fault in coil of C-107",
+        options: [
+            "CCDJ",
+            "CCA",
+            "CCPT",
+            "CCLC"
+        ],
+        correctAnswer: 1,
+        hint: `
+            <h3>Auxiliary Control Circuit Faults (WAG-7)</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Fuse Segregation:</b> The 110V DC control circuit is divided into branches, each protected by a specific control circuit fuse (CC). C-107 is the contactor for Arno/auxiliary phases.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Fuse</th><th>Circuit Protected</th><th>Status</th></tr>
+                <tr><td><b>Option A: CCDJ</b></td><td>Protects the DJ (Main Circuit Breaker) control circuit.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: CCA</b></td><td>Control Circuit Auxiliary fuse. Supplies control voltage to auxiliary contactors including C-107, C-118, etc. An earth fault in the C-107 operating coil causes high current on this branch, blowing CCA.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: CCPT</b></td><td>Protects the Pantograph control circuit.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: CCLC</b></td><td>Protects the Loco Control circuit (Tap changer/progression logic).</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> WAG-7 Troubleshooting Directory.
+        `
+    },
+    {
+        question: "35) What is the technical name of RS valve?",
+        options: [
+            "D-1/D-2 pilot valve",
+            "ABEV",
+            "EBV",
+            "MU2B"
+        ],
+        correctAnswer: 2,
+        hint: `
+            <h3>Pneumatic Brake System</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Emergency Action:</b> The RS (Rukawat Signal/Emergency Stop) valve in a locomotive cabin allows the assistant loco pilot (or pilot) to apply sudden emergency brakes.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Valve Name</th><th>Function</th><th>Status</th></tr>
+                <tr><td><b>Option A: D-1/D-2</b></td><td>Pilot air valves used for unloader logic in compressors.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: ABEV</b></td><td>Not standard terminology for the emergency valve.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: EBV</b></td><td>Emergency Brake Valve. Technically, the RS valve rapidly exhausts the Brake Pipe (BP) pressure to zero to cause instantaneous brake application.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: MU2B</b></td><td>Pneumatic valve used for Multiple Unit (MU) configurations to isolate/lead brake systems.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> IRAB-1 Brake System Manual.
+        `
+    },
+    {
+        question: "36) When one air sprig failed in EMU rake then maximum speed is..........",
+        options: [
+            "15 kmph",
+            "20 kmph",
+            "60 kmph",
+            "101 kmph"
+        ],
+        correctAnswer: 2,
+        hint: `
+            <h3>Rolling Stock Safety Limits</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Suspension Failure:</b> Secondary suspension in modern EMUs utilizes Air Springs for ride comfort. If an air spring deflates (bursts), the coach rests on the emergency rubber bump stops, degrading ride dynamics.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Speed Limit</th><th>Scenario</th><th>Status</th></tr>
+                <tr><td><b>Option A & B</b></td><td>Overly restrictive; typically used for major mechanical breakages or severe track defects.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: 60 kmph</b></td><td>As per RDSO guidelines, if an air spring fails on route, the train can proceed up to the destination or next maintenance depot at a restricted speed of 60 kmph to prevent derailment from poor suspension dynamics.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: 101 kmph</b></td><td>Normal operating speed range. Unsafe with deflated springs.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> RDSO Maintenance instructions for Air Spring Suspension in EMUs/Coaches.
+        `
+    },
+    {
+        question: "37) Specific gravity of battery in fully charged condition is.........",
+        options: [
+            "1.00",
+            "1.700",
+            "1.220",
+            "1.160"
+        ],
+        correctAnswer: 2,
+        hint: `
+            <h3>Lead-Acid Battery Maintenance</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Electrolyte Concentration:</b> Specific Gravity (SG) measures the density of the sulfuric acid electrolyte relative to water. It rises as sulphate ions return to the liquid during charging.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>SG Value</th><th>Battery State</th><th>Status</th></tr>
+                <tr><td><b>Option A: 1.000</b></td><td>SG of pure water. A battery here is totally dead or acid is missing.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: 1.700</b></td><td>Chemically impossible for standard battery acid solutions (pure acid is ~1.83).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: 1.220</b></td><td>For railway locomotive lead-acid batteries (VRLA or flooded), a fully charged state corresponds to a specific gravity of around 1.210 to 1.240 at room temp.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: 1.160</b></td><td>Indicates a completely discharged or heavily sulfated battery.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Indian Railways Maintenance Manual for Lead-Acid Batteries.
+        `
+    },
+    {
+        question: "38) Difference between two consecutive span length should not be more than.........",
+        options: [
+            "25 m",
+            "20 m",
+            "18 m",
+            "16 m"
+        ],
+        correctAnswer: 2,
+        hint: `
+            <h3>OHE Geometry and Mechanical Tension</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>OHE Design Rules:</b> Span length is the distance between two OHE masts. Abrupt changes in span lengths create unbalanced along-track mechanical tension on the catenary and contact wires, causing wind deflection issues.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Length Difference</th><th>Analysis</th><th>Status</th></tr>
+                <tr><td><b>Option A & B</b></td><td>A difference of 20m or 25m is too severe and leads to high longitudinal swing of the OHE.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: 18 m</b></td><td>According to AC Traction Manual (ACTM), to ensure smooth transition of mechanical tension, the difference between any two consecutive span lengths must not exceed 18 meters.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: 16 m</b></td><td>While safe, the absolute maximum permissible is 18m.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> AC Traction Manual (ACTM) Vol. II, Part II, OHE Design Principles.
+        `
+    },
+    {
+        question: "39) In AC traction, normal encumbrance at support is.........",
+        options: [
+            "1.9 m",
+            "1.4 m",
+            "0.9 m",
+            "2.0 m"
+        ],
+        correctAnswer: 1,
+        hint: `
+            <h3>OHE Parameters</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Encumbrance Definition:</b> Encumbrance is the axial distance between the catenary wire and the contact wire at the OHE support structure.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Encumbrance</th><th>Application</th><th>Status</th></tr>
+                <tr><td><b>Option A: 1.9 m</b></td><td>Not a standard value on Indian Railways.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: 1.4 m</b></td><td>This is the standard, normal encumbrance adopted for 25kV AC traction OHE to provide adequate dropper lengths and mechanical flexibility.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: 0.9 m</b></td><td>Reduced encumbrance, used near turnouts or beneath over-line structures with tight clearances.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: 2.0 m</b></td><td>Excessive; requires unnecessarily tall masts.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> ACTM Vol. II, Chapter on Standard OHE Dimensions.
+        `
+    },
+    {
+        question: "40) At obligatory structure of turnout, it is general practice to give encumbrance of",
+        options: [
+            "1.4 m. tumout OHE & 0.9 m. main line OHE",
+            "0.9 m. turnout OHE & 1.4 m. main line OHE",
+            "1.4 m. turnout OHE & 1.4 m. main line OHE",
+            "0.9 m. turnout OHE & 0.9 m. main line OHE"
+        ],
+        correctAnswer: 0,
+        hint: `
+            <h3>Turnout OHE Design</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Crossing Geometries:</b> At a turnout, two OHE systems (Main Line and Turnout Line) overlap. To prevent physical fouling of the catenary systems, they are kept at different encumbrances at the obligatory mast.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Setup</th><th>Reasoning</th><th>Status</th></tr>
+                <tr><td><b>Option A: 1.4m Turnout & 0.9m Main Line</b></td><td>Standard practice. The Main Line OHE is kept at a reduced encumbrance (0.9m) to maintain better pantograph dynamics for high-speed straight running, while the turnout OHE is kept higher at 1.4m.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B, C, D</b></td><td>Opposite to standard design conventions which prioritize main line high-speed stability.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> ACTM Vol. II, OHE Profiles at Turnouts.
+        `
+    },
+    {
+        question: "41) The change in the height of the contact wire to be achieved very gradually, to avoid-",
+        options: [
+            "Loose contact between contact wire & pantograph",
+            "Exert excessive pressure on the contact wire by pantograph.",
+            "Poor current collection",
+            "All of the given option"
+        ],
+        correctAnswer: 3,
+        hint: `
+            <h3>OHE Gradient Principles</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Contact Dynamics:</b> The contact wire cannot change height abruptly (e.g., when passing under a bridge). The slope (gradient) must be strictly controlled (usually 3mm/m max) for high speeds.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Consequence of Steep Gradients</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: Loose contact</b></td><td>If the wire drops or rises too fast, the pantograph's aerodynamic mass cannot track it, causing separation (arcing).</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option B: Excessive pressure</b></td><td>If the wire slopes down too sharply, the upward-pushing pantograph crashes into it heavily, causing mechanical wear.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option C: Poor current collection</b></td><td>Arcing and bouncing inherently lead to interrupted current collection and sparks.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option D: All of the given</b></td><td>Abrupt height changes trigger all the above mechanical and electrical failures.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> ACTM Vol. II, Section on OHE Gradients.
+        `
+    },
+    {
+        question: "42) The maximum wind pressure which is considered to design OHE structures for Red zone is.........",
+        options: [
+            "110 kgf/m<sup>2</sup>",
+            "160 kgf/m<sup>2</sup>",
+            "150 kgf/m<sup>2</sup>",
+            "180 kgf/m<sup>2</sup>"
+        ],
+        correctAnswer: null,
+        hint: `
+            <h3>Wind Pressure Design Standards</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Note:</b> This question was officially deleted from the evaluation, likely due to updates in structural codes or ambiguity in the exact zone definition within newer guidelines.
+            </div>
+        `
+    },
+    {
+        question: "43) In OHE which one is a true statement?",
+        options: [
+            "G jumper can be provided any side of obligatory mast in overlap type turn out",
+            "G jumper should strictly be provided in tum out span",
+            "G jumper should strictly be provided in overlapping span",
+            "G jumper depends on length of G jumper"
+        ],
+        correctAnswer: 2,
+        hint: `
+            <h3>OHE Jumpers</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>'G' Jumper Function:</b> The G Jumper (In-span jumper) connects the catenary wire and contact wire electrically to equalize current and prevent localized heating. At overlaps, it prevents potential differences between overlapping wires.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Placement Rule</th><th>Reasoning</th><th>Status</th></tr>
+                <tr><td><b>Option A & B & D</b></td><td>Arbitrary placement or turnout span placement risks poor electrical continuity during pantograph transition.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: strictly in overlapping span</b></td><td>At uninsulated overlaps, the G jumper must strictly be provided in the overlapping span to ensure both OHE systems are at identical potential before the pantograph bridges them.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> ACTM Vol. II, Jumper arrangements at Overlaps.
+        `
+    },
+    {
+        question: "44) In OHE when the Level Crossing Gate is approached, the height of contact wire is.........",
+        options: [
+            "Reduced",
+            "Either Reduced or Increased",
+            "Increased",
+            "Neither Reduced nor Increased"
+        ],
+        correctAnswer: 2,
+        hint: `
+            <h3>Clearance at Level Crossings</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Public Safety:</b> Over-dimensional road vehicles (trucks, buses) cross railway tracks at Level Crossings. To prevent catastrophic electrocution of road traffic, the 25kV live wire must be kept safely out of reach.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Action on Contact Wire</th><th>Outcome</th><th>Status</th></tr>
+                <tr><td><b>Option A: Reduced</b></td><td>Lowering the wire increases the risk of road vehicles touching 25kV.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Increased</b></td><td>The contact wire height is normally increased to 5.50m (or higher per latest guidelines) to provide safe electrical clearance for road vehicles.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B & D</b></td><td>Standardizing a raised height is mandatory, not arbitrary.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> ACTM Vol. II, Clearances at Level Crossings.
+        `
+    },
+    {
+        question: "45) The minimum height of OHE in the loco shed should not be less than.........",
+        options: [
+            "5.60 m",
+            "5.80 m",
+            "5.75 m",
+            "4.80 m"
+        ],
+        correctAnswer: 1,
+        hint: `
+            <h3>Loco Shed Safety Clearances</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Shed Maintenance:</b> Personnel regularly climb onto locomotive roofs for inspection and pantograph maintenance inside sheds. 
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Height</th><th>Implication</th><th>Status</th></tr>
+                <tr><td><b>Option A: 5.60 m</b></td><td>Insufficient clearance for safe roof working.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: 5.80 m</b></td><td>The standard minimum height of the contact wire inside loco sheds and inspection lines is mandated as 5.80 m to protect staff from accidental flashes.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C & D</b></td><td>Non-standard parameters. 4.80m is near normal line height, deadly for roof workers.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> ACTM Vol. II, Sub-section on Loco Shed Wiring.
+        `
+    },
+    {
+        question: "46) Minimum Safe working distance for 25 kV OHE is.........",
+        options: [
+            "2.10 m",
+            "2.25 m",
+            "2.00 m",
+            "5.50 m"
+        ],
+        correctAnswer: 2,
+        hint: `
+            <h3>Electrical Clearances</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Danger Zone:</b> 25kV AC can jump (arc) through the air. Workers using tools or carrying long metallic objects must maintain a strict exclusion zone.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Distance</th><th>Application</th><th>Status</th></tr>
+                <tr><td><b>Option A & B</b></td><td>Arbitrary dimensions not specified in standard safety rules.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: 2.00 m</b></td><td>The mandatory rule across Indian Railways is that no person or tool should come within 2.0 meters of live 25kV OHE unless power block is taken and it is earthed.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: 5.50 m</b></td><td>This is the typical *height* of the wire from rail level, not the safe working clearance radius.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> General & Subsidiary Rules (G&SR) / ACTM Safety Rules.
+        `
+    },
+    {
+        question: "47) In OHE the fittings, which is used to transfer the weight of contact wire to the catenary wire is called",
+        options: [
+            "C-Jumper",
+            "Drop jumper",
+            "Dropper",
+            "None of the given option"
+        ],
+        correctAnswer: 2,
+        hint: `
+            <h3>OHE Suspension System</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Mechanical Support:</b> The contact wire must remain completely horizontal/flat for smooth pantograph sliding. However, it sags between poles under its own weight. The Catenary wire hangs in a parabola to support it.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Component</th><th>Function</th><th>Status</th></tr>
+                <tr><td><b>Option A: C-Jumper</b></td><td>Electrical connection, not a mechanical weight-bearing support.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Drop jumper</b></td><td>Not standard terminology for weight transfer.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Dropper</b></td><td>Small lengths of 5mm bronze wire spaced at regular intervals. They physically hang the Contact wire from the Catenary wire, keeping the Contact wire level.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> ACTM Vol. II, OHE Fittings and Assemblies.
+        `
+    },
+    {
+        question: "48) In OHE PTFE short neutral section can be installed on difficult locations, how close it can be if installed before a stop signal?",
+        options: [
+            "120m",
+            "180 m",
+            "200 m",
+            "400 m"
+        ],
+        correctAnswer: 2,
+        hint: `
+            <h3>Neutral Section Siting</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Operational Constraint:</b> A neutral section is a dead zone. A train must coast through it. If a train stops at a Stop Signal just after a neutral section, it must not get stalled inside the dead zone while braking or starting.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Distance</th><th>Regulatory Standard</th><th>Status</th></tr>
+                <tr><td><b>Option A & B</b></td><td>Too close. A loco starting or braking heavily might stall its pantograph exactly on the PTFE insulator.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: 200 m</b></td><td>ACTM dictates that a Short Neutral Section (PTFE type) must not be located less than 200 meters before a stop signal, ensuring the train has sufficient momentum or clearance.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: 400 m</b></td><td>Required for conventional overlap-type neutral sections, but PTFE allows a reduced distance of 200m.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> ACTM Vol. II, Guidelines for location of Neutral Sections.
+        `
+    },
+    {
+        question: "49) In OHE in-span droppers in a span of 63 m are..........numbers",
+        options: [
+            "6",
+            "9",
+            "8",
+            "None of the given option"
+        ],
+        correctAnswer: 2,
+        hint: `
+            <h3>Dropper Spacing Calculus</h3>
+            <div style="background-color: #e6f2ff; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Standard Spacing:</b> After the first dropper near the support (which is 2.25m away), the intermediate droppers in a standard OHE are spaced at exactly 9 meters apart.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Dropper Count</th><th>Math for 63m Span</th><th>Status</th></tr>
+                <tr><td colspan="3">First dropper spacing: 2.25m from each mast (2.25 &times; 2 = 4.5m).<br>Remaining length: 63 - 4.5 = 58.5m.<br>Number of 9m intervals: 58.5 / 9 = 6.5 spaces &rightarrow; requires 6 intermediate droppers.<br>Total droppers = 1 (left) + 6 (intermediate) + 1 (right) = 8.</td></tr>
+                <tr><td><b>Option A: 6</b></td><td>Incorrect count.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: 8</b></td><td>Matches the mathematical layout for a 63m span.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> ACTM Vol. II, Dropper Schedule Tables.
+        `
+    },
+    {
+        question: "50) In OHE cadmium copper is used in place of hard drawn copper for AC catenary wire.........",
+        options: [
+            "To increase tensile strength of catenary",
+            "To increases current carrying capacity",
+            "To reduce the weight of catenary",
+            "None of the given option"
+        ],
+        correctAnswer: 0,
+        hint: `
+            <h3>Metallurgy in Traction</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Material Properties:</b> Pure hard-drawn copper has excellent conductivity but tends to stretch and break under high mechanical tension and vibration.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Property Effect</th><th>Analysis</th><th>Status</th></tr>
+                <tr><td><b>Option A: Increase tensile strength</b></td><td>Alloying copper with ~1% Cadmium slightly reduces conductivity but massively increases tensile strength and wear resistance, crucial for the catenary wire suspending the entire assembly.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: Increase current capacity</b></td><td>Alloying actually slightly *decreases* electrical conductivity compared to pure copper.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Reduce weight</b></td><td>The density change is negligible. Weight reduction is not the purpose.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> ACTM / RDSO specs for Catenary wire material (IS 3402).
+        `
+    },
+    {
+        question: "51) In OHE ............... is the breaking load of contact wire",
+        options: [
+            "1000 kg",
+            "1250 kg",
+            "1200 kg",
+            "3905 kg"
+        ],
+        correctAnswer: 3,
+        hint: `
+            <h3>OHE Contact Wire Specifications</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Mechanical Strength:</b> The hard-drawn grooved copper contact wire used in 25kV AC traction must withstand high mechanical tension without parting.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Load Value</th><th>Relevance</th><th>Status</th></tr>
+                <tr><td><b>Option A: 1000 kg</b></td><td>Normal operating tension for the contact wire is around 1000 kg, not its breaking limit.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: 1250 kg</b></td><td>Refers to the tension of the catenary wire or specific auto-tensioning device parameters.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: 1200 kg</b></td><td>Another typical nominal working tension limit, not the ultimate breaking strength.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: 3905 kg</b></td><td>The specified minimum breaking load for a standard 107 sq. mm hard-drawn copper contact wire.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> ACTM Vol. II, Part II / RDSO Specification for Contact Wire (IS 3402).
+        `
+    },
+    {
+        question: "52) In OHE what is the colour code given to Large span ending clamp?",
+        options: [
+            "White",
+            "Green",
+            "Red",
+            "None of the given option"
+        ],
+        correctAnswer: 2,
+        hint: `
+            <h3>OHE Fittings Color Coding</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Visual Identification:</b> OHE fittings are color-coded to ensure the correct component size is used by field staff, preventing mechanical failure.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Color</th><th>Associated Fitting</th><th>Status</th></tr>
+                <tr><td><b>Option A: White</b></td><td>Used for standard or small size clamps.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Green</b></td><td>Typically used for medium size span or specific PG clamps.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Red</b></td><td>Standard color code identifying Large span ending clamps to handle higher mechanical stresses visually.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: None</b></td><td>Invalid as Red is the correct standard.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> ACTM Vol. II, Color coding schedule of OHE fittings.
+        `
+    },
+    {
+        question: "53) In OHE, must replace item during POH of ATD is............",
+        options: [
+            "All Bearings",
+            "9 T insulator",
+            "SS rope",
+            "None of the given option"
+        ],
+        correctAnswer: 0,
+        hint: `
+            <h3>Auto Tensioning Device (ATD) Maintenance</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Periodic Overhauling:</b> ATDs maintain constant tension in OHE. Friction in moving parts defeats its purpose, leading to OHE snapping during temperature variations.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Component</th><th>Replacement Policy</th><th>Status</th></tr>
+                <tr><td><b>Option A: All Bearings</b></td><td>During POH (Periodic Overhauling), all ball/roller bearings in the pulley system must be mandatorily replaced to ensure zero friction, regardless of apparent condition.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: 9 T insulator</b></td><td>Condition-based replacement. Replaced only if cracked or flashed over.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: SS rope</b></td><td>Stainless Steel wire ropes are inspected for broken strands and replaced conditionally or after a set lifecycle (e.g., 10-15 years), not strictly at every single POH cycle.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: None</b></td><td>Invalid.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> ACTM Vol. II, Maintenance Schedule of ATD (SMI/TI/MI/0029).
+        `
+    },
+    {
+        question: "54) In TRD, PI value of the transformer is calculated for the healthiness of............",
+        options: [
+            "Core",
+            "Insulation",
+            "Winding",
+            "None of the given option"
+        ],
+        correctAnswer: 1,
+        hint: `
+            <h3>Transformer Diagnostics</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Polarization Index (PI):</b> The ratio of the 10-minute insulation resistance to the 1-minute insulation resistance.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Component</th><th>Testing Method</th><th>Status</th></tr>
+                <tr><td><b>Option A: Core</b></td><td>Healthiness determined by no-load loss or core-ground testing.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Insulation</b></td><td>PI specifically measures the dryness and cleanliness of the solid/liquid insulation system. A high PI indicates healthy, dry insulation.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: Winding</b></td><td>Winding health (copper integrity) is checked via winding resistance meters, not PI.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: None</b></td><td>Invalid.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> IS 2026 / IEEE 43: Recommended Practice for Testing Insulation Resistance.
+        `
+    },
+    {
+        question: "55) The length of earthing electrode in TSS is.........",
+        options: [
+            "4 m",
+            "6 m",
+            "9 m",
+            "15 m"
+        ],
+        correctAnswer: 0,
+        hint: `
+            <h3>Traction Sub Station (TSS) Earthing</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Earthing Grid:</b> Proper grounding in a 25kV/132kV TSS is critical to dissipate fault currents and ensure step/touch potentials remain within safe limits.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Length</th><th>Application</th><th>Status</th></tr>
+                <tr><td><b>Option A: 4 m</b></td><td>As per standard RDSO design for TSS earthing mats, mild steel pipes/electrodes driven into the ground are nominally 4 meters in length.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B, C, D</b></td><td>These are non-standard lengths for individual driven vertical electrodes in railway traction grids.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> RDSO Code of Practice for Earthing of Traction Sub-stations (ETI/PSI/120).
+        `
+    },
+    {
+        question: "56) In TRD, OCR-I is a protection against............",
+        options: [
+            "Sustained over Currents due to over load",
+            "Over current due to earth fault away from TSS",
+            "Sudden rise of current due to earth fault",
+            "Sudden rise of current by 200% of normal current due to any reason"
+        ],
+        correctAnswer: 2,
+        hint: `
+            <h3>Traction Protection Relays</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Relay Nomenclature:</b> In Traction Power Supply, OCR (Over Current Relay) protects the feeder. OCR-I (Instantaneous Over Current Relay) is meant for massive, immediate faults.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Protection Scenario</th><th>Relay Used</th><th>Status</th></tr>
+                <tr><td><b>Option A: Sustained over currents</b></td><td>Handled by IDMT (Inverse Definite Minimum Time) Over Current Relay (OCR-II).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Earth fault away from TSS</b></td><td>Handled by DPR (Distance Protection Relay) as impedance drops.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Sudden rise due to earth fault</b></td><td>Instantaneous Over Current Relay (OCR-I) is set high to immediately trip the breaker upon a sudden, massive current spike indicating a solid earth fault near the TSS.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: Sudden rise 200%</b></td><td>A 200% rise might just be simultaneous multiple train starts; OCR-I is usually set much higher than 200% of normal load.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> ACTM Vol. II, Part I: Protective Relays at TSS.
+        `
+    },
+    {
+        question: "57) DPR relay is used in TSS for.........",
+        options: [
+            "OHE protection",
+            "Transformer protection",
+            "Both OHE protection and Transformer protection protection",
+            "None of the given option"
+        ],
+        correctAnswer: 0,
+        hint: `
+            <h3>Distance Protection in Traction</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Zone of Protection:</b> DPR (Distance Protection Relay) measures the $V/I$ impedance ratio. If the impedance falls below a set threshold, it calculates that a fault occurred at a certain distance.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Protected Asset</th><th>Reasoning</th><th>Status</th></tr>
+                <tr><td><b>Option A: OHE protection</b></td><td>The OHE line acts as the impedance path. DPR monitors this path specifically to detect earth faults on the 25kV catenary system across the track length.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: Transformer protection</b></td><td>Transformers are protected by Differential Relays, Restricted Earth Fault (REF), and Buchholz relays, not Distance Relays.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Both</b></td><td>DPR does not look backward into the transformer.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> ACTM Vol. II, Part I: Relay Settings and Protection Philosophy.
+        `
+    },
+    {
+        question: "58) In TRD, RTU is kept at.........",
+        options: [
+            "TSS",
+            "SP",
+            "SSP",
+            "All the three locations"
+        ],
+        correctAnswer: 3,
+        hint: `
+            <h3>SCADA System Architecture</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Remote Telemetry:</b> SCADA (Supervisory Control and Data Acquisition) relies on Remote Terminal Units (RTUs) to interface physical switchgear with the Remote Control Centre (RCC).
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Location</th><th>RTU Necessity</th><th>Status</th></tr>
+                <tr><td><b>Option A: TSS (Traction Sub Station)</b></td><td>Requires RTU for controlling Circuit Breakers and monitoring parameters.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option B: SP (Sectioning Post)</b></td><td>Requires RTU to control bridging interrupters.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option C: SSP (Sub Sectioning Post)</b></td><td>Requires RTU to operate isolation interrupters.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option D: All the three locations</b></td><td>All switching stations (TSS, SP, SSP) must have an RTU to enable centralized remote operation from the RCC.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> ACTM Vol. II, Part I: SCADA Equipment specifications.
+        `
+    },
+    {
+        question: "59) SED in railway electrification means.........",
+        options: [
+            "Structure Erection drawing",
+            "Standard erection drawing",
+            "Stable elementary drawing",
+            "None of the given option"
+        ],
+        correctAnswer: 0,
+        hint: `
+            <h3>Railway Electrification Design</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Design Blueprints:</b> Before physically planting masts, detailed plans mapping out track curves, spans, and mast locations are finalized.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Acronym</th><th>Meaning</th><th>Status</th></tr>
+                <tr><td><b>Option A: Structure Erection drawing</b></td><td>SED details the specific cross-section of the track, mast type, foundation details, and encumbrance at every single location. It is the master blueprint for construction.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: Standard erection drawing</b></td><td>Usually referred to as RDSO standard drawings, not specifically the location-wise SED.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Stable elementary drawing</b></td><td>Fabricated term.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> ACTM Vol. II, Part II: Preparation of OHE layout plans and SEDs.
+        `
+    },
+    {
+        question: "60) In TRD, 2 X 25 kV AC system, (160 kmph fit OHE) at obligatory mast the ideal track separation is.........",
+        options: [
+            "150 mm to 700 mm",
+            "290 mm to 550 mm",
+            "290 mm to 700 mm",
+            "None of the given option"
+        ],
+        correctAnswer: 1,
+        hint: `
+            <h3>OHE Geometry in Turnouts</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Obligatory Structures:</b> An obligatory mast is placed exactly where the main line and turnout line diverge. The contact wires must overlap within specific horizontal separations to ensure the pantograph easily transfers from one to the other without dewirement.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Track Separation</th><th>Application</th><th>Status</th></tr>
+                <tr><td><b>Option A: 150 - 700 mm</b></td><td>Too wide and generic.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: 290 mm to 550 mm</b></td><td>For high-speed (160 kmph fit) OHE in a 2x25kV system, RDSO specifies this exact track separation range at the obligatory mast to maintain flawless pantograph sweep during overlaps.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: 290 - 700 mm</b></td><td>Older standard limit, too relaxed for 160 kmph profiles.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> RDSO Guidelines for 160 kmph OHE Design (Turnouts & Overlaps).
+        `
+    },
+    {
+        question: "61) How many traction motors are provided in WAG-12 B locomotive?",
+        options: [
+            "6",
+            "4",
+            "8",
+            "2"
+        ],
+        correctAnswer: 2,
+        hint: `
+            <h3>WAG-12B Locomotive Specs</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Loco Configuration:</b> The WAG-12B is a heavy-haul, 12,000 HP twin-section electric locomotive built by Alstom.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Motor Count</th><th>Loco Types</th><th>Status</th></tr>
+                <tr><td><b>Option A: 6</b></td><td>Standard for WAG-9, WAP-7 (Co-Co configuration).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: 4</b></td><td>Standard for WAP-5 (Bo-Bo configuration).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: 8</b></td><td>The WAG-12B consists of two sections, each with a Bo-Bo arrangement (2 axles per bogie $\\times$ 2 bogies $\\times$ 2 sections). This gives $4 \\times 2 = 8$ traction motors total.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: 2</b></td><td>Too few for a heavy freight locomotive.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Indian Railways/Alstom WAG-12B Technical Manual.
+        `
+    },
+    {
+        question: "62) Which test(s) are carried out on 3-phase induction motor type 6FRA6068?",
+        options: [
+            "IR measurement",
+            "Inductance measurement",
+            "Core loop test",
+            "All of the given option"
+        ],
+        correctAnswer: 3,
+        hint: `
+            <h3>Traction Motor Maintenance</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Motor Diagnostics:</b> The 6FRA6068 is the standard 3-phase squirrel cage induction motor used in WAG-9/WAP-7 locos. Comprehensive testing is required during overhaul.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Test Type</th><th>Purpose</th><th>Status</th></tr>
+                <tr><td><b>Option A: IR measurement</b></td><td>Insulation Resistance testing (Megger) checks the health of the stator insulation to ground.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option B: Inductance measurement</b></td><td>Checks for turn-to-turn short circuits and balanced stator winding impedance.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option C: Core loop test</b></td><td>Identifies hot spots or damage in the laminated stator core by inducing magnetic flux.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option D: All of the given option</b></td><td>All these tests are mandatory QA protocols for rewound or overhauled traction motors.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> RDSO Maintenance Manual for 3-Phase Traction Motors (SMI-0278).
+        `
+    },
+    {
+        question: "63) In which 3-phase locomotive traction motors are fully suspended?",
+        options: [
+            "WAP-5",
+            "WAG-9",
+            "WAP-5 & WAP 7",
+            "WAP-7"
+        ],
+        correctAnswer: 0,
+        hint: `
+            <h3>Bogie Suspension Drive Systems</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Unsprung Mass:</b> Axle-hung, nose-suspended motors transfer heavy unsprung mass to the rails, unsuitable for ultra-high speeds. Fully suspended motors isolate the motor weight from the axle.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Loco Class</th><th>Suspension Type</th><th>Status</th></tr>
+                <tr><td><b>Option A: WAP-5</b></td><td>Designed for 160 kmph. It utilizes a fully suspended drive system (Hurth coupling / Bo-Bo bogies) reducing track impact at high speeds.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: WAG-9</b></td><td>Axle-hung, nose-suspended (nose is on bogie frame, but axle bears weight).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: WAP-7</b></td><td>Axle-hung, nose-suspended drive system (Co-Co).</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> RDSO specs on Bogie & Suspension of 3-Phase Locos.
+        `
+    },
+    {
+        question: "64) In WAP-7 locomotive, what for angle transmitter is used?",
+        options: [
+            "TE/BE control",
+            "Traction control",
+            "Braking control",
+            "None of the given option"
+        ],
+        correctAnswer: 0,
+        hint: `
+            <h3>Loco Master Controller</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Throttle Input:</b> Modern 3-phase locos don't have physical tap-changer notches. They use a continuous handle.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Component Purpose</th><th>Logic</th><th>Status</th></tr>
+                <tr><td><b>Option A: TE/BE control</b></td><td>The Angle Transmitter (Potentiometer/Optical encoder) inside the Master Controller senses the exact physical angle of the throttle handle and converts it into an electrical signal to command specific Tractive Effort (TE) or Braking Effort (BE) to the VCU.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B & C</b></td><td>Incomplete; it handles both TE and BE proportionally based on direction of handle movement.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> 3-Phase Locomotive Operating Manual (Master Controller section).
+        `
+    },
+    {
+        question: "65) What is the name of switch used for acknowledging the fault in WAP-7 locomotive?",
+        options: [
+            "BPFL",
+            "BPVR",
+            "BPFA",
+            "BPCS"
+        ],
+        correctAnswer: 2,
+        hint: `
+            <h3>Loco Fault Diagnostics (DDS)</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Driver Console:</b> When a fault occurs, an alarm sounds and a lamp flashes. The Loco Pilot must acknowledge the fault to silence the alarm and read the message.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Switch Code</th><th>Function</th><th>Status</th></tr>
+                <tr><td><b>Option A: BPFL</b></td><td>Illuminated push-button for Flasher Light control.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: BPVR</b></td><td>Push button for Resetting Vigilance/VCD.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: BPFA</b></td><td>Push Button (BP) for Fault Acknowledge (FA). Pressing it acknowledges the flashing diagnostic message on the screen.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: BPCS</b></td><td>Push button for Constant Speed control.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> 3-Phase Electric Locomotive Troubleshooting Directory.
+        `
+    },
+    {
+        question: "66) What indication will be observed, when one sub system gets isolate in WAP-7 locomotive?",
+        options: [
+            "Priority-1 fault",
+            "Priority-2 fault",
+            "Priority-1 & priority-2 fault",
+            "None of the given option"
+        ],
+        correctAnswer: 0,
+        hint: `
+            <h3>Diagnostic System Messages</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Fault Categorization:</b> The MICAS-S2 / TCN vehicle control unit classifies faults based on severity to alert the Loco Pilot.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Message Priority</th><th>Trigger Condition</th><th>Status</th></tr>
+                <tr><td><b>Option A: Priority-1 fault</b></td><td>Generated when a major operational fault occurs resulting in the automatic isolation of a vital sub-system (like a traction converter, auxiliary converter, or traction motor), requiring immediate LP attention.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: Priority-2 fault</b></td><td>Minor fault or information message; no major sub-system is isolated. Operations can continue normally.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> WAP-7 / WAG-9 Diagnostic Display System (DDS) Manual.
+        `
+    },
+    {
+        question: "67) In WAP-7 locomotive, pressing of which switch will acknowledge the VCD?",
+        options: [
+            "PSA",
+            "BPFA",
+            "BPFL",
+            "BPCS"
+        ],
+        correctAnswer: 0,
+        hint: `
+            <h3>Vigilance Control Device (VCD)</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Dead-Man System:</b> The VCD ensures the Loco Pilot is alert. If no operational inputs (throttle, horn, brakes) are made within 60 seconds, an alarm starts. It must be acknowledged to prevent emergency braking.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Switch/Pedal</th><th>Function</th><th>Status</th></tr>
+                <tr><td><b>Option A: PSA</b></td><td>Pedal Switch Acknowledge (Foot pedal). Pressing this specifically resets the 60-second VCD timer.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: BPFA</b></td><td>Fault acknowledgment, not VCD cycle reset.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C & D</b></td><td>Unrelated functions (Flasher, Constant Speed).</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> 3-Phase Loco VCD Operation Protocol.
+        `
+    },
+    {
+        question: "68) In WAP-7 locomotive, in which instance(s) Priority-1 massage will appear on screen?",
+        options: [
+            "If Reverser is set when MR pressure is below 6.4 kg/cm<sup>2</sup>",
+            "If throttle is operated without releasing parking brakes",
+            "If throttle is operated without recharging BP to 5 kg/cm<sup>2</sup>",
+            "All of the given option"
+        ],
+        correctAnswer: 3,
+        hint: `
+            <h3>Operational Safety Interlocks</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Logic Control:</b> The VCU actively blocks unsafe actions. Attempting to force the locomotive against these interlocks generates a severe Priority-1 error message on the DDS.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Unsafe Action</th><th>VCU Response</th><th>Status</th></tr>
+                <tr><td><b>Option A: Low MR pressure</b></td><td>Pneumatic contactors cannot operate safely below 6.4 kg/cm<sup>2</sup>; throws Priority 1 fault.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option B: Throttle against Parking Brake</b></td><td>Motor will overheat trying to move locked wheels; throws Priority 1 fault.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option C: Low BP pressure</b></td><td>Train brakes are applied below 5.0 kg/cm<sup>2</sup>. Throttle input here contradicts braking logic; throws Priority 1 fault.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option D: All of the given</b></td><td>All instances described violate core safety interlocks and trigger a Priority-1 fault on the display.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> WAP-7/WAG-9 VCU Software Logic / Troubleshooting Directory.
+        `
+    },
+    {
+        question: "69) In WAG-9locomotive, if ZTEL switch is in ON position, what will be the maximum TE?",
+        options: [
+            "300 KN",
+            "250 KN",
+            "350 KN",
+            "200 KN"
+        ],
+        correctAnswer: 0,
+        hint: `
+            <h3>Tractive Effort Limitation</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>ZTEL Function:</b> The ZTEL (Zusatz Tractive Effort Limitation) switch allows the driver to manually limit the massive power of a WAG-9 to prevent draw-hook parting on weak or empty wagons.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Limit Value</th><th>Context</th><th>Status</th></tr>
+                <tr><td><b>Option A: 300 KN</b></td><td>When ZTEL is activated, the VCU software restricts the maximum Tractive Effort to exactly 300 Kilo-Newtons (approx 30 tons), regardless of throttle position.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B, C, D</b></td><td>Normal max TE of WAG-9 is 460 kN. The specific restricted value is strictly coded to 300 kN.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> 3-Phase Locomotive Operating Manual (ZTEL Feature).
+        `
+    },
+    {
+        question: "70) What is the periodicity of IC schedule of WAG-9 locomotive?",
+        options: [
+            "120 days",
+            "270days",
+            "180 days",
+            "90 days"
+        ],
+        correctAnswer: 1,
+        hint: `
+            <h3>Locomotive Maintenance Schedules</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Inspection Cycles:</b> 3-phase locomotives require less frequent maintenance compared to DC locos due to the absence of commutators.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Schedule Type</th><th>Periodicity</th><th>Status</th></tr>
+                <tr><td><b>Option A: 120 days</b></td><td>Typical for Minor schedules (IB).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: 270 days</b></td><td>The 'IC' (Inspection C) schedule is a major preventive maintenance check carried out every 270 days for WAG-9.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: 180 days</b></td><td>Not a standard 3-phase loco primary schedule interval.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: 90 days</b></td><td>Typical for 'IA' schedule.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Railway Board/RDSO Maintenance Schedule for 3-Phase Electric Locos.
+        `
+    },
+    {
+        question: "71) In WAP-7loco, below which cubicle, Control Electronics-1(VCU-1) rack is provided?",
+        options: [
+            "HB2",
+            "SB1",
+            "HB1",
+            "SB2"
+        ],
+        correctAnswer: 1,
+        hint: `
+            <h3>Locomotive Cubicle Layout</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Control Rack Placement:</b> The heart of the loco, the MICAS-S2 Vehicle Control Unit (VCU), is housed in the driver's cab Control Cubicles (SB - Steuer Block).
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Cubicle</th><th>Contents</th><th>Status</th></tr>
+                <tr><td><b>Option A: HB2</b></td><td>Hilfsbetriebe Block (Auxiliary Block) 2. Houses heavy auxiliary contactors, not sensitive electronics.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: SB1</b></td><td>Steuer Block (Control Block) 1. Located near Cab 1, it houses the main Control Electronics-1 (VCU-1) rack, diagnostic displays, and associated logic circuits.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: HB1</b></td><td>Auxiliary Circuit Block 1.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: SB2</b></td><td>Houses Control Electronics-2 (VCU-2).</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> WAP-7 Machine Room Layout Diagram.
+        `
+    },
+    {
+        question: "72) In WAP-7 locomotives, what is the rating of IGBT based Auxiliary converter?",
+        options: [
+            "130KVA",
+            "100KVA",
+            "150KVA",
+            "180KVA"
+        ],
+        correctAnswer: 0,
+        hint: `
+            <h3>Auxiliary Power Ratings</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Converter Specs:</b> The Auxiliary Converter transforms single-phase traction supply into 3-phase 415V to run cooling blowers, compressors, and pumps.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Rating</th><th>Loco Application</th><th>Status</th></tr>
+                <tr><td><b>Option A: 130 KVA</b></td><td>The standard capacity of each IGBT-based Auxiliary Converter unit (BUR) in modern WAP-7 / WAG-9 locos is 130 kVA.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: 100 KVA</b></td><td>Capacity of older GTO based converters.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C & D</b></td><td>Ratings used in specialized or newer high-power twin-loco configs, but not standard baseline WAP-7.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> CLW Specification for IGBT Based Auxiliary Converters.
+        `
+    },
+    {
+        question: "73) How many WRE modules are provided in WAG-9 loco having GTO based auxiliary converter?",
+        options: [
+            "1",
+            "3",
+            "6",
+            "9"
+        ],
+        correctAnswer: 1,
+        hint: `
+            <h3>GTO Auxiliary Converter Design</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Module Count:</b> In older GTO (Gate Turn-Off thyristor) 3-phase locos, the auxiliary power conversion is divided into distinct Water-Cooled Rectifier/Inverter modules.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Quantity</th><th>BUR Distribution</th><th>Status</th></tr>
+                <tr><td><b>Option A, C, D</b></td><td>Incorrect topology structure.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: 3</b></td><td>There are 3 auxiliary converters (BUR-1, BUR-2, BUR-3) in the GTO design. Therefore, there are exactly 3 WRE (Inverter) modules that synthesize the 3-phase 415V AC output.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Maintenance Manual for GTO based 3-Phase Locomotives.
+        `
+    },
+    {
+        question: "74) In WAP-7locomotive, auxiliary compressor works on which supply?",
+        options: [
+            "1-phase, 230V AC",
+            "3-phase, 415VAC",
+            "110 VDC",
+            "1-phase, 110V AC"
+        ],
+        correctAnswer: 2,
+        hint: `
+            <h3>Baby Compressor (MCPA) Power</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Start-up Prerequisite:</b> When a loco is totally 'dead' (no OHE power), the pantograph must be raised. This requires pneumatic pressure. The auxiliary compressor (baby compressor) builds this initial pressure.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Supply Type</th><th>Logic</th><th>Status</th></tr>
+                <tr><td><b>Option A, B, D</b></td><td>AC supplies are strictly dependent on the main transformer receiving 25kV OHE, which is impossible if the pantograph is down.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: 110 VDC</b></td><td>The only available power source in a dead loco is the onboard battery bank (110V DC). Therefore, the auxiliary compressor is a DC motor.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> 3-Phase Electric Loco Circuit Diagram (Pneumatic control circuit).
+        `
+    },
+    {
+        question: "75) In WAP-7 locomotives, which auxiliary motors work in cooling mode?",
+        options: [
+            "Oil cooler blower 1&2",
+            "Both traction motor blower & both machine room blower",
+            "Both machine room blowers & their scavenger blowers",
+            "All oil pumps"
+        ],
+        correctAnswer: 2,
+        hint: `
+            <h3>Locomotive Cooling Concept</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>'Cooling Mode' Operation:</b> The VCU can keep specific blowers running for a set time (e.g., 5-10 minutes) even after the Main Circuit Breaker (VCB) is opened, utilizing kinetic energy or specific auxiliary logic to rapidly cool hot electronics.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Blower Group</th><th>Function in Cooling Mode</th><th>Status</th></tr>
+                <tr><td><b>Option A: Oil cooler blowers</b></td><td>Require massive power, usually cut off to save energy.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: TM Blowers</b></td><td>TM cooling is not the primary target of post-trip cooling mode.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Machine Room & Scavenger</b></td><td>To prevent the VCU and sensitive electronics from baking in the residual heat of the machine room, the Machine Room Blowers and their Scavenger extractors run specifically in this 'cooling mode'.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> WAP-7 Operating Manual: Auxiliary logic control (Cooling Mode).
+        `
+    },
+    {
+        question: "76) During normal operation of WAP-9 loco, which auxiliary converter feeds battery charger?",
+        options: [
+            "Auxiliary converter-1",
+            "Auxiliary converter-2",
+            "Auxiliaryconverter-3",
+            "Directly from auxiliary winding through transformer"
+        ],
+        correctAnswer: null,
+        hint: `
+            <h3>Battery Charging Architecture</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Note:</b> This question was officially deleted. In GTO locos, BUR-3 normally feeds the CHBA. In modern IGBT locos, BUR-2 or a dedicated module might feed it, leading to ambiguity. Furthermore, "WAP-9" is a typo in the original paper (it should be WAG-9).
+            </div>
+        `
+    },
+    {
+        question: "77) In WAP-7 locomotives, which compressor(s) are provided in machine room?",
+        options: [
+            "Main compressors",
+            "Auxiliary compressor",
+            "Both main & auxiliary compressors",
+            "None of the given option"
+        ],
+        correctAnswer: 1,
+        hint: `
+            <h3>Pneumatic Layout</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Equipment Siting:</b> Main compressors (CP) generate huge vibration and noise, so they are mounted underslung (below the underframe) in WAP-7.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Compressor Location</th><th>Fact Check</th><th>Status</th></tr>
+                <tr><td><b>Option A: Main compressors</b></td><td>Suspended below the chassis frame on WAP-7 to save internal space and reduce cab noise.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Auxiliary compressor</b></td><td>The small 'Baby' compressor (MCPA) is mounted inside the pneumatic panel within the machine room corridor.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: Both</b></td><td>Main CPs are not inside.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> WAP-7 Equipment Layout Drawings.
+        `
+    },
+    {
+        question: "78) With respect to rotary switch no. 152 in WAG-9 locomotive, which statement(s) are correct?",
+        options: [
+            "It is for failure mode operation",
+            "It has 2 positions",
+            "Inposition -1, step control is available",
+            "All of the given option"
+        ],
+        correctAnswer: 3,
+        hint: `
+            <h3>Failure Mode Switch (152)</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Bypass Logic:</b> Switch 152 allows the locomotive to move even if the primary continuous Angle Transmitter in the master controller fails.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Statement</th><th>Validity</th><th>Status</th></tr>
+                <tr><td><b>Option A: Failure mode operation</b></td><td>True. It is explicitly the "Failure mode operation of Angle Transmitter" switch.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option B: Has 2 positions</b></td><td>True. Normal (0) and Failure (1).</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option C: Step control available</b></td><td>True. In position 1, the continuous throttle fails, but the LP can command Tractive Effort in predefined digital "steps" by shunting the throttle handle.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option D: All of the given</b></td><td>All statements accurately describe the function of switch 152.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> 3-Phase Loco Troubleshooting Directory (Switch 152 details).
+        `
+    },
+    {
+        question: "79) In WAG-9 locomotive, what is the setting of main compressor pressure switch (RGCP)?",
+        options: [
+            "Open- 8.5Kg/cm<sup>2</sup> & Close- 5.0kg/cm<sup>2</sup>",
+            "Open- 10 Kg/cm<sup>2</sup> & Close- 8.0Kg/cm<sup>2</sup>",
+            "Open- 10Kg/cm<sup>2</sup> & Close- 6.0Kg/cm<sup>2</sup>",
+            "Open -10.5Kg/cm<sup>2</sup> & Close- 8.5 Kg/cm<sup>2</sup>"
+        ],
+        correctAnswer: null,
+        hint: `
+            <h3>Compressor Governor Settings</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Note:</b> This question was deleted from the evaluation. The standard RGCP setting for WAG-9 is usually cut-in (Close) at 8.0 kg/cm<sup>2</sup> and cut-out (Open) at 10.0 kg/cm<sup>2</sup>. Option B was likely the intended answer, but formatting or slight technical discrepancies led to its deletion.
+            </div>
+        `
+    },
+    {
+        question: "80) In WAP-7 locomotives, what is BP pressure if A9 handle is in emergency position?",
+        options: [
+            "2.0Kg/cm<sup>2</sup>",
+            "2.5Kg/cm<sup>2</sup>",
+            "3.5Kg/cm<sup>2</sup>",
+            "0 Kg/cm<sup>2</sup>"
+        ],
+        correctAnswer: 3,
+        hint: `
+            <h3>Air Brake Operations</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>A-9 Valve Mechanics:</b> The A-9 automatic brake valve controls the Brake Pipe (BP) pressure. Normal running pressure is 5.0 kg/cm<sup>2</sup>.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Pressure Value</th><th>Corresponding A-9 Position</th><th>Status</th></tr>
+                <tr><td><b>Option A, B, C</b></td><td>These represent partial application / service application pressure drops.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: 0 Kg/cm<sup>2</sup></b></td><td>Throwing the A-9 to the 'Emergency' position completely vents the Brake Pipe to the atmosphere instantly, dropping the pressure to 0 kg/cm<sup>2</sup> to apply maximum braking force on the entire train.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> IRAB-1 Air Brake System Manual / WAP-7 Operations.
+        `
+    },
+    {
+        question: "81) In WAP-7 locomotive, when PTDC is used?",
+        options: [
+            "If BP pressure not building",
+            "If case of Non-functionality of Cock no.70",
+            "If Brake electronics fails",
+            "None of the given option"
+        ],
+        correctAnswer: 2,
+        hint: `
+            <h3>E-70 Brake System Bypass</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Pneumatic Redundancy:</b> PTDC stands for Pneumatic Time Dependent Control. It is a purely mechanical pneumatic fallback system.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Condition</th><th>Action Required</th><th>Status</th></tr>
+                <tr><td><b>Option A: BP not building</b></td><td>Check for leakages, angle cocks, or compressor issues.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Cock no.70 failure</b></td><td>Cock 70 is used to isolate BP control.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Brake electronics fails</b></td><td>If the complex CCB (Computer Controlled Brake) electronics fail entirely, the LP activates PTDC setup to mechanically control BP charging/discharging directly from the cab, ensuring the train isn't stranded.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> WAP-7 Troubleshooting Directory (Brake Electronics Failure / PTDC mode).
+        `
+    },
+    {
+        question: "82) What is the type of bogie of WAG-12B locomotive?",
+        options: [
+            "Co-Co",
+            "Bo-Bo",
+            "B-B",
+            "None of the given option"
+        ],
+        correctAnswer: 1,
+        hint: `
+            <h3>Bogie Configuration Codes</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>UIC Notation:</b> The letter indicates the number of axles (B=2, C=3), and 'o' indicates that each axle has its own independent traction motor.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Bogie Type</th><th>Meaning / Application</th><th>Status</th></tr>
+                <tr><td><b>Option A: Co-Co</b></td><td>Two bogies, 3 individually motorized axles each (WAG-9, WAP-7).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Bo-Bo</b></td><td>Two bogies, 2 individually motorized axles each. The WAG-12B uses a twin-section design, and *each* section is mounted on a Bo-Bo chassis (totaling 8 axles for the twin unit).</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: B-B</b></td><td>Two axles geared to a single motor per bogie (older diesel shunters).</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Alstom WAG-12B Technical Specification.
+        `
+    },
+    {
+        question: "83) In WAG-9 locomotive, how many Aclathan Rings are provided?",
+        options: [
+            "2",
+            "3",
+            "6",
+            "4"
+        ],
+        correctAnswer: 3,
+        hint: `
+            <h3>Axle Box Guidance</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Bogie Suspension Components:</b> Aclathan rings (polyurethane elastomeric rings) are used in the primary suspension guides to absorb high-frequency shocks and guide the axle box.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Count</th><th>Location Logic</th><th>Status</th></tr>
+                <tr><td><b>Option A, B, C</b></td><td>Do not match the required guide configuration per axle/bogie.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: 4</b></td><td>In WAG-9 (and WAP-7) bogies, 4 Aclathan rings are provided per bogie guide arrangement (or 4 per specific sub-assembly depending on context, universally tested as 4 in IR questionnaires).</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> RDSO WAG-9 Bogie Maintenance Manual.
+        `
+    },
+    {
+        question: "84) In which 3-phase locomotive(s) traction links are provided?",
+        options: [
+            "WAP-5",
+            "WAG-9",
+            "WAP-7",
+            "All of the given option"
+        ],
+        correctAnswer: 3,
+        hint: `
+            <h3>Power Transfer Mechanism</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Tractive Effort Transfer:</b> The massive pull generated by the motors to the rails must be transferred from the bogie to the locomotive body. Modern locos use low-slung traction rods/links instead of traditional center pivots.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Loco Class</th><th>Power Transfer Mechanism</th><th>Status</th></tr>
+                <tr><td><b>All 3-Phase Locos</b></td><td>All ABB-designed 3-phase locomotives (WAP-5, WAG-9, WAP-7) utilize a 'push-pull' Traction Link mechanism to transmit tractive/braking forces close to rail level, minimizing weight transfer and maximizing adhesion.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> RDSO 3-Phase Loco Bogie Design Manual.
+        `
+    },
+    {
+        question: "85) What is the flange wear limit WAG-9 locomotive?",
+        options: [
+            "3 mm",
+            "4 mm",
+            "5 mm",
+            "6 mm"
+        ],
+        correctAnswer: 0,
+        hint: `
+            <h3>Wheel Profile Limits</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Derailment Prevention:</b> The wheel flange keeps the wheel on the rail. As it grinds against curves, it wears thin. A sharp/thin flange is a severe derailment hazard.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Wear Limit</th><th>Application</th><th>Status</th></tr>
+                <tr><td><b>Option A: 3 mm</b></td><td>For the heavy WAG-9 locomotive, the maximum permissible flange wear limit before wheel re-profiling (turning) is strictly 3 mm to prevent gauge widening/climbing.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B, C, D</b></td><td>Excessive wear limits not permitted on mainline locomotives.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> RDSO Wheel Defect Manual / WAG-9 Maintenance Schedule.
+        `
+    },
+    {
+        question: "86) Which of the following religion did Ashoka embrace?",
+        options: [
+            "Buddhism",
+            "Jainism",
+            "Islam",
+            "Christianity"
+        ],
+        correctAnswer: 0,
+        hint: `
+            <h3>Ancient Indian History</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>The Kalinga War:</b> Following the immense bloodshed of the Kalinga War in 261 BCE, Emperor Ashoka renounced violence and military conquest.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Religion</th><th>Historical Context</th><th>Status</th></tr>
+                <tr><td><b>Option A: Buddhism</b></td><td>Ashoka converted to Buddhism, influenced by the monk Upagupta, and propagated principles of <i>Dhamma</i> (non-violence, tolerance) across Asia.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: Jainism</b></td><td>His grandfather, Chandragupta Maurya, embraced Jainism later in life.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C & D</b></td><td>Did not exist or were not established in India during the 3rd century BCE.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> NCERT History Textbooks - The Mauryan Empire.
+        `
+    },
+    {
+        question: "87) What was Buddha's real name?",
+        options: [
+            "Siddhartha",
+            "Jainism",
+            "Shuddhodan",
+            "Kanthak"
+        ],
+        correctAnswer: 0,
+        hint: `
+            <h3>Foundations of Buddhism</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Early Life:</b> The founder of Buddhism was born a prince in Lumbini (modern-day Nepal).
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Name/Term</th><th>Significance</th><th>Status</th></tr>
+                <tr><td><b>Option A: Siddhartha</b></td><td>His birth name was Siddhartha Gautama. He attained the title 'Buddha' (The Enlightened One) after meditating under the Bodhi tree.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: Jainism</b></td><td>A distinct, separate religion.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Shuddhodan</b></td><td>King Shuddhodana was Siddhartha's father.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Kanthak</b></td><td>Kanthaka was Siddhartha's favorite horse, used when he left the palace.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Historical texts on Buddhism.
+        `
+    },
+    {
+        question: "88) Which among the following is the oldest and biggest amongst all the four Vedas?",
+        options: [
+            "Rig Veda",
+            "Samaveda",
+            "Atharva Veda",
+            "Yajur Veda"
+        ],
+        correctAnswer: 0,
+        hint: `
+            <h3>Vedic Literature</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Chronology:</b> The Vedas are the foundational texts of Hindu philosophy and ancient Indian society.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Veda</th><th>Characteristics</th><th>Status</th></tr>
+                <tr><td><b>Option A: Rig Veda</b></td><td>The oldest known Vedic Sanskrit text (c. 1500-1200 BCE). It consists of 10 Mandalas (books) and 1,028 hymns dedicated to deities. It is the largest and foundation of the others.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: Samaveda</b></td><td>Veda of melodies and chants, largely derived from the Rig Veda.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Atharva Veda</b></td><td>The latest Veda, detailing everyday life, magic spells, and healing.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Yajur Veda</b></td><td>Contains prose mantras for worship rituals.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Ancient Indian History - Vedic Period.
+        `
+    },
+    {
+        question: "89) Which two freedom fighters threw smoke bombs at the Delhi Central Legislative Assembly in 1929?",
+        options: [
+            "Bhagat Singh and Subhash Chandra Bose",
+            "Bhagat Singh and Batukeshwar Dutt",
+            "Bhagat Singh and Mangal Pandey",
+            "Bhagat Singh and Chandrashekhar Azad"
+        ],
+        correctAnswer: 1,
+        hint: `
+            <h3>Indian Independence Movement</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>"To make the deaf hear":</b> On April 8, 1929, revolutionaries protested against the repressive Public Safety Bill and Trade Dispute Act.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Duo</th><th>Historical Fact Check</th><th>Status</th></tr>
+                <tr><td><b>Option A: Bhagat Singh & Bose</b></td><td>Subhash Chandra Bose was involved in political/army leadership (INA), not this specific bombing.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Bhagat Singh & Batukeshwar Dutt</b></td><td>Both HSRA members threw harmless smoke bombs into the assembly to register protest without causing fatalities, deliberately courting arrest to use the court as a platform.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: Bhagat Singh & Mangal Pandey</b></td><td>Mangal Pandey was from the 1857 mutiny era, long before 1929.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Bhagat Singh & Azad</b></td><td>Azad planned actions but did not participate in the assembly bombing.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Modern Indian History.
+        `
+    },
+    {
+        question: "90) Who among the following was a well-known revolutionary activist and leader of the Hindustan Socialist Republican Association (HSRA)?",
+        options: [
+            "Bhulabhai Desai",
+            "Chandra Shekhar Azad",
+            "Chharkravarti Rajagopalchari",
+            "Behramji M Malabari"
+        ],
+        correctAnswer: 1,
+        hint: `
+            <h3>Revolutionary Nationalism</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>HSRA Formation:</b> After the Non-Cooperation movement was halted, young radicals formed the Hindustan Republican Association, later renamed HSRA, to achieve independence via armed struggle.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Figure</th><th>Historical Role</th><th>Status</th></tr>
+                <tr><td><b>Option A: Bhulabhai Desai</b></td><td>A prominent lawyer and moderate Congress leader.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Chandra Shekhar Azad</b></td><td>A fierce revolutionary who reorganized the HRA into HSRA in 1928 at Feroz Shah Kotla, Delhi, and served as its commander-in-chief.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: C. Rajagopalachari</b></td><td>A senior conservative Congress leader and the last Governor-General.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Behramji Malabari</b></td><td>A Parsi social reformer, not an armed revolutionary.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> History of Indian Independence Struggle.
+        `
+    },
+    {
+        question: "91) In which year was an emergency declared in India?",
+        options: [
+            "1984",
+            "1975",
+            "1991",
+            "1993"
+        ],
+        correctAnswer: 1,
+        hint: `
+            <h3>Post-Independence Indian Politics</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Internal Disturbance:</b> Article 352 of the Constitution allows the President to declare a National Emergency.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Year</th><th>Key Event</th><th>Status</th></tr>
+                <tr><td><b>Option A: 1984</b></td><td>Assassination of Indira Gandhi and anti-Sikh riots, but no formal constitutional emergency.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: 1975</b></td><td>Prime Minister Indira Gandhi advised President Fakhruddin Ali Ahmed to declare a state of National Emergency on June 25, 1975, citing "internal disturbance." It lasted until 1977.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: 1991</b></td><td>Economic liberalization era.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: 1993</b></td><td>Mumbai bombings.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Indian Polity - Post-Independence History.
+        `
+    },
+    {
+        question: "92) Bharatnatyam dance was originated in -",
+        options: [
+            "Tamil Nadu",
+            "Kerala",
+            "Andhra Pradesh",
+            "Uttar Pradesh"
+        ],
+        correctAnswer: 0,
+        hint: `
+            <h3>Indian Classical Dances</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Cultural Origins:</b> The Sangeet Natak Akademi recognizes 8 classical dance forms, each rooted in specific state traditions and temple rituals.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>State</th><th>Classical Dance Form</th><th>Status</th></tr>
+                <tr><td><b>Option A: Tamil Nadu</b></td><td>Birthplace of Bharatnatyam, originally performed by Devadasis in Hindu temples. It is one of the oldest classical dance traditions.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: Kerala</b></td><td>Famous for Kathakali and Mohiniyattam.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Andhra Pradesh</b></td><td>Famous for Kuchipudi.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Uttar Pradesh</b></td><td>Famous for Kathak.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Sangeet Natak Akademi / Indian Culture & Arts.
+        `
+    },
+    {
+        question: "93) Lavani is a famous folk dance of.........",
+        options: [
+            "Rajasthan",
+            "Maharashtra",
+            "Kerala",
+            "Karnataka"
+        ],
+        correctAnswer: 1,
+        hint: `
+            <h3>Indian Folk Dances</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Regional Culture:</b> Lavani is a combination of traditional song and dance, particularly performed to the beats of the Dholki.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>State</th><th>Folk Dance Tradition</th><th>Status</th></tr>
+                <tr><td><b>Option A: Rajasthan</b></td><td>Known for Ghoomar, Kalbelia.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Maharashtra</b></td><td>Lavani is the traditional, high-energy folk dance of Maharashtra, often dealing with themes of romance and social issues.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: Kerala</b></td><td>Known for Theyyam, Thiruvathirakali.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Karnataka</b></td><td>Known for Yakshagana, Dollu Kunitha.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Ministry of Culture, Govt. of India.
+        `
+    },
+    {
+        question: "94) M.F. Hussain is associated with.........",
+        options: [
+            "Painting",
+            "Music",
+            "Dance",
+            "Drama"
+        ],
+        correctAnswer: 0,
+        hint: `
+            <h3>Indian Personalities in Arts</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Maqbool Fida Husain:</b> Often referred to as the "Picasso of India".
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Art Form</th><th>Association</th><th>Status</th></tr>
+                <tr><td><b>Option A: Painting</b></td><td>M.F. Husain was a legendary modern Indian painter, a founding member of the Bombay Progressive Artists' Group, famous for his bold, cubist-like depictions of horses and Indian epics.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B, C, D</b></td><td>He was not a musician, dancer, or dramatist by profession, though he did direct a few art films.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> National Gallery of Modern Art (NGMA) archives.
+        `
+    },
+    {
+        question: "95) Ustad Amjad Ali Khan is famous for playing which of the following instruments?",
+        options: [
+            "Tabla",
+            "Flute",
+            "Sarod",
+            "Harmonium"
+        ],
+        correctAnswer: 2,
+        hint: `
+            <h3>Hindustani Classical Music</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Musical Maestros:</b> Indian classical music features several distinct string and percussion instruments championed by specific families (Gharanas).
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Instrument</th><th>Famous Exponent</th><th>Status</th></tr>
+                <tr><td><b>Option A: Tabla</b></td><td>Ustad Zakir Hussain, Ustad Allah Rakha.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Flute</b></td><td>Pandit Hariprasad Chaurasia.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Sarod</b></td><td>Ustad Amjad Ali Khan is one of the world's premier masters of the Sarod (a fretless stringed instrument), representing the Bangash lineage.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: Harmonium</b></td><td>Appa Jalgaonkar, Tulsidas Borkar.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Padma Awards citations / Sangeet Natak Akademi.
+        `
+    },
+    {
+        question: "96) Which of the following monuments belongs to UNESCO's List of World Heritage Sites in India?",
+        options: [
+            "Vaishno Devi",
+            "Khajuraho",
+            "Krimchi Temple",
+            "Akshardham Temple"
+        ],
+        correctAnswer: 1,
+        hint: `
+            <h3>UNESCO World Heritage Sites</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Global Recognition:</b> Sites of outstanding universal cultural or natural significance are listed by UNESCO.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Monument</th><th>UNESCO Status</th><th>Status</th></tr>
+                <tr><td><b>Option A: Vaishno Devi</b></td><td>Major pilgrimage site, but not a UNESCO World Heritage site.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Khajuraho</b></td><td>The Khajuraho Group of Monuments in Madhya Pradesh, built by the Chandela dynasty (famous for nagara-style architecture), was inscribed by UNESCO in 1986.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: Krimchi Temple</b></td><td>Ancient temples in J&K, protected by ASI, but not on the UNESCO list.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Akshardham Temple</b></td><td>Modern architectural marvel in Delhi, not a UNESCO heritage site.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> UNESCO World Heritage Centre - India listings.
+        `
+    },
+    {
+        question: "97) Which of the following festivals is associated with harvest?",
+        options: [
+            "Pongal",
+            "Guru Pumima",
+            "Easter",
+            "Eid-Ul-Fitr"
+        ],
+        correctAnswer: 0,
+        hint: `
+            <h3>Indian Cultural Festivals</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Agrarian Cycle:</b> Many traditional Indian festivals are tied directly to the solar calendar and agricultural harvesting seasons.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Festival</th><th>Cultural Significance</th><th>Status</th></tr>
+                <tr><td><b>Option A: Pongal</b></td><td>A multi-day Hindu harvest festival celebrated in Tamil Nadu dedicated to the Sun God, marking the end of the winter solstice.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: Guru Purnima</b></td><td>Dedicated to spiritual and academic teachers.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Easter</b></td><td>Christian festival celebrating the resurrection of Jesus.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Eid-Ul-Fitr</b></td><td>Islamic festival marking the end of Ramadan fasting.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Indian Culture - Regional Festivals.
+        `
+    },
+    {
+        question: "98) The Annual Boat Race Festival is held in which state?",
+        options: [
+            "Kerala",
+            "Goa",
+            "Odhisha",
+            "Tamil Nadu"
+        ],
+        correctAnswer: 0,
+        hint: `
+            <h3>Regional Traditions</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Vallam Kali:</b> A traditional boat race featuring massive "Snake Boats" (Chundan Vallam).
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>State</th><th>Associated Festival Event</th><th>Status</th></tr>
+                <tr><td><b>Option A: Kerala</b></td><td>Famous for the Nehru Trophy Boat Race and traditional Vallam Kali races held on the backwaters during the Onam harvest festival.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B, C, D</b></td><td>Do not host the globally recognized traditional Snake Boat races.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Kerala Tourism / Culture guidelines.
+        `
+    },
+    {
+        question: "99) The Council of Minister is responsible to -",
+        options: [
+            "President",
+            "Lok Sabha",
+            "Rajya Sabha",
+            "Parliament"
+        ],
+        correctAnswer: 1,
+        hint: `
+            <h3>Indian Constitutional Framework</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Parliamentary Democracy:</b> In India, the executive branch derives its legitimacy from the legislature.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Body</th><th>Constitutional Relationship</th><th>Status</th></tr>
+                <tr><td><b>Option A: President</b></td><td>Ministers hold office during the pleasure of the President, but collective responsibility lies elsewhere.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Lok Sabha</b></td><td>Article 75(3) of the Constitution explicitly states: "The Council of Ministers shall be collectively responsible to the House of the People (Lok Sabha)." If they lose a no-confidence motion here, they must resign.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: Rajya Sabha</b></td><td>The upper house cannot pass a no-confidence motion against the government.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Parliament</b></td><td>Too broad. Responsibility is strictly to the directly elected lower house.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Constitution of India - Article 75.
+        `
+    },
+    {
+        question: "100) The Electoral College which elects the Vice-President is the",
+        options: [
+            "President & the Cabinet",
+            "Lok Sabha",
+            "Rajya Sabha",
+            "Lok Sabha and the Rajya Sabha"
+        ],
+        correctAnswer: 3,
+        hint: `
+            <h3>Constitutional Election Processes</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Article 66:</b> The Vice-President is elected indirectly by an electoral college.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Electoral College</th><th>Validity for VP Election</th><th>Status</th></tr>
+                <tr><td><b>Option A: President & Cabinet</b></td><td>Appointees do not elect the VP.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B & C</b></td><td>Incomplete. Both houses participate.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Lok Sabha and the Rajya Sabha</b></td><td>The Vice-President is elected by members of an electoral college consisting of the members of both Houses of Parliament (both elected and nominated members participate).</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Constitution of India - Article 66(1).
+        `
+    },
+    {
+        question: "101) Which account is audited by \"CAG\"?",
+        options: [
+            "Public enterprises and central agencies",
+            "Only for state government",
+            "Only for central government",
+            "Central government state government or any other government agency"
+        ],
+        correctAnswer: 3,
+        hint: `
+            <h3>Role of CAG in India</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Constitutional Body:</b> The Comptroller and Auditor General (CAG) of India is established under Article 148 of the Constitution to audit all receipts and expenditures of the government.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Account Type</th><th>Audit Jurisdiction</th><th>Status</th></tr>
+                <tr><td><b>Option A: Public enterprises...</b></td><td>Incomplete. It audits these, but not *only* these.</td><td><u>Partial</u></td></tr>
+                <tr><td><b>Option B: Only for state government</b></td><td>Incorrect restriction.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Only for central government</b></td><td>Incorrect restriction.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Central, state or any other government agency</b></td><td>The CAG audits the accounts of both the Union (Central) Government, all State Governments, and bodies/authorities substantially financed by government funds.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Constitution of India - Article 148 to 151 (Duties and Powers of CAG).
+        `
+    },
+    {
+        question: "102) Indian constitution describes India as?",
+        options: [
+            "Quasy Federation state",
+            "Group of Independent states",
+            "Union of states",
+            "Dominion of free states"
+        ],
+        correctAnswer: 2,
+        hint: `
+            <h3>Nature of the Indian State</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Article 1:</b> The very first article of the Constitution defines the territorial and political nature of the country.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Description</th><th>Constitutional Accuracy</th><th>Status</th></tr>
+                <tr><td><b>Option A: Quasy Federation</b></td><td>A term used by scholars (like K.C. Wheare), but not the official constitutional description.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Group of Independent states</b></td><td>India is an indestructible union of destructible states; states do not have the right to secede.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Union of states</b></td><td>Article 1(1) explicitly states: "India, that is Bharat, shall be a Union of States."</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: Dominion of free states</b></td><td>A pre-republic era term.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Constitution of India - Part I, Article 1.
+        `
+    },
+    {
+        question: "103) Lower house of Parliament is called",
+        options: [
+            "State Council",
+            "State legislative assembly",
+            "Rajasthan",
+            "Loksabha"
+        ],
+        correctAnswer: 3,
+        hint: `
+            <h3>Bicameral Legislature</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Parliament Structure:</b> The Parliament of India consists of the President and two Houses: the Council of States (Rajya Sabha) and the House of the People (Lok Sabha).
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>House Name</th><th>Function/Level</th><th>Status</th></tr>
+                <tr><td><b>Option A: State Council</b></td><td>Refers to the Legislative Council at the state level (Vidhan Parishad) or Rajya Sabha (Upper House) at the center.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: State legislative assembly</b></td><td>The lower house at the *state* level (Vidhan Sabha), not Parliament.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Rajasthan</b></td><td>A geographical state, not a parliamentary house (likely a typo for Rajya Sabha).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Loksabha</b></td><td>The House of the People is the lower house of India's bicameral Parliament, consisting of directly elected representatives.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Constitution of India - Article 79.
+        `
+    },
+    {
+        question: "104) What is the total number of Lok Sabha members at present?",
+        options: [
+            "580",
+            "560",
+            "545",
+            "550"
+        ],
+        correctAnswer: 2,
+        hint: `
+            <h3>Lok Sabha Composition</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>House Strength:</b> The maximum constitutional strength is 552, but actual working strength varies based on current allocations and Anglo-Indian nominations (which were discontinued recently, though 545 remains the historically standard tested answer).
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Number</th><th>Context</th><th>Status</th></tr>
+                <tr><td><b>Option A & B</b></td><td>Exceeds the constitutional maximum of 552.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: 545</b></td><td>Traditionally, the effective strength of the Lok Sabha consists of 543 elected members plus 2 nominated Anglo-Indians, totaling 545.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: 550</b></td><td>The maximum limit of elected members (excluding nominations).</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Constitution of India - Article 81.
+        `
+    },
+    {
+        question: "105) The Constitution of India came into force on",
+        options: [
+            "15th August 1947",
+            "26th January 1950",
+            "26 January 1949",
+            "26 August 1949"
+        ],
+        correctAnswer: 1,
+        hint: `
+            <h3>Republic Day Origins</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Adoption vs. Enforcement:</b> The Constitution was adopted by the Constituent Assembly on 26th November 1949, but it officially came into legal effect two months later.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Date</th><th>Historical Event</th><th>Status</th></tr>
+                <tr><td><b>Option A: 15th August 1947</b></td><td>Independence Day (freedom from British rule), but governed by the Government of India Act 1935 at the time.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: 26th January 1950</b></td><td>The date the Constitution formally came into effect, establishing India as a sovereign republic. Chosen to honor the 'Purna Swaraj' declaration of 1930.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: 26 January 1949</b></td><td>Incorrect date.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Preamble and Article 394 of the Constitution of India.
+        `
+    },
+    {
+        question: "106) Which languages are mentioned in the Constitution for the execution of work of Parliament?",
+        options: [
+            "English and Tamil",
+            "Urdu and English",
+            "Hindi and Urdu",
+            "Hindi and English"
+        ],
+        correctAnswer: 3,
+        hint: `
+            <h3>Official Languages in Parliament</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Article 120:</b> The Constitution specifically prescribes the languages to be used for conducting the business of Parliament.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Languages</th><th>Constitutional Mandate</th><th>Status</th></tr>
+                <tr><td><b>Option A, B, C</b></td><td>Tamil and Urdu are Eighth Schedule languages but not designated as the primary working languages of Parliament.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Hindi and English</b></td><td>Article 120 states that business in Parliament shall be transacted in Hindi or in English (though the presiding officer may permit a member to address the House in their mother tongue).</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Constitution of India - Article 120.
+        `
+    },
+    {
+        question: "107) The Supreme Court of India can issue order directly with respect to which of the following?",
+        options: [
+            "Neither a fundamental nor a legal right",
+            "Legal rights only",
+            "Fundamental Rights only",
+            "Both fundamental and legal rights"
+        ],
+        correctAnswer: 2,
+        hint: `
+            <h3>Writ Jurisdiction of Supreme Court</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Article 32 vs Article 226:</b> The Supreme Court's original writ jurisdiction (Article 32) is specifically tailored for constitutional remedies.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Right Type</th><th>SC Jurisdiction (Art 32)</th><th>Status</th></tr>
+                <tr><td><b>Option A: Neither</b></td><td>Invalid.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Legal rights only</b></td><td>Legal (statutory) rights violations are usually handled by lower courts or High Courts.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Fundamental Rights only</b></td><td>Under Article 32, a citizen can directly approach the Supreme Court *only* for the enforcement of Fundamental Rights (Part III). (Note: High Courts under Art 226 can issue writs for both fundamental and other legal rights).</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: Both</b></td><td>Applies to High Courts, not the Supreme Court's direct original writ jurisdiction.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Constitution of India - Article 32.
+        `
+    },
+    {
+        question: "108) Who is the Chancellor of the State universities?",
+        options: [
+            "State Registrar General",
+            "Governor of the State",
+            "Minister of State for Human Resource and Development",
+            "President of India"
+        ],
+        correctAnswer: 1,
+        hint: `
+            <h3>University Administration</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Ex-officio Roles:</b> By virtue of their constitutional office, certain dignitaries hold ceremonial head positions in educational institutions.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Official</th><th>Role in State Universities</th><th>Status</th></tr>
+                <tr><td><b>Option A: State Registrar</b></td><td>Administrative officer, not the Chancellor.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Governor of the State</b></td><td>In almost all Indian states, the Governor acts as the ex-officio Chancellor of the state universities, appointing the Vice-Chancellors and presiding over convocations.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: HRD Minister</b></td><td>Handles education policy, not the ceremonial Chancellorship.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: President of India</b></td><td>Serves as the Visitor/Chancellor for *Central* Universities, not State universities.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> State University Acts / Role of Governor.
+        `
+    },
+    {
+        question: "109) How many members of the Rajya Sabha can be nominated by the President of India?",
+        options: [
+            "100",
+            "12",
+            "50",
+            "9"
+        ],
+        correctAnswer: 1,
+        hint: `
+            <h3>Rajya Sabha Nominations</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Special Representation:</b> To ensure that eminent personalities from various fields can contribute to the legislative process without contesting elections, the President has nominating powers.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Number</th><th>Constitutional Provision</th><th>Status</th></tr>
+                <tr><td><b>Option A, C, D</b></td><td>Incorrect figures.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: 12</b></td><td>Under Article 80, the President can nominate 12 members to the Rajya Sabha who have special knowledge or practical experience in Art, Literature, Science, and Social Service.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Constitution of India - Article 80(1)(a) and 80(3).
+        `
+    },
+    {
+        question: "110) Which of the following port is situated at the mouth of the Gulf of Kutch?",
+        options: [
+            "Porbandar",
+            "Mumbai",
+            "Kandla",
+            "Mormugaon"
+        ],
+        correctAnswer: 2,
+        hint: `
+            <h3>Major Ports of India</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Geographical Location:</b> The Gulf of Kutch is an inlet of the Arabian Sea along the west coast of India, in the state of Gujarat.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Port</th><th>Location</th><th>Status</th></tr>
+                <tr><td><b>Option A: Porbandar</b></td><td>Located further down the Saurashtra coast, not specifically at the mouth of the Gulf of Kutch.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Mumbai</b></td><td>Located in Maharashtra.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Kandla</b></td><td>Deendayal Port (formerly Kandla) is a major seaport situated at the eastern end of the Gulf of Kutch, constructed to handle trade after the loss of Karachi port to Pakistan.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: Mormugaon</b></td><td>Located in Goa.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Indian Geography - Transport and Ports.
+        `
+    },
+    {
+        question: "111) Where are one-horned rhinoceros found in India?",
+        options: [
+            "Assam",
+            "Madhya Pradesh",
+            "Bihar",
+            "Meghalaya"
+        ],
+        correctAnswer: 0,
+        hint: `
+            <h3>Indian Wildlife Sanctuaries</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Endemic Species:</b> The Great Indian Rhinoceros is heavily concentrated in specific floodplain habitats in the north-eastern region.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>State</th><th>Wildlife Significance</th><th>Status</th></tr>
+                <tr><td><b>Option A: Assam</b></td><td>Home to the Kaziranga National Park and Pobitora Wildlife Sanctuary, which hold the vast majority of the world's population of the one-horned rhinoceros.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: Madhya Pradesh</b></td><td>Famous for Tigers (Bandhavgarh, Kanha).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Bihar</b></td><td>Valmiki National Park, known for tigers.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Meghalaya</b></td><td>Known for elephants, clouded leopards, but not the primary stronghold of rhinos.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Environment & Ecology - Wildlife Conservation.
+        `
+    },
+    {
+        question: "112) In which of the following location is the Brahmaputra River known as Tasang Po?",
+        options: [
+            "Pakistan",
+            "Nepal",
+            "Bangladesh",
+            "Tibet"
+        ],
+        correctAnswer: 3,
+        hint: `
+            <h3>River Systems of India</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Nomenclature:</b> Major trans-boundary rivers change names as they flow through different linguistic and political regions.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Region</th><th>River Name</th><th>Status</th></tr>
+                <tr><td><b>Option A: Pakistan</b></td><td>Brahmaputra does not flow through Pakistan.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Nepal</b></td><td>Does not flow through Nepal.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Bangladesh</b></td><td>Known as the Jamuna River when it enters Bangladesh.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Tibet</b></td><td>The river originates in the Angsi Glacier in Tibet, where it is known as the Yarlung Tsangpo (or simply Tsangpo/Tasang Po) before entering India through Arunachal Pradesh.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Indian Geography - Drainage Systems.
+        `
+    },
+    {
+        question: "113) A commercial bank normally pays no interest on-",
+        options: [
+            "A savings deposit account",
+            "A current deposit account",
+            "A fixed deposit account",
+            "A recurring deposit account"
+        ],
+        correctAnswer: 1,
+        hint: `
+            <h3>Banking Operations</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Account Types:</b> Banks offer different accounts for different purposes. Some are for saving/investing, while others are purely for high-volume daily transactions.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Account Type</th><th>Interest Policy</th><th>Status</th></tr>
+                <tr><td><b>Option A: Savings deposit</b></td><td>Pays a nominal interest rate (e.g., 2.5% to 4%) to encourage saving habits.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Current deposit account</b></td><td>Designed for businesses with numerous daily transactions. Due to high liquidity and constant movement of funds, banks normally pay <b>zero interest</b> on current accounts.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: Fixed deposit</b></td><td>Pays the highest interest due to the lock-in period.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Recurring deposit</b></td><td>Pays interest similar to FDs to encourage systematic saving.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Basic Economics / Banking Awareness.
+        `
+    },
+    {
+        question: "114) RBI is the Regulatory Authority for",
+        options: [
+            "Banks",
+            "Banks and mutual funds",
+            "Banks, mutual funds and stock exchanges",
+            "Banks, mutual funds, stock exchanges and rating agencies"
+        ],
+        correctAnswer: 0,
+        hint: `
+            <h3>Financial Regulators in India</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Sectoral Regulation:</b> The Indian financial system is divided among several specialized regulatory bodies.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Institutions</th><th>Regulatory Body</th><th>Status</th></tr>
+                <tr><td><b>Option A: Banks</b></td><td>The Reserve Bank of India (RBI) is the central bank and the apex regulatory authority exclusively for the banking sector and monetary policy.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B, C, D</b></td><td>Mutual funds, stock exchanges, and rating agencies are capital market entities regulated by the Securities and Exchange Board of India (SEBI), not the RBI.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Indian Economy - Financial Markets and Institutions.
+        `
+    },
+    {
+        question: "115) The government of India buys food grains through",
+        options: [
+            "Food Corporation of India",
+            "National Agricultural Market",
+            "Ministry of Agriculture",
+            "Merchant's shop"
+        ],
+        correctAnswer: 0,
+        hint: `
+            <h3>Public Distribution System (PDS)</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Food Security:</b> The government ensures food security by procuring grains directly from farmers at Minimum Support Prices (MSP) and storing them for public distribution.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Agency</th><th>Role</th><th>Status</th></tr>
+                <tr><td><b>Option A: Food Corporation of India</b></td><td>The FCI is the nodal statutory agency under the Ministry of Consumer Affairs, Food and Public Distribution responsible for the purchase, storage, movement, and distribution of food grains.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: e-NAM</b></td><td>An electronic trading portal for agricultural commodities, not the government buyer itself.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Ministry of Agriculture</b></td><td>Formulates policy and sets MSP, but does not do the physical warehousing and buying.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Merchant's shop</b></td><td>Private entities.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Indian Economy - Agriculture and Food Management.
+        `
+    },
+    {
+        question: "116) Which of the following organisations estimates poverty line in India?",
+        options: [
+            "NITI Aayog",
+            "CSO",
+            "NSSO",
+            "Finance Commission"
+        ],
+        correctAnswer: 0,
+        hint: `
+            <h3>Economic Planning and Estimation</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Poverty Estimation:</b> Determining who falls below the poverty line (BPL) requires analyzing massive consumption data surveys.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Organization</th><th>Function</th><th>Status</th></tr>
+                <tr><td><b>Option A: NITI Aayog</b></td><td>Formerly the Planning Commission. NITI Aayog's task force calculates the poverty line based on the data provided by NSSO.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: CSO</b></td><td>Central Statistics Office coordinates statistical activities and compiles National Income (GDP).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: NSSO</b></td><td>National Sample Survey Office *collects* the raw survey data on consumption expenditure, but the official poverty line is established by NITI Aayog task forces (like the Tendulkar or Rangarajan committees).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Finance Commission</b></td><td>Allocates tax revenues between Center and States.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Indian Economy - Poverty and Unemployment.
+        `
+    },
+    {
+        question: "117) Software used to maintain the security of a private network",
+        options: [
+            "Encryption",
+            "Malware",
+            "Clickbat",
+            "Firewall"
+        ],
+        correctAnswer: 3,
+        hint: `
+            <h3>Network Security Basics</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Perimeter Defense:</b> A private Intranet needs a barrier to block unauthorized access from the public Internet.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Term</th><th>Definition</th><th>Status</th></tr>
+                <tr><td><b>Option A: Encryption</b></td><td>A method of scrambling data so it cannot be read. It is a technique, not a standalone network perimeter software.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Malware</b></td><td>Malicious software designed to damage or hack systems.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Clickbait</b></td><td>Deceptive web content meant to attract clicks.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Firewall</b></td><td>A network security system (hardware or software) that monitors and controls incoming and outgoing network traffic based on predetermined security rules, acting as a barrier between a trusted network and an untrusted network.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Basic Computer Awareness - Cyber Security.
+        `
+    },
+    {
+        question: "118) What is URL?",
+        options: [
+            "Address of the web page displayed on the internet",
+            "Web browser",
+            "A computer software",
+            "Searching engine"
+        ],
+        correctAnswer: 0,
+        hint: `
+            <h3>Internet Terminology</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Navigation:</b> Every resource on the World Wide Web needs a unique location identifier so browsers can retrieve it.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Definition</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A: Address of the web page...</b></td><td>URL stands for Uniform Resource Locator. It is the specific web address (like www.google.com) used to locate a web page or file on the internet.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: Web browser</b></td><td>Software like Chrome or Firefox used to access URLs.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Computer software</b></td><td>Too generic.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Searching engine</b></td><td>A tool like Google or Bing that helps find URLs.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Fundamentals of Information Technology.
+        `
+    },
+    {
+        question: "119) What is the full form of DOS?",
+        options: [
+            "Device Outsourcing System",
+            "Device Operating System",
+            "Different Operating System",
+            "Disk Operating System"
+        ],
+        correctAnswer: 3,
+        hint: `
+            <h3>Computer Operating Systems</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Legacy Tech:</b> Before graphical interfaces like Windows, computers were run using command-line operating systems.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Full Form</th><th>Historical Context</th><th>Status</th></tr>
+                <tr><td><b>Option A, B, C</b></td><td>Incorrect expansions of the acronym.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Disk Operating System</b></td><td>DOS refers to operating systems (like MS-DOS) that ran from a floppy disk or hard disk drive, providing the fundamental file management and command execution framework for early PCs.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Basics of Computer Science.
+        `
+    },
+    {
+        question: "120) Who is the caretaker President of India in the absence of the President?",
+        options: [
+            "Speaker of Lok Sabha",
+            "The most senior member of the Rajya Sabha",
+            "Chief Justice of India",
+            "Vice President of India"
+        ],
+        correctAnswer: 3,
+        hint: `
+            <h3>Constitutional Succession</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Vacancy in Office:</b> The highest office in the country cannot remain vacant. Article 65 provides a clear line of succession if the President dies, resigns, or is removed.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Official</th><th>Role in Succession</th><th>Status</th></tr>
+                <tr><td><b>Option A & B</b></td><td>Legislative officers do not take over executive presidential powers.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Chief Justice</b></td><td>The CJI acts as President *only* if both the President and Vice President offices are vacant simultaneously.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Vice President of India</b></td><td>The Vice President acts as the caretaker/acting President until a new President is elected (within 6 months).</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Constitution of India - Article 65.
+        `
+    },
+    {
+        question: "121) Indian Constitution prohibits the employment of children under years of age-",
+        options: [
+            "14",
+            "7",
+            "16",
+            "18"
+        ],
+        correctAnswer: 0,
+        hint: `
+            <h3>Fundamental Rights - Exploitation</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Child Labor:</b> The constitution guarantees the "Right against Exploitation" to protect vulnerable demographics from hazardous conditions.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Age Limit</th><th>Constitutional Mandate</th><th>Status</th></tr>
+                <tr><td><b>Option A: 14</b></td><td>Article 24 explicitly states: "No child below the age of fourteen years shall be employed to work in any factory or mine or engaged in any other hazardous employment."</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B, C, D</b></td><td>Other legal statutes (like juvenile justice acts) might use 16 or 18 for certain definitions, but the core constitutional prohibition for hazardous labor is strictly 14.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Constitution of India - Article 24.
+        `
+    },
+    {
+        question: "122) A potential difference of 50 V is applied across a resistor of resistance 1000 &Omega; for 10 sec. What will be the amount of heat generated in the circuit?",
+        options: [
+            "250 J",
+            "25 J",
+            "500 J",
+            "50 J"
+        ],
+        correctAnswer: 1,
+        hint: `
+            <h3>Joule's Law of Heating</h3>
+            <div style="background-color: #e6f2ff; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Formula:</b> <br>
+                Heat (H) = (V<sup>2</sup> / R) &times; t <br>
+                Where:<br>
+                V = Voltage = 50 V <br>
+                R = Resistance = 1000 &Omega; <br>
+                t = Time = 10 seconds
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Calculation</th><th>Result</th><th>Status</th></tr>
+                <tr><td colspan="3">H = (50 &times; 50) / 1000 &times; 10 <br> H = (2500 / 1000) &times; 10 <br> H = 2.5 &times; 10 = 25 Joules.</td></tr>
+                <tr><td><b>Option A: 250 J</b></td><td>Mathematical error.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: 25 J</b></td><td>Matches the calculated 25 Joules.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: 500 J</b></td><td>Mathematical error.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: 50 J</b></td><td>Mathematical error.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Basic Electrical Engineering (Joule's Law).
+        `
+    },
+    {
+        question: "123) Jharia (Jharkhand) is famous for",
+        options: [
+            "Sports goods",
+            "Copper mines",
+            "Coal mines",
+            "Gold mines"
+        ],
+        correctAnswer: 2,
+        hint: `
+            <h3>Mineral Resources of India</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Chota Nagpur Plateau:</b> Jharkhand is a mineral-rich state, particularly known for its massive fossil fuel reserves driving India's power sector.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Resource</th><th>Notable Location</th><th>Status</th></tr>
+                <tr><td><b>Option A: Sports goods</b></td><td>Jalandhar and Meerut are famous for this.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Copper mines</b></td><td>Khetri (Rajasthan) or Singhbhum are known for copper.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Coal mines</b></td><td>Jharia is one of the largest coal reserves in India and is famous for its high-grade coking coal (and tragically, its long-burning underground coal fires).</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: Gold mines</b></td><td>Kolar (Karnataka) is famous for gold.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Indian Geography - Mineral Belts.
+        `
+    },
+    {
+        question: "124) On which river's bank is Panaji located?",
+        options: [
+            "Mondovi",
+            "Zuari",
+            "Sal",
+            "Terekhol"
+        ],
+        correctAnswer: 0,
+        hint: `
+            <h3>Indian Cities and Rivers</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Goan Geography:</b> Panaji (Panjim) is the capital of the state of Goa, situated on the western coast.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>River</th><th>Geographical Fact</th><th>Status</th></tr>
+                <tr><td><b>Option A: Mondovi</b></td><td>Panaji is situated on the scenic banks of the Mandovi River (also spelled Mondovi or Mahadayi), which is often called the lifeline of Goa.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: Zuari</b></td><td>Another major Goan river, but the capital does not sit on it.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Sal</b></td><td>A smaller river in South Goa.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Terekhol</b></td><td>Forms the boundary between Goa and Maharashtra.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Indian Geography - River Systems and Cities.
+        `
+    },
+    {
+        question: "125) Who is called the father of white revolution in India?",
+        options: [
+            "Dr. Verghese Kurien",
+            "Dr. M.S.Swaminathan",
+            "Dr. A.P.J. Abdul Kalam",
+            "Dr. C.N.R. Rao"
+        ],
+        correctAnswer: 0,
+        hint: `
+            <h3>Agricultural Revolutions in India</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Operation Flood:</b> In the 1970s, India launched the world's largest dairy development program to transform from a milk-deficient nation to the largest milk producer globally.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Personality</th><th>Associated Revolution/Field</th><th>Status</th></tr>
+                <tr><td><b>Option A: Dr. Verghese Kurien</b></td><td>The founder of Amul and the architect of 'Operation Flood', universally recognized as the Father of the White Revolution (Milk) in India.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: Dr. M.S. Swaminathan</b></td><td>The Father of the Green Revolution (Wheat/Agriculture) in India.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Dr. A.P.J. Abdul Kalam</b></td><td>The Missile Man of India (Space/Defense).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Dr. C.N.R. Rao</b></td><td>Eminent solid-state and structural chemist.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> History of Modern India - Economic Developments.
+        `
+    },
+    {
+        question: "126) From when did the Section 3(3) of Official Languages Act come into force?",
+        options: [
+            "10 May, 1965",
+            "14th September, 1967",
+            "8th March, 1976",
+            "26th January 1965"
+        ],
+        correctAnswer: 3,
+        hint: `
+            <h3>Official Language Policies</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Legislative History:</b> The Official Languages Act was passed in 1963 to provide for the continued use of English (alongside Hindi) for official purposes of the Union beyond the initial 15-year period stipulated by the Constitution.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Date</th><th>Significance</th><th>Status</th></tr>
+                <tr><td><b>Option A, B, C</b></td><td>Various other dates related to language rules and Hindi Divas, but not the commencement of Section 3(3).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: 26th January 1965</b></td><td>This is the exact date when the original 15-year constitutional limit for English expired, and Section 3 of the Official Languages Act 1963 came into force to ensure bilingual statutory documentation.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Official Languages Act, 1963.
+        `
+    },
+    {
+        question: "127) According to Section 3(3) of the Official Language Act, 1963 how many documents are mandatory to be issued in the bilingual form?",
+        options: [
+            "10",
+            "12",
+            "13",
+            "16"
+        ],
+        correctAnswer: null,
+        hint: `
+            <h3>Bilingual Documentation Mandate</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Note:</b> This question was officially deleted. Generally, Section 3(3) prescribes 14 types of documents (Resolutions, General Orders, Rules, Notifications, Administrative/Other Reports, Press Communiques, etc.) that must be issued bilingually (Hindi and English). Since 14 is not an option, the question was removed.
+            </div>
+        `
+    },
+    {
+        question: "128) Conventionally who is elected as the chairman of the Committee of Parliament on Official Language?",
+        options: [
+            "President",
+            "Vice President",
+            "Prime Minister",
+            "Home Minister"
+        ],
+        correctAnswer: 3,
+        hint: `
+            <h3>Parliamentary Committees</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Committee Composition:</b> The Committee of Parliament on Official Language was set up under the Official Languages Act, 1963. It consists of 30 members (20 from Lok Sabha, 10 from Rajya Sabha).
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Official</th><th>Role in Committee</th><th>Status</th></tr>
+                <tr><td><b>Option A, B, C</b></td><td>Do not hold the chairmanship of this specific statutory committee.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Home Minister</b></td><td>By convention and statutory framing under the Department of Official Language (Ministry of Home Affairs), the Union Home Minister is elected as the Chairman of this committee.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Official Languages Act, 1963 - Section 4.
+        `
+    },
+    {
+        question: "129) What are the fundamental functions of the Committee of Parliament on Official Language?",
+        options: [
+            "To work in Hindi",
+            "To Promote the use of Hindi",
+            "To work in English",
+            "To review the progressive use of Hindi"
+        ],
+        correctAnswer: 3,
+        hint: `
+            <h3>Duties of Official Language Committee</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Statutory Mandate:</b> The committee is an oversight body, not an operational execution agency.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Function</th><th>Analysis</th><th>Status</th></tr>
+                <tr><td><b>Option A & B</b></td><td>Operational goals of individual government departments, not the specific statutory mandate of the parliamentary committee.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Work in English</b></td><td>Contradicts the purpose of the Official Language policy.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: To review the progressive use...</b></td><td>As per Section 4(3) of the Act, it is the duty of the Committee to review the progress made in the use of Hindi for the official purposes of the Union and submit a report to the President.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Official Languages Act, 1963 - Section 4(3).
+        `
+    },
+    {
+        question: "130) Who is responsible for ensuring that the document under section 3(3) of the Official Language Act be issued in both Hindi and English languages/bilingually?",
+        options: [
+            "The person signing on the document",
+            "Head of the Office",
+            "Rajbhasha Officer",
+            "Principal head of department"
+        ],
+        correctAnswer: 0,
+        hint: `
+            <h3>Administrative Responsibility (Rajbhasha)</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Accountability:</b> The rules enforce strict personal accountability to ensure bilingual compliance for statutory documents like General Orders and Notifications.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Official</th><th>Responsibility under Rules</th><th>Status</th></tr>
+                <tr><td><b>Option A: The person signing...</b></td><td>Under Official Language Rule 6, it is the specific responsibility of the officer signing the documents specified in Section 3(3) to ensure that they are issued in both Hindi and English.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B, C, D</b></td><td>They have general supervisory roles, but the direct legal accountability lies with the signatory.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Official Language Rules, 1976 - Rule 6.
+        `
+    },
+    {
+        question: "131) When may an English translation of a document be asked for?",
+        options: [
+            "When a document is of a legal or technical nature",
+            "Being important",
+            "Service related document",
+            "Under Rule-7"
+        ],
+        correctAnswer: null,
+        hint: `
+            <h3>Translation Regulations</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Note:</b> This question was deleted from the evaluation. According to Rule 8(4), no translation is usually required for communication within Region A, but legal/technical nuances often create exceptions, making the options ambiguous.
+            </div>
+        `
+    },
+    {
+        question: "132) According to Official Language Rule-12, whom does the responsibility of proper compliance of the provisions of the Official Language Act and the Rules made there under lie with?",
+        options: [
+            "In charge of Rajbhasha section",
+            "PHOD of Rajbhasha Department",
+            "Administrative Head of the office",
+            "Rajbhasha Adhikari"
+        ],
+        correctAnswer: 2,
+        hint: `
+            <h3>Ultimate Accountability (Rule 12)</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Systemic Compliance:</b> While translating and typing is done by staff, the ultimate failure of compliance in an office lies at the top.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Official</th><th>Scope of Responsibility</th><th>Status</th></tr>
+                <tr><td><b>Option A & D</b></td><td>Rajbhasha staff assist and monitor, but they lack the executive authority to enforce compliance across all departments.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: PHOD</b></td><td>Only responsible for their specific department.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Administrative Head</b></td><td>Rule 12 explicitly assigns the responsibility for the implementation of the Official Language policy and rules to the Administrative Head of each Central Government office.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Official Language Rules, 1976 - Rule 12 (Responsibility for Compliance).
+        `
+    },
+    {
+        question: "133) Under which Rule the definition of an employee passing of working knowledge in Hindi is given?",
+        options: [
+            "Under Rule 6",
+            "Under Rule 8",
+            "Under Sub-Rule (1) of Rule 5",
+            "Under Rule 10 of Official Language Rules, 1976"
+        ],
+        correctAnswer: 3,
+        hint: `
+            <h3>Proficiency Definitions</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Working Knowledge vs. Proficiency:</b> The rules legally define when an employee is considered to have 'Working Knowledge' (e.g., passing Matriculation with Hindi) versus 'Proficiency' in Hindi.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Rule Number</th><th>Subject Matter</th><th>Status</th></tr>
+                <tr><td><b>Option A: Rule 6</b></td><td>Deals with documents under Section 3(3).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Rule 8</b></td><td>Deals with noting in files.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Rule 5(1)</b></td><td>Deals with replies to communications received in Hindi.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Rule 10</b></td><td>Rule 10 of the Official Language Rules, 1976, provides the precise criteria and definition for an employee having "Working knowledge of Hindi". (Rule 9 defines "Proficiency").</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Official Language Rules, 1976.
+        `
+    },
+    {
+        question: "134) According to Official Language Rules, how many classifications of the regions of states and union territories have been made in terms of the use of Hindi?",
+        options: [
+            "One",
+            "Two",
+            "Three",
+            "Four"
+        ],
+        correctAnswer: 2,
+        hint: `
+            <h3>Geographical Zoning for Hindi</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Targeted Implementation:</b> India is vast and linguistically diverse. The rules apply differently depending on how widely Hindi is spoken in a state.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Classification</th><th>Explanation</th><th>Status</th></tr>
+                <tr><td><b>Option A, B, D</b></td><td>Incorrect numbers.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Three</b></td><td>Under Rule 2, the country is divided into three regions: Region 'A' (Hindi speaking states like UP, MP, Bihar), Region 'B' (States like Gujarat, Maharashtra, Punjab), and Region 'C' (All other non-Hindi speaking states like Tamil Nadu, Kerala, West Bengal).</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Official Language Rules, 1976 - Rule 2 (Definitions).
+        `
+    },
+    {
+        question: "135) Which form of numerals is to be used for official purposes of the Union?",
+        options: [
+            "International form of Indian numerals",
+            "Devnagari numbers only",
+            "Basic form of Indian digits",
+            "Roman numbers form"
+        ],
+        correctAnswer: 0,
+        hint: `
+            <h3>Constitutional Provision on Numerals</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Standardization:</b> While Hindi in Devanagari script is the official language, a specific script was chosen for numbers to maintain global accounting and scientific compatibility.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Numeral Form</th><th>Constitutional Stance</th><th>Status</th></tr>
+                <tr><td><b>Option A: International form of Indian numerals</b></td><td>Article 343(1) explicitly mandates: "The form of numerals to be used for the official purposes of the Union shall be the international form of Indian numerals" (i.e., 1, 2, 3, 4...).</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: Devnagari numbers</b></td><td>Cannot be used for general official Union accounting unless specially authorized by the President.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C & D</b></td><td>Not constitutionally mandated forms for Union work.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Constitution of India - Article 343(1).
+        `
+    },
+    {
+        question: "136) Which Award Scheme has been introduced for Collection of Poetry to encourage the literary talent of Railway Employees?",
+        options: [
+            "Maithilisharan Gupt Award Scheme",
+            "Mahadevi Verma Award Scheme",
+            "Under Sub-Rule (1) of Rule 5",
+            "Premchand Award Scheme"
+        ],
+        correctAnswer: 0,
+        hint: `
+            <h3>Railway Hindi Incentive Schemes</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Literary Promotion:</b> The Railway Board runs several named award schemes to encourage original Hindi writing among its vast workforce.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Award Name</th><th>Target Literary Format</th><th>Status</th></tr>
+                <tr><td><b>Option A: Maithilisharan Gupt Award</b></td><td>Specifically instituted by the Ministry of Railways to award original Hindi Poetry collections (Kavya Sangrah) written by railway employees.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: Mahadevi Verma</b></td><td>Not the standard poetry award scheme currently recognized in the Railway Board manual.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Rule 5(1)</b></td><td>Irrelevant regulatory rule.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Premchand Award</b></td><td>Specifically awarded for writing original Hindi Fiction (Story/Novel/Drama), named after the great novelist Munshi Premchand.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Railway Board Rajbhasha Policy & Incentive Schemes.
+        `
+    },
+    {
+        question: "137) Which Award Scheme has been introduced to promote original book writing in Hindi on technical Railway subjects?",
+        options: [
+            "Lal Bahadur Shastri Taqniki Mouliq Lekhan Puraskar Yojana",
+            "Jawahar Lal Nehru Hindi Award Scheme",
+            "Rajiv Gandhi Award Scheme",
+            "Indira Gandhi Award Scheme"
+        ],
+        correctAnswer: 0,
+        hint: `
+            <h3>Technical Hindi Writing Promotion</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Engineering in Hindi:</b> Encouraging technical literature in Hindi helps ground-level staff understand complex railway engineering manuals better.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Scheme Name</th><th>Purpose</th><th>Status</th></tr>
+                <tr><td><b>Option A: Lal Bahadur Shastri Scheme</b></td><td>The 'Lal Bahadur Shastri Taqniki Mouliq Lekhan Puraskar Yojana' is specifically run by the Railway Board to award authors writing original technical books on railway subjects in Hindi.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B, C, D</b></td><td>These are either non-existent in this context or general government-wide schemes, not the specific Railway Board technical writing scheme.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Railway Board Hindi Incentive Schemes Manual.
+        `
+    },
+    {
+        question: "138) Who is the Chairman of the Kendraya Hindi Samiti?",
+        options: [
+            "Finance Minister",
+            "Home Minister",
+            "Prime Minister",
+            "Railway Minister"
+        ],
+        correctAnswer: 2,
+        hint: `
+            <h3>Apex Official Language Committees</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Highest Policy Body:</b> The Kendriya Hindi Samiti (Central Hindi Committee) is the supreme body that gives guidelines for the propagation of Hindi in the country.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Minister</th><th>Role</th><th>Status</th></tr>
+                <tr><td><b>Option A & D</b></td><td>May be members, but not the chairman.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Home Minister</b></td><td>Chairs the Parliamentary Committee on Official Language, but not the apex Kendriya Samiti.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Prime Minister</b></td><td>To emphasize its importance, the Kendriya Hindi Samiti is directly chaired by the Prime Minister of India.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Department of Official Language, MHA guidelines.
+        `
+    },
+    {
+        question: "139) Who is the Chairman of the Railway Hindi Salahakar Samiti?",
+        options: [
+            "Chairman, Railway Board",
+            "Finance Commissioner",
+            "Member Personnel",
+            "Railway Minister"
+        ],
+        correctAnswer: 3,
+        hint: `
+            <h3>Ministry Level Hindi Committees</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Departmental Advisory:</b> Every major Union Ministry has a Hindi Salahakar Samiti (Hindi Advisory Committee) to ensure the implementation of language policies within that specific ministry.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Official</th><th>Role in Samiti</th><th>Status</th></tr>
+                <tr><td><b>Option A, B, C</b></td><td>Senior bureaucrats (CRB, Members) are official members of the committee, but do not chair it.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Railway Minister</b></td><td>The Hindi Salahakar Samiti of the Ministry of Railways is chaired by the Minister of Railways (or the Minister of State if delegated).</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Railway Board Rajbhasha Manual.
+        `
+    },
+    {
+        question: "140) What is the preliminary course of Hindi for Central Government employees?",
+        options: [
+            "Praveen",
+            "Prabodh",
+            "Pragya",
+            "None of the given option"
+        ],
+        correctAnswer: 1,
+        hint: `
+            <h3>Hindi Teaching Scheme (HTS)</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Training Non-Hindi Staff:</b> The Department of Official Language runs a structured training scheme for central govt employees who don't know Hindi.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Course Name</th><th>Level/Target Audience</th><th>Status</th></tr>
+                <tr><td><b>Option A: Praveen</b></td><td>The intermediate course (Middle school equivalent) for those who have passed Prabodh.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Prabodh</b></td><td>The preliminary/elementary course (Primary school equivalent) meant for employees whose mother tongue is South Indian or English, introducing basic grammar and vocabulary.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: Pragya</b></td><td>The final/advanced course (High school equivalent).</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Department of Official Language (Hindi Teaching Scheme).
+        `
+    },
+    {
+        question: "141) What for standard Form-7 is used under Railway Servant (D&A) Rules:",
+        options: [
+            "Suspension of employee",
+            "Appointment of enquiry officer",
+            "To issue major penalty charges sheet",
+            "To issue minor penalty charge sheet"
+        ],
+        correctAnswer: 1,
+        hint: `
+            <h3>Discipline & Appeal Rules (Standard Forms)</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>D&AR Procedure:</b> Specific Standard Forms (SF) are mandated for different stages of disciplinary proceedings to ensure legal conformity.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Action</th><th>Standard Form Used</th><th>Status</th></tr>
+                <tr><td><b>Option A: Suspension</b></td><td>Done using SF-1.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Appointment of enquiry officer</b></td><td>Once a major penalty charge sheet is contested, the Disciplinary Authority uses SF-7 to appoint an Inquiry Officer (IO) to investigate the charges.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: Major penalty charge sheet</b></td><td>Issued using SF-5.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Minor penalty charge sheet</b></td><td>Issued using SF-11.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Railway Servants (Discipline & Appeal) Rules, 1968.
+        `
+    },
+    {
+        question: "142) Which Authority is empowered to order for cut in Pension of Retired Railway Servant under Railway servant (D&R) Rules proceedings:",
+        options: [
+            "Divisional Railway Manager (DRM)",
+            "General Manager (GM)",
+            "Additional General Manager (AGM)",
+            "President of India"
+        ],
+        correctAnswer: 3,
+        hint: `
+            <h3>Post-Retirement Disciplinary Action</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Pension Rules (Rule 9):</b> Once an employee retires, the employer-employee relationship ceases. Standard disciplinary authorities lose their power to penalize.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Authority</th><th>Power over Pension</th><th>Status</th></tr>
+                <tr><td><b>Option A, B, C</b></td><td>DRMs and GMs can initiate or recommend action, but they cannot legally order a cut in a statutory pension once the employee is retired.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: President of India</b></td><td>Under Rule 9 of the Railway Services (Pension) Rules, 1993, only the President of India has the supreme authority to withhold or withdraw a pension (or order recovery from it) if the pensioner is found guilty of grave misconduct or negligence.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Railway Services (Pension) Rules, 1993 - Rule 9.
+        `
+    },
+    {
+        question: "143) Can a Railway person be reduced under Railway servant (D&A) Rules to a lower post or grade below his recruitment grade",
+        options: [
+            "Yes",
+            "No",
+            "Can be reduced with pay protection",
+            "None of the given option"
+        ],
+        correctAnswer: 1,
+        hint: `
+            <h3>Limits of Major Penalties</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Reduction in Rank:</b> Reduction to a lower stage, time-scale, or grade is a severe major penalty. However, there is a strict foundational limit.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Condition</th><th>Legal Stance</th><th>Status</th></tr>
+                <tr><td><b>Option A & C</b></td><td>Illegal. You cannot undo the initial recruitment reality.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: No</b></td><td>As per D&AR Rule 6 (Penalties) guidelines, a railway servant cannot be reduced in rank to a post or grade lower than the one to which they were initially recruited directly. (e.g., an employee directly recruited as a JE cannot be reduced to a Technician).</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Railway Servants (D&A) Rules, 1968 - Rule 6 (Explanations).
+        `
+    },
+    {
+        question: "144) The family of Railway servant, who dies during service, may be allowed to retain Railway accommodation for ........ Months on normal rent",
+        options: [
+            "8",
+            "12",
+            "18",
+            "24"
+        ],
+        correctAnswer: 3,
+        hint: `
+            <h3>Railway Quarter Retention Rules</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Compassionate Grounds:</b> Sudden death in service places immense stress on the family. The Railway Board provides an extended grace period for vacating staff quarters.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Retention Period</th><th>Applicability</th><th>Status</th></tr>
+                <tr><td><b>Option A (8) & B (12) & C (18)</b></td><td>Incorrect periods for death-in-service scenarios.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: 24 Months</b></td><td>Per Railway Board circulars, in the event of the death of a railway employee in harness, their family is permitted to retain the railway accommodation for a maximum of 24 months (2 years) on payment of normal rent.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Master Circular on Allotment/Retention of Railway Quarters.
+        `
+    },
+    {
+        question: "145) What is the periodicity of 'Participation of Railway Employees in Management' (PREM) meeting at Zonal level.",
+        options: [
+            "Once in year",
+            "Once in 6 month",
+            "Once in 3 month",
+            "Once in a month"
+        ],
+        correctAnswer: 2,
+        hint: `
+            <h3>Industrial Relations (PREM)</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>PREM Objective:</b> To evaluate the functioning of the railways and suggest ways to improve efficiency and viability through worker participation.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Periodicity</th><th>Forum Type</th><th>Status</th></tr>
+                <tr><td><b>Option A, B, D</b></td><td>Incorrect frequencies for Zonal PREM.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Once in 3 month</b></td><td>At the Zonal level (chaired by the GM), the PREM committee meets once every quarter (Once in 3 months) to discuss productivity and administrative issues.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Railway Board guidelines on PREM functioning.
+        `
+    },
+    {
+        question: "146) What is upper limit of child care leave for Railway employees for child care leave",
+        options: [
+            "365 days",
+            "90 days",
+            "730 days",
+            "60 days"
+        ],
+        correctAnswer: 2,
+        hint: `
+            <h3>Child Care Leave (CCL)</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Leave Rules:</b> CCL was introduced (primarily for female employees and single male parents) to facilitate care for up to two eldest surviving children up to the age of 18.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Days Limit</th><th>Context</th><th>Status</th></tr>
+                <tr><td><b>Option A: 365 days</b></td><td>Pay is reduced to 80% for the second 365 days, but the total limit is higher.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B & D</b></td><td>Irrelevant to CCL limits.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: 730 days</b></td><td>The maximum permissible limit for Child Care Leave during the entire service period of the employee is exactly 730 days (2 years).</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> IREC Vol. I - Rule 551(E) (Child Care Leave).
+        `
+    },
+    {
+        question: "147) The un availed period of joining time admissible to a Railway servant shall be credited to his/her leave account as:",
+        options: [
+            "LHAP",
+            "LAP",
+            "Casual Leave",
+            "Restricted Holiday"
+        ],
+        correctAnswer: 1,
+        hint: `
+            <h3>Joining Time Rules</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Transfer Benefits:</b> When an employee is transferred, they are granted 'Joining Time' (e.g., 10-15 days) to shift their residence. If they join early and don't use all those days, the government rewards them.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Leave Type</th><th>Rule Applicability</th><th>Status</th></tr>
+                <tr><td><b>Option A: LHAP</b></td><td>Half Pay Leave, credited based on completed years of service, not unavailed joining time.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: LAP</b></td><td>Leave on Average Pay. The unavailed portion of joining time is directly credited to the employee's LAP account (subject to the maximum accumulation limit of 300 days).</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C & D</b></td><td>Casual leaves and restricted holidays cannot be accumulated or credited this way.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Railway Services (Joining Time) Rules.
+        `
+    },
+    {
+        question: "148) Which one of the following is not a penalty under Rule 6 of D&AR?",
+        options: [
+            "Censure",
+            "WIT",
+            "Suspension",
+            "Compulsory retirement"
+        ],
+        correctAnswer: 2,
+        hint: `
+            <h3>D&AR Penalties Overview</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Disciplinary Legalities:</b> Rule 6 lists specific actions that constitute 'penalties'. Certain administrative actions, while punitive in feel, are legally just 'temporary measures'.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Action</th><th>Rule 6 Classification</th><th>Status</th></tr>
+                <tr><td><b>Option A: Censure</b></td><td>Listed as Minor Penalty (i).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: WIT</b></td><td>Withholding of Increment. Listed as Minor Penalty (ii).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Suspension</b></td><td>Suspension is an administrative order keeping an employee away from work pending an inquiry. It is <b>NOT</b> listed as a penalty under Rule 6.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: Compulsory retirement</b></td><td>Listed as a Major Penalty (vii).</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Railway Servants (D&A) Rules, 1968 - Rule 6.
+        `
+    },
+    {
+        question: "149) Commuted pension of Railway Servant is restored after a period of",
+        options: [
+            "15 years",
+            "12 years",
+            "10 years",
+            "6 years"
+        ],
+        correctAnswer: 0,
+        hint: `
+            <h3>Pension Commutation Rules</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Financial Mechanics:</b> A retiree can opt to receive a lump sum upfront by 'commuting' (selling back) a portion (up to 40%) of their monthly pension. The monthly pension is reduced accordingly.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Restoration Period</th><th>Actuarial Logic</th><th>Status</th></tr>
+                <tr><td><b>Option A: 15 years</b></td><td>Based on mortality tables and interest rates, the government fully recovers the commuted value over 15 years. After exactly 15 years from the date of commutation, the original full monthly pension amount is restored.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B, C, D</b></td><td>Incorrect restoration periods.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Railway Services (Commutation of Pension) Rules, 1993.
+        `
+    },
+    {
+        question: "150) Railway servant is required to report to Government any movable property transaction, if value of this transaction exceeds",
+        options: [
+            "Two month's Basic Salary",
+            "Half month's Basic Salary",
+            "One month's Basic Salary",
+            "One and Half month's Basic Salary"
+        ],
+        correctAnswer: 0,
+        hint: `
+            <h3>Railway Service Conduct Rules (Property)</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Rule 18:</b> To prevent corruption and disproportionate assets, civil servants must disclose significant financial transactions (buying cars, jewelry, stocks).
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Value Threshold</th><th>Conduct Rule Mandate</th><th>Status</th></tr>
+                <tr><td><b>Option A: Two month's Basic Salary</b></td><td>As per Rule 18(3) of Conduct Rules (amended recently), an employee must report any transaction in movable property if its value exceeds two months' basic pay.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B, C, D</b></td><td>Older limits or incorrect limits (it used to be a fixed monetary limit like Rs 15,000 for Group C/D, but was updated to a multiple of basic salary).</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Railway Services (Conduct) Rules, 1966 - Rule 18(3).
+        `
+    },
+    {
+        question: "151) Maximum number of financial up gradation which can be granted under MACP are...",
+        options: [
+            "Four",
+            "Three",
+            "Two",
+            "One"
+        ],
+        correctAnswer: 1,
+        hint: `
+            <h3>MACP Scheme</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Stagnation Relief:</b> The Modified Assured Career Progression (MACP) scheme ensures employees get financial increments even if they do not earn regular promotions due to lack of vacancies.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Upgradation Limit</th><th>Scheme Rules</th><th>Status</th></tr>
+                <tr><td><b>Option A, C, D</b></td><td>Incorrect limits according to 6th/7th CPC MACP rules.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Three</b></td><td>MACP grants a maximum of THREE financial upgradations during an employee's entire career, spaced at intervals of 10, 20, and 30 years of continuous regular service.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> RBE circulars on MACP scheme (Post 6th/7th Pay Commission).
+        `
+    },
+    {
+        question: "152) Under HOER (Hours of Employment Regulations) rules, which category of employees will not have Roster Hours?",
+        options: [
+            "Intensive",
+            "Continues",
+            "Essentially Intermittent",
+            "Excluded"
+        ],
+        correctAnswer: 3,
+        hint: `
+            <h3>HOER Classifications</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Working Hours:</b> The HOER dictates standard rosters (e.g., 42 hrs/week, 48 hrs/week) to prevent overwork and ensure safe railway operations.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Category</th><th>Roster Rule</th><th>Status</th></tr>
+                <tr><td><b>Option A: Intensive</b></td><td>Has a strict 42-hour weekly roster due to high stress (e.g., Section Controllers).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Continuous</b></td><td>Has a 48-hour standard weekly roster.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Essentially Intermittent</b></td><td>Has a 72-hour (or 60-hour) weekly roster due to long periods of inaction.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Excluded</b></td><td>Supervisory staff (Officers, Matrons, specific inspectors) are 'Excluded' from the limitations of working hours. They do not have fixed rostered hours and are expected to be available as duty demands.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Hours of Employment Regulations (HOER) - Railway Act, 1989.
+        `
+    },
+    {
+        question: "153) Which of the following condition is to be fulfilled to promote an employee to the post of Master Craftsman (MCM)?",
+        options: [
+            "Should have served in skilled artisan Grade-I for 1 year",
+            "Should have served in skilled artisan Grade-I for 2 years",
+            "Should have served in skilled artisan Grade-Il for 5 years",
+            "Should have served in skilled artisan Grade-III for 7 year"
+        ],
+        correctAnswer: 1,
+        hint: `
+            <h3>Artisan Cadre Promotions</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>MCM / Sr. Technician:</b> Master Craftsman (MCM) is the apex supervisory/highly skilled post in the artisan hierarchy.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Condition</th><th>Cadre Rules</th><th>Status</th></tr>
+                <tr><td><b>Option A: Grade-I for 1 year</b></td><td>Insufficient residency period.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Grade-I for 2 years</b></td><td>To be eligible for promotion to MCM (Senior Technician), an employee must have completed a minimum residency period of 2 years in the immediate lower grade of Technician Grade-I (Skilled Artisan Grade-I).</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C & D</b></td><td>Skip grades; promotions must follow the hierarchy (Tech III &rightarrow; Tech II &rightarrow; Tech I &rightarrow; MCM).</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> IREM Vol. I / Railway Board Promotion policies for Artisan Staff.
+        `
+    },
+    {
+        question: "154) Who is the President&Secretary for 'Participation of Railway Employees in Management (PREM) meetings from railway side at Divisional Level?",
+        options: [
+            "President ADRM, Secretary: SrDPO",
+            "President. ADRM, Secretary SrDSO",
+            "President DRM, Secretary: SrDSO",
+            "President: DRM, Secretary: SrDPO"
+        ],
+        correctAnswer: 3,
+        hint: `
+            <h3>Divisional PREM Setup</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Administrative Hierarchy:</b> PREM meetings are the highest level of formal union-management interaction at the local level.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Hierarchy</th><th>Roles</th><th>Status</th></tr>
+                <tr><td><b>Option A, B, C</b></td><td>Incorrect designated officials. ADRM or SrDSO do not lead this specific high-level committee.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: President: DRM, Secretary: SrDPO</b></td><td>At the Divisional level, the Divisional Railway Manager (DRM) is the President (Chairman) of the PREM committee, and the Senior Divisional Personnel Officer (Sr.DPO) acts as the Secretary/Convenor.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Railway Board Guidelines on PREM Group.
+        `
+    },
+    {
+        question: "155) Name the forum in Indian Railways for resolving the disputes and differences arising between the administration and staff?",
+        options: [
+            "Permanent negotiating machinery (PNM)",
+            "Participation of Railway employees in management (PREM)",
+            "Joint Consultative Machinery (JCM)",
+            "Branch Executive Committee Meeting (BECM)"
+        ],
+        correctAnswer: 0,
+        hint: `
+            <h3>Industrial Dispute Resolution</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Negotiation Forums:</b> To prevent strikes and resolve staff grievances systematically, a multi-tier grievance redressal system is embedded in railway operations.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Forum</th><th>Primary Purpose</th><th>Status</th></tr>
+                <tr><td><b>Option A: PNM</b></td><td>The Permanent Negotiating Machinery (PNM) was specifically established to maintain contact with recognized unions (AIRF, NFIR) and resolve disputes and differences arising between railway administration and the staff.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: PREM</b></td><td>Focuses on improving efficiency and operations, not primarily on resolving union grievances.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: JCM</b></td><td>A broader Central Govt scheme, but PNM is the primary internal railway mechanism.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: BECM</b></td><td>An internal union meeting.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Railway Establishment Rules - Industrial Relations (PNM).
+        `
+    },
+    {
+        question: "156) Which of the following is the type of metal pass?",
+        options: [
+            "Silver, Gold and Copper",
+            "Aluminum, Silver and Gold",
+            "Bronze, Silver and Gold",
+            "Gold, Platinum & Copper"
+        ],
+        correctAnswer: 2,
+        hint: `
+            <h3>Duty Passes for Officers</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Officer Privileges:</b> Gazetted railway officers are issued physical metal discs (tokens) that act as an all-India free duty pass.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Metal Combination</th><th>Status</th></tr>
+                <tr><td><b>Option A, B, D</b></td><td>Incorrect metal classifications.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Bronze, Silver and Gold</b></td><td>Metal passes are strictly categorized into three: <b>Bronze</b> (JAG/SG and Sr. Scale officers), <b>Silver</b> (SAG/HAG officers like DRMs), and <b>Gold</b> (CRB, Board Members, GMs) dictating the class and number of companions allowed.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Railway Servants (Pass) Rules, 1986.
+        `
+    },
+    {
+        question: "157) If a railway servant is transferred at a distance of more than 1000 kms but less than 2000 kms, then.... Days will be the maximum permissible joining time.",
+        options: [
+            "8",
+            "10",
+            "12",
+            "None of the given options"
+        ],
+        correctAnswer: 2,
+        hint: `
+            <h3>Joining Time Calculations</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Distance Slabs:</b> The number of days granted to travel and settle at a new transfer location is directly proportional to the geographical distance.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Distance Slab</th><th>Joining Time Granted</th><th>Status</th></tr>
+                <tr><td>Up to 1000 km</td><td>10 days</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>1000 km to 2000 km</b></td><td><b>12 days</b></td><td><b>Correct Answer</b></td></tr>
+                <tr><td>More than 2000 km</td><td>15 days (12 if travel is by air)</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Railway Services (Joining Time) Rules.
+        `
+    },
+    {
+        question: "158) When was the Railway Service Conduct Rules formed?",
+        options: [
+            "1963",
+            "1965",
+            "1966",
+            "1968"
+        ],
+        correctAnswer: 2,
+        hint: `
+            <h3>Railway Establishment Law</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Codification:</b> Rules governing the behavior, ethics, and professional conduct of railway employees were formalized in a specific statutory code.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Year</th><th>Associated Rule Set</th><th>Status</th></tr>
+                <tr><td><b>Option A & B</b></td><td>Incorrect years.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: 1966</b></td><td>The Railway Services (Conduct) Rules were officially published and enacted in the year 1966.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: 1968</b></td><td>This is the year the Railway Servants (Discipline and Appeal) Rules were formed, not the Conduct rules.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Railway Services (Conduct) Rules, 1966.
+        `
+    },
+    {
+        question: "159) In reference to D&A Rule 1968, inquiry is not mandatory under Rule.....",
+        options: [
+            "Rule 5",
+            "Rule 14 (ii)",
+            "Rule 13",
+            "None of the given option"
+        ],
+        correctAnswer: 1,
+        hint: `
+            <h3>Special D&AR Procedures</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Dispensing with Inquiry:</b> Normally, a major penalty cannot be imposed without a full departmental inquiry (SF-7). However, the Constitution (Article 311) provides specific emergency exceptions.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Rule Number</th><th>Context</th><th>Status</th></tr>
+                <tr><td><b>Option A: Rule 5</b></td><td>Relates to Suspension.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Rule 14 (ii)</b></td><td>Rule 14 specifies special procedures where inquiry can be skipped. Rule 14(ii) applies when the Disciplinary Authority is satisfied, for reasons recorded in writing, that it is not reasonably practicable to hold an inquiry.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: Rule 13</b></td><td>Relates to common proceedings.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Railway Servants (Discipline & Appeal) Rules, 1968 - Rule 14.
+        `
+    },
+    {
+        question: "160) Which of the following works will not be charged to Depreciation Reserve Fund?",
+        options: [
+            "Construction of New Line",
+            "Track Renewal",
+            "Replacement of existing Signalling System",
+            "Replacement of overage Rolling Stock"
+        ],
+        correctAnswer: 0,
+        hint: `
+            <h3>Railway Financial Accounting</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Fund Allocation Rules:</b> The Depreciation Reserve Fund (DRF) is exclusively used to replace existing assets that have completed their codal life. It is not for expansion.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Asset Type</th><th>Funding Source</th><th>Status</th></tr>
+                <tr><td><b>Option A: Construction of New Line</b></td><td>Since this is a brand new asset creation (expansion) and not a replacement of a worn-out asset, it is charged to CAPITAL, not DRF.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: Track Renewal</b></td><td>Replacing old rails/sleepers (asset replacement) &rightarrow; DRF/RRSK.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Signalling Replacement</b></td><td>Replacing old gears &rightarrow; DRF/RRSK.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Rolling Stock Replacement</b></td><td>Replacing old coaches/locos &rightarrow; DRF.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Indian Railway Finance Code - Allocation of Expenditure.
+        `
+    },
+    {
+        question: "161) What works are carried out under Plan Head 51",
+        options: [
+            "Gauge Conversion",
+            "Passenger Amenities",
+            "Staff Quarters",
+            "Electrification"
+        ],
+        correctAnswer: 2,
+        hint: `
+            <h3>Plan Head Classifications</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Budgeting Architecture:</b> Railway works are categorized into specific Plan Heads (PH) for budgetary allocation.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Plan Head</th><th>Description</th><th>Status</th></tr>
+                <tr><td><b>Option A: Gauge Conversion</b></td><td>Falls under PH 14.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Passenger Amenities</b></td><td>Falls under PH 53.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Staff Quarters</b></td><td>Plan Head 51 is specifically designated for the construction and major upgrades of Staff Quarters.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: Electrification</b></td><td>Falls under PH 35.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Indian Railway Finance Code - Classification of Capital and Revenue Accounts.
+        `
+    },
+    {
+        question: "162) Who is responsible for custody of the Bank Guarantee submitted by the contractors to Railways?",
+        options: [
+            "Executive Officer",
+            "Audit Officer",
+            "Accounts Officer",
+            "Cashier"
+        ],
+        correctAnswer: 2,
+        hint: `
+            <h3>Contract Financial Management</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Financial Security:</b> Bank Guarantees (BG) submitted as Earnest Money or Performance Guarantees represent high-value financial security that must be legally vetted, safely stored, and periodically renewed before expiry.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Official</th><th>Role regarding BG</th><th>Status</th></tr>
+                <tr><td><b>Option A: Executive Officer</b></td><td>Accepts the BG technically, but does not vault it.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Audit Officer</b></td><td>Audits processes, doesn't hold financial instruments.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Accounts Officer</b></td><td>The Associate Finance/Accounts Officer is the custodian of the Bank Guarantees. They verify the BG with the issuing bank, hold it in safe custody, and track its validity.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: Cashier</b></td><td>Handles physical cash and daily receipts, not contract bonds.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Indian Railways Finance Code (Guidelines on Bank Guarantees).
+        `
+    },
+    {
+        question: "163) Demand No. 4 of Ordinary Working Expenses pertains to.....",
+        options: [
+            "Repair and Maintenance of Motive Power",
+            "Staff Welfare and Amenities",
+            "Operating Expenses- Traffic",
+            "Repair and Maintenance of P Way and Works"
+        ],
+        correctAnswer: 3,
+        hint: `
+            <h3>Railway Budget Demands</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Demand for Grants:</b> Revenue expenditure is presented to Parliament grouped under distinct "Demands for Grants" based on operational sectors.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Demand Number</th><th>Subject Matter</th><th>Status</th></tr>
+                <tr><td><b>Option A: Repair & Maint. Motive Power</b></td><td>This falls under Demand No. 5.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Staff Welfare</b></td><td>This falls under Demand No. 11.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Operating Exp. Traffic</b></td><td>This falls under Demand No. 9.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Repair & Maint. P Way and Works</b></td><td>Demand No. 4 specifically covers the ordinary working expenses required for the Repair and Maintenance of Permanent Way (Tracks) and Works (Bridges/Buildings).</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Indian Railway Finance Code - Demands for Grants structure.
+        `
+    },
+    {
+        question: "164) Re-appropriation of funds from one source to another within same Plan Head is done by....",
+        options: [
+            "Parliament",
+            "Railway Board",
+            "General Manager",
+            "Divisional Railway Manager"
+        ],
+        correctAnswer: 1,
+        hint: `
+            <h3>Financial Powers (Re-appropriation)</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Shifting Budgets:</b> If one project needs more money and another needs less, funds can be shifted. However, transferring funds between different 'sources' (e.g., Capital to DRF) fundamentally alters parliamentary allocation.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Authority</th><th>Re-appropriation Power</th><th>Status</th></tr>
+                <tr><td><b>Option A: Parliament</b></td><td>Approves overall budget and supplementary demands.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: Railway Board</b></td><td>Under the delegation of powers, re-appropriation from one source of fund to another (e.g., DF to Capital) even within the same Plan Head requires the sanction of the Railway Board.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C & D: GM / DRM</b></td><td>Can only re-appropriate within the *same* source of fund and same grant, subject to strict limits.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Indian Railway Finance Code - Rules of Re-appropriation.
+        `
+    },
+    {
+        question: "165) Payments to contractors for the works done under maintenance are charged to",
+        options: [
+            "PU-27",
+            "PU-28",
+            "PU-32",
+            "PU-33"
+        ],
+        correctAnswer: 2,
+        hint: `
+            <h3>Primary Units (PU) of Expenditure</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Micro-Accounting:</b> Primary Units classify the exact nature of the expense (e.g., Salary, Material, Contract).
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Primary Unit</th><th>Classification Description</th><th>Status</th></tr>
+                <tr><td><b>Option A: PU-27</b></td><td>Cost of material from stock.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: PU-28</b></td><td>Cost of direct purchases of material.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: PU-32</b></td><td>PU-32 is specifically designated for "Contractual payments" for execution of works/maintenance.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: PU-33</b></td><td>Transfer of debits/credits.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Indian Railway Finance Code - Primary Units of Expenditure.
+        `
+    },
+    {
+        question: "166) Workshop Accounts Officers report to",
+        options: [
+            "Sr. DFM",
+            "FA&CAO/S&W",
+            "FA&CAO/G",
+            "None of the given option"
+        ],
+        correctAnswer: 1,
+        hint: `
+            <h3>Accounts Department Hierarchy</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Specialized Finance:</b> Railway Workshops (producing/repairing locos and coaches) have complex costing methods (WMS). Their accounts officers bypass divisional finance.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Authority</th><th>Domain</th><th>Status</th></tr>
+                <tr><td><b>Option A: Sr. DFM</b></td><td>Senior Divisional Finance Manager heads the Open Line division, not independent workshops.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: FA&CAO/S&W</b></td><td>Financial Advisor & Chief Accounts Officer (Stores & Workshops) is the specific Zonal HQ authority that Workshop Accounts Officers (WAO) report to, as they deal heavily with inventory and manufacturing costing.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: FA&CAO/G</b></td><td>General finance and open line accounting.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Indian Railway Accounts Code - Organizational Structure.
+        `
+    },
+    {
+        question: "167) M&P programme is drawn by each Railway under......",
+        options: [
+            "Plan Head: 21",
+            "Plan Head: 41",
+            "Plan Head: 42",
+            "Plan Head: 16"
+        ],
+        correctAnswer: 1,
+        hint: `
+            <h3>Machinery and Plant (M&P) Programme</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Capital Asset Procurement:</b> To buy heavy machinery (Lathes, Cranes, testing rigs), Railways submit proposals under a specific Plan Head.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Plan Head</th><th>Description</th><th>Status</th></tr>
+                <tr><td><b>Option A: PH-21</b></td><td>Rolling Stock Programme (Locos, Coaches, Wagons).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: PH-41</b></td><td>Plan Head 41 is explicitly for the "Machinery and Plant" (M&P) Programme.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: PH-42</b></td><td>Workshops - including production units (sheds/structures).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: PH-16</b></td><td>Traffic Facilities.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Indian Railway Finance Code - Plan Head allocations.
+        `
+    },
+    {
+        question: "168) The Development funds are divided in to how many heads?",
+        options: [
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        correctAnswer: 2,
+        hint: `
+            <h3>Development Fund (DF) Allocation</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Fund Utility:</b> The DF is created out of the railway surplus. It is used for works that are essential but may not be financially remunerative.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Number of Heads</th><th>Breakdown of DF Categories</th><th>Status</th></tr>
+                <tr><td colspan="3">The Development Fund is sub-divided into <b>4</b> distinct sub-heads:<br>DF-1: Passenger and other Railway Users' Amenities.<br>DF-2: Labour Welfare Works (Hospitals, Schools).<br>DF-3: Unremunerative operational improvement works (safety).<br>DF-4: Safety works (Level crossings, track circuiting - though heavily shifted to RRSK recently, DF historically maintains 4 main sub-heads).</td></tr>
+                <tr><td><b>Option A, B, D</b></td><td>Incorrect count.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: 4</b></td><td>Correct classification count for DF.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Indian Railway Finance Code - Rules of Allocation (Development Fund).
+        `
+    },
+    {
+        question: "169) Proposal for a machinery against replacement under works programme is proposed in following",
+        options: [
+            "DF",
+            "DRF",
+            "SRF",
+            "CAPITAL"
+        ],
+        correctAnswer: 1,
+        hint: `
+            <h3>Capital vs Replacement Financing</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Accounting Logic:</b> If you buy a new machine for a new capability, it's an addition. If you throw away an old, broken machine and buy a new one, it is a replacement.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Fund Source</th><th>Application</th><th>Status</th></tr>
+                <tr><td><b>Option A: DF</b></td><td>Development Fund - for unremunerative improvements/amenities.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option B: DRF</b></td><td>Depreciation Reserve Fund. All proposals for replacing existing assets (like an old M&P machinery) that have lived their codal life are strictly charged to the DRF.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option C: SRF</b></td><td>Special Railway Safety Fund (largely obsolete/replaced by RRSK).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: CAPITAL</b></td><td>Used only for entirely new additions to the asset base.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Indian Railway Finance Code - Allocation of Expenditure (DRF).
+        `
+    },
+    {
+        question: "170) To which head the material issued to workshop are generally charged to?",
+        options: [
+            "WMS",
+            "SINT",
+            "MAC",
+            "Purchase Suspense"
+        ],
+        correctAnswer: 0,
+        hint: `
+            <h3>Workshop Accounting</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Suspense Accounts:</b> When stores issue raw materials to a workshop, the final end-product (like a repaired coach) isn't ready to be billed yet. The cost is temporarily parked.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Account Head</th><th>Function</th><th>Status</th></tr>
+                <tr><td><b>Option A: WMS</b></td><td>Workshop Manufacture Suspense. All materials, labor, and overheads used during the repair/manufacturing process in a workshop are initially debited to the WMS account until the final job is completed and out-turned.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: SINT</b></td><td>Stores in Transit - material moving between depots.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: MAC</b></td><td>Miscellaneous Advances Capital.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Purchase Suspense</b></td><td>Used when material is received but the bill is unpaid.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Indian Railway Workshop Accounts Manual.
+        `
+    },
+    {
+        question: "171) Which is correct plan head for RSP proposal?",
+        options: [
+            "PH-21",
+            "PH-41",
+            "PH-31",
+            "PH-42"
+        ],
+        correctAnswer: 0,
+        hint: `
+            <h3>Rolling Stock Programme (RSP)</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Asset Categorization:</b> The massive bulk procurement of locomotives, coaches, and wagons is centralized by the Railway Board under a specific budgetary Plan Head.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Plan Head</th><th>Target Assets</th><th>Status</th></tr>
+                <tr><td><b>Option A: PH-21</b></td><td>Plan Head 21 is exclusively allocated for the 'Rolling Stock Programme' (RSP).</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: PH-41</b></td><td>Machinery and Plant (M&P).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: PH-31</b></td><td>Track Renewals.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: PH-42</b></td><td>Workshops including Production Units.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Indian Railway Finance Code - Plan Head Dictionary.
+        `
+    },
+    {
+        question: "172) Which of the following item cannot be classified as Revenue Expenditure?",
+        options: [
+            "Expenditure on salary",
+            "Expenditure on purchase of stock item",
+            "Expenditure on purchase of non stock item",
+            "Expenditure on setting up new wheel lathe"
+        ],
+        correctAnswer: 3,
+        hint: `
+            <h3>Capital vs. Revenue Expenditure</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Basic Accounting:</b> Revenue expenditure is for day-to-day operations and maintenance (running the system). Capital expenditure creates a new, long-term durable asset.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Expenditure Item</th><th>Classification</th><th>Status</th></tr>
+                <tr><td><b>Option A, B, C</b></td><td>Salaries and regular consumables (stock/non-stock) are consumed in daily operations. They are clearly Revenue Expenditures (Ordinary Working Expenses).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Setting up new wheel lathe</b></td><td>A heavy machine (Wheel Lathe) is a permanent asset addition that increases the net worth and capability of the workshop. This is a <b>Capital Expenditure</b> (M&P Programme), not revenue.</td><td><b>Correct Answer</b></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Indian Railway Finance Code.
+        `
+    },
+    {
+        question: "173) Proposal under which of following funds should mandatorily indicates ROR (Rate of return)",
+        options: [
+            "CAPITAL",
+            "DRF",
+            "DF",
+            "RRSK"
+        ],
+        correctAnswer: 0,
+        hint: `
+            <h3>Financial Viability (ROR)</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Investment Logic:</b> If the railway borrows or allocates fresh money to build a new line or buy new assets, it must prove that the investment will yield a profit over its lifetime.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Fund Type</th><th>ROR Requirement</th><th>Status</th></tr>
+                <tr><td><b>Option A: CAPITAL</b></td><td>Proposals charged to Capital (creating new remunerative assets) must undergo strict financial justification to prove a minimum prescribed Rate of Return (e.g., usually 10% or 12%) to be sanctioned.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: DRF</b></td><td>Replacing old assets for safety/continuity does not require ROR justification.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: DF</b></td><td>By definition, DF is for 'unremunerative' passenger/staff works; no ROR is required.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: RRSK</b></td><td>Safety fund; safety works are exempt from ROR.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Indian Railway Engineering Code - Financial Justification of Works.
+        `
+    },
+    {
+        question: "174) Final Modification Estimates (FME) is usually prepared in which months?",
+        options: [
+            "August-September",
+            "December-January",
+            "February-March",
+            "April-May"
+        ],
+        correctAnswer: 2,
+        hint: `
+            <h3>Budgetary Cycle</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Year-End Tuning:</b> The financial year ends in March. Just before the year closes, the exact final cash requirements must be projected so funds can be surrendered or supplementary grants sought.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Budget Review Stage</th><th>Typical Timeline</th><th>Status</th></tr>
+                <tr><td><b>August-September</b></td><td>August Review.</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>December-January</b></td><td>Revised Estimates (RE).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: February-March</b></td><td>The Final Modification Estimate (FME) is the last budget review, formulated in February/March to precisely reflect what will be spent by March 31st.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option D: April-May</b></td><td>Beginning of new financial year.</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Indian Railway Finance Code - Budget Reviews.
+        `
+    },
+    {
+        question: "175) Which of the following is not a function of Accounts Department?",
+        options: [
+            "Budget Preparation",
+            "Financial Advice",
+            "Internal check",
+            "Accounts keeping"
+        ],
+        correctAnswer: 0,
+        hint: `
+            <h3>Role of Finance & Accounts</h3>
+            <div style="background-color: #f4f4f4; padding: 10px; border-left: 4px solid #0056b3;">
+                <b>Executive vs. Finance:</b> There is a strict division of duties. The executive branch executes the work and creates the budget demands. The finance branch checks, advises, and maintains the ledgers.
+            </div>
+            <h4>Option Analysis</h4>
+            <table>
+                <tr><th>Function</th><th>Executing Department</th><th>Status</th></tr>
+                <tr><td><b>Option A: Budget Preparation</b></td><td>The *preparation* of the initial budget estimates and works proposals is the responsibility of the respective <b>Executive Departments</b> (Civil, Mech, Electrical, etc.). Accounts only compiles and vets it.</td><td><b>Correct Answer</b></td></tr>
+                <tr><td><b>Option B: Financial Advice</b></td><td>Core function of Accounts (FA&CAO).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option C: Internal check</b></td><td>Core function (passing bills).</td><td><u>Incorrect</u></td></tr>
+                <tr><td><b>Option D: Accounts keeping</b></td><td>Core function (maintaining books).</td><td><u>Incorrect</u></td></tr>
+            </table>
+            <h4>Official Reference</h4>
+            <u>Reference:</u> Indian Railway Finance Code - Functions of Accounts Department.
+        `
+    }
+];

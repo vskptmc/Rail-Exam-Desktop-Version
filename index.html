@@ -260,6 +260,7 @@
                             <option value="AOM18052025_70" class="text-black">AOM 18/05/2025 (70%)</option>
                             <option value="AOM01062025_70" class="text-black">AOM 01/06/2025 (70%)</option>
                             <option value="AOM04082024_30" class="text-black">AOM 04/08/2024 (30%)</option>
+                            <option value="AEE19102024_30" class="text-black">AEE 19/10/2024 (30%)</option>
                             <option value="AOM_PART_BC_90" class="text-black">AOM PART BC (90Q)</option>
                             <option value="DPQ_GTMR_A1_70" class="text-black">DPQ GTMR A1 (70Q)</option>
                             <option value="AOM23JUNE" class="text-black">AOM 23 JUNE</option>
@@ -718,6 +719,7 @@
         // CORE LOGIC 
         // ============================
         var questions = [];
+        var ALL_EXAMS = []; // To store full list of exam options
         var state = {
             idx: 0,
             ans: [],
@@ -755,12 +757,12 @@
         // Helper to determine section info
         function getSectionInfo(index, total) {
             if (total === 175) {
-                if (index < 85) return { key: 'Traffic', name: 'Traffic (max 80 out of 85)' };
+                if (index < 85) return { key: 'Professional', name: 'Professional (max 80 out of 85)' };
                 if (index < 140) return { key: 'GK/Rajabhasha', name: 'GK/Raj (Max 40 out of 55)' };
                 return { key: 'Est/Fin/Acc', name: 'Est/Fin (Max 30 out of 35)' };
             } else if (total === 110) {
-                if (index < 70) return { key: 'Traffic+Rajabhasha', name: 'Traffic+Raj (Max 70 out of 80)' }; // Traffic
-                if (index < 80) return { key: 'Traffic+Rajabhasha', name: 'Traffic+Raj (Max 70 out of 80)' }; // Raj (Combined)
+                if (index < 70) return { key: 'Professional+Rajabhasha', name: 'Professional+Raj (Max 70 out of 80)' }; // Professional
+                if (index < 80) return { key: 'Professional+Rajabhasha', name: 'Professional+Raj (Max 70 out of 80)' }; // Raj (Combined)
                 return { key: 'Est/Fin/Acc', name: 'Est/Fin (No Limit)' };
             }
             return { key: 'General', name: 'General' };
@@ -770,13 +772,13 @@
             state.sectionAttempts = {};
             if (total === 175) {
                 state.sectionLimits = {
-                    'Traffic': 80,
+                    'Professional': 80,
                     'GK/Rajabhasha': 40,
                     'Est/Fin/Acc': 30
                 };
             } else if (total === 110) {
                 state.sectionLimits = {
-                    'Traffic+Rajabhasha': 70
+                    'Professional+Rajabhasha': 70
                 };
             } else {
                 state.sectionLimits = {};
@@ -799,6 +801,7 @@
                     case 'AOM18052025_70': return (typeof AOM18052025_70 !== 'undefined' ? AOM18052025_70 : null);
                     case 'AOM01062025_70': return (typeof AOM01062025_70 !== 'undefined' ? AOM01062025_70 : null);
                     case 'AOM04082024_30': return (typeof AOM04082024_30 !== 'undefined' ? AOM04082024_30 : null);
+                    case 'AEE19102024_30': return (typeof AEE19102024_30 !== 'undefined' ? AEE19102024_30 : null);
                     case 'AOM_PART_BC_90': return (typeof AOM_PART_BC_90 !== 'undefined' ? AOM_PART_BC_90 : null);
                     case 'DPQ_GTMR_A1_70': return (typeof DPQ_GTMR_A1_70 !== 'undefined' ? DPQ_GTMR_A1_70 : null);
                     default: return null;
@@ -851,10 +854,48 @@
                 $('loginCandidateName').textContent = 'John Smith';
                 $('candidatePhotoLogin').src = 'img/user_1.png';
             }
+            updateExamDropdown(u);
+        }
+
+        function updateExamDropdown(u) {
+            const dropdown = $('examPaper');
+            if (!dropdown || ALL_EXAMS.length === 0) return;
+
+            const user = REG_USERS[u];
+            const allowed = user ? user.exams : [];
+            const isAll = allowed && allowed.includes('ALL');
+
+            // Save current selection for later
+            const currentVal = dropdown.value;
+
+            // Clear and rebuild dropdown
+            dropdown.innerHTML = '';
+            
+            ALL_EXAMS.forEach(opt => {
+                const shouldShow = !user || isAll || allowed.includes(opt.value);
+                if (shouldShow) {
+                    const newOpt = document.createElement('option');
+                    newOpt.value = opt.value;
+                    newOpt.className = 'text-black';
+                    newOpt.textContent = opt.text;
+                    dropdown.appendChild(newOpt);
+                }
+            });
+
+            // Restore selection if still available
+            if (Array.from(dropdown.options).some(o => o.value === currentVal)) {
+                dropdown.value = currentVal;
+            }
         }
 
         // Initialize on load if value exists
         window.addEventListener('load', () => {
+            // Store all initial options
+            const dropdown = $('examPaper');
+            if (dropdown) {
+                ALL_EXAMS = Array.from(dropdown.options).map(o => ({ value: o.value, text: o.text }));
+            }
+
             const u = $('username').value;
             if (u) updateCandidateInfo(u);
         });
@@ -976,8 +1017,8 @@
             if (questions.length === 175 || questions.length === 110) {
                 let tabsHtml = '';
                 const sections = questions.length === 175 ?
-                    [{ l: 'Traffic', i: 0 }, { l: 'GK/Raj', i: 85 }, { l: 'Est/Fin', i: 140 }] :
-                    [{ l: 'Traffic', i: 0 }, { l: 'Rajbhasha', i: 70 }, { l: 'Est/Fin', i: 80 }];
+                    [{ l: 'Professional', i: 0 }, { l: 'GK/Raj', i: 85 }, { l: 'Est/Fin', i: 140 }] :
+                    [{ l: 'Professional', i: 0 }, { l: 'Rajbhasha', i: 70 }, { l: 'Est/Fin', i: 80 }];
 
                 sections.forEach(s => {
                     const isActive = state.idx >= s.i && (sections.indexOf(s) === sections.length - 1 || state.idx < sections[sections.indexOf(s) + 1].i);
@@ -1578,9 +1619,9 @@
 
             var sections = [];
             if (questions.length === 175) {
-                sections = [{ l: 'PART A - Traffic', i: 0 }, { l: 'PART B - GK/Raj', i: 85 }, { l: 'PART C - Est/Fin', i: 140 }];
+                sections = [{ l: 'PART A - Professional', i: 0 }, { l: 'PART B - GK/Raj', i: 85 }, { l: 'PART C - Est/Fin', i: 140 }];
             } else if (questions.length === 110) {
-                sections = [{ l: 'PART A - Traffic', i: 0 }, { l: 'PART B - Rajbhasha', i: 70 }, { l: 'PART C - Est/Fin', i: 80 }];
+                sections = [{ l: 'PART A - Professional', i: 0 }, { l: 'PART B - Rajbhasha', i: 70 }, { l: 'PART C - Est/Fin', i: 80 }];
             } else {
                 sections = [{ l: 'PART A', i: 0 }];
             }

@@ -8,12 +8,6 @@ var REG_USERS = {
         photo: "img/MUGAN01.png", 
         exams: ['auto', 'AOM25062023_30'] 
     },
-    "KORSA01": { 
-        password: "sai", 
-        name: "Koruvada D A S Sai", 
-        photo: "img/KORSA01.jpeg", 
-        exams: ['auto', 'AOM25062023_30'] 
-    },
     "BOOVI01": { 
         password: "vinnu", 
         name: "Boorli Vinod Kumar", 
@@ -95,6 +89,21 @@ var REG_USERS = {
             'AOM20112022_30', 'AOM19022023_70', 'AOM05032023_70', 'AOM25062023_30',
             'AOM04052025_70', 'AOM18052025_70', 'AOM01062025_70', 'AOM04082024_30', 'AOM_PART_BC_90'
         ]
-    }
+    },
+      "SCMN1096": { 
+        password: "mmsr1096", 
+        name: "M.M.S.RAO", 
+        photo: "img/SCMN1096.png", 
+        allowPrint: true,
+        allowExplanation: true,
+        exams: ['auto', 'AEE19102024_30'] 
+    },
+       "SCMN1692": { 
+        password: "vr1692", 
+        name: "RAMESH VUPPULURI", 
+        photo: "img/SCMN1692.png", 
+        allowPrint: true,
+        allowExplanation: true,
+        exams: ['auto', 'AEE19102024_30'] 
+    },
 };
-

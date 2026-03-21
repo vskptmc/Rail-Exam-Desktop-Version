@@ -50,7 +50,7 @@ function categorizeQuestionsByCount(questions) {
     if (questions.length === 175) {
         let start = 0;
         const sections = [
-            { topic: 'Traffic', count: 85 },
+            { topic: 'Professional', count: 85 },
             { topic: 'GK/Rajabhasha', count: 55 },
             { topic: 'Est/Fin/Acc', count: 35 }
         ];
@@ -63,7 +63,7 @@ function categorizeQuestionsByCount(questions) {
     } else if (questions.length === 110) {
         let start = 0;
         const sections = [
-            { topic: 'Traffic', count: 70 },
+            { topic: 'Professional', count: 70 },
             { topic: 'Rajabhasha', count: 10 },
             { topic: 'Est/Fin/Acc', count: 30 }
         ];
@@ -80,12 +80,12 @@ function categorizeQuestionsByCount(questions) {
 }
 // Section navigation button labels for 175 and 110 question exams
 const sectionLabels_30 = [
-    { label: 'Technical', key: 'Traffic' },
+    { label: 'Professional', key: 'Professional' },
     { label: 'GK & Rajbhasha', key: 'GK/Rajabhasha' },
     { label: 'Est & Finance', key: 'Est/Fin/Acc' }
 ];
 const sectionLabels_70 = [
-    { label: 'Traffic', key: 'Traffic' },
+    { label: 'Professional', key: 'Professional' },
     { label: 'Rajabhasha', key: 'Rajabhasha' },
     { label: 'Est/Fin/Acc', key: 'Est/Fin/Acc' }
 ];
@@ -137,11 +137,11 @@ function highlightSectionTab(sectionRanges) {
 function jumpToSection(sectionKey) {
     let idx = 0;
     if (questions.length === 175) {
-        if (sectionKey === 'Traffic') idx = 0;
+        if (sectionKey === 'Professional') idx = 0;
         else if (sectionKey === 'GK/Rajabhasha') idx = 85;
         else if (sectionKey === 'Est/Fin/Acc') idx = 140;
     } else if (questions.length === 110) {
-        if (sectionKey === 'Traffic') idx = 0;
+        if (sectionKey === 'Professional') idx = 0;
         else if (sectionKey === 'Rajabhasha') idx = 70;
         else if (sectionKey === 'Est/Fin/Acc') idx = 80;
     } else {
@@ -175,7 +175,7 @@ let userAnswers = []; // User's selected answers
 let timeLeft; // Time left in seconds
 
 // ***** NEW: Section attempt limits state *****
-let sectionAttemptLimits = {}; // { 'Traffic': 80, 'GK/Rajabhasha': 30, 'Est/Fin/Acc': 30 } etc.
+let sectionAttemptLimits = {}; // { 'Professional': 80, 'GK/Rajabhasha': 30, 'Est/Fin/Acc': 30 } etc.
 let sectionAttempts = {};      // Running counts per (combined) section
 
 // DOM element references
@@ -265,14 +265,14 @@ function initSectionLimits(totalQuestions) {
     // Set caps as per your requirement
     if (totalQuestions === 175) {
         sectionAttemptLimits = {
-            'Traffic': 80,
+            'Professional': 80,
             'GK/Rajabhasha': 40,
             'Est/Fin/Acc': 30
         };
     } else if (totalQuestions === 110) {
-        // Combined cap for Traffic + Rajabhasha = 70
+        // Combined cap for Professional + Rajabhasha = 70
         sectionAttemptLimits = {
-            'Traffic+Rajabhasha': 70,
+            'Professional+Rajabhasha': 70,
             // Est/Fin/Acc has no special cap (all 30 can be answered)
         };
     } else {
@@ -283,10 +283,10 @@ function initSectionLimits(totalQuestions) {
 
 function getSectionKey(question) {
     if (questions.length === 175) {
-        return question.topic; // 'Traffic' | 'GK/Rajabhasha' | 'Est/Fin/Acc'
+        return question.topic; // 'Professional' | 'GK/Rajabhasha' | 'Est/Fin/Acc'
     } else if (questions.length === 110) {
-        if (question.topic === 'Traffic' || question.topic === 'Rajabhasha') {
-            return 'Traffic+Rajabhasha';
+        if (question.topic === 'Professional' || question.topic === 'Rajabhasha') {
+            return 'Professional+Rajabhasha';
         }
         return question.topic; // 'Est/Fin/Acc'
     }
@@ -621,7 +621,7 @@ function submitExam(event) {
     let negative = 0;
 
     // Track per-section stats
-    let sectionStats = {}; // { 'Traffic': {correct, wrong, attempted}, ... }
+    let sectionStats = {}; // { 'Professional': {correct, wrong, attempted}, ... }
 
     for (let i = 0; i < questions.length; i++) {
         if (userAnswers[i] !== null) {
