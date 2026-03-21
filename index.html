@@ -888,6 +888,66 @@
             }
         }
 
+        function saveExamSession() {
+            if (!state || state.tid === null) return;
+            const sessionData = {
+                u: $('username').value,
+                p: $('examPaper').value,
+                ans: state.ans,
+                time: state.time,
+                idx: state.idx,
+                mk: state.mk,
+                vis: state.vis,
+                ts: Date.now()
+            };
+            localStorage.setItem('exam_session', JSON.stringify(sessionData));
+        }
+
+        function clearExamSession() {
+            localStorage.removeItem('exam_session');
+        }
+
+        function loadExamSession() {
+            try {
+                const data = localStorage.getItem('exam_session');
+                if (!data) return;
+                const s = JSON.parse(data);
+                if (!s || s.time <= 0) { clearExamSession(); return; }
+
+                if (!REG_USERS[s.u]) { clearExamSession(); return; }
+                const user = REG_USERS[s.u];
+
+                $('username').value = s.u;
+                updateCandidateInfo(s.u);
+                $('examPaper').value = s.p;
+
+                if (!loadQuestionSet(s.p)) { clearExamSession(); return; }
+
+                state.ans = s.ans;
+                state.time = s.time;
+                state.idx = s.idx;
+                state.mk = s.mk || Array(questions.length).fill(false);
+                state.vis = s.vis || Array(questions.length).fill(false);
+                initSectionLimits(questions.length);
+
+                $('loginPage').classList.add('hidden');
+                $('instructionsPage').classList.add('hidden');
+                $('examPage').classList.remove('hidden');
+                $('examPage').classList.add('flex');
+
+                if ($('candidateName')) $('candidateName').textContent = user.name;
+                if ($('profileName')) $('profileName').textContent = user.name;
+                if ($('examPaperName')) $('examPaperName').textContent = "Paper: " + $('examPaper').options[$('examPaper').selectedIndex].text;
+                if ($('examPaperNameTab')) $('examPaperNameTab').textContent = $('examPaper').options[$('examPaper').selectedIndex].text;
+
+                startTimer();
+                renderQ();
+                renderPal();
+                renderSectionTabs();
+                console.log("Session restored successfully.");
+            } catch (e) { console.error("Session restore failed", e); clearExamSession(); }
+        }
+
         // Initialize on load if value exists
         window.addEventListener('load', () => {
             // Store all initial options
@@ -898,6 +958,9 @@
 
             const u = $('username').value;
             if (u) updateCandidateInfo(u);
+
+            // AUTO-RESTORE session
+            loadExamSession();
         });
 
         $('username').onblur = function () { updateCandidateInfo(this.value); };
@@ -1010,6 +1073,7 @@
             renderPal();
             startTimer();
             renderSectionTabs();
+            saveExamSession();
         }
 
         function renderSectionTabs() {
@@ -1050,6 +1114,7 @@
                 if ($('timer')) $('timer').innerHTML = `<span class="text-[12px] font-normal text-[#666]">Time Left :</span> ${m.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`;
 
                 if (state.time <= 0) finishExam();
+                if (state.time % 10 === 0) saveExamSession();
             }, 1000);
         }
 
@@ -1153,6 +1218,7 @@
                 calculateSectionAttempts(); // Recalc to be safe
                 renderQ();
                 renderPal();
+                saveExamSession();
                 return;
             }
 
@@ -1166,6 +1232,7 @@
             calculateSectionAttempts();
             renderQ();
             renderPal();
+            saveExamSession();
         }
 
         function renderPal() {
@@ -1234,6 +1301,7 @@
 
         function jumpTo(i) {
             state.idx = i; state.vis[i] = true; renderQ(); renderPal();
+            saveExamSession();
         }
 
         window.saveNext = () => {
@@ -1243,6 +1311,7 @@
                 state.vis[state.idx] = true;
                 renderQ();
                 renderPal();
+                saveExamSession();
             } else {
                 renderPal();
                 window.submitPrompt();
@@ -1256,6 +1325,7 @@
                 state.vis[state.idx] = true;
                 renderQ();
                 renderPal();
+                saveExamSession();
             } else {
                 renderPal();
                 window.submitPrompt();
@@ -1267,6 +1337,7 @@
             calculateSectionAttempts();
             renderQ();
             renderPal();
+            saveExamSession();
         };
 
         window.submitPrompt = () => {
@@ -1288,6 +1359,7 @@
 
         function finishExam() {
             clearInterval(state.tid);
+            clearExamSession();
             $('examPage').classList.add('hidden');
             $('examPage').classList.remove('flex');
             $('resultModal').classList.remove('hidden');
