@@ -107,7 +107,7 @@ var REG_USERS = {
         exams: ['auto', 'AEE19102024_30'] 
     },
      "SCMN1992": { 
-        password: mdn1992", 
+        password: "mdn1992", 
         name: "M DURUGU NAIDU", 
         photo: "img/SCMN1992.png", 
         allowPrint: true,
