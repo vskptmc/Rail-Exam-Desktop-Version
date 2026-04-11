@@ -106,12 +106,16 @@ var REG_USERS = {
         allowExplanation: true,
         exams: ['auto', 'AEE19102024_30'] 
     },
-     "SCMN1992": { 
-        password: "mdn1992", 
-        name: "M DURUGU NAIDU", 
-        photo: "img/SCMN1992.png", 
-        allowPrint: true,
-        allowExplanation: true,
-        exams: ['auto', 'AEE19102024_30'] 
+    "SCMN7229": { 
+        password: "surata", 
+        name: "SANTHOSH KUMAR SURATA", 
+        photo: "img/surata.jpeg", 
+        exams: ['auto', 'AOM25062023_30'] 
+    },
+    "SCMN7227": { 
+        password: "vhari", 
+        name: "HARIBABU VANDANA", 
+        photo: "img/vhari.png", 
+        exams: ['auto', 'AOM25062023_30'] 
     },
 };

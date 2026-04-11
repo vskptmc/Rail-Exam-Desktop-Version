@@ -248,28 +248,35 @@
                     <div class="text-sm font-semibold text-white">Candidate Name :</div>
                     <div class="text-[#fff200] font-[Arial,Helvetica,sans-serif] text-[34px] leading-none my-1 w-full truncate ml-[5px] text-right"
                         id="loginCandidateName">John Smith</div>
-                    <div class="flex items-center gap-2 mt-1">
+                    <div class="flex items-center gap-2 mt-1 relative">
                         <span class="text-sm font-semibold text-white">Subject :</span>
-                        <select id="examPaper"
-                            class="bg-transparent text-[#ffff00] text-sm px-2 p-0 border-none outline-none appearance-none cursor-pointer font-bold text-left focus:ring-0">
-                            <option value="AOM20112022_30" class="text-black">AOM 20/11/2022 (30%)</option>
-                            <option value="AOM19022023_70" class="text-black">AOM 19/02/2023 (70%)</option>
-                            <option value="AOM05032023_70" class="text-black">AOM 05/03/2023 (70%)</option>
-                            <option value="AOM25062023_30" class="text-black">AOM 25/06/2023 (30%)</option>
-                            <option value="AOM04052025_70" class="text-black">AOM 04/05/2025 (70%)</option>
-                            <option value="AOM18052025_70" class="text-black">AOM 18/05/2025 (70%)</option>
-                            <option value="AOM01062025_70" class="text-black">AOM 01/06/2025 (70%)</option>
-                            <option value="AOM04082024_30" class="text-black">AOM 04/08/2024 (30%)</option>
-                            <option value="AEE19102024_30" class="text-black">AEE 19/10/2024 (30%)</option>
-                            <option value="AOM_PART_BC_90" class="text-black">AOM PART BC (90Q)</option>
-                            <option value="DPQ_GTMR_A1_70" class="text-black">DPQ GTMR A1 (70Q)</option>
-                            <option value="AOM23JUNE" class="text-black">AOM 23 JUNE</option>
-                            <option value="generalSafetyRules" class="text-black">General Safety Rules</option>
-                            <option value="accidentManual" class="text-black">Accident Manual</option>
-                            <option value="autoQuestions" class="text-black">Auto Questions</option>
-                            <option value="freeQuestions" class="text-black">Free Questions</option>
+                        <div class="relative inline-block">
+                            <div id="examPaperDisplay"
+                                class="bg-transparent text-[#ffff00] text-sm px-2 p-0 font-bold text-left pointer-events-none whitespace-nowrap">
+                                AOM 20/11/2022 (30%)
+                            </div>
+                            <select id="examPaper" class="absolute inset-0 w-full h-full opacity-0 cursor-pointer"
+                                style="color-scheme: light;"
+                                onchange="document.getElementById('examPaperDisplay').textContent = this.options[this.selectedIndex].text;">
+                                <option value="AOM20112022_30" class="text-black">AOM 20/11/2022 (30%)</option>
+                                <option value="AOM19022023_70" class="text-black">AOM 19/02/2023 (70%)</option>
+                                <option value="AOM05032023_70" class="text-black">AOM 05/03/2023 (70%)</option>
+                                <option value="AOM25062023_30" class="text-black">AOM 25/06/2023 (30%)</option>
+                                <option value="AOM04052025_70" class="text-black">AOM 04/05/2025 (70%)</option>
+                                <option value="AOM18052025_70" class="text-black">AOM 18/05/2025 (70%)</option>
+                                <option value="AOM01062025_70" class="text-black">AOM 01/06/2025 (70%)</option>
+                                <option value="AOM04082024_30" class="text-black">AOM 04/08/2024 (30%)</option>
+                                <option value="AEE19102024_30" class="text-black">AEE 19/10/2024 (30%)</option>
+                                <option value="AOM_PART_BC_90" class="text-black">AOM PART BC (90Q)</option>
+                                <option value="DPQ_GTMR_A1_70" class="text-black">DPQ GTMR A1 (70Q)</option>
+                                <option value="AOM23JUNE" class="text-black">AOM 23 JUNE</option>
+                                <option value="generalSafetyRules" class="text-black">General Safety Rules</option>
+                                <option value="accidentManual" class="text-black">Accident Manual</option>
+                                <option value="autoQuestions" class="text-black">Auto Questions</option>
+                                <option value="freeQuestions" class="text-black">Free Questions</option>
 
-                        </select>
+                            </select>
+                        </div>
                     </div>
                 </div>
                 <div
@@ -650,19 +657,19 @@
         class="fixed inset-0 z-50 bg-black/50 backdrop-blur-sm hidden flex items-center justify-center p-4">
         <div
             class="bg-white rounded-2xl shadow-2xl max-w-4xl w-full text-center overflow-hidden animate-fade-in transform scale-100 transition-all flex flex-col max-h-[90vh]">
-            <div class="bg-rail-primary p-6 text-white relative overflow-hidden shrink-0">
+            <div class="bg-rail-primary p-5 text-white relative overflow-hidden shrink-0">
                 <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-yellow-400 to-red-500"></div>
                 <h1 class="text-3xl font-bold mb-1">Result Summary</h1>
                 <p class="text-blue-200 text-sm uppercase font-bold tracking-widest">Departmental Examination</p>
             </div>
 
-            <div class="p-6 overflow-y-auto result-scroll">
-                <div class="flex justify-center items-baseline gap-2 mb-8">
+            <div class="p-5 overflow-y-auto result-scroll">
+                <div class="flex justify-center items-baseline gap-2 mb-7">
                     <span class="text-6xl font-black text-rail-primary drop-shadow-sm" id="finalScore">0</span>
                     <span class="text-2xl text-gray-400 font-light">/ <span id="maxScore">0</span></span>
                 </div>
 
-                <div class="grid grid-cols-3 gap-4 mb-8">
+                <div class="grid grid-cols-3 gap-4 mb-7">
                     <div class="bg-green-50 p-4 rounded-xl text-green-700 font-bold border border-green-200 shadow-sm">
                         <span class="text-3xl block mb-1" id="rCorrect">0</span>
                         <span class="text-[10px] uppercase tracking-wider text-green-600">Correct</span>
@@ -678,7 +685,7 @@
                 </div>
 
                 <!-- Section-wise Breakdown Section -->
-                <div id="sectionBreakdownContainer" class="mb-8">
+                <div id="sectionBreakdownContainer" class="mb-7">
                 </div>
 
                 <!-- Detailed Analysis Section -->
@@ -719,7 +726,6 @@
         // CORE LOGIC 
         // ============================
         var questions = [];
-        var ALL_EXAMS = []; // To store full list of exam options
         var state = {
             idx: 0,
             ans: [],
@@ -757,12 +763,12 @@
         // Helper to determine section info
         function getSectionInfo(index, total) {
             if (total === 175) {
-                if (index < 85) return { key: 'Professional', name: 'Professional (max 80 out of 85)' };
+                if (index < 85) return { key: 'Traffic', name: 'Traffic (max 80 out of 85)' };
                 if (index < 140) return { key: 'GK/Rajabhasha', name: 'GK/Raj (Max 40 out of 55)' };
                 return { key: 'Est/Fin/Acc', name: 'Est/Fin (Max 30 out of 35)' };
             } else if (total === 110) {
-                if (index < 70) return { key: 'Professional+Rajabhasha', name: 'Professional+Raj (Max 70 out of 80)' }; // Professional
-                if (index < 80) return { key: 'Professional+Rajabhasha', name: 'Professional+Raj (Max 70 out of 80)' }; // Raj (Combined)
+                if (index < 70) return { key: 'Traffic+Rajabhasha', name: 'Traffic+Raj (Max 70 out of 80)' }; // Traffic
+                if (index < 80) return { key: 'Traffic+Rajabhasha', name: 'Traffic+Raj (Max 70 out of 80)' }; // Raj (Combined)
                 return { key: 'Est/Fin/Acc', name: 'Est/Fin (No Limit)' };
             }
             return { key: 'General', name: 'General' };
@@ -772,13 +778,13 @@
             state.sectionAttempts = {};
             if (total === 175) {
                 state.sectionLimits = {
-                    'Professional': 80,
+                    'Traffic': 80,
                     'GK/Rajabhasha': 40,
                     'Est/Fin/Acc': 30
                 };
             } else if (total === 110) {
                 state.sectionLimits = {
-                    'Professional+Rajabhasha': 70
+                    'Traffic+Rajabhasha': 70
                 };
             } else {
                 state.sectionLimits = {};
@@ -787,26 +793,32 @@
 
         function getVariableByName(name) {
             try {
-                switch (name) {
-                    case 'AOM23JUNE': return (typeof AOM23JUNE !== 'undefined' ? AOM23JUNE : null);
-                    case 'generalSafetyRules': return (typeof generalSafetyRules !== 'undefined' ? generalSafetyRules : null);
-                    case 'accidentManual': return (typeof accidentManual !== 'undefined' ? accidentManual : null);
-                    case 'autoQuestions': return (typeof autoQuestions !== 'undefined' ? autoQuestions : null);
-                    case 'freeQuestions': return (typeof freeQuestions !== 'undefined' ? freeQuestions : null);
-                    case 'AOM20112022_30': return (typeof AOM20112022_30 !== 'undefined' ? AOM20112022_30 : null);
-                    case 'AOM19022023_70': return (typeof AOM19022023_70 !== 'undefined' ? AOM19022023_70 : null);
-                    case 'AOM05032023_70': return (typeof AOM05032023_70 !== 'undefined' ? AOM05032023_70 : null);
-                    case 'AOM25062023_30': return (typeof AOM25062023_30 !== 'undefined' ? AOM25062023_30 : null);
-                    case 'AOM04052025_70': return (typeof AOM04052025_70 !== 'undefined' ? AOM04052025_70 : null);
-                    case 'AOM18052025_70': return (typeof AOM18052025_70 !== 'undefined' ? AOM18052025_70 : null);
-                    case 'AOM01062025_70': return (typeof AOM01062025_70 !== 'undefined' ? AOM01062025_70 : null);
-                    case 'AOM04082024_30': return (typeof AOM04082024_30 !== 'undefined' ? AOM04082024_30 : null);
-                    case 'AEE19102024_30': return (typeof AEE19102024_30 !== 'undefined' ? AEE19102024_30 : null);
-                    case 'AOM_PART_BC_90': return (typeof AOM_PART_BC_90 !== 'undefined' ? AOM_PART_BC_90 : null);
-                    case 'DPQ_GTMR_A1_70': return (typeof DPQ_GTMR_A1_70 !== 'undefined' ? DPQ_GTMR_A1_70 : null);
-                    default: return null;
+                if (window[name] && Array.isArray(window[name])) {
+                    if (window[name].length === 0) alert("Warning: Exam " + name + " is found but the array is empty!");
+                    return window[name];
                 }
-            } catch (e) { return null; }
+                
+                let dynamicVal = null;
+                try {
+                    dynamicVal = eval(name);
+                } catch(evalErr) {
+                    try {
+                        const fn = new Function("return " + name + ";");
+                        dynamicVal = fn();
+                    } catch(fnErr) {
+                        alert("CRITICAL DEV ERROR: The browser cannot find the variable '" + name + "' in data.js. Ensure it is spelled exactly as '" + name + "' and does not contain syntax errors. \n\nJS Error: " + fnErr.message);
+                        return null;
+                    }
+                }
+                
+                if (dynamicVal && Array.isArray(dynamicVal)) {
+                    if (dynamicVal.length === 0) alert("Warning: Exam " + name + " is found dynamically, but the array is empty!");
+                    return dynamicVal;
+                }
+            } catch (e) {
+                return null;
+            }
+            return null;
         }
 
         function checkData() {
@@ -835,6 +847,60 @@
             return true;
         }
 
+        let ALL_EXAMS_CACHE = [];
+        window.addEventListener('DOMContentLoaded', () => {
+            const sel = document.getElementById('examPaper');
+            if (sel) {
+                ALL_EXAMS_CACHE = Array.from(sel.options).map(o => ({ value: o.value, text: o.text, className: o.className }));
+            }
+        });
+
+        function updateExamDropdown(u) {
+            const dropdown = document.getElementById('examPaper');
+            if (!dropdown || ALL_EXAMS_CACHE.length === 0) return;
+
+            const user = REG_USERS[u];
+            const allowed = user ? (user.exams || []) : [];
+            const isAll = allowed.includes('ALL');
+
+            const currentVal = dropdown.value;
+            dropdown.innerHTML = '';
+
+            ALL_EXAMS_CACHE.forEach(opt => {
+                const isStrictMatch = allowed.includes(opt.value);
+                const isAutoMatch = allowed.includes('auto') && opt.value === 'autoQuestions';
+                if (!user || isAll || isStrictMatch || isAutoMatch) {
+                    const o = document.createElement('option');
+                    o.value = opt.value; o.text = opt.text; o.className = opt.className;
+                    dropdown.appendChild(o);
+                }
+            });
+
+            // Dynamically add exams assigned to user that are NOT in the HTML hardcoded list
+            allowed.forEach(examCode => {
+                if (examCode !== 'ALL' && examCode !== 'auto') {
+                    if (!ALL_EXAMS_CACHE.some(opt => opt.value === examCode)) {
+                        const o = document.createElement('option');
+                        o.value = examCode;
+                        o.text = examCode.replace(/_/g, ' ');
+                        o.className = 'text-black';
+                        dropdown.appendChild(o);
+                    }
+                }
+            });
+
+            if (Array.from(dropdown.options).some(o => o.value === currentVal)) {
+                dropdown.value = currentVal;
+            }
+
+            const display = document.getElementById('examPaperDisplay');
+            if (display && dropdown.options.length > 0) {
+                display.textContent = dropdown.options[dropdown.selectedIndex].text;
+            } else if (display) {
+                display.textContent = "No Exams Assigned";
+            }
+        }
+
         function updateCandidateInfo(u) {
             u = u ? u.trim() : '';
 
@@ -857,110 +923,10 @@
             updateExamDropdown(u);
         }
 
-        function updateExamDropdown(u) {
-            const dropdown = $('examPaper');
-            if (!dropdown || ALL_EXAMS.length === 0) return;
-
-            const user = REG_USERS[u];
-            const allowed = user ? user.exams : [];
-            const isAll = allowed && allowed.includes('ALL');
-
-            // Save current selection for later
-            const currentVal = dropdown.value;
-
-            // Clear and rebuild dropdown
-            dropdown.innerHTML = '';
-            
-            ALL_EXAMS.forEach(opt => {
-                const shouldShow = !user || isAll || allowed.includes(opt.value);
-                if (shouldShow) {
-                    const newOpt = document.createElement('option');
-                    newOpt.value = opt.value;
-                    newOpt.className = 'text-black';
-                    newOpt.textContent = opt.text;
-                    dropdown.appendChild(newOpt);
-                }
-            });
-
-            // Restore selection if still available
-            if (Array.from(dropdown.options).some(o => o.value === currentVal)) {
-                dropdown.value = currentVal;
-            }
-        }
-
-        function saveExamSession() {
-            if (!state || state.tid === null) return;
-            const sessionData = {
-                u: $('username').value,
-                p: $('examPaper').value,
-                ans: state.ans,
-                time: state.time,
-                idx: state.idx,
-                mk: state.mk,
-                vis: state.vis,
-                ts: Date.now()
-            };
-            localStorage.setItem('exam_session', JSON.stringify(sessionData));
-        }
-
-        function clearExamSession() {
-            localStorage.removeItem('exam_session');
-        }
-
-        function loadExamSession() {
-            try {
-                const data = localStorage.getItem('exam_session');
-                if (!data) return;
-                const s = JSON.parse(data);
-                if (!s || s.time <= 0) { clearExamSession(); return; }
-
-                if (!REG_USERS[s.u]) { clearExamSession(); return; }
-                const user = REG_USERS[s.u];
-
-                $('username').value = s.u;
-                updateCandidateInfo(s.u);
-                $('examPaper').value = s.p;
-
-                if (!loadQuestionSet(s.p)) { clearExamSession(); return; }
-
-                state.ans = s.ans;
-                state.time = s.time;
-                state.idx = s.idx;
-                state.mk = s.mk || Array(questions.length).fill(false);
-                state.vis = s.vis || Array(questions.length).fill(false);
-                initSectionLimits(questions.length);
-
-                $('loginPage').classList.add('hidden');
-                $('instructionsPage').classList.add('hidden');
-                $('examPage').classList.remove('hidden');
-                $('examPage').classList.add('flex');
-
-                if ($('candidateName')) $('candidateName').textContent = user.name;
-                if ($('profileName')) $('profileName').textContent = user.name;
-                if ($('examPaperName')) $('examPaperName').textContent = "Paper: " + $('examPaper').options[$('examPaper').selectedIndex].text;
-                if ($('examPaperNameTab')) $('examPaperNameTab').textContent = $('examPaper').options[$('examPaper').selectedIndex].text;
-
-                startTimer();
-                renderQ();
-                renderPal();
-                renderSectionTabs();
-                console.log("Session restored successfully.");
-            } catch (e) { console.error("Session restore failed", e); clearExamSession(); }
-        }
-
         // Initialize on load if value exists
         window.addEventListener('load', () => {
-            // Store all initial options
-            const dropdown = $('examPaper');
-            if (dropdown) {
-                ALL_EXAMS = Array.from(dropdown.options).map(o => ({ value: o.value, text: o.text }));
-            }
-
             const u = $('username').value;
             if (u) updateCandidateInfo(u);
-
-            // AUTO-RESTORE session
-            loadExamSession();
         });
 
         $('username').onblur = function () { updateCandidateInfo(this.value); };
@@ -1073,7 +1039,6 @@
             renderPal();
             startTimer();
             renderSectionTabs();
-            saveExamSession();
         }
 
         function renderSectionTabs() {
@@ -1081,8 +1046,8 @@
             if (questions.length === 175 || questions.length === 110) {
                 let tabsHtml = '';
                 const sections = questions.length === 175 ?
-                    [{ l: 'Professional', i: 0 }, { l: 'GK/Raj', i: 85 }, { l: 'Est/Fin', i: 140 }] :
-                    [{ l: 'Professional', i: 0 }, { l: 'Rajbhasha', i: 70 }, { l: 'Est/Fin', i: 80 }];
+                    [{ l: 'Traffic', i: 0 }, { l: 'GK/Raj', i: 85 }, { l: 'Est/Fin', i: 140 }] :
+                    [{ l: 'Traffic', i: 0 }, { l: 'Rajbhasha', i: 70 }, { l: 'Est/Fin', i: 80 }];
 
                 sections.forEach(s => {
                     const isActive = state.idx >= s.i && (sections.indexOf(s) === sections.length - 1 || state.idx < sections[sections.indexOf(s) + 1].i);
@@ -1114,7 +1079,6 @@
                 if ($('timer')) $('timer').innerHTML = `<span class="text-[12px] font-normal text-[#666]">Time Left :</span> ${m.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`;
 
                 if (state.time <= 0) finishExam();
-                if (state.time % 10 === 0) saveExamSession();
             }, 1000);
         }
 
@@ -1218,7 +1182,6 @@
                 calculateSectionAttempts(); // Recalc to be safe
                 renderQ();
                 renderPal();
-                saveExamSession();
                 return;
             }
 
@@ -1232,7 +1195,6 @@
             calculateSectionAttempts();
             renderQ();
             renderPal();
-            saveExamSession();
         }
 
         function renderPal() {
@@ -1301,7 +1263,6 @@
 
         function jumpTo(i) {
             state.idx = i; state.vis[i] = true; renderQ(); renderPal();
-            saveExamSession();
         }
 
         window.saveNext = () => {
@@ -1311,7 +1272,6 @@
                 state.vis[state.idx] = true;
                 renderQ();
                 renderPal();
-                saveExamSession();
             } else {
                 renderPal();
                 window.submitPrompt();
@@ -1325,7 +1285,6 @@
                 state.vis[state.idx] = true;
                 renderQ();
                 renderPal();
-                saveExamSession();
             } else {
                 renderPal();
                 window.submitPrompt();
@@ -1337,7 +1296,6 @@
             calculateSectionAttempts();
             renderQ();
             renderPal();
-            saveExamSession();
         };
 
         window.submitPrompt = () => {
@@ -1359,7 +1317,6 @@
 
         function finishExam() {
             clearInterval(state.tid);
-            clearExamSession();
             $('examPage').classList.add('hidden');
             $('examPage').classList.remove('flex');
             $('resultModal').classList.remove('hidden');
@@ -1691,9 +1648,9 @@
 
             var sections = [];
             if (questions.length === 175) {
-                sections = [{ l: 'PART A - Professional', i: 0 }, { l: 'PART B - GK/Raj', i: 85 }, { l: 'PART C - Est/Fin', i: 140 }];
+                sections = [{ l: 'PART A - Traffic', i: 0 }, { l: 'PART B - GK/Raj', i: 85 }, { l: 'PART C - Est/Fin', i: 140 }];
             } else if (questions.length === 110) {
-                sections = [{ l: 'PART A - Professional', i: 0 }, { l: 'PART B - Rajbhasha', i: 70 }, { l: 'PART C - Est/Fin', i: 80 }];
+                sections = [{ l: 'PART A - Traffic', i: 0 }, { l: 'PART B - Rajbhasha', i: 70 }, { l: 'PART C - Est/Fin', i: 80 }];
             } else {
                 sections = [{ l: 'PART A', i: 0 }];
             }
