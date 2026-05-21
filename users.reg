@@ -118,4 +118,10 @@ var REG_USERS = {
         photo: "img/vhari.png", 
         exams: ['auto', 'AOM25062023_30'] 
     },
+    "BONKI01": { 
+        password: "kiran", 
+        name: "KIRAN KUMAR BONI", 
+        photo: "img/BONKI01.png", 
+        exams: ['auto', 'AOM25062023_30'] 
+    },
 };
