@@ -124,4 +124,11 @@ var REG_USERS = {
         photo: "img/BONKI01.png", 
         exams: ['auto', 'AOM25062023_30'] 
     },
+"MIPM7735": { 
+        password: "Ss@1990", 
+        name: "SHRADHA SUMAN", 
+        photo: "img/MIPM7735.png", 
+        exams: ['auto', 'AOM25062023_30'] 
+    },
+
 };
