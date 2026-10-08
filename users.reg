@@ -132,5 +132,12 @@ var REG_USERS = {
         allowExplanation: true,
         exams: ['auto', 'accidentManual','AOM25062023_30'] 
     },
-
+      "RJY7590": { 
+        password: "05061992", 
+        name: "P VENU GOPALA SWAMY NAIDU", 
+        photo: "img/IR.png", 
+        allowPrint: true,
+        allowExplanation: true,
+        exams: ['auto', 'accidentManual','AOM25062023_30'] 
+    },
 };
